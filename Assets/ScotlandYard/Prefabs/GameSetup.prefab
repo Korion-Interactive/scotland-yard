@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: GameSetup
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.51894379, y: 35.5653839, z: 35.7910156}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5de75117384dbf4383d8ef4b708aa0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RoundTime: 30
+  Seconds30: 30
+  Seconds45: 45
+  Seconds60: 60
+  Seconds90: 90
+  SecondsX: Infinity
+  PrefabMrX: {fileID: 100002, guid: 201ae68d54a4c614a85c2c4e626517c1, type: 2}
+  PrefabDetective: {fileID: 100000, guid: 55440888d501410468ba900e5bca694b, type: 2}
+  StationFont: {fileID: 12800000, guid: 70e1d94f4bb358c478527940b0b4296e, type: 3}
+  MrXSetup:
+    Controller: 2
+    Difficulty: 1
+    StartAtStationId: 0
+    DisplayName: 'Mr. X '
+    PlayerId: 0
+    Color: 0
+  DetectiveSetups:
+  - Controller: 2
+    Difficulty: 1
+    StartAtStationId: 0
+    DisplayName: 'Detective '
+    PlayerId: 1
+    Color: 2
+  - Controller: 2
+    Difficulty: 1
+    StartAtStationId: 0
+    DisplayName: 'Detective '
+    PlayerId: 2
+    Color: 1
+  - Controller: 2
+    Difficulty: 1
+    StartAtStationId: 0
+    DisplayName: 'Detective '
+    PlayerId: 3
+    Color: 5
+  - Controller: 2
+    Difficulty: 1
+    StartAtStationId: 0
+    DisplayName: 'Detective '
+    PlayerId: 4
+    Color: 4
+  - Controller: 2
+    Difficulty: 1
+    StartAtStationId: 0
+    DisplayName: 'Detective '
+    PlayerId: 5
+    Color: 3
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

@@ -1,0 +1,17 @@
+{
+    "name": "RavityCore.Tests.PlayMode",
+    "references": [
+        "RavityCore"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [
+    ]
+}

@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: efc00513d45da57429387b93ca2f4b65
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - PopUpWindowPrefab: {fileID: 100018, guid: 05f811a0bbdbe7a4caa24ca01985ecb9, type: 2}
+  - PopUpHeadline: {fileID: 100010, guid: 05f811a0bbdbe7a4caa24ca01985ecb9, type: 2}
+  - PopUpText: {fileID: 100008, guid: 05f811a0bbdbe7a4caa24ca01985ecb9, type: 2}
+  - PopUpButtonYes: {fileID: 100006, guid: 05f811a0bbdbe7a4caa24ca01985ecb9, type: 2}
+  - PopUpButtonNo: {fileID: 100000, guid: 05f811a0bbdbe7a4caa24ca01985ecb9, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

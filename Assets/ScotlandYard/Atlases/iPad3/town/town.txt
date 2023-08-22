@@ -1,0 +1,28 @@
+{"frames": {
+
+"town_left.png":
+{
+	"frame": {"x":2,"y":2,"w":980,"h":922},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":980,"h":922},
+	"sourceSize": {"w":980,"h":922}
+},
+"town_right.png":
+{
+	"frame": {"x":2,"y":926,"w":980,"h":922},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":980,"h":922},
+	"sourceSize": {"w":980,"h":922}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "town.png",
+	"format": "RGBA4444",
+	"size": {"w":1024,"h":2048},
+	"scale": "0.6",
+	"smartupdate": "$TexturePacker:SmartUpdate:1944beca44759eec8fddd3ac2619eff5:5de3998bbb82580af64d0275767f3259:48cacb3e1aee1e57150c7a7ecb4be366$"
+}
+}
