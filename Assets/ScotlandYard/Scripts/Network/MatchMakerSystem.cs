@@ -44,6 +44,7 @@ public class MatchMakerSystem : BaseSystem<ConnectionEvent, GameSetupEvents, Mat
 
     protected override void Start()
     {
+        /*
         if (GSP.Status == null)
         {
             GSP.Init(new SocialStatus(), new BluetoothMultiplayer());
@@ -53,6 +54,7 @@ public class MatchMakerSystem : BaseSystem<ConnectionEvent, GameSetupEvents, Mat
         GSP.DeactivateMultiplayerRT();
 
         base.Start();
+        */
     }
 
     // Called from button click

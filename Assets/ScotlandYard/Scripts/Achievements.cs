@@ -53,6 +53,7 @@ public static class Achievements
         if (HardwareUtils.IsiOS) column = "game_center_id";
         if (HardwareUtils.IsAndroid) column = "google_play_id";
 
+        //KORION TODO: Column is game center or google play ID. This must be changed. Is this even easily possible to use?
         return AppSetup.Instance.AchievementTable[column, lookupId];
     }
 
