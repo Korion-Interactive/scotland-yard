@@ -901,13 +901,16 @@ namespace Sunbow.Util.IO
             else
 #endif
             {
-
+#if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5
+                //TODO KORION
+#else
                 using (FileStream stream = new FileStream(fileName, FileMode.Open))
                 {
                     LoadFromStream(stream, settings);
 
                     stream.Close();
                 }
+#endif
             }
 
             if (cells[cells.Count - 1].Count == 0)
@@ -1055,7 +1058,7 @@ namespace Sunbow.Util.IO
             }
         }
 
-        #endregion 
+#endregion
 
         #region save
         /// <summary>
@@ -1098,6 +1101,8 @@ namespace Sunbow.Util.IO
                     stream.Close();
                 }
             }
+#elif UNITY_SWITCH || UNITY_PS4 || UNITY_PS5
+            //TODO KORION
 #else
             string dir = Path.GetDirectoryName(fileName);
             if (!string.IsNullOrEmpty(dir) && !Directory.Exists(dir))
@@ -1351,7 +1356,7 @@ namespace Sunbow.Util.IO
                 UpdateHeaders(false, false);
             }
         }
-        #endregion // Methods
+#endregion // Methods
 
         public void Clear(bool clearHeaderColumns)
         {

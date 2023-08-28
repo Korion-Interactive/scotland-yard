@@ -120,6 +120,12 @@ public class AppSetup : MonoBehaviour
 
         // Load or create settings table
         string settingsPath = Path.Combine(Application.persistentDataPath, "settings.txt");
+#if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5
+        //TODO KORIOM
+        SettingsTable = new Table(settingsPath, 2, 1);
+        SettingsTable[0, 0] = "id";
+        SettingsTable[1, 0] = "value";
+#else
         if (!File.Exists(settingsPath))
         {
             SettingsTable = new Table(settingsPath, 2, 1);
@@ -130,11 +136,18 @@ public class AppSetup : MonoBehaviour
         {
             SettingsTable = new Table(settingsPath);
         }
+#endif
     }
 
     public void LoadOrCreateStatsTable()
     {
         string statsPath = Path.Combine(Application.persistentDataPath, "stats.txt");
+#if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5
+        //TODO KORIOM
+        StatsTable = new Table(statsPath, 2, 1);
+        StatsTable[0, 0] = "id";
+        StatsTable[1, 0] = "value";
+#else
         if (!File.Exists(statsPath))
         {
             StatsTable = new Table(statsPath, 2, 1);
@@ -145,6 +158,7 @@ public class AppSetup : MonoBehaviour
         {
             StatsTable = new Table(statsPath);
         }
+#endif
     }
 
 
@@ -171,11 +185,13 @@ public class AppSetup : MonoBehaviour
 
     public static bool HasOpenGame()
     {
-        return File.Exists(Globals.LastGameSetupPath) && File.Exists(Globals.LastGameStatePath);
+        return false;//TODO KORION: //File.Exists(Globals.LastGameSetupPath) && File.Exists(Globals.LastGameStatePath);
     }
 
     public void SaveGame()
     {
+        //TODO KORION
+        return;
         string gameSetup = JsonConvert.SerializeObject(GameSetupBehaviour.Instance.Setup);
         SaveData(ref gameSetup, Globals.LastGameSetupPath);
 
@@ -186,6 +202,9 @@ public class AppSetup : MonoBehaviour
 
     void SaveData(ref string data, string filePath)
     {
+#if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5
+        //TODO KORION
+#else
         try
         {
             if (File.Exists(filePath))
@@ -208,6 +227,7 @@ public class AppSetup : MonoBehaviour
             this.LogError($"Error at SaveData(xxx, {filePath})", ex);
             PopupManager.ShowPrompt("error", "something_went_wrong");
         }
+#endif
     }
 
 
@@ -242,6 +262,10 @@ public class AppSetup : MonoBehaviour
 
     private bool TryLoad<T>(string filePath, out T result)
     {
+#if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5
+        //TODO KORION
+        result = default;
+#else
         try
         {
             using (FileStream stream = new FileStream(filePath, FileMode.Open, FileAccess.Read))
@@ -260,12 +284,15 @@ public class AppSetup : MonoBehaviour
             DeleteSavegame();
             return false;
         }
-
+#endif
         return true;
     }
 
     internal void DeleteSavegame()
     {
+#if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5
+        //TODO KORION
+#else
         if (File.Exists(Globals.LastGameSetupPath))
         {
             File.Delete(Globals.LastGameSetupPath);
@@ -275,5 +302,6 @@ public class AppSetup : MonoBehaviour
         {
             File.Delete(Globals.LastGameStatePath);
         }
+#endif
     }
 }
