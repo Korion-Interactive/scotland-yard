@@ -119,13 +119,15 @@ public class AppSetup : MonoBehaviour
         LoadOrCreateStatsTable();
 
         // Load or create settings table
-        string settingsPath = Path.Combine(Application.persistentDataPath, "settings.txt");
+
 #if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5
-        //TODO KORIOM
+        //TODO KORION
+        string settingsPath = "settings.txt";
         SettingsTable = new Table(settingsPath, 2, 1);
         SettingsTable[0, 0] = "id";
         SettingsTable[1, 0] = "value";
 #else
+        string settingsPath = Path.Combine(Application.persistentDataPath, "settings.txt");
         if (!File.Exists(settingsPath))
         {
             SettingsTable = new Table(settingsPath, 2, 1);
@@ -141,13 +143,14 @@ public class AppSetup : MonoBehaviour
 
     public void LoadOrCreateStatsTable()
     {
-        string statsPath = Path.Combine(Application.persistentDataPath, "stats.txt");
 #if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5
-        //TODO KORIOM
+        //TODO KORION
+        string statsPath = "stats.txt";
         StatsTable = new Table(statsPath, 2, 1);
         StatsTable[0, 0] = "id";
         StatsTable[1, 0] = "value";
 #else
+        string statsPath = Path.Combine(Application.persistentDataPath, "stats.txt");
         if (!File.Exists(statsPath))
         {
             StatsTable = new Table(statsPath, 2, 1);

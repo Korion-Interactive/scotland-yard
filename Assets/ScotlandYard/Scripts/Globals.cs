@@ -4,8 +4,12 @@ public static class Globals
 {
 	public static string VersionNumber
 	{
-		get { return Application.version; }
-	}
+#if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5
+        get { return "1.0.0"; }
+#else
+        get { return Application.version; }
+#endif
+    }
 
 	// set _isHumbleBundle to true if it is the Humble Bundle
 	private const bool _isHumbleBundle = false; 
@@ -13,11 +17,11 @@ public static class Globals
 	{
 		get
 		{
-			#if UNITY_ANDROID && GOOGLE_PLAY
+#if UNITY_ANDROID && GOOGLE_PLAY
 				return _isHumbleBundle;
-			#else
+#else
 				return false;
-			#endif
+#endif
 		}
 	}
 
@@ -26,9 +30,13 @@ public static class Globals
     public const string PlayerReady_LeftGame = "Cross";
     public const string PlayerReady_OtherReady = "BlueCheck";
     public const string PlayerReady_SelfReady = "WhiteCheck";
-
+#if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5
+    public static readonly string LastGameStatePath = "gamestate.json";
+    public static readonly string LastGameSetupPath = "gamesetup.json";
+#else
     public static readonly string LastGameStatePath = Application.persistentDataPath + "/gamestate.json";
     public static readonly string LastGameSetupPath = Application.persistentDataPath + "/gamesetup.json";
+#endif
 
     public const int StationCount = 199;
 
