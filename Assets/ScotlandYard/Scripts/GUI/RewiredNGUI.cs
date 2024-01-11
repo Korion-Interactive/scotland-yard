@@ -19,7 +19,6 @@ public class RewiredNGUI : MonoBehaviour
 
     void Start()
     {
-        Even
         UICamera.GetKey = GetKey;
         UICamera.GetKeyDown = GetKeyDown;
         UICamera.GetKeyUp = GetKeyUp;
