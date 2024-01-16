@@ -1,0 +1,33 @@
+Rewired PlayStation 5 Plugin
+
+v4:
+  - Changed required minimum Rewired version to 1.1.47.0.
+  - Added ControllerExtensions.IDualShockGamepadExtension interface to PS5GamepadExtension.
+  - Reduced memory allocation overhead when setting multi-position trigger effects.
+  
+v3:
+  - Added gamepad trigger effect functionality.
+  
+  API Changes:
+    - Added PS5GamepadVibrationMode.Compatible2 value.
+    - Added PS5GamepadTriggerType enum.
+    - Added PS5GamepadTriggerEffectType enum.
+    - Added PS5GamepadTriggerEffectState enum.
+    - Added PS5GamepadTriggerEffectPositionValueSet struct.
+    - Added IPS5GamepadTriggerEffect interface.
+    - Added PS5GamepadTriggerEffectOff struct.
+    - Added PS5GamepadTriggerEffectFeedback struct.
+    - Added PS5GamepadTriggerEffectWeapon struct.
+    - Added PS5GamepadTriggerEffectVibration struct.
+    - Added PS5GamepadTriggerEffectMultiplePositionFeedback struct.
+    - Added PS5GamepadTriggerEffectSlopeFeedback struct.
+    - Added PS5GamepadTriggerEffectMultiplePositionVibration struct.
+    - Added PS5GamepadTriggerEffectStates struct.
+    - Added PS5GamepadExtension.SetTriggerEffect function.
+    - Added PS5GamepadExtension.GetTriggerEffectStates function.
+
+v2:
+  - Fixed compiler issues when using Burst 1.82+.
+
+v1:
+  - Initial release.

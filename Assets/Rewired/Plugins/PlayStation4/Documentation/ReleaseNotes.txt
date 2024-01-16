@@ -1,0 +1,4 @@
+Rewired PlayStation 4 Plugin
+
+v1:
+  - Initial release.

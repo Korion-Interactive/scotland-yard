@@ -1,0 +1,485 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Rewired_PlayStation4_EditorRuntime</name>
+    </assembly>
+    <members>
+        <member name="T:Rewired.Platforms.PS4.Internal.LoggedInUser">
+            <exclude></exclude>
+        </member>
+        <member name="T:Rewired.Platforms.PS4.Internal.ControllerInformation">
+            <exclude></exclude>
+        </member>
+        <member name="T:Rewired.Platforms.PS4.Internal.PadControllerInformation">
+            <exclude></exclude>
+        </member>
+        <member name="T:Rewired.Platforms.PS4.Internal.PadDeviceClassExtendedInformation">
+            <exclude></exclude>
+        </member>
+        <member name="T:Rewired.Platforms.PS4.Internal.PadStickInformation">
+            <exclude></exclude>
+        </member>
+        <member name="T:Rewired.Platforms.PS4.Internal.PadTouchPadInformation">
+            <exclude></exclude>
+        </member>
+        <member name="M:Rewired.Platforms.PS4.Core.Deinitialize">
+            <summary>
+            Deinitializes the platform.
+            This is for internal use only. Do not call this function.
+            </summary>
+        </member>
+        <member name="M:Rewired.Platforms.PS4.PS4InputSource.Joystick.TryGetControllerTypeFromDeviceClass(System.Int32,Rewired.Platforms.PS4.PS4InputSource.Joystick.ControllerType@)">
+            <summary>
+            This exists because I do not know what the device classes are so I have to parse the string and guess.
+            </summary>
+        </member>
+        <member name="T:Rewired.Platforms.PS4.PS4AimExtension">
+            <summary>
+            Allows access to Aim-specific functions.
+            </summary>
+        </member>
+        <member name="M:Rewired.Platforms.PS4.PS4AimExtension.GetVibration(Rewired.Platforms.PS4.PS4AimMotorType)">
+            <summary>
+            Gets vibration level for a specific motor.
+            </summary>
+            <param name="motor">Motor type</param>
+            <returns>Motor level [float: 0.0 - 1.0]</returns>
+        </member>
+        <member name="M:Rewired.Platforms.PS4.PS4AimExtension.SetVibration(Rewired.Platforms.PS4.PS4AimMotorType,System.Single)">
+            <summary>
+            Sets vibration leves on an individual motor.
+            </summary>
+            <param name="motor">Motor type</param>
+            <param name="motorLevel">Motor level [float: 0.0 - 1.0]</param>
+        </member>
+        <member name="M:Rewired.Platforms.PS4.PS4AimExtension.SetVibration(Rewired.Platforms.PS4.PS4AimMotorType,System.Single,System.Boolean)">
+            <summary>
+            Sets vibration level on an individual motor.
+            </summary>
+            <param name="motor">Motor type</param>
+            <param name="motorLevel">Motor level [float: 0.0 - 1.0]</param>
+            <param name="stopOtherMotors">Stop other motors?</param>
+        </member>
+        <member name="M:Rewired.Platforms.PS4.PS4AimExtension.SetVibration(Rewired.Platforms.PS4.PS4AimMotorType,System.Single,System.Single,System.Boolean)">
+            <summary>
+            Sets vibration level on an individual motor.
+            </summary>
+            <param name="motor">Motor type</param>
+            <param name="motorLevel">Motor level [float: 0.0 - 1.0]</param>
+            <param name="duration">Length of time in seconds to activate the motor before it stops. [0 = Infinite]</param>
+            <param name="stopOtherMotors">Stop other motors?</param>
+        </member>
+        <member name="M:Rewired.Platforms.PS4.PS4AimExtension.SetVibration(System.Single,System.Single)">
+            <summary>
+            Sets vibration level for left and right motors.
+            </summary>
+            <param name="strongMotorLevel">float: 0.0 - 1.0</param>
+            <param name="weakMotorLevel">float: 0.0 - 1.0</param>
+        </member>
+        <member name="M:Rewired.Platforms.PS4.PS4AimExtension.SetVibration(System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            Sets vibration level for left and right motors.
+            </summary>
+            <param name="strongMotorLevel">float: 0.0 - 1.0</param>
+            <param name="weakMotorLevel">float: 0.0 - 1.0</param>
+            <param name="strongMotorDuration">Length of time in seconds to activate the left motor before it stops. [0 = Infinite]</param>
+            <param name="weakMotorDuration">Length of time in seconds to activate the right motor before it stops. [0 = Infinite]</param>
+        </member>
+        <member name="T:Rewired.Platforms.PS4.PS4AimMotorType">
+            <summary>
+            PS4 Aim motors. Used for vibration.
+            </summary>
+        </member>
+        <member name="F:Rewired.Platforms.PS4.PS4AimMotorType.StrongMotor">
+            <summary>
+            Strong motor
+            </summary>
+        </member>
+        <member name="F:Rewired.Platforms.PS4.PS4AimMotorType.WeakMotor">
+            <summary>
+            Weak motor
+            </summary>
+        </member>
+        <member name="T:Rewired.Platforms.PS4.PS4ControllerExtension">
+            <summary>
+            Allows access to controller-specific functions.
+            </summary>
+        </member>
+        <member name="P:Rewired.Platforms.PS4.PS4ControllerExtension.deviceHandle">
+            <summary>
+            Gets the PS4 device handle.
+            </summary>
+        </member>
+        <member name="P:Rewired.Platforms.PS4.PS4ControllerExtension.userStatusCode">
+            <summary>
+            Gets the PS4 user status code.
+            </summary>
+        </member>
+        <member name="P:Rewired.Platforms.PS4.PS4ControllerExtension.userIsPrimary">
+            <summary>
+            Is this PS4 user the primary user?
+            </summary>
+        </member>
+        <member name="P:Rewired.Platforms.PS4.PS4ControllerExtension.userId">
+            <summary>
+            Gets the PS4 user id.
+            </summary>
+        </member>
+        <member name="P:Rewired.Platforms.PS4.PS4ControllerExtension.userColor">
+            <summary>
+            Gets the PS4 user color.
+            </summary>
+        </member>
+        <member name="P:Rewired.Platforms.PS4.PS4ControllerExtension.userColorId">
+            <summary>
+            Gets the PS4 user color id.
+            </summary>
+        </member>
+        <member name="P:Rewired.Platforms.PS4.PS4ControllerExtension.userName">
+            <summary>
+            Gets the PS4 user name.
+            </summary>
+        </member>
+        <member name="P:Rewired.Platforms.PS4.PS4ControllerExtension.vibrationMotorCount">
+            <summary>
+            The number of vibration motors in this controller.
+            </summary>
+        </member>
+        <member name="M:Rewired.Platforms.PS4.PS4ControllerExtension.SetVibration(System.Int32,System.Single)">
+            <summary>
+            Sets vibration level for a motor at a specified index.
+            </summary>
+            <param name="motorIndex">Motor index</param>
+            <param name="motorLevel">Motor level [float: 0.0 - 1.0]</param>
+        </member>
+        <member name="M:Rewired.Platforms.PS4.PS4ControllerExtension.SetVibration(System.Int32,System.Single,System.Single)">
+            <summary>
+            Sets vibration level for a motor at a specified index with a timeout.
+            </summary>
+            <param name="motorIndex">Motor index</param>
+            <param name="motorLevel">Motor level [float: 0.0 - 1.0]</param>
+            <param name="duration">Length of time in seconds to activate the motor before it stops. [0 = Infinite]</param>
+        </member>
+        <member name="M:Rewired.Platforms.PS4.PS4ControllerExtension.SetVibration(System.Int32,System.Single,System.Boolean)">
+            <summary>
+            Sets vibration level for a motor at a specified index.
+            </summary>
+            <param name="motorIndex">Motor index</param>
+            <param name="motorLevel">Motor level [float: 0.0 - 1.0]</param>
+            <param name="stopOtherMotors">Stop other motors?</param>
+        </member>
+        <member name="M:Rewired.Platforms.PS4.PS4ControllerExtension.SetVibration(System.Int32,System.Single,System.Single,System.Boolean)">
+            <summary>
+            Sets vibration level for a motor at a specified index with a timeout.
+            </summary>
+            <param name="motorIndex">Motor index</param>
+            <param name="motorLevel">Motor level [float: 0.0 - 1.0]</param>
+            <param name="duration">Length of time in seconds to activate the motor before it stops. [0 = Infinite]</param>
+            <param name="stopOtherMotors">Stop other motors?</param>
+        </member>
+        <member name="M:Rewired.Platforms.PS4.PS4ControllerExtension.GetVibration(System.Int32)">
+            <summary>
+            Gets vibration level for a motor at a specified index.
+            </summary>
+            <param name="motorIndex">Motor index</param>
+            <returns>Motor level [float: 0.0 - 1.0]</returns>
+        </member>
+        <member name="M:Rewired.Platforms.PS4.PS4ControllerExtension.StopVibration">
+            <summary>
+            Stops vibration on all motors.
+            </summary>
+        </member>
+        <member name="M:Rewired.Platforms.PS4.PS4ControllerExtension.GetAccelerometerValueRaw">
+            <summary>
+            Gets the raw value from the accelerometer as reported by the device.
+            Note: Device coordinate system does not match Unity's.
+            </summary>
+            <returns>Raw accelerometer data</returns>
+        </member>
+        <member name="M:Rewired.Platforms.PS4.PS4ControllerExtension.GetAccelerometerValue">
+            <summary>
+            Gets the value from the accelerometer converted to Unity's coordinate system.
+            The value returned could be thought of as a gravity vector and user acceleration combined.
+            If using this value to apply a force in the direction of the vector, invert each axis first.
+            This value represents the last value reported by the accelerometer.
+            </summary>
+            <returns>Accelerometer data</returns>
+        </member>
+        <member name="M:Rewired.Platforms.PS4.PS4ControllerExtension.GetLastGyroscopeValueRaw">
+            <summary>
+            Gets the raw value from the gyroscope as reported by the device.
+            Note: Device coordinate system does not match Unity's.
+            </summary>
+            <returns>Raw gyroscope data</returns>
+        </member>
+        <member name="M:Rewired.Platforms.PS4.PS4ControllerExtension.GetLastGyroscopeValue">
+            <summary>
+            Gets the value from the gyroscope converted to Unity's coordinate system.
+            </summary>
+            <returns>Gyroscope data</returns>
+        </member>
+        <member name="M:Rewired.Platforms.PS4.PS4ControllerExtension.GetOrientationRaw">
+            <summary>
+            Gets the raw orientation as reported by the device.
+            Note: Device coordinate system does not match Unity's.
+            </summary>
+            <returns>Raw orientation</returns>
+        </member>
+        <member name="M:Rewired.Platforms.PS4.PS4ControllerExtension.GetOrientation">
+            <summary>
+            Gets the orientation converted to Unity's coordinate system.
+            </summary>
+            <returns>Orientation</returns>
+        </member>
+        <member name="M:Rewired.Platforms.PS4.PS4ControllerExtension.ResetOrientation">
+            <summary>
+            Resets the orientation.
+            </summary>
+        </member>
+        <member name="M:Rewired.Platforms.PS4.PS4ControllerExtension.SetMotionSensorState(System.Boolean)">
+            <summary>
+            Sets the motion sensor state.
+            </summary>
+            <param name="enabled">The state</param>
+        </member>
+        <member name="M:Rewired.Platforms.PS4.PS4ControllerExtension.SetTiltCorrectionState(System.Boolean)">
+            <summary>
+            Sets the tilt correction state.
+            </summary>
+            <param name="enabled">The state</param>
+        </member>
+        <member name="M:Rewired.Platforms.PS4.PS4ControllerExtension.SetAngularVelocityDeadbandState(System.Boolean)">
+            <summary>
+            Sets the angular velocity deadband state.
+            </summary>
+            <param name="enabled">The state</param>
+        </member>
+        <member name="M:Rewired.Platforms.PS4.PS4ControllerExtension.SetLightColor(UnityEngine.Color)">
+            <summary>
+            Sets the light color. Alpha can be used to set intensity.
+            Final light color may be modified by the PS4.
+            Brigtness cannot be set below a certain value on this platform.
+            </summary>
+            <param name="color">Light color</param>
+        </member>
+        <member name="M:Rewired.Platforms.PS4.PS4ControllerExtension.SetLightColor(System.Single,System.Single,System.Single)">
+            <summary>
+            Sets the light color.
+            Final light color may be modified by the PS4.
+            Brigtness cannot be set below a certain value on this platform.
+            </summary>
+            <param name="red">Red channel [0.0 - 1.0]</param>
+            <param name="green">Green channel [0.0 - 1.0]</param>
+            <param name="blue">Blue channel [0.0 - 1.0]</param>
+        </member>
+        <member name="M:Rewired.Platforms.PS4.PS4ControllerExtension.SetLightColor(System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            Sets the light color.
+            Final light color may be modified by the PS4.
+            Brigtness cannot be set below a certain value on this platform.
+            </summary>
+            <param name="red">Red channel [0.0 - 1.0]</param>
+            <param name="green">Green channel [0.0 - 1.0]</param>
+            <param name="blue">Blue channel [0.0 - 1.0]</param>
+            <param name="intensity">Intensity [0.0 - 1.0]</param>
+        </member>
+        <member name="M:Rewired.Platforms.PS4.PS4ControllerExtension.ResetLight">
+            <summary>
+            Resets the light to the default settings.
+            </summary>
+        </member>
+        <member name="T:Rewired.Platforms.PS4.PS4GamepadExtension">
+            <summary>
+            Allows access to gamepad-specific functions.
+            </summary>
+        </member>
+        <member name="P:Rewired.Platforms.PS4.PS4GamepadExtension.connectionType">
+            <summary>
+            Gets the controller connection type as an int.
+            This can be cast to UnityEngine.PS4Input.ConnectionType.
+            </summary>
+            <returns>Connection type as int</returns>
+        </member>
+        <member name="P:Rewired.Platforms.PS4.PS4GamepadExtension.maxTouches">
+            <summary>
+            Number of simultaneous touches supported by this device.
+            </summary>
+        </member>
+        <member name="P:Rewired.Platforms.PS4.PS4GamepadExtension.touchpadPixelDensity">
+            <summary>
+            Gets the pixel density of the touchpad.
+            </summary>
+        </member>
+        <member name="P:Rewired.Platforms.PS4.PS4GamepadExtension.touchpadResolution">
+            <summary>
+            Gets the touchpad resolution in pixels.
+            </summary>
+        </member>
+        <member name="P:Rewired.Platforms.PS4.PS4GamepadExtension.touchpadResolutionX">
+            <summary>
+            Gets the touchpad X resolution in pixels.
+            </summary>
+        </member>
+        <member name="P:Rewired.Platforms.PS4.PS4GamepadExtension.touchpadResolutionY">
+            <summary>
+            Gets the touchpad Y resolution in pixels.
+            </summary>
+        </member>
+        <member name="P:Rewired.Platforms.PS4.PS4GamepadExtension.touchCount">
+            <summary>
+            The current touch count.
+            </summary>
+        </member>
+        <member name="M:Rewired.Platforms.PS4.PS4GamepadExtension.GetTouchId(System.Int32)">
+            <summary>
+            Gets the touch id for the touch at the specified index.
+            </summary>
+            <param name="index">Index of the touch</param>
+        </member>
+        <member name="M:Rewired.Platforms.PS4.PS4GamepadExtension.GetTouchPosition(System.Int32,UnityEngine.Vector2@)">
+            <summary>
+            Gets the touch position for a particular index normalized to a 0 - 1 range. (Left = 0, Bottom = 0)
+            </summary>
+            <param name="index">The index of the touch for which to return position.</param>
+            <param name="position">X/Y position of the touch [0 - 1]</param>
+            <returns>True if the touch at index is currently touching. False if there is no touch at index.</returns>
+        </member>
+        <member name="M:Rewired.Platforms.PS4.PS4GamepadExtension.GetTouchPositionByTouchId(System.Int32,UnityEngine.Vector2@)">
+            <summary>
+            Gets the touch position for a particular touch id normalized to a 0 - 1 range. (Left = 0, Bottom = 0)
+            </summary>
+            <param name="touchId">The id of the touch for which to return position.</param>
+            <param name="position">X/Y position of the touch [0 - 1]</param>
+            <returns>True if the touch at touchId is currently touching. False if there is no touch at touchId.</returns>
+        </member>
+        <member name="M:Rewired.Platforms.PS4.PS4GamepadExtension.GetTouchPositionAbsolute(System.Int32,UnityEngine.Vector2@)">
+            <summary>
+            Gets the touch position for a particular index in absolute units as returned by the device. (Left = 0, Bottom = 0)
+            </summary>
+            <param name="index">The index of the touch for which to return position.</param>
+            <param name="position">X/Y position of the touch in absolute units.</param>
+            <returns>True if the touch at index is currently touching. False if there is no touch at index.</returns>
+        </member>
+        <member name="M:Rewired.Platforms.PS4.PS4GamepadExtension.GetTouchPositionAbsoluteByTouchId(System.Int32,UnityEngine.Vector2@)">
+            <summary>
+            Gets the touch position for a particular touch id in absolute units as returned by the device. (Left = 0, Bottom = 0)
+            </summary>
+            <param name="touchId">The id of the touch for which to return position.</param>
+            <param name="position">X/Y position of the touch in absolute units.</param>
+            <returns>True if the touch at touchId is currently touching. False if there is no touch at touchId.</returns>
+        </member>
+        <member name="M:Rewired.Platforms.PS4.PS4GamepadExtension.IsTouching(System.Int32)">
+            <summary>
+            Determines if the current touch id is valid for any currently active touch.
+            </summary>
+            <param name="index">The index of the touch</param>
+            <returns>True/False</returns>
+        </member>
+        <member name="M:Rewired.Platforms.PS4.PS4GamepadExtension.IsTouchingByTouchId(System.Int32)">
+            <summary>
+            Determines if the current touch id is valid for any currently active touch.
+            </summary>
+            <param name="touchId">The id of the touch</param>
+            <returns>True/False</returns>
+        </member>
+        <member name="M:Rewired.Platforms.PS4.PS4GamepadExtension.GetVibration(Rewired.Platforms.PS4.PS4GamepadMotorType)">
+            <summary>
+            Gets vibration level for a specific motor.
+            </summary>
+            <param name="motor">Motor type</param>
+            <returns>Motor level [float: 0.0 - 1.0]</returns>
+        </member>
+        <member name="M:Rewired.Platforms.PS4.PS4GamepadExtension.SetVibration(Rewired.Platforms.PS4.PS4GamepadMotorType,System.Single)">
+            <summary>
+            Sets vibration leves on an individual motor.
+            </summary>
+            <param name="motor">Motor type</param>
+            <param name="motorLevel">Motor level [float: 0.0 - 1.0]</param>
+        </member>
+        <member name="M:Rewired.Platforms.PS4.PS4GamepadExtension.SetVibration(Rewired.Platforms.PS4.PS4GamepadMotorType,System.Single,System.Boolean)">
+            <summary>
+            Sets vibration level on an individual motor.
+            </summary>
+            <param name="motor">Motor type</param>
+            <param name="motorLevel">Motor level [float: 0.0 - 1.0]</param>
+            <param name="stopOtherMotors">Stop other motors?</param>
+        </member>
+        <member name="M:Rewired.Platforms.PS4.PS4GamepadExtension.SetVibration(Rewired.Platforms.PS4.PS4GamepadMotorType,System.Single,System.Single,System.Boolean)">
+            <summary>
+            Sets vibration level on an individual motor.
+            </summary>
+            <param name="motor">Motor type</param>
+            <param name="motorLevel">Motor level [float: 0.0 - 1.0]</param>
+            <param name="duration">Length of time in seconds to activate the motor before it stops. [0 = Infinite]</param>
+            <param name="stopOtherMotors">Stop other motors?</param>
+        </member>
+        <member name="M:Rewired.Platforms.PS4.PS4GamepadExtension.SetVibration(System.Single,System.Single)">
+            <summary>
+            Sets vibration level for left and right motors.
+            </summary>
+            <param name="leftMotorLevel">float: 0.0 - 1.0</param>
+            <param name="rightMotorLevel">float: 0.0 - 1.0</param>
+        </member>
+        <member name="M:Rewired.Platforms.PS4.PS4GamepadExtension.SetVibration(System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            Sets vibration level for left and right motors.
+            </summary>
+            <param name="leftMotorLevel">float: 0.0 - 1.0</param>
+            <param name="rightMotorLevel">float: 0.0 - 1.0</param>
+            <param name="leftMotorDuration">Length of time in seconds to activate the left motor before it stops. [0 = Infinite]</param>
+            <param name="rightMotorDuration">Length of time in seconds to activate the right motor before it stops. [0 = Infinite]</param>
+        </member>
+        <member name="T:Rewired.Platforms.PS4.PS4GamepadMotorType">
+            <summary>
+            PS4 game pad motors. Used for vibration.
+            </summary>
+        </member>
+        <member name="F:Rewired.Platforms.PS4.PS4GamepadMotorType.LeftMotor">
+            <summary>
+            Left motor (stronger motor)
+            </summary>
+        </member>
+        <member name="F:Rewired.Platforms.PS4.PS4GamepadMotorType.StrongMotor">
+            <summary>
+            Left motor (stronger motor)
+            </summary>
+        </member>
+        <member name="F:Rewired.Platforms.PS4.PS4GamepadMotorType.RightMotor">
+            <summary>
+            Right motor (weaker motor)
+            </summary>
+        </member>
+        <member name="F:Rewired.Platforms.PS4.PS4GamepadMotorType.WeakMotor">
+            <summary>
+            Right motor (weaker motor)
+            </summary>
+        </member>
+        <member name="T:Rewired.Platforms.PS4.PS4Input">
+            <summary>
+            Provides access to input-related methods and settings at runtime.
+            </summary>
+        </member>
+        <member name="P:Rewired.Platforms.PS4.PS4Input.pluginVersion">
+            <summary>
+            Gets the current Rewired PS4 plugin version.
+            </summary>
+        </member>
+        <member name="T:Rewired.Utils.Platforms.PS4.Main">
+            <exclude></exclude>
+            A class to allow initialization of the system from outside without exposing anything in PS4Input.
+            This is just hidden away in the Utils namespace.
+            Must be called to initialize and deinitialize the Game Core platform system.
+        </member>
+        <member name="M:Rewired.Utils.Platforms.PS4.Main.GetPlatformInitializer">
+            <exclude></exclude>
+            <summary>
+            Initializes the Game Core platform.
+            This is for internal use only. Do not call this function.
+            </summary>
+            <returns>Input manager</returns>
+        </member>
+        <member name="P:Rewired.Utils.Platforms.PS4.Main.externalTools">
+            <exclude></exclude>
+        </member>
+    </members>
+</doc>
