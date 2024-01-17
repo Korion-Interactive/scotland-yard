@@ -254,11 +254,23 @@ public class UICamera : MonoBehaviour
 
 	public string horizontalAxisName = "Horizontal";
 
-	/// <summary>
-	/// Various keys used by the camera.
-	/// </summary>
+    /// <summary>
+    /// Name of the horizontal axis used to move scroll views and sliders around.
+    /// </summary>
 
-	public KeyCode submitKey0 = KeyCode.Return;
+    public string horizontalPanAxisName = null;
+
+    /// <summary>
+    /// Name of the vertical axis used to move scroll views and sliders around.
+    /// </summary>
+
+    public string verticalPanAxisName = null;
+
+    /// <summary>
+    /// Various keys used by the camera.
+    /// </summary>
+
+    public KeyCode submitKey0 = KeyCode.Return;
 	public KeyCode submitKey1 = KeyCode.JoystickButton0;
 	public KeyCode cancelKey0 = KeyCode.Escape;
 	public KeyCode cancelKey1 = KeyCode.JoystickButton1;
@@ -962,18 +974,53 @@ public class UICamera : MonoBehaviour
 
 	void OnDisable () { list.Remove(this); }
 
+#if UNITY_EDITOR || UNITY_STANDALONE_WIN || UNITY_STANDALONE_OSX || UNITY_STANDALONE_LINUX
+    static bool disableControllerCheck = true;
+#endif
+
 #if !UNITY_3_5 && !UNITY_4_0
-	/// <summary>
-	/// We don't want the camera to send out any kind of mouse events.
-	/// </summary>
-	
-	void Start ()
+    /// <summary>
+    /// We don't want the camera to send out any kind of mouse events.
+    /// </summary>
+
+    void Start ()
 	{
 		if (eventType != EventType.World && cachedCamera.transparencySortMode != TransparencySortMode.Orthographic)
 			cachedCamera.transparencySortMode = TransparencySortMode.Orthographic;
 
-		if (Application.isPlaying) cachedCamera.eventMask = 0;
-		if (handlesEvents) NGUIDebug.debugRaycast = debug;
+        if (Application.isPlaying)
+        {
+            // Always set a fall-through object
+            if (fallThrough == null)
+            {
+                UIRoot root = NGUITools.FindInParents<UIRoot>(gameObject);
+
+                if (root != null)
+                {
+                    fallThrough = root.gameObject;
+                }
+                else
+                {
+                    Transform t = transform;
+                    fallThrough = (t.parent != null) ? t.parent.gameObject : gameObject;
+                }
+            }
+            cachedCamera.eventMask = 0;
+
+#if UNITY_EDITOR || UNITY_STANDALONE_WIN || UNITY_STANDALONE_OSX || UNITY_STANDALONE_LINUX
+            // Automatically disable controller-based input if the game starts with a non-zero controller input.
+            // This most commonly happens with Thrustmaster and other similar joystick types.
+            if (disableControllerCheck && useController && handlesEvents)
+            {
+                disableControllerCheck = false;
+                if (!string.IsNullOrEmpty(horizontalAxisName) && Mathf.Abs(GetAxis(horizontalAxisName)) > 0.1f) useController = false;
+                else if (!string.IsNullOrEmpty(verticalAxisName) && Mathf.Abs(GetAxis(verticalAxisName)) > 0.1f) useController = false;
+                else if (!string.IsNullOrEmpty(horizontalPanAxisName) && Mathf.Abs(GetAxis(horizontalPanAxisName)) > 0.1f) useController = false;
+                else if (!string.IsNullOrEmpty(verticalPanAxisName) && Mathf.Abs(GetAxis(verticalPanAxisName)) > 0.1f) useController = false;
+            }
+#endif
+        }
+        if (handlesEvents) NGUIDebug.debugRaycast = debug;
 	}
 #else
 	void Start () { if (handlesEvents) NGUIDebug.debugRaycast = debug; }
@@ -1030,7 +1077,7 @@ public class UICamera : MonoBehaviour
 		// If it's time to show a tooltip, inform the object we're hovering over
 		if (useMouse && mHover != null)
 		{
-			float scroll = !string.IsNullOrEmpty(scrollAxisName) ? Input.GetAxis(scrollAxisName) : 0f;
+			float scroll = !string.IsNullOrEmpty(scrollAxisName) ? GetAxis(scrollAxisName) : 0f;
 			if (scroll != 0f) Notify(mHover, "OnScroll", scroll);
 
 			if (showTooltips && mTooltipTime != 0f && (mTooltipTime < RealTime.time ||
@@ -1319,7 +1366,10 @@ public class UICamera : MonoBehaviour
 			submitKeyUp = true;
 		}
 
-		if (submitKeyDown || submitKeyUp)
+		//TODO KORION: Do we need this?
+        //if (submitKeyDown) currentTouch.pressTime = RealTime.time;
+
+        if (submitKeyDown || submitKeyUp)
 		{
 			currentScheme = ControlScheme.Controller;
 			currentTouch.last = currentTouch.current;

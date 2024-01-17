@@ -12977,6 +12977,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7180289873068113595, guid: 31b550e5730c146479539829c0d3141b,
+        type: 3}
+      propertyPath: _userData.inputBehaviors.Array.data[0]._digitalAxisGravity
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 7180289873068113595, guid: 31b550e5730c146479539829c0d3141b,
+        type: 3}
+      propertyPath: _userData.inputBehaviors.Array.data[0]._digitalAxisSensitivity
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 7180289873068113595, guid: 31b550e5730c146479539829c0d3141b,
+        type: 3}
+      propertyPath: _userData.joystickMaps.Array.data[4].actionElementMaps.Array.data[21]._elementIdentifierId
+      value: 19
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19312,6 +19327,8 @@ MonoBehaviour:
   scrollAxisName: Mouse ScrollWheel
   verticalAxisName: UIVertical
   horizontalAxisName: UIHorizontal
+  horizontalPanAxisName: 
+  verticalPanAxisName: 
   submitKey0: 13
   submitKey1: 330
   cancelKey0: 27
@@ -22508,6 +22525,8 @@ MonoBehaviour:
   scrollAxisName: Mouse ScrollWheel
   verticalAxisName: Vertical
   horizontalAxisName: Horizontal
+  horizontalPanAxisName: 
+  verticalPanAxisName: 
   submitKey0: 13
   submitKey1: 330
   cancelKey0: 27
@@ -24163,6 +24182,8 @@ MonoBehaviour:
   scrollAxisName: Mouse ScrollWheel
   verticalAxisName: Vertical
   horizontalAxisName: Horizontal
+  horizontalPanAxisName: 
+  verticalPanAxisName: 
   submitKey0: 13
   submitKey1: 330
   cancelKey0: 27
@@ -26907,7 +26928,7 @@ Transform:
   m_GameObject: {fileID: 1429165313}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.5365429, z: 0}
+  m_LocalPosition: {x: -0.00036621094, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -35045,6 +35066,8 @@ MonoBehaviour:
   scrollAxisName: Mouse ScrollWheel
   verticalAxisName: Vertical
   horizontalAxisName: Horizontal
+  horizontalPanAxisName: 
+  verticalPanAxisName: 
   submitKey0: 13
   submitKey1: 330
   cancelKey0: 27

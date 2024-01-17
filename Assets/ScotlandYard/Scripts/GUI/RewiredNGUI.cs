@@ -29,7 +29,7 @@ public class RewiredNGUI : MonoBehaviour
     {
         if (key >= KeyCode.JoystickButton0)
         {
-            Rewired.Player rewiredSystemPlayer = Rewired.ReInput.players.GetSystemPlayer(); // Done every time this is called???
+            Rewired.Player rewiredSystemPlayer = Rewired.ReInput.players.GetPlayer(0); // Done every time this is called???
 
             switch (key)
             {
@@ -44,7 +44,7 @@ public class RewiredNGUI : MonoBehaviour
     {
         if (key >= KeyCode.JoystickButton0)
         {
-            Rewired.Player rewiredSystemPlayer = Rewired.ReInput.players.GetSystemPlayer(); // Done every time this is called???
+            Rewired.Player rewiredSystemPlayer = Rewired.ReInput.players.GetPlayer(0); // Done every time this is called???
 
             switch (key)
             {
@@ -59,7 +59,7 @@ public class RewiredNGUI : MonoBehaviour
     {
         if (key >= KeyCode.JoystickButton0)
         {
-            Rewired.Player rewiredSystemPlayer = Rewired.ReInput.players.GetSystemPlayer(); // Done every time this is called???
+            Rewired.Player rewiredSystemPlayer = Rewired.ReInput.players.GetPlayer(0); // Done every time this is called???
 
             switch (key)
             {
@@ -72,30 +72,12 @@ public class RewiredNGUI : MonoBehaviour
 
     static float GetAxis(string name)
     {
-        Rewired.Player rewiredSystemPlayer = Rewired.ReInput.players.GetSystemPlayer(); // Done every time this is called???
+        Rewired.Player rewiredSystemPlayer = Rewired.ReInput.players.GetPlayer(0); // Done every time this is called???
 
         switch (name)
         {
-            case "UIHorizontal":
-                {
-                    if (rewiredSystemPlayer.GetAxis(_leftStickX) + rewiredSystemPlayer.GetAxis(_dPadX) > 0 /* && rewiredSystemPlayer.controllers.Keyboard.*/)
-                        return 1f;
-
-                    if (rewiredSystemPlayer.GetAxis(_leftStickX) + rewiredSystemPlayer.GetAxis(_dPadX) < 0 /* && rewiredSystemPlayer.controllers.Keyboard.*/)
-                        return -1f;
-
-                    return rewiredSystemPlayer.GetAxis(_leftStickX) + rewiredSystemPlayer.GetAxis(_dPadX);
-                }
-            case "UIVertical": 
-                {
-                    if (rewiredSystemPlayer.GetAxis(_leftStickY) + rewiredSystemPlayer.GetAxis(_dPadY) > 0 /* && rewiredSystemPlayer.controllers.Keyboard.*/)
-                        return 1f;
-
-                    if (rewiredSystemPlayer.GetAxis(_leftStickY) + rewiredSystemPlayer.GetAxis(_dPadY) < 0 /* && rewiredSystemPlayer.controllers.Keyboard.*/)
-                        return -1f;
-
-                    return rewiredSystemPlayer.GetAxis(_leftStickY) + rewiredSystemPlayer.GetAxis(_dPadY);
-                }
+            case "UIHorizontal": return rewiredSystemPlayer.GetAxis(_leftStickX) + rewiredSystemPlayer.GetAxis(_dPadX);
+            case "UIVertical": return rewiredSystemPlayer.GetAxis(_leftStickY) + rewiredSystemPlayer.GetAxis(_dPadY);
         }
         return 0;
     }
