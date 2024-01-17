@@ -10,11 +10,11 @@ public class RewiredNGUI : MonoBehaviour
     private static string _actionBottomRow2 = "UICancel";
 
     // Rewired Axis Actions
-    private static string _leftStickX = "Horizontal";
-    private static string _leftStickY = "Vertical";
+    private static string _leftStickX = "UIHorizontal";
+    private static string _leftStickY = "UIVertical";
 
-    private static string _dPadX = "UIHorizontal";
-    private static string _dPadY = "UIVertical";
+    private static string _dPadX = "Horizontal";
+    private static string _dPadY = "Vertical";
 
 
     void Start()
@@ -76,8 +76,26 @@ public class RewiredNGUI : MonoBehaviour
 
         switch (name)
         {
-            case "Horizontal": return rewiredSystemPlayer.GetAxis(_leftStickX) + rewiredSystemPlayer.GetAxis(_dPadX);
-            case "Vertical": return rewiredSystemPlayer.GetAxis(_leftStickY) + rewiredSystemPlayer.GetAxis(_dPadY);
+            case "UIHorizontal":
+                {
+                    if (rewiredSystemPlayer.GetAxis(_leftStickX) + rewiredSystemPlayer.GetAxis(_dPadX) > 0 /* && rewiredSystemPlayer.controllers.Keyboard.*/)
+                        return 1f;
+
+                    if (rewiredSystemPlayer.GetAxis(_leftStickX) + rewiredSystemPlayer.GetAxis(_dPadX) < 0 /* && rewiredSystemPlayer.controllers.Keyboard.*/)
+                        return -1f;
+
+                    return rewiredSystemPlayer.GetAxis(_leftStickX) + rewiredSystemPlayer.GetAxis(_dPadX);
+                }
+            case "UIVertical": 
+                {
+                    if (rewiredSystemPlayer.GetAxis(_leftStickY) + rewiredSystemPlayer.GetAxis(_dPadY) > 0 /* && rewiredSystemPlayer.controllers.Keyboard.*/)
+                        return 1f;
+
+                    if (rewiredSystemPlayer.GetAxis(_leftStickY) + rewiredSystemPlayer.GetAxis(_dPadY) < 0 /* && rewiredSystemPlayer.controllers.Keyboard.*/)
+                        return -1f;
+
+                    return rewiredSystemPlayer.GetAxis(_leftStickY) + rewiredSystemPlayer.GetAxis(_dPadY);
+                }
         }
         return 0;
     }

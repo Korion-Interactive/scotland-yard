@@ -19310,8 +19310,8 @@ MonoBehaviour:
   touchClickThreshold: 40
   rangeDistance: -1
   scrollAxisName: Mouse ScrollWheel
-  verticalAxisName: Vertical
-  horizontalAxisName: Horizontal
+  verticalAxisName: UIVertical
+  horizontalAxisName: UIHorizontal
   submitKey0: 13
   submitKey1: 330
   cancelKey0: 27

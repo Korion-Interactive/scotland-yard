@@ -833,7 +833,9 @@ public class UICamera : MonoBehaviour
 
 		if (mNextEvent < time && !string.IsNullOrEmpty(axis))
 		{
-			float val = Input.GetAxis(axis);
+            //GetAxis(axis);
+            //Input.GetAxis(axis);
+            float val = GetAxis(axis);
 
 			if (val > 0.75f)
 			{
