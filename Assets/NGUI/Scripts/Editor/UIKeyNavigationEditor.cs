@@ -21,7 +21,8 @@ public class UIKeyNavigationEditor : Editor
 
 		serializedObject.Update();
 		NGUIEditorTools.DrawProperty("Starts Selected", serializedObject, "startsSelected");
-		NGUIEditorTools.DrawProperty("Select on Click", serializedObject, "onClick");
+        NGUIEditorTools.DrawProperty("Force Start Selection", serializedObject, "forceStartSelection");
+        NGUIEditorTools.DrawProperty("Select on Click", serializedObject, "onClick");
 		NGUIEditorTools.DrawProperty("Constraint", serializedObject, "constraint");
 
 		if (NGUIEditorTools.DrawHeader("Override"))

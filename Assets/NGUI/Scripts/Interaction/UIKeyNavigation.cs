@@ -70,6 +70,8 @@ public class UIKeyNavigation : MonoBehaviour
 
 	public bool startsSelected = false;
 
+	public bool forceStartSelection = false;
+
 	protected virtual void OnEnable ()
 	{
 		list.Add(this);
@@ -79,7 +81,7 @@ public class UIKeyNavigation : MonoBehaviour
 #if UNITY_EDITOR
 			if (!Application.isPlaying) return;
 #endif
-			if (UICamera.selectedObject == null || !NGUITools.GetActive(UICamera.selectedObject))
+			if (UICamera.selectedObject == null || !NGUITools.GetActive(UICamera.selectedObject) || forceStartSelection)
 			{
 				UICamera.currentScheme = UICamera.ControlScheme.Controller;
 				UICamera.selectedObject = gameObject;

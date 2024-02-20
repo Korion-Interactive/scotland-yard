@@ -105,6 +105,7 @@ public class DrawStartStation : MonoBehaviour {
 
         if (player.Controller == PlayerController.Human)
         {
+            //TODO Korion: Make these to buttons. Why aren't these already buttons?
             if (Input.GetMouseButtonDown(0))
             {
                 var mousePos = Cam.ScreenToWorldPoint(Input.mousePosition);
@@ -131,6 +132,19 @@ public class DrawStartStation : MonoBehaviour {
             currentPlayerID++;
         }
 	}
+    
+    /// <summary>
+    /// KORION Click simulation because somehow these buttons have not been used like buttons. Sigh...
+    /// </summary>
+    public void SimulateClick(GameObject go)
+    {
+        if (go)
+        {
+            currentCard = go;
+            TurnCardFaceUp(go);
+            //CallCardSelected(player, card);
+        }
+    }
 
     //void CallCardSelected(PlayerSetup player, GameObject card)
     //{
