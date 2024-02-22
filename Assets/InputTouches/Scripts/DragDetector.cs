@@ -1,6 +1,8 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using Rewired;
+using Rewired.Demos;
 
 public class DragDetector : MonoBehaviour {
 
@@ -11,13 +13,14 @@ public class DragDetector : MonoBehaviour {
 	public bool enableMultiDrag=false;
 	
 	public bool fireOnDraggingWhenNotMoving=false;
+    public PlayerMouseSpriteExample _playerPointer;
 
-	//private Vector2 lastPos;
-	//private bool dragging=false;
-	//private bool draggingInitiated=false;
+    //private Vector2 lastPos;
+    //private bool dragging=false;
+    //private bool draggingInitiated=false;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
 	
 	}
 	
@@ -127,10 +130,13 @@ public class DragDetector : MonoBehaviour {
 		float timeStart=Mathf.Infinity;
 		
 		while(mouseIndex.Contains(index)){
-			
+#if UNITY_STANDALONE || UNITY_IOS || UNITY_ANDROID
 			Vector2 curPos=Input.mousePosition;
-			
-			if(!dragStarted){
+#else
+			Vector2 curPos = _playerPointer.Mouse.screenPosition;
+#endif
+
+            if (!dragStarted){
 				if(Vector3.Distance(curPos, startPos)>minDragDistance){
 					dragStarted=true;
 					Vector2 delta=curPos-startPos;
@@ -258,6 +264,7 @@ public class DragDetector : MonoBehaviour {
 			}
 		}
 		else if(Input.touchCount==0){
+#if UNITY_STANDALONE || UNITY_IOS || UNITY_ANDROID
 			if(Input.GetMouseButtonDown(0)){
 				if(!mouseIndex.Contains(0)) StartCoroutine(MouseRoutine(0)); 
 			}
@@ -285,7 +292,44 @@ public class DragDetector : MonoBehaviour {
 			else if(Input.GetMouseButtonUp(3)){
 				if(mouseIndex.Contains(3)) mouseIndex.Remove(3); 
 			}
-		}
+#else
+            if (_playerPointer.Mouse.leftButton.justPressed)
+            {
+                if (!mouseIndex.Contains(0)) StartCoroutine(MouseRoutine(0));
+            }
+            else if (_playerPointer.Mouse.leftButton.justReleased)
+            {
+                if (mouseIndex.Contains(0)) mouseIndex.Remove(0);
+            }
+
+            if (_playerPointer.Mouse.rightButton.justPressed)
+            {
+                if (!mouseIndex.Contains(1)) StartCoroutine(MouseRoutine(1));
+            }
+            else if (_playerPointer.Mouse.rightButton.justReleased)
+            {
+                if (mouseIndex.Contains(1)) mouseIndex.Remove(1);
+            }
+
+            if (_playerPointer.Mouse.middleButton.justPressed)
+            {
+                if (!mouseIndex.Contains(2)) StartCoroutine(MouseRoutine(2));
+            }
+            else if (_playerPointer.Mouse.middleButton.justReleased)
+            {
+                if (mouseIndex.Contains(2)) mouseIndex.Remove(2);
+            }
+
+            if (Input.GetMouseButtonDown(3))
+            {
+                if (!mouseIndex.Contains(3)) StartCoroutine(MouseRoutine(3));
+            }
+            else if (Input.GetMouseButtonUp(3))
+            {
+                if (mouseIndex.Contains(3)) mouseIndex.Remove(3);
+            }
+#endif
+        }
 		
 	}
 	

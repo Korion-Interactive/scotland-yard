@@ -23493,14 +23493,14 @@ MonoBehaviour:
   _serializedStateValues:
   - '[]'
   - '[]'
-  - '{"a":0.5,"b":1.5}'
-  - '{"a":0.800000011920929,"b":1.79999995231628}'
+  - '{"a":5.0,"b":15.0}'
+  - '{"a":800000003014656.0,"b":179999999000576.0}'
   WeightMultiplierRangeEasy:
-    a: 0.5
-    b: 1.5
+    a: 5
+    b: 15
   WeightMultiplierRangeMedium:
-    a: 0.8
-    b: 1.8
+    a: 8e+14
+    b: 1.8e+14
 --- !u!4 &360973404
 Transform:
   m_ObjectHideFlags: 0
@@ -56114,7 +56114,7 @@ MonoBehaviour:
   alwaysOnScreen: 0
   anchorOffset: 0
   renderQueue: 0
-  startingRenderQueue: 3013
+  startingRenderQueue: 3015
   mAlpha: 1
   mClipping: 0
   mClipRange: {x: 0, y: 0, z: 300, w: 200}
@@ -84695,6 +84695,7 @@ MonoBehaviour:
   minDragDistance: 15
   enableMultiDrag: 0
   fireOnDraggingWhenNotMoving: 1
+  _playerPointer: {fileID: 999469969}
 --- !u!114 &1284458649
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -98576,7 +98577,7 @@ MonoBehaviour:
   alwaysOnScreen: 0
   anchorOffset: 0
   renderQueue: 0
-  startingRenderQueue: 3013
+  startingRenderQueue: 3015
   mAlpha: 1
   mClipping: 0
   mClipRange: {x: 0, y: 0, z: 300, w: 200}
