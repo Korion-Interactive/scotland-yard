@@ -897,6 +897,61 @@ MonoBehaviour:
   mMat: {fileID: 0}
   mShader: {fileID: 4800000, guid: e75727d9555d9d14ca51d91908c681bc, type: 3}
   mFlip: 0
+--- !u!1 &53885915 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100002, guid: b501b788c71b2d44382ad4e5604d9bfb,
+    type: 3}
+  m_PrefabInstance: {fileID: 955484682}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &53885919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 53885915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fdca5042b1d12a4890ec1bd4f04290d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tweenTarget: {fileID: 53885915}
+  hover: {r: 0.88235295, g: 0.78431374, b: 0.5882353, a: 1}
+  pressed: {r: 0.7176471, g: 0.6392157, b: 0.48235294, a: 1}
+  disabledColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  duration: 0.2
+  dragHighlight: 0
+  hoverSprite: 
+  pressedSprite: 
+  disabledSprite: 
+  pixelSnap: 0
+  onClick:
+  - mTarget: {fileID: 1503853801}
+    mMethodName: SimulateClick
+    mParameters:
+    - obj: {fileID: 653417478}
+      field: 
+    oneShot: 0
+--- !u!114 &53885920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 53885915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 643ea4bc79b55444d974ddbd31a6cd5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constraint: 0
+  onUp: {fileID: 0}
+  onDown: {fileID: 0}
+  onLeft: {fileID: 0}
+  onRight: {fileID: 0}
+  onClick: {fileID: 0}
+  startsSelected: 0
+  forceStartSelection: 0
 --- !u!1 &61922871
 GameObject:
   m_ObjectHideFlags: 0
@@ -1460,6 +1515,61 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1256406443}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &108985609 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100002, guid: b501b788c71b2d44382ad4e5604d9bfb,
+    type: 3}
+  m_PrefabInstance: {fileID: 1750061354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &108985613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 108985609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fdca5042b1d12a4890ec1bd4f04290d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tweenTarget: {fileID: 108985609}
+  hover: {r: 0.88235295, g: 0.78431374, b: 0.5882353, a: 1}
+  pressed: {r: 0.7176471, g: 0.6392157, b: 0.48235294, a: 1}
+  disabledColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  duration: 0.2
+  dragHighlight: 0
+  hoverSprite: 
+  pressedSprite: 
+  disabledSprite: 
+  pixelSnap: 0
+  onClick:
+  - mTarget: {fileID: 1503853801}
+    mMethodName: SimulateClick
+    mParameters:
+    - obj: {fileID: 208608994}
+      field: 
+    oneShot: 0
+--- !u!114 &108985614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 108985609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 643ea4bc79b55444d974ddbd31a6cd5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constraint: 0
+  onUp: {fileID: 0}
+  onDown: {fileID: 0}
+  onLeft: {fileID: 0}
+  onRight: {fileID: 0}
+  onClick: {fileID: 0}
+  startsSelected: 0
+  forceStartSelection: 0
 --- !u!1 &109400975
 GameObject:
   m_ObjectHideFlags: 0
@@ -4727,7 +4837,15 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100002, guid: b501b788c71b2d44382ad4e5604d9bfb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2044298478}
+    - targetCorrespondingSourceObject: {fileID: 100002, guid: b501b788c71b2d44382ad4e5604d9bfb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2044298479}
   m_SourcePrefab: {fileID: 100100000, guid: b501b788c71b2d44382ad4e5604d9bfb, type: 3}
 --- !u!1 &238998961
 GameObject:
@@ -5386,6 +5504,7 @@ GameObject:
   - component: {fileID: 259017335}
   - component: {fileID: 259017338}
   - component: {fileID: 259017332}
+  - component: {fileID: 259017339}
   m_Layer: 8
   m_Name: back
   m_TagString: Untagged
@@ -5539,6 +5658,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Key: 27
+--- !u!114 &259017339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 259017330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c8f05e925b0479489f6782bb65d1ffd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _actionToTrigger: UICancel
+  _onActionTriggered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 259017332}
+        m_TargetAssemblyTypeName: ButtonListener, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  PlayerID: 0
 --- !u!1 &261988701
 GameObject:
   m_ObjectHideFlags: 0
@@ -6172,6 +6320,61 @@ MonoBehaviour:
   rightType: 1
   bottomType: 1
   topType: 1
+--- !u!1 &298515004 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100002, guid: b501b788c71b2d44382ad4e5604d9bfb,
+    type: 3}
+  m_PrefabInstance: {fileID: 2123010300}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &298515008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298515004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fdca5042b1d12a4890ec1bd4f04290d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tweenTarget: {fileID: 298515004}
+  hover: {r: 0.88235295, g: 0.78431374, b: 0.5882353, a: 1}
+  pressed: {r: 0.7176471, g: 0.6392157, b: 0.48235294, a: 1}
+  disabledColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  duration: 0.2
+  dragHighlight: 0
+  hoverSprite: 
+  pressedSprite: 
+  disabledSprite: 
+  pixelSnap: 0
+  onClick:
+  - mTarget: {fileID: 1503853801}
+    mMethodName: SimulateClick
+    mParameters:
+    - obj: {fileID: 2046516821}
+      field: 
+    oneShot: 0
+--- !u!114 &298515009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298515004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 643ea4bc79b55444d974ddbd31a6cd5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constraint: 0
+  onUp: {fileID: 0}
+  onDown: {fileID: 0}
+  onLeft: {fileID: 0}
+  onRight: {fileID: 0}
+  onClick: {fileID: 0}
+  startsSelected: 0
+  forceStartSelection: 0
 --- !u!1 &306914301
 GameObject:
   m_ObjectHideFlags: 0
@@ -9356,6 +9559,61 @@ MonoBehaviour:
   m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
   m_DragThreshold: 5
+--- !u!1 &470671980 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100002, guid: b501b788c71b2d44382ad4e5604d9bfb,
+    type: 3}
+  m_PrefabInstance: {fileID: 825144298}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &470671984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 470671980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fdca5042b1d12a4890ec1bd4f04290d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tweenTarget: {fileID: 470671980}
+  hover: {r: 0.88235295, g: 0.78431374, b: 0.5882353, a: 1}
+  pressed: {r: 0.7176471, g: 0.6392157, b: 0.48235294, a: 1}
+  disabledColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  duration: 0.2
+  dragHighlight: 0
+  hoverSprite: 
+  pressedSprite: 
+  disabledSprite: 
+  pixelSnap: 0
+  onClick:
+  - mTarget: {fileID: 1503853801}
+    mMethodName: SimulateClick
+    mParameters:
+    - obj: {fileID: 595095406}
+      field: 
+    oneShot: 0
+--- !u!114 &470671985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 470671980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 643ea4bc79b55444d974ddbd31a6cd5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constraint: 0
+  onUp: {fileID: 0}
+  onDown: {fileID: 0}
+  onLeft: {fileID: 0}
+  onRight: {fileID: 0}
+  onClick: {fileID: 0}
+  startsSelected: 0
+  forceStartSelection: 0
 --- !u!1 &477882156
 GameObject:
   m_ObjectHideFlags: 0
@@ -9439,6 +9697,61 @@ MonoBehaviour:
   rightType: 1
   bottomType: 1
   topType: 1
+--- !u!1 &484899387 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100002, guid: b501b788c71b2d44382ad4e5604d9bfb,
+    type: 3}
+  m_PrefabInstance: {fileID: 1146375014}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &484899391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 484899387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fdca5042b1d12a4890ec1bd4f04290d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tweenTarget: {fileID: 484899387}
+  hover: {r: 0.88235295, g: 0.78431374, b: 0.5882353, a: 1}
+  pressed: {r: 0.7176471, g: 0.6392157, b: 0.48235294, a: 1}
+  disabledColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  duration: 0.2
+  dragHighlight: 0
+  hoverSprite: 
+  pressedSprite: 
+  disabledSprite: 
+  pixelSnap: 0
+  onClick:
+  - mTarget: {fileID: 1503853801}
+    mMethodName: SimulateClick
+    mParameters:
+    - obj: {fileID: 1580828381}
+      field: 
+    oneShot: 0
+--- !u!114 &484899392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 484899387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 643ea4bc79b55444d974ddbd31a6cd5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constraint: 0
+  onUp: {fileID: 0}
+  onDown: {fileID: 0}
+  onLeft: {fileID: 0}
+  onRight: {fileID: 0}
+  onClick: {fileID: 0}
+  startsSelected: 0
+  forceStartSelection: 0
 --- !u!1001 &492286755
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9714,7 +10027,15 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100002, guid: b501b788c71b2d44382ad4e5604d9bfb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 769084671}
+    - targetCorrespondingSourceObject: {fileID: 100002, guid: b501b788c71b2d44382ad4e5604d9bfb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 769084672}
   m_SourcePrefab: {fileID: 100100000, guid: b501b788c71b2d44382ad4e5604d9bfb, type: 3}
 --- !u!1 &492327697
 GameObject:
@@ -10204,7 +10525,15 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100002, guid: b501b788c71b2d44382ad4e5604d9bfb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1108146738}
+    - targetCorrespondingSourceObject: {fileID: 100002, guid: b501b788c71b2d44382ad4e5604d9bfb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1108146739}
   m_SourcePrefab: {fileID: 100100000, guid: b501b788c71b2d44382ad4e5604d9bfb, type: 3}
 --- !u!1 &524281362
 GameObject:
@@ -13188,7 +13517,15 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100002, guid: b501b788c71b2d44382ad4e5604d9bfb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1566762789}
+    - targetCorrespondingSourceObject: {fileID: 100002, guid: b501b788c71b2d44382ad4e5604d9bfb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1566762790}
   m_SourcePrefab: {fileID: 100100000, guid: b501b788c71b2d44382ad4e5604d9bfb, type: 3}
 --- !u!1 &709576482
 GameObject:
@@ -13313,7 +13650,7 @@ MonoBehaviour:
   alwaysOnScreen: 0
   anchorOffset: 0
   renderQueue: 0
-  startingRenderQueue: 3033
+  startingRenderQueue: 3032
   mAlpha: 1
   mClipping: 0
   mClipRange: {x: 0, y: 0, z: 300, w: 200}
@@ -13513,7 +13850,15 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100002, guid: b501b788c71b2d44382ad4e5604d9bfb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2063817358}
+    - targetCorrespondingSourceObject: {fileID: 100002, guid: b501b788c71b2d44382ad4e5604d9bfb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2063817359}
   m_SourcePrefab: {fileID: 100100000, guid: b501b788c71b2d44382ad4e5604d9bfb, type: 3}
 --- !u!1 &712196851
 GameObject:
@@ -14557,6 +14902,61 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+--- !u!1 &769084667 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100002, guid: b501b788c71b2d44382ad4e5604d9bfb,
+    type: 3}
+  m_PrefabInstance: {fileID: 492287888}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &769084671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769084667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fdca5042b1d12a4890ec1bd4f04290d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tweenTarget: {fileID: 769084667}
+  hover: {r: 0.88235295, g: 0.78431374, b: 0.5882353, a: 1}
+  pressed: {r: 0.7176471, g: 0.6392157, b: 0.48235294, a: 1}
+  disabledColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  duration: 0.2
+  dragHighlight: 0
+  hoverSprite: 
+  pressedSprite: 
+  disabledSprite: 
+  pixelSnap: 0
+  onClick:
+  - mTarget: {fileID: 1503853801}
+    mMethodName: SimulateClick
+    mParameters:
+    - obj: {fileID: 365499165}
+      field: 
+    oneShot: 0
+--- !u!114 &769084672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769084667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 643ea4bc79b55444d974ddbd31a6cd5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constraint: 0
+  onUp: {fileID: 0}
+  onDown: {fileID: 0}
+  onLeft: {fileID: 0}
+  onRight: {fileID: 0}
+  onClick: {fileID: 0}
+  startsSelected: 0
+  forceStartSelection: 0
 --- !u!1 &772961900
 GameObject:
   m_ObjectHideFlags: 0
@@ -15346,7 +15746,15 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100002, guid: b501b788c71b2d44382ad4e5604d9bfb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 470671984}
+    - targetCorrespondingSourceObject: {fileID: 100002, guid: b501b788c71b2d44382ad4e5604d9bfb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 470671985}
   m_SourcePrefab: {fileID: 100100000, guid: b501b788c71b2d44382ad4e5604d9bfb, type: 3}
 --- !u!1 &829092239
 GameObject:
@@ -15979,6 +16387,7 @@ GameObject:
   - component: {fileID: 840021270}
   - component: {fileID: 840021275}
   - component: {fileID: 840021272}
+  - component: {fileID: 840021276}
   m_Layer: 8
   m_Name: back
   m_TagString: Untagged
@@ -16132,6 +16541,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Key: 27
+--- !u!114 &840021276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 840021267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c8f05e925b0479489f6782bb65d1ffd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _actionToTrigger: UICancel
+  _onActionTriggered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 840021272}
+        m_TargetAssemblyTypeName: ButtonListener, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  PlayerID: 0
 --- !u!114 &843956360 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 11400016, guid: b7df2809a25cfde40b809be2c496d420,
@@ -18553,7 +18991,15 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100002, guid: b501b788c71b2d44382ad4e5604d9bfb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 53885919}
+    - targetCorrespondingSourceObject: {fileID: 100002, guid: b501b788c71b2d44382ad4e5604d9bfb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 53885920}
   m_SourcePrefab: {fileID: 100100000, guid: b501b788c71b2d44382ad4e5604d9bfb, type: 3}
 --- !u!1 &958175582
 GameObject:
@@ -19221,7 +19667,15 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100002, guid: b501b788c71b2d44382ad4e5604d9bfb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1595730688}
+    - targetCorrespondingSourceObject: {fileID: 100002, guid: b501b788c71b2d44382ad4e5604d9bfb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1595730689}
   m_SourcePrefab: {fileID: 100100000, guid: b501b788c71b2d44382ad4e5604d9bfb, type: 3}
 --- !u!1 &992764377
 GameObject:
@@ -22074,6 +22528,116 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 236333002}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1108146734 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100002, guid: b501b788c71b2d44382ad4e5604d9bfb,
+    type: 3}
+  m_PrefabInstance: {fileID: 523793005}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1108146738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1108146734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fdca5042b1d12a4890ec1bd4f04290d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tweenTarget: {fileID: 1108146734}
+  hover: {r: 0.88235295, g: 0.78431374, b: 0.5882353, a: 1}
+  pressed: {r: 0.7176471, g: 0.6392157, b: 0.48235294, a: 1}
+  disabledColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  duration: 0.2
+  dragHighlight: 0
+  hoverSprite: 
+  pressedSprite: 
+  disabledSprite: 
+  pixelSnap: 0
+  onClick:
+  - mTarget: {fileID: 1503853801}
+    mMethodName: SimulateClick
+    mParameters:
+    - obj: {fileID: 111256249}
+      field: 
+    oneShot: 0
+--- !u!114 &1108146739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1108146734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 643ea4bc79b55444d974ddbd31a6cd5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constraint: 0
+  onUp: {fileID: 0}
+  onDown: {fileID: 0}
+  onLeft: {fileID: 0}
+  onRight: {fileID: 0}
+  onClick: {fileID: 0}
+  startsSelected: 0
+  forceStartSelection: 0
+--- !u!1 &1108965001 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100002, guid: b501b788c71b2d44382ad4e5604d9bfb,
+    type: 3}
+  m_PrefabInstance: {fileID: 1534387695}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1108965005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1108965001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fdca5042b1d12a4890ec1bd4f04290d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tweenTarget: {fileID: 1108965001}
+  hover: {r: 0.88235295, g: 0.78431374, b: 0.5882353, a: 1}
+  pressed: {r: 0.7176471, g: 0.6392157, b: 0.48235294, a: 1}
+  disabledColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  duration: 0.2
+  dragHighlight: 0
+  hoverSprite: 
+  pressedSprite: 
+  disabledSprite: 
+  pixelSnap: 0
+  onClick:
+  - mTarget: {fileID: 1503853801}
+    mMethodName: SimulateClick
+    mParameters:
+    - obj: {fileID: 634626115}
+      field: 
+    oneShot: 0
+--- !u!114 &1108965006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1108965001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 643ea4bc79b55444d974ddbd31a6cd5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constraint: 0
+  onUp: {fileID: 0}
+  onDown: {fileID: 0}
+  onLeft: {fileID: 0}
+  onRight: {fileID: 0}
+  onClick: {fileID: 0}
+  startsSelected: 0
+  forceStartSelection: 0
 --- !u!114 &1124349236 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 11400016, guid: b7df2809a25cfde40b809be2c496d420,
@@ -22169,7 +22733,15 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100002, guid: b501b788c71b2d44382ad4e5604d9bfb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 484899391}
+    - targetCorrespondingSourceObject: {fileID: 100002, guid: b501b788c71b2d44382ad4e5604d9bfb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 484899392}
   m_SourcePrefab: {fileID: 100100000, guid: b501b788c71b2d44382ad4e5604d9bfb, type: 3}
 --- !u!1 &1150942322 stripped
 GameObject:
@@ -23449,7 +24021,7 @@ MonoBehaviour:
   alwaysOnScreen: 0
   anchorOffset: 0
   renderQueue: 0
-  startingRenderQueue: 3029
+  startingRenderQueue: 3032
   mAlpha: 1
   mClipping: 0
   mClipRange: {x: 0, y: 0, z: 300, w: 200}
@@ -24216,7 +24788,15 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100002, guid: b501b788c71b2d44382ad4e5604d9bfb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1354802804}
+    - targetCorrespondingSourceObject: {fileID: 100002, guid: b501b788c71b2d44382ad4e5604d9bfb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1354802805}
   m_SourcePrefab: {fileID: 100100000, guid: b501b788c71b2d44382ad4e5604d9bfb, type: 3}
 --- !u!1 &1259163147
 GameObject:
@@ -26060,6 +26640,61 @@ MonoBehaviour:
   rightType: 1
   bottomType: 1
   topType: 1
+--- !u!1 &1354802800 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100002, guid: b501b788c71b2d44382ad4e5604d9bfb,
+    type: 3}
+  m_PrefabInstance: {fileID: 1256406443}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1354802804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1354802800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fdca5042b1d12a4890ec1bd4f04290d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tweenTarget: {fileID: 1354802800}
+  hover: {r: 0.88235295, g: 0.78431374, b: 0.5882353, a: 1}
+  pressed: {r: 0.7176471, g: 0.6392157, b: 0.48235294, a: 1}
+  disabledColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  duration: 0.2
+  dragHighlight: 0
+  hoverSprite: 
+  pressedSprite: 
+  disabledSprite: 
+  pixelSnap: 0
+  onClick:
+  - mTarget: {fileID: 1503853801}
+    mMethodName: SimulateClick
+    mParameters:
+    - obj: {fileID: 105466353}
+      field: 
+    oneShot: 0
+--- !u!114 &1354802805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1354802800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 643ea4bc79b55444d974ddbd31a6cd5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constraint: 0
+  onUp: {fileID: 0}
+  onDown: {fileID: 0}
+  onLeft: {fileID: 0}
+  onRight: {fileID: 0}
+  onClick: {fileID: 0}
+  startsSelected: 0
+  forceStartSelection: 0
 --- !u!1 &1357143890
 GameObject:
   m_ObjectHideFlags: 0
@@ -26193,6 +26828,61 @@ MonoBehaviour:
   rightType: 1
   bottomType: 1
   topType: 1
+--- !u!1 &1363648485 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100002, guid: b501b788c71b2d44382ad4e5604d9bfb,
+    type: 3}
+  m_PrefabInstance: {fileID: 1861430880}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1363648489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363648485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fdca5042b1d12a4890ec1bd4f04290d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tweenTarget: {fileID: 1363648485}
+  hover: {r: 0.88235295, g: 0.78431374, b: 0.5882353, a: 1}
+  pressed: {r: 0.7176471, g: 0.6392157, b: 0.48235294, a: 1}
+  disabledColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  duration: 0.2
+  dragHighlight: 0
+  hoverSprite: 
+  pressedSprite: 
+  disabledSprite: 
+  pixelSnap: 0
+  onClick:
+  - mTarget: {fileID: 1503853801}
+    mMethodName: SimulateClick
+    mParameters:
+    - obj: {fileID: 1412465047}
+      field: 
+    oneShot: 0
+--- !u!114 &1363648490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363648485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 643ea4bc79b55444d974ddbd31a6cd5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constraint: 0
+  onUp: {fileID: 0}
+  onDown: {fileID: 0}
+  onLeft: {fileID: 0}
+  onRight: {fileID: 0}
+  onClick: {fileID: 0}
+  startsSelected: 0
+  forceStartSelection: 0
 --- !u!1001 &1367430045
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28793,7 +29483,7 @@ Transform:
   m_GameObject: {fileID: 1519260257}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1567.0001, y: 899.00006, z: 0}
+  m_LocalPosition: {x: 1597.0001, y: 899.00006, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -29046,7 +29736,15 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100002, guid: b501b788c71b2d44382ad4e5604d9bfb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1108965005}
+    - targetCorrespondingSourceObject: {fileID: 100002, guid: b501b788c71b2d44382ad4e5604d9bfb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1108965006}
   m_SourcePrefab: {fileID: 100100000, guid: b501b788c71b2d44382ad4e5604d9bfb, type: 3}
 --- !u!1 &1534663669
 GameObject:
@@ -29597,6 +30295,61 @@ MonoBehaviour:
   mMaxLineHeight: 0
   mLineWidth: 0
   mMultiline: 1
+--- !u!1 &1566762785 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100002, guid: b501b788c71b2d44382ad4e5604d9bfb,
+    type: 3}
+  m_PrefabInstance: {fileID: 706857063}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1566762789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1566762785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fdca5042b1d12a4890ec1bd4f04290d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tweenTarget: {fileID: 1566762785}
+  hover: {r: 0.88235295, g: 0.78431374, b: 0.5882353, a: 1}
+  pressed: {r: 0.7176471, g: 0.6392157, b: 0.48235294, a: 1}
+  disabledColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  duration: 0.2
+  dragHighlight: 0
+  hoverSprite: 
+  pressedSprite: 
+  disabledSprite: 
+  pixelSnap: 0
+  onClick:
+  - mTarget: {fileID: 1503853801}
+    mMethodName: SimulateClick
+    mParameters:
+    - obj: {fileID: 1932753140}
+      field: 
+    oneShot: 0
+--- !u!114 &1566762790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1566762785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 643ea4bc79b55444d974ddbd31a6cd5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constraint: 0
+  onUp: {fileID: 0}
+  onDown: {fileID: 0}
+  onLeft: {fileID: 0}
+  onRight: {fileID: 0}
+  onClick: {fileID: 0}
+  startsSelected: 0
+  forceStartSelection: 0
 --- !u!1001 &1578768998
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30071,6 +30824,61 @@ MonoBehaviour:
   rightType: 1
   bottomType: 1
   topType: 1
+--- !u!1 &1595730684 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100002, guid: b501b788c71b2d44382ad4e5604d9bfb,
+    type: 3}
+  m_PrefabInstance: {fileID: 989846820}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1595730688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1595730684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fdca5042b1d12a4890ec1bd4f04290d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tweenTarget: {fileID: 1595730684}
+  hover: {r: 0.88235295, g: 0.78431374, b: 0.5882353, a: 1}
+  pressed: {r: 0.7176471, g: 0.6392157, b: 0.48235294, a: 1}
+  disabledColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  duration: 0.2
+  dragHighlight: 0
+  hoverSprite: 
+  pressedSprite: 
+  disabledSprite: 
+  pixelSnap: 0
+  onClick:
+  - mTarget: {fileID: 1503853801}
+    mMethodName: SimulateClick
+    mParameters:
+    - obj: {fileID: 689397465}
+      field: 
+    oneShot: 0
+--- !u!114 &1595730689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1595730684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 643ea4bc79b55444d974ddbd31a6cd5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constraint: 0
+  onUp: {fileID: 0}
+  onDown: {fileID: 0}
+  onLeft: {fileID: 0}
+  onRight: {fileID: 0}
+  onClick: {fileID: 0}
+  startsSelected: 0
+  forceStartSelection: 0
 --- !u!1001 &1600141206
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32819,7 +33627,15 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100002, guid: b501b788c71b2d44382ad4e5604d9bfb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 108985613}
+    - targetCorrespondingSourceObject: {fileID: 100002, guid: b501b788c71b2d44382ad4e5604d9bfb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 108985614}
   m_SourcePrefab: {fileID: 100100000, guid: b501b788c71b2d44382ad4e5604d9bfb, type: 3}
 --- !u!1 &1750442951
 GameObject:
@@ -33547,7 +34363,7 @@ MonoBehaviour:
   alwaysOnScreen: 0
   anchorOffset: 0
   renderQueue: 0
-  startingRenderQueue: 3029
+  startingRenderQueue: 3032
   mAlpha: 1
   mClipping: 0
   mClipRange: {x: 0, y: 0, z: 300, w: 200}
@@ -34997,7 +35813,15 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100002, guid: b501b788c71b2d44382ad4e5604d9bfb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1363648489}
+    - targetCorrespondingSourceObject: {fileID: 100002, guid: b501b788c71b2d44382ad4e5604d9bfb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1363648490}
   m_SourcePrefab: {fileID: 100100000, guid: b501b788c71b2d44382ad4e5604d9bfb, type: 3}
 --- !u!1 &1865320926
 GameObject:
@@ -36944,7 +37768,7 @@ MonoBehaviour:
   onRight: {fileID: 492286756}
   onClick: {fileID: 0}
   startsSelected: 1
-  forceStartSelection: 0
+  forceStartSelection: 1
 --- !u!1 &1987939010
 GameObject:
   m_ObjectHideFlags: 0
@@ -38419,6 +39243,61 @@ MonoBehaviour:
   rightType: 1
   bottomType: 1
   topType: 1
+--- !u!1 &2044298474 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100002, guid: b501b788c71b2d44382ad4e5604d9bfb,
+    type: 3}
+  m_PrefabInstance: {fileID: 237413619}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2044298478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2044298474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fdca5042b1d12a4890ec1bd4f04290d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tweenTarget: {fileID: 2044298474}
+  hover: {r: 0.88235295, g: 0.78431374, b: 0.5882353, a: 1}
+  pressed: {r: 0.7176471, g: 0.6392157, b: 0.48235294, a: 1}
+  disabledColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  duration: 0.2
+  dragHighlight: 0
+  hoverSprite: 
+  pressedSprite: 
+  disabledSprite: 
+  pixelSnap: 0
+  onClick:
+  - mTarget: {fileID: 1503853801}
+    mMethodName: SimulateClick
+    mParameters:
+    - obj: {fileID: 1384439509}
+      field: 
+    oneShot: 0
+--- !u!114 &2044298479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2044298474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 643ea4bc79b55444d974ddbd31a6cd5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constraint: 0
+  onUp: {fileID: 0}
+  onDown: {fileID: 0}
+  onLeft: {fileID: 0}
+  onRight: {fileID: 0}
+  onClick: {fileID: 0}
+  startsSelected: 0
+  forceStartSelection: 0
 --- !u!1 &2046516821 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100004, guid: b501b788c71b2d44382ad4e5604d9bfb,
@@ -39563,6 +40442,61 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   UseIosSuffix: 0
   UseAndroidSuffix: 0
+--- !u!1 &2063817354 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100002, guid: b501b788c71b2d44382ad4e5604d9bfb,
+    type: 3}
+  m_PrefabInstance: {fileID: 712107352}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2063817358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2063817354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fdca5042b1d12a4890ec1bd4f04290d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tweenTarget: {fileID: 2063817354}
+  hover: {r: 0.88235295, g: 0.78431374, b: 0.5882353, a: 1}
+  pressed: {r: 0.7176471, g: 0.6392157, b: 0.48235294, a: 1}
+  disabledColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  duration: 0.2
+  dragHighlight: 0
+  hoverSprite: 
+  pressedSprite: 
+  disabledSprite: 
+  pixelSnap: 0
+  onClick:
+  - mTarget: {fileID: 1503853801}
+    mMethodName: SimulateClick
+    mParameters:
+    - obj: {fileID: 1308535757}
+      field: 
+    oneShot: 0
+--- !u!114 &2063817359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2063817354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 643ea4bc79b55444d974ddbd31a6cd5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constraint: 0
+  onUp: {fileID: 0}
+  onDown: {fileID: 0}
+  onLeft: {fileID: 0}
+  onRight: {fileID: 0}
+  onClick: {fileID: 0}
+  startsSelected: 0
+  forceStartSelection: 0
 --- !u!1 &2064222220
 GameObject:
   m_ObjectHideFlags: 0
@@ -39779,7 +40713,15 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100002, guid: b501b788c71b2d44382ad4e5604d9bfb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2134645081}
+    - targetCorrespondingSourceObject: {fileID: 100002, guid: b501b788c71b2d44382ad4e5604d9bfb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2134645082}
   m_SourcePrefab: {fileID: 100100000, guid: b501b788c71b2d44382ad4e5604d9bfb, type: 3}
 --- !u!1 &2070699456
 GameObject:
@@ -41288,7 +42230,15 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100002, guid: b501b788c71b2d44382ad4e5604d9bfb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 298515008}
+    - targetCorrespondingSourceObject: {fileID: 100002, guid: b501b788c71b2d44382ad4e5604d9bfb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 298515009}
   m_SourcePrefab: {fileID: 100100000, guid: b501b788c71b2d44382ad4e5604d9bfb, type: 3}
 --- !u!1 &2129782129
 GameObject:
@@ -41388,6 +42338,61 @@ LightingSettings:
   m_PVRTiledBaking: 0
   m_NumRaysToShootPerTexel: -1
   m_RespectSceneVisibilityWhenBakingGI: 0
+--- !u!1 &2134645077 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100002, guid: b501b788c71b2d44382ad4e5604d9bfb,
+    type: 3}
+  m_PrefabInstance: {fileID: 2067736111}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2134645081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2134645077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fdca5042b1d12a4890ec1bd4f04290d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tweenTarget: {fileID: 2134645077}
+  hover: {r: 0.88235295, g: 0.78431374, b: 0.5882353, a: 1}
+  pressed: {r: 0.7176471, g: 0.6392157, b: 0.48235294, a: 1}
+  disabledColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  duration: 0.2
+  dragHighlight: 0
+  hoverSprite: 
+  pressedSprite: 
+  disabledSprite: 
+  pixelSnap: 0
+  onClick:
+  - mTarget: {fileID: 1503853801}
+    mMethodName: SimulateClick
+    mParameters:
+    - obj: {fileID: 1150942322}
+      field: 
+    oneShot: 0
+--- !u!114 &2134645082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2134645077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 643ea4bc79b55444d974ddbd31a6cd5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constraint: 0
+  onUp: {fileID: 0}
+  onDown: {fileID: 0}
+  onLeft: {fileID: 0}
+  onRight: {fileID: 0}
+  onClick: {fileID: 0}
+  startsSelected: 0
+  forceStartSelection: 0
 --- !u!1 &2145691908
 GameObject:
   m_ObjectHideFlags: 0

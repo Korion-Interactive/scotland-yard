@@ -26,11 +26,13 @@ public class TicketPopupMrX : TicketPopup
 
     public void UseAny()
     {
+        TicketUsed();
         this.Broadcast(GameGuiEvents.TransportSelected, this.gameObject, new TransportArgs(TransportationType.Any));
     }
 
     public void UseDouble()
     {
-        this.Broadcast(GameGuiEvents.DoubleTicketSelected);        
+        TicketUsed();
+        this.Broadcast(GameGuiEvents.DoubleTicketSelected);
     }
 }

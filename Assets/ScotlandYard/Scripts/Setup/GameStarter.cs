@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.Events;
 
 /// <summary>
 /// component 'GameStarter'
@@ -8,6 +9,8 @@ using System.Collections;
 [AddComponentMenu("Scripts/GameStarter")]
 public class GameStarter : MonoBehaviour
 {
+    [SerializeField]
+    private UnityEvent _onGameLoaded;
     IEnumerator Start()
     {
         GSP.AllowInvites = false;
@@ -24,7 +27,9 @@ public class GameStarter : MonoBehaviour
 
         this.LogInfo(string.Format("Is Host: {0}", GameSetupBehaviour.Instance.LocalPlayer.IsHost));
 
-        if(!GameState.Instance.HasBeenLoadedFromFile)
+        _onGameLoaded?.Invoke();
+
+        if (!GameState.Instance.HasBeenLoadedFromFile)
             this.Broadcast<GameEvents>(GameEvents.GameStart);
     }
 

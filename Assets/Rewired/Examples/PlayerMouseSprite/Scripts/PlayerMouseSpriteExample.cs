@@ -118,11 +118,24 @@ namespace Rewired.Demos {
 #endif
         public bool hideHardwarePointer = true;
 
+        public float PointerSpeed = 1;
+
+        public Vector3 PointerPosition => pointer.transform.position;
+
+       
+
         [System.NonSerialized]
         private GameObject pointer;
 
         [System.NonSerialized]
         private PlayerMouse mouse;
+
+        public PlayerMouse Mouse => mouse;
+
+        [SerializeField]
+        private Camera _camera;
+
+        public bool CursorVisible { get; private set; }
 
         void Awake() {
 
@@ -148,7 +161,7 @@ namespace Rewired.Demos {
             mouse.middleButton.actionName = middleButtonAction;
 
             // If you want to change joystick pointer speed
-            mouse.pointerSpeed = 1f;
+            mouse.pointerSpeed = PointerSpeed;
 
             // If you want to change the wheel to tick more often
             mouse.wheel.yAxis.repeatRate = 5;
@@ -170,10 +183,12 @@ namespace Rewired.Demos {
 
             // Get the initial position
             OnScreenPositionChanged(mouse.screenPosition);
+
+            CursorVisible = pointer.activeInHierarchy;
         }
 
         void Update() {
-            if (!ReInput.isReady) return;
+            if (!ReInput.isReady || !CursorVisible) return;
 
             // Use the mouse wheel to rotate the pointer
             pointer.transform.Rotate(Vector3.forward, mouse.wheel.yAxis.value * 20f);
@@ -192,7 +207,18 @@ namespace Rewired.Demos {
         void CreateClickEffect(Color color) {
             GameObject go = (GameObject)GameObject.Instantiate(clickEffectPrefab);
             go.transform.localScale = new Vector3(spriteScale, spriteScale, spriteScale);
-            go.transform.position = Camera.main.ScreenToWorldPoint(new Vector3(mouse.screenPosition.x, mouse.screenPosition.y, distanceFromCamera));
+            if (Camera.main != null)
+            {
+                go.transform.position = Camera.main.ScreenToWorldPoint(new Vector3(mouse.screenPosition.x, mouse.screenPosition.y, distanceFromCamera));
+            }
+            else if(_camera != null)
+            {
+                go.transform.position = _camera.ScreenToWorldPoint(new Vector3(mouse.screenPosition.x, mouse.screenPosition.y, distanceFromCamera));
+            }
+            else if(UICamera.currentCamera != null)
+            {
+                go.transform.position = UICamera.currentCamera.ScreenToWorldPoint(new Vector3(mouse.screenPosition.x, mouse.screenPosition.y, distanceFromCamera));
+            }
             go.GetComponentInChildren<SpriteRenderer>().color = color;
             Object.Destroy(go, 0.5f);
         }
@@ -201,10 +227,28 @@ namespace Rewired.Demos {
         void OnScreenPositionChanged(Vector2 position) {
 
             // Convert from screen space to world space
-            Vector3 worldPos = Camera.main.ScreenToWorldPoint(new Vector3(position.x, position.y, distanceFromCamera));
+            Vector3 worldPos = Vector3.zero;
+            if (Camera.main != null)
+            {
+                worldPos = Camera.main.ScreenToWorldPoint(new Vector3(position.x, position.y, distanceFromCamera));
+            }
+            else if(_camera != null) //Ingame
+            {
+                worldPos = _camera.ScreenToWorldPoint(new Vector3(position.x, position.y, distanceFromCamera));
+            }
+            else if (UICamera.currentCamera != null)
+            {
+                worldPos = UICamera.currentCamera.ScreenToWorldPoint(new Vector3(position.x, position.y, distanceFromCamera));
+            }
 
             // Move the pointer object
             pointer.transform.position = worldPos;
+        }
+
+        public void SetVisibility(bool cursorVisible)
+        {
+            pointer.SetActive(cursorVisible);
+            CursorVisible = cursorVisible;
         }
     }
 }

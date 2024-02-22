@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.Events;
 
 /// <summary>
 /// component 'TicketPopup'
@@ -12,6 +13,12 @@ public class TicketPopup : MonoBehaviour
     public UIButton BtnTaxi, BtnBus, BtnMetro;
 
     public BoxCollider Bounds;
+
+    [SerializeField]
+    private UnityEvent _onPopupBuilt;
+
+    [SerializeField]
+    private UnityEvent _onTicketUsed;
 
     void Start()
     {
@@ -36,20 +43,30 @@ public class TicketPopup : MonoBehaviour
         BtnMetro.isEnabled = metro;
 
         this.Broadcast(GameGuiEvents.TicketPopupOpened);
+
+        _onPopupBuilt?.Invoke();
     }
 
     public void UseTaxi()
     {
+        TicketUsed();
         this.Broadcast(GameGuiEvents.TransportSelected, this.gameObject, new TransportArgs(TransportationType.Taxi));
     }
 
     public void UseBus()
     {
+        TicketUsed();
         this.Broadcast(GameGuiEvents.TransportSelected, this.gameObject, new TransportArgs(TransportationType.Bus));
     }
 
     public void UseMetro()
     {
+        TicketUsed();
         this.Broadcast(GameGuiEvents.TransportSelected, this.gameObject, new TransportArgs(TransportationType.Metro));
+    }
+
+    public void TicketUsed()
+    {
+        _onTicketUsed?.Invoke();
     }
 }

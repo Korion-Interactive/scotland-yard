@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Rewired;
+using Rewired.Demos;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,32 +14,53 @@ public class ClickManager : MonoBehaviour
     public List<Camera> Cameras = new List<Camera>();
     public List<GameObject> ObjectsToDisableOnClickAnywhere = new List<GameObject>();
 
+    public PlayerMouseSpriteExample _playerPointer;
+
     Vector2 startClickPosition;
     bool clickTracked;
     float clickTime;
 
     void Update()
     {
+#if UNITY_STANDALONE || UNITY_IOS || UNITY_ANDROID
         if(Input.GetMouseButtonDown(0))
+#else
+        if (_playerPointer.Mouse.leftButton.justPressed)
+#endif
         {
             List<IClickConsumable> clickables = FindClickables();
             foreach(IClickConsumable c in clickables)
                 c.ClickStart();
-
+#if UNITY_STANDALONE || UNITY_IOS || UNITY_ANDROID
             startClickPosition = Input.mousePosition;
+#else
+            startClickPosition = _playerPointer.Mouse.screenPosition;
+#endif
             clickTracked = true;
             clickTime = 0;
         }
 
+#if UNITY_STANDALONE || UNITY_IOS || UNITY_ANDROID
         if(Input.GetMouseButton(0) && clickTracked)
+#else
+        if(_playerPointer.Mouse.leftButton.value == true && clickTracked)
+#endif
         {
             clickTime += Time.deltaTime;
+#if UNITY_STANDALONE || UNITY_IOS || UNITY_ANDROID
             float distSq = (startClickPosition - (Vector2)Input.mousePosition).sqrMagnitude;
+#else
+            float distSq = (startClickPosition - (Vector2)_playerPointer.Mouse.screenPosition).sqrMagnitude;
+#endif
 
             clickTracked = clickTime <= MAX_CLICK_TIME && distSq <= MAX_CLICK_DISTANCE_SQ;
         }
 
+#if UNITY_STANDALONE || UNITY_IOS || UNITY_ANDROID
         if (Input.GetMouseButtonUp(0))
+#else
+        if (_playerPointer.Mouse.leftButton.justReleased)
+#endif
         {
             if (clickTracked)
             {
@@ -75,7 +98,13 @@ public class ClickManager : MonoBehaviour
         List<IClickConsumable> clickables = new List<IClickConsumable>();
         foreach (Camera cam in Cameras)
         {
+#if UNITY_SWITCH || UNITY_STANDALONE || UNITY_IOS || UNITY_ANDROID
             Vector3 pos = cam.ScreenToWorldPoint(Input.mousePosition);
+            Vector3 pos2 = cam.ScreenToWorldPoint(_playerPointer.Mouse.screenPosition);
+#else
+            Vector3 pos = cam.ScreenToWorldPoint(_playerPointer.Mouse.screenPosition);
+#endif
+            pos = cam.ScreenToWorldPoint(_playerPointer.Mouse.screenPosition);
             pos.z = cam.transform.position.z;
 
             RaycastHit[] hits = Physics.RaycastAll(pos, Vector3.forward, float.PositiveInfinity, cam.cullingMask);
