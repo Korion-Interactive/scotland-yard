@@ -84,11 +84,33 @@ public class ClickManager : MonoBehaviour
                         obj.SetActive(false);
 
                     this.Broadcast(GameGuiEvents.ClickedAnywhere);
+
+                    UICamera.selectedObject = null;
                 }
             }
 
             this.Broadcast(GameGuiEvents.MouseUp);
         }
+
+        if (_playerPointer.Mouse.rightButton.justPressed)
+        {
+            foreach (GameObject obj in ObjectsToDisableOnClickAnywhere)
+                obj.SetActive(false);
+
+            this.Broadcast(GameGuiEvents.ClickedAnywhere);
+
+            UICamera.selectedObject = null;
+        }
+    }
+
+    public void ClickedAnywhere()
+    {
+        foreach (GameObject obj in ObjectsToDisableOnClickAnywhere)
+            obj.SetActive(false);
+
+        this.Broadcast(GameGuiEvents.ClickedAnywhere);
+
+        UICamera.selectedObject = null;
     }
 
 

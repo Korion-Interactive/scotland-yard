@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class SelectUIElement : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+
+    public void SelectSpecificObject(GameObject go)
     {
-        
+        UICamera.selectedObject = go;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void SelectCurrentObject()
     {
-        
+        UICamera.selectedObject = this.gameObject;
     }
 }

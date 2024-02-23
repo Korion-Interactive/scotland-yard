@@ -20,6 +20,11 @@ public class TicketPopup : MonoBehaviour
     [SerializeField]
     private UnityEvent _onTicketUsed;
 
+    [SerializeField]
+    private UnityEvent _onPopupClosed;
+
+    private bool _enableClosingBehaviour = false;
+
     void Start()
     {
         this.gameObject.SetActive(false);
@@ -43,6 +48,8 @@ public class TicketPopup : MonoBehaviour
         BtnMetro.isEnabled = metro;
 
         this.Broadcast(GameGuiEvents.TicketPopupOpened);
+
+        _enableClosingBehaviour = true;
 
         _onPopupBuilt?.Invoke();
     }
@@ -68,5 +75,10 @@ public class TicketPopup : MonoBehaviour
     public void TicketUsed()
     {
         _onTicketUsed?.Invoke();
+    }
+
+    private void OnDisable()
+    {
+        _onPopupClosed?.Invoke();
     }
 }
