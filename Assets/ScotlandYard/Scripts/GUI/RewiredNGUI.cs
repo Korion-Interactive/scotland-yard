@@ -27,8 +27,10 @@ public class RewiredNGUI : MonoBehaviour
 
     static bool GetKeyDown(KeyCode key)
     {
+        
         if (key >= KeyCode.JoystickButton0)
         {
+            Debug.Log("Getting Key down: " + key);
             Rewired.Player rewiredSystemPlayer = Rewired.ReInput.players.GetPlayer(0); // Done every time this is called???
 
             switch (key)
@@ -44,6 +46,7 @@ public class RewiredNGUI : MonoBehaviour
     {
         if (key >= KeyCode.JoystickButton0)
         {
+            Debug.Log("Getting Key : " + key);
             Rewired.Player rewiredSystemPlayer = Rewired.ReInput.players.GetPlayer(0); // Done every time this is called???
 
             switch (key)
@@ -59,6 +62,7 @@ public class RewiredNGUI : MonoBehaviour
     {
         if (key >= KeyCode.JoystickButton0)
         {
+            Debug.Log("Getting Key up: " + key);
             Rewired.Player rewiredSystemPlayer = Rewired.ReInput.players.GetPlayer(0); // Done every time this is called???
 
             switch (key)

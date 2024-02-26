@@ -5,6 +5,7 @@
 
 using UnityEngine;
 using System.Collections.Generic;
+using Rewired;
 
 /// <summary>
 /// This script should be attached to each camera that's used to draw the objects with
@@ -104,28 +105,44 @@ public class UICamera : MonoBehaviour
     public delegate bool GetAnyKeyFunc();
 
     /// <summary>
-    /// GetKeyDown function -- return whether the specified key was pressed this Update().
-    /// </summary>
+	/// GetKeyDown function -- return whether the specified key was pressed this Update().
+	/// </summary>
 
-    static public GetKeyStateFunc GetKeyDown = Input.GetKeyDown;
+	static public GetKeyStateFunc GetKeyDown = delegate(KeyCode key)
+	{
+		if (key >= KeyCode.JoystickButton0) return false;
+		return Input.GetKeyDown(key);
+	};
 
-    /// <summary>
-    /// GetKeyDown function -- return whether the specified key was released this Update().
-    /// </summary>
+	/// <summary>
+	/// GetKeyDown function -- return whether the specified key was released this Update().
+	/// </summary>
 
-    static public GetKeyStateFunc GetKeyUp = Input.GetKeyUp;
+	static public GetKeyStateFunc GetKeyUp = delegate(KeyCode key)
+	{
+		if (key >= KeyCode.JoystickButton0) return false;
+		return Input.GetKeyUp(key);
+	};
 
-    /// <summary>
-    /// GetKey function -- return whether the specified key is currently held.
-    /// </summary>
+	/// <summary>
+	/// GetKey function -- return whether the specified key is currently held.
+	/// </summary>
 
-    static public GetKeyStateFunc GetKey = Input.GetKey;
+	static public GetKeyStateFunc GetKey = delegate(KeyCode key)
+	{
+		if (key >= KeyCode.JoystickButton0) return false;
+		return Input.GetKey(key);
+	};
 
-    /// <summary>
-    /// GetAxis function -- return the state of the specified axis.
-    /// </summary>
+	/// <summary>
+	/// GetAxis function -- return the state of the specified axis.
+	/// </summary>
 
-    static public GetAxisFunc GetAxis = Input.GetAxis;
+	static public GetAxisFunc GetAxis = delegate(string axis)
+	{
+		
+		return Input.GetAxis(axis);
+	};
 
     /// <summary>
     /// User-settable Input.anyKeyDown
@@ -978,6 +995,7 @@ public class UICamera : MonoBehaviour
     static bool disableControllerCheck = true;
 #endif
 
+	Player _player;//KORION
 #if !UNITY_3_5 && !UNITY_4_0
     /// <summary>
     /// We don't want the camera to send out any kind of mouse events.
@@ -985,6 +1003,11 @@ public class UICamera : MonoBehaviour
 
     void Start ()
 	{
+		if(ReInput.isReady)
+		{
+			_player = ReInput.players.GetPlayer(0); //KORION
+		}
+
 		if (eventType != EventType.World && cachedCamera.transparencySortMode != TransparencySortMode.Orthographic)
 			cachedCamera.transparencySortMode = TransparencySortMode.Orthographic;
 
@@ -1342,25 +1365,25 @@ public class UICamera : MonoBehaviour
 		bool submitKeyDown = false;
 		bool submitKeyUp = false;
 
-		if (submitKey0 != KeyCode.None && Input.GetKeyDown(submitKey0))
+		if (submitKey0 != KeyCode.None && Input.GetKeyDown(submitKey0) || _player.GetButton("UISubmit"))
 		{
 			currentKey = submitKey0;
 			submitKeyDown = true;
 		}
 
-		if (submitKey1 != KeyCode.None && Input.GetKeyDown(submitKey1))
+		if (submitKey1 != KeyCode.None && Input.GetKeyDown(submitKey1) || _player.GetButton("UISubmit"))
 		{
 			currentKey = submitKey1;
 			submitKeyDown = true;
 		}
 
-		if (submitKey0 != KeyCode.None && Input.GetKeyUp(submitKey0))
+		if (submitKey0 != KeyCode.None && Input.GetKeyUp(submitKey0) || _player.GetButton("UISubmit"))
 		{
 			currentKey = submitKey0;
 			submitKeyUp = true;
 		}
 
-		if (submitKey1 != KeyCode.None && Input.GetKeyUp(submitKey1))
+		if (submitKey1 != KeyCode.None && Input.GetKeyUp(submitKey1) || _player.GetButton("UISubmit"))
 		{
 			currentKey = submitKey1;
 			submitKeyUp = true;
@@ -1422,14 +1445,14 @@ public class UICamera : MonoBehaviour
 		}
 
 		// Send out the cancel key notification
-		if (cancelKey0 != KeyCode.None && Input.GetKeyDown(cancelKey0))
+		if (cancelKey0 != KeyCode.None && Input.GetKeyDown(cancelKey0) || _player.GetButton("UICancel"))
 		{
 			currentKey = cancelKey0;
 			currentScheme = ControlScheme.Controller;
 			Notify(mCurrentSelection, "OnKey", KeyCode.Escape);
 		}
 
-		if (cancelKey1 != KeyCode.None && Input.GetKeyDown(cancelKey1))
+		if (cancelKey1 != KeyCode.None && Input.GetKeyDown(cancelKey1) || _player.GetButton("UICancel"))
 		{
 			currentKey = cancelKey1;
 			currentScheme = ControlScheme.Controller;
