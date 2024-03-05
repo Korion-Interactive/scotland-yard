@@ -1365,25 +1365,25 @@ public class UICamera : MonoBehaviour
 		bool submitKeyDown = false;
 		bool submitKeyUp = false;
 
-		if (submitKey0 != KeyCode.None && Input.GetKeyDown(submitKey0) || _player.GetButton("UISubmit"))
+		if (submitKey0 != KeyCode.None && Input.GetKeyDown(submitKey0)|| _player.GetButtonDown("UISubmit"))
 		{
 			currentKey = submitKey0;
 			submitKeyDown = true;
 		}
 
-		if (submitKey1 != KeyCode.None && Input.GetKeyDown(submitKey1) || _player.GetButton("UISubmit"))
+		if (submitKey1 != KeyCode.None && Input.GetKeyDown(submitKey1) || _player.GetButtonDown("UISubmit"))
 		{
 			currentKey = submitKey1;
 			submitKeyDown = true;
 		}
 
-		if (submitKey0 != KeyCode.None && Input.GetKeyUp(submitKey0) || _player.GetButton("UISubmit"))
+		if (submitKey0 != KeyCode.None && Input.GetKeyUp(submitKey0) || _player.GetButtonUp("UISubmit"))
 		{
 			currentKey = submitKey0;
 			submitKeyUp = true;
 		}
 
-		if (submitKey1 != KeyCode.None && Input.GetKeyUp(submitKey1) || _player.GetButton("UISubmit"))
+		if (submitKey1 != KeyCode.None && Input.GetKeyUp(submitKey1) || _player.GetButtonUp("UISubmit"))
 		{
 			currentKey = submitKey1;
 			submitKeyUp = true;
@@ -1445,14 +1445,14 @@ public class UICamera : MonoBehaviour
 		}
 
 		// Send out the cancel key notification
-		if (cancelKey0 != KeyCode.None && Input.GetKeyDown(cancelKey0) || _player.GetButton("UICancel"))
+		if (cancelKey0 != KeyCode.None && Input.GetKeyDown(cancelKey0) || _player.GetButtonDown("UICancel"))
 		{
 			currentKey = cancelKey0;
 			currentScheme = ControlScheme.Controller;
 			Notify(mCurrentSelection, "OnKey", KeyCode.Escape);
 		}
 
-		if (cancelKey1 != KeyCode.None && Input.GetKeyDown(cancelKey1) || _player.GetButton("UICancel"))
+		if (cancelKey1 != KeyCode.None && Input.GetKeyDown(cancelKey1) || _player.GetButtonDown("UICancel"))
 		{
 			currentKey = cancelKey1;
 			currentScheme = ControlScheme.Controller;
