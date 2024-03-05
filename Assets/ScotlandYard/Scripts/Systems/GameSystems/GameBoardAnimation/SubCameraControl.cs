@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Rewired;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,6 +23,16 @@ public class SubCameraControl : SubSystem<GameBoardAnimationSystem>
     public bool IsGesturesEnabled { get { return isGesturesEnabled; } set { if (!LockGestureEnabledStatus) isGesturesEnabled = value; } }
     public bool LockGestureEnabledStatus = false;
 
+    [Header("Rewired")]
+
+    [SerializeField]
+    private int _playerId = 0;
+
+    [SerializeField]
+    private Rewired.Player _player;
+
+    private Vector2 _rightJoystickInput = Vector2.zero;
+
     internal override void RegisterEvents()
     {
         System.ListenTo(GameEvents.TurnStart, TurnStart);
@@ -33,6 +44,12 @@ public class SubCameraControl : SubSystem<GameBoardAnimationSystem>
         Gesture.onPinchE += Gesture_onPinchE;
         Gesture.onDraggingE += Gesture_onDraggingE;
 
+        if (ReInput.isReady)
+            _player = ReInput.players.GetPlayer(0);
+
+        _player.AddInputEventDelegate(OnRightStickX, UpdateLoopType.Update, "CameraX");
+        _player.AddInputEventDelegate(OnRightStickY, UpdateLoopType.Update, "CameraY");
+
     }
 
     internal override void OnDestroy()
@@ -41,6 +58,9 @@ public class SubCameraControl : SubSystem<GameBoardAnimationSystem>
 
         Gesture.onPinchE -= Gesture_onPinchE;
         Gesture.onDraggingE -= Gesture_onDraggingE;
+
+        _player.RemoveInputEventDelegate(OnRightStickX);
+        _player.RemoveInputEventDelegate(OnRightStickY);
     }
 
     bool Check(object info)
@@ -198,6 +218,12 @@ public class SubCameraControl : SubSystem<GameBoardAnimationSystem>
 
                 dragVelocity *= 1 - (Time.deltaTime * DRAG_SLOW_DOWN);
             }
+
+            if(_rightJoystickInput.x != 0 || _rightJoystickInput.y != 0)
+            {
+                DragInfo dragInfo = new DragInfo(Vector2.zero, _rightJoystickInput * 5, 1, 0, false, false);
+                Gesture_onDraggingE(dragInfo);
+            }
         }
         KeepCamInBounds();
     }
@@ -208,5 +234,29 @@ public class SubCameraControl : SubSystem<GameBoardAnimationSystem>
             return;
 
         FocusCamera(args.RelatedObject.transform.position);
+    }
+
+    private void OnRightStickY(InputActionEventData data)
+    {
+        if (data.GetAxis() != 0)
+        {
+            _rightJoystickInput.y = -data.GetAxis();
+        }
+        else if(_rightJoystickInput.y != 0)
+        {
+            _rightJoystickInput.y = 0;
+        }
+    }
+
+    private void OnRightStickX(InputActionEventData data)
+    {
+        if (data.GetAxis() != 0)
+        {
+            _rightJoystickInput.x = -data.GetAxis();
+        }
+        else if (_rightJoystickInput.x != 0)
+        {
+            _rightJoystickInput.x = 0;
+        }
     }
 }
