@@ -34,6 +34,7 @@ public class AudioSystem : BaseSystem<GameEvents, GameGuiEvents, GameSetupEvents
         ListenTo(GameSetupEvents.PlayerChoseCard, PlayerChoseCard);
 
         UIButton.AnyButtonClicked += AnyButtonClicked;
+        UIToggleNavigation.AnyToggleClicked += AnyButtonClicked;
         UIPlayAnimation.AnyAnimationStarted += AnyAnimationStarted;
 
         if (AppSetup.Instance.IsMusicEnabled)
@@ -47,6 +48,7 @@ public class AudioSystem : BaseSystem<GameEvents, GameGuiEvents, GameSetupEvents
     protected override void OnDestroy()
     {
         UIButton.AnyButtonClicked -= AnyButtonClicked;
+        UIToggleNavigation.AnyToggleClicked -= AnyButtonClicked;
         UIPlayAnimation.AnyAnimationStarted -= AnyAnimationStarted;
         base.OnDestroy();
     }
@@ -106,6 +108,11 @@ public class AudioSystem : BaseSystem<GameEvents, GameGuiEvents, GameSetupEvents
             PlaySfx("menu_slide");
     }
     private void AnyButtonClicked(UIButton obj)
+    {
+        PlaySfx("ui_button_click");
+    }
+    
+    private void AnyButtonClicked(UIToggleNavigation obj)
     {
         PlaySfx("ui_button_click");
     }
