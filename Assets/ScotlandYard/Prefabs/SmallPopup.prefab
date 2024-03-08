@@ -479,6 +479,7 @@ GameObject:
   - component: {fileID: 6500002}
   - component: {fileID: 11400018}
   - component: {fileID: 1934692341644031114}
+  - component: {fileID: 5132553788505372618}
   m_Layer: 8
   m_Name: PopUpYesButton
   m_TagString: Untagged
@@ -616,8 +617,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 7500, y: 5000, z: 0}
-  m_Center: {x: -471.55, y: 236, z: 0}
+  m_Size: {x: 405.37125, y: 213.53787, z: 0}
+  m_Center: {x: -127.0685, y: 44.982925, z: 0}
 --- !u!114 &11400018
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -659,6 +660,26 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   PlayerID: 0
+--- !u!114 &5132553788505372618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 643ea4bc79b55444d974ddbd31a6cd5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constraint: 0
+  onUp: {fileID: 0}
+  onDown: {fileID: 0}
+  onLeft: {fileID: 0}
+  onRight: {fileID: 0}
+  onClick: {fileID: 0}
+  startsSelected: 1
+  forceStartSelection: 1
 --- !u!1 &100010
 GameObject:
   m_ObjectHideFlags: 0

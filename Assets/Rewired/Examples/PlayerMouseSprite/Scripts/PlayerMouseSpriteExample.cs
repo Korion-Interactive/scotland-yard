@@ -1,6 +1,7 @@
 ﻿// Copyright (c) 2018 Augie R. Maddox, Guavaman Enterprises. All rights reserved.
 
 #region Defines
+
 #if UNITY_2020 || UNITY_2021 || UNITY_2022 || UNITY_2023 || UNITY_2024 || UNITY_2025
 #define UNITY_2020_PLUS
 #endif
@@ -122,8 +123,6 @@ namespace Rewired.Demos {
 
         public Vector3 PointerPosition => pointer.transform.position;
 
-       
-
         [System.NonSerialized]
         private GameObject pointer;
 
@@ -134,6 +133,8 @@ namespace Rewired.Demos {
 
         [SerializeField]
         private Camera _camera;
+        
+        private bool _isTutorialPopupOpened;
 
         public bool CursorVisible { get; private set; }
 
@@ -187,6 +188,12 @@ namespace Rewired.Demos {
             CursorVisible = pointer.activeInHierarchy;
         }
 
+        private void Start()
+        {
+                PopupManager.OnTutorialPopupOpened += OnTutorialPopupOpened;
+                PopupManager.OnTutorialPopupClosed += OnTutorialPopupClosed;
+        }
+
         void Update() {
             if (!ReInput.isReady || !CursorVisible) return;
 
@@ -202,6 +209,8 @@ namespace Rewired.Demos {
         void OnDestroy() {
             if (!ReInput.isReady) return;
             mouse.ScreenPositionChangedEvent -= OnScreenPositionChanged;
+            PopupManager.OnTutorialPopupOpened -= OnTutorialPopupOpened;
+            PopupManager.OnTutorialPopupClosed -= OnTutorialPopupClosed;
         }
 
         void CreateClickEffect(Color color) {
@@ -249,6 +258,24 @@ namespace Rewired.Demos {
         {
             pointer.SetActive(cursorVisible);
             CursorVisible = cursorVisible;
+        }
+
+        private void SetupPointerVisibility()
+        { 
+            //TODO: Evaluate other conditions for pointer visibility
+            SetVisibility(!_isTutorialPopupOpened);
+        }
+        
+        private void OnTutorialPopupOpened()
+        {
+            _isTutorialPopupOpened = true;
+            SetupPointerVisibility();
+        }
+        
+        private void OnTutorialPopupClosed()
+        {
+            _isTutorialPopupOpened = false;
+            SetupPointerVisibility();
         }
     }
 }
