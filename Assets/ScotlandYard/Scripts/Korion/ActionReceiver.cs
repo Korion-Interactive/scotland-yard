@@ -1,4 +1,6 @@
+using Korion.ScotlandYard.Input;
 using Rewired;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -14,7 +16,18 @@ public class ActionReceiver : MonoBehaviour
     private void OnEnable()
     {
         //KORION TODO: Get current player
-        _player = ReInput.players.GetPlayer(PlayerID);
+        _player = MultiplayerInputManager.Instance.CurrentPlayer;
+
+        MultiplayerInputManager.onPlayerChanged += OnPlayerChanged;
+
+        OnPlayerChanged(_player);   // Initial subscription
+    }
+
+    private void OnPlayerChanged(Player player)
+    {
+        _player.RemoveInputEventDelegate(OnActionPressed);
+
+        _player = player;
 
         _player.AddInputEventDelegate(OnActionPressed, UpdateLoopType.Update, _actionToTrigger);
     }
@@ -22,6 +35,7 @@ public class ActionReceiver : MonoBehaviour
     private void OnDisable()
     {
         _player.RemoveInputEventDelegate(OnActionPressed);
+        MultiplayerInputManager.onPlayerChanged -= OnPlayerChanged;
     }
 
     private void OnActionPressed(InputActionEventData action)

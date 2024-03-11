@@ -54,7 +54,9 @@
 #endregion
 
 namespace Rewired.Demos {
+    using Korion.ScotlandYard.Input;
     using UnityEngine;
+    using static Korion.ScotlandYard.Input.MultiplayerInputManager;
 
     [AddComponentMenu("")]
     public class PlayerMouseSpriteExample : MonoBehaviour {
@@ -62,7 +64,7 @@ namespace Rewired.Demos {
 #if UNITY_4_6_PLUS
         [Tooltip("The Player that will control the mouse")]
 #endif
-        public int playerId = 0;
+        public int playerId = MultiplayerInputManager.Instance.CurrentPlayer.id;
 
 #if UNITY_4_6_PLUS
         [Tooltip("The Rewired Action used for the mouse horizontal axis.")]
@@ -204,6 +206,14 @@ namespace Rewired.Demos {
             OnScreenPositionChanged(mouse.screenPosition);
 
             CursorVisible = pointer.activeInHierarchy;
+
+            MultiplayerInputManager.onPlayerChanged += OnPlayerChanged;
+
+        }
+
+        private void OnPlayerChanged(Player player)
+        {
+            mouse.playerId = player.id;
         }
 
         void Update() {
@@ -217,8 +227,10 @@ namespace Rewired.Demos {
             if (mouse.rightButton.justPressed) CreateClickEffect(new Color(1f, 0f, 0f, 1f)); // red for right
             if(mouse.middleButton.justPressed) CreateClickEffect(new Color(1f, 1f, 0f, 1f)); // yellow for middle
         }
-
         void OnDestroy() {
+
+            MultiplayerInputManager.onPlayerChanged -= OnPlayerChanged;
+
             if (!ReInput.isReady) return;
             mouse.ScreenPositionChangedEvent -= OnScreenPositionChanged;
         }

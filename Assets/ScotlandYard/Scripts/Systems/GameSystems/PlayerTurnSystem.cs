@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Korion.ScotlandYard.Input;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -198,6 +199,9 @@ public class PlayerTurnSystem : BaseSystem<GameEvents, PlayerTurnSystem>
         Action nextPlayer = () =>
             {
                 curPlayer.StartTurn();
+
+                if(curPlayer.PlayerInfo.Controller == PlayerController.Human)
+                    MultiplayerInputManager.Instance.NextPlayer();
             };
 
         if(IsMixedHotSeatGame())

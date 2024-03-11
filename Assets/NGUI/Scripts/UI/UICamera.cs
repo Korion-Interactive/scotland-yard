@@ -6,6 +6,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 using Rewired;
+using Korion.ScotlandYard.Input;
 
 /// <summary>
 /// This script should be attached to each camera that's used to draw the objects with
@@ -991,6 +992,12 @@ public class UICamera : MonoBehaviour
 
 	void OnDisable () { list.Remove(this); }
 
+    private void OnDestroy()
+    {
+		MultiplayerInputManager.onPlayerChanged -= OnPlayerChanged;
+    }
+
+
 #if UNITY_EDITOR || UNITY_STANDALONE_WIN || UNITY_STANDALONE_OSX || UNITY_STANDALONE_LINUX
     static bool disableControllerCheck = true;
 #endif
@@ -1005,8 +1012,10 @@ public class UICamera : MonoBehaviour
 	{
 		if(ReInput.isReady)
 		{
-			_player = ReInput.players.GetPlayer(0); //KORION
+			_player = MultiplayerInputManager.Instance.CurrentPlayer; //KORION
 		}
+
+		MultiplayerInputManager.onPlayerChanged += OnPlayerChanged;
 
 		if (eventType != EventType.World && cachedCamera.transparencySortMode != TransparencySortMode.Orthographic)
 			cachedCamera.transparencySortMode = TransparencySortMode.Orthographic;
@@ -1045,12 +1054,17 @@ public class UICamera : MonoBehaviour
         }
         if (handlesEvents) NGUIDebug.debugRaycast = debug;
 	}
+
+    private void OnPlayerChanged(Player player)
+    {
+		_player = player;
+    }
 #else
 	void Start () { if (handlesEvents) NGUIDebug.debugRaycast = debug; }
 #endif
 
 #if UNITY_EDITOR
-	void OnValidate () { Start(); }
+    void OnValidate () { Start(); }
 #endif
 
 	/// <summary>
