@@ -54,4 +54,9 @@ public class UIEventListener : MonoBehaviour
 		if (listener == null) listener = go.AddComponent<UIEventListener>();
 		return listener;
 	}
+	
+	public void SimulateClick()
+	{
+		OnClick();
+	}
 }

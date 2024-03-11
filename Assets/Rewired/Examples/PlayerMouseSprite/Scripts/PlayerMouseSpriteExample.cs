@@ -1,6 +1,7 @@
 ﻿// Copyright (c) 2018 Augie R. Maddox, Guavaman Enterprises. All rights reserved.
 
 #region Defines
+
 #if UNITY_2020 || UNITY_2021 || UNITY_2022 || UNITY_2023 || UNITY_2024 || UNITY_2025
 #define UNITY_2020_PLUS
 #endif
@@ -124,8 +125,6 @@ namespace Rewired.Demos {
 
         public Vector3 PointerPosition => pointer.transform.position;
 
-       
-
         [System.NonSerialized]
         private GameObject pointer;
 
@@ -136,12 +135,32 @@ namespace Rewired.Demos {
 
         [SerializeField]
         private Camera _camera;
+        
+        private Camera _mainCamera;
+        
+        private bool _isTutorialPopupOpened;
 
         public bool CursorVisible { get; private set; }
+        
+        private static PlayerMouseSpriteExample _instance;
+        
+        public static PlayerMouseSpriteExample Instance => _instance;
+        
 
         void Awake() {
 
-            pointer = (GameObject)GameObject.Instantiate(pointerPrefab);
+            if(_instance == null)
+            {
+                _instance = this;
+            }
+            else
+            {
+                Destroy(gameObject);
+            }
+            
+            _mainCamera = Camera.main;
+            
+            pointer = Instantiate(pointerPrefab);
             pointer.transform.localScale = new Vector3(spriteScale, spriteScale, spriteScale);
 
 #if UNITY_5_PLUS
@@ -217,17 +236,17 @@ namespace Rewired.Demos {
         }
 
         void CreateClickEffect(Color color) {
-            GameObject go = (GameObject)GameObject.Instantiate(clickEffectPrefab);
+            GameObject go = Instantiate(clickEffectPrefab);
             go.transform.localScale = new Vector3(spriteScale, spriteScale, spriteScale);
-            if (Camera.main != null)
+            if (_mainCamera)
             {
-                go.transform.position = Camera.main.ScreenToWorldPoint(new Vector3(mouse.screenPosition.x, mouse.screenPosition.y, distanceFromCamera));
+                go.transform.position = _mainCamera.ScreenToWorldPoint(new Vector3(mouse.screenPosition.x, mouse.screenPosition.y, distanceFromCamera));
             }
-            else if(_camera != null)
+            else if(_camera)
             {
                 go.transform.position = _camera.ScreenToWorldPoint(new Vector3(mouse.screenPosition.x, mouse.screenPosition.y, distanceFromCamera));
             }
-            else if(UICamera.currentCamera != null)
+            else if(UICamera.currentCamera)
             {
                 go.transform.position = UICamera.currentCamera.ScreenToWorldPoint(new Vector3(mouse.screenPosition.x, mouse.screenPosition.y, distanceFromCamera));
             }
@@ -240,9 +259,9 @@ namespace Rewired.Demos {
 
             // Convert from screen space to world space
             Vector3 worldPos = Vector3.zero;
-            if (Camera.main != null)
+            if (_mainCamera)
             {
-                worldPos = Camera.main.ScreenToWorldPoint(new Vector3(position.x, position.y, distanceFromCamera));
+                worldPos = _mainCamera.ScreenToWorldPoint(new Vector3(position.x, position.y, distanceFromCamera));
             }
             else if(_camera != null) //Ingame
             {
@@ -259,6 +278,8 @@ namespace Rewired.Demos {
 
         public void SetVisibility(bool cursorVisible)
         {
+            //TODO: Check Controller Type
+            Debug.Log("SetVisibility: " + cursorVisible, pointer);
             pointer.SetActive(cursorVisible);
             CursorVisible = cursorVisible;
         }

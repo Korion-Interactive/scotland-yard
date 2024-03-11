@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections;
 using System;
 using System.Linq;
 
@@ -24,10 +23,8 @@ public class PopupManager : MonoBehaviour
     public Transform TutorialPopupDefaultPosition, NotificationPosition;
     public GameObject PopUpWindowPrefab, TutorialPopupPrefab, NotificationPrefab;
 
-
-
     private PopupInfo currentPopup, currentTutorialPopup, currentNotification;
-
+    
 
 
     // Use this for initialization
@@ -256,7 +253,7 @@ public class PopupManager : MonoBehaviour
             Log.warn(this, "destroy tut-popup programmatically!");
             DestroyTutorialWindowProgramatically(currentTutorialPopup.yesButton);
         }
-
+        
         EmergencyKillPopup("TutorialPopup");
 
         GameObject go = NGUITools.AddChild(Parent, TutorialPopupPrefab);

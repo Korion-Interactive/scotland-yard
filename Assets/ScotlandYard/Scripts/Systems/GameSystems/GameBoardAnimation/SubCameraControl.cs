@@ -218,7 +218,13 @@ public class SubCameraControl : SubSystem<GameBoardAnimationSystem>
         if (!GameState.Instance.IsGamePaused && IsGesturesEnabled)
         {
             var wheel = 0.1f * Math.Sign(Input.GetAxis("Mouse ScrollWheel"));
-
+#if UNITY_SWITCH || UNITY_STANDALONE || UNITY_PS4 || UNITY_PS5
+            if (_player != null)
+            {
+                wheel = _player.GetAxis("MouseWheel") * 0.01f;
+            }
+#endif
+            
             if (wheel != 0)
                 Cam.orthographicSize = Helpers.Clamp(Cam.orthographicSize - wheel, MIN_ZOOM, MAX_ZOOM);
 
