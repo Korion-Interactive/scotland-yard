@@ -18,11 +18,10 @@ namespace Korion.ScotlandYard.Input
 
         private static MultiplayerInputManager _instance;
 
-        [SerializeField]
         private List<Player> _players = new();
         private Player _mainPlayer;
-
         private int _currentPlayerIndex = 0;
+
 
         private void Awake()
         {
