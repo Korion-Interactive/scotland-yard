@@ -1,4 +1,5 @@
-﻿using Rewired;
+﻿using Korion.ScotlandYard.Input;
+using Rewired;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -47,9 +48,20 @@ public class SubCameraControl : SubSystem<GameBoardAnimationSystem>
         if (ReInput.isReady)
             _player = ReInput.players.GetPlayer(0);
 
+        MultiplayerInputManager.onPlayerChanged += PlayerChanged;
+
+        PlayerChanged(_player);
+    }
+
+    private void PlayerChanged(Player player)
+    {
+        _player.RemoveInputEventDelegate(OnRightStickX);
+        _player.RemoveInputEventDelegate(OnRightStickY);
+
+        _player = player;
+
         _player.AddInputEventDelegate(OnRightStickX, UpdateLoopType.Update, "CameraX");
         _player.AddInputEventDelegate(OnRightStickY, UpdateLoopType.Update, "CameraY");
-
     }
 
     internal override void OnDestroy()
@@ -59,8 +71,7 @@ public class SubCameraControl : SubSystem<GameBoardAnimationSystem>
         Gesture.onPinchE -= Gesture_onPinchE;
         Gesture.onDraggingE -= Gesture_onDraggingE;
 
-        _player.RemoveInputEventDelegate(OnRightStickX);
-        _player.RemoveInputEventDelegate(OnRightStickY);
+        MultiplayerInputManager.onPlayerChanged -= PlayerChanged;
     }
 
     bool Check(object info)

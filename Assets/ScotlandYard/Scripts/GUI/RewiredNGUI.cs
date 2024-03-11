@@ -1,3 +1,4 @@
+using Korion.ScotlandYard.Input;
 using Newtonsoft.Json;
 using System.Collections;
 using System.Collections.Generic;
@@ -31,12 +32,11 @@ public class RewiredNGUI : MonoBehaviour
         if (key >= KeyCode.JoystickButton0)
         {
             Debug.Log("Getting Key down: " + key);
-            Rewired.Player rewiredSystemPlayer = Rewired.ReInput.players.GetPlayer(0); // Done every time this is called???
 
             switch (key)
             {
-                case KeyCode.JoystickButton0: return rewiredSystemPlayer.GetButtonDown(_actionBottomRow1);        // Action bottom row 1 (Xbox "A" button, for instance)
-                case KeyCode.JoystickButton1: return rewiredSystemPlayer.GetButtonDown(_actionBottomRow2);        // Action bottom row 2 (Xbox "B" button, for instance)
+                case KeyCode.JoystickButton0: return MultiplayerInputManager.Instance.CurrentPlayer.GetButtonDown(_actionBottomRow1);        // Action bottom row 1 (Xbox "A" button, for instance)
+                case KeyCode.JoystickButton1: return MultiplayerInputManager.Instance.CurrentPlayer.GetButtonDown(_actionBottomRow2);        // Action bottom row 2 (Xbox "B" button, for instance)
             }
         }
         return false;
@@ -47,12 +47,11 @@ public class RewiredNGUI : MonoBehaviour
         if (key >= KeyCode.JoystickButton0)
         {
             Debug.Log("Getting Key : " + key);
-            Rewired.Player rewiredSystemPlayer = Rewired.ReInput.players.GetPlayer(0); // Done every time this is called???
 
             switch (key)
             {
-                case KeyCode.JoystickButton0: return rewiredSystemPlayer.GetButton(_actionBottomRow1);        // Action bottom row 1 (Xbox "A" button, for instance)
-                case KeyCode.JoystickButton1: return rewiredSystemPlayer.GetButton(_actionBottomRow2);        // Action bottom row 2 (Xbox "B" button, for instance)
+                case KeyCode.JoystickButton0: return MultiplayerInputManager.Instance.CurrentPlayer.GetButton(_actionBottomRow1);        // Action bottom row 1 (Xbox "A" button, for instance)
+                case KeyCode.JoystickButton1: return MultiplayerInputManager.Instance.CurrentPlayer.GetButton(_actionBottomRow2);        // Action bottom row 2 (Xbox "B" button, for instance)
             }
         }
         return false;
@@ -63,12 +62,11 @@ public class RewiredNGUI : MonoBehaviour
         if (key >= KeyCode.JoystickButton0)
         {
             Debug.Log("Getting Key up: " + key);
-            Rewired.Player rewiredSystemPlayer = Rewired.ReInput.players.GetPlayer(0); // Done every time this is called???
 
             switch (key)
             {
-                case KeyCode.JoystickButton0: return rewiredSystemPlayer.GetButtonUp(_actionBottomRow1);        // Action bottom row 1 (Xbox "A" button, for instance)
-                case KeyCode.JoystickButton1: return rewiredSystemPlayer.GetButtonUp(_actionBottomRow2);        // Action bottom row 2 (Xbox "B" button, for instance)
+                case KeyCode.JoystickButton0: return MultiplayerInputManager.Instance.CurrentPlayer.GetButtonUp(_actionBottomRow1);        // Action bottom row 1 (Xbox "A" button, for instance)
+                case KeyCode.JoystickButton1: return MultiplayerInputManager.Instance.CurrentPlayer.GetButtonUp(_actionBottomRow2);        // Action bottom row 2 (Xbox "B" button, for instance)
             }
         }
         return false;
@@ -76,12 +74,10 @@ public class RewiredNGUI : MonoBehaviour
 
     static float GetAxis(string name)
     {
-        Rewired.Player rewiredSystemPlayer = Rewired.ReInput.players.GetPlayer(0); // Done every time this is called???
-
         switch (name)
         {
-            case "UIHorizontal": return rewiredSystemPlayer.GetAxis(_leftStickX) + rewiredSystemPlayer.GetAxis(_dPadX);
-            case "UIVertical": return rewiredSystemPlayer.GetAxis(_leftStickY) + rewiredSystemPlayer.GetAxis(_dPadY);
+            case "UIHorizontal": return MultiplayerInputManager.Instance.CurrentPlayer.GetAxis(_leftStickX) + MultiplayerInputManager.Instance.CurrentPlayer.GetAxis(_dPadX);
+            case "UIVertical": return MultiplayerInputManager.Instance.CurrentPlayer.GetAxis(_leftStickY) + MultiplayerInputManager.Instance.CurrentPlayer.GetAxis(_dPadY);
         }
         return 0;
     }

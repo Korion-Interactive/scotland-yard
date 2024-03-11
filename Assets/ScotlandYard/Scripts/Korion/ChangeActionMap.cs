@@ -1,3 +1,4 @@
+using Korion.ScotlandYard.Input;
 using Rewired;
 using System.Collections;
 using System.Collections.Generic;
@@ -38,7 +39,9 @@ public class ChangeActionMap : MonoBehaviour
     {
         Player player = ReInput.players.GetPlayer(_playerIndex);
         _cachedControllerMap = GetCurrentActionMap();
-        SetControllerMap(player, _controllerMapToSwitchTo);
+
+        foreach(var _player in MultiplayerInputManager.Instance.AllPlayers)     // For now let every player share the same controller map
+            SetControllerMap(_player, _controllerMapToSwitchTo);
     }
 
     private void SetControllerMap(Player player, string controllerMap)
@@ -59,17 +62,18 @@ public class ChangeActionMap : MonoBehaviour
 
     public void ResetControllerMaps()
     {
-        Player player = ReInput.players.GetPlayer(_playerIndex);
-
-        if(_controllerMapToSwitchTo == "Default")
+        foreach (var _player in MultiplayerInputManager.Instance.AllPlayers)     // For now let every player share the same controller map
         {
-            player.controllers.maps.SetMapsEnabled(false, "Default");
-            player.controllers.maps.SetMapsEnabled(true, "UI");
-        }
-        else if(_controllerMapToSwitchTo == "UI")
-        {
-            player.controllers.maps.SetMapsEnabled(true, "Default");
-            player.controllers.maps.SetMapsEnabled(false, "UI");
+            if (_controllerMapToSwitchTo == "Default")
+            {
+                _player.controllers.maps.SetMapsEnabled(false, "Default");
+                _player.controllers.maps.SetMapsEnabled(true, "UI");
+            }
+            else if (_controllerMapToSwitchTo == "UI")
+            {
+                _player.controllers.maps.SetMapsEnabled(true, "Default");
+                _player.controllers.maps.SetMapsEnabled(false, "UI");
+            }
         }
     }
 
