@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7180289873068113595}
   - component: {fileID: 1964067702446278781}
   - component: {fileID: 8802288697380190877}
+  - component: {fileID: 13542193513205022}
   m_Layer: 0
   m_Name: InputManagerRewired
   m_TagString: Untagged
@@ -244,6 +245,37 @@ MonoBehaviour:
       _startingCustomControllers: []
       _assignMouseOnStart: 1
       _assignKeyboardOnStart: 1
+      _excludeFromControllerAutoAssignment: 0
+      _controllerMapLayoutManagerSettings:
+        _enabled: 1
+        _loadFromUserDataStore: 1
+        _ruleSets: []
+      _controllerMapEnablerSettings:
+        _enabled: 1
+        _ruleSets: []
+    - _id: 3
+      _name: Player1
+      _descriptiveName: Player1
+      _startPlaying: 0
+      _defaultJoystickMaps:
+      - _enabled: 0
+        _categoryId: 0
+        _layoutId: 0
+      - _enabled: 1
+        _categoryId: 1
+        _layoutId: 0
+      _defaultMouseMaps: []
+      _defaultKeyboardMaps:
+      - _enabled: 1
+        _categoryId: 0
+        _layoutId: 0
+      - _enabled: 1
+        _categoryId: 1
+        _layoutId: 0
+      _defaultCustomControllerMaps: []
+      _startingCustomControllers: []
+      _assignMouseOnStart: 0
+      _assignKeyboardOnStart: 0
       _excludeFromControllerAutoAssignment: 0
       _controllerMapLayoutManagerSettings:
         _enabled: 1
@@ -4403,7 +4435,7 @@ MonoBehaviour:
     customControllers: []
     controllerMapLayoutManagerRuleSets: []
     controllerMapEnablerRuleSets: []
-    playerIdCounter: 2
+    playerIdCounter: 4
     actionIdCounter: 15
     actionCategoryIdCounter: 2
     inputBehaviorIdCounter: 1
@@ -4491,3 +4523,15 @@ MonoBehaviour:
     _debugPad:
       _enabled: 0
       _rewiredPlayerId: 0
+--- !u!114 &13542193513205022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44727669816313914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb4cfff552cd81c44a58d0f517ab7db8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
