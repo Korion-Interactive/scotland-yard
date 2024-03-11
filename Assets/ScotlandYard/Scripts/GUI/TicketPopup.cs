@@ -25,9 +25,9 @@ public class TicketPopup : MonoBehaviour
 
     private bool _enableClosingBehaviour = false;
 
-    void Start()
+    void Awake()
     {
-        this.gameObject.SetActive(false);
+        gameObject.SetActive(false);
     }
 
     public void Setup(PlayerBase player, Station target)

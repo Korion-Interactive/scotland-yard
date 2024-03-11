@@ -213,8 +213,7 @@ public class SubCameraControl : SubSystem<GameBoardAnimationSystem>
                 wheel = _player.GetAxis("MouseWheel") * 0.01f;
             }
 #endif
-
-            Debug.Log("Wheel: " + wheel);
+            
             if (wheel != 0)
                 Cam.orthographicSize = Helpers.Clamp(Cam.orthographicSize - wheel, MIN_ZOOM, MAX_ZOOM);
 

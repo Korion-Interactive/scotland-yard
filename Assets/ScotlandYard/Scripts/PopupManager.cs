@@ -7,9 +7,6 @@ public class PopupManager : MonoBehaviour
 
     public static PopupManager Instance { get { return instance; } }
     private static PopupManager instance;
-    
-    public static event Action OnTutorialPopupOpened;
-    public static event Action OnTutorialPopupClosed;
 
     public class PopupInfo
     {
@@ -257,8 +254,6 @@ public class PopupManager : MonoBehaviour
             DestroyTutorialWindowProgramatically(currentTutorialPopup.yesButton);
         }
         
-        OnTutorialPopupOpened?.Invoke();
-        
         EmergencyKillPopup("TutorialPopup");
 
         GameObject go = NGUITools.AddChild(Parent, TutorialPopupPrefab);
@@ -378,6 +373,5 @@ public class PopupManager : MonoBehaviour
     {
         GameObject.Destroy(button.transform.parent.gameObject);
         currentTutorialPopup = null;
-        OnTutorialPopupClosed?.Invoke();
     }
 }

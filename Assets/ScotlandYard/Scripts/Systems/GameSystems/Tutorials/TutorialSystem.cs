@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Collections;
+using Rewired.Demos;
 using UnityEngine;
 
 public abstract class TutorialSystem<TSystem> : BaseSystem<GameEvents, GameGuiEvents, TSystem>
@@ -34,6 +35,12 @@ public abstract class TutorialSystem<TSystem> : BaseSystem<GameEvents, GameGuiEv
             this.gameObject.SetActive(false);
         }
         base.Awake();
+    }
+    
+    private new void Start()
+    {
+       base.Start();
+       PlayerMouseSpriteExample.Instance.SetVisibility(false);
     }
 
     protected override void RegisterEvents()
