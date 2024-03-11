@@ -87,6 +87,10 @@ public class GameState : ISerializable
     int currentPlayerIndex = 0;
 
     List<PlayerBase> players = new List<PlayerBase>();
+    
+    private int _humanPlayers = 0;
+    
+    public int HumanPlayers => _humanPlayers;
 
     [HideInInspector]
     public HashSet<Station> PossibleMrXLocations = new HashSet<Station>();
@@ -121,7 +125,13 @@ public class GameState : ISerializable
 
         // INIT PLAYERS
         foreach (var p in players)
+        {
+            if (p.PlayerInfo.Controller == PlayerController.Human)
+            {
+                _humanPlayers++;
+            }
             p.Initialize();
+        }
 
         currentPlayerIndex = 0;
 

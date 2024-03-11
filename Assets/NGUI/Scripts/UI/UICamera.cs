@@ -456,6 +456,9 @@ public class UICamera : MonoBehaviour
 		}
 		set
 		{
+			if(!value) return;
+			if(mCurrentSelection == value) return;
+			Debug.Log("UICamera.selectedObject = " + value.name, value);
 			SetSelection(value, UICamera.currentScheme);
 		}
 	}

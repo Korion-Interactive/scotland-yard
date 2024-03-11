@@ -56623,7 +56623,7 @@ MonoBehaviour:
   _serializedStateKeys:
   - SubSystems
   _serializedStateValues:
-  - '[{"$type":"SubPlayerMove"},{"Cam":0,"ViewBounds":1,"AdditionalFocusPoints":[],"LockGestureEnabledStatus":false,"$type":"SubCameraControl"},{"NewsPaper":2,"NewsHeader":3,"NewsText":4,"NewsSprite":5,"GameBoardSys":6,"$type":"SubNewspaperEndScreen"},{"Bounds":7,"GameBoardCam":8,"GuiCam":9,"PlayerDirectionPrefab":10,"StationDirectionPrefab":11,"$type":"SubDirectionIndication"}]'
+  - '[{"$type":"SubPlayerMove"},{"Cam":0,"ViewBounds":1,"AdditionalFocusPoints":[],"LockGestureEnabledStatus":false,"_playerId":0,"_player":null,"$type":"SubCameraControl"},{"NewsPaper":2,"NewsHeader":3,"NewsText":4,"NewsSprite":5,"GameBoardSys":6,"$type":"SubNewspaperEndScreen"},{"Bounds":7,"GameBoardCam":8,"GuiCam":9,"PlayerDirectionPrefab":10,"StationDirectionPrefab":11,"$type":"SubDirectionIndication"}]'
   AutoFocusEnabled: 1
 --- !u!114 &866600838
 MonoBehaviour:
@@ -60596,6 +60596,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 100020, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 100022, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: m_Layer
       value: 10
@@ -60611,6 +60615,10 @@ PrefabInstance:
     - target: {fileID: 100028, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: m_Layer
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100028, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100030, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: m_Layer
@@ -60672,6 +60680,10 @@ PrefabInstance:
       propertyPath: pressed.r
       value: 0.6226415
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
+      propertyPath: hoverSprite
+      value: ticket_taxi_b
+      objectReference: {fileID: 0}
     - target: {fileID: 11400004, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: hover.b
       value: 0
@@ -60696,6 +60708,10 @@ PrefabInstance:
       propertyPath: pressed.r
       value: 0.6226415
       objectReference: {fileID: 0}
+    - target: {fileID: 11400004, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
+      propertyPath: hoverSprite
+      value: ticket_tube_b
+      objectReference: {fileID: 0}
     - target: {fileID: 11400030, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: hover.b
       value: 0
@@ -60719,6 +60735,10 @@ PrefabInstance:
     - target: {fileID: 11400030, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: pressed.r
       value: 0.6226415
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400030, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
+      propertyPath: hoverSprite
+      value: ticket_bus_b
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: AllowedTransportationTypes
@@ -60771,15 +60791,15 @@ PrefabInstance:
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1691254381}
+      objectReference: {fileID: 1691254382}
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 1691254382}
+      objectReference: {fileID: 999469969}
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
-      objectReference: {fileID: 999469969}
+      objectReference: {fileID: 1691254381}
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
@@ -60822,15 +60842,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SelectSpecificObject
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: SetControllerMapState
+      value: SetVisibility
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: SetVisibility
+      value: SelectSpecificObject
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
@@ -60870,15 +60890,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: SelectUIElement, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
-      propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: ChangeActionMap, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
-      propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: Rewired.Demos.PlayerMouseSpriteExample, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
+      propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: SelectUIElement, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
@@ -60915,18 +60935,22 @@ PrefabInstance:
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 920664337}
+      objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
+      propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 920664337}
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 920664337}
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -60934,7 +60958,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
+      value: UnityEngine.GameObject, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -61016,8 +61040,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   constraint: 0
-  onUp: {fileID: 0}
-  onDown: {fileID: 0}
+  onUp: {fileID: 920664336}
+  onDown: {fileID: 920664337}
   onLeft: {fileID: 0}
   onRight: {fileID: 0}
   onClick: {fileID: 0}
@@ -61036,8 +61060,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   constraint: 0
-  onUp: {fileID: 0}
-  onDown: {fileID: 0}
+  onUp: {fileID: 920664337}
+  onDown: {fileID: 920664335}
   onLeft: {fileID: 0}
   onRight: {fileID: 0}
   onClick: {fileID: 0}
@@ -61056,12 +61080,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   constraint: 0
-  onUp: {fileID: 0}
-  onDown: {fileID: 0}
+  onUp: {fileID: 920664335}
+  onDown: {fileID: 920664336}
   onLeft: {fileID: 0}
   onRight: {fileID: 0}
   onClick: {fileID: 0}
-  startsSelected: 0
+  startsSelected: 1
   forceStartSelection: 0
 --- !u!1 &925794985
 GameObject:
@@ -106223,6 +106247,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: m_Layer
       value: 10
@@ -106359,6 +106387,10 @@ PrefabInstance:
       propertyPath: pressed.r
       value: 0.5754717
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
+      propertyPath: hoverSprite
+      value: ticket_taxi_b
+      objectReference: {fileID: 0}
     - target: {fileID: 11400004, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: hover.b
       value: 0
@@ -106383,6 +106415,10 @@ PrefabInstance:
       propertyPath: pressed.r
       value: 0.5754717
       objectReference: {fileID: 0}
+    - target: {fileID: 11400004, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
+      propertyPath: hoverSprite
+      value: ticket_invisible_b
+      objectReference: {fileID: 0}
     - target: {fileID: 11400030, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: hover.b
       value: 0
@@ -106406,6 +106442,10 @@ PrefabInstance:
     - target: {fileID: 11400030, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: pressed.r
       value: 0.5754717
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400030, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
+      propertyPath: hoverSprite
+      value: ticket_bus_b
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: AllowedTransportationTypes
@@ -106659,6 +106699,10 @@ PrefabInstance:
       propertyPath: pressed.r
       value: 0.5754717
       objectReference: {fileID: 0}
+    - target: {fileID: 11400038, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
+      propertyPath: hoverSprite
+      value: ticket_double_b
+      objectReference: {fileID: 0}
     - target: {fileID: 11400042, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: mWidth
       value: 48
@@ -106690,6 +106734,10 @@ PrefabInstance:
     - target: {fileID: 11400052, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: pressed.r
       value: 0.5754717
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400052, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
+      propertyPath: hoverSprite
+      value: ticket_tube_b
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -106771,8 +106819,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   constraint: 0
-  onUp: {fileID: 0}
-  onDown: {fileID: 0}
+  onUp: {fileID: 1580813787}
+  onDown: {fileID: 1580813790}
   onLeft: {fileID: 0}
   onRight: {fileID: 0}
   onClick: {fileID: 0}
@@ -106791,8 +106839,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   constraint: 0
-  onUp: {fileID: 0}
-  onDown: {fileID: 0}
+  onUp: {fileID: 1580813788}
+  onDown: {fileID: 1580813786}
   onLeft: {fileID: 0}
   onRight: {fileID: 0}
   onClick: {fileID: 0}
@@ -106811,8 +106859,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   constraint: 0
-  onUp: {fileID: 0}
-  onDown: {fileID: 0}
+  onUp: {fileID: 1580813789}
+  onDown: {fileID: 1580813787}
   onLeft: {fileID: 0}
   onRight: {fileID: 0}
   onClick: {fileID: 0}
@@ -106831,8 +106879,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   constraint: 0
-  onUp: {fileID: 0}
-  onDown: {fileID: 0}
+  onUp: {fileID: 1580813790}
+  onDown: {fileID: 1580813788}
   onLeft: {fileID: 0}
   onRight: {fileID: 0}
   onClick: {fileID: 0}
@@ -106851,12 +106899,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   constraint: 0
-  onUp: {fileID: 0}
-  onDown: {fileID: 0}
+  onUp: {fileID: 1580813786}
+  onDown: {fileID: 1580813789}
   onLeft: {fileID: 0}
   onRight: {fileID: 0}
   onClick: {fileID: 0}
-  startsSelected: 0
+  startsSelected: 1
   forceStartSelection: 0
 --- !u!1 &1583197627
 GameObject:
@@ -108093,6 +108141,7 @@ MonoBehaviour:
   HistoryDropDown: {fileID: 842081732}
   TicketDetectivePopup: {fileID: 1691254380}
   Clock: {fileID: 1614647987}
+  _ticketPopup: {fileID: 1691254380}
 --- !u!1 &1600239678
 GameObject:
   m_ObjectHideFlags: 0

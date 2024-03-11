@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Rewired.Demos;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -13,6 +14,9 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
     public GameObject HistoryDropDown;
     public TicketPopup TicketDetectivePopup;
     public GameObject Clock;
+    
+    [SerializeField]
+    private TicketPopup _ticketPopup;
 
     private bool playerStartMoving = false;
     
@@ -39,7 +43,8 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
     {
         if (tutorialPopupIndex == 3 && args.Vector.x > 0.000001f)
         {
-            //Now it´s time to zoom.               
+            //Now it´s time to zoom.           
+            Debug.Log("Case 3");
             ShowNextPopup(Vector3.zero, CompassDirection.Undefined, AlwaysFalse, null, 3);
             UnPause();
         }
@@ -69,7 +74,10 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
         {
             this.LogDebug("You did your first move");
             //You did your first move
-            ShowNextPopupDelayed(2f, 10);
+            Debug.Log("Case 10");
+            ShowNextPopupDelayed(2.5f, 10);
+            PlayerMouseSpriteExample.Instance.SetVisibility(false);
+            
         }
         playerStartMoving = true;
 
@@ -83,7 +91,10 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
             {
                 this.LogDebug("This is the ticket menu");
                 //This is the ticket menu.
+                Debug.Log("Case 9");
                 ShowNextPopup(GameToGui(NeededStations[5].transform.position), CompassDirection.East, ErasePopupOnPlayerMoveStart, null, 9);
+                _ticketPopup.SelectTaxi();
+                PlayerMouseSpriteExample.Instance.SetVisibility(false);
             }
         }
 
@@ -92,8 +103,10 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
             if (obj.RelatedObject.transform.GetComponent<Station>().Id == 135)
             {
                 //... and select the bus ticket.
+                Debug.Log("Case 20");
                 this.WaitAndDo(new WaitForEndOfFrame(), () => true, () =>
                     ShowNextPopup(TicketDetectivePopup.BtnBus.transform.position, CompassDirection.East, ErasePopupOnPlayerMoveStart, null, 20));
+                _ticketPopup.SelectBus();
             }
         }
         
@@ -121,6 +134,7 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
             {
                 NeededStations[5].SetFakeHighlight(true);
                 // Look at this yellow glowing station.
+                Debug.Log("Case 7");
                 ShowNextPopupDelayed(NeededStations[5].transform.position, CompassDirection.East, null, null, 1f, true, 7);   //Index 7
             }
         }
@@ -130,6 +144,7 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
             if (tab.PlayerID == 2)
             {
                 //Now tap your pawn color.
+                Debug.Log("Case 23");
                 ShowNextPopup(PlayerTabSystem.Instance.PlayerTabs[1].transform.position, CompassDirection.South, AlwaysFalse, null, 23);   //Index 23
                 UnPause();
             }
@@ -140,6 +155,7 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
             if (tab.PlayerID == 1)
             {
                 //And now tap the other pawn´s color again.
+                Debug.Log("Case 24");
                 ShowNextPopup(PlayerTabSystem.Instance.PlayerTabs[2].transform.position, CompassDirection.South, AlwaysFalse, null, 24);   //Index 24
                 UnPause();
             }
@@ -150,6 +166,7 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
             if (tab.PlayerID == 2)
             {
                 // Now just watch the pawn move.
+                Debug.Log("Case 25");
                 ShowNextPopupDelayed(1f, 25);   //Index 25
             }
         }
@@ -200,7 +217,9 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
                             focusPoints.Add(player.Location.transform.position + new Vector3(-0.5f, 0));
                             //Let´s take a look at the message box
                             Vector3 shift = new Vector3(0, 0.3f);
+                            Debug.Log("Case 13");
                             ShowNextPopup(HistoryDropDown.transform.position + shift, CompassDirection.North, AlwaysFalse, null, 13);
+                            PlayerMouseSpriteExample.Instance.SetVisibility(true);
                             player.AllowedStationConstraints.Clear();
                             player.AllowedStationConstraints.Add(1);
                         }
@@ -212,6 +231,7 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
                     if (player.PlayerId == 2)
                     {
                         // Just a few more things left and we´re done
+                        Debug.Log("Case 17");
                         ShowNextPopup(17);    //Index 17
                     }
                 break;
@@ -222,6 +242,7 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
                         {
                             //Did you notice this icon? It shows that there is another pawn
                             Vector3 pos = GameBoardAnimationSystem.Instance.DirectionIndicationSubSystem.GetPlayerIndicatorTransform(GameState.Instance.CurrentPlayer).position;
+                            Debug.Log("Case 18");
                             ShowNextPopup(pos, CompassDirection.East, null, null, 18); // Index 18 
                             player.AllowedStationConstraints.Clear();
                             player.AllowedStationConstraints.Add(135);  
@@ -238,6 +259,7 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
                     {
                         //You just took one of London´s famous red busses
                         focusPoints.Clear();
+                        Debug.Log("Case 21");
                         ShowNextPopup(21);    //Index 21
                     }
 
@@ -250,6 +272,7 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
                         if (tutorialPopupIndex == 26)
                         {
                             focusPoints.Add(player.Location.transform.position + new Vector3(-1f, 0));
+                            Debug.Log("Case 26");
                             ShowNextPopup(GameToGui(NeededStations[8].transform.position), CompassDirection.East, null, null, 26); // Index 26
                             player.AllowedStationConstraints.Clear();
                             player.AllowedStationConstraints.Add(128);
@@ -265,6 +288,7 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
                     if (player.PlayerId == 2)
                     {
                         //... and watch the other pawn do his move.
+                        Debug.Log("Case 28");
                         ShowNextPopup(28);    //Index 28
                     }
                 break;
@@ -284,6 +308,7 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
                             this.WaitAndDo(new WaitForSeconds(1.5f), () => true, () =>
                                 {
                                     //arrow at the border of the screen? It indicates that there´s a station you can move to outside of the screen.
+                                    Debug.Log("Case 29");
                                     ShowNextPopup(GameBoardAnimationSystem.Instance.DirectionIndicationSubSystem.GetStationIndicationPosition(89), CompassDirection.North,
                                         null, (o) =>
                                         {
@@ -311,6 +336,7 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
                     {
                         focusPoints.Clear();
                         // Good job! You´ve completed the general tutorial
+                        Debug.Log("Case 32");
                         ShowNextPopup(32);
                     }
                 break;
@@ -332,28 +358,35 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
                 {
                     this.Broadcast(GameGuiEvents.FocusPosition, GameState.Instance.CurrentPlayer.gameObject);
                     //This is your pawn for now
+                    Debug.Log("Case 1");
                     ShowNextPopup(GameToGui(player.transform.position), CompassDirection.East, null, null, 1);
                 }
                 break;
             case 2:  //Let´s try to move the map
                 GameBoardAnimationSystem.Instance.CamSubSystem.AdditionalFocusPoints.Clear();
+                Debug.Log("Case 2");
                 ShowNextPopup(Vector3.zero, CompassDirection.Undefined, AlwaysFalse, null, 2);
                 UnPause();
                 break;
             case 6:  //tap on the highlighted color
+                Debug.Log("Case 6");
                 ShowNextPopup(PlayerTabSystem.instance.PlayerTabs[1].transform.position, CompassDirection.South, AlwaysFalse, null, 6);
+                PlayerMouseSpriteExample.Instance.SetVisibility(true);
                 UnPause();
                 break;
             case 8: //This is a taxi station
                 this.LogDebug("This is a taxi station");
                 GameState.Instance.CurrentPlayer.AllowedStationConstraints.Add(174);
                 this.Broadcast(GameEvents.TurnStart, GameState.Instance.CurrentPlayer.gameObject);
+                Debug.Log("Case 8");
                 ShowNextPopup(GameToGui(NeededStations[5].transform.position), CompassDirection.East, AlwaysFalse, null, 8);
                 break;
             case 11: //every move you make consumes 1 ticket
+                Debug.Log("Case 11");
                 ShowNextPopup(11);
                 break;
             case 12: //Your turn ends after you´ve made a move
+                Debug.Log("Case 12");
                 ShowNextPopup(12);
                 UnPause();
                 break;
@@ -367,7 +400,9 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
             case 16: //Ok, let´s take the taxi again
                 player.AllowedStationConstraints.Add(161);
                 this.Broadcast(GameEvents.TurnStart, player.gameObject);
+                Debug.Log("Case 16");
                 ShowNextPopup(GameToGui(NeededStations[6].transform.position), CompassDirection.East, ErasePopupOnPlayerMoveStart, null, 16);
+                _ticketPopup.SelectTaxi();
                 break;
             case 18:
                 if (player.PlayerId == 2)
@@ -378,12 +413,14 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
                 break;
             case 19: // Tap this red glowing station...
                 this.Broadcast(GameEvents.TurnStart, player.gameObject);
+                Debug.Log("Case 19");
                 ShowNextPopup(GameToGui(NeededStations[7].transform.position), CompassDirection.East, AlwaysFalse, null, 19);
                 UnPause();
                 break;
             case 20:
                 break;
             case 22: //Now´s the other pawn´s turn. Tap this pawn´s color
+                Debug.Log("Case 22");
                 ShowNextPopup(PlayerTabSystem.Instance.PlayerTabs[2].transform.position, CompassDirection.South, AlwaysFalse, null, 22);
                 UnPause();
                 break;
@@ -395,7 +432,9 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
                 }
                 break;
             case 27: //Let´s take the bus to this underground station...
-                    ShowNextPopup(GameToGui(NeededStations[8].transform.position), CompassDirection.East, ErasePopupOnPlayerMoveStart, null, 27);                   
+                Debug.Log("Case 27");
+                ShowNextPopup(GameToGui(NeededStations[8].transform.position), CompassDirection.East, ErasePopupOnPlayerMoveStart, null, 27);                   
+                _ticketPopup.SelectMetro();
                 break;
             case 29:
                     if (player.PlayerId == 2)
@@ -410,10 +449,12 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
             case 30: //Move the map in order to make the station appear.
                     GameBoardAnimationSystem.Instance.CamSubSystem.AdditionalFocusPoints.Clear();
                     GameBoardAnimationSystem.Instance.CamSubSystem.FocusCamera(GameState.Instance.CurrentPlayer.transform.position);
+                    Debug.Log("Case 30");
                     ShowNextPopup(new Vector3(), CompassDirection.Undefined, AlwaysFalse, null, 30);
                     UnPause();
                 break;
             case 33: //END OF TUTORIAL!
+                Debug.Log("Case 33");
                 Stats.CompletedTutorial1 = true;
                 this.Broadcast<GameGuiEvents>(GameGuiEvents.LoadingScene);
 				SceneManager.LoadSceneAsync("MainMenu");
@@ -435,20 +476,11 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
 
         switch (tutorialPopupIndex)
         {
-            case 3:
-                {
-                    //if (GameCamera.transform.localPosition.x <= -1743)
-                    //{
-                    //    //Now it´s time to zoom.               
-                    //    ShowNextPopup(Vector3.zero, CompassDirection.Undefined, AlwaysFalse, null);
-                    //    UnPause();
-                    //}
-                }
-                break;
             case 4:
                 {
                     if (GameCamera.orthographicSize == 2.25f)
                     {
+                        Debug.Log("Case 4");
                         //Now, zoom in again
                         ShowNextPopup(Vector3.zero, CompassDirection.Undefined, AlwaysFalse, null, 4);
                         UnPause();
@@ -459,6 +491,7 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
                 {
                     if (GameCamera.orthographicSize == 0.5f)
                     {
+                        Debug.Log("Case 5");
                         // Look at the player bar with 6 different colors
                         ShowNextPopup(PlayerTabSystem.instance.PlayerTabs[1].transform.position, CompassDirection.South, null, null, 5);
                     }
@@ -469,7 +502,7 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
                 {
                     if (HistoryDropDown.activeInHierarchy)
                     {
-
+                        Debug.Log("Case 14");
                         GameBoardAnimationSystem.Instance.CamSubSystem.LockGestureEnabledStatus = false;
                         //... and tap it again to make it disappear.
                         ShowNextPopup(HistoryDropDown.transform.position - new Vector3(0, 0.4f, 0), CompassDirection.North, AlwaysFalse, null, 14);
@@ -480,6 +513,7 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
                 {
                     if (!HistoryDropDown.activeInHierarchy)
                     {
+                        Debug.Log("Case 15");
                         GameBoardAnimationSystem.Instance.CamSubSystem.LockGestureEnabledStatus = true;
                         //Check out the timer!
                         ShowNextPopup(Clock.transform.position - new Vector3(0, 0.05f, 0), CompassDirection.North, null, null, 15);
@@ -492,6 +526,7 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
                     Vector3 transPoint = FooterCamera.ScreenToWorldPoint(screenPoint);
                     if (FooterViewBounds.bounds.Contains(transPoint))
                     {
+                    Debug.Log("Case 31");
                         //This is an underground station, it has a blue glow
                         ShowNextPopup(GameToGui(NeededStations[4].transform.position), CompassDirection.North, () => TicketDetectivePopup.gameObject.activeSelf, null, 31);
                         UnPause();

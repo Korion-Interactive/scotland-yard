@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections;
 using UnityEngine.Events;
 
 /// <summary>
@@ -22,11 +21,14 @@ public class TicketPopup : MonoBehaviour
 
     [SerializeField]
     private UnityEvent _onPopupClosed;
+    
+    private SelectUIElement _selectUIElement;
 
     private bool _enableClosingBehaviour = false;
 
     void Awake()
     {
+        _selectUIElement = GetComponent<SelectUIElement>();
         gameObject.SetActive(false);
     }
 
@@ -47,11 +49,37 @@ public class TicketPopup : MonoBehaviour
         BtnBus.isEnabled = bus;
         BtnMetro.isEnabled = metro;
 
+        if (taxi)
+        {
+            SelectTaxi();
+        } else if (bus)
+        {
+            SelectBus();
+        } else if (metro)
+        {
+            SelectMetro();
+        }
+
         this.Broadcast(GameGuiEvents.TicketPopupOpened);
 
         _enableClosingBehaviour = true;
 
         _onPopupBuilt?.Invoke();
+    }
+
+    public void SelectTaxi()
+    {
+        _selectUIElement.SelectSpecificObject(BtnTaxi.gameObject);
+    }
+
+    public void SelectBus()
+    {
+        _selectUIElement.SelectSpecificObject(BtnBus.gameObject);
+    }
+
+    public void SelectMetro()
+    {
+        _selectUIElement.SelectSpecificObject(BtnMetro.gameObject);
     }
 
     public void UseTaxi()
