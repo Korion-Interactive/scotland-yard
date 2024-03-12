@@ -136,6 +136,7 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
                 // Look at this yellow glowing station.
                 Debug.Log("Case 7");
                 ShowNextPopupDelayed(NeededStations[5].transform.position, CompassDirection.East, null, null, 1f, true, 7);   //Index 7
+                PlayerMouseSpriteExample.Instance.SetVisibility(false);
             }
         }
 
@@ -380,6 +381,7 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
                 this.Broadcast(GameEvents.TurnStart, GameState.Instance.CurrentPlayer.gameObject);
                 Debug.Log("Case 8");
                 ShowNextPopup(GameToGui(NeededStations[5].transform.position), CompassDirection.East, AlwaysFalse, null, 8);
+                PlayerMouseSpriteExample.Instance.SetVisibility(true);
                 break;
             case 11: //every move you make consumes 1 ticket
                 Debug.Log("Case 11");
@@ -402,7 +404,7 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
                 this.Broadcast(GameEvents.TurnStart, player.gameObject);
                 Debug.Log("Case 16");
                 ShowNextPopup(GameToGui(NeededStations[6].transform.position), CompassDirection.East, ErasePopupOnPlayerMoveStart, null, 16);
-                _ticketPopup.SelectTaxi();
+                PlayerMouseSpriteExample.Instance.SetVisibility(true);
                 break;
             case 18:
                 if (player.PlayerId == 2)
@@ -517,6 +519,7 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
                         GameBoardAnimationSystem.Instance.CamSubSystem.LockGestureEnabledStatus = true;
                         //Check out the timer!
                         ShowNextPopup(Clock.transform.position - new Vector3(0, 0.05f, 0), CompassDirection.North, null, null, 15);
+                        PlayerMouseSpriteExample.Instance.SetVisibility(false);
                     }
                 }
                 break;

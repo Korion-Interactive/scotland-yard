@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.Events;
 
 /// <summary>
@@ -23,6 +23,8 @@ public class TicketPopup : MonoBehaviour
     private UnityEvent _onPopupClosed;
     
     private SelectUIElement _selectUIElement;
+    
+    protected GameObject _nextUiElement;
 
     private bool _enableClosingBehaviour = false;
 
@@ -49,15 +51,24 @@ public class TicketPopup : MonoBehaviour
         BtnBus.isEnabled = bus;
         BtnMetro.isEnabled = metro;
 
-        if (taxi)
+        if (_nextUiElement)
         {
-            SelectTaxi();
-        } else if (bus)
+            _selectUIElement.SelectSpecificObject(_nextUiElement);
+        }
+        else
         {
-            SelectBus();
-        } else if (metro)
-        {
-            SelectMetro();
+            if (taxi)
+            {
+                _selectUIElement.SelectSpecificObject(BtnTaxi.gameObject);
+            }
+            else if (bus)
+            {
+                _selectUIElement.SelectSpecificObject(BtnBus.gameObject);
+            }
+            else if (metro)
+            {
+                _selectUIElement.SelectSpecificObject(BtnMetro.gameObject);
+            }
         }
 
         this.Broadcast(GameGuiEvents.TicketPopupOpened);
@@ -69,17 +80,17 @@ public class TicketPopup : MonoBehaviour
 
     public void SelectTaxi()
     {
-        _selectUIElement.SelectSpecificObject(BtnTaxi.gameObject);
+       _nextUiElement = BtnTaxi.gameObject;
     }
 
     public void SelectBus()
     {
-        _selectUIElement.SelectSpecificObject(BtnBus.gameObject);
+        _nextUiElement = BtnBus.gameObject;
     }
 
     public void SelectMetro()
     {
-        _selectUIElement.SelectSpecificObject(BtnMetro.gameObject);
+        _nextUiElement = BtnMetro.gameObject;
     }
 
     public void UseTaxi()

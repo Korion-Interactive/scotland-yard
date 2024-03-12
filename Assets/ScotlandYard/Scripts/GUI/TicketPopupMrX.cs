@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class TicketPopupMrX : TicketPopup
@@ -22,6 +22,16 @@ public class TicketPopupMrX : TicketPopup
         BtnDouble.isEnabled = doubleT;
 
         base.Setup(player, target);
+    }
+    
+    public void SelectAny()
+    {
+        _nextUiElement = BtnAny.gameObject;
+    }
+    
+    public void SelectDouble()
+    {
+        _nextUiElement = BtnDouble.gameObject;
     }
 
     public void UseAny()
