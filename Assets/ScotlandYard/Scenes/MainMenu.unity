@@ -962,6 +962,7 @@ GameObject:
   m_Component:
   - component: {fileID: 61922872}
   - component: {fileID: 61922873}
+  - component: {fileID: 61922874}
   m_Layer: 8
   m_Name: Detectives
   m_TagString: Untagged
@@ -1041,6 +1042,19 @@ MonoBehaviour:
   rightType: 1
   bottomType: 1
   topType: 1
+--- !u!114 &61922874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61922871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf0cce4eb7f60c84283f766987397e6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mrX: {fileID: 1655818789}
 --- !u!1 &71861463
 GameObject:
   m_ObjectHideFlags: 0
@@ -4771,12 +4785,40 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: stateChangedListeners.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: stateChangedListeners.Array.data[1].mTarget
       value: 
       objectReference: {fileID: 277965151}
     - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: stateChangedListeners.Array.data[2].mTarget
+      value: 
+      objectReference: {fileID: 61922874}
+    - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: stateChangedListeners.Array.data[2].mMethodName
+      value: HandleHumanPlayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: stateChangedListeners.Array.data[2].mParameters.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: stateChangedListeners.Array.data[2].mParameters.Array.data[0].obj
+      value: 
+      objectReference: {fileID: 1736864854}
+    - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: stateChangedListeners.Array.data[2].mParameters.Array.data[1].obj
+      value: 
+      objectReference: {fileID: 236333003}
+    - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: stateChangedListeners.Array.data[1].mParameters.Array.data[0].field
       value: GameID
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: stateChangedListeners.Array.data[2].mParameters.Array.data[0].field
+      value: CurrentStateIndex
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4787,6 +4829,12 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1736864859}
   m_SourcePrefab: {fileID: 100100000, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+--- !u!1 &236333003 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100010, guid: b7df2809a25cfde40b809be2c496d420,
+    type: 3}
+  m_PrefabInstance: {fileID: 236333002}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &237413619
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15029,14 +15077,48 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 277965151}
     - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: stateChangedListeners.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: stateChangedListeners.Array.data[1].mTarget
       value: 
       objectReference: {fileID: 277965151}
+    - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: stateChangedListeners.Array.data[2].mTarget
+      value: 
+      objectReference: {fileID: 61922874}
+    - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: stateChangedListeners.Array.data[2].mMethodName
+      value: HandleHumanPlayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: stateChangedListeners.Array.data[2].mParameters.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: stateChangedListeners.Array.data[2].mParameters.Array.data[0].obj
+      value: 
+      objectReference: {fileID: 979457452}
+    - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: stateChangedListeners.Array.data[2].mParameters.Array.data[1].obj
+      value: 
+      objectReference: {fileID: 764446997}
+    - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: stateChangedListeners.Array.data[2].mParameters.Array.data[0].field
+      value: CurrentStateIndex
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+--- !u!1 &764446997 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100010, guid: b7df2809a25cfde40b809be2c496d420,
+    type: 3}
+  m_PrefabInstance: {fileID: 764446996}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &769084667 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100002, guid: b501b788c71b2d44382ad4e5604d9bfb,
@@ -21464,15 +21546,31 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: stateChangedListeners.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: stateChangedListeners.Array.data[1].mTarget
       value: 
       objectReference: {fileID: 277965151}
+    - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: stateChangedListeners.Array.data[2].mTarget
+      value: 
+      objectReference: {fileID: 61922874}
     - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: stateChangedListeners.Array.data[1].mMethodName
       value: SetPlayerControllerLocal
       objectReference: {fileID: 0}
     - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: stateChangedListeners.Array.data[2].mMethodName
+      value: HandleHumanPlayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: stateChangedListeners.Array.data[1].mParameters.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: stateChangedListeners.Array.data[2].mParameters.Array.size
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
@@ -21484,11 +21582,23 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 42659372}
     - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: stateChangedListeners.Array.data[2].mParameters.Array.data[0].obj
+      value: 
+      objectReference: {fileID: 42659372}
+    - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: stateChangedListeners.Array.data[2].mParameters.Array.data[1].obj
+      value: 
+      objectReference: {fileID: 1040296889}
+    - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: stateChangedListeners.Array.data[1].mParameters.Array.data[0].field
       value: GameID
       objectReference: {fileID: 0}
     - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: stateChangedListeners.Array.data[1].mParameters.Array.data[1].field
+      value: CurrentStateIndex
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: stateChangedListeners.Array.data[2].mParameters.Array.data[0].field
       value: CurrentStateIndex
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -21500,6 +21610,12 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1917898214}
   m_SourcePrefab: {fileID: 100100000, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+--- !u!1 &1040296889 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100010, guid: b7df2809a25cfde40b809be2c496d420,
+    type: 3}
+  m_PrefabInstance: {fileID: 1040296888}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1043048217
 GameObject:
   m_ObjectHideFlags: 0
@@ -28452,7 +28568,7 @@ Transform:
   m_GameObject: {fileID: 1429165313}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.5397471, z: 0}
+  m_LocalPosition: {x: -0.37586975, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -29900,15 +30016,31 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: stateChangedListeners.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: stateChangedListeners.Array.data[1].mTarget
       value: 
       objectReference: {fileID: 277965151}
+    - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: stateChangedListeners.Array.data[2].mTarget
+      value: 
+      objectReference: {fileID: 61922874}
     - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: stateChangedListeners.Array.data[1].mMethodName
       value: SetPlayerControllerLocal
       objectReference: {fileID: 0}
     - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: stateChangedListeners.Array.data[2].mMethodName
+      value: HandleHumanPlayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: stateChangedListeners.Array.data[1].mParameters.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: stateChangedListeners.Array.data[2].mParameters.Array.size
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
@@ -29920,11 +30052,23 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1793395883}
     - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: stateChangedListeners.Array.data[2].mParameters.Array.data[0].obj
+      value: 
+      objectReference: {fileID: 1793395883}
+    - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: stateChangedListeners.Array.data[2].mParameters.Array.data[1].obj
+      value: 
+      objectReference: {fileID: 1501843820}
+    - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: stateChangedListeners.Array.data[1].mParameters.Array.data[0].field
       value: GameID
       objectReference: {fileID: 0}
     - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: stateChangedListeners.Array.data[1].mParameters.Array.data[1].field
+      value: CurrentStateIndex
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: stateChangedListeners.Array.data[2].mParameters.Array.data[0].field
       value: CurrentStateIndex
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -29936,6 +30080,12 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 2112420219}
   m_SourcePrefab: {fileID: 100100000, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+--- !u!1 &1501843820 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100010, guid: b7df2809a25cfde40b809be2c496d420,
+    type: 3}
+  m_PrefabInstance: {fileID: 1501843819}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1503853799
 GameObject:
   m_ObjectHideFlags: 0
@@ -30138,7 +30288,7 @@ Transform:
   m_GameObject: {fileID: 1519260257}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1597.0001, y: 899.00006, z: 0}
+  m_LocalPosition: {x: 1599, y: 899.00006, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -31194,15 +31344,31 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: stateChangedListeners.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: stateChangedListeners.Array.data[1].mTarget
       value: 
       objectReference: {fileID: 277965151}
+    - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: stateChangedListeners.Array.data[2].mTarget
+      value: 
+      objectReference: {fileID: 61922874}
     - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: stateChangedListeners.Array.data[1].mMethodName
       value: SetPlayerControllerLocal
       objectReference: {fileID: 0}
     - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: stateChangedListeners.Array.data[2].mMethodName
+      value: HandleHumanPlayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: stateChangedListeners.Array.data[1].mParameters.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: stateChangedListeners.Array.data[2].mParameters.Array.size
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
@@ -31214,11 +31380,23 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2034223667}
     - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: stateChangedListeners.Array.data[2].mParameters.Array.data[0].obj
+      value: 
+      objectReference: {fileID: 2034223667}
+    - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: stateChangedListeners.Array.data[2].mParameters.Array.data[1].obj
+      value: 
+      objectReference: {fileID: 1578768999}
+    - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: stateChangedListeners.Array.data[1].mParameters.Array.data[0].field
       value: GameID
       objectReference: {fileID: 0}
     - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: stateChangedListeners.Array.data[1].mParameters.Array.data[1].field
+      value: CurrentStateIndex
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: stateChangedListeners.Array.data[2].mParameters.Array.data[0].field
       value: CurrentStateIndex
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -31230,6 +31408,12 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 2034223672}
   m_SourcePrefab: {fileID: 100100000, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+--- !u!1 &1578768999 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100010, guid: b7df2809a25cfde40b809be2c496d420,
+    type: 3}
+  m_PrefabInstance: {fileID: 1578768998}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1580828381 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100004, guid: b501b788c71b2d44382ad4e5604d9bfb,
@@ -33331,6 +33515,14 @@ MonoBehaviour:
     mParameters:
     - obj: {fileID: 1709514730}
       field: CurrentStateIndex
+    oneShot: 0
+  - mTarget: {fileID: 61922874}
+    mMethodName: HandleHumanPlayer
+    mParameters:
+    - obj: {fileID: 1709514730}
+      field: CurrentStateIndex
+    - obj: {fileID: 1655818786}
+      field: 
     oneShot: 0
 --- !u!114 &1709514731
 MonoBehaviour:

@@ -46,6 +46,11 @@ public class UIStateButton : MonoBehaviour
     public int CurrentStateIndex { get { return currentState; } set { ApplyState(value); } }
     public ButtonState CurrentState { get { return States[currentState]; } }
 
+    public void TriggerOnClick()
+    {
+        OnClick();
+    }
+
     void OnClick()
     {
         if (!enabled)
