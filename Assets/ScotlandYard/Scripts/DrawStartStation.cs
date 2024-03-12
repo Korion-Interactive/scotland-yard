@@ -3,13 +3,13 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine.SceneManagement;
+using Korion.ScotlandYard.Input;
 
 public class DrawStartStation : MonoBehaviour {
 
     const string IDLE_ICON = "notification_icon";
     const string LOAD_ICON = "loading_icon";
     
-
     public GameObject[] StartStationCards;
 
     //public event System.Action<PlayerSetup, Identifier> CardSelected;
@@ -105,6 +105,15 @@ public class DrawStartStation : MonoBehaviour {
 
         if (player.Controller == PlayerController.Human)
         {
+            if(UICamera.selectedObject == null)
+            {
+                // KORION: Select a new random card for each human player! 
+                UICamera.currentScheme = UICamera.ControlScheme.Controller;
+                int randomCard = Random.Range(0, startStationList.Count);
+                UICamera.selectedObject = startStationList[randomCard].GetComponentInChildren<UIKeyNavigation>().gameObject;
+            }
+                
+
             //TODO Korion: Make these to buttons. Why aren't these already buttons?
             if (Input.GetMouseButtonDown(0))
             {
@@ -116,9 +125,9 @@ public class DrawStartStation : MonoBehaviour {
                     GameObject card = coll.transform.parent.gameObject;
                     if (card)
                     {
-                            currentCard = card;
-                            TurnCardFaceUp(card);
-                            //CallCardSelected(player, card);
+                        currentCard = card;
+                        TurnCardFaceUp(card);
+                        //CallCardSelected(player, card);
                     }
                 }
             }        
@@ -259,7 +268,11 @@ public class DrawStartStation : MonoBehaviour {
         if(broadcastEvent)
             this.Broadcast(GameSetupEvents.PlayerChoseCard, card.gameObject);
 
+        UICamera.selectedObject = null;
         currentPlayerID++;
+
+        if (currentPlayerID < 6 && GameSetupBehaviour.Instance.GetPlayer(currentPlayerID).Controller == PlayerController.Human)
+            MultiplayerInputManager.Instance.NextPlayer();
     }
 
 

@@ -59,6 +59,9 @@ public class GameSetupBehaviour : MonoBehaviour
 
     public LocalPlayerController LocalPlayer = new LocalPlayerController();
 
+    private int _humanPlayers = 0;
+    public int HumanPlayers => _humanPlayers;
+
     public PlayerSetup GetPlayer(int id)
     {
         if (id == 0)
@@ -90,6 +93,17 @@ public class GameSetupBehaviour : MonoBehaviour
         }
 
         return result;
+    }
+
+    public void OnPlayerSetupFinalized()
+    {
+        _humanPlayers = Setup.MrXSetup.Controller == PlayerController.Human ? 1 : 0;
+
+        foreach (var player in Setup.DetectiveSetups)
+        {
+            if (player.Controller == PlayerController.Human)
+                ++_humanPlayers;
+        }
     }
         
     void Awake()

@@ -264,6 +264,9 @@ public class GameSetupSystem : NetworkSystem<GameSetupEvents, GameSetupSystem>
 
     private void PrepareCardSelection()
     {
+        // KORION: In order to correctly get all human players for multiplayer iterations, set the amount of human players here!
+        GameSetupBehaviour.Instance.OnPlayerSetupFinalized();
+
         this.cardSelection.Reset();
     }
 
