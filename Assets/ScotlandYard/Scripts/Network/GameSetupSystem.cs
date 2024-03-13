@@ -1,3 +1,4 @@
+using Newtonsoft.Json.Bson;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -150,12 +151,16 @@ public class GameSetupSystem : NetworkSystem<GameSetupEvents, GameSetupSystem>
 
                 if (playerCount <= 1)
                 {
+                    //KORION
+                    SetNewGamePanelSelectionActive(false);
                     cachedSelectedObject = UICamera.selectedObject;
                     PopupManager.ShowQuestion("access_denied", "too_few_players", OnClick, null); //KORION POP UP
                     PopupManager.Instance.CurrentPopup.noButton.SetActive(false);
                 }
                 else
                 {
+                    //KORION
+                    SetNewGamePanelSelectionActive(false);
                     cachedSelectedObject = UICamera.selectedObject;
                     PopupManager.ShowQuestion("unoptimal_game_question_title", "unoptimal_game_question_body",
                         (o) =>
@@ -176,10 +181,18 @@ public class GameSetupSystem : NetworkSystem<GameSetupEvents, GameSetupSystem>
         }
     }
 
+    //KORION
     private void OnClick(GameObject go)
     {
         UICamera.selectedObject = cachedSelectedObject;
         cachedSelectedObject = null;
+        SetNewGamePanelSelectionActive(true);
+    }
+
+    //KORION
+    private void SetNewGamePanelSelectionActive(bool isActive)
+    {
+        gameObject.GetComponent<SetNewGamePanelSelectionActive>().SetActive(isActive);
     }
 
     public void BackClicked()
