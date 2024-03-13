@@ -21,6 +21,8 @@ public class GameSetupSystem : NetworkSystem<GameSetupEvents, GameSetupSystem>
 
     HashSet<string> ReadyPlayers = new HashSet<string>();
 
+    private GameObject cachedSelectedObject;
+
     protected override void RegisterEvents()
     {
         ListenTo(GameSetupEvents.RoundTimeChanged, (args) => SendEvent(GameSetupEvents.RoundTimeChanged, args));
@@ -148,10 +150,13 @@ public class GameSetupSystem : NetworkSystem<GameSetupEvents, GameSetupSystem>
 
                 if (playerCount <= 1)
                 {
-                    PopupManager.ShowPrompt("access_denied", "too_few_players");
+                    cachedSelectedObject = UICamera.selectedObject;
+                    PopupManager.ShowQuestion("access_denied", "too_few_players", OnClick, null); //KORION POP UP
+                    PopupManager.Instance.CurrentPopup.noButton.SetActive(false);
                 }
                 else
                 {
+                    cachedSelectedObject = UICamera.selectedObject;
                     PopupManager.ShowQuestion("unoptimal_game_question_title", "unoptimal_game_question_body",
                         (o) =>
                         {
@@ -159,7 +164,7 @@ public class GameSetupSystem : NetworkSystem<GameSetupEvents, GameSetupSystem>
                             scriptCalledForClick = true;
                             StartObject.BroadcastMessage("OnClick", SendMessageOptions.DontRequireReceiver);
                             scriptCalledForClick = false;
-                        }, null);
+                        }, OnClick);
                 }        
             }
             else
@@ -169,6 +174,12 @@ public class GameSetupSystem : NetworkSystem<GameSetupEvents, GameSetupSystem>
                 PrepareCardSelection();
             }
         }
+    }
+
+    private void OnClick(GameObject go)
+    {
+        UICamera.selectedObject = cachedSelectedObject;
+        cachedSelectedObject = null;
     }
 
     public void BackClicked()
