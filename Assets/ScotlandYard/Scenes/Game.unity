@@ -657,6 +657,7 @@ MonoBehaviour:
   - {fileID: 1677572872}
   - {fileID: 1416049699}
   - {fileID: 2007635743}
+  _ticketPopup: {fileID: 1304427110}
 --- !u!1 &7235001
 GameObject:
   m_ObjectHideFlags: 0
@@ -23533,11 +23534,11 @@ MonoBehaviour:
   _serializedStateValues:
   - '[]'
   - '[]'
-  - '{"a":5000000000.0,"b":15000000512.0}'
+  - '{"a":49999998976.0,"b":150000009216.0}'
   - '{"a":0.0,"b":0.0}'
   WeightMultiplierRangeEasy:
-    a: 5e+9
-    b: 1.5e+10
+    a: 5e+10
+    b: 1.5000001e+11
   WeightMultiplierRangeMedium:
     a: 0
     b: 0
@@ -56213,7 +56214,7 @@ MonoBehaviour:
   alwaysOnScreen: 0
   anchorOffset: 0
   renderQueue: 0
-  startingRenderQueue: 3013
+  startingRenderQueue: 3015
   mAlpha: 1
   mClipping: 0
   mClipRange: {x: 0, y: 0, z: 300, w: 200}
@@ -60596,6 +60597,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 100020, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 100022, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: m_Layer
       value: 10
@@ -60611,6 +60616,10 @@ PrefabInstance:
     - target: {fileID: 100028, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: m_Layer
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100028, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100030, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: m_Layer
@@ -60672,6 +60681,10 @@ PrefabInstance:
       propertyPath: pressed.r
       value: 0.6226415
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
+      propertyPath: hoverSprite
+      value: ticket_taxi_b
+      objectReference: {fileID: 0}
     - target: {fileID: 11400004, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: hover.b
       value: 0
@@ -60708,6 +60721,10 @@ PrefabInstance:
       propertyPath: aspectRatio
       value: 0.2
       objectReference: {fileID: 0}
+    - target: {fileID: 11400004, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
+      propertyPath: hoverSprite
+      value: ticket_tube_b
+      objectReference: {fileID: 0}
     - target: {fileID: 11400030, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: hover.b
       value: 0
@@ -60732,13 +60749,17 @@ PrefabInstance:
       propertyPath: pressed.r
       value: 0.6226415
       objectReference: {fileID: 0}
+    - target: {fileID: 11400030, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
+      propertyPath: hoverSprite
+      value: ticket_bus_b
+      objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: AllowedTransportationTypes
       value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.size
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: _onTicketUsed.m_PersistentCalls.m_Calls.Array.size
@@ -60750,11 +60771,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
@@ -60783,15 +60804,15 @@ PrefabInstance:
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1691254381}
+      objectReference: {fileID: 999469969}
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 1691254382}
+      objectReference: {fileID: 999469969}
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
-      objectReference: {fileID: 999469969}
+      objectReference: {fileID: 1691254381}
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
@@ -60834,15 +60855,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SelectSpecificObject
+      value: SetVisibility
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: SetControllerMapState
+      value: SetVisibility
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: SetVisibility
+      value: SelectSpecificObject
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
@@ -60882,15 +60903,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: SelectUIElement, Assembly-CSharp
+      value: Rewired.Demos.PlayerMouseSpriteExample, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: ChangeActionMap, Assembly-CSharp
+      value: Rewired.Demos.PlayerMouseSpriteExample, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: Rewired.Demos.PlayerMouseSpriteExample, Assembly-CSharp
+      value: SelectUIElement, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
@@ -60914,7 +60935,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_BoolArgument
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: _onPopupClosed.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_BoolArgument
@@ -60927,18 +60948,22 @@ PrefabInstance:
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 920664337}
+      objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
+      propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 920664337}
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 920664337}
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -60946,7 +60971,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
+      value: UnityEngine.GameObject, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -61028,8 +61053,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   constraint: 0
-  onUp: {fileID: 0}
-  onDown: {fileID: 0}
+  onUp: {fileID: 920664336}
+  onDown: {fileID: 920664337}
   onLeft: {fileID: 0}
   onRight: {fileID: 0}
   onClick: {fileID: 0}
@@ -61048,8 +61073,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   constraint: 0
-  onUp: {fileID: 0}
-  onDown: {fileID: 0}
+  onUp: {fileID: 920664337}
+  onDown: {fileID: 920664335}
   onLeft: {fileID: 0}
   onRight: {fileID: 0}
   onClick: {fileID: 0}
@@ -61068,8 +61093,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   constraint: 0
-  onUp: {fileID: 0}
-  onDown: {fileID: 0}
+  onUp: {fileID: 920664335}
+  onDown: {fileID: 920664336}
   onLeft: {fileID: 0}
   onRight: {fileID: 0}
   onClick: {fileID: 0}
@@ -99265,7 +99290,7 @@ MonoBehaviour:
   alwaysOnScreen: 0
   anchorOffset: 0
   renderQueue: 0
-  startingRenderQueue: 3013
+  startingRenderQueue: 3015
   mAlpha: 1
   mClipping: 0
   mClipRange: {x: 0, y: 0, z: 300, w: 200}
@@ -106251,6 +106276,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: m_Layer
       value: 10
@@ -106387,6 +106416,10 @@ PrefabInstance:
       propertyPath: pressed.r
       value: 0.5754717
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
+      propertyPath: hoverSprite
+      value: ticket_taxi_b
+      objectReference: {fileID: 0}
     - target: {fileID: 11400004, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: hover.b
       value: 0
@@ -106410,6 +106443,10 @@ PrefabInstance:
     - target: {fileID: 11400004, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: pressed.r
       value: 0.5754717
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400004, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
+      propertyPath: hoverSprite
+      value: ticket_invisible_b
       objectReference: {fileID: 0}
     - target: {fileID: 11400008, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: aspectRatio
@@ -106447,13 +106484,17 @@ PrefabInstance:
       propertyPath: pressed.r
       value: 0.5754717
       objectReference: {fileID: 0}
+    - target: {fileID: 11400030, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
+      propertyPath: hoverSprite
+      value: ticket_bus_b
+      objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: AllowedTransportationTypes
       value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.size
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: _onPopupClosed.m_PersistentCalls.m_Calls.Array.size
@@ -106461,11 +106502,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
@@ -106494,11 +106535,11 @@ PrefabInstance:
     - target: {fileID: 11400036, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1304427111}
+      objectReference: {fileID: 999469969}
     - target: {fileID: 11400036, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 1304427112}
+      objectReference: {fileID: 999469969}
     - target: {fileID: 11400036, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
@@ -106541,11 +106582,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SelectSpecificObject
+      value: SetVisibility
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: SetControllerMapState
+      value: SetVisibility
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
@@ -106589,11 +106630,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: SelectUIElement, Assembly-CSharp
+      value: Rewired.Demos.PlayerMouseSpriteExample, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: ChangeActionMap, Assembly-CSharp
+      value: Rewired.Demos.PlayerMouseSpriteExample, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
@@ -106634,7 +106675,7 @@ PrefabInstance:
     - target: {fileID: 11400036, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 1580813790}
+      objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
       value: 
@@ -106645,7 +106686,7 @@ PrefabInstance:
       objectReference: {fileID: 1580813790}
     - target: {fileID: 11400036, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -106699,6 +106740,10 @@ PrefabInstance:
       propertyPath: pressed.r
       value: 0.5754717
       objectReference: {fileID: 0}
+    - target: {fileID: 11400038, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
+      propertyPath: hoverSprite
+      value: ticket_double_b
+      objectReference: {fileID: 0}
     - target: {fileID: 11400042, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: mWidth
       value: 48
@@ -106734,6 +106779,10 @@ PrefabInstance:
     - target: {fileID: 11400052, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: pressed.r
       value: 0.5754717
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400052, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
+      propertyPath: hoverSprite
+      value: ticket_tube_b
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -106815,8 +106864,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   constraint: 0
-  onUp: {fileID: 0}
-  onDown: {fileID: 0}
+  onUp: {fileID: 1580813787}
+  onDown: {fileID: 1580813790}
   onLeft: {fileID: 0}
   onRight: {fileID: 0}
   onClick: {fileID: 0}
@@ -106835,8 +106884,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   constraint: 0
-  onUp: {fileID: 0}
-  onDown: {fileID: 0}
+  onUp: {fileID: 1580813788}
+  onDown: {fileID: 1580813786}
   onLeft: {fileID: 0}
   onRight: {fileID: 0}
   onClick: {fileID: 0}
@@ -106855,8 +106904,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   constraint: 0
-  onUp: {fileID: 0}
-  onDown: {fileID: 0}
+  onUp: {fileID: 1580813789}
+  onDown: {fileID: 1580813787}
   onLeft: {fileID: 0}
   onRight: {fileID: 0}
   onClick: {fileID: 0}
@@ -106875,8 +106924,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   constraint: 0
-  onUp: {fileID: 0}
-  onDown: {fileID: 0}
+  onUp: {fileID: 1580813790}
+  onDown: {fileID: 1580813788}
   onLeft: {fileID: 0}
   onRight: {fileID: 0}
   onClick: {fileID: 0}
@@ -106895,8 +106944,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   constraint: 0
-  onUp: {fileID: 0}
-  onDown: {fileID: 0}
+  onUp: {fileID: 1580813786}
+  onDown: {fileID: 1580813789}
   onLeft: {fileID: 0}
   onRight: {fileID: 0}
   onClick: {fileID: 0}
@@ -108137,6 +108186,7 @@ MonoBehaviour:
   HistoryDropDown: {fileID: 842081732}
   TicketDetectivePopup: {fileID: 1691254380}
   Clock: {fileID: 1614647987}
+  _ticketPopup: {fileID: 1691254380}
 --- !u!1 &1600239678
 GameObject:
   m_ObjectHideFlags: 0

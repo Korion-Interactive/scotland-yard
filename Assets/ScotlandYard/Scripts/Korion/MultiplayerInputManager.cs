@@ -49,6 +49,7 @@ namespace Korion.ScotlandYard.Input
 
         public void NextPlayer()
         {
+            Debug.Log("Next player");
             // Deactivate old
             _players[_currentInputIndex].isPlaying = false;
             _players[_currentInputIndex].controllers.hasKeyboard = false;

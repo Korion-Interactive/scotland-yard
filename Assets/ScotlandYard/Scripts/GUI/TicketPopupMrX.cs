@@ -23,15 +23,27 @@ public class TicketPopupMrX : TicketPopup
 
         base.Setup(player, target);
     }
+    
+    public void SelectAny()
+    {
+        _nextUiElement = BtnAny;
+    }
+    
+    public void SelectDouble()
+    {
+        _nextUiElement = BtnDouble;
+    }
 
     public void UseAny()
     {
+        Debug.Log("UseAny");
         TicketUsed();
         this.Broadcast(GameGuiEvents.TransportSelected, this.gameObject, new TransportArgs(TransportationType.Any));
     }
 
     public void UseDouble()
     {
+        Debug.Log("UseDouble");
         TicketUsed();
         this.Broadcast(GameGuiEvents.DoubleTicketSelected);
     }

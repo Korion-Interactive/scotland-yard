@@ -679,7 +679,7 @@ MonoBehaviour:
   onRight: {fileID: 0}
   onClick: {fileID: 0}
   startsSelected: 1
-  forceStartSelection: 1
+  forceStartSelection: 0
 --- !u!1 &100010
 GameObject:
   m_ObjectHideFlags: 0
