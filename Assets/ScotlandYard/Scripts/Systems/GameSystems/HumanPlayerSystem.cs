@@ -138,6 +138,7 @@ public class HumanPlayerSystem : BaseSystem<GameEvents, GameGuiEvents, GlobalGui
             {
                 PopupMrX.Setup(GameState.Instance.CurrentPlayer, station, (GameState.Instance.CurrentPlayer as MrX).IsUsingDoubleTicketThisTurn);
                 PopupMrX.gameObject.SetActive(true);
+                PopupMrX.ForceFocus();
             }
             else
             {
