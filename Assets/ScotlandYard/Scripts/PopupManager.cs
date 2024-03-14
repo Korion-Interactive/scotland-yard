@@ -133,7 +133,9 @@ public class PopupManager : MonoBehaviour
         currentPopup.header.GetComponent<UILabel>().text = Loc.Get(headerID);
         currentPopup.text.GetComponent<UILabel>().text = string.Format(Loc.Get(textID), locaParams);
 
-        currentPopup.yesButton.SetActive(false);
+        currentPopup.yesButton.SetActive(false); //KORION POPUP YES
+        //currentPopup.yesButton.GetComponent<UIEventListener>().onClick += DestroyWindow; //KORION POPUP YES
+        //selektiert dann nichts
         currentPopup.noButton.SetActive(false);
 
 
@@ -142,7 +144,6 @@ public class PopupManager : MonoBehaviour
             currentPopup.windowButton.GetComponent<UIEventListener>().onClick += okCallback;
         }
         currentPopup.windowButton.GetComponent<UIEventListener>().onClick += DestroyWindow;
-
 
 
         this.LogInfo(string.Format("ShowPromptPopup({0}, {1}, {2})", headerID, textID, okCallback));
@@ -240,6 +241,9 @@ public class PopupManager : MonoBehaviour
         get { return instance.currentTutorialPopup.window.transform.position; }
         set { instance.currentTutorialPopup.window.transform.position = value; }
     }
+
+    public PopupInfo CurrentPopup { get => currentPopup; set => currentPopup = value; }
+
     public static void ShowTutorial(string textId, Vector3 position, CompassDirection pointingDirection, bool closeOnClick, UIEventListener.VoidDelegate closeCallback)
     {
         instance.ShowTutorialPopup(textId, position, pointingDirection, closeOnClick, closeCallback);
