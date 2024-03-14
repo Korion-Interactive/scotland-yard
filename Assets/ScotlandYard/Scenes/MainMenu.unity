@@ -15538,15 +15538,15 @@ MonoBehaviour:
   updateAnchors: 1
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
-  mWidth: 163
-  mHeight: 306
+  mWidth: 238
+  mHeight: 326
   mDepth: 11
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
-  keepAspectRatio: 0
-  aspectRatio: 0.53267974
-  mAtlas: {fileID: 11400000, guid: 08a81d143abb1684e99f3f53f7a179f4, type: 3}
-  mSpriteName: actor_white
+  keepAspectRatio: 1
+  aspectRatio: 0.73006135
+  mAtlas: {fileID: 4632643788470526680, guid: b1b49b2ac7d114b4480f680a33fabce4, type: 3}
+  mSpriteName: playerboards_mrx_01
   mType: 1
   mFillDirection: 4
   mFillAmount: 1

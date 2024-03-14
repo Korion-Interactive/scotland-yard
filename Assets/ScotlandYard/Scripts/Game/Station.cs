@@ -185,7 +185,7 @@ public class Station : BaseBehaviour, IClickConsumable
     public UILabel CreateLabel()
     {
         var lbl = NGUITools.AddWidget<UILabel>(this.gameObject);
-        lbl.transform.localPosition = new Vector3(-5, 25, 0);
+        lbl.transform.localPosition = new Vector3(-5, 16, 0);
         lbl.text = Id.ToString();
         lbl.fontSize = 55;
         lbl.depth = 1;
