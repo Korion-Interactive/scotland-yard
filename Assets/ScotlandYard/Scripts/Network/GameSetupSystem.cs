@@ -1,3 +1,4 @@
+using Newtonsoft.Json.Bson;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -20,6 +21,8 @@ public class GameSetupSystem : NetworkSystem<GameSetupEvents, GameSetupSystem>
     GameSetupSettings settings { get { return GameSetupSettings.Instance; } }
 
     HashSet<string> ReadyPlayers = new HashSet<string>();
+
+    private GameObject cachedSelectedObject;
 
     protected override void RegisterEvents()
     {
@@ -148,10 +151,17 @@ public class GameSetupSystem : NetworkSystem<GameSetupEvents, GameSetupSystem>
 
                 if (playerCount <= 1)
                 {
-                    PopupManager.ShowPrompt("access_denied", "too_few_players");
+                    //KORION
+                    SetNewGamePanelSelectionActive(false);
+                    cachedSelectedObject = UICamera.selectedObject;
+                    PopupManager.ShowQuestion("access_denied", "too_few_players", OnClick, null); //KORION POP UP
+                    PopupManager.Instance.CurrentPopup.noButton.SetActive(false);
                 }
                 else
                 {
+                    //KORION
+                    SetNewGamePanelSelectionActive(false);
+                    cachedSelectedObject = UICamera.selectedObject;
                     PopupManager.ShowQuestion("unoptimal_game_question_title", "unoptimal_game_question_body",
                         (o) =>
                         {
@@ -159,7 +169,7 @@ public class GameSetupSystem : NetworkSystem<GameSetupEvents, GameSetupSystem>
                             scriptCalledForClick = true;
                             StartObject.BroadcastMessage("OnClick", SendMessageOptions.DontRequireReceiver);
                             scriptCalledForClick = false;
-                        }, null);
+                        }, OnClick);
                 }        
             }
             else
@@ -169,6 +179,20 @@ public class GameSetupSystem : NetworkSystem<GameSetupEvents, GameSetupSystem>
                 PrepareCardSelection();
             }
         }
+    }
+
+    //KORION
+    private void OnClick(GameObject go)
+    {
+        UICamera.selectedObject = cachedSelectedObject;
+        cachedSelectedObject = null;
+        SetNewGamePanelSelectionActive(true);
+    }
+
+    //KORION
+    private void SetNewGamePanelSelectionActive(bool isActive)
+    {
+        gameObject.GetComponent<SetNewGamePanelSelectionActive>().SetActive(isActive);
     }
 
     public void BackClicked()
@@ -264,6 +288,9 @@ public class GameSetupSystem : NetworkSystem<GameSetupEvents, GameSetupSystem>
 
     private void PrepareCardSelection()
     {
+        // KORION: In order to correctly get all human players for multiplayer iterations, set the amount of human players here!
+        GameSetupBehaviour.Instance.OnPlayerSetupFinalized();
+
         this.cardSelection.Reset();
     }
 

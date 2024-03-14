@@ -35,8 +35,8 @@ public class PlayerTurnSystem : BaseSystem<GameEvents, PlayerTurnSystem>
         PlayerBase player = GameState.Instance.CurrentPlayer;
         if (IsMixedHotSeatGame() && player.IsMrX && !player.PlayerState.IsCurrentlyMoving)
         {
-            PauseAndBlur(true);
-            PopupManager.ShowPrompt("pass_device", "mr_x_turn_starts", (o) => PauseAndBlur(false), GameState.Instance.MrX.PlayerDisplayName);
+            PauseAndBlur(true); 
+            PopupManager.ShowPrompt("pass_device", "mr_x_turn_starts", (o) => { PauseAndBlur(false);}, GameState.Instance.MrX.PlayerDisplayName);
         }
 
         //MrX mrX = GameState.Instance.MrX;
@@ -63,12 +63,20 @@ public class PlayerTurnSystem : BaseSystem<GameEvents, PlayerTurnSystem>
         if (IsMixedHotSeatGame())
         {
             PauseAndBlur(true);
-            PopupManager.ShowPrompt("pass_device", "mr_x_turn_starts", (o) => { PauseAndBlur(false); firstTurn(); }, GameState.Instance.MrX.PlayerDisplayName);
+            PopupManager.ShowQuestion("pass_device", "mr_x_turn_starts", (o) => { PauseAndBlur(false); firstTurn(); SetIngameSelectionActive(true); }, null); //KORION POP UP
+            PopupManager.Instance.CurrentPopup.text.GetComponent<UILabel>().text = string.Format(PopupManager.Instance.CurrentPopup.text.GetComponent<UILabel>().text, GameState.Instance.MrX.PlayerDisplayName); //KORION IMPROVE --> NEXT LINE IN BETWEEN
+            PopupManager.Instance.CurrentPopup.noButton.SetActive(false);
+            SetIngameSelectionActive(false);
         }
         else
         {
             firstTurn();
         }
+    }
+
+    private void SetIngameSelectionActive(bool isActive)
+    {
+        gameObject.GetComponent<SetIngameSelectionActive>().SetActive(isActive);
     }
 
     private void PauseAndBlur(bool enable)

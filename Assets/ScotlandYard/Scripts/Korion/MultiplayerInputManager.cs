@@ -61,7 +61,7 @@ namespace Korion.ScotlandYard.Input
             if(_currentInputIndex >= ReInput.players.playerCount)
                 _currentInputIndex = 0;
 
-            if (_currentInputIndex >= GameState.Instance.HumanPlayers)
+            if (_currentInputIndex >= GameSetupBehaviour.Instance.HumanPlayers)
             {
                 _currentInputIndex = 0;
             }

@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.Events;
+using Korion.ScotlandYard.Input;
 
 /// <summary>
 /// component 'GameStarter'
@@ -26,6 +27,8 @@ public class GameStarter : MonoBehaviour
         yield return new WaitForEndOfFrame();
 
         this.LogInfo(string.Format("Is Host: {0}", GameSetupBehaviour.Instance.LocalPlayer.IsHost));
+
+        MultiplayerInputManager.Instance.NextPlayer(); // KORION: Switch to next player, so that input-player 0 is starting
 
         _onGameLoaded?.Invoke();
 

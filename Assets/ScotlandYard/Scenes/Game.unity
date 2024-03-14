@@ -30140,7 +30140,7 @@ Transform:
   m_GameObject: {fileID: 458689115}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 59.47107, z: 0}
+  m_LocalPosition: {x: 0.5831909, y: 58.542664, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -30165,7 +30165,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2571, y: 1005, z: 10}
+  m_Size: {x: 2570, y: 1006, z: 10}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &458689119
 MonoBehaviour:
@@ -30198,13 +30198,13 @@ MonoBehaviour:
   updateAnchors: 1
   mColor: {r: 1, g: 1, b: 1, a: 0}
   mPivot: 4
-  mWidth: 2571
-  mHeight: 1005
+  mWidth: 2570
+  mHeight: 1006
   mDepth: -1
   autoResizeBoxCollider: 1
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 2.558209
+  aspectRatio: 2.553678
   mAtlas: {fileID: 0}
   mSpriteName: menu_button_a
   mType: 0
@@ -60709,6 +60709,18 @@ PrefabInstance:
       propertyPath: pressed.r
       value: 0.6226415
       objectReference: {fileID: 0}
+    - target: {fileID: 11400008, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
+      propertyPath: aspectRatio
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400012, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
+      propertyPath: aspectRatio
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400014, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
+      propertyPath: aspectRatio
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 11400004, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: hoverSprite
       value: ticket_tube_b
@@ -62218,6 +62230,7 @@ GameObject:
   - component: {fileID: 938627988}
   - component: {fileID: 938627987}
   - component: {fileID: 938627989}
+  - component: {fileID: 938627990}
   m_Layer: 0
   m_Name: PlayerTurnSystem
   m_TagString: Untagged
@@ -62272,6 +62285,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: -1960828179
   IdShift: 0
+--- !u!114 &938627990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938627986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc659eba6a2b27d4e92c86920ad06bc3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actionReceiverss:
+  - {fileID: 1881794143}
+  - {fileID: 1646549208}
 --- !u!1 &938895638
 GameObject:
   m_ObjectHideFlags: 0
@@ -89509,7 +89537,7 @@ Transform:
   m_GameObject: {fileID: 1338533925}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 1.4573364, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -106420,6 +106448,18 @@ PrefabInstance:
       propertyPath: hoverSprite
       value: ticket_invisible_b
       objectReference: {fileID: 0}
+    - target: {fileID: 11400008, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
+      propertyPath: aspectRatio
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400012, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
+      propertyPath: aspectRatio
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400014, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
+      propertyPath: aspectRatio
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 11400030, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: hover.b
       value: 0
@@ -106710,7 +106750,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400042, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: aspectRatio
-      value: 0.4
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400048, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
+      propertyPath: aspectRatio
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 11400052, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: hover.b
@@ -108171,7 +108215,7 @@ Transform:
   m_GameObject: {fileID: 1600239678}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 1.4573364, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
