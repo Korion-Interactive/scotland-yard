@@ -143,6 +143,7 @@ public class HumanPlayerSystem : BaseSystem<GameEvents, GameGuiEvents, GlobalGui
             {
                 Popup.Setup(GameState.Instance.CurrentPlayer, station);
                 Popup.gameObject.SetActive(true);
+                Popup.ForceFocus();
             }
         }
     }

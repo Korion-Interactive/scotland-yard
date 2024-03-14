@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Events;
 
 /// <summary>
@@ -24,9 +24,11 @@ public class TicketPopup : MonoBehaviour
     
     private SelectUIElement _selectUIElement;
     
-    protected GameObject _nextUiElement;
+    protected UIButton _nextUiElement;
 
     private bool _enableClosingBehaviour = false;
+    
+    private bool forceFocus = false;
 
     void Awake()
     {
@@ -36,6 +38,8 @@ public class TicketPopup : MonoBehaviour
 
     public void Setup(PlayerBase player, Station target)
     {
+        Debug.Log("Setup");
+        
         LblTaxiLeft.text = player.PlayerState.Tickets.TaxiTickets.TicketsLeft.ToString();
         LblBusLeft.text = player.PlayerState.Tickets.BusTickets.TicketsLeft.ToString();
         LblMetroLeft.text = player.PlayerState.Tickets.MetroTickets.TicketsLeft.ToString();
@@ -50,26 +54,9 @@ public class TicketPopup : MonoBehaviour
         BtnTaxi.isEnabled = taxi;
         BtnBus.isEnabled = bus;
         BtnMetro.isEnabled = metro;
-
-        if (_nextUiElement)
-        {
-            _selectUIElement.SelectSpecificObject(_nextUiElement);
-        }
-        else
-        {
-            if (taxi)
-            {
-                _selectUIElement.SelectSpecificObject(BtnTaxi.gameObject);
-            }
-            else if (bus)
-            {
-                _selectUIElement.SelectSpecificObject(BtnBus.gameObject);
-            }
-            else if (metro)
-            {
-                _selectUIElement.SelectSpecificObject(BtnMetro.gameObject);
-            }
-        }
+        
+        
+        SelectFirstButton(taxi, bus, metro);
 
         this.Broadcast(GameGuiEvents.TicketPopupOpened);
 
@@ -78,35 +65,51 @@ public class TicketPopup : MonoBehaviour
         _onPopupBuilt?.Invoke();
     }
 
-    public void SelectTaxi()
+    private void SelectFirstButton(bool taxi, bool bus, bool metro)
     {
-       _nextUiElement = BtnTaxi.gameObject;
-    }
+        if (taxi)
+        {
+            _nextUiElement = BtnTaxi;
+        }
+        else if (bus)
+        {
+            _nextUiElement = BtnBus;
+        }
+        else if (metro)
+        {
+            _nextUiElement = BtnMetro;
+        }
 
-    public void SelectBus()
-    {
-        _nextUiElement = BtnBus.gameObject;
-    }
-
-    public void SelectMetro()
-    {
-        _nextUiElement = BtnMetro.gameObject;
+        Debug.Log("SelectFirstButton: " + _nextUiElement.name);
+        if (forceFocus)
+        {
+            UICamera.ForceSetSelection(_nextUiElement.gameObject);
+            _nextUiElement.SetState(UIButtonColor.State.Hover, true);
+            forceFocus = false;
+        }
+        else
+        {
+            UICamera.selectedObject = _nextUiElement.gameObject;
+        }
     }
 
     public void UseTaxi()
     {
+        Debug.Log("UseTaxi");
         TicketUsed();
         this.Broadcast(GameGuiEvents.TransportSelected, this.gameObject, new TransportArgs(TransportationType.Taxi));
     }
 
     public void UseBus()
     {
+        Debug.Log("UseBus");
         TicketUsed();
         this.Broadcast(GameGuiEvents.TransportSelected, this.gameObject, new TransportArgs(TransportationType.Bus));
     }
 
     public void UseMetro()
     {
+        Debug.Log("UseMetro");
         TicketUsed();
         this.Broadcast(GameGuiEvents.TransportSelected, this.gameObject, new TransportArgs(TransportationType.Metro));
     }
@@ -119,5 +122,18 @@ public class TicketPopup : MonoBehaviour
     private void OnDisable()
     {
         _onPopupClosed?.Invoke();
+    }
+
+    public void ForceFocus()
+    { 
+        if(!NGUITools.GetActive(this))
+        {
+            Debug.Log("ForceFocus to soon." );
+            forceFocus = true;
+            return;
+        }
+        UICamera.ForceSetSelection(_nextUiElement.gameObject);
+        _nextUiElement.SetState(UIButtonColor.State.Hover, true);
+        Debug.Log("ForceFocus: " + _nextUiElement.name);
     }
 }

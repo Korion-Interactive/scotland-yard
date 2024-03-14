@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 
 public class TicketPopupMrX : TicketPopup
@@ -26,22 +26,24 @@ public class TicketPopupMrX : TicketPopup
     
     public void SelectAny()
     {
-        _nextUiElement = BtnAny.gameObject;
+        _nextUiElement = BtnAny;
     }
     
     public void SelectDouble()
     {
-        _nextUiElement = BtnDouble.gameObject;
+        _nextUiElement = BtnDouble;
     }
 
     public void UseAny()
     {
+        Debug.Log("UseAny");
         TicketUsed();
         this.Broadcast(GameGuiEvents.TransportSelected, this.gameObject, new TransportArgs(TransportationType.Any));
     }
 
     public void UseDouble()
     {
+        Debug.Log("UseDouble");
         TicketUsed();
         this.Broadcast(GameGuiEvents.DoubleTicketSelected);
     }

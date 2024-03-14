@@ -3,6 +3,7 @@
 // Copyright Â© 2011-2014 Tasharen Entertainment
 //----------------------------------------------
 
+using System.Collections;
 using UnityEngine;
 using System.Collections.Generic;
 using Rewired;
@@ -456,9 +457,16 @@ public class UICamera : MonoBehaviour
 		}
 		set
 		{
-			if(!value) return;
-			if(mCurrentSelection == value) return;
-			Debug.Log("UICamera.selectedObject = " + value.name, value);
+			if(value){
+                Debug.Log("selectedObject = " + value.name, value);
+			}
+			else
+			{
+				Debug.Log("selectedObject = null");
+			}
+			// if(!value) return;
+			// if(mCurrentSelection) Debug.Log("UICamera.current = " + mCurrentSelection.name, mCurrentSelection);
+			// if(mCurrentSelection == value) return;
 			SetSelection(value, UICamera.currentScheme);
 		}
 	}
@@ -475,9 +483,42 @@ public class UICamera : MonoBehaviour
 		return false;
 	}
 
+	private static UICamera _selectCamera;
+
+	public static void ForceSetSelection(GameObject go)
+	{
+		if(!go) return;
+		mNextSelection = go;
+		mNextScheme = UICamera.currentScheme;
+		
+		mNotifying = false;
+
+		if (UICamera.list.size > 0)
+		{
+			UICamera cam = (mNextSelection != null) ? FindCameraForLayer(mNextSelection.layer) : UICamera.list[0];
+			if (cam)
+			{
+				_selectCamera.StopCoroutine(_changeSelectionCoroutine);
+				_selectCamera = cam;
+				_changeSelectionCoroutine = cam.ChangeSelection();
+				Debug.Log("Start cam = " + cam);
+				cam.StartCoroutine(_changeSelectionCoroutine);
+			}
+		}
+	}
+	
+	private IEnumerator DelaySelect(float seconds)
+	{
+		yield return new WaitForSeconds(seconds);
+		Notify(mCurrentSelection, "OnSelect", true);
+	}
+
 	/// <summary>
 	/// Change the selection.
 	/// </summary>
+	///
+
+	private static IEnumerator _changeSelectionCoroutine;
 
 	static protected void SetSelection (GameObject go, ControlScheme scheme)
 	{
@@ -493,7 +534,12 @@ public class UICamera : MonoBehaviour
 			if (UICamera.list.size > 0)
 			{
 				UICamera cam = (mNextSelection != null) ? FindCameraForLayer(mNextSelection.layer) : UICamera.list[0];
-				if (cam != null) cam.StartCoroutine(cam.ChangeSelection());
+				if (cam)
+				{
+					_selectCamera = cam;
+					_changeSelectionCoroutine = cam.ChangeSelection();
+					cam.StartCoroutine(_changeSelectionCoroutine);
+				}
 			}
 		}
 	}
@@ -508,9 +554,11 @@ public class UICamera : MonoBehaviour
 	{
 		yield return new WaitForEndOfFrame();
 		Notify(mCurrentSelection, "OnSelect", false);
+		// if(mNextSelection == null) Debug.Log("---mNextSelection is null");
 		mCurrentSelection = mNextSelection;
 		mNextSelection = null;
 
+		// if(mCurrentSelection == null) Debug.Log("---mCurrentSelection is null");
 		if (mCurrentSelection != null)
 		{
 			current = this;

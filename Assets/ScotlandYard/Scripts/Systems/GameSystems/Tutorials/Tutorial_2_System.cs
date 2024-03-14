@@ -45,7 +45,7 @@ public class Tutorial_2_System : TutorialSystem<Tutorial_2_System>
         Debug.Log("Case 9");
         ShowNextPopup(9);
         TicketsMrXPopup.AllowedTransportationTypes = TransportationType.Taxi;
-        _ticketPopup.SelectTaxi();
+        _ticketPopup.ForceFocus();
     }
 
     private void StationClicked(BaseArgs obj)

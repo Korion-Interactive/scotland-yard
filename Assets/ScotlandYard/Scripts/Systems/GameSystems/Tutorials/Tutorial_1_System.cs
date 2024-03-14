@@ -93,8 +93,7 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
                 //This is the ticket menu.
                 Debug.Log("Case 9");
                 ShowNextPopup(GameToGui(NeededStations[5].transform.position), CompassDirection.East, ErasePopupOnPlayerMoveStart, null, 9);
-                _ticketPopup.SelectTaxi();
-                PlayerMouseSpriteExample.Instance.SetVisibility(false);
+                _ticketPopup.ForceFocus();
             }
         }
 
@@ -105,11 +104,16 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
                 //... and select the bus ticket.
                 Debug.Log("Case 20");
                 this.WaitAndDo(new WaitForEndOfFrame(), () => true, () =>
-                    ShowNextPopup(TicketDetectivePopup.BtnBus.transform.position, CompassDirection.East, ErasePopupOnPlayerMoveStart, null, 20));
-                _ticketPopup.SelectBus();
+                {
+                    ShowNextPopup(TicketDetectivePopup.BtnBus.transform.position, CompassDirection.East,
+                        ErasePopupOnPlayerMoveStart, null, 20);
+                });
+                this.WaitAndDo(new WaitForSeconds(0.5f), () => true, () =>
+                {
+                    // _ticketPopup.ForceFocus();
+                });
             }
         }
-        
     }
 
     private bool AlwaysFalse()
@@ -405,6 +409,7 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
                 Debug.Log("Case 16");
                 ShowNextPopup(GameToGui(NeededStations[6].transform.position), CompassDirection.East, ErasePopupOnPlayerMoveStart, null, 16);
                 PlayerMouseSpriteExample.Instance.SetVisibility(true);
+                _ticketPopup.ForceFocus();
                 break;
             case 18:
                 if (player.PlayerId == 2)
@@ -434,9 +439,11 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
                 }
                 break;
             case 27: //Let´s take the bus to this underground station...
+                //Click 
+                //Ticket PopUp
                 Debug.Log("Case 27");
                 ShowNextPopup(GameToGui(NeededStations[8].transform.position), CompassDirection.East, ErasePopupOnPlayerMoveStart, null, 27);                   
-                _ticketPopup.SelectMetro();
+                _ticketPopup.ForceFocus();
                 break;
             case 29:
                     if (player.PlayerId == 2)
@@ -534,7 +541,6 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
                         ShowNextPopup(GameToGui(NeededStations[4].transform.position), CompassDirection.North, () => TicketDetectivePopup.gameObject.activeSelf, null, 31);
                         UnPause();
                     }
-
                 }
                 break;
         }
