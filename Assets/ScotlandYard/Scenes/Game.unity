@@ -8946,6 +8946,7 @@ MonoBehaviour:
   - {fileID: 1967074632}
   - {fileID: 467032165}
   TicketDetectivePopup: {fileID: 1691254380}
+  _ticketPopup: {fileID: 1691254380}
 --- !u!4 &124943310
 Transform:
   m_ObjectHideFlags: 0
@@ -60709,6 +60710,10 @@ PrefabInstance:
       propertyPath: pressed.r
       value: 0.6226415
       objectReference: {fileID: 0}
+    - target: {fileID: 11400004, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
+      propertyPath: hoverSprite
+      value: ticket_tube_b
+      objectReference: {fileID: 0}
     - target: {fileID: 11400008, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: aspectRatio
       value: 0.2
@@ -60720,10 +60725,6 @@ PrefabInstance:
     - target: {fileID: 11400014, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: aspectRatio
       value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400004, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
-      propertyPath: hoverSprite
-      value: ticket_tube_b
       objectReference: {fileID: 0}
     - target: {fileID: 11400030, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: hover.b

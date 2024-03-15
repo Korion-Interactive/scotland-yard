@@ -264,7 +264,6 @@ public class UIButtonColor : UIWidgetContainer
 
 	protected virtual void OnSelect (bool isSelected)
 	{
-		Debug.Log("OnSelect: " + isSelected + " Camera: " + UICamera.currentScheme);
 		if (isEnabled && (!isSelected || UICamera.currentScheme == UICamera.ControlScheme.Controller) && tweenTarget != null)
 			OnHover(isSelected);
 	}

@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Linq;
 using Rewired.Demos;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -173,6 +170,7 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
                 // Now just watch the pawn move.
                 Debug.Log("Case 25");
                 ShowNextPopupDelayed(1f, 25);   //Index 25
+                PlayerMouseSpriteExample.Instance.SetVisibility(false);
             }
         }
     }
@@ -238,6 +236,7 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
                         // Just a few more things left and we´re done
                         Debug.Log("Case 17");
                         ShowNextPopup(17);    //Index 17
+                        PlayerMouseSpriteExample.Instance.SetVisibility(false);
                     }
                 break;
             case 3:
@@ -266,6 +265,7 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
                         focusPoints.Clear();
                         Debug.Log("Case 21");
                         ShowNextPopup(21);    //Index 21
+                        PlayerMouseSpriteExample.Instance.SetVisibility(false);
                     }
 
                 
@@ -282,6 +282,7 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
                             player.AllowedStationConstraints.Clear();
                             player.AllowedStationConstraints.Add(128);
                             this.BroadcastDelayed(GameEvents.TurnStart, player.gameObject, 0.1f);
+                            PlayerMouseSpriteExample.Instance.SetVisibility(true);
                             //UnPause();
                         }
                         if (tutorialPopupIndex == 27)
@@ -295,6 +296,7 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
                         //... and watch the other pawn do his move.
                         Debug.Log("Case 28");
                         ShowNextPopup(28);    //Index 28
+                        PlayerMouseSpriteExample.Instance.SetVisibility(false);
                     }
                 break;
             case 5:
@@ -343,6 +345,7 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
                         // Good job! You´ve completed the general tutorial
                         Debug.Log("Case 32");
                         ShowNextPopup(32);
+                        PlayerMouseSpriteExample.Instance.SetVisibility(false);
                     }
                 break;
             default:
@@ -423,6 +426,7 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
                 Debug.Log("Case 19");
                 ShowNextPopup(GameToGui(NeededStations[7].transform.position), CompassDirection.East, AlwaysFalse, null, 19);
                 UnPause();
+                PlayerMouseSpriteExample.Instance.SetVisibility(true);
                 break;
             case 20:
                 break;
@@ -430,6 +434,7 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
                 Debug.Log("Case 22");
                 ShowNextPopup(PlayerTabSystem.Instance.PlayerTabs[2].transform.position, CompassDirection.South, AlwaysFalse, null, 22);
                 UnPause();
+                PlayerMouseSpriteExample.Instance.SetVisibility(true);
                 break;
             case 26:
                 if (player.PlayerId == 2)
@@ -540,6 +545,7 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
                         //This is an underground station, it has a blue glow
                         ShowNextPopup(GameToGui(NeededStations[4].transform.position), CompassDirection.North, () => TicketDetectivePopup.gameObject.activeSelf, null, 31);
                         UnPause();
+                        PlayerMouseSpriteExample.Instance.SetVisibility(true);
                     }
                 }
                 break;

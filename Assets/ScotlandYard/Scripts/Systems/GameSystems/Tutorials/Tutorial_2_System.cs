@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Linq;
 using Rewired.Demos;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -161,6 +158,7 @@ public class Tutorial_2_System : TutorialSystem<Tutorial_2_System>
                 player.AllowedStationConstraints.Add(155);
                 player.GoStep(TransportationType.Taxi, NeededSations[0]);       
                 Debug.Log("Case 19");
+                PlayerMouseSpriteExample.Instance.SetVisibility(false);
                 this.WaitAndDo(new WaitForSeconds(0.2f), () => !PopupManager.IsTutorialPopupOpen, 
                     () => ShowNextPopup(19));
             }
@@ -177,6 +175,7 @@ public class Tutorial_2_System : TutorialSystem<Tutorial_2_System>
                 //Well done! You escaped the detective
                 Debug.Log("Case 23");
                 ShowNextPopup(23); // Index 23
+                PlayerMouseSpriteExample.Instance.SetVisibility(false);
             }
             break;
         }
@@ -256,6 +255,7 @@ public class Tutorial_2_System : TutorialSystem<Tutorial_2_System>
                 Debug.Log("Case 22");
                 ShowNextPopup(GameToGui(NeededSations[4].transform.position), CompassDirection.North, ErasePopupOnPlayerMoveStart, null, 22);
                 UnPause();
+                PlayerMouseSpriteExample.Instance.SetVisibility(true);
                 break;
             case 24: //But take care when you use your special tickets
                 Debug.Log("Case 24");
