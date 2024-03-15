@@ -12,6 +12,9 @@ public class SetNewGamePanelSelectionActive : MonoBehaviour
 
     public void SetActive(bool isActive)
     {
+        //TOOD KORION --> cancelui action map fix
+        //PopupManager.Instance.CurrentPopup.yesButton.GetComponent<ActionReceiver>().enabled = isActive;
+
         for (int i = 0; i < uIKeyNavigations.Count; i++)
         {
             uIKeyNavigations[i].enabled = isActive;

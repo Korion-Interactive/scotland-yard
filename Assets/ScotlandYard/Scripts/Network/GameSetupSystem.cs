@@ -152,15 +152,15 @@ public class GameSetupSystem : NetworkSystem<GameSetupEvents, GameSetupSystem>
                 if (playerCount <= 1)
                 {
                     //KORION
-                    SetNewGamePanelSelectionActive(false);
+                    //if(cachedSelectedObject == no button... dann nicht) //breakpoints
                     cachedSelectedObject = UICamera.selectedObject;
                     PopupManager.ShowQuestion("access_denied", "too_few_players", OnClick, null); //KORION POP UP
+                    SetNewGamePanelSelectionActive(false);
                     PopupManager.Instance.CurrentPopup.noButton.SetActive(false);
                 }
                 else
                 {
                     //KORION
-                    SetNewGamePanelSelectionActive(false);
                     cachedSelectedObject = UICamera.selectedObject;
                     PopupManager.ShowQuestion("unoptimal_game_question_title", "unoptimal_game_question_body",
                         (o) =>
@@ -170,6 +170,7 @@ public class GameSetupSystem : NetworkSystem<GameSetupEvents, GameSetupSystem>
                             StartObject.BroadcastMessage("OnClick", SendMessageOptions.DontRequireReceiver);
                             scriptCalledForClick = false;
                         }, OnClick);
+                    SetNewGamePanelSelectionActive(false);
                 }        
             }
             else
