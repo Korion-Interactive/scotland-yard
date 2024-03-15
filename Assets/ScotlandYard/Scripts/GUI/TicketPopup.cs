@@ -40,6 +40,15 @@ public class TicketPopup : MonoBehaviour
     {
         Debug.Log("Setup");
         
+        SetupButtons(player, target);
+        
+        SelectFirstButton();
+
+        OnSetupComplete();
+    }
+    
+    protected void SetupButtons(PlayerBase player, Station target)
+    {
         LblTaxiLeft.text = player.PlayerState.Tickets.TaxiTickets.TicketsLeft.ToString();
         LblBusLeft.text = player.PlayerState.Tickets.BusTickets.TicketsLeft.ToString();
         LblMetroLeft.text = player.PlayerState.Tickets.MetroTickets.TicketsLeft.ToString();
@@ -55,18 +64,6 @@ public class TicketPopup : MonoBehaviour
         BtnBus.isEnabled = bus;
         BtnMetro.isEnabled = metro;
         
-        
-        SelectFirstButton(taxi, bus, metro);
-
-        this.Broadcast(GameGuiEvents.TicketPopupOpened);
-
-        _enableClosingBehaviour = true;
-
-        _onPopupBuilt?.Invoke();
-    }
-
-    private void SelectFirstButton(bool taxi, bool bus, bool metro)
-    {
         if (taxi)
         {
             _nextUiElement = BtnTaxi;
@@ -79,10 +76,25 @@ public class TicketPopup : MonoBehaviour
         {
             _nextUiElement = BtnMetro;
         }
+    }
+    
+    protected void OnSetupComplete()
+    {
+        this.Broadcast(GameGuiEvents.TicketPopupOpened);
+        _enableClosingBehaviour = true;
+        _onPopupBuilt?.Invoke();
+    }
 
+    protected void SelectFirstButton()
+    {
+        if (!_nextUiElement)
+        {
+            return;
+        }
         Debug.Log("SelectFirstButton: " + _nextUiElement.name);
         if (forceFocus)
         {
+            Debug.Log("ForceFocus2: " + _nextUiElement.name);
             UICamera.ForceSetSelection(_nextUiElement.gameObject);
             _nextUiElement.SetState(UIButtonColor.State.Hover, true);
             forceFocus = false;

@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Linq;
 using Rewired.Demos;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -45,7 +42,6 @@ public class Tutorial_2_System : TutorialSystem<Tutorial_2_System>
         Debug.Log("Case 9");
         ShowNextPopup(9);
         TicketsMrXPopup.AllowedTransportationTypes = TransportationType.Taxi;
-        _ticketPopup.ForceFocus();
     }
 
     private void StationClicked(BaseArgs obj)
@@ -55,7 +51,7 @@ public class Tutorial_2_System : TutorialSystem<Tutorial_2_System>
             //Let´s get started with the double move ticket
             Debug.Log("Case 8");
             ShowNextPopup(GameToGui(NeededSations[0].transform.position), CompassDirection.East, AlwaysFalse, null, 8);
-            _ticketPopup.SelectDouble();
+            _ticketPopup.ForceFocus();
         }
 
         if (obj.RelatedObject == NeededSations[4].gameObject && tutorialPopupIndex == 23)
@@ -86,6 +82,8 @@ public class Tutorial_2_System : TutorialSystem<Tutorial_2_System>
 
         playerStartMoving = false;
         
+        Debug.Log("Round: " + round);
+        
         switch (round)
         {
             case 0:
@@ -113,7 +111,9 @@ public class Tutorial_2_System : TutorialSystem<Tutorial_2_System>
                 }
                 //Now comes your second move. Tap on station 156 and move there
                 Debug.Log("Case 11");
+                PopupClosed(++tutorialPopupIndex);
                 ShowNextPopup(11); 
+                PlayerMouseSpriteExample.Instance.SetVisibility(true);
             break;
 
             case 2:
@@ -150,6 +150,7 @@ public class Tutorial_2_System : TutorialSystem<Tutorial_2_System>
                 Vector3 logShift = new Vector3(-0.4f, -0.1f);
                 Debug.Log("Case 18");
                 ShowNextPopup(PlayerTabSystem.instance.PlayerTabs[0].transform.position + logShift, CompassDirection.South, null, null, 18); // Index 18
+                _ticketPopup.ForceFocus();
             }
             if (player.IsDetective && tutorialPopupIndex == 19)
             {
@@ -157,6 +158,7 @@ public class Tutorial_2_System : TutorialSystem<Tutorial_2_System>
                 player.AllowedStationConstraints.Add(155);
                 player.GoStep(TransportationType.Taxi, NeededSations[0]);       
                 Debug.Log("Case 19");
+                PlayerMouseSpriteExample.Instance.SetVisibility(false);
                 this.WaitAndDo(new WaitForSeconds(0.2f), () => !PopupManager.IsTutorialPopupOpen, 
                     () => ShowNextPopup(19));
             }
@@ -173,6 +175,7 @@ public class Tutorial_2_System : TutorialSystem<Tutorial_2_System>
                 //Well done! You escaped the detective
                 Debug.Log("Case 23");
                 ShowNextPopup(23); // Index 23
+                PlayerMouseSpriteExample.Instance.SetVisibility(false);
             }
             break;
         }
@@ -221,6 +224,7 @@ public class Tutorial_2_System : TutorialSystem<Tutorial_2_System>
             case 10: //As the ticket´s activated now, select station 155 again and move there.
                 Debug.Log("Case 10");
                 ShowNextPopup(10);
+                PlayerMouseSpriteExample.Instance.SetVisibility(false);
                 break;
             case 14: //When you use a ticket, the detectives will know WHICH 
                 Debug.Log("Case 14");
@@ -237,7 +241,6 @@ public class Tutorial_2_System : TutorialSystem<Tutorial_2_System>
             case 17: //Select station 157 and use the black ticket
                 Debug.Log("Case 17");
                 ShowNextPopup(17);
-                _ticketPopup.SelectAny();
                 PlayerMouseSpriteExample.Instance.SetVisibility(true);
                 break;
             case 20: //By the way, notice that Mr. X gets every ticket the detectives are using
@@ -252,6 +255,7 @@ public class Tutorial_2_System : TutorialSystem<Tutorial_2_System>
                 Debug.Log("Case 22");
                 ShowNextPopup(GameToGui(NeededSations[4].transform.position), CompassDirection.North, ErasePopupOnPlayerMoveStart, null, 22);
                 UnPause();
+                PlayerMouseSpriteExample.Instance.SetVisibility(true);
                 break;
             case 24: //But take care when you use your special tickets
                 Debug.Log("Case 24");
