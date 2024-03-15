@@ -28,8 +28,11 @@ public class ClickManager : MonoBehaviour
     {
         if (MultiplayerInputManager.Instance.CurrentPlayer != null && MultiplayerInputManager.Instance.CurrentPlayer.controllers != null)
         {
-            Debug.Log("MPIM: " + MultiplayerInputManager.Instance + ", Current Player: " + MultiplayerInputManager.Instance.CurrentPlayer + ", Controllers: " + MultiplayerInputManager.Instance.CurrentPlayer.controllers);
-            cType = MultiplayerInputManager.Instance.CurrentPlayer.controllers.GetLastActiveController().type;
+            if (MultiplayerInputManager.Instance.CurrentPlayer.controllers.GetLastActiveController() != null)
+            {
+                Debug.Log("MPIM: " + MultiplayerInputManager.Instance + ", Current Player: " + MultiplayerInputManager.Instance.CurrentPlayer + ", Controllers: " + MultiplayerInputManager.Instance.CurrentPlayer.controllers);
+                cType = MultiplayerInputManager.Instance.CurrentPlayer.controllers.GetLastActiveController().type;
+            }
         }
 #if UNITY_STANDALONE || UNITY_IOS || UNITY_ANDROID
         if(Input.GetMouseButtonDown(0))

@@ -56,7 +56,9 @@ namespace Korion.ScotlandYard.Input
             _players[_currentInputIndex].controllers.hasMouse = false;
 
             // Change player
-            ++_currentInputIndex;
+
+            //TODO KORION: This is a quick fix for the first controller build on 15.03.2024 until a proper turn system is established
+            //++_currentInputIndex;
 
             if(_currentInputIndex >= ReInput.players.playerCount)
                 _currentInputIndex = 0;
