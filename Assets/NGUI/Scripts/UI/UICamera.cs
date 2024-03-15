@@ -464,9 +464,6 @@ public class UICamera : MonoBehaviour
 			{
 				Debug.Log("selectedObject = null");
 			}
-			// if(!value) return;
-			// if(mCurrentSelection) Debug.Log("UICamera.current = " + mCurrentSelection.name, mCurrentSelection);
-			// if(mCurrentSelection == value) return;
 			SetSelection(value, UICamera.currentScheme);
 		}
 	}
@@ -554,11 +551,9 @@ public class UICamera : MonoBehaviour
 	{
 		yield return new WaitForEndOfFrame();
 		Notify(mCurrentSelection, "OnSelect", false);
-		// if(mNextSelection == null) Debug.Log("---mNextSelection is null");
 		mCurrentSelection = mNextSelection;
 		mNextSelection = null;
-
-		// if(mCurrentSelection == null) Debug.Log("---mCurrentSelection is null");
+		
 		if (mCurrentSelection != null)
 		{
 			current = this;

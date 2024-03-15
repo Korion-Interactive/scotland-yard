@@ -205,12 +205,12 @@ MonoBehaviour:
   mPivot: 4
   mWidth: 102
   mHeight: 192
-  mDepth: 10
+  mDepth: 21
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
   keepAspectRatio: 0
   aspectRatio: 0.53125
-  mAtlas: {fileID: 11400000, guid: 08a81d143abb1684e99f3f53f7a179f4, type: 2}
+  mAtlas: {fileID: 11400000, guid: 08a81d143abb1684e99f3f53f7a179f4, type: 3}
   mSpriteName: actor_white
   mType: 0
   mFillDirection: 4

@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 public class TicketPopupMrX : TicketPopup
 {
@@ -12,6 +11,8 @@ public class TicketPopupMrX : TicketPopup
 
     public void Setup(PlayerBase player, Station target, bool doubleTicketInUse)
     {
+        Debug.Log("Setup MrX");
+        
         LblAny.text = player.PlayerState.Tickets.BlackTickets.TicketsLeft.ToString();
         LblDouble.text = player.PlayerState.Tickets.DoubleTickets.ToString();
 
@@ -21,17 +22,20 @@ public class TicketPopupMrX : TicketPopup
         BtnAny.isEnabled = any;
         BtnDouble.isEnabled = doubleT;
 
-        base.Setup(player, target);
-    }
-    
-    public void SelectAny()
-    {
-        _nextUiElement = BtnAny;
-    }
-    
-    public void SelectDouble()
-    {
-        _nextUiElement = BtnDouble;
+        base.SetupButtons(player, target);
+        
+       
+            if (any)
+            {
+                _nextUiElement = BtnAny;
+            } else if (doubleT)
+            {
+                _nextUiElement = BtnDouble;
+            }
+        
+        SelectFirstButton();
+        
+        OnSetupComplete();
     }
 
     public void UseAny()
@@ -46,5 +50,10 @@ public class TicketPopupMrX : TicketPopup
         Debug.Log("UseDouble");
         TicketUsed();
         this.Broadcast(GameGuiEvents.DoubleTicketSelected);
+    }
+
+    public void ForceHighlight()
+    { 
+        _nextUiElement.SetState(UIButtonColor.State.Hover, true);
     }
 }

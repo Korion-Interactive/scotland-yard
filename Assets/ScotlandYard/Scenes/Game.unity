@@ -8946,6 +8946,7 @@ MonoBehaviour:
   - {fileID: 1967074632}
   - {fileID: 467032165}
   TicketDetectivePopup: {fileID: 1691254380}
+  _ticketPopup: {fileID: 1691254380}
 --- !u!4 &124943310
 Transform:
   m_ObjectHideFlags: 0
@@ -60767,7 +60768,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: _onTicketUsed.m_PersistentCalls.m_Calls.Array.size
@@ -60783,7 +60784,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 6
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
@@ -60816,7 +60817,7 @@ PrefabInstance:
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 999469969}
+      objectReference: {fileID: 1691254382}
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
@@ -60867,7 +60868,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: SetVisibility
+      value: SetControllerMapState
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
@@ -60915,7 +60916,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: Rewired.Demos.PlayerMouseSpriteExample, Assembly-CSharp
+      value: ChangeActionMap, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
@@ -61061,8 +61062,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   constraint: 0
-  onUp: {fileID: 920664336}
-  onDown: {fileID: 920664337}
+  onUp: {fileID: 0}
+  onDown: {fileID: 0}
   onLeft: {fileID: 0}
   onRight: {fileID: 0}
   onClick: {fileID: 0}
@@ -61081,8 +61082,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   constraint: 0
-  onUp: {fileID: 920664337}
-  onDown: {fileID: 920664335}
+  onUp: {fileID: 0}
+  onDown: {fileID: 0}
   onLeft: {fileID: 0}
   onRight: {fileID: 0}
   onClick: {fileID: 0}
@@ -61101,8 +61102,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   constraint: 0
-  onUp: {fileID: 920664335}
-  onDown: {fileID: 920664336}
+  onUp: {fileID: 0}
+  onDown: {fileID: 0}
   onLeft: {fileID: 0}
   onRight: {fileID: 0}
   onClick: {fileID: 0}
@@ -106502,7 +106503,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: _onPopupClosed.m_PersistentCalls.m_Calls.Array.size
@@ -106514,7 +106515,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 6
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
@@ -106547,7 +106548,7 @@ PrefabInstance:
     - target: {fileID: 11400036, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 999469969}
+      objectReference: {fileID: 1304427112}
     - target: {fileID: 11400036, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
@@ -106594,7 +106595,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: SetVisibility
+      value: SetControllerMapState
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
@@ -106642,7 +106643,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: Rewired.Demos.PlayerMouseSpriteExample, Assembly-CSharp
+      value: ChangeActionMap, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 11400036, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: _onPopupBuilt.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
@@ -106872,8 +106873,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   constraint: 0
-  onUp: {fileID: 1580813787}
-  onDown: {fileID: 1580813790}
+  onUp: {fileID: 0}
+  onDown: {fileID: 0}
   onLeft: {fileID: 0}
   onRight: {fileID: 0}
   onClick: {fileID: 0}
@@ -106892,8 +106893,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   constraint: 0
-  onUp: {fileID: 1580813788}
-  onDown: {fileID: 1580813786}
+  onUp: {fileID: 0}
+  onDown: {fileID: 0}
   onLeft: {fileID: 0}
   onRight: {fileID: 0}
   onClick: {fileID: 0}
@@ -106912,8 +106913,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   constraint: 0
-  onUp: {fileID: 1580813789}
-  onDown: {fileID: 1580813787}
+  onUp: {fileID: 0}
+  onDown: {fileID: 0}
   onLeft: {fileID: 0}
   onRight: {fileID: 0}
   onClick: {fileID: 0}
@@ -106932,8 +106933,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   constraint: 0
-  onUp: {fileID: 1580813790}
-  onDown: {fileID: 1580813788}
+  onUp: {fileID: 0}
+  onDown: {fileID: 0}
   onLeft: {fileID: 0}
   onRight: {fileID: 0}
   onClick: {fileID: 0}
@@ -106952,8 +106953,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   constraint: 0
-  onUp: {fileID: 1580813786}
-  onDown: {fileID: 1580813789}
+  onUp: {fileID: 0}
+  onDown: {fileID: 0}
   onLeft: {fileID: 0}
   onRight: {fileID: 0}
   onClick: {fileID: 0}
