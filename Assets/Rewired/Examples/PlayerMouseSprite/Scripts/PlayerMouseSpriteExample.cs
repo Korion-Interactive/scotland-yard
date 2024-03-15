@@ -285,5 +285,15 @@ namespace Rewired.Demos {
             pointer.SetActive(cursorVisible);
             CursorVisible = cursorVisible;
         }
+
+        public void DisableCursor()
+        {
+            SetVisibility(false);
+        }
+
+        public void EnableCursor()
+        {
+            SetVisibility(true);
+        }
     }
 }

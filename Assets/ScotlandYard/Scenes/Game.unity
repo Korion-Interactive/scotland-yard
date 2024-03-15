@@ -23534,11 +23534,11 @@ MonoBehaviour:
   _serializedStateValues:
   - '[]'
   - '[]'
-  - '{"a":4999999913984.0,"b":15000000266240.0}'
+  - '{"a":0.0,"b":0.0}'
   - '{"a":0.0,"b":0.0}'
   WeightMultiplierRangeEasy:
-    a: 5e+12
-    b: 1.5e+13
+    a: 0
+    b: 0
   WeightMultiplierRangeMedium:
     a: 0
     b: 0
@@ -52500,6 +52500,14 @@ MonoBehaviour:
     mMethodName: TryUnpauseGame
     mParameters: []
     oneShot: 0
+  - mTarget: {fileID: 1984978423}
+    mMethodName: ResetControllerMaps
+    mParameters: []
+    oneShot: 0
+  - mTarget: {fileID: 999469969}
+    mMethodName: EnableCursor
+    mParameters: []
+    oneShot: 0
 --- !u!65 &802800833
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -52597,11 +52605,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c8f05e925b0479489f6782bb65d1ffd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _actionToTrigger: StartButton
+  _actionToTrigger: UIStart
   _onActionTriggered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 802800825}
+      - m_Target: {fileID: 802800832}
         m_TargetAssemblyTypeName: UnityEngine.Component, UnityEngine
         m_MethodName: SendMessage
         m_Mode: 5
@@ -60715,15 +60723,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400008, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: aspectRatio
-      value: 0.2
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 11400012, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: aspectRatio
-      value: 0.2
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 11400014, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: aspectRatio
-      value: 0.2
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 11400030, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: hover.b
@@ -106450,15 +106458,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400008, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: aspectRatio
-      value: 0.2
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 11400012, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: aspectRatio
-      value: 0.2
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 11400014, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: aspectRatio
-      value: 0.2
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 11400030, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: hover.b
@@ -106750,11 +106758,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400042, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: aspectRatio
-      value: 0.2
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 11400048, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: aspectRatio
-      value: 0.2
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 11400052, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: hover.b
@@ -126528,6 +126536,14 @@ MonoBehaviour:
     mMethodName: TryPauseGame
     mParameters: []
     oneShot: 0
+  - mTarget: {fileID: 1984978423}
+    mMethodName: SetControllerMapState
+    mParameters: []
+    oneShot: 0
+  - mTarget: {fileID: 999469969}
+    mMethodName: DisableCursor
+    mParameters: []
+    oneShot: 0
 --- !u!65 &1881794135
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -134435,6 +134451,7 @@ GameObject:
   - component: {fileID: 1984978421}
   - component: {fileID: 1984978420}
   - component: {fileID: 1984978422}
+  - component: {fileID: 1984978423}
   m_Layer: 8
   m_Name: Panel - Options
   m_TagString: Untagged
@@ -134545,6 +134562,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e295a963f79f66b4f9d1f75b0a708b8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1984978423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1984978418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02659cb5dd7f7e7428402b8fdf5580cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _executeOnAwake: 0
+  _executeOnEnable: 0
+  _controllerMapToSwitchTo: UI
+  _playerIndex: 0
+  _forAllPlayers: 1
+  _disableOtherMaps: 1
 --- !u!1 &1988289482
 GameObject:
   m_ObjectHideFlags: 0
@@ -141421,7 +141456,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2114602398
 Transform:
   m_ObjectHideFlags: 0

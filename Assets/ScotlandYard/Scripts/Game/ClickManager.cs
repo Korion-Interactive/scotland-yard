@@ -24,6 +24,8 @@ public class ClickManager : MonoBehaviour
     {
 #if UNITY_STANDALONE || UNITY_IOS || UNITY_ANDROID
         if(Input.GetMouseButtonDown(0))
+#elif UNITY_SWITCH
+        if (Input.GetMouseButtonDown(0) || _playerPointer.Mouse.leftButton.justPressed)
 #else
         if (_playerPointer.Mouse.leftButton.justPressed)
 #endif
@@ -33,6 +35,9 @@ public class ClickManager : MonoBehaviour
                 c.ClickStart();
 #if UNITY_STANDALONE || UNITY_IOS || UNITY_ANDROID
             startClickPosition = Input.mousePosition;
+#elif UNITY_SWITCH
+            startClickPosition = Input.mousePosition;
+            _playerPointer.Mouse.screenPosition = startClickPosition;
 #else
             startClickPosition = _playerPointer.Mouse.screenPosition;
 #endif
@@ -42,6 +47,8 @@ public class ClickManager : MonoBehaviour
 
 #if UNITY_STANDALONE || UNITY_IOS || UNITY_ANDROID
         if(Input.GetMouseButton(0) && clickTracked)
+#elif UNITY_SWITCH
+        if ((_playerPointer.Mouse.leftButton.value == true || Input.GetMouseButton(0)) && clickTracked)
 #else
         if(_playerPointer.Mouse.leftButton.value == true && clickTracked)
 #endif
@@ -49,6 +56,9 @@ public class ClickManager : MonoBehaviour
             clickTime += Time.deltaTime;
 #if UNITY_STANDALONE || UNITY_IOS || UNITY_ANDROID
             float distSq = (startClickPosition - (Vector2)Input.mousePosition).sqrMagnitude;
+#elif UNITY_SWITCH
+            float distSq = (startClickPosition - (Vector2)Input.mousePosition).sqrMagnitude;
+            distSq += (startClickPosition - (Vector2)_playerPointer.Mouse.screenPosition).sqrMagnitude;
 #else
             float distSq = (startClickPosition - (Vector2)_playerPointer.Mouse.screenPosition).sqrMagnitude;
 #endif
@@ -58,6 +68,8 @@ public class ClickManager : MonoBehaviour
 
 #if UNITY_STANDALONE || UNITY_IOS || UNITY_ANDROID
         if (Input.GetMouseButtonUp(0))
+#elif UNITY_SWITCH
+        if (Input.GetMouseButtonUp(0) || _playerPointer.Mouse.leftButton.justReleased)
 #else
         if (_playerPointer.Mouse.leftButton.justReleased)
 #endif

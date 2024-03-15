@@ -130,7 +130,7 @@ public class DragDetector : MonoBehaviour {
 		float timeStart=Mathf.Infinity;
 		
 		while(mouseIndex.Contains(index)){
-#if UNITY_STANDALONE || UNITY_IOS || UNITY_ANDROID
+#if UNITY_STANDALONE || UNITY_IOS || UNITY_ANDROID || UNITY_SWITCH
 			Vector2 curPos=Input.mousePosition;
 #else
 			Vector2 curPos = _playerPointer.Mouse.screenPosition;
@@ -264,7 +264,7 @@ public class DragDetector : MonoBehaviour {
 			}
 		}
 		else if(Input.touchCount==0){
-#if UNITY_STANDALONE || UNITY_IOS || UNITY_ANDROID
+#if UNITY_STANDALONE || UNITY_IOS || UNITY_ANDROID || UNITY_SWITCH
 			if(Input.GetMouseButtonDown(0)){
 				if(!mouseIndex.Contains(0)) StartCoroutine(MouseRoutine(0)); 
 			}
