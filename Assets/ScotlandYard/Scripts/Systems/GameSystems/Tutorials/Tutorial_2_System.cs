@@ -42,7 +42,6 @@ public class Tutorial_2_System : TutorialSystem<Tutorial_2_System>
         Debug.Log("Case 9");
         ShowNextPopup(9);
         TicketsMrXPopup.AllowedTransportationTypes = TransportationType.Taxi;
-        _ticketPopup.ForceFocus();
     }
 
     private void StationClicked(BaseArgs obj)
@@ -112,6 +111,7 @@ public class Tutorial_2_System : TutorialSystem<Tutorial_2_System>
                 }
                 //Now comes your second move. Tap on station 156 and move there
                 Debug.Log("Case 11");
+                PopupClosed(++tutorialPopupIndex);
                 ShowNextPopup(11); 
                 PlayerMouseSpriteExample.Instance.SetVisibility(true);
             break;
@@ -224,7 +224,7 @@ public class Tutorial_2_System : TutorialSystem<Tutorial_2_System>
             case 10: //As the ticket´s activated now, select station 155 again and move there.
                 Debug.Log("Case 10");
                 ShowNextPopup(10);
-                PlayerMouseSpriteExample.Instance.SetVisibility(false); 
+                PlayerMouseSpriteExample.Instance.SetVisibility(false);
                 break;
             case 14: //When you use a ticket, the detectives will know WHICH 
                 Debug.Log("Case 14");
