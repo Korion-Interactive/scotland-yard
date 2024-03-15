@@ -13,6 +13,8 @@ public class PlayerTabSystem : BaseSystem<GameEvents, GameGuiEvents, PlayerTabSy
 
     public List<PlayerTab> PlayerTabs = new List<PlayerTab>();
 
+    private int currentIndex = 0;
+
     protected override void RegisterEvents()
     {
         ListenTo(GameEvents.GameStart, InitializePlayerTabs);
@@ -123,4 +125,29 @@ public class PlayerTabSystem : BaseSystem<GameEvents, GameGuiEvents, PlayerTabSy
 
         GetComponent<UIGrid>().Reposition();
     }    
+
+    public void SimulateClickOnNextTab()
+    {
+        currentIndex++;
+        if(currentIndex >= PlayerTabs.Count)
+        {
+            currentIndex = 0;
+        }
+        DoTabClickSimulation();
+    }
+
+    public void SimulateClickOnPreviousTab()
+    {
+        currentIndex--;
+        if (currentIndex < 0)
+        {
+            currentIndex = PlayerTabs.Count-1;
+        }
+        DoTabClickSimulation();
+    }
+
+    private void DoTabClickSimulation()
+    {
+        PlayerTabs[currentIndex].TryClick();
+    }
 }

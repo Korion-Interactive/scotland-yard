@@ -1,4 +1,5 @@
-﻿using Rewired;
+﻿using Korion.ScotlandYard.Input;
+using Rewired;
 using Rewired.Demos;
 using System;
 using System.Collections.Generic;
@@ -20,12 +21,30 @@ public class ClickManager : MonoBehaviour
     bool clickTracked;
     float clickTime;
 
+    Player _player;
+    ControllerType cType;
+
     void Update()
     {
+        if (MultiplayerInputManager.Instance.CurrentPlayer != null && MultiplayerInputManager.Instance.CurrentPlayer.controllers != null)
+        {
+            Debug.Log("MPIM: " + MultiplayerInputManager.Instance + ", Current Player: " + MultiplayerInputManager.Instance.CurrentPlayer + ", Controllers: " + MultiplayerInputManager.Instance.CurrentPlayer.controllers);
+            cType = MultiplayerInputManager.Instance.CurrentPlayer.controllers.GetLastActiveController().type;
+        }
 #if UNITY_STANDALONE || UNITY_IOS || UNITY_ANDROID
         if(Input.GetMouseButtonDown(0))
 #elif UNITY_SWITCH
-        if (Input.GetMouseButtonDown(0) || _playerPointer.Mouse.leftButton.justPressed)
+
+        bool success = false;
+        if (cType == ControllerType.Keyboard || cType == ControllerType.Mouse)
+        {
+            success = Input.GetMouseButtonDown(0);
+        }
+        else
+        {
+            success = _playerPointer.Mouse.leftButton.justPressed;
+        }
+        if (success)
 #else
         if (_playerPointer.Mouse.leftButton.justPressed)
 #endif
@@ -36,8 +55,14 @@ public class ClickManager : MonoBehaviour
 #if UNITY_STANDALONE || UNITY_IOS || UNITY_ANDROID
             startClickPosition = Input.mousePosition;
 #elif UNITY_SWITCH
-            startClickPosition = Input.mousePosition;
-            _playerPointer.Mouse.screenPosition = startClickPosition;
+            if (cType == ControllerType.Keyboard || cType == ControllerType.Mouse)
+            {
+                startClickPosition = Input.mousePosition;
+            }
+            else
+            {
+                startClickPosition = _playerPointer.Mouse.screenPosition;
+            }
 #else
             startClickPosition = _playerPointer.Mouse.screenPosition;
 #endif
@@ -57,8 +82,16 @@ public class ClickManager : MonoBehaviour
 #if UNITY_STANDALONE || UNITY_IOS || UNITY_ANDROID
             float distSq = (startClickPosition - (Vector2)Input.mousePosition).sqrMagnitude;
 #elif UNITY_SWITCH
-            float distSq = (startClickPosition - (Vector2)Input.mousePosition).sqrMagnitude;
-            distSq += (startClickPosition - (Vector2)_playerPointer.Mouse.screenPosition).sqrMagnitude;
+            float distSq;
+            
+            if (cType == ControllerType.Keyboard || cType == ControllerType.Mouse)
+            {
+                distSq = (startClickPosition - (Vector2)Input.mousePosition).sqrMagnitude;
+            }
+            else
+            {
+                distSq = (startClickPosition - (Vector2)_playerPointer.Mouse.screenPosition).sqrMagnitude;
+            }
 #else
             float distSq = (startClickPosition - (Vector2)_playerPointer.Mouse.screenPosition).sqrMagnitude;
 #endif
@@ -133,8 +166,15 @@ public class ClickManager : MonoBehaviour
         foreach (Camera cam in Cameras)
         {
 #if UNITY_SWITCH || UNITY_STANDALONE || UNITY_IOS || UNITY_ANDROID
-            Vector3 pos = cam.ScreenToWorldPoint(Input.mousePosition);
-            Vector3 pos2 = cam.ScreenToWorldPoint(_playerPointer.Mouse.screenPosition);
+            Vector3 pos;
+            if (cType == ControllerType.Keyboard || cType == ControllerType.Mouse)
+            {
+                pos = cam.ScreenToWorldPoint(Input.mousePosition);
+            }
+            else
+            {
+                pos = cam.ScreenToWorldPoint(_playerPointer.Mouse.screenPosition);
+            }
 #else
             Vector3 pos = cam.ScreenToWorldPoint(_playerPointer.Mouse.screenPosition);
 #endif
