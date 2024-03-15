@@ -23,23 +23,40 @@ public class ClickManager : MonoBehaviour
 
     Player _player;
     ControllerType cType;
+    bool _isTouching;
 
     void Update()
     {
+#if UNITY_SWITCH
+        if(Input.touchCount > 0 || Input.GetMouseButton(0))
+        {
+            _isTouching = true;
+        }
+        else 
+        { 
+            _isTouching = false; 
+        }
+#endif
         if (MultiplayerInputManager.Instance.CurrentPlayer != null && MultiplayerInputManager.Instance.CurrentPlayer.controllers != null)
         {
             if (MultiplayerInputManager.Instance.CurrentPlayer.controllers.GetLastActiveController() != null)
             {
-                Debug.Log("MPIM: " + MultiplayerInputManager.Instance + ", Current Player: " + MultiplayerInputManager.Instance.CurrentPlayer + ", Controllers: " + MultiplayerInputManager.Instance.CurrentPlayer.controllers);
+                //Debug.Log("MPIM: " + MultiplayerInputManager.Instance + ", Current Player: " + MultiplayerInputManager.Instance.CurrentPlayer + ", Controllers: " + MultiplayerInputManager.Instance.CurrentPlayer.controllers);
                 cType = MultiplayerInputManager.Instance.CurrentPlayer.controllers.GetLastActiveController().type;
             }
+            else
+            {
+                cType = ControllerType.Keyboard;
+            }
         }
+
+        Debug.Log("Controller type: " + cType);
 #if UNITY_STANDALONE || UNITY_IOS || UNITY_ANDROID
         if(Input.GetMouseButtonDown(0))
 #elif UNITY_SWITCH
 
         bool success = false;
-        if (cType == ControllerType.Keyboard || cType == ControllerType.Mouse)
+        if (_isTouching)
         {
             success = Input.GetMouseButtonDown(0);
         }
@@ -58,7 +75,7 @@ public class ClickManager : MonoBehaviour
 #if UNITY_STANDALONE || UNITY_IOS || UNITY_ANDROID
             startClickPosition = Input.mousePosition;
 #elif UNITY_SWITCH
-            if (cType == ControllerType.Keyboard || cType == ControllerType.Mouse)
+            if (_isTouching)
             {
                 startClickPosition = Input.mousePosition;
             }
@@ -76,7 +93,7 @@ public class ClickManager : MonoBehaviour
 #if UNITY_STANDALONE || UNITY_IOS || UNITY_ANDROID
         if(Input.GetMouseButton(0) && clickTracked)
 #elif UNITY_SWITCH
-        if ((_playerPointer.Mouse.leftButton.value == true || Input.GetMouseButton(0)) && clickTracked)
+        if (_isTouching && clickTracked)
 #else
         if(_playerPointer.Mouse.leftButton.value == true && clickTracked)
 #endif
@@ -87,7 +104,7 @@ public class ClickManager : MonoBehaviour
 #elif UNITY_SWITCH
             float distSq;
             
-            if (cType == ControllerType.Keyboard || cType == ControllerType.Mouse)
+            if (_isTouching)
             {
                 distSq = (startClickPosition - (Vector2)Input.mousePosition).sqrMagnitude;
             }
@@ -170,7 +187,7 @@ public class ClickManager : MonoBehaviour
         {
 #if UNITY_SWITCH || UNITY_STANDALONE || UNITY_IOS || UNITY_ANDROID
             Vector3 pos;
-            if (cType == ControllerType.Keyboard || cType == ControllerType.Mouse)
+            if (_isTouching)
             {
                 pos = cam.ScreenToWorldPoint(Input.mousePosition);
             }

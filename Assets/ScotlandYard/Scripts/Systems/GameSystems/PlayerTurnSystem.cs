@@ -62,12 +62,16 @@ public class PlayerTurnSystem : BaseSystem<GameEvents, PlayerTurnSystem>
 
         if (IsMixedHotSeatGame())
         {
+            firstTurn();//TODO: KORION
+            /*
             PauseAndBlur(true);
             PopupManager.ShowQuestion("pass_device", "mr_x_turn_starts", (o) => { PauseAndBlur(false); firstTurn(); SetIngameSelectionActive(true); }, null); //KORION POP UP
             PopupManager.Instance.CurrentPopup.text.GetComponent<UILabel>().text = string.Format(PopupManager.Instance.CurrentPopup.text.GetComponent<UILabel>().text, GameState.Instance.MrX.PlayerDisplayName); //KORION IMPROVE --> NEXT LINE IN BETWEEN
             PopupManager.Instance.CurrentPopup.noButton.SetActive(false);
             //PopupManager.Instance.CurrentPopup.yesButton.SetActive(true);
             SetIngameSelectionActive(false);
+            */
+            //UICamera.selectedObject = PopupManager.Instance.CurrentPopup.yesButton;
         }
         else
         {
@@ -215,12 +219,17 @@ public class PlayerTurnSystem : BaseSystem<GameEvents, PlayerTurnSystem>
 
         if(IsMixedHotSeatGame())
         {
+            nextPlayer();
+            /*
             PauseAndBlur(true);
             PopupManager.ShowQuestion("pass_device", "mr_x_turn_starts", (o) => { PauseAndBlur(false); nextPlayer(); SetIngameSelectionActive(true); }, null); //KORION POP UP
             PopupManager.Instance.CurrentPopup.text.GetComponent<UILabel>().text = string.Format(PopupManager.Instance.CurrentPopup.text.GetComponent<UILabel>().text, GameState.Instance.MrX.PlayerDisplayName); //KORION IMPROVE --> NEXT LINE IN BETWEEN
             PopupManager.Instance.CurrentPopup.noButton.SetActive(false);
             //PopupManager.Instance.CurrentPopup.yesButton.SetActive(true);
             SetIngameSelectionActive(false);
+            */
+
+            //UICamera.selectedObject = PopupManager.Instance.CurrentPopup.yesButton;
         }
         else
         {
