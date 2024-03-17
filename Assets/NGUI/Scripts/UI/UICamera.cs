@@ -1009,7 +1009,9 @@ public class UICamera : MonoBehaviour
                  Application.platform == RuntimePlatform.XboxOne)
 		{
 			useMouse = false;
+#if !UNITY_SWITCH
 			useTouch = false;
+#endif
 			useKeyboard = false;
 			useController = true;
 		}

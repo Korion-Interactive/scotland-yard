@@ -1,0 +1,971 @@
+fileFormatVersion: 2
+guid: 5d777ee954c2ee549b67951e285966b9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3820855435878716325
+    second: spr_Switch_A
+  - first:
+      213: 2746152040971189379
+    second: spr_Switch_B
+  - first:
+      213: -984275272012430311
+    second: spr_Switch_X
+  - first:
+      213: 5357899429402202367
+    second: spr_Switch_Y
+  - first:
+      213: -6797377368364592812
+    second: spr_Switch_L
+  - first:
+      213: -7886042216054943011
+    second: spr_Switch_R
+  - first:
+      213: -3533743759265438065
+    second: spr_Switch_ZL
+  - first:
+      213: 1110620352908528435
+    second: spr_Switch_ZR
+  - first:
+      213: -3266817590668409270
+    second: spr_Switch_SL
+  - first:
+      213: -3073313069876903432
+    second: spr_Switch_SR
+  - first:
+      213: -7356658705556295270
+    second: spr_Switch_UpAlt
+  - first:
+      213: -6150860965430848836
+    second: spr_Switch_DownAlt
+  - first:
+      213: -8776155634328534150
+    second: spr_Switch_RightAlt
+  - first:
+      213: -549837777293947398
+    second: spr_Switch_LeftAlt
+  - first:
+      213: 2862021617728508127
+    second: spr_Switch_Plus
+  - first:
+      213: -4717385906944586521
+    second: spr_Switch_Minus
+  - first:
+      213: -3433368179748457529
+    second: spr_Switch_PlusAlt
+  - first:
+      213: -4620254062638884577
+    second: spr_Switch_MinusAlt
+  - first:
+      213: 6530217161287323909
+    second: spr_Switch_Home
+  - first:
+      213: -8781174046641695273
+    second: spr_Switch_Capture
+  - first:
+      213: 3782116432932192350
+    second: spr_Switch_ButtonEast
+  - first:
+      213: -7565462991843582571
+    second: spr_Switch_ButtonNorth
+  - first:
+      213: 1292268648622963688
+    second: spr_Switch_ButtonNorth
+  - first:
+      213: 7957218943152076629
+    second: spr_Switch_ButtonWest
+  - first:
+      213: -9087107366609220343
+    second: spr_Glyphs_NintendoSwitch_24
+  - first:
+      213: -7689097652231313858
+    second: spr_Switch_LeftStick
+  - first:
+      213: -6753746757494559262
+    second: spr_Switch_RightStick
+  - first:
+      213: 5468358813825796722
+    second: spr_Glyphs_NintendoSwitch_27
+  - first:
+      213: 2297493952249039624
+    second: spr_Switch_DPad
+  - first:
+      213: 8689816561387572981
+    second: spr_Switch_DPad_Up
+  - first:
+      213: -5055843944439412503
+    second: spr_Switch_DPad_Down
+  - first:
+      213: -2359812208615299102
+    second: spr_Switch_DPad_Left
+  - first:
+      213: 1204603683618121125
+    second: spr_Switch_DPad_Right
+  - first:
+      213: 8499358827826801556
+    second: spr_Switch_DPad_Vertical
+  - first:
+      213: 8565298096865764654
+    second: spr_Switch_DPad_Horizontal
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 1
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Nintendo Switch
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spr_Switch_A
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 520
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c245e893899fac0800000000000000
+      internalID: -3820855435878716325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Switch_B
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 520
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c3d454bba4c1620800000000000000
+      internalID: 2746152040971189379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Switch_X
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 520
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9148f72ead62752f0800000000000000
+      internalID: -984275272012430311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Switch_Y
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 520
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff059c7c4251b5a40800000000000000
+      internalID: 5357899429402202367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Switch_L
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 523
+        width: 52
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 451595a2c4ddaa1a0800000000000000
+      internalID: -6797377368364592812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Switch_R
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 523
+        width: 52
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd29f44f2662f8290800000000000000
+      internalID: -7886042216054943011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Switch_ZL
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 520
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f86eab506ce95fec0800000000000000
+      internalID: -3533743759265438065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Switch_ZR
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 520
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b8e6f9357b96f00800000000000000
+      internalID: 1110620352908528435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Switch_SL
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 525
+        width: 53
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46463aa5bee9a2d0800000000000000
+      internalID: -3266817590668409270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Switch_SR
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 525
+        width: 53
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f10c6acb066955d0800000000000000
+      internalID: -3073313069876903432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Switch_UpAlt
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 376
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91388172e5e7e990800000000000000
+      internalID: -7356658705556295270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Switch_DownAlt
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 376
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb29da46a80c3aaa0800000000000000
+      internalID: -6150860965430848836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Switch_RightAlt
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 376
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a730e4ad2f4d43680800000000000000
+      internalID: -8776155634328534150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Switch_LeftAlt
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 376
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afdcd4864759e58f0800000000000000
+      internalID: -549837777293947398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Switch_Plus
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 376
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd052386f71f7b720800000000000000
+      internalID: 2862021617728508127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Switch_Minus
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 376
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec422ce28a788eb0800000000000000
+      internalID: -4717385906944586521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Switch_PlusAlt
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 380
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3b6fec4d93a50d0800000000000000
+      internalID: -3433368179748457529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Switch_MinusAlt
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 395
+        width: 43
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f199a50c86f81efb0800000000000000
+      internalID: -4620254062638884577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Switch_Home
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 376
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 501d0bcd8edff9a50800000000000000
+      internalID: 6530217161287323909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Switch_Capture
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 376
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d5da0faab0032680800000000000000
+      internalID: -8781174046641695273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Switch_LeftStick
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 227
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3666738c66da4590800000000000000
+      internalID: -7689097652231313858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Switch_RightStick
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 227
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed27906b1fd542a0800000000000000
+      internalID: -6753746757494559262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Switch_DPad
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 82
+        width: 52
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b8961b39652ef10800000000000000
+      internalID: 2297493952249039624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Switch_DPad_Up
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 82
+        width: 52
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe00d83f1e689870800000000000000
+      internalID: 8689816561387572981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Switch_DPad_Down
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 82
+        width: 52
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e801e338b806d9b0800000000000000
+      internalID: -5055843944439412503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Switch_DPad_Left
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 82
+        width: 52
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e7ead09c43404fd0800000000000000
+      internalID: -2359812208615299102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Switch_DPad_Right
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 82
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a56f210bac97b010800000000000000
+      internalID: 1204603683618121125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Switch_DPad_Vertical
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 82
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b623782d9c3f570800000000000000
+      internalID: 8499358827826801556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Switch_DPad_Horizontal
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 82
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e25630bfc3d0ed670800000000000000
+      internalID: 8565298096865764654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Switch_ButtonEast
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 227
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5047147bd6cc7430800000000000000
+      internalID: 3782116432932192350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Switch_ButtonSouth
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 227
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d9cc11e73120790800000000000000
+      internalID: -7565462991843582571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Switch_ButtonNorth
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 227
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ebbb8b3d7f0fe110800000000000000
+      internalID: 5366054448743820322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Switch_ButtonWest
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 227
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557b69a3878bd6e60800000000000000
+      internalID: 7957218943152076629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 69c3fbf08b1e3cd46a3c4b706fea6948
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      spr_Switch_A: -3820855435878716325
+      spr_Switch_B: 2746152040971189379
+      spr_Switch_ButtonEast: 3782116432932192350
+      spr_Switch_ButtonNorth: 5366054448743820322
+      spr_Switch_ButtonSouth: -7565462991843582571
+      spr_Switch_ButtonWest: 7957218943152076629
+      spr_Switch_Capture: -8781174046641695273
+      spr_Switch_DPad: 2297493952249039624
+      spr_Switch_DPad_Down: -5055843944439412503
+      spr_Switch_DPad_Horizontal: 8565298096865764654
+      spr_Switch_DPad_Left: -2359812208615299102
+      spr_Switch_DPad_Right: 1204603683618121125
+      spr_Switch_DPad_Up: 8689816561387572981
+      spr_Switch_DPad_Vertical: 8499358827826801556
+      spr_Switch_DownAlt: -6150860965430848836
+      spr_Switch_Home: 6530217161287323909
+      spr_Switch_L: -6797377368364592812
+      spr_Switch_LeftAlt: -549837777293947398
+      spr_Switch_LeftStick: -7689097652231313858
+      spr_Switch_Minus: -4717385906944586521
+      spr_Switch_MinusAlt: -4620254062638884577
+      spr_Switch_Plus: 2862021617728508127
+      spr_Switch_PlusAlt: -3433368179748457529
+      spr_Switch_R: -7886042216054943011
+      spr_Switch_RightAlt: -8776155634328534150
+      spr_Switch_RightStick: -6753746757494559262
+      spr_Switch_SL: -3266817590668409270
+      spr_Switch_SR: -3073313069876903432
+      spr_Switch_UpAlt: -7356658705556295270
+      spr_Switch_X: -984275272012430311
+      spr_Switch_Y: 5357899429402202367
+      spr_Switch_ZL: -3533743759265438065
+      spr_Switch_ZR: 1110620352908528435
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
