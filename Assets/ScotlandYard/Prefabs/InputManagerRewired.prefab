@@ -545,6 +545,15 @@ MonoBehaviour:
       _behaviorId: 0
       _userAssignable: 1
       _categoryId: 0
+    - _id: 19
+      _name: UITogglePlayerSprite
+      _type: 1
+      _descriptiveName: UITogglePlayerSprite
+      _positiveDescriptiveName: 
+      _negativeDescriptiveName: 
+      _behaviorId: 0
+      _userAssignable: 1
+      _categoryId: 1
     actionCategories:
     - _name: Default
       _descriptiveName: Default
@@ -561,7 +570,7 @@ MonoBehaviour:
       - categoryId: 0
         actionIds: 05000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e00000010000000110000000f00000012000000
       - categoryId: 1
-        actionIds: 0000000001000000020000000300000004000000
+        actionIds: 000000000100000002000000030000000400000013000000
     inputBehaviors:
     - _id: 0
       _name: Default
@@ -1223,7 +1232,7 @@ MonoBehaviour:
         _modifierKey2: 0
         _modifierKey3: 0
       - _actionCategoryId: 0
-        _actionId: -1
+        _actionId: 19
         _elementType: 1
         _elementIdentifierId: 8
         _axisRange: 0
@@ -1494,7 +1503,7 @@ MonoBehaviour:
         _modifierKey2: 0
         _modifierKey3: 0
       - _actionCategoryId: 0
-        _actionId: -1
+        _actionId: 19
         _elementType: 1
         _elementIdentifierId: 8
         _axisRange: 0
@@ -1732,7 +1741,7 @@ MonoBehaviour:
         _modifierKey2: 0
         _modifierKey3: 0
       - _actionCategoryId: 0
-        _actionId: -1
+        _actionId: 19
         _elementType: 1
         _elementIdentifierId: 8
         _axisRange: 0
@@ -1970,7 +1979,7 @@ MonoBehaviour:
         _modifierKey2: 0
         _modifierKey3: 0
       - _actionCategoryId: 0
-        _actionId: -1
+        _actionId: 19
         _elementType: 1
         _elementIdentifierId: 8
         _axisRange: 0
@@ -4597,7 +4606,7 @@ MonoBehaviour:
     controllerMapLayoutManagerRuleSets: []
     controllerMapEnablerRuleSets: []
     playerIdCounter: 6
-    actionIdCounter: 19
+    actionIdCounter: 20
     actionCategoryIdCounter: 2
     inputBehaviorIdCounter: 1
     mapCategoryIdCounter: 2

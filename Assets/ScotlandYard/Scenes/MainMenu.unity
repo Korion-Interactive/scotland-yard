@@ -502,7 +502,7 @@ GameObject:
   m_Component:
   - component: {fileID: 26318571}
   - component: {fileID: 26318572}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Halo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -827,7 +827,7 @@ GameObject:
   m_Component:
   - component: {fileID: 49129356}
   - component: {fileID: 49129357}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Dusk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1149,7 +1149,7 @@ GameObject:
   - component: {fileID: 76354647}
   - component: {fileID: 76354648}
   - component: {fileID: 76354649}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: BG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1293,7 +1293,7 @@ GameObject:
   - component: {fileID: 81546295}
   - component: {fileID: 81546297}
   - component: {fileID: 81546296}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Car_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3424,7 +3424,7 @@ GameObject:
   - component: {fileID: 183099705}
   - component: {fileID: 183099707}
   - component: {fileID: 183099706}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Car_07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5265,7 +5265,7 @@ GameObject:
   m_Component:
   - component: {fileID: 239418668}
   - component: {fileID: 239418669}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: 032_layer_bridge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5565,7 +5565,7 @@ GameObject:
   m_Component:
   - component: {fileID: 253136592}
   - component: {fileID: 253136593}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: lt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5938,7 +5938,7 @@ GameObject:
   - component: {fileID: 261988702}
   - component: {fileID: 261988704}
   - component: {fileID: 261988703}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Car_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6035,7 +6035,7 @@ GameObject:
   m_Component:
   - component: {fileID: 264713553}
   - component: {fileID: 264713554}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: town_left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6487,7 +6487,7 @@ GameObject:
   m_Component:
   - component: {fileID: 298164556}
   - component: {fileID: 298164557}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7154,7 +7154,7 @@ GameObject:
   m_Component:
   - component: {fileID: 320841169}
   - component: {fileID: 320841170}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Sprite (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7391,7 +7391,7 @@ GameObject:
   - component: {fileID: 333068607}
   - component: {fileID: 333068608}
   - component: {fileID: 333068609}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Car_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7594,7 +7594,7 @@ GameObject:
   m_Component:
   - component: {fileID: 339118627}
   - component: {fileID: 339118628}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: rb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8485,7 +8485,7 @@ GameObject:
   - component: {fileID: 387693008}
   - component: {fileID: 387693009}
   - component: {fileID: 387693010}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Clouds_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8590,7 +8590,7 @@ GameObject:
   m_Component:
   - component: {fileID: 388836196}
   - component: {fileID: 388836197}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Dark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9428,7 +9428,7 @@ GameObject:
   - component: {fileID: 426785682}
   - component: {fileID: 426785684}
   - component: {fileID: 426785683}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Car_14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9537,7 +9537,7 @@ GameObject:
   m_Component:
   - component: {fileID: 442098086}
   - component: {fileID: 442098087}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10443,7 +10443,7 @@ GameObject:
   m_Component:
   - component: {fileID: 495056024}
   - component: {fileID: 495056025}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10526,7 +10526,7 @@ GameObject:
   m_Component:
   - component: {fileID: 498294112}
   - component: {fileID: 498294113}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10948,7 +10948,7 @@ GameObject:
   - component: {fileID: 524281363}
   - component: {fileID: 524281365}
   - component: {fileID: 524281364}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Car_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11496,7 +11496,7 @@ GameObject:
   - component: {fileID: 563232528}
   - component: {fileID: 563232530}
   - component: {fileID: 563232529}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Car_15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11770,6 +11770,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2961636678584230204, guid: 606406c7ada087d45bfa4e5e705172e6,
         type: 3}
+    - target: {fileID: 8789670504958024177, guid: 538fe765e1085c44898d152797810a8a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 9043106885688774723, guid: 538fe765e1085c44898d152797810a8a,
         type: 3}
       propertyPath: m_Sprite
@@ -11895,7 +11900,7 @@ GameObject:
   - component: {fileID: 579697041}
   - component: {fileID: 579697043}
   - component: {fileID: 579697042}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Car_09
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12292,7 +12297,7 @@ GameObject:
   m_Component:
   - component: {fileID: 597779881}
   - component: {fileID: 597779882}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13771,7 +13776,7 @@ GameObject:
   m_Component:
   - component: {fileID: 679789857}
   - component: {fileID: 679789858}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: 033_layer_bridge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14276,7 +14281,7 @@ GameObject:
   m_Component:
   - component: {fileID: 711361377}
   - component: {fileID: 711361378}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: bridge_left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14631,7 +14636,7 @@ GameObject:
   - component: {fileID: 719012573}
   - component: {fileID: 719012574}
   - component: {fileID: 719012575}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Car_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15233,7 +15238,7 @@ GameObject:
   - component: {fileID: 755630948}
   - component: {fileID: 755630950}
   - component: {fileID: 755630949}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Car_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15881,6 +15886,7 @@ GameObject:
   m_Component:
   - component: {fileID: 785213760}
   - component: {fileID: 785213761}
+  - component: {fileID: 785213762}
   m_Layer: 8
   m_Name: MisterXSettings
   m_TagString: Untagged
@@ -15956,6 +15962,18 @@ MonoBehaviour:
   rightType: 1
   bottomType: 1
   topType: 1
+--- !u!114 &785213762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 785213759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27ad267317e95db4a93956275d570ed0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &789077061
 GameObject:
   m_ObjectHideFlags: 0
@@ -15967,7 +15985,7 @@ GameObject:
   - component: {fileID: 789077064}
   - component: {fileID: 789077063}
   - component: {fileID: 789077062}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Panel - BG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16425,7 +16443,7 @@ GameObject:
   m_Component:
   - component: {fileID: 815541093}
   - component: {fileID: 815541094}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: 031_layer_bridge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16751,7 +16769,7 @@ GameObject:
   - component: {fileID: 833965554}
   - component: {fileID: 833965555}
   - component: {fileID: 833965556}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Layer - Clouds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20095,7 +20113,7 @@ GameObject:
   m_Component:
   - component: {fileID: 966079964}
   - component: {fileID: 966079965}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21752,7 +21770,7 @@ GameObject:
   - component: {fileID: 1023904580}
   - component: {fileID: 1023904582}
   - component: {fileID: 1023904581}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Car_08
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21901,6 +21919,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8789670504958024177, guid: 538fe765e1085c44898d152797810a8a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22417,7 +22440,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1049921795}
   - component: {fileID: 1049921796}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: bridge_right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23149,7 +23172,7 @@ GameObject:
   - component: {fileID: 1079095841}
   - component: {fileID: 1079095843}
   - component: {fileID: 1079095842}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Logo_SY
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23993,7 +24016,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1120735116}
   - component: {fileID: 1120735117}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: TickerMover
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24786,7 +24809,7 @@ GameObject:
   - component: {fileID: 1177964349}
   - component: {fileID: 1177964350}
   - component: {fileID: 1177964351}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Clouds_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25498,6 +25521,7 @@ GameObject:
   - component: {fileID: 1199559221}
   - component: {fileID: 1199559220}
   - component: {fileID: 1199559222}
+  - component: {fileID: 1199559223}
   m_Layer: 8
   m_Name: Panel - New Game
   m_TagString: Untagged
@@ -25637,6 +25661,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   alpha: 1
+--- !u!114 &1199559223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1199559216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6f1ba8690ed9a848a6d88c60f2bd42d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1204381083
 GameObject:
   m_ObjectHideFlags: 0
@@ -25647,7 +25683,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1204381084}
   - component: {fileID: 1204381085}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25730,7 +25766,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1211286406}
   - component: {fileID: 1211286407}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: TickerMover
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26790,7 +26826,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1263725961}
   - component: {fileID: 1263725962}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: OLD_Layer - Bridge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27067,7 +27103,7 @@ GameObject:
   - component: {fileID: 1278667189}
   - component: {fileID: 1278667191}
   - component: {fileID: 1278667190}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Car_13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27164,7 +27200,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1278800397}
   - component: {fileID: 1278800398}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: 03_layer_bridge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27244,7 +27280,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1285104411}
   - component: {fileID: 1285104412}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28647,7 +28683,7 @@ GameObject:
   - component: {fileID: 1358589450}
   - component: {fileID: 1358589452}
   - component: {fileID: 1358589451}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: TickerPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29404,7 +29440,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1393606745}
   - component: {fileID: 1393606746}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Sprite (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29488,7 +29524,7 @@ GameObject:
   - component: {fileID: 1394848449}
   - component: {fileID: 1394848451}
   - component: {fileID: 1394848450}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Panel - BG Blur
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30439,7 +30475,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1477573381}
   - component: {fileID: 1477573382}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: 02_layer_elements
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31647,7 +31683,7 @@ GameObject:
   - component: {fileID: 1504090499}
   - component: {fileID: 1504090501}
   - component: {fileID: 1504090502}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Clouds_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31769,7 +31805,7 @@ Transform:
   m_GameObject: {fileID: 1519260257}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1598, y: 899.00006, z: 0}
+  m_LocalPosition: {x: 1597.0001, y: 899.00006, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -31818,7 +31854,7 @@ GameObject:
   - component: {fileID: 1521215719}
   - component: {fileID: 1521215721}
   - component: {fileID: 1521215720}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Car_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33422,7 +33458,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1606542701}
   - component: {fileID: 1606542702}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: 04_layer_lights
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33744,7 +33780,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1641012375}
   - component: {fileID: 1641012376}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: 03_layer_bridge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34256,7 +34292,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1661886848}
   - component: {fileID: 1661886849}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Extension
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34339,7 +34375,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1664327210}
   - component: {fileID: 1664327211}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Extension
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34603,7 +34639,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1682781425}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Layer - Logo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34867,7 +34903,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1705688493}
   - component: {fileID: 1705688494}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Layer - Bridge (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35572,7 +35608,7 @@ GameObject:
   - component: {fileID: 1720758970}
   - component: {fileID: 1720758971}
   - component: {fileID: 1720758972}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Moon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35667,7 +35703,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1721965912}
   - component: {fileID: 1721965913}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: 02_layer_elements
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39640,7 +39676,7 @@ GameObject:
   - component: {fileID: 1918878889}
   - component: {fileID: 1918878891}
   - component: {fileID: 1918878890}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: TickerPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39775,7 +39811,7 @@ GameObject:
   - component: {fileID: 1938769226}
   - component: {fileID: 1938769228}
   - component: {fileID: 1938769227}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Car_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39872,7 +39908,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1949143633}
   - component: {fileID: 1949143634}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Sprite (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39954,7 +39990,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1952641102}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Cars
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40141,7 +40177,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1965482285}
   - component: {fileID: 1965482286}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: town_right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40731,7 +40767,7 @@ GameObject:
   - component: {fileID: 1990762976}
   - component: {fileID: 1990762977}
   - component: {fileID: 1990762978}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: OLD_Logo_SY
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43633,7 +43669,7 @@ GameObject:
   - component: {fileID: 2070699457}
   - component: {fileID: 2070699458}
   - component: {fileID: 2070699459}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Texture
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44427,7 +44463,7 @@ GameObject:
   - component: {fileID: 2111069134}
   - component: {fileID: 2111069135}
   - component: {fileID: 2111069136}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Car_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45599,6 +45635,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8789670504958024177, guid: 538fe765e1085c44898d152797810a8a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
