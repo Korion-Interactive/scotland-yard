@@ -11,22 +11,25 @@ namespace Korion.ScotlandYard.Input
 
         public static MultiplayerInputManager Instance => _instance;
         public Player MainPlayer => _mainPlayer;
-
         public Player CurrentPlayer => _players[_currentInputIndex];
-
         public List<Player> AllPlayers => _players;
 
-        private static MultiplayerInputManager _instance;
+        public InputDevices InputDevices => _inputDevices;
 
+
+        private static MultiplayerInputManager _instance;
         private List<Player> _players = new();
         private Player _mainPlayer;
         private int _currentInputIndex = 0;
 
+        private InputDevices _inputDevices;
 
         private void Awake()
         {
             if(_instance == null)
+            {
                 _instance = this;
+            }
 
             if(ReInput.isReady)
             {
@@ -39,12 +42,15 @@ namespace Korion.ScotlandYard.Input
 
                     _players.Add(player);
                 }
+
+                _inputDevices = new InputDevices();
             }
         }
 
         private void OnDestroy()
         {
             _players.Clear();
+            _inputDevices.DeInit();
         }
 
         public void NextPlayer()
@@ -76,6 +82,5 @@ namespace Korion.ScotlandYard.Input
             // Invoke event
             onPlayerChanged?.Invoke(ReInput.players.GetPlayer(_currentInputIndex));
         }
-
     }
 }
