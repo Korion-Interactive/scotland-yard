@@ -6,6 +6,17 @@ using System.IO;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+#if UNITY_PS5
+using UnityEngine.PS5;
+using Korion.IO;
+using System.Threading;
+using Sony.NP;
+#elif UNITY_PS4
+using UnityEngine.PS4;
+using Korion.IO;
+using System.Threading;
+#endif
+
 public class AppSetup : MonoBehaviour
 {
     static AppSetup instance;
@@ -121,7 +132,7 @@ public class AppSetup : MonoBehaviour
         // Load or create settings table
 
 #if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5
-        //TODO KORION
+        //TODO KORION IO
         string settingsPath = "settings.txt";
         SettingsTable = new Table(settingsPath, 2, 1);
         SettingsTable[0, 0] = "id";
@@ -144,7 +155,7 @@ public class AppSetup : MonoBehaviour
     public void LoadOrCreateStatsTable()
     {
 #if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5
-        //TODO KORION
+        //TODO KORION IO
         string statsPath = "stats.txt";
         StatsTable = new Table(statsPath, 2, 1);
         StatsTable[0, 0] = "id";
@@ -188,12 +199,12 @@ public class AppSetup : MonoBehaviour
 
     public static bool HasOpenGame()
     {
-        return false;//TODO KORION: //File.Exists(Globals.LastGameSetupPath) && File.Exists(Globals.LastGameStatePath);
+        return false;//TODO KORION IO: //File.Exists(Globals.LastGameSetupPath) && File.Exists(Globals.LastGameStatePath);
     }
 
     public void SaveGame()
     {
-        //TODO KORION
+        //TODO KORION IO
         return;
         string gameSetup = JsonConvert.SerializeObject(GameSetupBehaviour.Instance.Setup);
         SaveData(ref gameSetup, Globals.LastGameSetupPath);
@@ -206,7 +217,7 @@ public class AppSetup : MonoBehaviour
     void SaveData(ref string data, string filePath)
     {
 #if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5
-        //TODO KORION
+        //TODO KORION IO
 #else
         try
         {
@@ -266,7 +277,7 @@ public class AppSetup : MonoBehaviour
     private bool TryLoad<T>(string filePath, out T result)
     {
 #if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5
-        //TODO KORION
+        //TODO KORION IO
         result = default;
 #else
         try
@@ -294,7 +305,7 @@ public class AppSetup : MonoBehaviour
     internal void DeleteSavegame()
     {
 #if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5
-        //TODO KORION
+        //TODO KORION IO
 #else
         if (File.Exists(Globals.LastGameSetupPath))
         {

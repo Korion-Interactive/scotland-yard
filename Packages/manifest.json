@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.korion.io": "0.1.0-preview.23",
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.ai.navigation": "1.1.5",
     "com.unity.ide.rider": "3.0.27",
@@ -24,5 +25,29 @@
     "com.unity.modules.unitywebrequestaudio": "1.0.0",
     "com.unity.modules.unitywebrequesttexture": "1.0.0",
     "com.unity.modules.unitywebrequestwww": "1.0.0"
-  }
+  },
+  "scopedRegistries": [
+    {
+      "name": "Korion package registry",
+      "url": "https://npm.pkg.github.com/@Korion-Interactive",
+      "scopes": [
+        "com.korion",
+        "com.unity.nptoolkit.ps4",
+        "com.unity.inputsystem.ps4",
+        "com.unity.commondialogs.ps4",
+        "com.unity.savedata.ps5",
+        "com.unity.inputsystem.ps5",
+        "com.unity.commondialog.ps5",
+        "com.unity.psn.ps5"
+      ]
+    },
+    {
+      "name": "package.openupm.com",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.cysharp.unitask",
+        "com.openupm"
+      ]
+    }
+  ]
 }

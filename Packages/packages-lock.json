@@ -1,5 +1,40 @@
 {
   "dependencies": {
+    "com.cysharp.unitask": {
+      "version": "2.3.3",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://package.openupm.com"
+    },
+    "com.korion.common": {
+      "version": "0.1.0-preview.1",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://npm.pkg.github.com/@Korion-Interactive"
+    },
+    "com.korion.io": {
+      "version": "0.1.0-preview.23",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.cysharp.unitask": "2.2.5",
+        "com.korion.common": "0.1.0-preview.1",
+        "com.korion.userdata": "0.0.1-preview.1",
+        "com.unity.nuget.newtonsoft-json": "2.0.0"
+      },
+      "url": "https://npm.pkg.github.com/@Korion-Interactive"
+    },
+    "com.korion.userdata": {
+      "version": "0.0.1-preview.1",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.cysharp.unitask": "2.3.3"
+      },
+      "url": "https://npm.pkg.github.com/@Korion-Interactive"
+    },
     "com.unity.2d.sprite": {
       "version": "1.0.0",
       "depth": 0,
@@ -53,6 +88,12 @@
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
+    },
+    "com.unity.savedata.ps4": {
+      "version": "file:com.unity.savedata.ps4@1.0.2",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
     },
     "com.unity.test-framework": {
       "version": "1.1.33",
