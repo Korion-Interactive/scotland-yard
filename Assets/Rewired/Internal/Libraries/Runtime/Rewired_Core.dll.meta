@@ -109,6 +109,11 @@ PluginImporter:
       enabled: 1
       settings: {}
   - first:
+      PS5: PS5
+    second:
+      enabled: 1
+      settings: {}
+  - first:
       Stadia: Stadia
     second:
       enabled: 1

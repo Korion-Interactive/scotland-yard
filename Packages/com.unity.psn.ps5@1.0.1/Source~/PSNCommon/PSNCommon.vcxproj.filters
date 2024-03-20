@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{8f87ccce-64a6-4aa6-8e8a-250d53b8dd8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SharedInclude">
+      <UniqueIdentifier>{3118c22b-2e79-4652-8098-f51fd7bdcc12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayerInterface">
+      <UniqueIdentifier>{41e5a4b7-b814-4170-9dd6-a16c78d29ead}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SystemEvents">
+      <UniqueIdentifier>{2a65c051-0bb3-47b9-a627-16aa8f95f544}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Errors.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\HandleMsg.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Module.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BinaryBuffers.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemEvents\PS4SystemEventManager.cpp">
+      <Filter>SystemEvents</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SharedInclude\CommonTypes.h">
+      <Filter>SharedInclude</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedInclude\Errors.h">
+      <Filter>SharedInclude</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedInclude\HandleMsg.h">
+      <Filter>SharedInclude</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedInclude\SonyCommonIncludes.h">
+      <Filter>SharedInclude</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerInterface\IPluginSceAppParams.h">
+      <Filter>PlayerInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerInterface\IPluginSceNpParams.h">
+      <Filter>PlayerInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerInterface\IPluginUnity.h">
+      <Filter>PlayerInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerInterface\PrxPluginInterface.h">
+      <Filter>PlayerInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedInclude\BinaryBuffers.h">
+      <Filter>SharedInclude</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedInclude\SharedCoreIncludes.h">
+      <Filter>SharedInclude</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedInclude\UserMap.h">
+      <Filter>SharedInclude</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemEvents\PS4SystemEventManager.h">
+      <Filter>SystemEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemEvents\PS4SystemEvents.h">
+      <Filter>SystemEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerInterface\UnityEventQueue.h">
+      <Filter>PlayerInterface</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

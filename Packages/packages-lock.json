@@ -171,11 +171,10 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.psn.ps5": {
-      "version": "1.0.1",
+      "version": "file:com.unity.psn.ps5@1.0.1",
       "depth": 0,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://npm.pkg.github.com/@Korion-Interactive"
+      "source": "embedded",
+      "dependencies": {}
     },
     "com.unity.render-pipelines.core": {
       "version": "14.0.10",
@@ -227,11 +226,10 @@
       "dependencies": {}
     },
     "com.unity.savedata.ps5": {
-      "version": "1.0.1",
+      "version": "file:com.unity.savedata.ps5@1.0.1",
       "depth": 0,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://npm.pkg.github.com/@Korion-Interactive"
+      "source": "embedded",
+      "dependencies": {}
     },
     "com.unity.searcher": {
       "version": "4.9.2",

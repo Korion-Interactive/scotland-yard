@@ -11,8 +11,8 @@ using Cysharp.Threading.Tasks;
 using UnityEngine.PS5;
 using Korion.IO;
 using System.Threading;
-using Sony.NP;
 #elif UNITY_PS4
+using Sony.NP;
 using UnityEngine.PS4;
 using Korion.IO;
 using System.Threading;

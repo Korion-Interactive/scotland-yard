@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ORBIS">
+      <Configuration>Debug</Configuration>
+      <Platform>ORBIS</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Prospero">
+      <Configuration>Debug</Configuration>
+      <Platform>Prospero</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ORBIS">
+      <Configuration>Release</Configuration>
+      <Platform>ORBIS</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Prospero">
+      <Configuration>Release</Configuration>
+      <Platform>Prospero</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ErrorHandling\ErrorCodes.cpp" />
+    <ClCompile Include="ErrorHandling\Errors.cpp" />
+    <ClCompile Include="Managed\ManagedRequest.cpp" />
+    <ClCompile Include="Managed\ManagedResponse.cpp" />
+    <ClCompile Include="Managed\MemoryBufferManaged.cpp" />
+    <ClCompile Include="PlayerInterface\UnityPrxPlugin.cpp" />
+    <ClCompile Include="Source\Backup.cpp" />
+    <ClCompile Include="Source\Core.cpp" />
+    <ClCompile Include="Source\Delete.cpp" />
+    <ClCompile Include="Source\Dialogs.cpp" />
+    <ClCompile Include="Source\Info.cpp" />
+    <ClCompile Include="Source\Main.cpp" />
+    <ClCompile Include="Source\Mount.cpp" />
+    <ClCompile Include="Source\Notifications.cpp" />
+    <ClCompile Include="Source\Progress.cpp" />
+    <ClCompile Include="Source\Search.cpp" />
+    <ClCompile Include="Source\Transactions.cpp" />
+    <ClCompile Include="Source\Utils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ErrorHandling\Errors.h" />
+    <ClInclude Include="Includes\CommonTypes.h" />
+    <ClInclude Include="Includes\PluginCommonIncludes.h" />
+    <ClInclude Include="Includes\SonyCommonIncludes.h" />
+    <ClInclude Include="Managed\ManagedRequest.h" />
+    <ClInclude Include="Managed\ManagedResponse.h" />
+    <ClInclude Include="Managed\MemoryBufferManaged.h" />
+    <ClInclude Include="PlayerInterface\IPluginSceAppParams.h" />
+    <ClInclude Include="PlayerInterface\IPluginSceNpParams.h" />
+    <ClInclude Include="PlayerInterface\IPluginUnity.h" />
+    <ClInclude Include="PlayerInterface\PrxPluginInterface.h" />
+    <ClInclude Include="PlayerInterface\UnityEventQueue.h" />
+    <ClInclude Include="PlayerInterface\UnityPrxPlugin.h" />
+    <ClInclude Include="Source\Backup.h" />
+    <ClInclude Include="Source\config.h" />
+    <ClInclude Include="Source\Core.h" />
+    <ClInclude Include="Source\Delete.h" />
+    <ClInclude Include="Source\Dialogs.h" />
+    <ClInclude Include="Source\Info.h" />
+    <ClInclude Include="Source\Main.h" />
+    <ClInclude Include="Source\Mount.h" />
+    <ClInclude Include="Source\Notifications.h" />
+    <ClInclude Include="Source\Progress.h" />
+    <ClInclude Include="Source\Search.h" />
+    <ClInclude Include="Source\Transactions.h" />
+    <ClInclude Include="Source\Utils.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C0867F77-F7CE-4EC5-9923-8DB2348D4C3A}</ProjectGuid>
+    <ProjectName>SaveData</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ORBIS'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ORBIS'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <PropertyGroup Condition="'$(DebuggerFlavor)'=='ORBISDebugger'" Label="OverrideDebuggerDefaults">
+    <!--LocalDebuggerCommand>$(TargetPath)</LocalDebuggerCommand-->
+    <!--LocalDebuggerCommandArguments></LocalDebuggerCommandArguments-->
+    <!--LocalDebuggerTarget></LocalDebuggerTarget-->
+    <!--LocalDebuggerWorkingDirectory>$(ProjectDir)</LocalDebuggerWorkingDirectory-->
+    <!--LocalRunCommandLine></LocalRunCommandLine-->
+  </PropertyGroup>
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|ORBIS'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|ORBIS'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ORBIS'">
+    <OutDir>$(ProjectDir)\build\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">
+    <OutDir>$(ProjectDir)\build\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ORBIS'">
+    <OutDir>$(ProjectDir)\build\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">
+    <OutDir>$(ProjectDir)\build\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ORBIS'">
+    <ClCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);GLOBAL_EVENT_QUEUE;</PreprocessorDefinitions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Analyze>true</Analyze>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>-lScePosix_stub_weak;-lSceSysmodule_stub_weak;-lSceSystemService_stub_weak;-lSceUserService_stub_weak;-lSceRtc_stub_weak;-lSceNet_stub_weak;-lSceNetCtl_stub_weak;-lSceInvitationDialog_stub_weak;-lSceNpCommerce_stub_weak;-lSceNpFriendListDialog_stub_weak;-lSceNpProfileDialog_stub_weak;-lSceNpManager_stub_weak;-lSceNptoolkit2_stub_weak;-lSceCommonDialog_stub_weak</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PostAnalyzeEvent>
+      <Message>
+      </Message>
+    </PostAnalyzeEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">
+    <ClCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);GLOBAL_EVENT_QUEUE;</PreprocessorDefinitions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Analyze>true</Analyze>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>-lSceSaveData_stub_weak;-lSceSaveDataDialog_stub_weak;-lSceUserService_stub_weak;-lSceSysmodule_stub_weak;-lSceRtc_stub_weak</AdditionalDependencies>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /y $(TargetDir)*.prx $(ProjectDir)..\Plugins\PS5</Command>
+    </PostBuildEvent>
+    <PostAnalyzeEvent>
+      <Message>
+      </Message>
+    </PostAnalyzeEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ORBIS'">
+    <ClCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions);GLOBAL_EVENT_QUEUE;</PreprocessorDefinitions>
+      <OptimizationLevel>Level2</OptimizationLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>-lScePosix_stub_weak;-lSceSysmodule_stub_weak;-lSceSystemService_stub_weak;-lSceUserService_stub_weak;-lSceRtc_stub_weak;-lSceNet_stub_weak;-lSceNetCtl_stub_weak;-lSceInvitationDialog_stub_weak;-lSceNpCommerce_stub_weak;-lSceNpFriendListDialog_stub_weak;-lSceNpProfileDialog_stub_weak;-lSceNpManager_stub_weak;-lSceNptoolkit2_stub_weak;-lSceCommonDialog_stub_weak</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PostAnalyzeEvent>
+      <Message>
+      </Message>
+    </PostAnalyzeEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">
+    <ClCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions);GLOBAL_EVENT_QUEUE;</PreprocessorDefinitions>
+      <OptimizationLevel>Level2</OptimizationLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>-lSceSaveData_stub_weak;-lSceSaveDataDialog_stub_weak;-lSceUserService_stub_weak;-lSceSysmodule_stub_weak;-lSceRtc_stub_weak</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /y $(TargetDir)*.prx $(ProjectDir)..\Plugins\PS5</Command>
+    </PostBuildEvent>
+    <PostAnalyzeEvent>
+      <Message>
+      </Message>
+    </PostAnalyzeEvent>
+  </ItemDefinitionGroup>
+  <Import Condition="'$(ConfigurationType)' == 'Makefile' and Exists('$(VCTargetsPath)\Platforms\$(Platform)\SCE.Makefile.$(Platform).targets')" Project="$(VCTargetsPath)\Platforms\$(Platform)\SCE.Makefile.$(Platform).targets" />
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

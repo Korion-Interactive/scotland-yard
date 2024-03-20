@@ -1,0 +1,39 @@
+{
+  "name": "com.unity.savedata.ps5",
+  "version": "1.0.1",
+  "unity": "2021.3",
+  "displayName": "Save Data PS5",
+  "description": "Implements the PlayStation 5 SaveData library, which allows you to implement saving and loading functionality in your title.",
+  "keywords": [
+    "savedata",
+    "ps5",
+    "playstation"
+  ],
+  "dependencies": {},
+  "_upm": {
+    "changelog": "### Fixed\n   - Stop editor build script executing when an non-PlayStation platform is being built"
+  },
+  "upmCi": {
+    "footprint": "a1c9d69546995e61f7f661381c493ebea4de2a58"
+  },
+  "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.savedata.ps5@1.0/manual/index.html",
+	"author": {
+		"name": "Korion Interactive GmbH",
+		"email": "info@korion.de",
+		"url": "https://www.korion.de"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Korion-Interactive/sony-ps5-unity-savedata.git"
+	},
+	"publishConfig": {
+		"registry":"https://npm.pkg.github.com/@Korion-Interactive"
+	},
+  "samples": [
+    {
+      "displayName": "Save Data Sample",
+      "description": "Shows how to implement the various API's provided by the save data package. See the README.md file in the sample for details.",
+      "path": "Samples~/SaveSample"
+    }
+  ]
+}
