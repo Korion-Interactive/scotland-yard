@@ -2,14 +2,23 @@
   "dependencies": {
     "com.cysharp.unitask": {
       "version": "2.3.3",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://package.openupm.com"
     },
+    "com.korion.achievements": {
+      "version": "0.1.2",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.cysharp.unitask": "2.3.3"
+      },
+      "url": "https://npm.pkg.github.com/@Korion-Interactive"
+    },
     "com.korion.common": {
-      "version": "0.1.0-preview.1",
-      "depth": 1,
+      "version": "0.1.0-preview.37",
+      "depth": 0,
       "source": "registry",
       "dependencies": {},
       "url": "https://npm.pkg.github.com/@Korion-Interactive"
@@ -23,6 +32,27 @@
         "com.korion.common": "0.1.0-preview.1",
         "com.korion.userdata": "0.0.1-preview.1",
         "com.unity.nuget.newtonsoft-json": "2.0.0"
+      },
+      "url": "https://npm.pkg.github.com/@Korion-Interactive"
+    },
+    "com.korion.ps4.psn": {
+      "version": "0.0.1-preview.4",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.cysharp.unitask": "2.2.5",
+        "com.unity.nptoolkit2.ps4": "1.0.2"
+      },
+      "url": "https://npm.pkg.github.com/@Korion-Interactive"
+    },
+    "com.korion.ps5.psn": {
+      "version": "0.1.0-preview.3",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.cysharp.unitask": "2.3.3",
+        "com.korion.common": "0.1.0-preview.1",
+        "com.unity.psn.ps5": "0.0.25-preview"
       },
       "url": "https://npm.pkg.github.com/@Korion-Interactive"
     },
@@ -75,12 +105,46 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.unity.inputsystem": {
+      "version": "1.7.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.uielements": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.inputsystem.ps4": {
+      "version": "0.1.3-preview",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.inputsystem": "1.0.0"
+      },
+      "url": "https://npm.pkg.github.com/@Korion-Interactive"
+    },
+    "com.unity.inputsystem.ps5": {
+      "version": "0.1.12-preview",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.inputsystem": "1.6.1"
+      },
+      "url": "https://npm.pkg.github.com/@Korion-Interactive"
+    },
     "com.unity.mobile.android-logcat": {
       "version": "1.4.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
+    },
+    "com.unity.nptoolkit2.ps4": {
+      "version": "1.0.2",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://npm.pkg.github.com/@Korion-Interactive"
     },
     "com.unity.nuget.newtonsoft-json": {
       "version": "3.2.1",
@@ -89,11 +153,25 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.psn.ps5": {
+      "version": "1.0.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://npm.pkg.github.com/@Korion-Interactive"
+    },
     "com.unity.savedata.ps4": {
       "version": "file:com.unity.savedata.ps4@1.0.2",
       "depth": 0,
       "source": "embedded",
       "dependencies": {}
+    },
+    "com.unity.savedata.ps5": {
+      "version": "1.0.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://npm.pkg.github.com/@Korion-Interactive"
     },
     "com.unity.test-framework": {
       "version": "1.1.33",
@@ -186,6 +264,16 @@
       "depth": 0,
       "source": "builtin",
       "dependencies": {}
+    },
+    "com.unity.modules.uielements": {
+      "version": "1.0.0",
+      "depth": 2,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.ui": "1.0.0",
+        "com.unity.modules.imgui": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0"
+      }
     },
     "com.unity.modules.unitywebrequest": {
       "version": "1.0.0",

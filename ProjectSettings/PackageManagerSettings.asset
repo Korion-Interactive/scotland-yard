@@ -31,9 +31,8 @@ MonoBehaviour:
     m_Url: https://npm.pkg.github.com/@Korion-Interactive
     m_Scopes:
     - com.korion
-    - com.unity.nptoolkit.ps4
+    - com.unity.nptoolkit2.ps4
     - com.unity.inputsystem.ps4
-    - com.unity.commondialogs.ps4
     - com.unity.savedata.ps5
     - com.unity.inputsystem.ps5
     - com.unity.commondialog.ps5
