@@ -142,7 +142,6 @@ public class UICamera : MonoBehaviour
 
 	static public GetAxisFunc GetAxis = delegate(string axis)
 	{
-		
 		return Input.GetAxis(axis);
 	};
 
@@ -392,7 +391,8 @@ public class UICamera : MonoBehaviour
 	// Selected widget (for input)
 	static GameObject mCurrentSelection = null;
 	static GameObject mNextSelection = null;
-	static ControlScheme mNextScheme = ControlScheme.Controller;
+	static GameObject mLastSelection = null;
+    static ControlScheme mNextScheme = ControlScheme.Controller;
 
 	// Mouse events
 	static MouseOrTouch[] mMouse = new MouseOrTouch[] { new MouseOrTouch(), new MouseOrTouch(), new MouseOrTouch() };
@@ -522,13 +522,26 @@ public class UICamera : MonoBehaviour
 		if (mNextSelection != null)
 		{
 			mNextSelection = go;
-		}
+
+            if (go != null)
+            {
+                // KORION: Update last selected object
+                mLastSelection = mNextSelection;
+            }
+
+        }
 		else if (mCurrentSelection != go)
 		{
 			mNextSelection = go;
 			mNextScheme = scheme;
 
-			if (UICamera.list.size > 0)
+            if (go != null && go.GetComponent<UIButton>() != null)	// TODO KORION: This is not optimal but necessary! Otherwise the last selected object might be the UI Root!
+            {
+                // KORION: Update last selection when changing to adjacent button
+                mLastSelection = go;
+            }
+
+            if (UICamera.list.size > 0)
 			{
 				UICamera cam = (mNextSelection != null) ? FindCameraForLayer(mNextSelection.layer) : UICamera.list[0];
 				if (cam)
@@ -539,7 +552,7 @@ public class UICamera : MonoBehaviour
 				}
 			}
 		}
-	}
+    }
 
 	/// <summary>
 	/// Selection change is delayed on purpose. This way selection changes during event processing won't cause
@@ -1028,11 +1041,11 @@ public class UICamera : MonoBehaviour
 		lastTouchPosition = mMouse[0].pos;
 	}
 
-	/// <summary>
-	/// Sort the list when enabled.
-	/// </summary>
+    /// <summary>
+    /// Sort the list when enabled.
+    /// </summary>
 
-	void OnEnable () { list.Add(this); list.Sort(CompareFunc); }
+    void OnEnable () { list.Add(this); list.Sort(CompareFunc); }
 
 	/// <summary>
 	/// Remove this camera from the list.
@@ -1043,6 +1056,14 @@ public class UICamera : MonoBehaviour
     private void OnDestroy()
     {
 		MultiplayerInputManager.onPlayerChanged -= OnPlayerChanged;
+
+
+#if UNITY_EDITOR || UNITY_STANDALONE_WIN || UNITY_STANDALONE_OSX || UNITY_STANDALONE_LINUX
+
+        // KORION: Remove event delegate for when the input device changed!
+        InputDevices.onInputDeviceChanged -= OnLastActiveControllerChanged;
+		InputDevices.EventInitialized = false;
+#endif
     }
 
 
@@ -1059,11 +1080,9 @@ public class UICamera : MonoBehaviour
     void Start ()
 	{
 		if(ReInput.isReady)
-		{
 			_player = MultiplayerInputManager.Instance.CurrentPlayer; //KORION
-		}
 
-		MultiplayerInputManager.onPlayerChanged += OnPlayerChanged;
+        MultiplayerInputManager.onPlayerChanged += OnPlayerChanged;
 
 		if (eventType != EventType.World && cachedCamera.transparencySortMode != TransparencySortMode.Orthographic)
 			cachedCamera.transparencySortMode = TransparencySortMode.Orthographic;
@@ -1101,6 +1120,35 @@ public class UICamera : MonoBehaviour
 #endif
         }
         if (handlesEvents) NGUIDebug.debugRaycast = debug;
+
+#if UNITY_EDITOR || UNITY_STANDALONE_WIN || UNITY_STANDALONE_OSX || UNITY_STANDALONE_LINUX
+        if (!InputDevices.EventInitialized)
+        {
+            // KORION: Add event delegate for when the input device changed!
+            InputDevices.onInputDeviceChanged += OnLastActiveControllerChanged;
+            InputDevices.EventInitialized = true;
+        }
+#endif
+    }
+
+    private void OnLastActiveControllerChanged(Controller controller)
+	{
+		if(mLastSelection == null) { return; }
+		switch(controller.type)
+		{
+			case ControllerType.Joystick: 
+				SetSelection(mLastSelection, ControlScheme.Controller);
+				break;
+
+			case ControllerType.Mouse:
+			case ControllerType.Keyboard:
+                SetSelection(mLastSelection, ControlScheme.Mouse);
+                break;
+
+			case ControllerType.Custom:
+				Debug.Log("Custom Controller is not yet handled!");
+				break;
+		}
 	}
 
     private void OnPlayerChanged(Player player)
