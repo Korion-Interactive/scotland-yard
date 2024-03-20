@@ -35,7 +35,6 @@ MonoBehaviour:
     - com.unity.inputsystem.ps4
     - com.unity.savedata.ps5
     - com.unity.inputsystem.ps5
-    - com.unity.commondialog.ps5
     - com.unity.psn.ps5
     m_IsDefault: 0
     m_Capabilities: 0

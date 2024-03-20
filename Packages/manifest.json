@@ -15,6 +15,10 @@
     "com.unity.nptoolkit2.ps4": "1.0.2",
     "com.unity.nuget.newtonsoft-json": "3.2.1",
     "com.unity.psn.ps5": "1.0.1",
+    "com.unity.render-pipelines.core": "14.0.10",
+    "com.unity.render-pipelines.ps4": "file:PS4RenderPipelines/package",
+    "com.unity.render-pipelines.ps5": "file:PS5RenderPipelines/package",
+    "com.unity.render-pipelines.universal": "14.0.10",
     "com.unity.savedata.ps5": "1.0.1",
     "com.unity.test-framework": "1.1.33",
     "com.unity.ugui": "1.0.0",
@@ -45,7 +49,6 @@
         "com.unity.inputsystem.ps4",
         "com.unity.savedata.ps5",
         "com.unity.inputsystem.ps5",
-        "com.unity.commondialog.ps5",
         "com.unity.psn.ps5"
       ]
     },
