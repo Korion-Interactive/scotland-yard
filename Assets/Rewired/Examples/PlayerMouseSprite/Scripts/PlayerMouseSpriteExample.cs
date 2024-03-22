@@ -145,6 +145,7 @@ namespace Rewired.Demos {
         private static PlayerMouseSpriteExample _instance;
         
         public static PlayerMouseSpriteExample Instance => _instance;
+        private bool _awakeFinished = false;
         
 
         void Awake() {
@@ -156,6 +157,7 @@ namespace Rewired.Demos {
             else
             {
                 Destroy(gameObject);
+                return;
             }
             
             _mainCamera = Camera.main;

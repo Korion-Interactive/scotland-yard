@@ -1,8 +1,8 @@
-//0x11008001 sdk
+//0x10508021 sdk
 //land-yard\\Packages\\com.unity.savedata.ps4@1.0.2\\Source~\\savedata_lump.cpp"
 # 1 "<built-in>" 1
 # 1 "<built-in>" 3
-# 438 "<built-in>" 3
+# 434 "<built-in>" 3
 # 1 "<command line>" 1
 # 1 "<built-in>" 2
 # 1 "C:\\code\\scotland-yard\\Packages\\com.unity.savedata.ps4@1.0.2\\Source~\\savedata_lump.cpp" 2
@@ -15,19 +15,19 @@
 
 
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\assert.h" 1 3
-# 47 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\assert.h" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/cdefs.h" 1 3
-# 48 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\assert.h" 2 3
-# 65 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\assert.h" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdio.h" 1 3
-# 47 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdio.h" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_null.h" 1 3
-# 48 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdio.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types.h" 1 3
-# 40 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types.h" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\machine/_types.h" 1 3
-# 53 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\machine/_types.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\assert.h" 1 3
+# 47 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\assert.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/cdefs.h" 1 3
+# 48 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\assert.h" 2 3
+# 65 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\assert.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdio.h" 1 3
+# 47 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdio.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_null.h" 1 3
+# 48 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdio.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types.h" 1 3
+# 40 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\machine/_types.h" 1 3
+# 53 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\machine/_types.h" 3
 typedef signed char __int8_t;
 typedef unsigned char __uint8_t;
 typedef short __int16_t;
@@ -89,7 +89,7 @@ typedef __uint64_t __vm_size_t;
 
 
 typedef __builtin_va_list __va_list;
-# 41 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types.h" 2 3
+# 41 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types.h" 2 3
 
 
 
@@ -125,7 +125,7 @@ typedef unsigned int __useconds_t;
 typedef int __cpuwhich_t;
 typedef int __cpulevel_t;
 typedef int __cpusetid_t;
-# 95 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types.h" 3
+# 95 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types.h" 3
 typedef int __ct_rune_t;
 typedef __ct_rune_t __rune_t;
 
@@ -156,9 +156,9 @@ typedef union {
  char __mbstate8[128];
  __int64_t _mbstateL;
 } __mbstate_t;
-# 49 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdio.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\yvals.h" 1 3
-# 532 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\yvals.h" 3
+# 49 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdio.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\yvals.h" 1 3
+# 532 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\yvals.h" 3
 typedef int _Int32t;
 typedef unsigned int _Uint32t;
 
@@ -177,41 +177,35 @@ typedef long _Ptrdifft;
 
 
 typedef unsigned long _Sizet;
-# 1286 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\yvals.h" 3
+# 1286 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\yvals.h" 3
 namespace std {}
-# 1411 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\yvals.h" 3
+# 1411 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\yvals.h" 3
 namespace std {
 typedef bool _Bool;
 }
-# 1442 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\yvals.h" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\stdarg.h" 1 3 4
-# 14 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\stdarg.h" 3 4
-typedef __builtin_va_list __gnuc_va_list;
-
-
-
-
-
-
-
+# 1442 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\yvals.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\stdarg.h" 1 3 4
+# 14 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\stdarg.h" 3 4
 typedef __builtin_va_list va_list;
-# 1443 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\yvals.h" 2 3
-# 1577 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\yvals.h" 3
+# 32 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\stdarg.h" 3 4
+typedef __builtin_va_list __gnuc_va_list;
+# 1443 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\yvals.h" 2 3
+# 1577 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\yvals.h" 3
 typedef long long _Longlong;
 typedef unsigned long long _ULonglong;
-# 1615 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\yvals.h" 3
+# 1615 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\yvals.h" 3
 typedef wchar_t _Wchart;
 typedef int _Wintt;
-# 1712 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\yvals.h" 3
+# 1712 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\yvals.h" 3
 typedef va_list _Va_list;
-# 1755 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\yvals.h" 3
+# 1755 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\yvals.h" 3
 typedef char _Sysch_t;
-# 1779 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\yvals.h" 3
+# 1779 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\yvals.h" 3
 extern "C" {
 void _Locksyslock(int);
 void _Unlocksyslock(int);
 }
-# 1812 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\yvals.h" 3
+# 1812 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\yvals.h" 3
 namespace std {
 enum _Uninitialized
  {
@@ -223,7 +217,7 @@ extern "C++" {
 class _Lockit
  {
 public:
-# 1837 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\yvals.h" 3
+# 1837 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\yvals.h" 3
  _Lockit()
   : _Locktype(1)
   {
@@ -252,7 +246,7 @@ public:
 private:
  int _Locktype;
  };
-# 1888 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\yvals.h" 3
+# 1888 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\yvals.h" 3
 class _Mutex
  {
 public:
@@ -273,18 +267,18 @@ private:
 
 }
 }
-# 50 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdio.h" 2 3
+# 50 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdio.h" 2 3
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_errno_t.h" 1 3
-
-
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_errno_t.h" 1 3
 
 
 
 
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\yvals.h" 1 3
-# 9 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_errno_t.h" 2 3
+
+
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\yvals.h" 1 3
+# 9 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_errno_t.h" 2 3
 
 
 extern "C" {
@@ -295,8 +289,8 @@ typedef int errno_t;
 
 
 }
-# 52 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdio.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_size_t.h" 1 3
+# 52 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdio.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_size_t.h" 1 3
 
 
 
@@ -305,8 +299,8 @@ typedef int errno_t;
 
 
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\yvals.h" 1 3
-# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_size_t.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\yvals.h" 1 3
+# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_size_t.h" 2 3
 
 
 
@@ -318,8 +312,8 @@ typedef __size_t size_t;
 
 
 typedef size_t rsize_t;
-# 53 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdio.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/__Mbstatet.h" 1 3
+# 53 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdio.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/__Mbstatet.h" 1 3
 
 
 
@@ -328,8 +322,8 @@ typedef size_t rsize_t;
 
 
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\yvals.h" 1 3
-# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/__Mbstatet.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\yvals.h" 1 3
+# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/__Mbstatet.h" 2 3
 
 
 
@@ -362,17 +356,17 @@ typedef struct _Mbstatet
   }
 
  } _Mbstatet;
-# 54 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdio.h" 2 3
+# 54 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdio.h" 2 3
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_off_t.h" 1 3
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_off_t.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_off_t.h" 1 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_off_t.h" 3
 typedef __off_t off_t;
-# 56 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdio.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_ssize_t.h" 1 3
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_ssize_t.h" 3
+# 56 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdio.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_ssize_t.h" 1 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_ssize_t.h" 3
 typedef __ssize_t ssize_t;
-# 57 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdio.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_filet.h" 1 3
+# 57 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdio.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_filet.h" 1 3
 
 
 
@@ -380,19 +374,19 @@ typedef __ssize_t ssize_t;
 
 
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\yvals.h" 1 3
-# 9 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_filet.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\yvals.h" 1 3
+# 9 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_filet.h" 2 3
 
 
 
 
 
 typedef struct __sFILE _Filet;
-# 58 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdio.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_defines/_eof.h" 1 3
-# 59 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdio.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_defines/_seek.h" 1 3
-# 60 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdio.h" 2 3
+# 58 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdio.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_defines/_eof.h" 1 3
+# 59 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdio.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_defines/_seek.h" 1 3
+# 60 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdio.h" 2 3
 
 
 
@@ -402,12 +396,12 @@ typedef struct fpos_t
  long _Off;
  _Mbstatet _Wstate;
  } fpos_t;
-# 82 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdio.h" 3
+# 82 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdio.h" 3
 struct __sbuf {
  unsigned char *_base;
  int _size;
 };
-# 146 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdio.h" 3
+# 146 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdio.h" 3
 typedef struct __sFILE {
 
 
@@ -465,7 +459,7 @@ typedef struct __sFILE {
  int _orientation;
  __mbstate_t _mbstate;
 } FILE;
-# 248 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdio.h" 3
+# 248 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdio.h" 3
 extern "C" {
 extern FILE _Stdin, _Stdout, _Stderr;
 
@@ -587,7 +581,7 @@ int vfscanf(FILE *,
 int vscanf(const char *, _Va_list);
 int vsscanf(const char *,
  const char *, _Va_list);
-# 385 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdio.h" 3
+# 385 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdio.h" 3
 }
 
 
@@ -598,7 +592,7 @@ int getchar(void);
 int putc(int, FILE *);
 int putchar(int);
 }
-# 459 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdio.h" 3
+# 459 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdio.h" 3
 extern "C" {
 
 errno_t fopen_s(FILE * *,
@@ -688,72 +682,72 @@ __attribute__((format(printf, 2, 3))) int snprintf_s(char (&_Buf)[_Size], const 
  }
 
 }
-# 66 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\assert.h" 2 3
-# 85 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\assert.h" 3
+# 66 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\assert.h" 2 3
+# 85 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\assert.h" 3
 extern "C" {
 void _Assert(const char *, const char *) __attribute__((__noreturn__));
 }
 # 8 "C:\\code\\scotland-yard\\Packages\\com.unity.savedata.ps4@1.0.2\\Source~/ErrorHandling/../Includes/PluginCommonIncludes.h" 2
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\scetypes.h" 1 3
-# 24 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\scetypes.h" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdint.h" 1 3
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdint.h" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\yvals.h" 1 3
-# 13 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdint.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_defines/_weof.h" 1 3
-# 14 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdint.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_int8_t.h" 1 3
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_int8_t.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\scetypes.h" 1 3
+# 24 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\scetypes.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdint.h" 1 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdint.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\yvals.h" 1 3
+# 13 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdint.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_defines/_weof.h" 1 3
+# 14 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdint.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_int8_t.h" 1 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_int8_t.h" 3
 typedef __int8_t int8_t;
-# 15 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdint.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_int16_t.h" 1 3
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_int16_t.h" 3
+# 15 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdint.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_int16_t.h" 1 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_int16_t.h" 3
 typedef short int16_t;
-# 16 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdint.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_int32_t.h" 1 3
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_int32_t.h" 3
+# 16 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdint.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_int32_t.h" 1 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_int32_t.h" 3
 typedef __int32_t int32_t;
-# 17 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdint.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_uint8_t.h" 1 3
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_uint8_t.h" 3
+# 17 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdint.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_uint8_t.h" 1 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_uint8_t.h" 3
 typedef __uint8_t uint8_t;
-# 18 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdint.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_uint16_t.h" 1 3
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_uint16_t.h" 3
+# 18 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdint.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_uint16_t.h" 1 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_uint16_t.h" 3
 typedef __uint16_t uint16_t;
-# 19 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdint.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_uint32_t.h" 1 3
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_uint32_t.h" 3
+# 19 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdint.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_uint32_t.h" 1 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_uint32_t.h" 3
 typedef __uint32_t uint32_t;
-# 20 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdint.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_intptr_t.h" 1 3
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_intptr_t.h" 3
+# 20 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdint.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_intptr_t.h" 1 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_intptr_t.h" 3
 typedef __intptr_t intptr_t;
-# 21 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdint.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_uintptr_t.h" 1 3
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_uintptr_t.h" 3
+# 21 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdint.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_uintptr_t.h" 1 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_uintptr_t.h" 3
 typedef __uintptr_t uintptr_t;
-# 22 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdint.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_int64_t.h" 1 3
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_int64_t.h" 3
+# 22 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdint.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_int64_t.h" 1 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_int64_t.h" 3
 typedef __int64_t int64_t;
-# 23 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdint.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_uint64_t.h" 1 3
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_uint64_t.h" 3
+# 23 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdint.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_uint64_t.h" 1 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_uint64_t.h" 3
 typedef __uint64_t uint64_t;
-# 24 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdint.h" 2 3
-# 47 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdint.h" 3
+# 24 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdint.h" 2 3
+# 47 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdint.h" 3
 typedef long _SceInt64t;
 typedef unsigned long _SceUint64t;
-# 65 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdint.h" 3
+# 65 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdint.h" 3
 typedef signed char int_least8_t;
 typedef short int_least16_t;
 typedef _Int32t int_least32_t;
 typedef unsigned char uint_least8_t;
 typedef unsigned short uint_least16_t;
 typedef _Uint32t uint_least32_t;
-# 88 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdint.h" 3
+# 88 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdint.h" 3
 typedef _Int32t int_fast8_t;
 typedef _Int32t int_fast16_t;
 
@@ -770,10 +764,10 @@ typedef _Uint32t uint_fast16_t;
 
 
 typedef _Uint32t uint_fast32_t;
-# 155 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdint.h" 3
+# 155 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdint.h" 3
 typedef _SceInt64t int_least64_t;
 typedef _SceUint64t uint_least64_t;
-# 167 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdint.h" 3
+# 167 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdint.h" 3
 typedef _SceInt64t int_fast64_t;
 typedef _SceUint64t uint_fast64_t;
 
@@ -782,67 +776,67 @@ typedef _SceUint64t uint_fast64_t;
 
 typedef _SceInt64t intmax_t;
 typedef _SceUint64t uintmax_t;
-# 25 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\scetypes.h" 2 3
-# 36 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\scetypes.h" 3
+# 25 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\scetypes.h" 2 3
+# 36 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\scetypes.h" 3
 typedef char SceChar8;
-# 46 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\scetypes.h" 3
+# 46 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\scetypes.h" 3
 typedef unsigned char SceUChar8;
-# 56 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\scetypes.h" 3
+# 56 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\scetypes.h" 3
 typedef int8_t SceInt8;
-# 66 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\scetypes.h" 3
+# 66 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\scetypes.h" 3
 typedef uint8_t SceUInt8;
-# 76 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\scetypes.h" 3
+# 76 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\scetypes.h" 3
 typedef int16_t SceShort16;
-# 86 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\scetypes.h" 3
+# 86 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\scetypes.h" 3
 typedef uint16_t SceUShort16;
-# 96 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\scetypes.h" 3
+# 96 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\scetypes.h" 3
 typedef int16_t SceInt16;
-# 106 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\scetypes.h" 3
+# 106 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\scetypes.h" 3
 typedef uint16_t SceUInt16;
-# 116 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\scetypes.h" 3
+# 116 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\scetypes.h" 3
 typedef int32_t SceInt32;
-# 126 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\scetypes.h" 3
+# 126 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\scetypes.h" 3
 typedef uint32_t SceUInt32;
-# 136 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\scetypes.h" 3
+# 136 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\scetypes.h" 3
 typedef int SceInt;
-# 146 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\scetypes.h" 3
+# 146 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\scetypes.h" 3
 typedef unsigned int SceUInt;
-# 202 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\scetypes.h" 3
+# 202 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\scetypes.h" 3
 typedef int64_t SceInt64;
 typedef uint64_t SceUInt64;
 typedef long SceLong;
 typedef unsigned long SceULong;
 typedef int64_t SceLong64;
 typedef uint64_t SceULong64;
-# 217 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\scetypes.h" 3
+# 217 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\scetypes.h" 3
 typedef float SceFloat;
-# 226 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\scetypes.h" 3
+# 226 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\scetypes.h" 3
 typedef float SceFloat32;
-# 235 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\scetypes.h" 3
+# 235 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\scetypes.h" 3
 typedef double SceDouble;
-# 244 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\scetypes.h" 3
+# 244 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\scetypes.h" 3
 typedef double SceDouble64;
-# 254 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\scetypes.h" 3
+# 254 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\scetypes.h" 3
 typedef signed char SceSByte;
-# 264 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\scetypes.h" 3
+# 264 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\scetypes.h" 3
 typedef signed char SceSByte8;
-# 274 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\scetypes.h" 3
+# 274 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\scetypes.h" 3
 typedef unsigned char SceByte;
-# 284 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\scetypes.h" 3
+# 284 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\scetypes.h" 3
 typedef unsigned char SceByte8;
-# 294 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\scetypes.h" 3
+# 294 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\scetypes.h" 3
 typedef uint16_t SceWChar16;
-# 304 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\scetypes.h" 3
+# 304 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\scetypes.h" 3
 typedef uint32_t SceWChar32;
-# 327 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\scetypes.h" 3
+# 327 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\scetypes.h" 3
 typedef int SceBool;
-# 340 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\scetypes.h" 3
+# 340 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\scetypes.h" 3
 typedef intptr_t SceIntPtr;
-# 350 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\scetypes.h" 3
+# 350 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\scetypes.h" 3
 typedef uintptr_t SceUIntPtr;
-# 360 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\scetypes.h" 3
+# 360 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\scetypes.h" 3
 typedef void SceVoid;
-# 370 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\scetypes.h" 3
+# 370 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\scetypes.h" 3
 typedef void* ScePVoid;
 
 
@@ -945,7 +939,7 @@ typedef union SceUMatrix2 {
  SceUVector2 uv[2];
  float f[2][2];
  int i[2][2];
-# 482 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\scetypes.h" 3
+# 482 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\scetypes.h" 3
 } SceUMatrix2;
 
 
@@ -977,7 +971,7 @@ typedef union SceUMatrix3 {
  SceUVector3 uv[3];
  float f[3][3];
  int i[3][3];
-# 525 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\scetypes.h" 3
+# 525 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\scetypes.h" 3
 } SceUMatrix3;
 
 
@@ -1008,7 +1002,7 @@ typedef union SceUMatrix4 {
  SceUVector4 uv[4];
  float f[4][4];
  int i[4][4];
-# 569 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\scetypes.h" 3
+# 569 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\scetypes.h" 3
 } SceUMatrix4;
 
 
@@ -1027,7 +1021,7 @@ typedef struct SceFQuaternion {
 typedef struct SceFColor {
  float r, g, b, a;
 } SceFColor;
-# 596 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\scetypes.h" 3
+# 596 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\scetypes.h" 3
 typedef union SceUnion32 {
  unsigned int ui;
  int i;
@@ -1037,7 +1031,7 @@ typedef union SceUnion32 {
  char c[4];
  float f;
 } SceUnion32;
-# 615 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\scetypes.h" 3
+# 615 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\scetypes.h" 3
 typedef union SceUnion64 {
  SceULong64 ull;
  SceLong64 ll;
@@ -1053,7 +1047,7 @@ typedef union SceUnion64 {
  SceIVector2 iv;
  void *p;
 } SceUnion64;
-# 640 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\scetypes.h" 3
+# 640 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\scetypes.h" 3
 typedef union SceUnion128 {
 
  SceULong64 ull[2];
@@ -1071,7 +1065,7 @@ typedef union SceUnion128 {
  SceFColor fc;
  SceIVector4 iv;
 } SceUnion128;
-# 667 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\scetypes.h" 3
+# 667 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\scetypes.h" 3
 typedef union SceUnion512 {
  SceUnion32 un32[16];
  SceUnion64 un64[8];
@@ -1091,7 +1085,7 @@ typedef union SceUnion512 {
  SceUMatrix4 um;
 
 } SceUnion512;
-# 696 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\scetypes.h" 3
+# 696 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\scetypes.h" 3
 typedef struct SceDateTime {
  unsigned short year;
  unsigned short month;
@@ -1101,25 +1095,25 @@ typedef struct SceDateTime {
  unsigned short second;
  unsigned int microsecond;
 } SceDateTime;
-# 715 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\scetypes.h" 3
+# 715 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\scetypes.h" 3
 typedef size_t SceSize;
-# 725 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\scetypes.h" 3
+# 725 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\scetypes.h" 3
 typedef SceSize ScePSize;
-# 735 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\scetypes.h" 3
+# 735 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\scetypes.h" 3
 typedef SceSize SceVSize;
-# 745 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\scetypes.h" 3
+# 745 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\scetypes.h" 3
 typedef ssize_t SceSSize;
-# 755 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\scetypes.h" 3
+# 755 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\scetypes.h" 3
 typedef SceSSize ScePSSize;
-# 765 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\scetypes.h" 3
+# 765 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\scetypes.h" 3
 typedef SceSSize SceVSSize;
-# 776 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\scetypes.h" 3
+# 776 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\scetypes.h" 3
 typedef uintptr_t SceUIntVAddr;
-# 793 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\scetypes.h" 3
+# 793 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\scetypes.h" 3
 typedef int SceUID;
-# 815 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\scetypes.h" 3
+# 815 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\scetypes.h" 3
 typedef char* SceName;
-# 827 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\scetypes.h" 3
+# 827 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\scetypes.h" 3
 typedef off_t SceOff;
 
 
@@ -1127,11 +1121,11 @@ typedef off_t SceOff;
 
 typedef SceUID ScePID;
 # 10 "C:\\code\\scotland-yard\\Packages\\com.unity.savedata.ps4@1.0.2\\Source~/ErrorHandling/../Includes/PluginCommonIncludes.h" 2
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\save_data.h" 1 3
-# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\save_data.h" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\save_data/save_data_error.h" 1 3
-# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\save_data.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\save_data/save_data_defs.h" 1 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\save_data.h" 1 3
+# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\save_data.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\save_data/save_data_error.h" 1 3
+# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\save_data.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\save_data/save_data_defs.h" 1 3
 
 
 
@@ -1139,12 +1133,12 @@ typedef SceUID ScePID;
 
 
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/types.h" 1 3
-# 48 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/types.h" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\machine/endian.h" 1 3
-# 40 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\machine/endian.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/types.h" 1 3
+# 48 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/types.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\machine/endian.h" 1 3
+# 40 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\machine/endian.h" 3
 extern "C" {
-# 90 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\machine/endian.h" 3
+# 90 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\machine/endian.h" 3
 static inline __uint64_t
 __bswap64_var(__uint64_t _x)
 {
@@ -1167,13 +1161,13 @@ __bswap16_var(__uint16_t _x)
 
  return ((__uint16_t)((_x) << 8 | (_x) >> 8));
 }
-# 142 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\machine/endian.h" 3
+# 142 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\machine/endian.h" 3
 }
-# 49 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/types.h" 2 3
+# 49 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/types.h" 2 3
 
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_pthreadtypes.h" 1 3
-# 48 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_pthreadtypes.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_pthreadtypes.h" 1 3
+# 48 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_pthreadtypes.h" 3
 struct pthread;
 struct pthread_attr;
 struct pthread_cond;
@@ -1186,7 +1180,7 @@ struct pthread_rwlockattr;
 struct pthread_barrier;
 struct pthread_barrier_attr;
 struct pthread_spinlock;
-# 68 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_pthreadtypes.h" 3
+# 68 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_pthreadtypes.h" 3
 typedef struct pthread *pthread_t;
 typedef struct pthread_attr *pthread_attr_t;
 typedef struct pthread_mutex *pthread_mutex_t;
@@ -1217,7 +1211,7 @@ struct pthread_once {
  int state;
  pthread_mutex_t mutex;
 };
-# 52 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/types.h" 2 3
+# 52 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/types.h" 2 3
 
 
 typedef unsigned char u_char;
@@ -1233,8 +1227,8 @@ typedef unsigned int uint;
 
 
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_stdint.h" 1 3
-# 68 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/types.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_stdint.h" 1 3
+# 68 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/types.h" 2 3
 
 typedef __uint8_t u_int8_t;
 typedef __uint16_t u_int16_t;
@@ -1249,23 +1243,23 @@ typedef char * caddr_t;
 typedef const char * c_caddr_t;
 typedef volatile char *v_caddr_t;
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_blksize_t.h" 1 3
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_blksize_t.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_blksize_t.h" 1 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_blksize_t.h" 3
 typedef __blksize_t blksize_t;
-# 83 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/types.h" 2 3
+# 83 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/types.h" 2 3
 
 typedef __cpuwhich_t cpuwhich_t;
 typedef __cpulevel_t cpulevel_t;
 typedef __cpusetid_t cpusetid_t;
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_blkcnt_t.h" 1 3
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_blkcnt_t.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_blkcnt_t.h" 1 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_blkcnt_t.h" 3
 typedef __blkcnt_t blkcnt_t;
-# 89 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/types.h" 2 3
+# 89 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/types.h" 2 3
 
 typedef __cap_rights_t cap_rights_t;
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_clock_t.h" 1 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_clock_t.h" 1 3
 
 
 
@@ -1274,47 +1268,47 @@ typedef __cap_rights_t cap_rights_t;
 
 
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\yvals.h" 1 3
-# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_clock_t.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\yvals.h" 1 3
+# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_clock_t.h" 2 3
 
 
 
 
 
 typedef __clock_t clock_t;
-# 93 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/types.h" 2 3
+# 93 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/types.h" 2 3
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_clockid_t.h" 1 3
-
-
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_clockid_t.h" 1 3
 
 
 
 
 
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\yvals.h" 1 3
-# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_clockid_t.h" 2 3
+
+
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\yvals.h" 1 3
+# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_clockid_t.h" 2 3
 
 
 
 
 
 typedef __clockid_t clockid_t;
-# 95 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/types.h" 2 3
+# 95 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/types.h" 2 3
 
 typedef __critical_t critical_t;
 typedef __int64_t daddr_t;
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_dev_t.h" 1 3
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_dev_t.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_dev_t.h" 1 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_dev_t.h" 3
 typedef __dev_t dev_t;
-# 100 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/types.h" 2 3
+# 100 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/types.h" 2 3
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_fflags_t.h" 1 3
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_fflags_t.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_fflags_t.h" 1 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_fflags_t.h" 3
 typedef __fflags_t fflags_t;
-# 102 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/types.h" 2 3
+# 102 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/types.h" 2 3
 
 typedef __fixpt_t fixpt_t;
 
@@ -1322,27 +1316,27 @@ typedef __fixpt_t fixpt_t;
 typedef __fsblkcnt_t fsblkcnt_t;
 typedef __fsfilcnt_t fsfilcnt_t;
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_gid_t.h" 1 3
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_gid_t.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_gid_t.h" 1 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_gid_t.h" 3
 typedef __gid_t gid_t;
-# 110 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/types.h" 2 3
+# 110 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/types.h" 2 3
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_in_addr_t.h" 1 3
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_in_addr_t.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_in_addr_t.h" 1 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_in_addr_t.h" 3
 typedef __uint32_t in_addr_t;
-# 112 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/types.h" 2 3
+# 112 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/types.h" 2 3
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_in_port_t.h" 1 3
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_in_port_t.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_in_port_t.h" 1 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_in_port_t.h" 3
 typedef __uint16_t in_port_t;
-# 114 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/types.h" 2 3
+# 114 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/types.h" 2 3
 
 typedef __id_t id_t;
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_ino_t.h" 1 3
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_ino_t.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_ino_t.h" 1 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_ino_t.h" 3
 typedef __ino_t ino_t;
-# 118 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/types.h" 2 3
+# 118 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/types.h" 2 3
 
 typedef __key_t key_t;
 
@@ -1352,24 +1346,24 @@ typedef __lwpid_t lwpid_t;
 
 
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_mode_t.h" 1 3
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_mode_t.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_mode_t.h" 1 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_mode_t.h" 3
 typedef __mode_t mode_t;
-# 128 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/types.h" 2 3
+# 128 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/types.h" 2 3
 
 typedef __accmode_t accmode_t;
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_nlink_t.h" 1 3
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_nlink_t.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_nlink_t.h" 1 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_nlink_t.h" 3
 typedef __nlink_t nlink_t;
-# 132 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/types.h" 2 3
+# 132 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/types.h" 2 3
 
 
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_pid_t.h" 1 3
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_pid_t.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_pid_t.h" 1 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_pid_t.h" 3
 typedef __pid_t pid_t;
-# 136 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/types.h" 2 3
+# 136 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/types.h" 2 3
 
 typedef __register_t register_t;
 
@@ -1384,29 +1378,29 @@ typedef __segsz_t segsz_t;
 
 
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_suseconds_t.h" 1 3
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_suseconds_t.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_suseconds_t.h" 1 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_suseconds_t.h" 3
 typedef __suseconds_t suseconds_t;
-# 151 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/types.h" 2 3
+# 151 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/types.h" 2 3
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_time_t.h" 1 3
-
-
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_time_t.h" 1 3
 
 
 
 
 
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\yvals.h" 1 3
-# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_time_t.h" 2 3
+
+
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\yvals.h" 1 3
+# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_time_t.h" 2 3
 
 
 
 
 
 typedef __time_t time_t;
-# 153 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/types.h" 2 3
+# 153 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/types.h" 2 3
 
 typedef __timer_t timer_t;
 
@@ -1414,42 +1408,42 @@ typedef __mqd_t mqd_t;
 
 typedef __u_register_t u_register_t;
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_uid_t.h" 1 3
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_uid_t.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_uid_t.h" 1 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_uid_t.h" 3
 typedef __uid_t uid_t;
-# 161 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/types.h" 2 3
+# 161 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/types.h" 2 3
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_useconds_t.h" 1 3
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_useconds_t.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_useconds_t.h" 1 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_useconds_t.h" 3
 typedef __useconds_t useconds_t;
-# 163 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/types.h" 2 3
+# 163 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/types.h" 2 3
 
 typedef __vm_offset_t vm_offset_t;
 typedef __vm_ooffset_t vm_ooffset_t;
 typedef __vm_paddr_t vm_paddr_t;
 typedef __vm_pindex_t vm_pindex_t;
 typedef __vm_size_t vm_size_t;
-# 202 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/types.h" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/select.h" 1 3
-# 42 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/select.h" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_sigset.h" 1 3
-# 57 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_sigset.h" 3
+# 202 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/types.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/select.h" 1 3
+# 42 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/select.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_sigset.h" 1 3
+# 57 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_sigset.h" 3
 typedef struct __sigset {
  __uint32_t __bits[4];
 } __sigset_t;
-# 43 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/select.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_timeval.h" 1 3
-# 43 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_timeval.h" 3
+# 43 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/select.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_timeval.h" 1 3
+# 43 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_timeval.h" 3
 struct timeval {
  time_t tv_sec;
  suseconds_t tv_usec;
 };
-# 44 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/select.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/timespec.h" 1 3
-# 42 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/timespec.h" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_timespec.h" 1 3
-# 43 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_timespec.h" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_timespec.h" 1 3
+# 44 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/select.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/timespec.h" 1 3
+# 42 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/timespec.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_timespec.h" 1 3
+# 43 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_timespec.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_timespec.h" 1 3
 
 
 
@@ -1458,8 +1452,8 @@ struct timeval {
 
 
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\yvals.h" 1 3
-# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_timespec.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\yvals.h" 1 3
+# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_timespec.h" 2 3
 
 
 
@@ -1469,27 +1463,27 @@ struct timespec {
  time_t tv_sec;
  long tv_nsec;
 };
-# 44 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_timespec.h" 2 3
-# 43 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/timespec.h" 2 3
-# 62 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/timespec.h" 3
+# 44 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_timespec.h" 2 3
+# 43 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/timespec.h" 2 3
+# 62 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/timespec.h" 3
 struct itimerspec {
  struct timespec it_interval;
  struct timespec it_value;
 };
-# 45 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/select.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_sigset_t.h" 1 3
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_sigset_t.h" 3
+# 45 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/select.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_sigset_t.h" 1 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_sigset_t.h" 3
 typedef __sigset_t sigset_t;
-# 46 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/select.h" 2 3
+# 46 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/select.h" 2 3
 
 typedef unsigned long __fd_mask;
 
 typedef __fd_mask fd_mask;
-# 71 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/select.h" 3
+# 71 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/select.h" 3
 typedef struct fd_set {
  __fd_mask __fds_bits[(((1024U) + (((sizeof(__fd_mask) * 8)) - 1)) / ((sizeof(__fd_mask) * 8)))];
 } fd_set;
-# 97 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/select.h" 3
+# 97 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/select.h" 3
 extern "C" {
 int pselect(int, fd_set *__restrict, fd_set *__restrict, fd_set *__restrict,
  const struct timespec *__restrict, const sigset_t *__restrict);
@@ -1501,52 +1495,52 @@ int select(int, fd_set *, fd_set *, fd_set *, struct timeval *);
 
 
 }
-# 203 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/types.h" 2 3
-# 219 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/types.h" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_ftruncate.h" 1 3
-# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_ftruncate.h" 3
+# 203 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/types.h" 2 3
+# 219 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/types.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_ftruncate.h" 1 3
+# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_ftruncate.h" 3
 extern "C" {
 
 
 int ftruncate(int, off_t);
 
 }
-# 220 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/types.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_lseek.h" 1 3
-# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_lseek.h" 3
+# 220 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/types.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_lseek.h" 1 3
+# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_lseek.h" 3
 extern "C" {
 
 
 off_t lseek(int, off_t, int);
 
 }
-# 221 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/types.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_mmap.h" 1 3
-# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_mmap.h" 3
+# 221 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/types.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_mmap.h" 1 3
+# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_mmap.h" 3
 extern "C" {
 
 
 void * mmap(void *, size_t, int, int, int, off_t);
 
 }
-# 222 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/types.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_truncate.h" 1 3
-# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_truncate.h" 3
+# 222 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/types.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_truncate.h" 1 3
+# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_truncate.h" 3
 extern "C" {
 
 
 int truncate(const char *, off_t);
 
 }
-# 223 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/types.h" 2 3
-# 9 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\save_data/save_data_defs.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\_types.h" 1 3
-# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\_types.h" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/event.h" 1 3
-# 37 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/event.h" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/queue.h" 1 3
-# 38 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/event.h" 2 3
-# 74 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/event.h" 3
+# 223 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/types.h" 2 3
+# 9 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\save_data/save_data_defs.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\_types.h" 1 3
+# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\_types.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/event.h" 1 3
+# 37 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/event.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/queue.h" 1 3
+# 38 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/event.h" 2 3
+# 74 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/event.h" 3
 struct kevent {
  uintptr_t ident;
  short filter;
@@ -1555,7 +1549,7 @@ struct kevent {
  intptr_t data;
  void *udata;
 };
-# 158 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/event.h" 3
+# 158 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/event.h" 3
 struct knote;
 struct klist { struct knote *slh_first; };
 struct kqueue;
@@ -1568,7 +1562,7 @@ struct knlist {
  void (*kl_assert_unlocked)(void *);
  void *kl_lockarg;
 };
-# 295 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/event.h" 3
+# 295 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/event.h" 3
 struct timespec;
 
 extern "C" {
@@ -1577,28 +1571,28 @@ int kevent(int kq, const struct kevent *changelist, int nchanges,
      struct kevent *eventlist, int nevents,
      const struct timespec *timeout);
 }
-# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\_types.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/cpuset.h" 1 3
-# 35 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/cpuset.h" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_cpuset.h" 1 3
-# 39 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_cpuset.h" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/param.h" 1 3
-# 79 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/param.h" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/syslimits.h" 1 3
-# 80 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/param.h" 2 3
-# 113 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/param.h" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/signal.h" 1 3
-# 49 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/signal.h" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\machine/_limits.h" 1 3
-# 50 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/signal.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\machine/signal.h" 1 3
-# 44 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\machine/signal.h" 3
+# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\_types.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/cpuset.h" 1 3
+# 35 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/cpuset.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_cpuset.h" 1 3
+# 39 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_cpuset.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/param.h" 1 3
+# 79 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/param.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/syslimits.h" 1 3
+# 80 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/param.h" 2 3
+# 113 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/param.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/signal.h" 1 3
+# 49 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/signal.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\machine/_limits.h" 1 3
+# 50 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/signal.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\machine/signal.h" 1 3
+# 44 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\machine/signal.h" 3
 typedef long sig_atomic_t;
 
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\machine/trap.h" 1 3
-# 48 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\machine/signal.h" 2 3
-# 63 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\machine/signal.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\machine/trap.h" 1 3
+# 48 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\machine/signal.h" 2 3
+# 63 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\machine/signal.h" 3
 struct sigcontext {
  struct __sigset sc_mask;
  long sc_onstack;
@@ -1648,8 +1642,8 @@ struct sigcontext {
 
  long sc_spare[6];
 };
-# 51 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/signal.h" 2 3
-# 145 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/signal.h" 3
+# 51 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/signal.h" 2 3
+# 145 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/signal.h" 3
 typedef void __sighandler_t(int);
 
 
@@ -1677,7 +1671,7 @@ struct sigevent {
   long __spare__[8];
  } _sigev_un;
 };
-# 190 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/signal.h" 3
+# 190 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/signal.h" 3
 typedef struct __siginfo {
  int si_signo;
  int si_errno;
@@ -1713,7 +1707,7 @@ typedef struct __siginfo {
   } __spare__;
  } _reason;
 } siginfo_t;
-# 289 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/signal.h" 3
+# 289 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/signal.h" 3
 struct __siginfo;
 
 
@@ -1727,7 +1721,7 @@ struct sigaction {
  int sa_flags;
  sigset_t sa_mask;
 };
-# 346 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/signal.h" 3
+# 346 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/signal.h" 3
 typedef __sighandler_t *sig_t;
 typedef void __siginfohandler_t(int, struct __siginfo *, void *);
 
@@ -1745,48 +1739,48 @@ typedef struct sigaltstack {
  __size_t ss_size;
  int ss_flags;
 } stack_t;
-# 375 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/signal.h" 3
+# 375 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/signal.h" 3
 struct sigvec {
  __sighandler_t *sv_handler;
  int sv_mask;
  int sv_flags;
 };
-# 402 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/signal.h" 3
+# 402 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/signal.h" 3
 struct sigstack {
 
  char *ss_sp;
  int ss_onstack;
 };
-# 434 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/signal.h" 3
+# 434 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/signal.h" 3
 extern "C" {
 __sighandler_t *signal(int, __sighandler_t *);
 }
-# 114 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/param.h" 2 3
+# 114 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/param.h" 2 3
 
 
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\machine/param.h" 1 3
-# 46 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\machine/param.h" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\machine/_align.h" 1 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\machine/param.h" 1 3
+# 46 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\machine/param.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\machine/_align.h" 1 3
 
 
 
 
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\x86/_align.h" 1 3
-# 7 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\machine/_align.h" 2 3
-# 47 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\machine/param.h" 2 3
-# 118 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/param.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\x86/_align.h" 1 3
+# 7 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\machine/_align.h" 2 3
+# 47 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\machine/param.h" 2 3
+# 118 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/param.h" 2 3
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/limits.h" 1 3
-# 120 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/param.h" 2 3
-# 40 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_cpuset.h" 2 3
-# 54 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_cpuset.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/limits.h" 1 3
+# 120 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/param.h" 2 3
+# 40 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_cpuset.h" 2 3
+# 54 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_cpuset.h" 3
 typedef struct _cpuset {
  long __bits[(((128)+(((sizeof(long) * 8))-1))/((sizeof(long) * 8)))];
 } cpuset_t;
-# 36 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/cpuset.h" 2 3
-# 224 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/cpuset.h" 3
+# 36 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/cpuset.h" 2 3
+# 224 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/cpuset.h" 3
 extern "C" {
 int cpuset(cpusetid_t *);
 int cpuset_setid(cpuwhich_t, id_t, cpusetid_t);
@@ -1794,13 +1788,13 @@ int cpuset_getid(cpulevel_t, cpuwhich_t, id_t, cpusetid_t *);
 int cpuset_getaffinity(cpulevel_t, cpuwhich_t, id_t, size_t, cpuset_t *);
 int cpuset_setaffinity(cpulevel_t, cpuwhich_t, id_t, size_t, const cpuset_t *);
 }
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\_types.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/sched.h" 1 3
-# 211 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/sched.h" 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\_types.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/sched.h" 1 3
+# 211 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/sched.h" 3
 struct sched_param {
         int sched_priority;
 };
-# 223 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/sched.h" 3
+# 223 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/sched.h" 3
 struct timespec;
 
 extern "C" {
@@ -1813,7 +1807,7 @@ int sched_setparam(pid_t, const struct sched_param *);
 int sched_setscheduler(pid_t, int, const struct sched_param *);
 int sched_yield(void);
 }
-# 13 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\_types.h" 2 3
+# 13 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\_types.h" 2 3
 
 
 typedef struct kevent SceKernelKevent;
@@ -1824,14 +1818,14 @@ typedef struct sched_param SceKernelSchedParam;
 typedef uint64_t SceKernelCpumask;
 typedef unsigned int SceKernelUseconds;
 typedef int32_t SceKernelModule;
-# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\save_data/save_data_defs.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\time.h" 1 3
-# 51 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\time.h" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\yvals.h" 1 3
-# 52 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\time.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_defines/_clock.h" 1 3
-# 53 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\time.h" 2 3
-# 97 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\time.h" 3
+# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\save_data/save_data_defs.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\time.h" 1 3
+# 51 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\time.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\yvals.h" 1 3
+# 52 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\time.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_defines/_clock.h" 1 3
+# 53 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\time.h" 2 3
+# 97 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\time.h" 3
 struct tm
  {
  int tm_sec;
@@ -1844,7 +1838,7 @@ struct tm
  int tm_yday;
  int tm_isdst;
  };
-# 133 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\time.h" 3
+# 133 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\time.h" 3
 extern "C" {
 time_t time(time_t *);
 }
@@ -1896,8 +1890,8 @@ errno_t ctime_s(char (&_Str)[_Size], const time_t *_Tod)
  }
 
 }
-# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\save_data/save_data_defs.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\user_service.h" 1 3
+# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\save_data/save_data_defs.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\user_service.h" 1 3
 
 
 
@@ -1905,7 +1899,7 @@ errno_t ctime_s(char (&_Str)[_Size], const time_t *_Tod)
 
 
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\user_service/user_service_defs.h" 1 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\user_service/user_service_defs.h" 1 3
 
 
 
@@ -1913,11 +1907,11 @@ errno_t ctime_s(char (&_Str)[_Size], const time_t *_Tod)
 
 
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\inttypes.h" 1 3
-# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\inttypes.h" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdint.h" 1 3
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\inttypes.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_lldiv.h" 1 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\inttypes.h" 1 3
+# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\inttypes.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdint.h" 1 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\inttypes.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_lldiv.h" 1 3
 
 
 
@@ -1925,8 +1919,8 @@ errno_t ctime_s(char (&_Str)[_Size], const time_t *_Tod)
 
 
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\yvals.h" 1 3
-# 9 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_lldiv.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\yvals.h" 1 3
+# 9 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_lldiv.h" 2 3
 
 
 
@@ -1935,9 +1929,9 @@ typedef struct
  _Longlong quot;
  _Longlong rem;
 } _Lldiv_t;
-# 13 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\inttypes.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_int.h" 1 3
-# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_int.h" 3
+# 13 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\inttypes.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_int.h" 1 3
+# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_int.h" 3
 extern "C" {
 
 
@@ -1958,9 +1952,9 @@ extern lldiv_t lldiv(_Longlong, _Longlong);
 
 
 }
-# 14 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\inttypes.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_int_cpp.h" 1 3
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_int_cpp.h" 3
+# 14 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\inttypes.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_int_cpp.h" 1 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_int_cpp.h" 3
 extern "C" {
 
 extern "C++" {
@@ -1996,8 +1990,8 @@ extern "C++" {
 }
 
 }
-# 15 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\inttypes.h" 2 3
-# 27 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\inttypes.h" 3
+# 15 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\inttypes.h" 2 3
+# 27 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\inttypes.h" 3
 extern "C" {
 
 
@@ -2025,13 +2019,13 @@ intmax_t wcstoimax(const _Wchart *,
 uintmax_t wcstoumax(const _Wchart *,
  _Wchart **, int);
 }
-# 9 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\user_service/user_service_defs.h" 2 3
+# 9 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\user_service/user_service_defs.h" 2 3
 
 
 
 typedef int32_t SceUserServiceUserId;
-# 9 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\user_service.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\user_service/user_service_api.h" 1 3
+# 9 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\user_service.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\user_service/user_service_api.h" 1 3
 
 
 
@@ -2039,7 +2033,7 @@ typedef int32_t SceUserServiceUserId;
 
 
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\kernel.h" 1 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\kernel.h" 1 3
 
 
 
@@ -2048,15 +2042,15 @@ typedef int32_t SceUserServiceUserId;
 
 
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include/_kernel.h" 1 3
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include/_kernel.h" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/time.h" 1 3
-# 45 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/time.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include/_kernel.h" 1 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include/_kernel.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/time.h" 1 3
+# 45 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/time.h" 3
 struct timezone {
  int tz_minuteswest;
  int tz_dsttime;
 };
-# 58 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/time.h" 3
+# 58 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/time.h" 3
 struct bintime {
  time_t sec;
  uint64_t frac;
@@ -2108,7 +2102,7 @@ bintime_mul(struct bintime *bt, u_int x)
  bt->sec += (p2 >> 32);
  bt->frac = (p2 << 32) | (p1 & 0xffffffffull);
 }
-# 131 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/time.h" 3
+# 131 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/time.h" 3
 static inline void
 bintime2timespec(const struct bintime *bt, struct timespec *ts)
 {
@@ -2142,7 +2136,7 @@ timeval2bintime(const struct timeval *tv, struct bintime *bt)
 
  bt->frac = (uint64_t)tv->tv_usec * (uint64_t)18446744073709LL;
 }
-# 243 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/time.h" 3
+# 243 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/time.h" 3
 struct itimerval {
  struct timeval it_interval;
  struct timeval it_value;
@@ -2158,9 +2152,9 @@ struct clockinfo {
  int stathz;
  int profhz;
 };
-# 334 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/time.h" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\time.h" 1 3
-# 335 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/time.h" 2 3
+# 334 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/time.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\time.h" 1 3
+# 335 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/time.h" 2 3
 
 
 
@@ -2184,9 +2178,9 @@ int gettimeofday(struct timeval *, struct timezone *);
 
 
 }
-# 13 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include/_kernel.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/dmem.h" 1 3
-# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/dmem.h" 3
+# 13 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include/_kernel.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/dmem.h" 1 3
+# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/dmem.h" 3
 typedef enum {
   SCE_KERNEL_WB_ONION = 0,
   SCE_KERNEL_WC_GARLIC = 3,
@@ -2226,7 +2220,7 @@ enum {
  __SCE_KERNEL_GPU_PRIVATE_DMEM_SIZE
   __attribute__ ((deprecated)) = 0x80000000L
 };
-# 81 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/dmem.h" 3
+# 81 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/dmem.h" 3
 enum {
 
  __SCE_KERNEL_FIXED_PRT_APERTURE_START_ADDR
@@ -2236,7 +2230,7 @@ enum {
  __SCE_KERNEL_FIXED_PRT_APERTURE_END_ADDR
   __attribute__ ((deprecated)) = 0x0f00000000UL + 0x0010000000UL
 };
-# 106 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/dmem.h" 3
+# 106 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/dmem.h" 3
 extern "C" {
 
 typedef enum {
@@ -2283,7 +2277,7 @@ typedef struct
  off_t end;
  int memoryType;
 } SceKernelDirectMemoryQueryInfo;
-# 161 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/dmem.h" 3
+# 161 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/dmem.h" 3
 typedef struct
 {
  unsigned op;
@@ -2346,11 +2340,11 @@ int32_t sceKernelReleaseDirectMemory(off_t start, size_t len);
 int32_t sceKernelCheckedReleaseDirectMemory(off_t start, size_t len);
 int32_t sceKernelMapDirectMemory(void **addr, size_t len,
      int prot, int flags, off_t directMemoryStart,
-     size_t alignment);
+     size_t maxPageSize);
 int32_t sceKernelMapDirectMemory2(void **addr, size_t len,
       int type, int prot,
       int flags, off_t directMemoryStart,
-     size_t alignment);
+     size_t maxPageSize);
 int32_t sceKernelGetDirectMemoryType(off_t start,
          int *memoryType,
          off_t *regionStartOut,
@@ -2421,18 +2415,18 @@ int32_t sceKernelMemoryPoolReserve(void *addrIn, size_t len, size_t alignment,
     int flags, void **addrOut);
 
 }
-# 14 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include/_kernel.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/sce_errno.h" 1 3
-# 47 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/sce_errno.h" 3
+# 14 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include/_kernel.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/sce_errno.h" 1 3
+# 47 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/sce_errno.h" 3
 extern "C" {
-# 677 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/sce_errno.h" 3
+# 677 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/sce_errno.h" 3
 }
-# 15 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include/_kernel.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sched.h" 1 3
-# 16 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include/_kernel.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\time.h" 1 3
-# 17 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include/_kernel.h" 2 3
-# 41 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include/_kernel.h" 3
+# 15 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include/_kernel.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sched.h" 1 3
+# 16 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include/_kernel.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\time.h" 1 3
+# 17 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include/_kernel.h" 2 3
+# 41 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include/_kernel.h" 3
 extern "C" {
 
 typedef struct
@@ -2483,29 +2477,29 @@ void sceKernelSetGPO(uint32_t uiBits);
 uint64_t sceKernelGetGPI();
 
 int sceKernelSetFsstParam(int prio, SceKernelCpumask mask);
-# 102 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include/_kernel.h" 3
+# 102 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include/_kernel.h" 3
 int sceKernelGetCpumode();
 int sceKernelIsNeoMode();
 
 }
-# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\kernel.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include/_pthread.h" 1 3
-# 52 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include/_pthread.h" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sched.h" 1 3
-# 53 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include/_pthread.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\time.h" 1 3
-# 54 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include/_pthread.h" 2 3
+# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\kernel.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include/_pthread.h" 1 3
+# 52 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include/_pthread.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sched.h" 1 3
+# 53 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include/_pthread.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\time.h" 1 3
+# 54 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include/_pthread.h" 2 3
 
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\pthread.h" 1 3
-# 51 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\pthread.h" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sched.h" 1 3
-# 52 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\pthread.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\time.h" 1 3
-# 53 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\pthread.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\kernel.h" 1 3
-# 54 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\pthread.h" 2 3
-# 125 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\pthread.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\pthread.h" 1 3
+# 51 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\pthread.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sched.h" 1 3
+# 52 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\pthread.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\time.h" 1 3
+# 53 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\pthread.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\kernel.h" 1 3
+# 54 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\pthread.h" 2 3
+# 125 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\pthread.h" 3
 enum pthread_mutextype {
  PTHREAD_MUTEX_ERRORCHECK = 1,
  PTHREAD_MUTEX_RECURSIVE = 2,
@@ -2546,7 +2540,7 @@ int pthread_barrierattr_getpshared(const pthread_barrierattr_t *,
    int *);
 int pthread_barrierattr_init(pthread_barrierattr_t *);
 int pthread_barrierattr_setpshared(pthread_barrierattr_t *, int);
-# 178 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\pthread.h" 3
+# 178 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\pthread.h" 3
 int pthread_condattr_destroy(pthread_condattr_t *);
 int pthread_condattr_getclock(const pthread_condattr_t *,
    clockid_t *);
@@ -2656,11 +2650,11 @@ void __pthread_cleanup_push_imp(void (*)(void *), void *,
    struct _pthread_cleanup_info *);
 void __pthread_cleanup_pop_imp(int);
 }
-# 57 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include/_pthread.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\semaphore.h" 1 3
-# 42 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\semaphore.h" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_umtx.h" 1 3
-# 35 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_umtx.h" 3
+# 57 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include/_pthread.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\semaphore.h" 1 3
+# 42 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\semaphore.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_umtx.h" 1 3
+# 35 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_umtx.h" 3
 struct umtx {
  volatile unsigned long u_owner;
 };
@@ -2692,7 +2686,7 @@ struct _usem {
  volatile __uint32_t _count;
  __uint32_t _flags;
 };
-# 43 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\semaphore.h" 2 3
+# 43 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\semaphore.h" 2 3
 
 
 struct _sem {
@@ -2719,8 +2713,8 @@ int sem_trywait(sem_t *);
 int sem_unlink(const char *);
 int sem_wait(sem_t *);
 }
-# 58 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include/_pthread.h" 2 3
-# 137 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include/_pthread.h" 3
+# 58 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include/_pthread.h" 2 3
+# 137 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include/_pthread.h" 3
 typedef enum ScePthreadMutextype {
  SCE_PTHREAD_MUTEX_ERRORCHECK = 1,
  SCE_PTHREAD_MUTEX_RECURSIVE = 2,
@@ -2734,7 +2728,7 @@ typedef enum ScePthreadRwlocktype {
  SCE_PTHREAD_RWLOCK_PREFER_READER = 2,
  SCE_PTHREAD_RWLOCK_TYPE_MAX
 } ScePthreadRwlocktype;
-# 163 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include/_pthread.h" 3
+# 163 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include/_pthread.h" 3
 typedef pthread_attr_t ScePthreadAttr;
 typedef pthread_barrier_t ScePthreadBarrier;
 typedef pthread_barrierattr_t ScePthreadBarrierattr;
@@ -2773,7 +2767,7 @@ int scePthreadBarrierInit(ScePthreadBarrier *barrier,
 int scePthreadBarrierWait(ScePthreadBarrier *barrier);
 int scePthreadBarrierattrDestroy(ScePthreadBarrierattr *barrier);
 int scePthreadBarrierattrInit(ScePthreadBarrierattr *barrier);
-# 214 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include/_pthread.h" 3
+# 214 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include/_pthread.h" 3
 int scePthreadCondattrDestroy(ScePthreadCondattr *attr);
 int scePthreadCondattrInit(ScePthreadCondattr *attr);
 int scePthreadCondBroadcast(ScePthreadCond *cond);
@@ -2877,18 +2871,18 @@ int scePthreadRename(ScePthread thread, const char *name);
 int scePthreadGetname(ScePthread thread, char *name);
 
 }
-# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\kernel.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include/_fs.h" 1 3
-# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include/_fs.h" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/uio.h" 1 3
-# 42 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/uio.h" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_iovec.h" 1 3
-# 43 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_iovec.h" 3
+# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\kernel.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include/_fs.h" 1 3
+# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include/_fs.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/uio.h" 1 3
+# 42 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/uio.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_iovec.h" 1 3
+# 43 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_iovec.h" 3
 struct iovec {
  void *iov_base;
  size_t iov_len;
 };
-# 43 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/uio.h" 2 3
+# 43 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/uio.h" 2 3
 
 
 
@@ -2901,7 +2895,7 @@ enum uio_seg {
  UIO_SYSSPACE,
  UIO_NOCOPY
 };
-# 104 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/uio.h" 3
+# 104 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/uio.h" 3
 extern "C" {
 ssize_t readv(int, const struct iovec *, int);
 ssize_t writev(int, const struct iovec *, int);
@@ -2910,10 +2904,10 @@ ssize_t preadv(int, const struct iovec *, int, off_t);
 ssize_t pwritev(int, const struct iovec *, int, off_t);
 
 }
-# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include/_fs.h" 2 3
+# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include/_fs.h" 2 3
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/stat.h" 1 3
-# 68 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/stat.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/stat.h" 1 3
+# 68 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/stat.h" 3
 struct ostat {
  __uint16_t st_dev;
  ino_t st_ino;
@@ -2951,7 +2945,7 @@ struct stat {
  __uint32_t st_gen;
  __int32_t st_lspare;
  struct timespec st_birthtim;
-# 113 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/stat.h" 3
+# 113 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/stat.h" 3
  unsigned int :(8 / 2) * (16 - (int)sizeof(struct timespec));
  unsigned int :(8 / 2) * (16 - (int)sizeof(struct timespec));
 };
@@ -2980,7 +2974,7 @@ struct nstat {
  unsigned int :(8 / 2) * (16 - (int)sizeof(struct timespec));
  unsigned int :(8 / 2) * (16 - (int)sizeof(struct timespec));
 };
-# 263 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/stat.h" 3
+# 263 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/stat.h" 3
 extern "C" {
 
 int chflags(const char *, unsigned long);
@@ -2996,9 +2990,9 @@ int fstat(int, struct stat *);
 int mkdir(const char *, mode_t);
 int stat(const char * __restrict, struct stat * __restrict);
 }
-# 13 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include/_fs.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/dirent.h" 1 3
-# 50 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/dirent.h" 3
+# 13 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include/_fs.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/dirent.h" 1 3
+# 50 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/dirent.h" 3
 struct dirent {
  __uint32_t d_fileno;
  __uint16_t d_reclen;
@@ -3011,11 +3005,11 @@ struct dirent {
 
 
 };
-# 14 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include/_fs.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/file.h" 1 3
-# 38 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/file.h" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/fcntl.h" 1 3
-# 228 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/fcntl.h" 3
+# 14 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include/_fs.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/file.h" 1 3
+# 38 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/file.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/fcntl.h" 1 3
+# 228 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/fcntl.h" 3
 struct flock {
  off_t l_start;
  off_t l_len;
@@ -3036,7 +3030,7 @@ struct oflock {
  short l_type;
  short l_whence;
 };
-# 263 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/fcntl.h" 3
+# 263 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/fcntl.h" 3
 extern "C" {
 int open(const char *, int, ...);
 int creat(const char *, mode_t);
@@ -3045,10 +3039,10 @@ int fcntl(int, int, ...);
 int flock(int, int);
 
 }
-# 39 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/file.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/unistd.h" 1 3
-# 40 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/file.h" 2 3
-# 173 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/file.h" 3
+# 39 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/file.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/unistd.h" 1 3
+# 40 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/file.h" 2 3
+# 173 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/file.h" 3
 struct xfile {
  size_t xf_size;
  pid_t xf_pid;
@@ -3063,9 +3057,9 @@ struct xfile {
  void *xf_vnode;
  u_int xf_flag;
 };
-# 15 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include/_fs.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/mman.h" 1 3
-# 237 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/mman.h" 3
+# 15 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include/_fs.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/mman.h" 1 3
+# 237 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/mman.h" 3
 extern "C" {
 int getpagesizes(size_t *, int);
 int madvise(void *, size_t, int);
@@ -3095,13 +3089,13 @@ int physhm_open(const char *, int, mode_t, int);
 int physhm_unlink(const char *);
 void *mmap_dmem(void *, size_t, int, int, int, off_t);
 }
-# 16 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include/_fs.h" 2 3
+# 16 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include/_fs.h" 2 3
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\limits.h" 1 3
-# 18 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include/_fs.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\fcntl.h" 1 3
-# 19 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include/_fs.h" 2 3
-# 99 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include/_fs.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\limits.h" 1 3
+# 18 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include/_fs.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\fcntl.h" 1 3
+# 19 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include/_fs.h" 2 3
+# 99 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include/_fs.h" 3
 typedef struct iovec SceKernelIovec;
 typedef struct stat SceKernelStat;
 typedef struct dirent SceKernelDirent;
@@ -3147,12 +3141,12 @@ int sceKernelLwfsAllocateBlock(int fd, off_t size);
 int sceKernelLwfsTrimBlock(int fd, off_t size);
 off_t sceKernelLwfsLseek(int fd, off_t offset, int whence);
 ssize_t sceKernelLwfsWrite(int fd, const void *buf, size_t nbytes);
-# 159 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include/_fs.h" 3
+# 159 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include/_fs.h" 3
 typedef struct SceKernelAioResult {
  int64_t returnValue;
  uint32_t state;
 } SceKernelAioResult;
-# 183 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include/_fs.h" 3
+# 183 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include/_fs.h" 3
 typedef struct SceKernelAioSchedulingParam {
  int schedulingWindowSize;
  int delayedCountLimit;
@@ -3271,9 +3265,9 @@ int get_aio_debug_submit_info(int pid, SceKernelAioSubmitInfo* info, int num, in
 int get_aio_debug_request_info(int pid, int id, SceKernelAioRequestInfo* info, int num, int *stored_num);
 
 }
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\kernel.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include/kernel/eventflag.h" 1 3
-# 22 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include/kernel/eventflag.h" 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\kernel.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include/kernel/eventflag.h" 1 3
+# 22 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include/kernel/eventflag.h" 3
 typedef struct _SceKernelEventFlagOptParam {
  size_t size;
 } SceKernelEventFlagOptParam;
@@ -3300,9 +3294,9 @@ int sceKernelCancelEventFlag(SceKernelEventFlag ef, uint64_t setPattern,
         int *pNumWaitThreads);
 
 }
-# 13 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\kernel.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include/kernel/semaphore.h" 1 3
-# 15 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include/kernel/semaphore.h" 3
+# 13 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\kernel.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include/kernel/semaphore.h" 1 3
+# 15 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include/kernel/semaphore.h" 3
 typedef struct _SceKernelSemaOptParam {
  size_t size;
 } SceKernelSemaOptParam;
@@ -3323,14 +3317,14 @@ int sceKernelSignalSema(SceKernelSema sem, int count);
 int sceKernelCancelSema(SceKernelSema sem, int count, int *threads);
 
 }
-# 14 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\kernel.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include/kernel/equeue.h" 1 3
-# 13 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include/kernel/equeue.h" 3
+# 14 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\kernel.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include/kernel/equeue.h" 1 3
+# 13 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include/kernel/equeue.h" 3
 extern "C" {
 
 typedef struct _SceKernelEqueue* SceKernelEqueue;
 typedef struct kevent SceKernelEvent;
-# 37 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include/kernel/equeue.h" 3
+# 37 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include/kernel/equeue.h" 3
 int sceKernelGetEventFilter(const SceKernelEvent *ev);
 uintptr_t sceKernelGetEventId(const SceKernelEvent *ev);
 intptr_t sceKernelGetEventData(const SceKernelEvent *ev);
@@ -3359,9 +3353,9 @@ int sceKernelAddHRTimerEvent(SceKernelEqueue eq, int id, SceKernelTimespec *ts, 
 int sceKernelDeleteHRTimerEvent(SceKernelEqueue eq, int id);
 
 }
-# 15 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\kernel.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include/kernel/uuid.h" 1 3
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include/kernel/uuid.h" 3
+# 15 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\kernel.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include/kernel/uuid.h" 1 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include/kernel/uuid.h" 3
 extern "C" {
 
 typedef struct {
@@ -3376,26 +3370,26 @@ typedef struct {
 int sceKernelUuidCreate(SceKernelUuid* outUuid);
 
 }
-# 16 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\kernel.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include/kernel/memory.h" 1 3
-# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include/kernel/memory.h" 3
+# 16 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\kernel.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include/kernel/memory.h" 1 3
+# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include/kernel/memory.h" 3
 extern "C" {
 
 int32_t sceKernelAvailableFlexibleMemorySize(size_t *sizeOut);
 int32_t sceKernelConfiguredFlexibleMemorySize(size_t *sizeOut);
 
 }
-# 17 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\kernel.h" 2 3
-# 9 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\user_service/user_service_api.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\inttypes.h" 1 3
-# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\user_service/user_service_api.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stddef.h" 1 3
-# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stddef.h" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\yvals.h" 1 3
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stddef.h" 2 3
-# 45 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stddef.h" 3
+# 17 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\kernel.h" 2 3
+# 9 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\user_service/user_service_api.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\inttypes.h" 1 3
+# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\user_service/user_service_api.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stddef.h" 1 3
+# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stddef.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\yvals.h" 1 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stddef.h" 2 3
+# 45 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stddef.h" 3
 typedef _Ptrdifft ptrdiff_t;
-# 65 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stddef.h" 3
+# 65 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stddef.h" 3
 typedef decltype(nullptr) nullptr_t;
 
 
@@ -3403,7 +3397,7 @@ typedef decltype(nullptr) nullptr_t;
 
 
 typedef float max_align_t __attribute__((__vector_size__ (32) ));
-# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\user_service/user_service_api.h" 2 3
+# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\user_service/user_service_api.h" 2 3
 
 
 
@@ -3491,13 +3485,13 @@ int32_t sceUserServiceGetAccessibilityZoomEnabled(SceUserServiceUserId userId, i
 
 
 }
-# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\user_service.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\user_service/user_service_error.h" 1 3
-# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\user_service.h" 2 3
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\save_data/save_data_defs.h" 2 3
-# 45 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\save_data/save_data_defs.h" 3
+# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\user_service.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\user_service/user_service_error.h" 1 3
+# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\user_service.h" 2 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\save_data/save_data_defs.h" 2 3
+# 45 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\save_data/save_data_defs.h" 3
 typedef uint32_t SceSaveDataMountMode;
-# 63 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\save_data/save_data_defs.h" 3
+# 63 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\save_data/save_data_defs.h" 3
 typedef uint32_t SceSaveDataMountStatus;
 
 
@@ -3505,19 +3499,19 @@ typedef uint32_t SceSaveDataMountStatus;
 
 
 typedef uint32_t SceSaveDataParamType;
-# 86 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\save_data/save_data_defs.h" 3
+# 86 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\save_data/save_data_defs.h" 3
 typedef uint32_t SceSaveDataSortKey;
-# 101 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\save_data/save_data_defs.h" 3
+# 101 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\save_data/save_data_defs.h" 3
 typedef uint32_t SceSaveDataSortOrder;
-# 121 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\save_data/save_data_defs.h" 3
+# 121 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\save_data/save_data_defs.h" 3
 typedef uint64_t SceSaveDataBlocks;
-# 146 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\save_data/save_data_defs.h" 3
+# 146 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\save_data/save_data_defs.h" 3
 typedef uint32_t SceSaveDataSaveDataMemoryOption;
-# 155 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\save_data/save_data_defs.h" 3
+# 155 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\save_data/save_data_defs.h" 3
 typedef uint32_t SceSaveDataMemorySyncOption;
-# 180 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\save_data/save_data_defs.h" 3
+# 180 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\save_data/save_data_defs.h" 3
 typedef uint32_t SceSaveDataEventType;
-# 199 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\save_data/save_data_defs.h" 3
+# 199 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\save_data/save_data_defs.h" 3
 typedef struct SceSaveDataTitleId {
  char data[(10)];
 
@@ -3924,13 +3918,13 @@ typedef struct SceSaveDataEvent {
  uint8_t reserved[40];
 
 } SceSaveDataEvent;
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\save_data.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\save_data/save_data_legacy.h" 1 3
-# 13 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\save_data.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\save_data/save_data_api.h" 1 3
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\save_data/save_data_api.h" 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\save_data.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\save_data/save_data_legacy.h" 1 3
+# 13 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\save_data.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\save_data/save_data_api.h" 1 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\save_data/save_data_api.h" 3
 extern "C" {
-# 22 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\save_data/save_data_api.h" 3
+# 22 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\save_data/save_data_api.h" 3
 int32_t sceSaveDataInitialize3(const SceSaveDataInitParams3 *initParam);
 
 
@@ -4032,29 +4026,29 @@ int32_t sceSaveDataGetEventResult(const SceSaveDataEventParam *eventParam, SceSa
 
 
 }
-# 14 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\save_data.h" 2 3
+# 14 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\save_data.h" 2 3
 # 11 "C:\\code\\scotland-yard\\Packages\\com.unity.savedata.ps4@1.0.2\\Source~/ErrorHandling/../Includes/PluginCommonIncludes.h" 2
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\save_data_dialog.h" 1 3
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\save_data_dialog.h" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\common_dialog/common_api.h" 1 3
-# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\common_dialog/common_api.h" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sdk_version.h" 1 3
-# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\common_dialog/common_api.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\string.h" 1 3
-# 48 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\string.h" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\yvals.h" 1 3
-# 49 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\string.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\save_data_dialog.h" 1 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\save_data_dialog.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\common_dialog/common_api.h" 1 3
+# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\common_dialog/common_api.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sdk_version.h" 1 3
+# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\common_dialog/common_api.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\string.h" 1 3
+# 48 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\string.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\yvals.h" 1 3
+# 49 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\string.h" 2 3
 
 
 
 
 
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\strings.h" 1 3
-# 41 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\strings.h" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\yvals.h" 1 3
-# 42 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\strings.h" 2 3
-# 53 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\strings.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\strings.h" 1 3
+# 41 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\strings.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\yvals.h" 1 3
+# 42 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\strings.h" 2 3
+# 53 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\strings.h" 3
 extern "C" {
 
 int bcmp(const void *, const void *, size_t) __attribute__((__pure__));
@@ -4062,8 +4056,8 @@ void bcopy(const void *, void *, size_t);
 void bzero(void *, size_t);
 
 }
-# 56 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\string.h" 2 3
-# 65 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\string.h" 3
+# 56 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\string.h" 2 3
+# 65 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\string.h" 3
 extern "C" {
 int memcmp(const void *, const void *, size_t);
 void *memcpy(void *, const void *, size_t);
@@ -4126,7 +4120,7 @@ inline char *strstr(char *_Str1, const char *_Str2)
  return ((char *):: strstr((const char *)_Str1, _Str2));
  }
 }
-# 143 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\string.h" 3
+# 143 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\string.h" 3
 extern "C" {
 const void *memchr(const void *, int, size_t);
 }
@@ -4137,7 +4131,7 @@ inline void *memchr(void *_Str, int _Ch, size_t _Num)
  return ((void *):: memchr((const void *)_Str, _Ch, _Num));
  }
 }
-# 163 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\string.h" 3
+# 163 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\string.h" 3
 extern "C" {
 
 errno_t memcpy_s(void *, rsize_t,
@@ -4216,7 +4210,7 @@ size_t strnlen_s(const char (&_Str)[_Size])
  }
 
 }
-# 292 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\string.h" 3
+# 292 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\string.h" 3
 extern "C" {
 
 size_t strlcat(char * __restrict, const char * __restrict, size_t);
@@ -4230,9 +4224,9 @@ size_t strnlen(const char *, size_t) __attribute__((__pure__));
 char *strnstr(const char *, const char *, size_t) __attribute__((__pure__));
 
 }
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\common_dialog/common_api.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\common_dialog/types.h" 1 3
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\common_dialog/types.h" 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\common_dialog/common_api.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\common_dialog/types.h" 1 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\common_dialog/types.h" 3
 typedef enum SceCommonDialogStatus {
  SCE_COMMON_DIALOG_STATUS_NONE = 0,
  SCE_COMMON_DIALOG_STATUS_INITIALIZED = 1,
@@ -4250,7 +4244,7 @@ typedef struct SceCommonDialogBaseParam {
  uint8_t reserved[36];
  uint32_t magic;
 } SceCommonDialogBaseParam __attribute__ ((__aligned__(8)));
-# 13 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\common_dialog/common_api.h" 2 3
+# 13 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\common_dialog/common_api.h" 2 3
 
 
 extern "C" {
@@ -4275,9 +4269,9 @@ void _sceCommonDialogBaseParamInit(SceCommonDialogBaseParam *param)
 
 
 }
-# 13 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\save_data_dialog.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\common_dialog/error.h" 1 3
-# 14 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\save_data_dialog.h" 2 3
+# 13 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\save_data_dialog.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\common_dialog/error.h" 1 3
+# 14 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\save_data_dialog.h" 2 3
 
 
 
@@ -4286,9 +4280,9 @@ void _sceCommonDialogBaseParamInit(SceCommonDialogBaseParam *param)
 
 
 extern "C" {
-# 38 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\save_data_dialog.h" 3
+# 38 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\save_data_dialog.h" 3
  typedef int32_t SceSaveDataDialogMode;
-# 50 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\save_data_dialog.h" 3
+# 50 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\save_data_dialog.h" 3
 typedef int32_t SceSaveDataDialogType;
 
 
@@ -4298,15 +4292,15 @@ typedef int32_t SceSaveDataDialogType;
 
 
 typedef int32_t SceSaveDataDialogFocusPos;
-# 69 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\save_data_dialog.h" 3
+# 69 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\save_data_dialog.h" 3
 typedef int32_t SceSaveDataDialogSystemMessageType;
-# 87 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\save_data_dialog.h" 3
+# 87 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\save_data_dialog.h" 3
 typedef int32_t SceSaveDataDialogWizardOption;
-# 96 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\save_data_dialog.h" 3
+# 96 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\save_data_dialog.h" 3
 typedef int32_t SceSaveDataDialogButtonType;
-# 105 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\save_data_dialog.h" 3
+# 105 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\save_data_dialog.h" 3
 typedef int32_t SceSaveDataDialogButtonId;
-# 114 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\save_data_dialog.h" 3
+# 114 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\save_data_dialog.h" 3
 typedef int32_t SceSaveDataDialogOptionBack;
 
 
@@ -4354,7 +4348,7 @@ typedef int32_t SceSaveDataDialogUserMessageType;
 
 
 typedef int32_t SceSaveDataDialogProgressSystemMessageType;
-# 172 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\save_data_dialog.h" 3
+# 172 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\save_data_dialog.h" 3
 typedef struct SceSaveDataDialogAnimationParam {
  SceSaveDataDialogAnimation userOK;
 
@@ -4786,18 +4780,18 @@ namespace SaveData
 
 
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\list" 1 3
-# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\list" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdexcept" 1 3
-# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdexcept" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\exception" 1 3
-# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\exception" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xstddef" 1 3
-# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xstddef" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\cstddef" 1 3
-# 27 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\cstddef" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\yvals.h" 1 3
-# 28 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\cstddef" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\list" 1 3
+# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\list" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdexcept" 1 3
+# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdexcept" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\exception" 1 3
+# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\exception" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xstddef" 1 3
+# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xstddef" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\cstddef" 1 3
+# 27 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\cstddef" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\yvals.h" 1 3
+# 28 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\cstddef" 2 3
 
 
 
@@ -4805,8 +4799,8 @@ namespace SaveData
 
 
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stddef.h" 1 3
-# 36 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\cstddef" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stddef.h" 1 3
+# 36 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\cstddef" 2 3
 
 
 
@@ -4923,7 +4917,7 @@ template<class _Ty>
   : _Cat_base<__is_integral(_Ty)>
  {
  };
-# 261 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\cstddef" 3
+# 261 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\cstddef" 3
 template<bool _Test,
  class _Ty = void>
  struct enable_if
@@ -4941,13 +4935,13 @@ template<bool _Test,
  using enable_if_t = typename enable_if<_Test, _Ty>::type;
 
 using nullptr_t = decltype(nullptr);
-# 363 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\cstddef" 3
+# 363 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\cstddef" 3
 }
-# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xstddef" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\cstdlib" 1 3
-# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\cstdlib" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\yvals.h" 1 3
-# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\cstdlib" 2 3
+# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xstddef" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\cstdlib" 1 3
+# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\cstdlib" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\yvals.h" 1 3
+# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\cstdlib" 2 3
 
 
 
@@ -4955,16 +4949,16 @@ using nullptr_t = decltype(nullptr);
 
 
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdlib.h" 1 3
-# 43 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdlib.h" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\yvals.h" 1 3
-# 44 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdlib.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdlib.h" 1 3
+# 43 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdlib.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\yvals.h" 1 3
+# 44 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdlib.h" 2 3
 
 
 
 
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_malloc.h" 1 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_malloc.h" 1 3
 
 
 
@@ -4972,10 +4966,10 @@ using nullptr_t = decltype(nullptr);
 
 
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\yvals.h" 1 3
-# 9 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_malloc.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stddef.h" 1 3
-# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_malloc.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\yvals.h" 1 3
+# 9 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_malloc.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stddef.h" 1 3
+# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_malloc.h" 2 3
 
 extern "C" {
 
@@ -4993,8 +4987,8 @@ typedef struct SceLibcMallocManagedSize {
 
 
 }
-# 50 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdlib.h" 2 3
-# 79 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdlib.h" 3
+# 50 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdlib.h" 2 3
+# 79 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdlib.h" 3
 typedef struct
  {
  int quot;
@@ -5137,7 +5131,7 @@ void qsort(void *, size_t, size_t, _Cmpfun *);
 }
 
 extern "C++" {
-# 248 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdlib.h" 3
+# 248 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdlib.h" 3
 extern "C" {
 
 double atof(const char *_Str);
@@ -5151,7 +5145,7 @@ inline long atol(const char *_Str)
  {
  return ((long)_Stoul(_Str, 0, 10));
  }
-# 269 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdlib.h" 3
+# 269 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdlib.h" 3
 double strtod(const char * _Str,
  char ** _Endptr);
 
@@ -5181,7 +5175,7 @@ inline long double strtold(const char * _Str,
 }
 
 }
-# 338 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdlib.h" 3
+# 338 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdlib.h" 3
 extern "C" {
 
 
@@ -5210,9 +5204,9 @@ errno_t qsort_s(void *,
 }
 
 extern "C++" {
-# 382 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdlib.h" 3
+# 382 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdlib.h" 3
 }
-# 395 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdlib.h" 3
+# 395 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdlib.h" 3
 extern "C" {
 errno_t wctomb_s(int *,
  char *, rsize_t,
@@ -5248,7 +5242,7 @@ errno_t wctomb_s(int *_Pstat, char (&_Str)[_Size], wchar_t _Wc)
  }
 
 }
-# 440 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdlib.h" 3
+# 440 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdlib.h" 3
 extern "C" {
 
 extern size_t sceLibcHeapSize;
@@ -5260,7 +5254,7 @@ extern unsigned int sceLibcHeapMemoryLock;
 extern unsigned int sceLibcHeapDebugFlags;
 
 }
-# 543 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdlib.h" 3
+# 543 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdlib.h" 3
 extern "C" {
 
 
@@ -5269,9 +5263,9 @@ extern "C" {
 
 
 int posix_memalign(void **, size_t, size_t);
-# 572 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdlib.h" 3
+# 572 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdlib.h" 3
 }
-# 19 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\cstdlib" 2 3
+# 19 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\cstdlib" 2 3
 
 
 
@@ -5294,12 +5288,12 @@ using :: lldiv_t;
 using :: atoll; using :: llabs; using :: lldiv;
 using :: strtof; using :: strtold;
 using :: strtoll; using :: strtoull;
-# 66 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\cstdlib" 3
+# 66 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\cstdlib" 3
 }
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xstddef" 2 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xstddef" 2 3
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\initializer_list" 1 3
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\initializer_list" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\initializer_list" 1 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\initializer_list" 3
 namespace std {
 
 template<class _Elem>
@@ -5367,16 +5361,16 @@ template<class _Elem> inline
  return (_Ilist.end());
  }
 }
-# 14 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xstddef" 2 3
+# 14 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xstddef" 2 3
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xtr1common" 1 3
-# 13 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xtr1common" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xtr1common" 1 3
+# 13 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xtr1common" 3
 namespace std {
 
 struct _Nil
  {
  };
-# 26 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xtr1common" 3
+# 26 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xtr1common" 3
 template<bool _Test,
  class _Ty1,
  class _Ty2>
@@ -5413,7 +5407,7 @@ template<class _Ty>
   : _Cat_base<__is_floating_point(_Ty)>
  {
  };
-# 96 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xtr1common" 3
+# 96 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xtr1common" 3
 template<class _Ty>
  struct is_arithmetic
   : _Cat_base<is_integral<_Ty>::value
@@ -5456,12 +5450,12 @@ template<class _Ty>
  {
  typedef _Ty type;
  };
-# 152 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xtr1common" 3
+# 152 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xtr1common" 3
 }
-# 16 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xstddef" 2 3
-# 30 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xstddef" 3
+# 16 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xstddef" 2 3
+# 30 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xstddef" 3
 namespace std {
-# 117 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xstddef" 3
+# 117 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xstddef" 3
 template<bool,
  class _Ty1,
  class _Ty2>
@@ -5482,7 +5476,7 @@ template<class _Ty>
   : false_type
  {
  };
-# 156 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xstddef" 3
+# 156 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xstddef" 3
 template<class _Arg,
  class _Result>
  struct unary_function
@@ -5890,7 +5884,7 @@ template<>
  };
 
 }
-# 781 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xstddef" 3
+# 781 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xstddef" 3
 namespace std {
 
 template<class... _Types>
@@ -5918,11 +5912,11 @@ template<class _Ty>
  {
  typedef false_type _Bool_type;
  };
-# 820 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xstddef" 3
+# 820 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xstddef" 3
 template<class _Ret, class... _Types> struct _Is_function<_Ret (_Types...) > : _Arg_types<_Types...> { typedef true_type _Bool_type; typedef _Ret result_type; }; template<class _Ret, class... _Types> struct _Is_function<_Ret (_Types...) const > : _Arg_types<_Types...> { typedef true_type _Bool_type; typedef _Ret result_type; }; template<class _Ret, class... _Types> struct _Is_function<_Ret (_Types...) volatile > : _Arg_types<_Types...> { typedef true_type _Bool_type; typedef _Ret result_type; }; template<class _Ret, class... _Types> struct _Is_function<_Ret (_Types...) const volatile > : _Arg_types<_Types...> { typedef true_type _Bool_type; typedef _Ret result_type; }; template<class _Ret, class... _Types> struct _Is_function<_Ret (_Types...) & > : _Arg_types<_Types...> { typedef true_type _Bool_type; typedef _Ret result_type; }; template<class _Ret, class... _Types> struct _Is_function<_Ret (_Types...) const & > : _Arg_types<_Types...> { typedef true_type _Bool_type; typedef _Ret result_type; }; template<class _Ret, class... _Types> struct _Is_function<_Ret (_Types...) volatile & > : _Arg_types<_Types...> { typedef true_type _Bool_type; typedef _Ret result_type; }; template<class _Ret, class... _Types> struct _Is_function<_Ret (_Types...) const volatile & > : _Arg_types<_Types...> { typedef true_type _Bool_type; typedef _Ret result_type; }; template<class _Ret, class... _Types> struct _Is_function<_Ret (_Types...) && > : _Arg_types<_Types...> { typedef true_type _Bool_type; typedef _Ret result_type; }; template<class _Ret, class... _Types> struct _Is_function<_Ret (_Types...) const && > : _Arg_types<_Types...> { typedef true_type _Bool_type; typedef _Ret result_type; }; template<class _Ret, class... _Types> struct _Is_function<_Ret (_Types...) volatile && > : _Arg_types<_Types...> { typedef true_type _Bool_type; typedef _Ret result_type; }; template<class _Ret, class... _Types> struct _Is_function<_Ret (_Types...) const volatile && > : _Arg_types<_Types...> { typedef true_type _Bool_type; typedef _Ret result_type; };
-# 832 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xstddef" 3
+# 832 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xstddef" 3
 template<class _Ret, class... _Types> struct _Is_function<_Ret (_Types..., ...) > : _Arg_types<_Types...> { typedef true_type _Bool_type; typedef _Ret result_type; }; template<class _Ret, class... _Types> struct _Is_function<_Ret (_Types..., ...) const > : _Arg_types<_Types...> { typedef true_type _Bool_type; typedef _Ret result_type; }; template<class _Ret, class... _Types> struct _Is_function<_Ret (_Types..., ...) volatile > : _Arg_types<_Types...> { typedef true_type _Bool_type; typedef _Ret result_type; }; template<class _Ret, class... _Types> struct _Is_function<_Ret (_Types..., ...) const volatile > : _Arg_types<_Types...> { typedef true_type _Bool_type; typedef _Ret result_type; }; template<class _Ret, class... _Types> struct _Is_function<_Ret (_Types..., ...) & > : _Arg_types<_Types...> { typedef true_type _Bool_type; typedef _Ret result_type; }; template<class _Ret, class... _Types> struct _Is_function<_Ret (_Types..., ...) const & > : _Arg_types<_Types...> { typedef true_type _Bool_type; typedef _Ret result_type; }; template<class _Ret, class... _Types> struct _Is_function<_Ret (_Types..., ...) volatile & > : _Arg_types<_Types...> { typedef true_type _Bool_type; typedef _Ret result_type; }; template<class _Ret, class... _Types> struct _Is_function<_Ret (_Types..., ...) const volatile & > : _Arg_types<_Types...> { typedef true_type _Bool_type; typedef _Ret result_type; }; template<class _Ret, class... _Types> struct _Is_function<_Ret (_Types..., ...) && > : _Arg_types<_Types...> { typedef true_type _Bool_type; typedef _Ret result_type; }; template<class _Ret, class... _Types> struct _Is_function<_Ret (_Types..., ...) const && > : _Arg_types<_Types...> { typedef true_type _Bool_type; typedef _Ret result_type; }; template<class _Ret, class... _Types> struct _Is_function<_Ret (_Types..., ...) volatile && > : _Arg_types<_Types...> { typedef true_type _Bool_type; typedef _Ret result_type; }; template<class _Ret, class... _Types> struct _Is_function<_Ret (_Types..., ...) const volatile && > : _Arg_types<_Types...> { typedef true_type _Bool_type; typedef _Ret result_type; };
-# 858 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xstddef" 3
+# 858 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xstddef" 3
 template<class _Ty>
  struct is_function
   : _Is_function<_Ty>::_Bool_type
@@ -5948,9 +5942,9 @@ template<class _Ty> inline
  {
  return (_Addressof(_Val, is_function<_Ty>()));
  }
-# 899 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xstddef" 3
+# 899 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xstddef" 3
 }
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\exception" 2 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\exception" 2 3
 
 namespace std {
 
@@ -5958,7 +5952,7 @@ class exception;
 typedef void (*_Prhand)(const exception&);
 extern _Prhand _Raise_handler;
          void _Throw(const exception&);
-# 84 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\exception" 3
+# 84 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\exception" 3
 class exception
  {
 public:
@@ -5976,7 +5970,7 @@ public:
 
 
  virtual const char *what() const;
-# 110 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\exception" 3
+# 110 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\exception" 3
  void _Raise() const;
 
 protected:
@@ -5995,7 +5989,7 @@ public:
 
 
  virtual ~bad_exception() noexcept;
-# 138 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\exception" 3
+# 138 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\exception" 3
 protected:
  virtual void _Doraise() const;
 
@@ -6012,19 +6006,19 @@ typedef void (*unexpected_handler )();
                                    unexpected_handler get_unexpected() noexcept;
                                    unexpected_handler set_unexpected(unexpected_handler) noexcept;
                         bool uncaught_exception() noexcept;
-# 162 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\exception" 3
+# 162 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\exception" 3
          void terminate() noexcept __attribute__((__noreturn__));
                                    void unexpected() __attribute__((__noreturn__));
-# 180 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\exception" 3
+# 180 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\exception" 3
 }
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xxexception" 1 3
-# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xxexception" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\type_traits" 1 3
-# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\type_traits" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\yvals.h" 1 3
-# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\type_traits" 2 3
-# 234 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\type_traits" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xxexception" 1 3
+# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xxexception" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\type_traits" 1 3
+# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\type_traits" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\yvals.h" 1 3
+# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\type_traits" 2 3
+# 234 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\type_traits" 3
 namespace std {
 
 template<class _Ty>
@@ -6065,9 +6059,9 @@ template<class _Ty>
  {
  typedef false_type _Bool_type;
  };
-# 287 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\type_traits" 3
+# 287 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\type_traits" 3
 template<class _Ret, class _Arg0, class... _Types> struct _Is_memfunptr<_Ret ( _Arg0::*)(_Types...) > : _Arg_types< _Arg0 *, _Types...> { typedef true_type _Bool_type; typedef _Ret result_type; typedef _Arg0 _Class_type; }; template<class _Ret, class _Arg0, class... _Types> struct _Is_memfunptr<_Ret ( _Arg0::*)(_Types...) const > : _Arg_types<const _Arg0 *, _Types...> { typedef true_type _Bool_type; typedef _Ret result_type; typedef _Arg0 _Class_type; }; template<class _Ret, class _Arg0, class... _Types> struct _Is_memfunptr<_Ret ( _Arg0::*)(_Types...) volatile > : _Arg_types<volatile _Arg0 *, _Types...> { typedef true_type _Bool_type; typedef _Ret result_type; typedef _Arg0 _Class_type; }; template<class _Ret, class _Arg0, class... _Types> struct _Is_memfunptr<_Ret ( _Arg0::*)(_Types...) const volatile > : _Arg_types<const volatile _Arg0 *, _Types...> { typedef true_type _Bool_type; typedef _Ret result_type; typedef _Arg0 _Class_type; }; template<class _Ret, class _Arg0, class... _Types> struct _Is_memfunptr<_Ret ( _Arg0::*)(_Types...) & > : _Arg_types< _Arg0 *, _Types...> { typedef true_type _Bool_type; typedef _Ret result_type; typedef _Arg0 _Class_type; }; template<class _Ret, class _Arg0, class... _Types> struct _Is_memfunptr<_Ret ( _Arg0::*)(_Types...) const & > : _Arg_types<const _Arg0 *, _Types...> { typedef true_type _Bool_type; typedef _Ret result_type; typedef _Arg0 _Class_type; }; template<class _Ret, class _Arg0, class... _Types> struct _Is_memfunptr<_Ret ( _Arg0::*)(_Types...) volatile & > : _Arg_types<volatile _Arg0 *, _Types...> { typedef true_type _Bool_type; typedef _Ret result_type; typedef _Arg0 _Class_type; }; template<class _Ret, class _Arg0, class... _Types> struct _Is_memfunptr<_Ret ( _Arg0::*)(_Types...) const volatile & > : _Arg_types<const volatile _Arg0 *, _Types...> { typedef true_type _Bool_type; typedef _Ret result_type; typedef _Arg0 _Class_type; }; template<class _Ret, class _Arg0, class... _Types> struct _Is_memfunptr<_Ret ( _Arg0::*)(_Types...) && > : _Arg_types< _Arg0 *, _Types...> { typedef true_type _Bool_type; typedef _Ret result_type; typedef _Arg0 _Class_type; }; template<class _Ret, class _Arg0, class... _Types> struct _Is_memfunptr<_Ret ( _Arg0::*)(_Types...) const && > : _Arg_types<const _Arg0 *, _Types...> { typedef true_type _Bool_type; typedef _Ret result_type; typedef _Arg0 _Class_type; }; template<class _Ret, class _Arg0, class... _Types> struct _Is_memfunptr<_Ret ( _Arg0::*)(_Types...) volatile && > : _Arg_types<volatile _Arg0 *, _Types...> { typedef true_type _Bool_type; typedef _Ret result_type; typedef _Arg0 _Class_type; }; template<class _Ret, class _Arg0, class... _Types> struct _Is_memfunptr<_Ret ( _Arg0::*)(_Types...) const volatile && > : _Arg_types<const volatile _Arg0 *, _Types...> { typedef true_type _Bool_type; typedef _Ret result_type; typedef _Arg0 _Class_type; };
-# 301 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\type_traits" 3
+# 301 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\type_traits" 3
 template<class _Ret, class _Arg0, class... _Types> struct _Is_memfunptr<_Ret (_Arg0::*)(_Types..., ...) > { typedef true_type _Bool_type; typedef _Ret result_type; typedef _Arg0 _Class_type; }; template<class _Ret, class _Arg0, class... _Types> struct _Is_memfunptr<_Ret (_Arg0::*)(_Types..., ...) const > { typedef true_type _Bool_type; typedef _Ret result_type; typedef _Arg0 _Class_type; }; template<class _Ret, class _Arg0, class... _Types> struct _Is_memfunptr<_Ret (_Arg0::*)(_Types..., ...) volatile > { typedef true_type _Bool_type; typedef _Ret result_type; typedef _Arg0 _Class_type; }; template<class _Ret, class _Arg0, class... _Types> struct _Is_memfunptr<_Ret (_Arg0::*)(_Types..., ...) const volatile > { typedef true_type _Bool_type; typedef _Ret result_type; typedef _Arg0 _Class_type; }; template<class _Ret, class _Arg0, class... _Types> struct _Is_memfunptr<_Ret (_Arg0::*)(_Types..., ...) & > { typedef true_type _Bool_type; typedef _Ret result_type; typedef _Arg0 _Class_type; }; template<class _Ret, class _Arg0, class... _Types> struct _Is_memfunptr<_Ret (_Arg0::*)(_Types..., ...) const & > { typedef true_type _Bool_type; typedef _Ret result_type; typedef _Arg0 _Class_type; }; template<class _Ret, class _Arg0, class... _Types> struct _Is_memfunptr<_Ret (_Arg0::*)(_Types..., ...) volatile & > { typedef true_type _Bool_type; typedef _Ret result_type; typedef _Arg0 _Class_type; }; template<class _Ret, class _Arg0, class... _Types> struct _Is_memfunptr<_Ret (_Arg0::*)(_Types..., ...) const volatile & > { typedef true_type _Bool_type; typedef _Ret result_type; typedef _Arg0 _Class_type; }; template<class _Ret, class _Arg0, class... _Types> struct _Is_memfunptr<_Ret (_Arg0::*)(_Types..., ...) && > { typedef true_type _Bool_type; typedef _Ret result_type; typedef _Arg0 _Class_type; }; template<class _Ret, class _Arg0, class... _Types> struct _Is_memfunptr<_Ret (_Arg0::*)(_Types..., ...) const && > { typedef true_type _Bool_type; typedef _Ret result_type; typedef _Arg0 _Class_type; }; template<class _Ret, class _Arg0, class... _Types> struct _Is_memfunptr<_Ret (_Arg0::*)(_Types..., ...) volatile && > { typedef true_type _Bool_type; typedef _Ret result_type; typedef _Arg0 _Class_type; }; template<class _Ret, class _Arg0, class... _Types> struct _Is_memfunptr<_Ret (_Arg0::*)(_Types..., ...) const volatile && > { typedef true_type _Bool_type; typedef _Ret result_type; typedef _Arg0 _Class_type; };
 
 
@@ -6196,7 +6190,7 @@ template<class _Ty>
    _Has_cv_ref_qual<_Ty>::value>
  {
  };
-# 437 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\type_traits" 3
+# 437 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\type_traits" 3
 template<> struct add_lvalue_reference< void> { typedef void type; }; template<> struct add_lvalue_reference<const void> { typedef const void type; }; template<> struct add_lvalue_reference<volatile void> { typedef volatile void type; }; template<> struct add_lvalue_reference<const volatile void> { typedef const volatile void type; };
 
 
@@ -6226,7 +6220,7 @@ template<class _Ty>
  {
  typedef _Ty& type;
  };
-# 474 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\type_traits" 3
+# 474 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\type_traits" 3
 template<> struct add_rvalue_reference< void> { typedef void type; }; template<> struct add_rvalue_reference<const void> { typedef const void type; }; template<> struct add_rvalue_reference<volatile void> { typedef volatile void type; }; template<> struct add_rvalue_reference<const volatile void> { typedef const volatile void type; };
 
 
@@ -6281,7 +6275,7 @@ template<class _Ty>
  {
  typedef _Ty type;
  };
-# 536 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\type_traits" 3
+# 536 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\type_traits" 3
 template<class _Ty> struct remove_pointer<_Ty *> { typedef _Ty type; }; template<class _Ty> struct remove_pointer<_Ty *const> { typedef _Ty type; }; template<class _Ty> struct remove_pointer<_Ty *volatile> { typedef _Ty type; }; template<class _Ty> struct remove_pointer<_Ty *const volatile> { typedef _Ty type; };
 
 
@@ -6435,13 +6429,13 @@ template<class _Ty>
   : _Cat_base<is_same<typename remove_cv<_Ty>::type, nullptr_t>::value>
  {
  };
-# 700 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\type_traits" 3
+# 700 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\type_traits" 3
 template<class _Ty>
  struct is_null_pointer
   : _Cat_base<is_same<typename remove_cv<_Ty>::type, nullptr_t>::value>
  {
  };
-# 716 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\type_traits" 3
+# 716 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\type_traits" 3
 template<class _Ty>
  struct is_union
   : _Cat_base<__is_union(_Ty)>
@@ -6486,11 +6480,11 @@ template<class _Ty>
   : false_type
  {
  };
-# 769 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\type_traits" 3
+# 769 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\type_traits" 3
 template<class _Ret, class... _Types> struct _Is_referenceable<_Ret (_Types...) , false> : true_type { };
-# 780 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\type_traits" 3
+# 780 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\type_traits" 3
 template<class _Ret, class... _Types> struct _Is_referenceable<_Ret (_Types..., ...) , false> : true_type { };
-# 819 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\type_traits" 3
+# 819 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\type_traits" 3
 template<class _From,
  class _To>
  struct is_convertible
@@ -6505,7 +6499,7 @@ template<class _From,
 
  {
  };
-# 871 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\type_traits" 3
+# 871 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\type_traits" 3
 template<class _Ty>
  struct is_enum
   : _Cat_base<__is_enum(_Ty)>
@@ -6721,7 +6715,7 @@ template<class _Ty,
   : _Cat_base<__is_constructible(_Ty, _Types...)>
  {
  };
-# 1100 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\type_traits" 3
+# 1100 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\type_traits" 3
 template<bool,
  class _Ty>
  struct _Is_cc
@@ -6956,7 +6950,7 @@ template<class _Ty,
   : _Cat_base<__is_trivially_constructible(_Ty, _Types...)>
  {
  };
-# 1358 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\type_traits" 3
+# 1358 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\type_traits" 3
 template<bool,
  class _Ty>
  struct _Is_tcc
@@ -7038,7 +7032,7 @@ template<class _Ty>
   : _Cat_base<__is_trivially_copyable(_Ty)>
  {
  };
-# 1450 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\type_traits" 3
+# 1450 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\type_traits" 3
 template<class _Ty>
  struct is_trivially_move_assignable
   : is_trivially_assignable<typename add_lvalue_reference< typename remove_volatile<_Ty>::type>::type, typename add_rvalue_reference< typename remove_volatile<_Ty>::type>::type>::type
@@ -7087,7 +7081,7 @@ template<class _Ty>
   : _Cat_base<noexcept(_Ty())>
  {
  };
-# 1511 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\type_traits" 3
+# 1511 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\type_traits" 3
 template<class _Ty,
  class... _Types>
  struct is_nothrow_constructible
@@ -7305,7 +7299,7 @@ template<class _Ty>
  {
  typedef typename remove_reference<_Ty>::type& type;
  };
-# 1736 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\type_traits" 3
+# 1736 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\type_traits" 3
 template<> struct add_reference< void> { typedef void type; }; template<> struct add_reference<const void> { typedef const void type; }; template<> struct add_reference<volatile void> { typedef volatile void type; }; template<> struct add_reference<const volatile void> { typedef const volatile void type; };
 
 
@@ -7579,7 +7573,7 @@ template<class _Ty>
  {
  typedef typename _Change_sign<_Ty>::_Unsigned type;
  };
-# 2026 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\type_traits" 3
+# 2026 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\type_traits" 3
 template<class _Ty>
  struct alignment_of
   : integral_constant<size_t, __alignof__(_Ty)>
@@ -7774,7 +7768,7 @@ template<class _Ty>
 
 template<class...>
  using __void_t = void;
-# 2290 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\type_traits" 3
+# 2290 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\type_traits" 3
 template<class _Ty>
  struct _Common_type_success
  {
@@ -7932,7 +7926,7 @@ template<size_t _Size>
 
 template<class... _Types>
  using index_sequence_for = make_index_sequence<sizeof...(_Types)>;
-# 2480 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\type_traits" 3
+# 2480 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\type_traits" 3
 template<class _Ty>
  struct identity
  {
@@ -8175,7 +8169,7 @@ template<class _Callable,
   : _Invoker1<_Callable, _Ty1>
  {
  };
-# 2740 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\type_traits" 3
+# 2740 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\type_traits" 3
 template<class _Callable,
  class... _Types> inline
  constexpr auto _Invoke1(_Callable&& _Obj, _Types&&... _Args)
@@ -8235,7 +8229,7 @@ template<class _Func,
  typedef decltype(_Invoker<_Func, _Types...>::_Call(::std:: declval<_Func>(),
   ::std:: declval<_Types>()...)) type;
  };
-# 2810 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\type_traits" 3
+# 2810 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\type_traits" 3
 template<class _Ty,
  class = void>
  struct _Weak_result_type
@@ -8547,7 +8541,7 @@ template<class _Fty,
 
 template<class _Fty>
  struct result_of;
-# 3131 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\type_traits" 3
+# 3131 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\type_traits" 3
 template<class _Fty,
  class... _Args>
  struct result_of<_Fty(_Args...)>
@@ -8567,13 +8561,13 @@ template<class _Fty,
   _Fty, _Args...>::type
  {
  };
-# 3487 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\type_traits" 3
+# 3487 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\type_traits" 3
 template<class _Ty>
  struct is_final
   : _Cat_base<__is_final(_Ty)>
  {
  };
-# 3538 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\type_traits" 3
+# 3538 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\type_traits" 3
 template<class _Ty>
  using remove_const_t = typename remove_const<_Ty>::type;
 
@@ -8650,9 +8644,9 @@ template<class _Ty>
 
 template<class _Ty>
  using result_of_t = typename result_of<_Ty>::type;
-# 3879 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\type_traits" 3
+# 3879 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\type_traits" 3
 }
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xxexception" 2 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xxexception" 2 3
 
 namespace std {
 
@@ -8832,16 +8826,16 @@ template<class _Ex> inline
  _Rethrow_if_nested(_Val);
  }
 }
-# 183 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\exception" 2 3
-# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdexcept" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xstring" 1 3
-# 15 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xstring" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xmemory0" 1 3
-# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xmemory0" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\cstdint" 1 3
-# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\cstdint" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\yvals.h" 1 3
-# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\cstdint" 2 3
+# 183 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\exception" 2 3
+# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdexcept" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xstring" 1 3
+# 15 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xstring" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xmemory0" 1 3
+# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xmemory0" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\cstdint" 1 3
+# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\cstdint" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\yvals.h" 1 3
+# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\cstdint" 2 3
 
 
 
@@ -8849,11 +8843,11 @@ template<class _Ex> inline
 
 
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdint.h" 1 3
-# 19 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\cstdint" 2 3
-# 35 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\cstdint" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdint.h" 1 3
+# 19 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\cstdint" 2 3
+# 35 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\cstdint" 3
 namespace std {
-# 53 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\cstdint" 3
+# 53 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\cstdint" 3
 using :: int8_t; using :: int16_t;
 using :: int32_t; using :: int64_t;
 using :: uint8_t; using :: uint16_t;
@@ -8872,19 +8866,19 @@ using :: uint_fast32_t; using :: uint_fast64_t;
 
 using :: intmax_t; using :: intptr_t;
 using :: uintmax_t; using :: uintptr_t;
-# 112 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\cstdint" 3
+# 112 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\cstdint" 3
 }
-# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xmemory0" 2 3
+# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xmemory0" 2 3
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\limits" 1 3
-# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\limits" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\ymath.h" 1 3
-# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\ymath.h" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\yvals.h" 1 3
-# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\ymath.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\limits" 1 3
+# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\limits" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\ymath.h" 1 3
+# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\ymath.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\yvals.h" 1 3
+# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\ymath.h" 2 3
 
  extern "C" {
-# 132 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\ymath.h" 3
+# 132 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\ymath.h" 3
 void _Feraise(int);
 
 typedef union
@@ -8952,13 +8946,13 @@ int __isnormall(long double);
 int __signbitl(long double);
 
 extern const _Dconst _LDenorm, _LInf, _LNan, _LSnan;
-# 210 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\ymath.h" 3
+# 210 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\ymath.h" 3
 }
-# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\limits" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\cfloat" 1 3
-# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\cfloat" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\float.h" 1 3
-# 48 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\float.h" 3
+# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\limits" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\cfloat" 1 3
+# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\cfloat" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\float.h" 1 3
+# 48 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\float.h" 3
 typedef struct
  {
  int _Ddig, _Dmdig, _Dmax10e, _Dmaxe, _Dmin10e, _Dmine;
@@ -8977,14 +8971,14 @@ extern "C" {
 int _Fltrounds(void);
 extern const _Dvals _Dbl, _Flt, _Hlf, _Ldbl;
 }
-# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\cfloat" 2 3
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\limits" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\climits" 1 3
-# 13 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\limits" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\cmath" 1 3
-# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\cmath" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\yvals.h" 1 3
-# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\cmath" 2 3
+# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\cfloat" 2 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\limits" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\climits" 1 3
+# 13 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\limits" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\cmath" 1 3
+# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\cmath" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\yvals.h" 1 3
+# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\cmath" 2 3
 
 
 
@@ -8992,10 +8986,10 @@ extern const _Dvals _Dbl, _Flt, _Hlf, _Ldbl;
 
 
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\math.h" 1 3
-# 30 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\math.h" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xtgmath.h" 1 3
-# 14 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xtgmath.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\math.h" 1 3
+# 30 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\math.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xtgmath.h" 1 3
+# 14 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xtgmath.h" 3
 namespace std {
 template<class _Ty>
  struct _Promote_to_float
@@ -9020,7 +9014,7 @@ template<class _Ty1,
    float>::type>::type type;
  };
 }
-# 81 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xtgmath.h" 3
+# 81 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xtgmath.h" 3
 extern "C" double pow(double, double);
 float pow(float, float);
 long double pow(long double, long double);
@@ -9059,7 +9053,7 @@ extern "C" double sinh(double); template<class _Ty> inline typename ::std:: enab
 extern "C" double sqrt(double); template<class _Ty> inline typename ::std:: enable_if< ::std:: is_integral<_Ty>::value, double>::type sqrt(_Ty _Left) { return (:: sqrt((double)_Left)); }
 extern "C" double tan(double); template<class _Ty> inline typename ::std:: enable_if< ::std:: is_integral<_Ty>::value, double>::type tan(_Ty _Left) { return (:: tan((double)_Left)); }
 extern "C" double tanh(double); template<class _Ty> inline typename ::std:: enable_if< ::std:: is_integral<_Ty>::value, double>::type tanh(_Ty _Left) { return (:: tanh((double)_Left)); }
-# 130 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xtgmath.h" 3
+# 130 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xtgmath.h" 3
 extern "C" double fma(double, double, double);
 float fma(float, float, float);
 long double fma(long double, long double, long double);
@@ -9141,11 +9135,11 @@ extern "C" double scalbln(double, long); template<class _Ty> inline typename ::s
 extern "C" double scalbn(double, int); template<class _Ty> inline typename ::std:: enable_if< ::std:: is_integral<_Ty>::value, double>::type scalbn(_Ty _Left, int _Arg2) { return (:: scalbn((double)_Left, _Arg2)); }
 extern "C" double tgamma(double); template<class _Ty> inline typename ::std:: enable_if< ::std:: is_integral<_Ty>::value, double>::type tgamma(_Ty _Left) { return (:: tgamma((double)_Left)); }
 extern "C" double trunc(double); template<class _Ty> inline typename ::std:: enable_if< ::std:: is_integral<_Ty>::value, double>::type trunc(_Ty _Left) { return (:: trunc((double)_Left)); }
-# 31 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\math.h" 2 3
-# 62 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\math.h" 3
+# 31 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\math.h" 2 3
+# 62 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\math.h" 3
 typedef float float_t;
 typedef double double_t;
-# 107 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\math.h" 3
+# 107 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\math.h" 3
 extern "C" {
 int _FFpcomp(float, float);
 int _Fpcomp(double, double);
@@ -9359,7 +9353,7 @@ template<class _Ty1, class _Ty2> inline
  {
  return (_FPCOMP(_Left, _Right) == 0);
  }
-# 525 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\math.h" 3
+# 525 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\math.h" 3
 extern "C" {
 
 double acos(double);
@@ -9421,7 +9415,7 @@ double scalbn(double, int);
 double scalbln(double, long);
 double tgamma(double);
 double trunc(double);
-# 632 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\math.h" 3
+# 632 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\math.h" 3
 double gamma(double x);
 double gamma_r(double x, int *signgamp);
 double j0(double x);
@@ -9496,7 +9490,7 @@ float scalbnf(float, int);
 float scalblnf(float, long);
 float tgammaf(float);
 float truncf(float);
-# 752 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\math.h" 3
+# 752 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\math.h" 3
 float gammaf(float x);
 float gammaf_r(float x, int *signgamp);
 float j0f(float x);
@@ -9570,7 +9564,7 @@ long double scalbnl(long double, int);
 long double scalblnl(long double, long);
 long double tgammal(long double);
 long double truncl(long double);
-# 870 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\math.h" 3
+# 870 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\math.h" 3
 inline double cosh(double _Left)
  {
  return (_Cosh(_Left, 1.0));
@@ -9896,7 +9890,7 @@ inline float trunc(float _Left)
  {
  return (truncf(_Left));
  }
-# 1350 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\math.h" 3
+# 1350 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\math.h" 3
 inline float gamma(float x)
 {
   return gammaf(x);
@@ -10266,7 +10260,7 @@ inline long double trunc(long double _Left)
  {
  return (truncl(_Left));
  }
-# 19 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\cmath" 2 3
+# 19 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\cmath" 2 3
 
 
 
@@ -10348,7 +10342,7 @@ using :: isnan; using :: isnormal;
 using :: isgreater; using :: isgreaterequal;
 using :: isless; using :: islessequal;
 using :: islessgreater; using :: isunordered;
-# 191 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\cmath" 3
+# 191 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\cmath" 3
 using :: gamma;
 using :: gamma_r;
 using :: j0;
@@ -10377,42 +10371,42 @@ using :: sincosf;
 
 
 }
-# 14 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\limits" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\cwchar" 1 3
-# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\cwchar" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\yvals.h" 1 3
-# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\cwchar" 2 3
-# 36 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\cwchar" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\wchar.h" 1 3
-# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\wchar.h" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\yvals.h" 1 3
-# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\wchar.h" 2 3
+# 14 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\limits" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\cwchar" 1 3
+# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\cwchar" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\yvals.h" 1 3
+# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\cwchar" 2 3
+# 36 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\cwchar" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\wchar.h" 1 3
+# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\wchar.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\yvals.h" 1 3
+# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\wchar.h" 2 3
 
 
 
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_mbstate_t.h" 1 3
-# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_mbstate_t.h" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\yvals.h" 1 3
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_mbstate_t.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_mbstate_t.h" 1 3
+# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_mbstate_t.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\yvals.h" 1 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_mbstate_t.h" 2 3
 
 
 
 
 
 typedef _Mbstatet mbstate_t;
-# 16 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\wchar.h" 2 3
+# 16 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\wchar.h" 2 3
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_wc.h" 1 3
-
-
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_wc.h" 1 3
 
 
 
 
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\yvals.h" 1 3
-# 9 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_types/_wc.h" 2 3
+
+
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\yvals.h" 1 3
+# 9 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_types/_wc.h" 2 3
 
 
 
@@ -10424,8 +10418,8 @@ typedef _Sizet wctype_t;
 
 
 typedef _Wintt wint_t;
-# 18 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\wchar.h" 2 3
-# 33 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\wchar.h" 3
+# 18 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\wchar.h" 2 3
+# 33 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\wchar.h" 3
 struct tm;
 struct _Dnk_filet;
 
@@ -10547,9 +10541,9 @@ inline wchar_t *wmemchr(wchar_t *_Str, wchar_t _Ch, size_t _Num)
  return ((wchar_t *)wmemchr((const wchar_t *)_Str, _Ch, _Num));
  }
 }
-# 165 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\wchar.h" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xwcstod.h" 1 3
-# 13 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xwcstod.h" 3
+# 165 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\wchar.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xwcstod.h" 1 3
+# 13 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xwcstod.h" 3
 extern "C" {
 double wcstod(const wchar_t *, wchar_t **);
 
@@ -10558,9 +10552,9 @@ inline unsigned long wcstoul(const wchar_t * _Str,
  {return (_WStoul(_Str, _Endptr, _Base));
  }
 }
-# 166 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\wchar.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xwstr.h" 1 3
-# 13 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xwstr.h" 3
+# 166 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\wchar.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xwstr.h" 1 3
+# 13 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xwstr.h" 3
 extern "C" {
 const wchar_t *wcschr(const wchar_t *, wchar_t);
 const wchar_t *wcspbrk(const wchar_t *, const wchar_t *);
@@ -10609,7 +10603,7 @@ inline long double wcstold(const wchar_t * _Str,
 
 
 }
-# 167 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\wchar.h" 2 3
+# 167 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\wchar.h" 2 3
 
 
 extern "C" {
@@ -10780,7 +10774,7 @@ errno_t wmemmove_s(wchar_t (&_Str1)[_Size], const wchar_t *_Str2, rsize_t _Num)
  }
 
 }
-# 37 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\cwchar" 2 3
+# 37 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\cwchar" 2 3
 
 
 
@@ -10810,13 +10804,13 @@ using :: wmemmove; using :: wmemset; using :: wcsftime;
 using :: vfwscanf; using :: vswscanf; using :: vwscanf;
 using :: wcstof; using :: wcstold;
 using :: wcstoll; using :: wcstoull;
-# 75 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\cwchar" 3
+# 75 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\cwchar" 3
 }
-# 15 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\limits" 2 3
+# 15 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\limits" 2 3
 
 
 namespace std {
-# 78 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\limits" 3
+# 78 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\limits" 3
 typedef enum
  {
  denorm_indeterminate = -1,
@@ -12047,11 +12041,11 @@ public:
  static constexpr int min_exponent = (int)((int)-16381);
  static constexpr int min_exponent10 = (int)((int)-4931);
  };
-# 1326 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\limits" 3
+# 1326 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\limits" 3
 }
-# 13 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xmemory0" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\new" 1 3
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\new" 3
+# 13 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xmemory0" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\new" 1 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\new" 3
 namespace std {
 
 class bad_alloc
@@ -12067,7 +12061,7 @@ public:
 
 
  virtual ~bad_alloc() noexcept;
-# 36 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\new" 3
+# 36 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\new" 3
 protected:
  virtual void _Doraise() const;
 
@@ -12088,7 +12082,7 @@ public:
 
 
  };
-# 70 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\new" 3
+# 70 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\new" 3
 struct nothrow_t
  {
 
@@ -12106,7 +12100,7 @@ new_handler set_new_handler(new_handler) noexcept;
 void *operator new(::std:: size_t);
 inline void *operator new(::std:: size_t, void *_Ptr) noexcept { return (_Ptr); }
 void *operator new(::std:: size_t, const ::std:: nothrow_t&) noexcept;
-# 95 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\new" 3
+# 95 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\new" 3
 inline void operator delete(void *, void *) noexcept { }
 
 
@@ -12115,11 +12109,11 @@ void operator delete(void *, const ::std:: nothrow_t&) noexcept;
 
 void operator delete(void *, ::std:: size_t) noexcept;
 void operator delete(void *, :: size_t, const ::std:: nothrow_t&) noexcept;
-# 112 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\new" 3
+# 112 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\new" 3
 void *operator new[](::std:: size_t);
 inline void *operator new[](::std:: size_t, void *_Ptr) noexcept { return (_Ptr); }
 void *operator new[](::std:: size_t, const ::std:: nothrow_t&) noexcept;
-# 123 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\new" 3
+# 123 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\new" 3
 inline void operator delete[](void *, void *) noexcept { }
 
 
@@ -12128,18 +12122,18 @@ void operator delete[](void *, const ::std:: nothrow_t&) noexcept;
 
 void operator delete[](void *, ::std:: size_t) noexcept;
 void operator delete[](void *, :: size_t, const ::std:: nothrow_t&) noexcept;
-# 14 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xmemory0" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xutility" 1 3
-# 13 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xutility" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\utility" 1 3
-# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\utility" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\iosfwd" 1 3
-# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\iosfwd" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\cstdio" 1 3
-# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\cstdio" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\yvals.h" 1 3
-# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\cstdio" 2 3
-# 22 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\cstdio" 3
+# 14 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xmemory0" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xutility" 1 3
+# 13 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xutility" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\utility" 1 3
+# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\utility" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\iosfwd" 1 3
+# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\iosfwd" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\cstdio" 1 3
+# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\cstdio" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\yvals.h" 1 3
+# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\cstdio" 2 3
+# 22 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\cstdio" 3
 namespace std {
 using :: _Filet; using :: _Mbstatet;
 
@@ -12162,14 +12156,14 @@ using :: vsprintf;
 
 using :: snprintf; using :: vsnprintf;
 using :: vfscanf; using :: vscanf; using :: vsscanf;
-# 52 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\cstdio" 3
+# 52 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\cstdio" 3
 }
-# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\iosfwd" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\cstring" 1 3
-# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\cstring" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\yvals.h" 1 3
-# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\cstring" 2 3
-# 22 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\cstring" 3
+# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\iosfwd" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\cstring" 1 3
+# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\cstring" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\yvals.h" 1 3
+# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\cstring" 2 3
+# 22 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\cstring" 3
 namespace std {
 using :: size_t; using :: memchr; using :: memcmp;
 using :: memcpy; using :: memmove; using :: memset;
@@ -12181,7 +12175,7 @@ using :: strncmp; using :: strncpy; using :: strpbrk;
 using :: strrchr; using :: strspn; using :: strstr;
 using :: strtok; using :: strxfrm;
 }
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\iosfwd" 2 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\iosfwd" 2 3
 
 
 
@@ -12193,7 +12187,7 @@ namespace std {
 
 typedef long streamoff;
 typedef int streamsize;
-# 33 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\iosfwd" 3
+# 33 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\iosfwd" 3
 extern fpos_t _Fpz;
 extern const streamoff _BADOFF;
 
@@ -12282,7 +12276,7 @@ template<class _Statetype>
  {
  return (!(_Left == _Right));
  }
-# 138 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\iosfwd" 3
+# 138 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\iosfwd" 3
 typedef fpos<_Mbstatet> streampos;
 
 
@@ -12404,7 +12398,7 @@ template<class _Elem,
   {
   return (_Meta != eof() ? (int_type)_Meta : (int_type)!eof());
   }
-# 297 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\iosfwd" 3
+# 297 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\iosfwd" 3
  static constexpr int_type eof() noexcept
   {
   return ((int_type)(-1));
@@ -12454,13 +12448,13 @@ template<>
   return (_Count == 0 ? 0
    : __builtin_wmemcmp(_First1, _First2, _Count));
   }
-# 356 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\iosfwd" 3
+# 356 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\iosfwd" 3
  static size_t length(const _Elem *_First)
   {
   return (*_First == 0 ? 0
    : __builtin_wcslen(_First));
   }
-# 369 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\iosfwd" 3
+# 369 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\iosfwd" 3
  static _Elem *copy(_Elem *_First1, const _Elem *_First2,
   size_t _Count)
   {
@@ -12475,7 +12469,7 @@ template<>
   return (_Count == 0 ? (const _Elem *)0
    : (const _Elem *)__builtin_wmemchr(_First, _Ch, _Count));
   }
-# 392 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\iosfwd" 3
+# 392 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\iosfwd" 3
  static _Elem *move(_Elem *_First1, const _Elem *_First2,
   size_t _Count)
   {
@@ -12530,7 +12524,7 @@ template<>
   {
   return (_Meta != eof() ? _Meta : !eof());
   }
-# 484 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\iosfwd" 3
+# 484 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\iosfwd" 3
  static constexpr int_type eof() noexcept
   {
   return (((:: wint_t)(-1)));
@@ -12554,13 +12548,13 @@ template<> struct char_traits<char>
   return (_Count == 0 ? 0
    : __builtin_memcmp(_First1, _First2, _Count));
   }
-# 517 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\iosfwd" 3
+# 517 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\iosfwd" 3
  static size_t length(const _Elem *_First)
   {
   return (*_First == 0 ? 0
    : __builtin_strlen(_First));
   }
-# 530 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\iosfwd" 3
+# 530 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\iosfwd" 3
  static _Elem *copy(_Elem *_First1, const _Elem *_First2,
   size_t _Count)
   {
@@ -12575,7 +12569,7 @@ template<> struct char_traits<char>
   return (_Count == 0 ? (const _Elem *)0
    : (const _Elem *)__builtin_memchr(_First, _Ch, _Count));
   }
-# 553 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\iosfwd" 3
+# 553 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\iosfwd" 3
  static _Elem *move(_Elem *_First1, const _Elem *_First2,
   size_t _Count)
   {
@@ -12630,7 +12624,7 @@ template<> struct char_traits<char>
   {
   return (_Meta != eof() ? _Meta : !eof());
   }
-# 645 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\iosfwd" 3
+# 645 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\iosfwd" 3
  static constexpr int_type eof() noexcept
   {
   return ((-1));
@@ -12750,7 +12744,7 @@ using ::std:: fstream;
 
 using ::std:: stdiobuf;
 using ::std:: stdiostream;
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\utility" 2 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\utility" 2 3
 
 
 namespace std {
@@ -12835,7 +12829,7 @@ template<class _Ty1,
  typedef pair<_Ty1, _Ty2> _Myt;
  typedef _Ty1 first_type;
  typedef _Ty2 second_type;
-# 104 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\utility" 3
+# 104 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\utility" 3
  constexpr pair()
   : first(), second()
   {
@@ -12843,7 +12837,7 @@ template<class _Ty1,
 
  constexpr pair(const pair&) = default;
  constexpr pair(pair&&) = default;
-# 121 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\utility" 3
+# 121 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\utility" 3
  template<class _Other1,
   class _Other2,
   class = enable_if_t<is_convertible<const _Other1&, _Ty1>::value
@@ -12854,7 +12848,7 @@ template<class _Ty1,
    : first(_Right.first), second(_Right.second)
   {
   }
-# 155 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\utility" 3
+# 155 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\utility" 3
  template<class _Other1,
   class _Other2,
   class = enable_if_t<is_convertible<_Other1, _Ty1>::value
@@ -12866,12 +12860,12 @@ template<class _Ty1,
     second(::std:: forward<_Other2>(_Right.second))
   {
   }
-# 191 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\utility" 3
+# 191 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\utility" 3
   constexpr pair(const _Ty1& _Val1, const _Ty2& _Val2)
    : first(_Val1), second(_Val2)
   {
   }
-# 219 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\utility" 3
+# 219 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\utility" 3
  template<class _Other1,
   class _Other2,
   class = enable_if_t<is_convertible<_Other1, first_type>::value
@@ -12883,7 +12877,7 @@ template<class _Ty1,
     second(::std:: forward<_Other2>(_Val2))
   {
   }
-# 247 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\utility" 3
+# 247 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\utility" 3
  template<class _Tuple1,
   class _Tuple2,
   size_t... _Indexes1,
@@ -12892,7 +12886,7 @@ template<class _Ty1,
    _Tuple2& _Val2,
    integer_sequence<size_t, _Indexes1...>,
    integer_sequence<size_t, _Indexes2...>);
-# 264 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\utility" 3
+# 264 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\utility" 3
  template<class... _Types1,
   class... _Types2> inline
   pair(piecewise_construct_t,
@@ -12912,7 +12906,7 @@ template<class _Ty1,
   second = _Right.second;
   return (*this);
   }
-# 291 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\utility" 3
+# 291 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\utility" 3
  template<class _Other1,
   class _Other2>
 
@@ -12936,7 +12930,7 @@ template<class _Ty1,
   second = ::std:: forward<_Ty2>(_Right.second);
   return (*this);
   }
-# 322 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\utility" 3
+# 322 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\utility" 3
  template<class _Other1,
   class _Other2>
 
@@ -12966,7 +12960,7 @@ template<class _Ty1,
  _Ty1 first;
  _Ty2 second;
  };
-# 365 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\utility" 3
+# 365 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\utility" 3
 template<class _Ty1,
  class _Ty2> inline
 
@@ -13092,7 +13086,7 @@ template<class _Ty,
 
  {
  };
-# 505 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\utility" 3
+# 505 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\utility" 3
 template<class _Ty1,
  class _Ty2>
  struct tuple_size<pair<_Ty1, _Ty2> >
@@ -13103,7 +13097,7 @@ template<class _Ty1,
 
  {
  };
-# 528 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\utility" 3
+# 528 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\utility" 3
 template<class... _Types>
  struct tuple_size<tuple<_Types...> >
  : integral_constant<size_t, sizeof...(_Types)>
@@ -13132,7 +13126,7 @@ template<class _Tuple>
  : integral_constant<size_t, tuple_size<_Tuple>::value>
  {
  };
-# 584 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\utility" 3
+# 584 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\utility" 3
 template<size_t _Index,
  class _Tuple>
  struct tuple_element;
@@ -13316,7 +13310,7 @@ template<class _Ty2,
  {
  return (::std:: get<1>(::std:: move(_Pr)));
  }
-# 796 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\utility" 3
+# 796 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\utility" 3
 template<class _Ty,
  class _Other = _Ty> inline
  _Ty exchange(_Ty& _Val, _Other&& _New_val)
@@ -13325,17 +13319,17 @@ template<class _Ty,
  _Val = ::std:: forward<_Other>(_New_val);
  return (_Old_val);
  }
-# 845 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\utility" 3
+# 845 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\utility" 3
 }
-# 14 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xutility" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xiter" 1 3
-# 17 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xiter" 3
+# 14 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xutility" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xiter" 1 3
+# 17 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xiter" 3
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wdeprecated-declarations"
 
 
 namespace std {
-# 100 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xiter" 3
+# 100 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xiter" 3
 struct _Container_proxy;
 struct _Container_base12;
 struct _Iterator_base12;
@@ -13473,7 +13467,7 @@ public:
   else
    {
    _Container_proxy *_Parent_proxy = _Parent->_Myproxy;
-# 249 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xiter" 3
+# 249 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xiter" 3
    _Myproxy = _Parent_proxy;
 
    }
@@ -13496,7 +13490,7 @@ public:
 
  void _Orphan_me()
   {
-# 284 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xiter" 3
+# 284 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xiter" 3
   }
 
  _Container_proxy *_Myproxy;
@@ -13506,7 +13500,7 @@ public:
 
 inline void _Container_base12::_Orphan_all()
  {
-# 304 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xiter" 3
+# 304 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xiter" 3
  }
 
 inline void _Container_base12::_Swap_all(_Container_base12& _Right)
@@ -14056,7 +14050,7 @@ auto _Ptr_cat(_Ty1&, _Ty2&)
 
     return (_Cat);
 }
-# 894 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xiter" 3
+# 894 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xiter" 3
 inline _Scalar_ptr_iterator_tag _Ptr_cat(bool *, bool *)
  {
  _Scalar_ptr_iterator_tag _Cat;
@@ -14243,7 +14237,7 @@ inline _Scalar_ptr_iterator_tag _Ptr_cat(const unsigned long long *, unsigned lo
  _Scalar_ptr_iterator_tag _Cat;
  return (_Cat);
  }
-# 1325 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xiter" 3
+# 1325 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xiter" 3
 template<class _Iter> inline
  typename iterator_traits<_Iter>::value_type *_Val_type(_Iter)
  {
@@ -14342,7 +14336,7 @@ template<class _RanIt,
                  void _Distance2(_RanIt _First, _RanIt _Last, _Diff& _Off,
    random_access_iterator_tag)
  {
-# 1431 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xiter" 3
+# 1431 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xiter" 3
  _Off += _Last - _First;
  }
 
@@ -14361,7 +14355,7 @@ template<class _InIt,
  {
  _Distance2(_First, _Last, _Off, _Iter_cat(_First));
  }
-# 1464 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xiter" 3
+# 1464 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xiter" 3
 template<class _FwdIt> inline
  _FwdIt next(_FwdIt _First,
   typename iterator_traits<_FwdIt>::difference_type _Off = 1)
@@ -14834,7 +14828,7 @@ template<class _Container>
  {
  return (::std:: rend(_Cont));
  }
-# 2008 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xiter" 3
+# 2008 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xiter" 3
 template<class _Container,
  class _Pr> inline
  void _Erase_nodes_if(_Container& _Cont, _Pr _Pred)
@@ -14996,7 +14990,7 @@ public:
   }
 
  pointer _Ptr;
-# 2370 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xiter" 3
+# 2370 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xiter" 3
  };
 
 template<class _Ty,
@@ -15389,11 +15383,11 @@ template<class _RanIt> inline
 
 
 #pragma clang diagnostic pop
-# 15 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xutility" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xscan" 1 3
-# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xscan" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\yvals.h" 1 3
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xscan" 2 3
+# 15 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xutility" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xscan" 1 3
+# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xscan" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\yvals.h" 1 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xscan" 2 3
 
 namespace std {
 
@@ -15416,7 +15410,7 @@ template<class _FwdIt1,
  return (_Swap_ranges(_Unchecked(_First1), _Unchecked(_Last1),
   _Dest));
  }
-# 99 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xscan" 3
+# 99 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xscan" 3
 template<class _FwdIt,
  class _Ty,
  class _Diff,
@@ -15613,7 +15607,7 @@ template<class _InIt,
   _Move(_Unchecked(_First), _Unchecked(_Last),
    _Unchecked(_Dest))));
  }
-# 357 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xscan" 3
+# 357 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xscan" 3
 template<class _Ty>
  struct _Match_pred
  {
@@ -15659,7 +15653,7 @@ template<class _Fn1>
  return (_Negation_pred<_Fn1>(_F1));
  }
 }
-# 16 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xutility" 2 3
+# 16 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xutility" 2 3
 
  namespace std {
 
@@ -15797,7 +15791,7 @@ template<class _Ty,
    _Found = _Next;
  return (*_Found);
  }
-# 163 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xutility" 3
+# 163 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xutility" 3
 template<class _Ty> inline
  constexpr pair<const _Ty&, const _Ty&>
   minmax(const _Ty& _Left, const _Ty& _Right)
@@ -15909,7 +15903,7 @@ template<class _InIt,
   _Copy_impl(_Unchecked(_First), _Unchecked(_Last),
    _Unchecked(_Dest))));
  }
-# 337 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xutility" 3
+# 337 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xutility" 3
 template<class _InIt,
  class _Diff,
  class _OutIt> inline
@@ -15977,7 +15971,7 @@ template<class _InIt,
    _Copy_n(_Unchecked(_First), _Count,
     _Unchecked(_Dest))));
  }
-# 525 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xutility" 3
+# 525 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xutility" 3
 template<class _BidIt1,
  class _BidIt2> inline
  _BidIt2 _Copy_backward(_BidIt1 _First, _BidIt1 _Last,
@@ -16018,7 +16012,7 @@ template<class _BidIt1,
   _Copy_backward(_Unchecked(_First), _Unchecked(_Last),
    _Unchecked(_Dest))));
  }
-# 597 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xutility" 3
+# 597 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xutility" 3
 template<class _BidIt1,
  class _BidIt2> inline
  _BidIt2 _Move_backward(_BidIt1 _First, _BidIt1 _Last,
@@ -16059,7 +16053,7 @@ template<class _BidIt1,
   _Move_backward(_Unchecked(_First), _Unchecked(_Last),
    _Unchecked(_Dest))));
  }
-# 669 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xutility" 3
+# 669 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xutility" 3
 template<class _FwdIt,
  class _Ty> inline
  void _Fill(_FwdIt _First, _FwdIt _Last, const _Ty& _Val)
@@ -16130,7 +16124,7 @@ template<class _OutIt,
  {
  return (_Rechecked(_Dest, _Fill_n(_Unchecked(_Dest), _Count, _Val)));
  }
-# 803 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xutility" 3
+# 803 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xutility" 3
 template<class _InIt1,
  class _InIt2,
  class _Pr> inline
@@ -16171,7 +16165,7 @@ template<class _InIt1,
  return (_Equal(_Unchecked(_First1), _Unchecked(_Last1),
   _Unchecked(_First2), _Pred));
  }
-# 893 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xutility" 3
+# 893 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xutility" 3
 template<class _InIt1,
  class _InIt2> inline
  bool equal(_InIt1 _First1, _InIt1 _Last1,
@@ -16289,7 +16283,7 @@ inline bool _Lexicographical_compare(
  int _Ans = :: memcmp(_First1, _First2, _Num1 < _Num2 ? _Num1 : _Num2);
  return (_Ans < 0 || (_Ans == 0 && _Num1 < _Num2));
  }
-# 1023 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xutility" 3
+# 1023 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xutility" 3
 template<class _InIt1,
  class _InIt2> inline
  bool lexicographical_compare(_InIt1 _First1, _InIt1 _Last1,
@@ -16601,7 +16595,7 @@ template<class _FwdIt1,
  return (_Is_permutation(_Unchecked(_First1), _Unchecked(_Last1),
   _Unchecked(_First2), _Pred));
  }
-# 1383 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xutility" 3
+# 1383 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xutility" 3
 template<class _FwdIt1,
  class _FwdIt2> inline
  bool is_permutation(_FwdIt1 _First1, _FwdIt1 _Last1,
@@ -17039,7 +17033,7 @@ void _Xlength_error(const char *) __attribute__((__noreturn__));
 void _Xout_of_range(const char *) __attribute__((__noreturn__));
 void _Xoverflow_error(const char *) __attribute__((__noreturn__));
 void _Xruntime_error(const char *) __attribute__((__noreturn__));
-# 1836 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xutility" 3
+# 1836 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xutility" 3
 }
 
 namespace std {
@@ -17050,9 +17044,9 @@ template<class _Ty,
   : _Has_allocator_type<_Ty, _Alloc>::type
  {
  };
-# 1856 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xutility" 3
+# 1856 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xutility" 3
 }
-# 15 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xmemory0" 2 3
+# 15 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xmemory0" 2 3
 
 
 #pragma clang diagnostic push
@@ -17062,7 +17056,7 @@ template<class _Ty,
 
 
 namespace std {
-# 46 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xmemory0" 3
+# 46 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xmemory0" 3
 template<class _Ty> inline
                      _Ty *_Allocate(size_t _Count, _Ty *,
   bool _Try_aligned_allocation = true)
@@ -17122,7 +17116,7 @@ template<class _Ty> inline
   const uintptr_t _Ptr_ptr = _Ptr_user - sizeof(void *);
   const uintptr_t _Ptr_container =
    *reinterpret_cast<uintptr_t *>(_Ptr_ptr);
-# 115 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xmemory0" 3
+# 115 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xmemory0" 3
                                                          ;
 
 
@@ -17263,7 +17257,7 @@ template<class _Newfirst,
  {
  typedef _Ty<_Newfirst, _Rest...> type;
  };
-# 273 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xmemory0" 3
+# 273 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xmemory0" 3
 template<class _Ty>
  struct _Get_element_type
  { template<class _Uty> static auto _Fn(int) -> _Identity<typename _Uty::element_type>; template<class _Uty> static auto _Fn(_Wrap_int) -> _Identity<typename _Get_first_parameter<_Uty>::type>; typedef decltype(_Fn<_Ty>(0)) _Decltype; typedef typename _Decltype::type type; };
@@ -17301,7 +17295,7 @@ template<class _Ty>
  template<class _Other>
   using rebind =
    typename _Get_pointer_traits_rebind_type<_Ty, _Other>::type;
-# 321 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xmemory0" 3
+# 321 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xmemory0" 3
  typedef typename _If<is_void<element_type>::value,
   char&,
   add_lvalue_reference_t<element_type> >::type _Reftype;
@@ -17323,7 +17317,7 @@ template<class _Ty>
 
  template<class _Other>
   using rebind = _Other *;
-# 353 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xmemory0" 3
+# 353 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xmemory0" 3
  typedef typename _If<is_void<_Ty>::value,
   char&,
   add_lvalue_reference_t<_Ty> >::type _Reftype;
@@ -17546,7 +17540,7 @@ template<class _Alloc>
 
  template<class _Other>
   using rebind_traits = allocator_traits<rebind_alloc<_Other> >;
-# 594 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xmemory0" 3
+# 594 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xmemory0" 3
  static pointer allocate(_Alloc& _Al, size_type _Count)
   {
   return (_Al.allocate(_Count));
@@ -17806,7 +17800,7 @@ template<class _Ty>
 
  template<class _Other>
   using rebind_traits = allocator_traits<allocator<_Other> >;
-# 871 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xmemory0" 3
+# 871 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xmemory0" 3
  static pointer allocate(_Alloc& _Al, size_type _Count)
   {
   return (_Al.allocate(_Count));
@@ -18082,12 +18076,12 @@ template<class _Alty> inline
 
 
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xatomic.h" 1 3
-# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xatomic.h" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xatomic0.h" 1 3
-# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xatomic0.h" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\yvals.h" 1 3
-# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xatomic0.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xatomic.h" 1 3
+# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xatomic.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xatomic0.h" 1 3
+# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xatomic0.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\yvals.h" 1 3
+# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xatomic0.h" 2 3
 
 namespace std {
 
@@ -18102,9 +18096,9 @@ typedef enum memory_order {
 
 typedef _Uint32t _Uint4_t;
 typedef _Uint4_t _Atomic_integral_t;
-# 97 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xatomic0.h" 3
+# 97 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xatomic0.h" 3
 typedef unsigned char _Atomic_flag_t;
-# 119 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xatomic0.h" 3
+# 119 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xatomic0.h" 3
 extern "C" {
 _Uint4_t _Atomic_load_4(volatile _Uint4_t *, memory_order);
 int _Atomic_compare_exchange_weak_4(
@@ -18124,7 +18118,7 @@ _Uint4_t _Atomic_fetch_add_4_locking(volatile _Atomic_flag_t *,
  _Uint4_t *, _Uint4_t, memory_order);
 _Uint4_t _Atomic_fetch_sub_4_locking(volatile _Atomic_flag_t *,
  _Uint4_t *, _Uint4_t, memory_order);
-# 250 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xatomic0.h" 3
+# 250 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xatomic0.h" 3
 typedef _Atomic_integral_t _Atomic_counter_t;
 
 
@@ -18189,25 +18183,25 @@ inline _Atomic_integral_t _Compare_increment_atomic_counter(
  return (_Compare_increment_atomic_counter_explicit(
   _Counter, _Expected, memory_order_seq_cst));
  }
-# 351 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xatomic0.h" 3
+# 351 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xatomic0.h" 3
 extern "C" {
 void _Lock_shared_ptr_spin_lock();
 void _Unlock_shared_ptr_spin_lock();
 }
 }
-# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xatomic.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stddef.h" 1 3
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xatomic.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdlib.h" 1 3
-# 13 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xatomic.h" 2 3
-# 41 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xatomic.h" 3
+# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xatomic.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stddef.h" 1 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xatomic.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdlib.h" 1 3
+# 13 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xatomic.h" 2 3
+# 41 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xatomic.h" 3
 namespace std {
 
 typedef unsigned char _Uint1_t;
 typedef unsigned short _Uint2_t;
 
 typedef unsigned long long _Uint8_t;
-# 68 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xatomic.h" 3
+# 68 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xatomic.h" 3
 extern "C" {
 void _Atomic_store_1(volatile _Uint1_t *_Tgt, _Uint1_t _Value,
  memory_order _Order);
@@ -18310,7 +18304,7 @@ int _Atomic_is_lock_free_2();
 int _Atomic_is_lock_free_4();
 int _Atomic_is_lock_free_8();
 }
-# 190 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xatomic.h" 3
+# 190 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xatomic.h" 3
 inline void _Lock_spin_lock_i(
  volatile _Atomic_flag_t *_Flag)
  {
@@ -18380,17 +18374,17 @@ inline int _Atomic_compare_exchange_strong_i(
   _Order1, _Order2));
  }
 }
-# 1147 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xmemory0" 2 3
-# 1185 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xmemory0" 3
+# 1147 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xmemory0" 2 3
+# 1185 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xmemory0" 3
 #pragma clang diagnostic pop
-# 16 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xstring" 2 3
-# 28 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xstring" 3
+# 16 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xstring" 2 3
+# 28 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xstring" 3
 namespace std {
 template<class _Elem,
  class _Traits = char_traits<_Elem>,
  class _Ax = allocator<_Elem> >
  class basic_string;
-# 43 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xstring" 3
+# 43 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xstring" 3
 template<class _Mystr>
  class _String_const_iterator
   : public _Iterator012<random_access_iterator_tag,
@@ -18435,7 +18429,7 @@ public:
 
  reference operator*() const
   {
-# 106 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xstring" 3
+# 106 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xstring" 3
   return (*this->_Ptr);
   }
 
@@ -18446,7 +18440,7 @@ public:
 
  _Myiter& operator++()
   {
-# 133 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xstring" 3
+# 133 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xstring" 3
   ++this->_Ptr;
   return (*this);
   }
@@ -18460,7 +18454,7 @@ public:
 
  _Myiter& operator--()
   {
-# 161 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xstring" 3
+# 161 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xstring" 3
   --this->_Ptr;
   return (*this);
   }
@@ -18474,7 +18468,7 @@ public:
 
  _Myiter& operator+=(difference_type _Off)
   {
-# 193 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xstring" 3
+# 193 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xstring" 3
   _Ptr += _Off;
   return (*this);
   }
@@ -18539,7 +18533,7 @@ public:
   {
   return (!(*this < _Right));
   }
-# 277 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xstring" 3
+# 277 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xstring" 3
  void _Compat(const _Myiter&) const
   {
   }
@@ -18729,7 +18723,7 @@ template<class _Ty,
  class _Alloc0>
  struct _String_base_types
  {
-# 474 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xstring" 3
+# 474 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xstring" 3
  typedef _Alloc0 _Alloc;
 
 
@@ -18853,7 +18847,7 @@ public:
   {
   _Pocs(_Alval, _Right._Alval);
   }
-# 656 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xstring" 3
+# 656 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xstring" 3
  _Alty& _Getal() noexcept
   {
   return (_Alval);
@@ -18896,7 +18890,7 @@ public:
  void _Swap_alloc(_Myt&)
   {
   }
-# 748 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xstring" 3
+# 748 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xstring" 3
  _Alty _Getal() const noexcept
   {
   return (_Alty());
@@ -18927,7 +18921,7 @@ public:
  typedef typename _Mybase::const_pointer const_pointer;
  typedef typename _Mybase::reference reference;
  typedef typename _Mybase::const_reference const_reference;
-# 788 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xstring" 3
+# 788 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xstring" 3
  typedef typename _Mybase::iterator iterator;
  typedef typename _Mybase::const_iterator const_iterator;
 
@@ -18960,7 +18954,7 @@ public:
   {
   _Tidy();
   }
-# 829 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xstring" 3
+# 829 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xstring" 3
  basic_string(const _Myt& _Right, size_type _Roff,
   size_type _Count = npos)
   : _Mybase(_Right._Getal())
@@ -18976,7 +18970,7 @@ public:
   _Tidy();
   assign(_Right, _Roff, _Count);
   }
-# 863 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xstring" 3
+# 863 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xstring" 3
  basic_string(const _Elem *_Ptr, size_type _Count)
   : _Mybase()
   {
@@ -19196,7 +19190,7 @@ public:
    }
   return (*this);
   }
-# 1090 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xstring" 3
+# 1090 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xstring" 3
  _Myt& operator=(const _Elem *_Ptr)
   {
   return (assign(_Ptr));
@@ -19211,7 +19205,7 @@ public:
   {
   return (append(_Right));
   }
-# 1112 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xstring" 3
+# 1112 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xstring" 3
  _Myt& operator+=(const _Elem *_Ptr)
   {
   return (append(_Ptr));
@@ -19245,7 +19239,7 @@ public:
    }
   return (*this);
   }
-# 1165 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xstring" 3
+# 1165 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xstring" 3
  _Myt& append(const _Elem *_Ptr, size_type _Count)
   {
                                       ;
@@ -19334,7 +19328,7 @@ public:
    }
   return (*this);
   }
-# 1283 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xstring" 3
+# 1283 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xstring" 3
  _Myt& assign(const _Elem *_Ptr, size_type _Count)
   {
                                       ;
@@ -19423,7 +19417,7 @@ public:
    }
   return (*this);
   }
-# 1391 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xstring" 3
+# 1391 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xstring" 3
  _Myt& insert(size_type _Off,
   const _Elem *_Ptr, size_type _Count)
   {
@@ -19665,7 +19659,7 @@ public:
    }
   return (*this);
   }
-# 1659 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xstring" 3
+# 1659 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xstring" 3
  _Myt& replace(size_type _Off, size_type _N0, const _Elem *_Ptr)
   {
                       ;
@@ -19881,16 +19875,16 @@ public:
    _Xran();
   return (this->_Myptr()[_Off]);
   }
-# 1882 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xstring" 3
+# 1882 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xstring" 3
  reference operator[](size_type _Off)
   {
-# 1892 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xstring" 3
+# 1892 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xstring" 3
   return (this->_Myptr()[_Off]);
   }
 
  const_reference operator[](size_type _Off) const
   {
-# 1905 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xstring" 3
+# 1905 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xstring" 3
   return (this->_Myptr()[_Off]);
   }
 
@@ -20059,7 +20053,7 @@ public:
   {
   return (find(_Right._Myptr(), _Off, _Right.size()));
   }
-# 2081 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xstring" 3
+# 2081 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xstring" 3
  size_type find(const _Elem *_Ptr,
   size_type _Off, size_type _Count) const
   {
@@ -20096,7 +20090,7 @@ public:
   {
   return (rfind(_Right._Myptr(), _Off, _Right.size()));
   }
-# 2125 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xstring" 3
+# 2125 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xstring" 3
  size_type rfind(const _Elem *_Ptr,
   size_type _Off, size_type _Count) const
   {
@@ -20136,7 +20130,7 @@ public:
   {
   return (find_first_of(_Right._Myptr(), _Off, _Right.size()));
   }
-# 2172 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xstring" 3
+# 2172 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xstring" 3
  size_type find_first_of(const _Elem *_Ptr,
   size_type _Off, size_type _Count) const
   {
@@ -20171,7 +20165,7 @@ public:
   {
   return (find_last_of(_Right._Myptr(), _Off, _Right.size()));
   }
-# 2215 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xstring" 3
+# 2215 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xstring" 3
  size_type find_last_of(const _Elem *_Ptr,
   size_type _Off, size_type _Count) const
   {
@@ -20208,7 +20202,7 @@ public:
   {
   return (find_first_not_of(_Right._Myptr(), _Off, _Right.size()));
   }
-# 2260 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xstring" 3
+# 2260 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xstring" 3
  size_type find_first_not_of(const _Elem *_Ptr,
   size_type _Off, size_type _Count) const
   {
@@ -20242,7 +20236,7 @@ public:
   {
   return (find_last_not_of(_Right._Myptr(), _Off, _Right.size()));
   }
-# 2302 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xstring" 3
+# 2302 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xstring" 3
  size_type find_last_not_of(const _Elem *_Ptr,
   size_type _Off, size_type _Count) const
   {
@@ -20282,12 +20276,12 @@ public:
   {
   return (compare(0, this->_Mysize, _Right._Myptr(), _Right.size()));
   }
-# 2349 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xstring" 3
+# 2349 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xstring" 3
  int compare(size_type _Off, size_type _N0, const _Myt& _Right) const
   {
   return (compare(_Off, _N0, _Right, 0, npos));
   }
-# 2361 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xstring" 3
+# 2361 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xstring" 3
  int compare(size_type _Off, size_type _N0, const _Myt& _Right,
   size_type _Roff, size_type _Count = npos) const
   {
@@ -20297,7 +20291,7 @@ public:
    _Count = _Right._Mysize - _Roff;
   return (compare(_Off, _N0, _Right._Myptr() + _Roff, _Count));
   }
-# 2379 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xstring" 3
+# 2379 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xstring" 3
  int compare(const _Elem *_Ptr) const
   {
                       ;
@@ -20429,10 +20423,10 @@ public:
   _Xout_of_range("invalid string position");
   }
  };
-# 2522 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xstring" 3
+# 2522 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xstring" 3
 template<class _Elem, class _Tr, class _Alloc>
 const typename basic_string<_Elem, _Tr, _Alloc>::size_type basic_string<_Elem, _Tr, _Alloc>::npos;
-# 2540 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xstring" 3
+# 2540 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xstring" 3
 template<class _Elem,
  class _Traits,
  class _Alloc> inline
@@ -20797,9 +20791,9 @@ typedef basic_string<char16_t, char_traits<char16_t>, allocator<char16_t> >
 typedef basic_string<char32_t, char_traits<char32_t>, allocator<char32_t> >
  u32string;
 }
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdexcept" 2 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdexcept" 2 3
 namespace std {
-# 25 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdexcept" 3
+# 25 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdexcept" 3
 class logic_error
  : public ::std:: exception
  {
@@ -21024,9 +21018,9 @@ public:
 
  };
 }
-# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\list" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xmemory" 1 3
-# 13 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xmemory" 3
+# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\list" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xmemory" 1 3
+# 13 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xmemory" 3
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wdeprecated-declarations"
 
@@ -21057,7 +21051,7 @@ template<class _Ty> inline
  {
  ::operator delete(_Pbuf);
  }
-# 53 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xmemory" 3
+# 53 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xmemory" 3
 template<class _InIt,
  class _Diff,
  class _FwdIt> inline
@@ -21143,7 +21137,7 @@ template<class _InIt,
    _Uninitialized_copy_n(_Unchecked(_First), _Count,
     _Unchecked(_Dest))));
  }
-# 259 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xmemory" 3
+# 259 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xmemory" 3
 template<class _InIt,
  class _FwdIt> inline
  _FwdIt _Uninitialized_copy0(_InIt _First, _InIt _Last,
@@ -21192,7 +21186,7 @@ template<class _InIt,
   _Uninitialized_copy0(_Unchecked(_First), _Unchecked(_Last),
    _Unchecked(_Dest))));
  }
-# 370 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xmemory" 3
+# 370 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xmemory" 3
 template<class _InIt,
  class _FwdIt,
  class _Alloc> inline
@@ -21233,7 +21227,7 @@ template<class _Ty1,
  return ((_Ty2 *):: memmove(&*_Dest, &*_First,
   _Count * sizeof (*_First)) + _Count);
  }
-# 426 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xmemory" 3
+# 426 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xmemory" 3
 template<class _InIt,
  class _FwdIt,
  class _Alloc> inline
@@ -21294,7 +21288,7 @@ template<class _InIt,
  }}
  return (pair<_InIt, _FwdIt>(_First, _Dest));
  }
-# 526 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xmemory" 3
+# 526 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xmemory" 3
 template<class _InIt,
  class _FwdIt,
  class _Alloc,
@@ -21338,7 +21332,7 @@ template<class _Ty1,
  return ((_Ty2 *):: memmove(&*_Dest, &*_First,
   _Count * sizeof (*_First)) + _Count);
  }
-# 586 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xmemory" 3
+# 586 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xmemory" 3
 template<class _InIt,
  class _FwdIt,
  class _Alloc> inline
@@ -21488,7 +21482,7 @@ template<class _Ty,
  {
  _Fill_n(_First, _Count, *_Pval);
  }
-# 751 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xmemory" 3
+# 751 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xmemory" 3
 template<class _FwdIt,
  class _Diff,
  class _Tval,
@@ -21545,7 +21539,7 @@ template<class _Ty,
  {
  _Fill_n(_First, _Count, (_Valty)0);
  }
-# 821 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xmemory" 3
+# 821 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xmemory" 3
 template<class _FwdIt,
  class _Diff,
  class _Alloc> inline
@@ -21555,7 +21549,7 @@ template<class _FwdIt,
  _Uninit_def_fill_n(_First, _Count, _Al,
   _Val_type(_First), _Ptr_cat(_First, _First));
  }
-# 898 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\xmemory" 3
+# 898 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\xmemory" 3
 template<class _OutIt,
  class _Ty>
  class raw_storage_iterator
@@ -21860,7 +21854,7 @@ private:
 
 
 #pragma clang diagnostic pop
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\list" 2 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\list" 2 3
 
 
 
@@ -22055,13 +22049,13 @@ public:
 
  reference operator*() const
   {
-# 221 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\list" 3
+# 221 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\list" 3
   return (_Mylist::_Myval(this->_Ptr));
   }
 
  _Myiter& operator++()
   {
-# 241 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\list" 3
+# 241 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\list" 3
   this->_Ptr = _Mylist::_Nextnode(this->_Ptr);
   return (*this);
   }
@@ -22075,7 +22069,7 @@ public:
 
  _Myiter& operator--()
   {
-# 271 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\list" 3
+# 271 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\list" 3
   this->_Ptr = _Mylist::_Prevnode(this->_Ptr);
 
 
@@ -22091,7 +22085,7 @@ public:
 
  bool operator==(const _Myiter& _Right) const
   {
-# 297 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\list" 3
+# 297 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\list" 3
   return (this->_Ptr == _Right._Ptr);
   }
 
@@ -22265,7 +22259,7 @@ template<class _Ty,
  class _Alloc0>
  struct _List_base_types
  {
-# 478 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\list" 3
+# 478 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\list" 3
  typedef _Alloc0 _Alloc;
 
 
@@ -22392,7 +22386,7 @@ public:
   {
   _Pocs(_Alnod, _Right._Alnod);
   }
-# 676 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\list" 3
+# 676 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\list" 3
  _Nodeptr _Buyheadnode()
   {
   return (_Buynode0(_Nodeptr(), _Nodeptr()));
@@ -22484,7 +22478,7 @@ public:
  void _Swap_alloc(_Myt&)
   {
   }
-# 830 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\list" 3
+# 830 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\list" 3
  _Nodeptr _Buyheadnode()
   {
   return (_Buynode0(_Nodeptr(), _Nodeptr()));
@@ -23180,7 +23174,7 @@ public:
 
            _Nodeptr _Unlinknode(const_iterator _Where)
   {
-# 1533 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\list" 3
+# 1533 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\list" 3
   _Nodeptr _Pnode = (_Where)._Mynode();
 
 
@@ -23515,7 +23509,7 @@ public:
   _Myt& _Right, const_iterator _First, const_iterator _Last,
   size_type _Count)
   {
-# 1924 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\list" 3
+# 1924 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\list" 3
   if (this->_Getal() != _Right._Getal())
    ::std:: terminate();
 
@@ -23595,9 +23589,9 @@ public:
    _Xlength_error("list<T> too long");
   this->_Mysize += _Count;
   }
-# 2023 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\list" 3
+# 2023 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\list" 3
  };
-# 2038 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\list" 3
+# 2038 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\list" 3
 template<class _Ty,
  class _Alloc> inline
  void swap(list<_Ty, _Alloc>& _Left, list<_Ty, _Alloc>& _Right)
@@ -23655,7 +23649,7 @@ template<class _Ty,
  {
  return (!(_Left < _Right));
  }
-# 2122 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\list" 3
+# 2122 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\list" 3
 }
 # 7 "C:\\code\\scotland-yard\\Packages\\com.unity.savedata.ps4@1.0.2\\Source~/ErrorHandling/../Includes/../Managed/../Managed/MemoryBufferManaged.h" 2
 
@@ -25113,11 +25107,11 @@ namespace SaveData
 }
 # 3 "C:\\code\\scotland-yard\\Packages\\com.unity.savedata.ps4@1.0.2\\Source~/Source/Main.cpp" 2
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\rtc.h" 1 3
-# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\rtc.h" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdlib.h" 1 3
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\rtc.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\_rtc.h" 1 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\rtc.h" 1 3
+# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\rtc.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdlib.h" 1 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\rtc.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\_rtc.h" 1 3
 
 
 
@@ -25126,17 +25120,17 @@ namespace SaveData
 
 
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdint.h" 1 3
-# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\_rtc.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdint.h" 1 3
+# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\_rtc.h" 2 3
 
 typedef struct SceRtcTick {
  uint64_t tick;
 } SceRtcTick;
-# 13 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\rtc.h" 2 3
+# 13 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\rtc.h" 2 3
 
 
 extern "C" {
-# 109 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\rtc.h" 3
+# 109 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\rtc.h" 3
 typedef struct SceRtcDateTime {
  unsigned short year;
  unsigned short month;
@@ -25146,7 +25140,7 @@ typedef struct SceRtcDateTime {
  unsigned short second;
  unsigned int microsecond;
 } SceRtcDateTime;
-# 126 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\rtc.h" 3
+# 126 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\rtc.h" 3
 int sceRtcGetCurrentTick(SceRtcTick *pTick);
 
 
@@ -25178,13 +25172,13 @@ int sceRtcIsLeapYear(int year);
 
 
 int sceRtcGetDaysInMonth(int year, int month);
-# 167 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\rtc.h" 3
+# 167 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\rtc.h" 3
 int sceRtcGetDayOfWeek(int year, int month, int day);
 
 
 
 int sceRtcCheckValid(const SceRtcDateTime *pTime);
-# 181 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\rtc.h" 3
+# 181 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\rtc.h" 3
 int sceRtcSetTime_t(SceRtcDateTime *pTime, time_t llTime);
 
 
@@ -25263,7 +25257,7 @@ int sceRtcTickAddMonths(SceRtcTick *pTick0, const SceRtcTick *pTick1, int iAdd);
 
 
 int sceRtcTickAddYears(SceRtcTick *pTick0, const SceRtcTick *pTick1, int iAdd);
-# 267 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\rtc.h" 3
+# 267 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\rtc.h" 3
 int sceRtcFormatRFC2822(char *pszDateTime, const SceRtcTick *pUtc, int iTimeZoneMinutes);
 
 
@@ -25518,7 +25512,7 @@ static __inline__ int sceRtcGetMicrosecond(const SceRtcDateTime *pTime)
 
 }
 # 5 "C:\\code\\scotland-yard\\Packages\\com.unity.savedata.ps4@1.0.2\\Source~/Source/Main.cpp" 2
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\libsysmodule.h" 1 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\libsysmodule.h" 1 3
 
 
 
@@ -25527,9 +25521,9 @@ static __inline__ int sceRtcGetMicrosecond(const SceRtcDateTime *pTime)
 
 
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdint.h" 1 3
-# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\libsysmodule.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sceerror.h" 1 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdint.h" 1 3
+# 10 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\libsysmodule.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sceerror.h" 1 3
 
 
 
@@ -25537,13 +25531,13 @@ static __inline__ int sceRtcGetMicrosecond(const SceRtcDateTime *pTime)
 
 
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sys/_defines/_sce_ok.h" 1 3
-# 9 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\sceerror.h" 2 3
-# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\libsysmodule.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sys/_defines/_sce_ok.h" 1 3
+# 9 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\sceerror.h" 2 3
+# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\libsysmodule.h" 2 3
 
 
 extern "C" {
-# 195 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\libsysmodule.h" 3
+# 194 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\libsysmodule.h" 3
 int sceSysmoduleLoadModule(uint16_t id);
 int sceSysmoduleUnloadModule(uint16_t id);
 int sceSysmoduleIsLoaded(uint16_t id);
@@ -25704,7 +25698,7 @@ namespace SaveData
   s_Initialised = true;
 
   initResult.initialized = true;
-  initResult.sceSDKVersion = (0x11008001u);
+  initResult.sceSDKVersion = (0x10508021u);
 
   (SaveData::APIResult::SetResult(result, SaveData::APIResultTypes::Success));
  }
@@ -26130,40 +26124,40 @@ namespace SaveData
 }
 # 3 "C:\\code\\scotland-yard\\Packages\\com.unity.savedata.ps4@1.0.2\\Source~/Source/Notifications.cpp" 2
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include_common\\sce_atomic.h" 1 3
-# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include_common\\sce_atomic.h" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include_common\\scebase_common.h" 1 3
-# 25 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include_common\\scebase_common.h" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include_common\\scebase_common/scebase_target.h" 1 3
-# 26 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include_common\\scebase_common.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include_common\\scebase_common/scebase_stdint.h" 1 3
-# 53 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include_common\\scebase_common/scebase_stdint.h" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdint.h" 1 3
-# 54 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include_common\\scebase_common/scebase_stdint.h" 2 3
-# 27 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include_common\\scebase_common.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include_common\\scebase_common/scebase_stdbool.h" 1 3
-# 28 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include_common\\scebase_common.h" 2 3
-# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include_common\\sce_atomic.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include_common\\sce_atomic.h" 1 3
+# 11 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include_common\\sce_atomic.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include_common\\scebase_common.h" 1 3
+# 25 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include_common\\scebase_common.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include_common\\scebase_common/scebase_target.h" 1 3
+# 26 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include_common\\scebase_common.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include_common\\scebase_common/scebase_stdint.h" 1 3
+# 53 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include_common\\scebase_common/scebase_stdint.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdint.h" 1 3
+# 54 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include_common\\scebase_common/scebase_stdint.h" 2 3
+# 27 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include_common\\scebase_common.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include_common\\scebase_common/scebase_stdbool.h" 1 3
+# 28 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include_common\\scebase_common.h" 2 3
+# 12 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include_common\\sce_atomic.h" 2 3
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include_common\\sce_atomic/sce_atomic_common.h" 1 3
-# 14 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include_common\\sce_atomic.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include_common\\sce_atomic/sce_atomic_common.h" 1 3
+# 14 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include_common\\sce_atomic.h" 2 3
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include_common\\sce_atomic/sce_atomic_orbis.h" 1 3
-# 16 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include_common\\sce_atomic/sce_atomic_orbis.h" 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\x86intrin.h" 1 3 4
-# 13 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\x86intrin.h" 3 4
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\ia32intrin.h" 1 3 4
-# 41 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\ia32intrin.h" 3 4
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include_common\\sce_atomic/sce_atomic_orbis.h" 1 3
+# 16 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include_common\\sce_atomic/sce_atomic_orbis.h" 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\x86intrin.h" 1 3 4
+# 13 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\x86intrin.h" 3 4
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\ia32intrin.h" 1 3 4
+# 41 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\ia32intrin.h" 3 4
 static __inline__ int __attribute__((__always_inline__, __nodebug__)) constexpr
 __bsfd(int __A) {
   return __builtin_ctz((unsigned int)__A);
 }
-# 58 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\ia32intrin.h" 3 4
+# 58 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\ia32intrin.h" 3 4
 static __inline__ int __attribute__((__always_inline__, __nodebug__)) constexpr
 __bsrd(int __A) {
   return 31 - __builtin_clz((unsigned int)__A);
 }
-# 74 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\ia32intrin.h" 3 4
+# 74 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\ia32intrin.h" 3 4
 static __inline__ int __attribute__((__always_inline__, __nodebug__)) constexpr
 __bswapd(int __A) {
   return (int)__builtin_bswap32((unsigned int)__A);
@@ -26173,28 +26167,28 @@ static __inline__ int __attribute__((__always_inline__, __nodebug__)) constexpr
 _bswap(int __A) {
   return (int)__builtin_bswap32((unsigned int)__A);
 }
-# 100 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\ia32intrin.h" 3 4
+# 100 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\ia32intrin.h" 3 4
 static __inline__ int __attribute__((__always_inline__, __nodebug__)) constexpr
 __bsfq(long long __A) {
   return (long long)__builtin_ctzll((unsigned long long)__A);
 }
-# 117 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\ia32intrin.h" 3 4
+# 117 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\ia32intrin.h" 3 4
 static __inline__ int __attribute__((__always_inline__, __nodebug__)) constexpr
 __bsrq(long long __A) {
   return 63 - __builtin_clzll((unsigned long long)__A);
 }
-# 133 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\ia32intrin.h" 3 4
+# 133 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\ia32intrin.h" 3 4
 static __inline__ long long __attribute__((__always_inline__, __nodebug__)) constexpr
 __bswapq(long long __A) {
   return (long long)__builtin_bswap64((unsigned long long)__A);
 }
-# 153 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\ia32intrin.h" 3 4
+# 153 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\ia32intrin.h" 3 4
 static __inline__ int __attribute__((__always_inline__, __nodebug__)) constexpr
 __popcntd(unsigned int __A)
 {
   return __builtin_popcount(__A);
 }
-# 174 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\ia32intrin.h" 3 4
+# 174 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\ia32intrin.h" 3 4
 static __inline__ long long __attribute__((__always_inline__, __nodebug__)) constexpr
 __popcntq(unsigned long long __A)
 {
@@ -26216,45 +26210,45 @@ __writeeflags(unsigned long long __f)
 {
   __builtin_ia32_writeeflags_u64(__f);
 }
-# 220 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\ia32intrin.h" 3 4
+# 220 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\ia32intrin.h" 3 4
 static __inline__ unsigned int __attribute__((__always_inline__)) constexpr
 _castf32_u32(float __A) {
   return __builtin_bit_cast(unsigned int, __A);
 }
-# 235 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\ia32intrin.h" 3 4
+# 235 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\ia32intrin.h" 3 4
 static __inline__ unsigned long long __attribute__((__always_inline__)) constexpr
 _castf64_u64(double __A) {
   return __builtin_bit_cast(unsigned long long, __A);
 }
-# 250 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\ia32intrin.h" 3 4
+# 250 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\ia32intrin.h" 3 4
 static __inline__ float __attribute__((__always_inline__)) constexpr
 _castu32_f32(unsigned int __A) {
   return __builtin_bit_cast(float, __A);
 }
-# 265 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\ia32intrin.h" 3 4
+# 265 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\ia32intrin.h" 3 4
 static __inline__ double __attribute__((__always_inline__)) constexpr
 _castu64_f64(unsigned long long __A) {
   return __builtin_bit_cast(double, __A);
 }
-# 285 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\ia32intrin.h" 3 4
+# 285 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\ia32intrin.h" 3 4
 static __inline__ unsigned int __attribute__((__always_inline__, __nodebug__, __target__("crc32")))
 __crc32b(unsigned int __C, unsigned char __D)
 {
   return __builtin_ia32_crc32qi(__C, __D);
 }
-# 306 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\ia32intrin.h" 3 4
+# 306 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\ia32intrin.h" 3 4
 static __inline__ unsigned int __attribute__((__always_inline__, __nodebug__, __target__("crc32")))
 __crc32w(unsigned int __C, unsigned short __D)
 {
   return __builtin_ia32_crc32hi(__C, __D);
 }
-# 327 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\ia32intrin.h" 3 4
+# 327 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\ia32intrin.h" 3 4
 static __inline__ unsigned int __attribute__((__always_inline__, __nodebug__, __target__("crc32")))
 __crc32d(unsigned int __C, unsigned int __D)
 {
   return __builtin_ia32_crc32si(__C, __D);
 }
-# 349 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\ia32intrin.h" 3 4
+# 349 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\ia32intrin.h" 3 4
 static __inline__ unsigned long long __attribute__((__always_inline__, __nodebug__, __target__("crc32")))
 __crc32q(unsigned long long __C, unsigned long long __D)
 {
@@ -26322,411 +26316,411 @@ static __inline__ unsigned long long __attribute__((__always_inline__, __nodebug
 __rorq(unsigned long long __X, int __C) {
   return __builtin_rotateright64(__X, (unsigned long long)__C);
 }
-# 14 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\x86intrin.h" 2 3 4
+# 14 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\x86intrin.h" 2 3 4
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\immintrin.h" 1 3 4
-# 17 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\immintrin.h" 3 4
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\x86gprintrin.h" 1 3 4
-# 25 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\x86gprintrin.h" 3 4
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\crc32intrin.h" 1 3 4
-# 30 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\crc32intrin.h" 3 4
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\immintrin.h" 1 3 4
+# 17 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\immintrin.h" 3 4
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\x86gprintrin.h" 1 3 4
+# 25 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\x86gprintrin.h" 3 4
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\crc32intrin.h" 1 3 4
+# 30 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\crc32intrin.h" 3 4
 static __inline__ unsigned int __attribute__((__always_inline__, __nodebug__, __target__("crc32")))
 _mm_crc32_u8(unsigned int __C, unsigned char __D)
 {
   return __builtin_ia32_crc32qi(__C, __D);
 }
-# 50 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\crc32intrin.h" 3 4
+# 50 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\crc32intrin.h" 3 4
 static __inline__ unsigned int __attribute__((__always_inline__, __nodebug__, __target__("crc32")))
 _mm_crc32_u16(unsigned int __C, unsigned short __D)
 {
   return __builtin_ia32_crc32hi(__C, __D);
 }
-# 70 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\crc32intrin.h" 3 4
+# 70 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\crc32intrin.h" 3 4
 static __inline__ unsigned int __attribute__((__always_inline__, __nodebug__, __target__("crc32")))
 _mm_crc32_u32(unsigned int __C, unsigned int __D)
 {
   return __builtin_ia32_crc32si(__C, __D);
 }
-# 91 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\crc32intrin.h" 3 4
+# 91 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\crc32intrin.h" 3 4
 static __inline__ unsigned long long __attribute__((__always_inline__, __nodebug__, __target__("crc32")))
 _mm_crc32_u64(unsigned long long __C, unsigned long long __D)
 {
   return __builtin_ia32_crc32di(__C, __D);
 }
-# 26 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\x86gprintrin.h" 2 3 4
-# 18 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\immintrin.h" 2 3 4
+# 26 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\x86gprintrin.h" 2 3 4
+# 18 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\immintrin.h" 2 3 4
 
 
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 1 3 4
-# 17 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 1 3 4
+# 17 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 typedef long long __m64 __attribute__((__vector_size__(8), __aligned__(8)));
 
 typedef long long __v1di __attribute__((__vector_size__(8)));
 typedef int __v2si __attribute__((__vector_size__(8)));
 typedef short __v4hi __attribute__((__vector_size__(8)));
 typedef char __v8qi __attribute__((__vector_size__(8)));
-# 36 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 36 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ void __attribute__((__always_inline__, __nodebug__, __target__("mmx")))
 _mm_empty(void)
 {
     __builtin_ia32_emms();
 }
-# 58 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 58 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_cvtsi32_si64(int __i)
 {
     return (__m64)__builtin_ia32_vec_init_v2si(__i, 0);
 }
-# 80 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 80 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ int __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_cvtsi64_si32(__m64 __m)
 {
     return __builtin_ia32_vec_ext_v2si((__v2si)__m, 0);
 }
-# 101 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 101 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_cvtsi64_m64(long long __i)
 {
     return (__m64)__i;
 }
-# 122 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 122 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ long long __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_cvtm64_si64(__m64 __m)
 {
     return (long long)__m;
 }
-# 158 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 158 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_packs_pi16(__m64 __m1, __m64 __m2)
 {
     return (__m64)__builtin_ia32_packsswb((__v4hi)__m1, (__v4hi)__m2);
 }
-# 194 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 194 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_packs_pi32(__m64 __m1, __m64 __m2)
 {
     return (__m64)__builtin_ia32_packssdw((__v2si)__m1, (__v2si)__m2);
 }
-# 230 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 230 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_packs_pu16(__m64 __m1, __m64 __m2)
 {
     return (__m64)__builtin_ia32_packuswb((__v4hi)__m1, (__v4hi)__m2);
 }
-# 263 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 263 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_unpackhi_pi8(__m64 __m1, __m64 __m2)
 {
     return (__m64)__builtin_ia32_punpckhbw((__v8qi)__m1, (__v8qi)__m2);
 }
-# 292 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 292 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_unpackhi_pi16(__m64 __m1, __m64 __m2)
 {
     return (__m64)__builtin_ia32_punpckhwd((__v4hi)__m1, (__v4hi)__m2);
 }
-# 319 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 319 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_unpackhi_pi32(__m64 __m1, __m64 __m2)
 {
     return (__m64)__builtin_ia32_punpckhdq((__v2si)__m1, (__v2si)__m2);
 }
-# 352 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 352 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_unpacklo_pi8(__m64 __m1, __m64 __m2)
 {
     return (__m64)__builtin_ia32_punpcklbw((__v8qi)__m1, (__v8qi)__m2);
 }
-# 381 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 381 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_unpacklo_pi16(__m64 __m1, __m64 __m2)
 {
     return (__m64)__builtin_ia32_punpcklwd((__v4hi)__m1, (__v4hi)__m2);
 }
-# 408 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 408 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_unpacklo_pi32(__m64 __m1, __m64 __m2)
 {
     return (__m64)__builtin_ia32_punpckldq((__v2si)__m1, (__v2si)__m2);
 }
-# 435 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 435 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_add_pi8(__m64 __m1, __m64 __m2)
 {
     return (__m64)__builtin_ia32_paddb((__v8qi)__m1, (__v8qi)__m2);
 }
-# 462 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 462 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_add_pi16(__m64 __m1, __m64 __m2)
 {
     return (__m64)__builtin_ia32_paddw((__v4hi)__m1, (__v4hi)__m2);
 }
-# 489 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 489 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_add_pi32(__m64 __m1, __m64 __m2)
 {
     return (__m64)__builtin_ia32_paddd((__v2si)__m1, (__v2si)__m2);
 }
-# 517 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 517 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_adds_pi8(__m64 __m1, __m64 __m2)
 {
     return (__m64)__builtin_ia32_paddsb((__v8qi)__m1, (__v8qi)__m2);
 }
-# 546 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 546 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_adds_pi16(__m64 __m1, __m64 __m2)
 {
     return (__m64)__builtin_ia32_paddsw((__v4hi)__m1, (__v4hi)__m2);
 }
-# 574 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 574 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_adds_pu8(__m64 __m1, __m64 __m2)
 {
     return (__m64)__builtin_ia32_paddusb((__v8qi)__m1, (__v8qi)__m2);
 }
-# 602 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 602 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_adds_pu16(__m64 __m1, __m64 __m2)
 {
     return (__m64)__builtin_ia32_paddusw((__v4hi)__m1, (__v4hi)__m2);
 }
-# 629 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 629 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_sub_pi8(__m64 __m1, __m64 __m2)
 {
     return (__m64)__builtin_ia32_psubb((__v8qi)__m1, (__v8qi)__m2);
 }
-# 656 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 656 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_sub_pi16(__m64 __m1, __m64 __m2)
 {
     return (__m64)__builtin_ia32_psubw((__v4hi)__m1, (__v4hi)__m2);
 }
-# 683 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 683 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_sub_pi32(__m64 __m1, __m64 __m2)
 {
     return (__m64)__builtin_ia32_psubd((__v2si)__m1, (__v2si)__m2);
 }
-# 712 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 712 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_subs_pi8(__m64 __m1, __m64 __m2)
 {
     return (__m64)__builtin_ia32_psubsb((__v8qi)__m1, (__v8qi)__m2);
 }
-# 741 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 741 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_subs_pi16(__m64 __m1, __m64 __m2)
 {
     return (__m64)__builtin_ia32_psubsw((__v4hi)__m1, (__v4hi)__m2);
 }
-# 767 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 767 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_subs_pu8(__m64 __m1, __m64 __m2)
 {
     return (__m64)__builtin_ia32_psubusb((__v8qi)__m1, (__v8qi)__m2);
 }
-# 793 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 793 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_subs_pu16(__m64 __m1, __m64 __m2)
 {
     return (__m64)__builtin_ia32_psubusw((__v4hi)__m1, (__v4hi)__m2);
 }
-# 822 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 822 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_madd_pi16(__m64 __m1, __m64 __m2)
 {
     return (__m64)__builtin_ia32_pmaddwd((__v4hi)__m1, (__v4hi)__m2);
 }
-# 849 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 849 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_mulhi_pi16(__m64 __m1, __m64 __m2)
 {
     return (__m64)__builtin_ia32_pmulhw((__v4hi)__m1, (__v4hi)__m2);
 }
-# 876 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 876 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_mullo_pi16(__m64 __m1, __m64 __m2)
 {
     return (__m64)__builtin_ia32_pmullw((__v4hi)__m1, (__v4hi)__m2);
 }
-# 905 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 905 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_sll_pi16(__m64 __m, __m64 __count)
 {
     return (__m64)__builtin_ia32_psllw((__v4hi)__m, __count);
 }
-# 933 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 933 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_slli_pi16(__m64 __m, int __count)
 {
     return (__m64)__builtin_ia32_psllwi((__v4hi)__m, __count);
 }
-# 962 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 962 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_sll_pi32(__m64 __m, __m64 __count)
 {
     return (__m64)__builtin_ia32_pslld((__v2si)__m, __count);
 }
-# 990 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 990 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_slli_pi32(__m64 __m, int __count)
 {
     return (__m64)__builtin_ia32_pslldi((__v2si)__m, __count);
 }
-# 1016 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 1016 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_sll_si64(__m64 __m, __m64 __count)
 {
     return (__m64)__builtin_ia32_psllq((__v1di)__m, __count);
 }
-# 1042 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 1042 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_slli_si64(__m64 __m, int __count)
 {
     return (__m64)__builtin_ia32_psllqi((__v1di)__m, __count);
 }
-# 1068 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 1068 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_sra_pi16(__m64 __m, __m64 __count)
 {
     return (__m64)__builtin_ia32_psraw((__v4hi)__m, __count);
 }
-# 1093 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 1093 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_srai_pi16(__m64 __m, int __count)
 {
     return (__m64)__builtin_ia32_psrawi((__v4hi)__m, __count);
 }
-# 1119 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 1119 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_sra_pi32(__m64 __m, __m64 __count)
 {
     return (__m64)__builtin_ia32_psrad((__v2si)__m, __count);
 }
-# 1144 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 1144 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_srai_pi32(__m64 __m, int __count)
 {
     return (__m64)__builtin_ia32_psradi((__v2si)__m, __count);
 }
-# 1170 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 1170 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_srl_pi16(__m64 __m, __m64 __count)
 {
     return (__m64)__builtin_ia32_psrlw((__v4hi)__m, __count);
 }
-# 1195 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 1195 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_srli_pi16(__m64 __m, int __count)
 {
     return (__m64)__builtin_ia32_psrlwi((__v4hi)__m, __count);
 }
-# 1221 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 1221 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_srl_pi32(__m64 __m, __m64 __count)
 {
     return (__m64)__builtin_ia32_psrld((__v2si)__m, __count);
 }
-# 1246 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 1246 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_srli_pi32(__m64 __m, int __count)
 {
     return (__m64)__builtin_ia32_psrldi((__v2si)__m, __count);
 }
-# 1270 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 1270 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_srl_si64(__m64 __m, __m64 __count)
 {
     return (__m64)__builtin_ia32_psrlq((__v1di)__m, __count);
 }
-# 1295 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 1295 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_srli_si64(__m64 __m, int __count)
 {
     return (__m64)__builtin_ia32_psrlqi((__v1di)__m, __count);
 }
-# 1319 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 1319 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_and_si64(__m64 __m1, __m64 __m2)
 {
     return __builtin_ia32_pand((__v1di)__m1, (__v1di)__m2);
 }
-# 1346 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 1346 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_andnot_si64(__m64 __m1, __m64 __m2)
 {
     return __builtin_ia32_pandn((__v1di)__m1, (__v1di)__m2);
 }
-# 1370 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 1370 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_or_si64(__m64 __m1, __m64 __m2)
 {
     return __builtin_ia32_por((__v1di)__m1, (__v1di)__m2);
 }
-# 1394 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 1394 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_xor_si64(__m64 __m1, __m64 __m2)
 {
     return __builtin_ia32_pxor((__v1di)__m1, (__v1di)__m2);
 }
-# 1420 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 1420 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_cmpeq_pi8(__m64 __m1, __m64 __m2)
 {
     return (__m64)__builtin_ia32_pcmpeqb((__v8qi)__m1, (__v8qi)__m2);
 }
-# 1446 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 1446 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_cmpeq_pi16(__m64 __m1, __m64 __m2)
 {
     return (__m64)__builtin_ia32_pcmpeqw((__v4hi)__m1, (__v4hi)__m2);
 }
-# 1472 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 1472 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_cmpeq_pi32(__m64 __m1, __m64 __m2)
 {
     return (__m64)__builtin_ia32_pcmpeqd((__v2si)__m1, (__v2si)__m2);
 }
-# 1498 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 1498 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_cmpgt_pi8(__m64 __m1, __m64 __m2)
 {
     return (__m64)__builtin_ia32_pcmpgtb((__v8qi)__m1, (__v8qi)__m2);
 }
-# 1524 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 1524 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_cmpgt_pi16(__m64 __m1, __m64 __m2)
 {
     return (__m64)__builtin_ia32_pcmpgtw((__v4hi)__m1, (__v4hi)__m2);
 }
-# 1550 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 1550 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_cmpgt_pi32(__m64 __m1, __m64 __m2)
 {
     return (__m64)__builtin_ia32_pcmpgtd((__v2si)__m1, (__v2si)__m2);
 }
-# 1567 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 1567 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_setzero_si64(void)
 {
     return __extension__ (__m64){ 0LL };
 }
-# 1594 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 1594 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_set_pi32(int __i1, int __i0)
 {
     return (__m64)__builtin_ia32_vec_init_v2si(__i0, __i1);
 }
-# 1625 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 1625 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_set_pi16(short __s3, short __s2, short __s1, short __s0)
 {
     return (__m64)__builtin_ia32_vec_init_v4hi(__s0, __s1, __s2, __s3);
 }
-# 1668 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 1668 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_set_pi8(char __b7, char __b6, char __b5, char __b4, char __b3, char __b2,
             char __b1, char __b0)
@@ -26734,50 +26728,50 @@ _mm_set_pi8(char __b7, char __b6, char __b5, char __b4, char __b3, char __b2,
     return (__m64)__builtin_ia32_vec_init_v8qi(__b0, __b1, __b2, __b3,
                                                __b4, __b5, __b6, __b7);
 }
-# 1694 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 1694 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_set1_pi32(int __i)
 {
     return _mm_set_pi32(__i, __i);
 }
-# 1718 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 1718 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_set1_pi16(short __w)
 {
     return _mm_set_pi16(__w, __w, __w, __w);
 }
-# 1741 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 1741 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_set1_pi8(char __b)
 {
     return _mm_set_pi8(__b, __b, __b, __b, __b, __b, __b, __b);
 }
-# 1768 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 1768 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_setr_pi32(int __i0, int __i1)
 {
     return _mm_set_pi32(__i1, __i0);
 }
-# 1799 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 1799 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_setr_pi16(short __w0, short __w1, short __w2, short __w3)
 {
     return _mm_set_pi16(__w3, __w2, __w1, __w0);
 }
-# 1842 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
+# 1842 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx"), __min_vector_width__(64)))
 _mm_setr_pi8(char __b0, char __b1, char __b2, char __b3, char __b4, char __b5,
              char __b6, char __b7)
 {
     return _mm_set_pi8(__b7, __b6, __b5, __b4, __b3, __b2, __b1, __b0);
 }
-# 22 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\immintrin.h" 2 3 4
+# 22 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\immintrin.h" 2 3 4
 
 
 
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 1 3 4
-# 19 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 1 3 4
+# 19 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 typedef int __v4si __attribute__((__vector_size__(16)));
 typedef float __v4sf __attribute__((__vector_size__(16)));
 typedef float __m128 __attribute__((__vector_size__(16), __aligned__(16)));
@@ -26790,11 +26784,11 @@ typedef unsigned int __v4su __attribute__((__vector_size__(16)));
 
 
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mm_malloc.h" 1 3 4
-# 13 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mm_malloc.h" 3 4
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include\\stdlib.h" 1 3 4
-# 14 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mm_malloc.h" 2 3 4
-# 25 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\mm_malloc.h" 3 4
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mm_malloc.h" 1 3 4
+# 13 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mm_malloc.h" 3 4
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include\\stdlib.h" 1 3 4
+# 14 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mm_malloc.h" 2 3 4
+# 25 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\mm_malloc.h" 3 4
 extern "C" int posix_memalign(void **__memptr, size_t __alignment, size_t __size);
 
 
@@ -26835,180 +26829,180 @@ _mm_free(void *__p)
   free(__p);
 
 }
-# 32 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 2 3 4
-# 59 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 32 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 2 3 4
+# 59 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_add_ss(__m128 __a, __m128 __b)
 {
   __a[0] += __b[0];
   return __a;
 }
-# 85 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 85 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_add_ps(__m128 __a, __m128 __b)
 {
   return (__m128)((__v4sf)__a + (__v4sf)__b);
 }
-# 113 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 113 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_sub_ss(__m128 __a, __m128 __b)
 {
   __a[0] -= __b[0];
   return __a;
 }
-# 140 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 140 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_sub_ps(__m128 __a, __m128 __b)
 {
   return (__m128)((__v4sf)__a - (__v4sf)__b);
 }
-# 168 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 168 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_mul_ss(__m128 __a, __m128 __b)
 {
   __a[0] *= __b[0];
   return __a;
 }
-# 194 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 194 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_mul_ps(__m128 __a, __m128 __b)
 {
   return (__m128)((__v4sf)__a * (__v4sf)__b);
 }
-# 222 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 222 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_div_ss(__m128 __a, __m128 __b)
 {
   __a[0] /= __b[0];
   return __a;
 }
-# 247 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 247 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_div_ps(__m128 __a, __m128 __b)
 {
   return (__m128)((__v4sf)__a / (__v4sf)__b);
 }
-# 270 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 270 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_sqrt_ss(__m128 __a)
 {
   return (__m128)__builtin_ia32_sqrtss((__v4sf)__a);
 }
-# 292 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 292 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_sqrt_ps(__m128 __a)
 {
   return __builtin_ia32_sqrtps((__v4sf)__a);
 }
-# 315 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 315 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_rcp_ss(__m128 __a)
 {
   return (__m128)__builtin_ia32_rcpss((__v4sf)__a);
 }
-# 337 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 337 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_rcp_ps(__m128 __a)
 {
   return (__m128)__builtin_ia32_rcpps((__v4sf)__a);
 }
-# 361 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 361 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_rsqrt_ss(__m128 __a)
 {
   return __builtin_ia32_rsqrtss((__v4sf)__a);
 }
-# 383 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 383 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_rsqrt_ps(__m128 __a)
 {
   return __builtin_ia32_rsqrtps((__v4sf)__a);
 }
-# 412 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 412 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_min_ss(__m128 __a, __m128 __b)
 {
   return __builtin_ia32_minss((__v4sf)__a, (__v4sf)__b);
 }
-# 437 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 437 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_min_ps(__m128 __a, __m128 __b)
 {
   return __builtin_ia32_minps((__v4sf)__a, (__v4sf)__b);
 }
-# 466 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 466 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_max_ss(__m128 __a, __m128 __b)
 {
   return __builtin_ia32_maxss((__v4sf)__a, (__v4sf)__b);
 }
-# 491 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 491 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_max_ps(__m128 __a, __m128 __b)
 {
   return __builtin_ia32_maxps((__v4sf)__a, (__v4sf)__b);
 }
-# 515 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 515 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_and_ps(__m128 __a, __m128 __b)
 {
   return (__m128)((__v4su)__a & (__v4su)__b);
 }
-# 543 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 543 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_andnot_ps(__m128 __a, __m128 __b)
 {
   return (__m128)(~(__v4su)__a & (__v4su)__b);
 }
-# 567 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 567 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_or_ps(__m128 __a, __m128 __b)
 {
   return (__m128)((__v4su)__a | (__v4su)__b);
 }
-# 592 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 592 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_xor_ps(__m128 __a, __m128 __b)
 {
   return (__m128)((__v4su)__a ^ (__v4su)__b);
 }
-# 620 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 620 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_cmpeq_ss(__m128 __a, __m128 __b)
 {
   return (__m128)__builtin_ia32_cmpeqss((__v4sf)__a, (__v4sf)__b);
 }
-# 644 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 644 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_cmpeq_ps(__m128 __a, __m128 __b)
 {
   return (__m128)__builtin_ia32_cmpeqps((__v4sf)__a, (__v4sf)__b);
 }
-# 673 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 673 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_cmplt_ss(__m128 __a, __m128 __b)
 {
   return (__m128)__builtin_ia32_cmpltss((__v4sf)__a, (__v4sf)__b);
 }
-# 698 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 698 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_cmplt_ps(__m128 __a, __m128 __b)
 {
   return (__m128)__builtin_ia32_cmpltps((__v4sf)__a, (__v4sf)__b);
 }
-# 728 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 728 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_cmple_ss(__m128 __a, __m128 __b)
 {
   return (__m128)__builtin_ia32_cmpless((__v4sf)__a, (__v4sf)__b);
 }
-# 753 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 753 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_cmple_ps(__m128 __a, __m128 __b)
 {
   return (__m128)__builtin_ia32_cmpleps((__v4sf)__a, (__v4sf)__b);
 }
-# 782 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 782 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_cmpgt_ss(__m128 __a, __m128 __b)
 {
@@ -27016,13 +27010,13 @@ _mm_cmpgt_ss(__m128 __a, __m128 __b)
                                          (__v4sf)__builtin_ia32_cmpltss((__v4sf)__b, (__v4sf)__a),
                                          4, 1, 2, 3);
 }
-# 809 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 809 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_cmpgt_ps(__m128 __a, __m128 __b)
 {
   return (__m128)__builtin_ia32_cmpltps((__v4sf)__b, (__v4sf)__a);
 }
-# 839 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 839 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_cmpge_ss(__m128 __a, __m128 __b)
 {
@@ -27030,49 +27024,49 @@ _mm_cmpge_ss(__m128 __a, __m128 __b)
                                          (__v4sf)__builtin_ia32_cmpless((__v4sf)__b, (__v4sf)__a),
                                          4, 1, 2, 3);
 }
-# 866 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 866 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_cmpge_ps(__m128 __a, __m128 __b)
 {
   return (__m128)__builtin_ia32_cmpleps((__v4sf)__b, (__v4sf)__a);
 }
-# 895 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 895 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_cmpneq_ss(__m128 __a, __m128 __b)
 {
   return (__m128)__builtin_ia32_cmpneqss((__v4sf)__a, (__v4sf)__b);
 }
-# 920 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 920 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_cmpneq_ps(__m128 __a, __m128 __b)
 {
   return (__m128)__builtin_ia32_cmpneqps((__v4sf)__a, (__v4sf)__b);
 }
-# 950 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 950 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_cmpnlt_ss(__m128 __a, __m128 __b)
 {
   return (__m128)__builtin_ia32_cmpnltss((__v4sf)__a, (__v4sf)__b);
 }
-# 976 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 976 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_cmpnlt_ps(__m128 __a, __m128 __b)
 {
   return (__m128)__builtin_ia32_cmpnltps((__v4sf)__a, (__v4sf)__b);
 }
-# 1007 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 1007 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_cmpnle_ss(__m128 __a, __m128 __b)
 {
   return (__m128)__builtin_ia32_cmpnless((__v4sf)__a, (__v4sf)__b);
 }
-# 1033 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 1033 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_cmpnle_ps(__m128 __a, __m128 __b)
 {
   return (__m128)__builtin_ia32_cmpnleps((__v4sf)__a, (__v4sf)__b);
 }
-# 1064 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 1064 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_cmpngt_ss(__m128 __a, __m128 __b)
 {
@@ -27080,13 +27074,13 @@ _mm_cmpngt_ss(__m128 __a, __m128 __b)
                                          (__v4sf)__builtin_ia32_cmpnltss((__v4sf)__b, (__v4sf)__a),
                                          4, 1, 2, 3);
 }
-# 1092 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 1092 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_cmpngt_ps(__m128 __a, __m128 __b)
 {
   return (__m128)__builtin_ia32_cmpnltps((__v4sf)__b, (__v4sf)__a);
 }
-# 1123 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 1123 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_cmpnge_ss(__m128 __a, __m128 __b)
 {
@@ -27094,207 +27088,207 @@ _mm_cmpnge_ss(__m128 __a, __m128 __b)
                                          (__v4sf)__builtin_ia32_cmpnless((__v4sf)__b, (__v4sf)__a),
                                          4, 1, 2, 3);
 }
-# 1151 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 1151 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_cmpnge_ps(__m128 __a, __m128 __b)
 {
   return (__m128)__builtin_ia32_cmpnleps((__v4sf)__b, (__v4sf)__a);
 }
-# 1182 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 1182 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_cmpord_ss(__m128 __a, __m128 __b)
 {
   return (__m128)__builtin_ia32_cmpordss((__v4sf)__a, (__v4sf)__b);
 }
-# 1208 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 1208 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_cmpord_ps(__m128 __a, __m128 __b)
 {
   return (__m128)__builtin_ia32_cmpordps((__v4sf)__a, (__v4sf)__b);
 }
-# 1239 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 1239 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_cmpunord_ss(__m128 __a, __m128 __b)
 {
   return (__m128)__builtin_ia32_cmpunordss((__v4sf)__a, (__v4sf)__b);
 }
-# 1265 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 1265 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_cmpunord_ps(__m128 __a, __m128 __b)
 {
   return (__m128)__builtin_ia32_cmpunordps((__v4sf)__a, (__v4sf)__b);
 }
-# 1293 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 1293 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ int __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_comieq_ss(__m128 __a, __m128 __b)
 {
   return __builtin_ia32_comieq((__v4sf)__a, (__v4sf)__b);
 }
-# 1322 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 1322 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ int __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_comilt_ss(__m128 __a, __m128 __b)
 {
   return __builtin_ia32_comilt((__v4sf)__a, (__v4sf)__b);
 }
-# 1350 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 1350 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ int __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_comile_ss(__m128 __a, __m128 __b)
 {
   return __builtin_ia32_comile((__v4sf)__a, (__v4sf)__b);
 }
-# 1378 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 1378 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ int __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_comigt_ss(__m128 __a, __m128 __b)
 {
   return __builtin_ia32_comigt((__v4sf)__a, (__v4sf)__b);
 }
-# 1406 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 1406 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ int __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_comige_ss(__m128 __a, __m128 __b)
 {
   return __builtin_ia32_comige((__v4sf)__a, (__v4sf)__b);
 }
-# 1434 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 1434 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ int __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_comineq_ss(__m128 __a, __m128 __b)
 {
   return __builtin_ia32_comineq((__v4sf)__a, (__v4sf)__b);
 }
-# 1462 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 1462 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ int __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_ucomieq_ss(__m128 __a, __m128 __b)
 {
   return __builtin_ia32_ucomieq((__v4sf)__a, (__v4sf)__b);
 }
-# 1490 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 1490 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ int __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_ucomilt_ss(__m128 __a, __m128 __b)
 {
   return __builtin_ia32_ucomilt((__v4sf)__a, (__v4sf)__b);
 }
-# 1519 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 1519 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ int __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_ucomile_ss(__m128 __a, __m128 __b)
 {
   return __builtin_ia32_ucomile((__v4sf)__a, (__v4sf)__b);
 }
-# 1548 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 1548 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ int __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_ucomigt_ss(__m128 __a, __m128 __b)
 {
   return __builtin_ia32_ucomigt((__v4sf)__a, (__v4sf)__b);
 }
-# 1577 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 1577 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ int __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_ucomige_ss(__m128 __a, __m128 __b)
 {
   return __builtin_ia32_ucomige((__v4sf)__a, (__v4sf)__b);
 }
-# 1605 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 1605 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ int __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_ucomineq_ss(__m128 __a, __m128 __b)
 {
   return __builtin_ia32_ucomineq((__v4sf)__a, (__v4sf)__b);
 }
-# 1628 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 1628 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ int __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_cvtss_si32(__m128 __a)
 {
   return __builtin_ia32_cvtss2si((__v4sf)__a);
 }
-# 1651 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 1651 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ int __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_cvt_ss2si(__m128 __a)
 {
   return _mm_cvtss_si32(__a);
 }
-# 1676 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 1676 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ long long __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_cvtss_si64(__m128 __a)
 {
   return __builtin_ia32_cvtss2si64((__v4sf)__a);
 }
-# 1699 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 1699 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx,sse"), __min_vector_width__(64)))
 _mm_cvtps_pi32(__m128 __a)
 {
   return (__m64)__builtin_ia32_cvtps2pi((__v4sf)__a);
 }
-# 1720 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 1720 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx,sse"), __min_vector_width__(64)))
 _mm_cvt_ps2pi(__m128 __a)
 {
   return _mm_cvtps_pi32(__a);
 }
-# 1744 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 1744 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ int __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_cvttss_si32(__m128 __a)
 {
   return __builtin_ia32_cvttss2si((__v4sf)__a);
 }
-# 1768 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 1768 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ int __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_cvtt_ss2si(__m128 __a)
 {
   return _mm_cvttss_si32(__a);
 }
-# 1793 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 1793 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ long long __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_cvttss_si64(__m128 __a)
 {
   return __builtin_ia32_cvttss2si64((__v4sf)__a);
 }
-# 1817 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 1817 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx,sse"), __min_vector_width__(64)))
 _mm_cvttps_pi32(__m128 __a)
 {
   return (__m64)__builtin_ia32_cvttps2pi((__v4sf)__a);
 }
-# 1839 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 1839 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx,sse"), __min_vector_width__(64)))
 _mm_cvtt_ps2pi(__m128 __a)
 {
   return _mm_cvttps_pi32(__a);
 }
-# 1867 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 1867 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_cvtsi32_ss(__m128 __a, int __b)
 {
   __a[0] = __b;
   return __a;
 }
-# 1896 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 1896 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_cvt_si2ss(__m128 __a, int __b)
 {
   return _mm_cvtsi32_ss(__a, __b);
 }
-# 1926 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 1926 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_cvtsi64_ss(__m128 __a, long long __b)
 {
   __a[0] = __b;
   return __a;
 }
-# 1958 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 1958 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("mmx,sse"), __min_vector_width__(64)))
 _mm_cvtpi32_ps(__m128 __a, __m64 __b)
 {
   return __builtin_ia32_cvtpi2ps((__v4sf)__a, (__v2si)__b);
 }
-# 1987 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 1987 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("mmx,sse"), __min_vector_width__(64)))
 _mm_cvt_pi2ps(__m128 __a, __m64 __b)
 {
   return _mm_cvtpi32_ps(__a, __b);
 }
-# 2009 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 2009 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ float __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_cvtss_f32(__m128 __a)
 {
   return __a[0];
 }
-# 2036 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 2036 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_loadh_pi(__m128 __a, const __m64 *__p)
 {
@@ -27306,7 +27300,7 @@ _mm_loadh_pi(__m128 __a, const __m64 *__p)
   __m128 __bb = __builtin_shufflevector(__b, __b, 0, 1, 0, 1);
   return __builtin_shufflevector(__a, __bb, 0, 1, 4, 5);
 }
-# 2069 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 2069 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_loadl_pi(__m128 __a, const __m64 *__p)
 {
@@ -27318,7 +27312,7 @@ _mm_loadl_pi(__m128 __a, const __m64 *__p)
   __m128 __bb = __builtin_shufflevector(__b, __b, 0, 1, 0, 1);
   return __builtin_shufflevector(__a, __bb, 4, 5, 2, 3);
 }
-# 2101 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 2101 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_load_ss(const float *__p)
 {
@@ -27328,7 +27322,7 @@ _mm_load_ss(const float *__p)
   float __u = ((const struct __mm_load_ss_struct*)__p)->__u;
   return __extension__ (__m128){ __u, 0, 0, 0 };
 }
-# 2128 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 2128 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_load1_ps(const float *__p)
 {
@@ -27338,13 +27332,13 @@ _mm_load1_ps(const float *__p)
   float __u = ((const struct __mm_load1_ps_struct*)__p)->__u;
   return __extension__ (__m128){ __u, __u, __u, __u };
 }
-# 2159 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 2159 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_load_ps(const float *__p)
 {
   return *(const __m128*)__p;
 }
-# 2181 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 2181 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_loadu_ps(const float *__p)
 {
@@ -27353,56 +27347,56 @@ _mm_loadu_ps(const float *__p)
   } __attribute__((__packed__, __may_alias__));
   return ((const struct __loadu_ps*)__p)->__v;
 }
-# 2208 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 2208 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_loadr_ps(const float *__p)
 {
   __m128 __a = _mm_load_ps(__p);
   return __builtin_shufflevector((__v4sf)__a, (__v4sf)__a, 3, 2, 1, 0);
 }
-# 2226 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 2226 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_undefined_ps(void)
 {
   return (__m128)__builtin_ia32_undef128();
 }
-# 2251 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 2251 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_set_ss(float __w)
 {
   return __extension__ (__m128){ __w, 0, 0, 0 };
 }
-# 2274 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 2274 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_set1_ps(float __w)
 {
   return __extension__ (__m128){ __w, __w, __w, __w };
 }
-# 2298 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 2298 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_set_ps1(float __w)
 {
     return _mm_set1_ps(__w);
 }
-# 2333 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 2333 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_set_ps(float __z, float __y, float __x, float __w)
 {
   return __extension__ (__m128){ __w, __x, __y, __z };
 }
-# 2369 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 2369 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_setr_ps(float __z, float __y, float __x, float __w)
 {
   return __extension__ (__m128){ __z, __y, __x, __w };
 }
-# 2388 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 2388 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_setzero_ps(void)
 {
-  return __extension__ (__m128){ 0.0f, 0.0f, 0.0f, 0.0f };
+  return __extension__ (__m128){ 0, 0, 0, 0 };
 }
-# 2409 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 2409 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ void __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_storeh_pi(__m64 *__p, __m128 __a)
 {
@@ -27412,7 +27406,7 @@ _mm_storeh_pi(__m64 *__p, __m128 __a)
   } __attribute__((__packed__, __may_alias__));
   ((struct __mm_storeh_pi_struct*)__p)->__u = __builtin_shufflevector(__a, __a, 2, 3);
 }
-# 2434 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 2434 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ void __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_storel_pi(__m64 *__p, __m128 __a)
 {
@@ -27422,7 +27416,7 @@ _mm_storel_pi(__m64 *__p, __m128 __a)
   } __attribute__((__packed__, __may_alias__));
   ((struct __mm_storeh_pi_struct*)__p)->__u = __builtin_shufflevector(__a, __a, 0, 1);
 }
-# 2459 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 2459 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ void __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_store_ss(float *__p, __m128 __a)
 {
@@ -27431,7 +27425,7 @@ _mm_store_ss(float *__p, __m128 __a)
   } __attribute__((__packed__, __may_alias__));
   ((struct __mm_store_ss_struct*)__p)->__u = __a[0];
 }
-# 2484 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 2484 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ void __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_storeu_ps(float *__p, __m128 __a)
 {
@@ -27440,39 +27434,39 @@ _mm_storeu_ps(float *__p, __m128 __a)
   } __attribute__((__packed__, __may_alias__));
   ((struct __storeu_ps*)__p)->__v = __a;
 }
-# 2509 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 2509 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ void __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_store_ps(float *__p, __m128 __a)
 {
   *(__m128*)__p = __a;
 }
-# 2532 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 2532 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ void __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_store1_ps(float *__p, __m128 __a)
 {
   __a = __builtin_shufflevector((__v4sf)__a, (__v4sf)__a, 0, 0, 0, 0);
   _mm_store_ps(__p, __a);
 }
-# 2556 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 2556 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ void __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_store_ps1(float *__p, __m128 __a)
 {
   _mm_store1_ps(__p, __a);
 }
-# 2579 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 2579 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ void __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_storer_ps(float *__p, __m128 __a)
 {
   __a = __builtin_shufflevector((__v4sf)__a, (__v4sf)__a, 3, 2, 1, 0);
   _mm_store_ps(__p, __a);
 }
-# 2645 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 2645 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ void __attribute__((__always_inline__, __nodebug__, __target__("mmx,sse"), __min_vector_width__(64)))
 _mm_stream_pi(__m64 *__p, __m64 __a)
 {
   __builtin_ia32_movntq(__p, __a);
 }
-# 2668 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 2668 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ void __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_stream_ps(float *__p, __m128 __a)
 {
@@ -27481,66 +27475,66 @@ _mm_stream_ps(float *__p, __m128 __a)
 
 
 extern "C" {
-# 2689 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 2689 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 void _mm_sfence(void);
 
 
 }
-# 2781 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 2781 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx,sse"), __min_vector_width__(64)))
 _mm_max_pi16(__m64 __a, __m64 __b)
 {
   return (__m64)__builtin_ia32_pmaxsw((__v4hi)__a, (__v4hi)__b);
 }
-# 2806 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 2806 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx,sse"), __min_vector_width__(64)))
 _mm_max_pu8(__m64 __a, __m64 __b)
 {
   return (__m64)__builtin_ia32_pmaxub((__v8qi)__a, (__v8qi)__b);
 }
-# 2831 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 2831 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx,sse"), __min_vector_width__(64)))
 _mm_min_pi16(__m64 __a, __m64 __b)
 {
   return (__m64)__builtin_ia32_pminsw((__v4hi)__a, (__v4hi)__b);
 }
-# 2856 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 2856 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx,sse"), __min_vector_width__(64)))
 _mm_min_pu8(__m64 __a, __m64 __b)
 {
   return (__m64)__builtin_ia32_pminub((__v8qi)__a, (__v8qi)__b);
 }
-# 2879 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 2879 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ int __attribute__((__always_inline__, __nodebug__, __target__("mmx,sse"), __min_vector_width__(64)))
 _mm_movemask_pi8(__m64 __a)
 {
   return __builtin_ia32_pmovmskb((__v8qi)__a);
 }
-# 2904 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 2904 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx,sse"), __min_vector_width__(64)))
 _mm_mulhi_pu16(__m64 __a, __m64 __b)
 {
   return (__m64)__builtin_ia32_pmulhuw((__v4hi)__a, (__v4hi)__b);
 }
-# 2978 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 2978 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ void __attribute__((__always_inline__, __nodebug__, __target__("mmx,sse"), __min_vector_width__(64)))
 _mm_maskmove_si64(__m64 __d, __m64 __n, char *__p)
 {
   __builtin_ia32_maskmovq((__v8qi)__d, (__v8qi)__n, __p);
 }
-# 3003 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 3003 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx,sse"), __min_vector_width__(64)))
 _mm_avg_pu8(__m64 __a, __m64 __b)
 {
   return (__m64)__builtin_ia32_pavgb((__v8qi)__a, (__v8qi)__b);
 }
-# 3028 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 3028 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx,sse"), __min_vector_width__(64)))
 _mm_avg_pu16(__m64 __a, __m64 __b)
 {
   return (__m64)__builtin_ia32_pavgw((__v4hi)__a, (__v4hi)__b);
 }
-# 3056 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 3056 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx,sse"), __min_vector_width__(64)))
 _mm_sad_pu8(__m64 __a, __m64 __b)
 {
@@ -27549,45 +27543,45 @@ _mm_sad_pu8(__m64 __a, __m64 __b)
 
 
 extern "C" {
-# 3079 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 3079 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 unsigned int _mm_getcsr(void);
-# 3092 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 3092 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 void _mm_setcsr(unsigned int __i);
 
 
 }
-# 3170 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 3170 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_unpackhi_ps(__m128 __a, __m128 __b)
 {
   return __builtin_shufflevector((__v4sf)__a, (__v4sf)__b, 2, 6, 3, 7);
 }
-# 3198 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 3198 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_unpacklo_ps(__m128 __a, __m128 __b)
 {
   return __builtin_shufflevector((__v4sf)__a, (__v4sf)__b, 0, 4, 1, 5);
 }
-# 3226 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 3226 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_move_ss(__m128 __a, __m128 __b)
 {
   __a[0] = __b[0];
   return __a;
 }
-# 3254 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 3254 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_movehl_ps(__m128 __a, __m128 __b)
 {
   return __builtin_shufflevector((__v4sf)__a, (__v4sf)__b, 6, 7, 2, 3);
 }
-# 3281 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 3281 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_movelh_ps(__m128 __a, __m128 __b)
 {
   return __builtin_shufflevector((__v4sf)__a, (__v4sf)__b, 0, 1, 4, 5);
 }
-# 3304 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 3304 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("mmx,sse"), __min_vector_width__(64)))
 _mm_cvtpi16_ps(__m64 __a)
 {
@@ -27605,7 +27599,7 @@ _mm_cvtpi16_ps(__m64 __a)
 
   return __r;
 }
-# 3339 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 3339 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("mmx,sse"), __min_vector_width__(64)))
 _mm_cvtpu16_ps(__m64 __a)
 {
@@ -27622,7 +27616,7 @@ _mm_cvtpu16_ps(__m64 __a)
 
   return __r;
 }
-# 3373 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 3373 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("mmx,sse"), __min_vector_width__(64)))
 _mm_cvtpi8_ps(__m64 __a)
 {
@@ -27634,7 +27628,7 @@ _mm_cvtpi8_ps(__m64 __a)
 
   return _mm_cvtpi16_ps(__b);
 }
-# 3403 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 3403 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("mmx,sse"), __min_vector_width__(64)))
 _mm_cvtpu8_ps(__m64 __a)
 {
@@ -27645,7 +27639,7 @@ _mm_cvtpu8_ps(__m64 __a)
 
   return _mm_cvtpi16_ps(__b);
 }
-# 3436 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 3436 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("mmx,sse"), __min_vector_width__(64)))
 _mm_cvtpi32x2_ps(__m64 __a, __m64 __b)
 {
@@ -27657,7 +27651,7 @@ _mm_cvtpi32x2_ps(__m64 __a, __m64 __b)
 
   return _mm_cvtpi32_ps(__c, __a);
 }
-# 3465 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 3465 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx,sse"), __min_vector_width__(64)))
 _mm_cvtps_pi16(__m128 __a)
 {
@@ -27669,7 +27663,7 @@ _mm_cvtps_pi16(__m128 __a)
 
   return _mm_packs_pi32(__b, __c);
 }
-# 3495 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 3495 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx,sse"), __min_vector_width__(64)))
 _mm_cvtps_pi8(__m128 __a)
 {
@@ -27680,17 +27674,17 @@ _mm_cvtps_pi8(__m128 __a)
 
   return _mm_packs_pi16(__b, __c);
 }
-# 3525 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 3525 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
 static __inline__ int __attribute__((__always_inline__, __nodebug__, __target__("sse"), __min_vector_width__(128)))
 _mm_movemask_ps(__m128 __a)
 {
   return __builtin_ia32_movmskps((__v4sf)__a);
 }
-# 3612 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 1 3 4
-# 17 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 1 3 4
-# 18 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 2 3 4
+# 3613 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 3 4
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 1 3 4
+# 17 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 1 3 4
+# 18 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 2 3 4
 
 typedef double __m128d __attribute__((__vector_size__(16), __aligned__(16)));
 typedef long long __m128i __attribute__((__vector_size__(16), __aligned__(16)));
@@ -27713,361 +27707,352 @@ typedef unsigned char __v16qu __attribute__((__vector_size__(16)));
 
 
 typedef signed char __v16qs __attribute__((__vector_size__(16)));
-
-
-
-typedef _Float16 __v8hf __attribute__((__vector_size__(16), __aligned__(16)));
-typedef _Float16 __m128h __attribute__((__vector_size__(16), __aligned__(16)));
-typedef _Float16 __m128h_u __attribute__((__vector_size__(16), __aligned__(1)));
-
-typedef __bf16 __v8bf __attribute__((__vector_size__(16), __aligned__(16)));
-typedef __bf16 __m128bh __attribute__((__vector_size__(16), __aligned__(16)));
-# 80 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 70 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_add_sd(__m128d __a,
                                                         __m128d __b) {
   __a[0] += __b[0];
   return __a;
 }
-# 104 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 94 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_add_pd(__m128d __a,
                                                         __m128d __b) {
   return (__m128d)((__v2df)__a + (__v2df)__b);
 }
-# 132 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 122 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_sub_sd(__m128d __a,
                                                         __m128d __b) {
   __a[0] -= __b[0];
   return __a;
 }
-# 156 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 146 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_sub_pd(__m128d __a,
                                                         __m128d __b) {
   return (__m128d)((__v2df)__a - (__v2df)__b);
 }
-# 183 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 173 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_mul_sd(__m128d __a,
                                                         __m128d __b) {
   __a[0] *= __b[0];
   return __a;
 }
-# 207 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 197 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_mul_pd(__m128d __a,
                                                         __m128d __b) {
   return (__m128d)((__v2df)__a * (__v2df)__b);
 }
-# 235 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 225 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_div_sd(__m128d __a,
                                                         __m128d __b) {
   __a[0] /= __b[0];
   return __a;
 }
-# 260 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 250 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_div_pd(__m128d __a,
                                                         __m128d __b) {
   return (__m128d)((__v2df)__a / (__v2df)__b);
 }
-# 290 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 280 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_sqrt_sd(__m128d __a,
                                                          __m128d __b) {
   __m128d __c = __builtin_ia32_sqrtsd((__v2df)__b);
   return __extension__(__m128d){__c[0], __a[1]};
 }
-# 312 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 302 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_sqrt_pd(__m128d __a) {
   return __builtin_ia32_sqrtpd((__v2df)__a);
 }
-# 340 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 330 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_min_sd(__m128d __a,
                                                         __m128d __b) {
   return __builtin_ia32_minsd((__v2df)__a, (__v2df)__b);
 }
-# 365 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 355 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_min_pd(__m128d __a,
                                                         __m128d __b) {
   return __builtin_ia32_minpd((__v2df)__a, (__v2df)__b);
 }
-# 394 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 384 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_max_sd(__m128d __a,
                                                         __m128d __b) {
   return __builtin_ia32_maxsd((__v2df)__a, (__v2df)__b);
 }
-# 419 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 409 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_max_pd(__m128d __a,
                                                         __m128d __b) {
   return __builtin_ia32_maxpd((__v2df)__a, (__v2df)__b);
 }
-# 442 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 432 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_and_pd(__m128d __a,
                                                         __m128d __b) {
   return (__m128d)((__v2du)__a & (__v2du)__b);
 }
-# 468 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 458 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_andnot_pd(__m128d __a,
                                                            __m128d __b) {
   return (__m128d)(~(__v2du)__a & (__v2du)__b);
 }
-# 491 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 481 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_or_pd(__m128d __a,
                                                        __m128d __b) {
   return (__m128d)((__v2du)__a | (__v2du)__b);
 }
-# 514 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 504 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_xor_pd(__m128d __a,
                                                         __m128d __b) {
   return (__m128d)((__v2du)__a ^ (__v2du)__b);
 }
-# 538 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 528 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_cmpeq_pd(__m128d __a,
                                                           __m128d __b) {
   return (__m128d)__builtin_ia32_cmpeqpd((__v2df)__a, (__v2df)__b);
 }
-# 563 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 553 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_cmplt_pd(__m128d __a,
                                                           __m128d __b) {
   return (__m128d)__builtin_ia32_cmpltpd((__v2df)__a, (__v2df)__b);
 }
-# 587 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 577 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_cmple_pd(__m128d __a,
                                                           __m128d __b) {
   return (__m128d)__builtin_ia32_cmplepd((__v2df)__a, (__v2df)__b);
 }
-# 611 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 601 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_cmpgt_pd(__m128d __a,
                                                           __m128d __b) {
   return (__m128d)__builtin_ia32_cmpltpd((__v2df)__b, (__v2df)__a);
 }
-# 635 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 625 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_cmpge_pd(__m128d __a,
                                                           __m128d __b) {
   return (__m128d)__builtin_ia32_cmplepd((__v2df)__b, (__v2df)__a);
 }
-# 659 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 649 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_cmpord_pd(__m128d __a,
                                                            __m128d __b) {
   return (__m128d)__builtin_ia32_cmpordpd((__v2df)__a, (__v2df)__b);
 }
-# 684 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 674 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_cmpunord_pd(__m128d __a,
                                                              __m128d __b) {
   return (__m128d)__builtin_ia32_cmpunordpd((__v2df)__a, (__v2df)__b);
 }
-# 708 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 698 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_cmpneq_pd(__m128d __a,
                                                            __m128d __b) {
   return (__m128d)__builtin_ia32_cmpneqpd((__v2df)__a, (__v2df)__b);
 }
-# 732 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 722 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_cmpnlt_pd(__m128d __a,
                                                            __m128d __b) {
   return (__m128d)__builtin_ia32_cmpnltpd((__v2df)__a, (__v2df)__b);
 }
-# 756 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 746 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_cmpnle_pd(__m128d __a,
                                                            __m128d __b) {
   return (__m128d)__builtin_ia32_cmpnlepd((__v2df)__a, (__v2df)__b);
 }
-# 780 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 770 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_cmpngt_pd(__m128d __a,
                                                            __m128d __b) {
   return (__m128d)__builtin_ia32_cmpnltpd((__v2df)__b, (__v2df)__a);
 }
-# 804 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 794 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_cmpnge_pd(__m128d __a,
                                                            __m128d __b) {
   return (__m128d)__builtin_ia32_cmpnlepd((__v2df)__b, (__v2df)__a);
 }
-# 830 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 820 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_cmpeq_sd(__m128d __a,
                                                           __m128d __b) {
   return (__m128d)__builtin_ia32_cmpeqsd((__v2df)__a, (__v2df)__b);
 }
-# 858 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 848 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_cmplt_sd(__m128d __a,
                                                           __m128d __b) {
   return (__m128d)__builtin_ia32_cmpltsd((__v2df)__a, (__v2df)__b);
 }
-# 886 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 876 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_cmple_sd(__m128d __a,
                                                           __m128d __b) {
   return (__m128d)__builtin_ia32_cmplesd((__v2df)__a, (__v2df)__b);
 }
-# 914 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 904 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_cmpgt_sd(__m128d __a,
                                                           __m128d __b) {
   __m128d __c = __builtin_ia32_cmpltsd((__v2df)__b, (__v2df)__a);
   return __extension__(__m128d){__c[0], __a[1]};
 }
-# 943 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 933 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_cmpge_sd(__m128d __a,
                                                           __m128d __b) {
   __m128d __c = __builtin_ia32_cmplesd((__v2df)__b, (__v2df)__a);
   return __extension__(__m128d){__c[0], __a[1]};
 }
-# 972 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 962 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_cmpord_sd(__m128d __a,
                                                            __m128d __b) {
   return (__m128d)__builtin_ia32_cmpordsd((__v2df)__a, (__v2df)__b);
 }
-# 1001 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 991 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_cmpunord_sd(__m128d __a,
                                                              __m128d __b) {
   return (__m128d)__builtin_ia32_cmpunordsd((__v2df)__a, (__v2df)__b);
 }
-# 1029 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 1019 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_cmpneq_sd(__m128d __a,
                                                            __m128d __b) {
   return (__m128d)__builtin_ia32_cmpneqsd((__v2df)__a, (__v2df)__b);
 }
-# 1057 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 1047 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_cmpnlt_sd(__m128d __a,
                                                            __m128d __b) {
   return (__m128d)__builtin_ia32_cmpnltsd((__v2df)__a, (__v2df)__b);
 }
-# 1085 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 1075 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_cmpnle_sd(__m128d __a,
                                                            __m128d __b) {
   return (__m128d)__builtin_ia32_cmpnlesd((__v2df)__a, (__v2df)__b);
 }
-# 1113 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 1103 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_cmpngt_sd(__m128d __a,
                                                            __m128d __b) {
   __m128d __c = __builtin_ia32_cmpnltsd((__v2df)__b, (__v2df)__a);
   return __extension__(__m128d){__c[0], __a[1]};
 }
-# 1142 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 1132 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_cmpnge_sd(__m128d __a,
                                                            __m128d __b) {
   __m128d __c = __builtin_ia32_cmpnlesd((__v2df)__b, (__v2df)__a);
   return __extension__(__m128d){__c[0], __a[1]};
 }
-# 1169 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 1159 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ int __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_comieq_sd(__m128d __a,
                                                        __m128d __b) {
   return __builtin_ia32_comisdeq((__v2df)__a, (__v2df)__b);
 }
-# 1197 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 1187 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ int __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_comilt_sd(__m128d __a,
                                                        __m128d __b) {
   return __builtin_ia32_comisdlt((__v2df)__a, (__v2df)__b);
 }
-# 1225 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 1215 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ int __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_comile_sd(__m128d __a,
                                                        __m128d __b) {
   return __builtin_ia32_comisdle((__v2df)__a, (__v2df)__b);
 }
-# 1253 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 1243 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ int __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_comigt_sd(__m128d __a,
                                                        __m128d __b) {
   return __builtin_ia32_comisdgt((__v2df)__a, (__v2df)__b);
 }
-# 1281 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 1271 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ int __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_comige_sd(__m128d __a,
                                                        __m128d __b) {
   return __builtin_ia32_comisdge((__v2df)__a, (__v2df)__b);
 }
-# 1309 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 1299 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ int __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_comineq_sd(__m128d __a,
                                                         __m128d __b) {
   return __builtin_ia32_comisdneq((__v2df)__a, (__v2df)__b);
 }
-# 1336 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 1326 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ int __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_ucomieq_sd(__m128d __a,
                                                         __m128d __b) {
   return __builtin_ia32_ucomisdeq((__v2df)__a, (__v2df)__b);
 }
-# 1364 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 1354 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ int __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_ucomilt_sd(__m128d __a,
                                                         __m128d __b) {
   return __builtin_ia32_ucomisdlt((__v2df)__a, (__v2df)__b);
 }
-# 1392 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 1382 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ int __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_ucomile_sd(__m128d __a,
                                                         __m128d __b) {
   return __builtin_ia32_ucomisdle((__v2df)__a, (__v2df)__b);
 }
-# 1420 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 1410 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ int __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_ucomigt_sd(__m128d __a,
                                                         __m128d __b) {
   return __builtin_ia32_ucomisdgt((__v2df)__a, (__v2df)__b);
 }
-# 1448 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 1438 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ int __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_ucomige_sd(__m128d __a,
                                                         __m128d __b) {
   return __builtin_ia32_ucomisdge((__v2df)__a, (__v2df)__b);
 }
-# 1476 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 1466 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ int __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_ucomineq_sd(__m128d __a,
                                                          __m128d __b) {
   return __builtin_ia32_ucomisdneq((__v2df)__a, (__v2df)__b);
 }
-# 1499 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 1489 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_cvtpd_ps(__m128d __a) {
   return __builtin_ia32_cvtpd2ps((__v2df)__a);
 }
-# 1522 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 1512 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_cvtps_pd(__m128 __a) {
   return (__m128d) __builtin_convertvector(
       __builtin_shufflevector((__v4sf)__a, (__v4sf)__a, 0, 1), __v2df);
 }
-# 1544 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 1534 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_cvtepi32_pd(__m128i __a) {
   return (__m128d) __builtin_convertvector(
       __builtin_shufflevector((__v4si)__a, (__v4si)__a, 0, 1), __v2df);
 }
-# 1567 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 1557 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_cvtpd_epi32(__m128d __a) {
   return __builtin_ia32_cvtpd2dq((__v2df)__a);
 }
-# 1587 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 1577 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ int __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_cvtsd_si32(__m128d __a) {
   return __builtin_ia32_cvtsd2si((__v2df)__a);
 }
-# 1616 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 1606 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_cvtsd_ss(__m128 __a,
                                                          __m128d __b) {
   return (__m128)__builtin_ia32_cvtsd2ss((__v4sf)__a, (__v2df)__b);
 }
-# 1644 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 1634 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_cvtsi32_sd(__m128d __a,
                                                             int __b) {
   __a[0] = __b;
   return __a;
 }
-# 1675 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 1665 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_cvtss_sd(__m128d __a,
                                                           __m128 __b) {
   __a[0] = __b[0];
   return __a;
 }
-# 1699 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 1689 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_cvttpd_epi32(__m128d __a) {
   return (__m128i)__builtin_ia32_cvttpd2dq((__v2df)__a);
 }
-# 1720 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 1710 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ int __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_cvttsd_si32(__m128d __a) {
   return __builtin_ia32_cvttsd2si((__v2df)__a);
 }
-# 1740 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 1730 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx,sse2"), __min_vector_width__(64))) _mm_cvtpd_pi32(__m128d __a) {
   return (__m64)__builtin_ia32_cvtpd2pi((__v2df)__a);
 }
-# 1760 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 1750 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx,sse2"), __min_vector_width__(64))) _mm_cvttpd_pi32(__m128d __a) {
   return (__m64)__builtin_ia32_cvttpd2pi((__v2df)__a);
 }
-# 1780 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 1770 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("mmx,sse2"), __min_vector_width__(64))) _mm_cvtpi32_pd(__m64 __a) {
   return __builtin_ia32_cvtpi2pd((__v2si)__a);
 }
-# 1800 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 1790 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ double __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_cvtsd_f64(__m128d __a) {
   return __a[0];
 }
-# 1820 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 1810 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_load_pd(double const *__dp) {
   return *(const __m128d *)__dp;
 }
-# 1841 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 1831 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_load1_pd(double const *__dp) {
   struct __mm_load1_pd_struct {
     double __u;
@@ -28075,19 +28060,19 @@ static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __targe
   double __u = ((const struct __mm_load1_pd_struct *)__dp)->__u;
   return __extension__(__m128d){__u, __u};
 }
-# 1873 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 1863 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_loadr_pd(double const *__dp) {
   __m128d __u = *(const __m128d *)__dp;
   return __builtin_shufflevector((__v2df)__u, (__v2df)__u, 1, 0);
 }
-# 1894 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 1884 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_loadu_pd(double const *__dp) {
   struct __loadu_pd {
     __m128d_u __v;
   } __attribute__((__packed__, __may_alias__));
   return ((const struct __loadu_pd *)__dp)->__v;
 }
-# 1917 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 1907 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_loadu_si64(void const *__a) {
   struct __loadu_si64 {
     long long __v;
@@ -28095,7 +28080,7 @@ static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __targe
   long long __u = ((const struct __loadu_si64 *)__a)->__v;
   return __extension__(__m128i)(__v2di){__u, 0LL};
 }
-# 1941 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 1931 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_loadu_si32(void const *__a) {
   struct __loadu_si32 {
     int __v;
@@ -28103,7 +28088,7 @@ static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __targe
   int __u = ((const struct __loadu_si32 *)__a)->__v;
   return __extension__(__m128i)(__v4si){__u, 0, 0, 0};
 }
-# 1965 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 1955 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_loadu_si16(void const *__a) {
   struct __loadu_si16 {
     short __v;
@@ -28111,7 +28096,7 @@ static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __targe
   short __u = ((const struct __loadu_si16 *)__a)->__v;
   return __extension__(__m128i)(__v8hi){__u, 0, 0, 0, 0, 0, 0, 0};
 }
-# 1989 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 1979 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_load_sd(double const *__dp) {
   struct __mm_load_sd_struct {
     double __u;
@@ -28119,7 +28104,7 @@ static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __targe
   double __u = ((const struct __mm_load_sd_struct *)__dp)->__u;
   return __extension__(__m128d){__u, 0};
 }
-# 2020 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 2010 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_loadh_pd(__m128d __a,
                                                           double const *__dp) {
   struct __mm_loadh_pd_struct {
@@ -28128,7 +28113,7 @@ static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __targe
   double __u = ((const struct __mm_loadh_pd_struct *)__dp)->__u;
   return __extension__(__m128d){__a[0], __u};
 }
-# 2052 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 2042 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_loadl_pd(__m128d __a,
                                                           double const *__dp) {
   struct __mm_loadl_pd_struct {
@@ -28137,43 +28122,43 @@ static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __targe
   double __u = ((const struct __mm_loadl_pd_struct *)__dp)->__u;
   return __extension__(__m128d){__u, __a[1]};
 }
-# 2076 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 2066 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_undefined_pd(void) {
   return (__m128d)__builtin_ia32_undef128();
 }
-# 2099 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 2089 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_set_sd(double __w) {
   return __extension__(__m128d){__w, 0};
 }
-# 2120 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 2110 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_set1_pd(double __w) {
   return __extension__(__m128d){__w, __w};
 }
-# 2141 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 2131 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_set_pd1(double __w) {
   return _mm_set1_pd(__w);
 }
-# 2165 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 2155 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_set_pd(double __w,
                                                         double __x) {
   return __extension__(__m128d){__x, __w};
 }
-# 2191 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 2181 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_setr_pd(double __w,
                                                          double __x) {
   return __extension__(__m128d){__w, __x};
 }
-# 2209 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 2199 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_setzero_pd(void) {
-  return __extension__(__m128d){0.0, 0.0};
+  return __extension__(__m128d){0, 0};
 }
-# 2234 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 2224 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_move_sd(__m128d __a,
                                                          __m128d __b) {
   __a[0] = __b[0];
   return __a;
 }
-# 2255 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 2245 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ void __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_store_sd(double *__dp,
                                                        __m128d __a) {
   struct __mm_store_sd_struct {
@@ -28181,23 +28166,23 @@ static __inline__ void __attribute__((__always_inline__, __nodebug__, __target__
   } __attribute__((__packed__, __may_alias__));
   ((struct __mm_store_sd_struct *)__dp)->__u = __a[0];
 }
-# 2280 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 2270 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ void __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_store_pd(double *__dp,
                                                        __m128d __a) {
   *(__m128d *)__dp = __a;
 }
-# 2303 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 2293 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ void __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_store1_pd(double *__dp,
                                                         __m128d __a) {
   __a = __builtin_shufflevector((__v2df)__a, (__v2df)__a, 0, 0);
   _mm_store_pd(__dp, __a);
 }
-# 2327 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 2317 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ void __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_store_pd1(double *__dp,
                                                         __m128d __a) {
   _mm_store1_pd(__dp, __a);
 }
-# 2348 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 2338 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ void __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_storeu_pd(double *__dp,
                                                         __m128d __a) {
   struct __storeu_pd {
@@ -28205,13 +28190,13 @@ static __inline__ void __attribute__((__always_inline__, __nodebug__, __target__
   } __attribute__((__packed__, __may_alias__));
   ((struct __storeu_pd *)__dp)->__v = __a;
 }
-# 2374 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 2364 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ void __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_storer_pd(double *__dp,
                                                         __m128d __a) {
   __a = __builtin_shufflevector((__v2df)__a, (__v2df)__a, 1, 0);
   *(__m128d *)__dp = __a;
 }
-# 2395 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 2385 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ void __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_storeh_pd(double *__dp,
                                                         __m128d __a) {
   struct __mm_storeh_pd_struct {
@@ -28219,7 +28204,7 @@ static __inline__ void __attribute__((__always_inline__, __nodebug__, __target__
   } __attribute__((__packed__, __may_alias__));
   ((struct __mm_storeh_pd_struct *)__dp)->__u = __a[1];
 }
-# 2418 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 2408 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ void __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_storel_pd(double *__dp,
                                                         __m128d __a) {
   struct __mm_storeh_pd_struct {
@@ -28227,357 +28212,357 @@ static __inline__ void __attribute__((__always_inline__, __nodebug__, __target__
   } __attribute__((__packed__, __may_alias__));
   ((struct __mm_storeh_pd_struct *)__dp)->__u = __a[0];
 }
-# 2446 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 2436 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_add_epi8(__m128i __a,
                                                           __m128i __b) {
   return (__m128i)((__v16qu)__a + (__v16qu)__b);
 }
-# 2471 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 2461 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_add_epi16(__m128i __a,
                                                            __m128i __b) {
   return (__m128i)((__v8hu)__a + (__v8hu)__b);
 }
-# 2496 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 2486 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_add_epi32(__m128i __a,
                                                            __m128i __b) {
   return (__m128i)((__v4su)__a + (__v4su)__b);
 }
-# 2519 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 2509 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx,sse2"), __min_vector_width__(64))) _mm_add_si64(__m64 __a,
                                                             __m64 __b) {
   return (__m64)__builtin_ia32_paddq((__v1di)__a, (__v1di)__b);
 }
-# 2544 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 2534 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_add_epi64(__m128i __a,
                                                            __m128i __b) {
   return (__m128i)((__v2du)__a + (__v2du)__b);
 }
-# 2570 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 2560 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_adds_epi8(__m128i __a,
                                                            __m128i __b) {
   return (__m128i)__builtin_elementwise_add_sat((__v16qs)__a, (__v16qs)__b);
 }
-# 2597 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 2587 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_adds_epi16(__m128i __a,
                                                             __m128i __b) {
   return (__m128i)__builtin_elementwise_add_sat((__v8hi)__a, (__v8hi)__b);
 }
-# 2623 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 2613 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_adds_epu8(__m128i __a,
                                                            __m128i __b) {
   return (__m128i)__builtin_elementwise_add_sat((__v16qu)__a, (__v16qu)__b);
 }
-# 2649 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 2639 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_adds_epu16(__m128i __a,
                                                             __m128i __b) {
   return (__m128i)__builtin_elementwise_add_sat((__v8hu)__a, (__v8hu)__b);
 }
-# 2674 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 2664 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_avg_epu8(__m128i __a,
                                                           __m128i __b) {
   return (__m128i)__builtin_ia32_pavgb128((__v16qi)__a, (__v16qi)__b);
 }
-# 2699 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 2689 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_avg_epu16(__m128i __a,
                                                            __m128i __b) {
   return (__m128i)__builtin_ia32_pavgw128((__v8hi)__a, (__v8hi)__b);
 }
-# 2725 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 2715 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_madd_epi16(__m128i __a,
                                                             __m128i __b) {
   return (__m128i)__builtin_ia32_pmaddwd128((__v8hi)__a, (__v8hi)__b);
 }
-# 2750 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 2740 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_max_epi16(__m128i __a,
                                                            __m128i __b) {
   return (__m128i)__builtin_elementwise_max((__v8hi)__a, (__v8hi)__b);
 }
-# 2775 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 2765 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_max_epu8(__m128i __a,
                                                           __m128i __b) {
   return (__m128i)__builtin_elementwise_max((__v16qu)__a, (__v16qu)__b);
 }
-# 2800 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 2790 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_min_epi16(__m128i __a,
                                                            __m128i __b) {
   return (__m128i)__builtin_elementwise_min((__v8hi)__a, (__v8hi)__b);
 }
-# 2825 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 2815 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_min_epu8(__m128i __a,
                                                           __m128i __b) {
   return (__m128i)__builtin_elementwise_min((__v16qu)__a, (__v16qu)__b);
 }
-# 2850 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 2840 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_mulhi_epi16(__m128i __a,
                                                              __m128i __b) {
   return (__m128i)__builtin_ia32_pmulhw128((__v8hi)__a, (__v8hi)__b);
 }
-# 2875 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 2865 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_mulhi_epu16(__m128i __a,
                                                              __m128i __b) {
   return (__m128i)__builtin_ia32_pmulhuw128((__v8hi)__a, (__v8hi)__b);
 }
-# 2900 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 2890 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_mullo_epi16(__m128i __a,
                                                              __m128i __b) {
   return (__m128i)((__v8hu)__a * (__v8hu)__b);
 }
-# 2924 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 2914 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx,sse2"), __min_vector_width__(64))) _mm_mul_su32(__m64 __a,
                                                             __m64 __b) {
   return __builtin_ia32_pmuludq((__v2si)__a, (__v2si)__b);
 }
-# 2948 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 2938 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_mul_epu32(__m128i __a,
                                                            __m128i __b) {
   return __builtin_ia32_pmuludq128((__v4si)__a, (__v4si)__b);
 }
-# 2975 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 2965 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_sad_epu8(__m128i __a,
                                                           __m128i __b) {
   return __builtin_ia32_psadbw128((__v16qi)__a, (__v16qi)__b);
 }
-# 2998 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 2988 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_sub_epi8(__m128i __a,
                                                           __m128i __b) {
   return (__m128i)((__v16qu)__a - (__v16qu)__b);
 }
-# 3021 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 3011 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_sub_epi16(__m128i __a,
                                                            __m128i __b) {
   return (__m128i)((__v8hu)__a - (__v8hu)__b);
 }
-# 3044 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 3034 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_sub_epi32(__m128i __a,
                                                            __m128i __b) {
   return (__m128i)((__v4su)__a - (__v4su)__b);
 }
-# 3068 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 3058 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx,sse2"), __min_vector_width__(64))) _mm_sub_si64(__m64 __a,
                                                             __m64 __b) {
   return (__m64)__builtin_ia32_psubq((__v1di)__a, (__v1di)__b);
 }
-# 3091 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 3081 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_sub_epi64(__m128i __a,
                                                            __m128i __b) {
   return (__m128i)((__v2du)__a - (__v2du)__b);
 }
-# 3117 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 3107 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_subs_epi8(__m128i __a,
                                                            __m128i __b) {
   return (__m128i)__builtin_elementwise_sub_sat((__v16qs)__a, (__v16qs)__b);
 }
-# 3143 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 3133 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_subs_epi16(__m128i __a,
                                                             __m128i __b) {
   return (__m128i)__builtin_elementwise_sub_sat((__v8hi)__a, (__v8hi)__b);
 }
-# 3168 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 3158 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_subs_epu8(__m128i __a,
                                                            __m128i __b) {
   return (__m128i)__builtin_elementwise_sub_sat((__v16qu)__a, (__v16qu)__b);
 }
-# 3193 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 3183 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_subs_epu16(__m128i __a,
                                                             __m128i __b) {
   return (__m128i)__builtin_elementwise_sub_sat((__v8hu)__a, (__v8hu)__b);
 }
-# 3216 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 3206 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_and_si128(__m128i __a,
                                                            __m128i __b) {
   return (__m128i)((__v2du)__a & (__v2du)__b);
 }
-# 3241 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 3231 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_andnot_si128(__m128i __a,
                                                               __m128i __b) {
   return (__m128i)(~(__v2du)__a & (__v2du)__b);
 }
-# 3263 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 3253 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_or_si128(__m128i __a,
                                                           __m128i __b) {
   return (__m128i)((__v2du)__a | (__v2du)__b);
 }
-# 3286 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 3276 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_xor_si128(__m128i __a,
                                                            __m128i __b) {
   return (__m128i)((__v2du)__a ^ (__v2du)__b);
 }
-# 3344 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 3334 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_slli_epi16(__m128i __a,
                                                             int __count) {
   return (__m128i)__builtin_ia32_psllwi128((__v8hi)__a, __count);
 }
-# 3368 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 3358 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_sll_epi16(__m128i __a,
                                                            __m128i __count) {
   return (__m128i)__builtin_ia32_psllw128((__v8hi)__a, (__v8hi)__count);
 }
-# 3392 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 3382 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_slli_epi32(__m128i __a,
                                                             int __count) {
   return (__m128i)__builtin_ia32_pslldi128((__v4si)__a, __count);
 }
-# 3416 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 3406 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_sll_epi32(__m128i __a,
                                                            __m128i __count) {
   return (__m128i)__builtin_ia32_pslld128((__v4si)__a, (__v4si)__count);
 }
-# 3440 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 3430 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_slli_epi64(__m128i __a,
                                                             int __count) {
   return __builtin_ia32_psllqi128((__v2di)__a, __count);
 }
-# 3464 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 3454 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_sll_epi64(__m128i __a,
                                                            __m128i __count) {
   return __builtin_ia32_psllq128((__v2di)__a, (__v2di)__count);
 }
-# 3489 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 3479 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_srai_epi16(__m128i __a,
                                                             int __count) {
   return (__m128i)__builtin_ia32_psrawi128((__v8hi)__a, __count);
 }
-# 3514 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 3504 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_sra_epi16(__m128i __a,
                                                            __m128i __count) {
   return (__m128i)__builtin_ia32_psraw128((__v8hi)__a, (__v8hi)__count);
 }
-# 3539 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 3529 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_srai_epi32(__m128i __a,
                                                             int __count) {
   return (__m128i)__builtin_ia32_psradi128((__v4si)__a, __count);
 }
-# 3564 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 3554 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_sra_epi32(__m128i __a,
                                                            __m128i __count) {
   return (__m128i)__builtin_ia32_psrad128((__v4si)__a, (__v4si)__count);
 }
-# 3622 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 3612 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_srli_epi16(__m128i __a,
                                                             int __count) {
   return (__m128i)__builtin_ia32_psrlwi128((__v8hi)__a, __count);
 }
-# 3646 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 3636 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_srl_epi16(__m128i __a,
                                                            __m128i __count) {
   return (__m128i)__builtin_ia32_psrlw128((__v8hi)__a, (__v8hi)__count);
 }
-# 3670 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 3660 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_srli_epi32(__m128i __a,
                                                             int __count) {
   return (__m128i)__builtin_ia32_psrldi128((__v4si)__a, __count);
 }
-# 3694 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 3684 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_srl_epi32(__m128i __a,
                                                            __m128i __count) {
   return (__m128i)__builtin_ia32_psrld128((__v4si)__a, (__v4si)__count);
 }
-# 3718 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 3708 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_srli_epi64(__m128i __a,
                                                             int __count) {
   return __builtin_ia32_psrlqi128((__v2di)__a, __count);
 }
-# 3742 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 3732 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_srl_epi64(__m128i __a,
                                                            __m128i __count) {
   return __builtin_ia32_psrlq128((__v2di)__a, (__v2di)__count);
 }
-# 3766 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 3756 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_cmpeq_epi8(__m128i __a,
                                                             __m128i __b) {
   return (__m128i)((__v16qi)__a == (__v16qi)__b);
 }
-# 3790 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 3780 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_cmpeq_epi16(__m128i __a,
                                                              __m128i __b) {
   return (__m128i)((__v8hi)__a == (__v8hi)__b);
 }
-# 3814 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 3804 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_cmpeq_epi32(__m128i __a,
                                                              __m128i __b) {
   return (__m128i)((__v4si)__a == (__v4si)__b);
 }
-# 3839 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 3829 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_cmpgt_epi8(__m128i __a,
                                                             __m128i __b) {
 
 
   return (__m128i)((__v16qs)__a > (__v16qs)__b);
 }
-# 3865 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 3855 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_cmpgt_epi16(__m128i __a,
                                                              __m128i __b) {
   return (__m128i)((__v8hi)__a > (__v8hi)__b);
 }
-# 3889 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 3879 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_cmpgt_epi32(__m128i __a,
                                                              __m128i __b) {
   return (__m128i)((__v4si)__a > (__v4si)__b);
 }
-# 3913 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 3903 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_cmplt_epi8(__m128i __a,
                                                             __m128i __b) {
   return _mm_cmpgt_epi8(__b, __a);
 }
-# 3937 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 3927 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_cmplt_epi16(__m128i __a,
                                                              __m128i __b) {
   return _mm_cmpgt_epi16(__b, __a);
 }
-# 3961 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 3951 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_cmplt_epi32(__m128i __a,
                                                              __m128i __b) {
   return _mm_cmpgt_epi32(__b, __a);
 }
-# 3990 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 3980 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_cvtsi64_sd(__m128d __a,
                                                             long long __b) {
   __a[0] = __b;
   return __a;
 }
-# 4012 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 4002 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ long long __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_cvtsd_si64(__m128d __a) {
   return __builtin_ia32_cvtsd2si64((__v2df)__a);
 }
-# 4033 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 4023 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ long long __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_cvttsd_si64(__m128d __a) {
   return __builtin_ia32_cvttsd2si64((__v2df)__a);
 }
-# 4052 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 4042 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_cvtepi32_ps(__m128i __a) {
   return (__m128) __builtin_convertvector((__v4si)__a, __v4sf);
 }
-# 4071 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 4061 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_cvtps_epi32(__m128 __a) {
   return (__m128i)__builtin_ia32_cvtps2dq((__v4sf)__a);
 }
-# 4091 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 4081 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_cvttps_epi32(__m128 __a) {
   return (__m128i)__builtin_ia32_cvttps2dq((__v4sf)__a);
 }
-# 4110 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 4100 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_cvtsi32_si128(int __a) {
   return __extension__(__m128i)(__v4si){__a, 0, 0, 0};
 }
-# 4130 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 4120 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_cvtsi64_si128(long long __a) {
   return __extension__(__m128i)(__v2di){__a, 0};
 }
-# 4150 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 4140 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ int __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_cvtsi128_si32(__m128i __a) {
   __v4si __b = (__v4si)__a;
   return __b[0];
 }
-# 4171 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 4161 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ long long __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_cvtsi128_si64(__m128i __a) {
   return __a[0];
 }
-# 4190 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 4180 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128)))
 _mm_load_si128(__m128i const *__p) {
   return *__p;
 }
-# 4210 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 4200 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128)))
 _mm_loadu_si128(__m128i_u const *__p) {
   struct __loadu_si128 {
@@ -28585,7 +28570,7 @@ _mm_loadu_si128(__m128i_u const *__p) {
   } __attribute__((__packed__, __may_alias__));
   return ((const struct __loadu_si128 *)__p)->__v;
 }
-# 4235 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 4225 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128)))
 _mm_loadl_epi64(__m128i_u const *__p) {
   struct __mm_loadl_epi64_struct {
@@ -28594,33 +28579,33 @@ _mm_loadl_epi64(__m128i_u const *__p) {
   return __extension__(__m128i){
       ((const struct __mm_loadl_epi64_struct *)__p)->__u, 0};
 }
-# 4257 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 4247 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_undefined_si128(void) {
   return (__m128i)__builtin_ia32_undef128();
 }
-# 4283 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 4273 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_set_epi64x(long long __q1,
                                                             long long __q0) {
   return __extension__(__m128i)(__v2di){__q0, __q1};
 }
-# 4310 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 4300 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_set_epi64(__m64 __q1,
                                                            __m64 __q0) {
   return _mm_set_epi64x((long long)__q1, (long long)__q0);
 }
-# 4345 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 4335 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_set_epi32(int __i3, int __i2,
                                                            int __i1, int __i0) {
   return __extension__(__m128i)(__v4si){__i0, __i1, __i2, __i3};
 }
-# 4396 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 4386 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128)))
 _mm_set_epi16(short __w7, short __w6, short __w5, short __w4, short __w3,
               short __w2, short __w1, short __w0) {
   return __extension__(__m128i)(__v8hi){__w0, __w1, __w2, __w3,
                                         __w4, __w5, __w6, __w7};
 }
-# 4465 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 4455 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128)))
 _mm_set_epi8(char __b15, char __b14, char __b13, char __b12, char __b11,
              char __b10, char __b9, char __b8, char __b7, char __b6, char __b5,
@@ -28629,45 +28614,45 @@ _mm_set_epi8(char __b15, char __b14, char __b13, char __b12, char __b11,
       __b0, __b1, __b2, __b3, __b4, __b5, __b6, __b7,
       __b8, __b9, __b10, __b11, __b12, __b13, __b14, __b15};
 }
-# 4492 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 4482 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_set1_epi64x(long long __q) {
   return _mm_set_epi64x(__q, __q);
 }
-# 4514 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 4504 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_set1_epi64(__m64 __q) {
   return _mm_set_epi64(__q, __q);
 }
-# 4536 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 4526 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_set1_epi32(int __i) {
   return _mm_set_epi32(__i, __i, __i, __i);
 }
-# 4558 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 4548 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_set1_epi16(short __w) {
   return _mm_set_epi16(__w, __w, __w, __w, __w, __w, __w, __w);
 }
-# 4580 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 4570 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_set1_epi8(char __b) {
   return _mm_set_epi8(__b, __b, __b, __b, __b, __b, __b, __b, __b, __b, __b,
                       __b, __b, __b, __b, __b);
 }
-# 4605 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 4595 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_setr_epi64(__m64 __q0,
                                                             __m64 __q1) {
   return _mm_set_epi64(__q1, __q0);
 }
-# 4635 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 4625 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_setr_epi32(int __i0, int __i1,
                                                             int __i2,
                                                             int __i3) {
   return _mm_set_epi32(__i3, __i2, __i1, __i0);
 }
-# 4678 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 4668 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128)))
 _mm_setr_epi16(short __w0, short __w1, short __w2, short __w3, short __w4,
                short __w5, short __w6, short __w7) {
   return _mm_set_epi16(__w7, __w6, __w5, __w4, __w3, __w2, __w1, __w0);
 }
-# 4745 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 4735 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128)))
 _mm_setr_epi8(char __b0, char __b1, char __b2, char __b3, char __b4, char __b5,
               char __b6, char __b7, char __b8, char __b9, char __b10,
@@ -28675,16 +28660,16 @@ _mm_setr_epi8(char __b0, char __b1, char __b2, char __b3, char __b4, char __b5,
   return _mm_set_epi8(__b15, __b14, __b13, __b12, __b11, __b10, __b9, __b8,
                       __b7, __b6, __b5, __b4, __b3, __b2, __b1, __b0);
 }
-# 4765 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 4755 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_setzero_si128(void) {
   return __extension__(__m128i)(__v2di){0LL, 0LL};
 }
-# 4785 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 4775 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ void __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_store_si128(__m128i *__p,
                                                           __m128i __b) {
   *__p = __b;
 }
-# 4804 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 4794 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ void __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_storeu_si128(__m128i_u *__p,
                                                            __m128i __b) {
   struct __storeu_si128 {
@@ -28692,7 +28677,7 @@ static __inline__ void __attribute__((__always_inline__, __nodebug__, __target__
   } __attribute__((__packed__, __may_alias__));
   ((struct __storeu_si128 *)__p)->__v = __b;
 }
-# 4828 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 4818 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ void __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_storeu_si64(void *__p,
                                                           __m128i __b) {
   struct __storeu_si64 {
@@ -28700,7 +28685,7 @@ static __inline__ void __attribute__((__always_inline__, __nodebug__, __target__
   } __attribute__((__packed__, __may_alias__));
   ((struct __storeu_si64 *)__p)->__v = ((__v2di)__b)[0];
 }
-# 4852 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 4842 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ void __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_storeu_si32(void *__p,
                                                           __m128i __b) {
   struct __storeu_si32 {
@@ -28708,7 +28693,7 @@ static __inline__ void __attribute__((__always_inline__, __nodebug__, __target__
   } __attribute__((__packed__, __may_alias__));
   ((struct __storeu_si32 *)__p)->__v = ((__v4si)__b)[0];
 }
-# 4876 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 4866 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ void __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_storeu_si16(void *__p,
                                                           __m128i __b) {
   struct __storeu_si16 {
@@ -28716,13 +28701,13 @@ static __inline__ void __attribute__((__always_inline__, __nodebug__, __target__
   } __attribute__((__packed__, __may_alias__));
   ((struct __storeu_si16 *)__p)->__v = ((__v8hi)__b)[0];
 }
-# 4906 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 4896 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ void __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_maskmoveu_si128(__m128i __d,
                                                               __m128i __n,
                                                               char *__p) {
   __builtin_ia32_maskmovdqu((__v16qi)__d, (__v16qi)__n, __p);
 }
-# 4929 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 4919 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ void __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_storel_epi64(__m128i_u *__p,
                                                            __m128i __a) {
   struct __mm_storel_epi64_struct {
@@ -28730,23 +28715,23 @@ static __inline__ void __attribute__((__always_inline__, __nodebug__, __target__
   } __attribute__((__packed__, __may_alias__));
   ((struct __mm_storel_epi64_struct *)__p)->__u = __a[0];
 }
-# 4952 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 4942 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ void __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_stream_pd(double *__p,
                                                         __m128d __a) {
   __builtin_nontemporal_store((__v2df)__a, (__v2df *)__p);
 }
-# 4971 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 4961 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ void __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_stream_si128(__m128i *__p,
                                                            __m128i __a) {
   __builtin_nontemporal_store((__v2di)__a, (__v2di *)__p);
 }
-# 4990 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 4980 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ void
     __attribute__((__always_inline__, __nodebug__, __target__("sse2")))
     _mm_stream_si32(int *__p, int __a) {
   __builtin_ia32_movnti(__p, __a);
 }
-# 5011 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 5001 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ void
     __attribute__((__always_inline__, __nodebug__, __target__("sse2")))
     _mm_stream_si64(long long *__p, long long __a) {
@@ -28756,505 +28741,505 @@ static __inline__ void
 
 
 extern "C" {
-# 5035 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 5025 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 void _mm_clflush(void const *__p);
-# 5048 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 5038 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 void _mm_lfence(void);
-# 5061 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 5051 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 void _mm_mfence(void);
 
 
 }
-# 5095 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 5085 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_packs_epi16(__m128i __a,
                                                              __m128i __b) {
   return (__m128i)__builtin_ia32_packsswb128((__v8hi)__a, (__v8hi)__b);
 }
-# 5128 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 5118 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_packs_epi32(__m128i __a,
                                                              __m128i __b) {
   return (__m128i)__builtin_ia32_packssdw128((__v4si)__a, (__v4si)__b);
 }
-# 5161 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 5151 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_packus_epi16(__m128i __a,
                                                               __m128i __b) {
   return (__m128i)__builtin_ia32_packuswb128((__v8hi)__a, (__v8hi)__b);
 }
-# 5254 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 5244 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ int __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_movemask_epi8(__m128i __a) {
   return __builtin_ia32_pmovmskb128((__v16qi)__a);
 }
-# 5411 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 5401 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_unpackhi_epi8(__m128i __a,
                                                                __m128i __b) {
   return (__m128i)__builtin_shufflevector(
       (__v16qi)__a, (__v16qi)__b, 8, 16 + 8, 9, 16 + 9, 10, 16 + 10, 11,
       16 + 11, 12, 16 + 12, 13, 16 + 13, 14, 16 + 14, 15, 16 + 15);
 }
-# 5445 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 5435 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_unpackhi_epi16(__m128i __a,
                                                                 __m128i __b) {
   return (__m128i)__builtin_shufflevector((__v8hi)__a, (__v8hi)__b, 4, 8 + 4, 5,
                                           8 + 5, 6, 8 + 6, 7, 8 + 7);
 }
-# 5474 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 5464 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_unpackhi_epi32(__m128i __a,
                                                                 __m128i __b) {
   return (__m128i)__builtin_shufflevector((__v4si)__a, (__v4si)__b, 2, 4 + 2, 3,
                                           4 + 3);
 }
-# 5501 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 5491 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_unpackhi_epi64(__m128i __a,
                                                                 __m128i __b) {
   return (__m128i)__builtin_shufflevector((__v2di)__a, (__v2di)__b, 1, 2 + 1);
 }
-# 5541 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 5531 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_unpacklo_epi8(__m128i __a,
                                                                __m128i __b) {
   return (__m128i)__builtin_shufflevector(
       (__v16qi)__a, (__v16qi)__b, 0, 16 + 0, 1, 16 + 1, 2, 16 + 2, 3, 16 + 3, 4,
       16 + 4, 5, 16 + 5, 6, 16 + 6, 7, 16 + 7);
 }
-# 5576 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 5566 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_unpacklo_epi16(__m128i __a,
                                                                 __m128i __b) {
   return (__m128i)__builtin_shufflevector((__v8hi)__a, (__v8hi)__b, 0, 8 + 0, 1,
                                           8 + 1, 2, 8 + 2, 3, 8 + 3);
 }
-# 5605 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 5595 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_unpacklo_epi32(__m128i __a,
                                                                 __m128i __b) {
   return (__m128i)__builtin_shufflevector((__v4si)__a, (__v4si)__b, 0, 4 + 0, 1,
                                           4 + 1);
 }
-# 5632 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 5622 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_unpacklo_epi64(__m128i __a,
                                                                 __m128i __b) {
   return (__m128i)__builtin_shufflevector((__v2di)__a, (__v2di)__b, 0, 2 + 0);
 }
-# 5653 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 5643 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_movepi64_pi64(__m128i __a) {
   return (__m64)__a[0];
 }
-# 5673 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 5663 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_movpi64_epi64(__m64 __a) {
   return __extension__(__m128i)(__v2di){(long long)__a, 0};
 }
-# 5694 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 5684 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_move_epi64(__m128i __a) {
   return __builtin_shufflevector((__v2di)__a, _mm_setzero_si128(), 0, 2);
 }
-# 5719 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 5709 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_unpackhi_pd(__m128d __a,
                                                              __m128d __b) {
   return __builtin_shufflevector((__v2df)__a, (__v2df)__b, 1, 2 + 1);
 }
-# 5745 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 5735 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_unpacklo_pd(__m128d __a,
                                                              __m128d __b) {
   return __builtin_shufflevector((__v2df)__a, (__v2df)__b, 0, 2 + 0);
 }
-# 5768 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 5758 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ int __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_movemask_pd(__m128d __a) {
   return __builtin_ia32_movmskpd((__v2df)__a);
 }
-# 5826 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 5816 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_castpd_ps(__m128d __a) {
   return (__m128)__a;
 }
-# 5846 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 5836 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_castpd_si128(__m128d __a) {
   return (__m128i)__a;
 }
-# 5866 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 5856 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_castps_pd(__m128 __a) {
   return (__m128d)__a;
 }
-# 5886 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 5876 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_castps_si128(__m128 __a) {
   return (__m128i)__a;
 }
-# 5906 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 5896 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_castsi128_ps(__m128i __a) {
   return (__m128)__a;
 }
-# 5926 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 5916 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse2"), __min_vector_width__(128))) _mm_castsi128_pd(__m128i __a) {
   return (__m128d)__a;
 }
 
 
 extern "C" {
-# 5943 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
+# 5933 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\emmintrin.h" 3 4
 void _mm_pause(void);
 
 
 }
-# 3613 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xmmintrin.h" 2 3 4
-# 27 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\immintrin.h" 2 3 4
-# 36 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\immintrin.h" 3 4
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\pmmintrin.h" 1 3 4
-# 38 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\pmmintrin.h" 3 4
+# 3614 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xmmintrin.h" 2 3 4
+# 27 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\immintrin.h" 2 3 4
+# 36 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\immintrin.h" 3 4
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\pmmintrin.h" 1 3 4
+# 38 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\pmmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse3"), __min_vector_width__(128)))
 _mm_lddqu_si128(__m128i_u const *__p)
 {
   return (__m128i)__builtin_ia32_lddqu((char const *)__p);
 }
-# 63 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\pmmintrin.h" 3 4
+# 63 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\pmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse3"), __min_vector_width__(128)))
 _mm_addsub_ps(__m128 __a, __m128 __b)
 {
   return __builtin_ia32_addsubps((__v4sf)__a, (__v4sf)__b);
 }
-# 92 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\pmmintrin.h" 3 4
+# 92 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\pmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse3"), __min_vector_width__(128)))
 _mm_hadd_ps(__m128 __a, __m128 __b)
 {
   return __builtin_ia32_haddps((__v4sf)__a, (__v4sf)__b);
 }
-# 121 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\pmmintrin.h" 3 4
+# 121 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\pmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse3"), __min_vector_width__(128)))
 _mm_hsub_ps(__m128 __a, __m128 __b)
 {
   return __builtin_ia32_hsubps((__v4sf)__a, (__v4sf)__b);
 }
-# 148 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\pmmintrin.h" 3 4
+# 148 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\pmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse3"), __min_vector_width__(128)))
 _mm_movehdup_ps(__m128 __a)
 {
   return __builtin_shufflevector((__v4sf)__a, (__v4sf)__a, 1, 1, 3, 3);
 }
-# 174 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\pmmintrin.h" 3 4
+# 174 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\pmmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse3"), __min_vector_width__(128)))
 _mm_moveldup_ps(__m128 __a)
 {
   return __builtin_shufflevector((__v4sf)__a, (__v4sf)__a, 0, 0, 2, 2);
 }
-# 199 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\pmmintrin.h" 3 4
+# 199 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\pmmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse3"), __min_vector_width__(128)))
 _mm_addsub_pd(__m128d __a, __m128d __b)
 {
   return __builtin_ia32_addsubpd((__v2df)__a, (__v2df)__b);
 }
-# 228 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\pmmintrin.h" 3 4
+# 228 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\pmmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse3"), __min_vector_width__(128)))
 _mm_hadd_pd(__m128d __a, __m128d __b)
 {
   return __builtin_ia32_haddpd((__v2df)__a, (__v2df)__b);
 }
-# 257 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\pmmintrin.h" 3 4
+# 257 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\pmmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse3"), __min_vector_width__(128)))
 _mm_hsub_pd(__m128d __a, __m128d __b)
 {
   return __builtin_ia32_hsubpd((__v2df)__a, (__v2df)__b);
 }
-# 303 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\pmmintrin.h" 3 4
+# 303 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\pmmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse3"), __min_vector_width__(128)))
 _mm_movedup_pd(__m128d __a)
 {
   return __builtin_shufflevector((__v2df)__a, (__v2df)__a, 0, 0);
 }
-# 331 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\pmmintrin.h" 3 4
+# 329 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\pmmintrin.h" 3 4
 static __inline__ void __attribute__((__always_inline__, __nodebug__, __target__("sse3"), __min_vector_width__(128)))
 _mm_monitor(void const *__p, unsigned __extensions, unsigned __hints)
 {
   __builtin_ia32_monitor(__p, __extensions, __hints);
 }
-# 359 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\pmmintrin.h" 3 4
+# 352 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\pmmintrin.h" 3 4
 static __inline__ void __attribute__((__always_inline__, __nodebug__, __target__("sse3"), __min_vector_width__(128)))
 _mm_mwait(unsigned __extensions, unsigned __hints)
 {
   __builtin_ia32_mwait(__extensions, __hints);
 }
-# 37 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\immintrin.h" 2 3 4
+# 37 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\immintrin.h" 2 3 4
 
 
 
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\tmmintrin.h" 1 3 4
-# 40 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\tmmintrin.h" 1 3 4
+# 40 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx,ssse3"), __min_vector_width__(64)))
 _mm_abs_pi8(__m64 __a)
 {
     return (__m64)__builtin_ia32_pabsb((__v8qi)__a);
 }
-# 63 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
+# 63 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("ssse3"), __min_vector_width__(64)))
 _mm_abs_epi8(__m128i __a)
 {
     return (__m128i)__builtin_elementwise_abs((__v16qs)__a);
 }
-# 86 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
+# 86 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx,ssse3"), __min_vector_width__(64)))
 _mm_abs_pi16(__m64 __a)
 {
     return (__m64)__builtin_ia32_pabsw((__v4hi)__a);
 }
-# 109 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
+# 109 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("ssse3"), __min_vector_width__(64)))
 _mm_abs_epi16(__m128i __a)
 {
     return (__m128i)__builtin_elementwise_abs((__v8hi)__a);
 }
-# 132 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
+# 132 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx,ssse3"), __min_vector_width__(64)))
 _mm_abs_pi32(__m64 __a)
 {
     return (__m64)__builtin_ia32_pabsd((__v2si)__a);
 }
-# 155 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
+# 155 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("ssse3"), __min_vector_width__(64)))
 _mm_abs_epi32(__m128i __a)
 {
     return (__m128i)__builtin_elementwise_abs((__v4si)__a);
 }
-# 244 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
+# 244 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("ssse3"), __min_vector_width__(64)))
 _mm_hadd_epi16(__m128i __a, __m128i __b)
 {
     return (__m128i)__builtin_ia32_phaddw128((__v8hi)__a, (__v8hi)__b);
 }
-# 273 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
+# 273 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("ssse3"), __min_vector_width__(64)))
 _mm_hadd_epi32(__m128i __a, __m128i __b)
 {
     return (__m128i)__builtin_ia32_phaddd128((__v4si)__a, (__v4si)__b);
 }
-# 302 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
+# 302 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx,ssse3"), __min_vector_width__(64)))
 _mm_hadd_pi16(__m64 __a, __m64 __b)
 {
     return (__m64)__builtin_ia32_phaddw((__v4hi)__a, (__v4hi)__b);
 }
-# 331 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
+# 331 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx,ssse3"), __min_vector_width__(64)))
 _mm_hadd_pi32(__m64 __a, __m64 __b)
 {
     return (__m64)__builtin_ia32_phaddd((__v2si)__a, (__v2si)__b);
 }
-# 362 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
+# 362 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("ssse3"), __min_vector_width__(64)))
 _mm_hadds_epi16(__m128i __a, __m128i __b)
 {
     return (__m128i)__builtin_ia32_phaddsw128((__v8hi)__a, (__v8hi)__b);
 }
-# 393 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
+# 393 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx,ssse3"), __min_vector_width__(64)))
 _mm_hadds_pi16(__m64 __a, __m64 __b)
 {
     return (__m64)__builtin_ia32_phaddsw((__v4hi)__a, (__v4hi)__b);
 }
-# 422 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
+# 422 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("ssse3"), __min_vector_width__(64)))
 _mm_hsub_epi16(__m128i __a, __m128i __b)
 {
     return (__m128i)__builtin_ia32_phsubw128((__v8hi)__a, (__v8hi)__b);
 }
-# 451 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
+# 451 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("ssse3"), __min_vector_width__(64)))
 _mm_hsub_epi32(__m128i __a, __m128i __b)
 {
     return (__m128i)__builtin_ia32_phsubd128((__v4si)__a, (__v4si)__b);
 }
-# 480 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
+# 480 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx,ssse3"), __min_vector_width__(64)))
 _mm_hsub_pi16(__m64 __a, __m64 __b)
 {
     return (__m64)__builtin_ia32_phsubw((__v4hi)__a, (__v4hi)__b);
 }
-# 509 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
+# 509 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx,ssse3"), __min_vector_width__(64)))
 _mm_hsub_pi32(__m64 __a, __m64 __b)
 {
     return (__m64)__builtin_ia32_phsubd((__v2si)__a, (__v2si)__b);
 }
-# 540 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
+# 540 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("ssse3"), __min_vector_width__(64)))
 _mm_hsubs_epi16(__m128i __a, __m128i __b)
 {
     return (__m128i)__builtin_ia32_phsubsw128((__v8hi)__a, (__v8hi)__b);
 }
-# 571 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
+# 571 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx,ssse3"), __min_vector_width__(64)))
 _mm_hsubs_pi16(__m64 __a, __m64 __b)
 {
     return (__m64)__builtin_ia32_phsubsw((__v4hi)__a, (__v4hi)__b);
 }
-# 607 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
+# 607 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("ssse3"), __min_vector_width__(64)))
 _mm_maddubs_epi16(__m128i __a, __m128i __b)
 {
     return (__m128i)__builtin_ia32_pmaddubsw128((__v16qi)__a, (__v16qi)__b);
 }
-# 639 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
+# 639 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx,ssse3"), __min_vector_width__(64)))
 _mm_maddubs_pi16(__m64 __a, __m64 __b)
 {
     return (__m64)__builtin_ia32_pmaddubsw((__v8qi)__a, (__v8qi)__b);
 }
-# 665 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
+# 665 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("ssse3"), __min_vector_width__(64)))
 _mm_mulhrs_epi16(__m128i __a, __m128i __b)
 {
     return (__m128i)__builtin_ia32_pmulhrsw128((__v8hi)__a, (__v8hi)__b);
 }
-# 691 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
+# 691 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx,ssse3"), __min_vector_width__(64)))
 _mm_mulhrs_pi16(__m64 __a, __m64 __b)
 {
     return (__m64)__builtin_ia32_pmulhrsw((__v4hi)__a, (__v4hi)__b);
 }
-# 723 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
+# 723 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("ssse3"), __min_vector_width__(64)))
 _mm_shuffle_epi8(__m128i __a, __m128i __b)
 {
     return (__m128i)__builtin_ia32_pshufb128((__v16qi)__a, (__v16qi)__b);
 }
-# 754 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
+# 754 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx,ssse3"), __min_vector_width__(64)))
 _mm_shuffle_pi8(__m64 __a, __m64 __b)
 {
     return (__m64)__builtin_ia32_pshufb((__v8qi)__a, (__v8qi)__b);
 }
-# 779 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
+# 779 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("ssse3"), __min_vector_width__(64)))
 _mm_sign_epi8(__m128i __a, __m128i __b)
 {
     return (__m128i)__builtin_ia32_psignb128((__v16qi)__a, (__v16qi)__b);
 }
-# 804 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
+# 804 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("ssse3"), __min_vector_width__(64)))
 _mm_sign_epi16(__m128i __a, __m128i __b)
 {
     return (__m128i)__builtin_ia32_psignw128((__v8hi)__a, (__v8hi)__b);
 }
-# 829 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
+# 829 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("ssse3"), __min_vector_width__(64)))
 _mm_sign_epi32(__m128i __a, __m128i __b)
 {
     return (__m128i)__builtin_ia32_psignd128((__v4si)__a, (__v4si)__b);
 }
-# 854 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
+# 854 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx,ssse3"), __min_vector_width__(64)))
 _mm_sign_pi8(__m64 __a, __m64 __b)
 {
     return (__m64)__builtin_ia32_psignb((__v8qi)__a, (__v8qi)__b);
 }
-# 879 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
+# 879 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx,ssse3"), __min_vector_width__(64)))
 _mm_sign_pi16(__m64 __a, __m64 __b)
 {
     return (__m64)__builtin_ia32_psignw((__v4hi)__a, (__v4hi)__b);
 }
-# 904 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
+# 904 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\tmmintrin.h" 3 4
 static __inline__ __m64 __attribute__((__always_inline__, __nodebug__, __target__("mmx,ssse3"), __min_vector_width__(64)))
 _mm_sign_pi32(__m64 __a, __m64 __b)
 {
     return (__m64)__builtin_ia32_psignd((__v2si)__a, (__v2si)__b);
 }
-# 42 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\immintrin.h" 2 3 4
+# 42 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\immintrin.h" 2 3 4
 
 
 
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\smmintrin.h" 1 3 4
-# 527 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\smmintrin.h" 1 3 4
+# 527 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
 static __inline__ __m128d __attribute__((__always_inline__, __nodebug__, __target__("sse4.1"), __min_vector_width__(128))) _mm_blendv_pd(__m128d __V1,
                                                            __m128d __V2,
                                                            __m128d __M) {
   return (__m128d)__builtin_ia32_blendvpd((__v2df)__V1, (__v2df)__V2,
                                           (__v2df)__M);
 }
-# 561 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
+# 561 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
 static __inline__ __m128 __attribute__((__always_inline__, __nodebug__, __target__("sse4.1"), __min_vector_width__(128))) _mm_blendv_ps(__m128 __V1,
                                                           __m128 __V2,
                                                           __m128 __M) {
   return (__m128)__builtin_ia32_blendvps((__v4sf)__V1, (__v4sf)__V2,
                                          (__v4sf)__M);
 }
-# 595 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
+# 595 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse4.1"), __min_vector_width__(128))) _mm_blendv_epi8(__m128i __V1,
                                                              __m128i __V2,
                                                              __m128i __M) {
   return (__m128i)__builtin_ia32_pblendvb128((__v16qi)__V1, (__v16qi)__V2,
                                              (__v16qi)__M);
 }
-# 657 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
+# 657 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse4.1"), __min_vector_width__(128))) _mm_mullo_epi32(__m128i __V1,
                                                              __m128i __V2) {
   return (__m128i)((__v4su)__V1 * (__v4su)__V2);
 }
-# 682 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
+# 682 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse4.1"), __min_vector_width__(128))) _mm_mul_epi32(__m128i __V1,
                                                            __m128i __V2) {
   return (__m128i)__builtin_ia32_pmuldq128((__v4si)__V1, (__v4si)__V2);
 }
-# 780 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
+# 780 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse4.1"), __min_vector_width__(128)))
 _mm_stream_load_si128(__m128i const *__V) {
   return (__m128i)__builtin_nontemporal_load((const __v2di *)__V);
 }
-# 805 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
+# 805 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse4.1"), __min_vector_width__(128))) _mm_min_epi8(__m128i __V1,
                                                           __m128i __V2) {
   return (__m128i)__builtin_elementwise_min((__v16qs)__V1, (__v16qs)__V2);
 }
-# 829 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
+# 829 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse4.1"), __min_vector_width__(128))) _mm_max_epi8(__m128i __V1,
                                                           __m128i __V2) {
   return (__m128i)__builtin_elementwise_max((__v16qs)__V1, (__v16qs)__V2);
 }
-# 853 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
+# 853 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse4.1"), __min_vector_width__(128))) _mm_min_epu16(__m128i __V1,
                                                            __m128i __V2) {
   return (__m128i)__builtin_elementwise_min((__v8hu)__V1, (__v8hu)__V2);
 }
-# 877 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
+# 877 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse4.1"), __min_vector_width__(128))) _mm_max_epu16(__m128i __V1,
                                                            __m128i __V2) {
   return (__m128i)__builtin_elementwise_max((__v8hu)__V1, (__v8hu)__V2);
 }
-# 901 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
+# 901 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse4.1"), __min_vector_width__(128))) _mm_min_epi32(__m128i __V1,
                                                            __m128i __V2) {
   return (__m128i)__builtin_elementwise_min((__v4si)__V1, (__v4si)__V2);
 }
-# 925 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
+# 925 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse4.1"), __min_vector_width__(128))) _mm_max_epi32(__m128i __V1,
                                                            __m128i __V2) {
   return (__m128i)__builtin_elementwise_max((__v4si)__V1, (__v4si)__V2);
 }
-# 949 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
+# 949 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse4.1"), __min_vector_width__(128))) _mm_min_epu32(__m128i __V1,
                                                            __m128i __V2) {
   return (__m128i)__builtin_elementwise_min((__v4su)__V1, (__v4su)__V2);
 }
-# 973 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
+# 973 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse4.1"), __min_vector_width__(128))) _mm_max_epu32(__m128i __V1,
                                                            __m128i __V2) {
   return (__m128i)__builtin_elementwise_max((__v4su)__V1, (__v4su)__V2);
 }
-# 1335 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
+# 1335 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
 static __inline__ int __attribute__((__always_inline__, __nodebug__, __target__("sse4.1"), __min_vector_width__(128))) _mm_testz_si128(__m128i __M,
                                                          __m128i __V) {
   return __builtin_ia32_ptestz128((__v2di)__M, (__v2di)__V);
 }
-# 1358 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
+# 1358 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
 static __inline__ int __attribute__((__always_inline__, __nodebug__, __target__("sse4.1"), __min_vector_width__(128))) _mm_testc_si128(__m128i __M,
                                                          __m128i __V) {
   return __builtin_ia32_ptestc128((__v2di)__M, (__v2di)__V);
 }
-# 1382 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
+# 1382 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
 static __inline__ int __attribute__((__always_inline__, __nodebug__, __target__("sse4.1"), __min_vector_width__(128))) _mm_testnzc_si128(__m128i __M,
                                                            __m128i __V) {
   return __builtin_ia32_ptestnzc128((__v2di)__M, (__v2di)__V);
 }
-# 1477 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
+# 1477 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse4.1"), __min_vector_width__(128))) _mm_cmpeq_epi64(__m128i __V1,
                                                              __m128i __V2) {
   return (__m128i)((__v2di)__V1 == (__v2di)__V2);
 }
-# 1501 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
+# 1501 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse4.1"), __min_vector_width__(128))) _mm_cvtepi8_epi16(__m128i __V) {
 
 
@@ -29263,77 +29248,77 @@ static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __targe
                               7),
       __v8hi);
 }
-# 1528 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
+# 1528 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse4.1"), __min_vector_width__(128))) _mm_cvtepi8_epi32(__m128i __V) {
 
 
   return (__m128i) __builtin_convertvector(
       __builtin_shufflevector((__v16qs)__V, (__v16qs)__V, 0, 1, 2, 3), __v4si);
 }
-# 1553 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
+# 1553 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse4.1"), __min_vector_width__(128))) _mm_cvtepi8_epi64(__m128i __V) {
 
 
   return (__m128i) __builtin_convertvector(
       __builtin_shufflevector((__v16qs)__V, (__v16qs)__V, 0, 1), __v2di);
 }
-# 1578 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
+# 1578 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse4.1"), __min_vector_width__(128))) _mm_cvtepi16_epi32(__m128i __V) {
   return (__m128i) __builtin_convertvector(
       __builtin_shufflevector((__v8hi)__V, (__v8hi)__V, 0, 1, 2, 3), __v4si);
 }
-# 1601 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
+# 1601 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse4.1"), __min_vector_width__(128))) _mm_cvtepi16_epi64(__m128i __V) {
   return (__m128i) __builtin_convertvector(
       __builtin_shufflevector((__v8hi)__V, (__v8hi)__V, 0, 1), __v2di);
 }
-# 1624 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
+# 1624 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse4.1"), __min_vector_width__(128))) _mm_cvtepi32_epi64(__m128i __V) {
   return (__m128i) __builtin_convertvector(
       __builtin_shufflevector((__v4si)__V, (__v4si)__V, 0, 1), __v2di);
 }
-# 1648 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
+# 1648 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse4.1"), __min_vector_width__(128))) _mm_cvtepu8_epi16(__m128i __V) {
   return (__m128i) __builtin_convertvector(
       __builtin_shufflevector((__v16qu)__V, (__v16qu)__V, 0, 1, 2, 3, 4, 5, 6,
                               7),
       __v8hi);
 }
-# 1673 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
+# 1673 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse4.1"), __min_vector_width__(128))) _mm_cvtepu8_epi32(__m128i __V) {
   return (__m128i) __builtin_convertvector(
       __builtin_shufflevector((__v16qu)__V, (__v16qu)__V, 0, 1, 2, 3), __v4si);
 }
-# 1696 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
+# 1696 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse4.1"), __min_vector_width__(128))) _mm_cvtepu8_epi64(__m128i __V) {
   return (__m128i) __builtin_convertvector(
       __builtin_shufflevector((__v16qu)__V, (__v16qu)__V, 0, 1), __v2di);
 }
-# 1719 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
+# 1719 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse4.1"), __min_vector_width__(128))) _mm_cvtepu16_epi32(__m128i __V) {
   return (__m128i) __builtin_convertvector(
       __builtin_shufflevector((__v8hu)__V, (__v8hu)__V, 0, 1, 2, 3), __v4si);
 }
-# 1742 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
+# 1742 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse4.1"), __min_vector_width__(128))) _mm_cvtepu16_epi64(__m128i __V) {
   return (__m128i) __builtin_convertvector(
       __builtin_shufflevector((__v8hu)__V, (__v8hu)__V, 0, 1), __v2di);
 }
-# 1765 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
+# 1765 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse4.1"), __min_vector_width__(128))) _mm_cvtepu32_epi64(__m128i __V) {
   return (__m128i) __builtin_convertvector(
       __builtin_shufflevector((__v4su)__V, (__v4su)__V, 0, 1), __v2di);
 }
-# 1799 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
+# 1799 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse4.1"), __min_vector_width__(128))) _mm_packus_epi32(__m128i __V1,
                                                               __m128i __V2) {
   return (__m128i)__builtin_ia32_packusdw128((__v4si)__V1, (__v4si)__V2);
 }
-# 1869 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
+# 1869 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse4.1"), __min_vector_width__(128))) _mm_minpos_epu16(__m128i __V) {
   return (__m128i)__builtin_ia32_phminposuw128((__v8hi)__V);
 }
-# 2790 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
+# 2790 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\smmintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse4.2"))) _mm_cmpgt_epi64(__m128i __V1,
                                                              __m128i __V2) {
   return (__m128i)((__v2di)__V1 > (__v2di)__V2);
@@ -29341,66 +29326,66 @@ static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __targe
 
 
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\popcntintrin.h" 1 3 4
-# 37 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\popcntintrin.h" 3 4
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\popcntintrin.h" 1 3 4
+# 37 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\popcntintrin.h" 3 4
 static __inline__ int __attribute__((__always_inline__, __nodebug__, __target__("popcnt"))) constexpr
 _mm_popcnt_u32(unsigned int __A)
 {
   return __builtin_popcount(__A);
 }
-# 59 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\popcntintrin.h" 3 4
+# 59 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\popcntintrin.h" 3 4
 static __inline__ long long __attribute__((__always_inline__, __nodebug__, __target__("popcnt"))) constexpr
 _mm_popcnt_u64(unsigned long long __A)
 {
   return __builtin_popcountll(__A);
 }
-# 2798 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\smmintrin.h" 2 3 4
-# 47 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\immintrin.h" 2 3 4
+# 2798 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\smmintrin.h" 2 3 4
+# 47 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\immintrin.h" 2 3 4
 
 
 
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\wmmintrin.h" 1 3 4
-# 19 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\wmmintrin.h" 3 4
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\__wmmintrin_aes.h" 1 3 4
-# 40 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\__wmmintrin_aes.h" 3 4
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\wmmintrin.h" 1 3 4
+# 19 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\wmmintrin.h" 3 4
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\__wmmintrin_aes.h" 1 3 4
+# 40 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\__wmmintrin_aes.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("aes"), __min_vector_width__(128)))
 _mm_aesenc_si128(__m128i __V, __m128i __R)
 {
   return (__m128i)__builtin_ia32_aesenc128((__v2di)__V, (__v2di)__R);
 }
-# 66 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\__wmmintrin_aes.h" 3 4
+# 66 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\__wmmintrin_aes.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("aes"), __min_vector_width__(128)))
 _mm_aesenclast_si128(__m128i __V, __m128i __R)
 {
   return (__m128i)__builtin_ia32_aesenclast128((__v2di)__V, (__v2di)__R);
 }
-# 92 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\__wmmintrin_aes.h" 3 4
+# 92 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\__wmmintrin_aes.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("aes"), __min_vector_width__(128)))
 _mm_aesdec_si128(__m128i __V, __m128i __R)
 {
   return (__m128i)__builtin_ia32_aesdec128((__v2di)__V, (__v2di)__R);
 }
-# 118 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\__wmmintrin_aes.h" 3 4
+# 118 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\__wmmintrin_aes.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("aes"), __min_vector_width__(128)))
 _mm_aesdeclast_si128(__m128i __V, __m128i __R)
 {
   return (__m128i)__builtin_ia32_aesdeclast128((__v2di)__V, (__v2di)__R);
 }
-# 140 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\__wmmintrin_aes.h" 3 4
+# 140 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\__wmmintrin_aes.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("aes"), __min_vector_width__(128)))
 _mm_aesimc_si128(__m128i __V)
 {
   return (__m128i)__builtin_ia32_aesimc128((__v2di)__V);
 }
-# 20 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\wmmintrin.h" 2 3 4
+# 20 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\wmmintrin.h" 2 3 4
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\__wmmintrin_pclmul.h" 1 3 4
-# 22 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\wmmintrin.h" 2 3 4
-# 52 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\immintrin.h" 2 3 4
-# 66 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\immintrin.h" 3 4
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 1 3 4
-# 17 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\__wmmintrin_pclmul.h" 1 3 4
+# 22 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\wmmintrin.h" 2 3 4
+# 52 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\immintrin.h" 2 3 4
+# 66 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\immintrin.h" 3 4
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 1 3 4
+# 17 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 typedef double __v4df __attribute__ ((__vector_size__ (32)));
 typedef float __v8sf __attribute__ ((__vector_size__ (32)));
 typedef long long __v4di __attribute__ ((__vector_size__ (32)));
@@ -29425,478 +29410,469 @@ typedef long long __m256i __attribute__((__vector_size__(32), __aligned__(32)));
 typedef float __m256_u __attribute__ ((__vector_size__ (32), __aligned__(1)));
 typedef double __m256d_u __attribute__((__vector_size__(32), __aligned__(1)));
 typedef long long __m256i_u __attribute__((__vector_size__(32), __aligned__(1)));
-
-
-
-typedef _Float16 __v16hf __attribute__((__vector_size__(32), __aligned__(32)));
-typedef _Float16 __m256h __attribute__((__vector_size__(32), __aligned__(32)));
-typedef _Float16 __m256h_u __attribute__((__vector_size__(32), __aligned__(1)));
-
-typedef __bf16 __v16bf __attribute__((__vector_size__(32), __aligned__(32)));
-typedef __bf16 __m256bh __attribute__((__vector_size__(32), __aligned__(32)));
-# 75 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 65 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256d __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_add_pd(__m256d __a, __m256d __b)
 {
   return (__m256d)((__v4df)__a+(__v4df)__b);
 }
-# 99 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 89 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256 __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_add_ps(__m256 __a, __m256 __b)
 {
   return (__m256)((__v8sf)__a+(__v8sf)__b);
 }
-# 123 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 113 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256d __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_sub_pd(__m256d __a, __m256d __b)
 {
   return (__m256d)((__v4df)__a-(__v4df)__b);
 }
-# 147 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 137 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256 __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_sub_ps(__m256 __a, __m256 __b)
 {
   return (__m256)((__v8sf)__a-(__v8sf)__b);
 }
-# 172 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 162 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256d __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_addsub_pd(__m256d __a, __m256d __b)
 {
   return (__m256d)__builtin_ia32_addsubpd256((__v4df)__a, (__v4df)__b);
 }
-# 197 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 187 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256 __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_addsub_ps(__m256 __a, __m256 __b)
 {
   return (__m256)__builtin_ia32_addsubps256((__v8sf)__a, (__v8sf)__b);
 }
-# 221 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 211 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256d __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_div_pd(__m256d __a, __m256d __b)
 {
   return (__m256d)((__v4df)__a/(__v4df)__b);
 }
-# 245 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 235 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256 __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_div_ps(__m256 __a, __m256 __b)
 {
   return (__m256)((__v8sf)__a/(__v8sf)__b);
 }
-# 270 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 260 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256d __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_max_pd(__m256d __a, __m256d __b)
 {
   return (__m256d)__builtin_ia32_maxpd256((__v4df)__a, (__v4df)__b);
 }
-# 295 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 285 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256 __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_max_ps(__m256 __a, __m256 __b)
 {
   return (__m256)__builtin_ia32_maxps256((__v8sf)__a, (__v8sf)__b);
 }
-# 320 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 310 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256d __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_min_pd(__m256d __a, __m256d __b)
 {
   return (__m256d)__builtin_ia32_minpd256((__v4df)__a, (__v4df)__b);
 }
-# 345 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 335 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256 __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_min_ps(__m256 __a, __m256 __b)
 {
   return (__m256)__builtin_ia32_minps256((__v8sf)__a, (__v8sf)__b);
 }
-# 369 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 359 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256d __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_mul_pd(__m256d __a, __m256d __b)
 {
   return (__m256d)((__v4df)__a * (__v4df)__b);
 }
-# 393 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 383 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256 __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_mul_ps(__m256 __a, __m256 __b)
 {
   return (__m256)((__v8sf)__a * (__v8sf)__b);
 }
-# 415 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 405 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256d __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_sqrt_pd(__m256d __a)
 {
   return (__m256d)__builtin_ia32_sqrtpd256((__v4df)__a);
 }
-# 437 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 427 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256 __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_sqrt_ps(__m256 __a)
 {
   return (__m256)__builtin_ia32_sqrtps256((__v8sf)__a);
 }
-# 459 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 449 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256 __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_rsqrt_ps(__m256 __a)
 {
   return (__m256)__builtin_ia32_rsqrtps256((__v8sf)__a);
 }
-# 481 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 471 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256 __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_rcp_ps(__m256 __a)
 {
   return (__m256)__builtin_ia32_rcpps256((__v8sf)__a);
 }
-# 671 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 661 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256d __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_and_pd(__m256d __a, __m256d __b)
 {
   return (__m256d)((__v4du)__a & (__v4du)__b);
 }
-# 695 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 685 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256 __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_and_ps(__m256 __a, __m256 __b)
 {
   return (__m256)((__v8su)__a & (__v8su)__b);
 }
-# 722 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 712 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256d __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_andnot_pd(__m256d __a, __m256d __b)
 {
   return (__m256d)(~(__v4du)__a & (__v4du)__b);
 }
-# 749 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 739 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256 __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_andnot_ps(__m256 __a, __m256 __b)
 {
   return (__m256)(~(__v8su)__a & (__v8su)__b);
 }
-# 773 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 763 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256d __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_or_pd(__m256d __a, __m256d __b)
 {
   return (__m256d)((__v4du)__a | (__v4du)__b);
 }
-# 797 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 787 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256 __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_or_ps(__m256 __a, __m256 __b)
 {
   return (__m256)((__v8su)__a | (__v8su)__b);
 }
-# 821 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 811 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256d __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_xor_pd(__m256d __a, __m256d __b)
 {
   return (__m256d)((__v4du)__a ^ (__v4du)__b);
 }
-# 845 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 835 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256 __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_xor_ps(__m256 __a, __m256 __b)
 {
   return (__m256)((__v8su)__a ^ (__v8su)__b);
 }
-# 875 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 865 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256d __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_hadd_pd(__m256d __a, __m256d __b)
 {
   return (__m256d)__builtin_ia32_haddpd256((__v4df)__a, (__v4df)__b);
 }
-# 904 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 894 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256 __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_hadd_ps(__m256 __a, __m256 __b)
 {
   return (__m256)__builtin_ia32_haddps256((__v8sf)__a, (__v8sf)__b);
 }
-# 933 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 923 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256d __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_hsub_pd(__m256d __a, __m256d __b)
 {
   return (__m256d)__builtin_ia32_hsubpd256((__v4df)__a, (__v4df)__b);
 }
-# 962 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 952 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256 __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_hsub_ps(__m256 __a, __m256 __b)
 {
   return (__m256)__builtin_ia32_hsubps256((__v8sf)__a, (__v8sf)__b);
 }
-# 998 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 988 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m128d __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(128)))
 _mm_permutevar_pd(__m128d __a, __m128i __c)
 {
   return (__m128d)__builtin_ia32_vpermilvarpd((__v2df)__a, (__v2di)__c);
 }
-# 1043 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 1033 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256d __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_permutevar_pd(__m256d __a, __m256i __c)
 {
   return (__m256d)__builtin_ia32_vpermilvarpd256((__v4df)__a, (__v4di)__c);
 }
-# 1105 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 1095 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m128 __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(128)))
 _mm_permutevar_ps(__m128 __a, __m128i __c)
 {
   return (__m128)__builtin_ia32_vpermilvarps((__v4sf)__a, (__v4si)__c);
 }
-# 1202 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 1192 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256 __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_permutevar_ps(__m256 __a, __m256i __c)
 {
   return (__m256)__builtin_ia32_vpermilvarps256((__v8sf)__a, (__v8si)__c);
 }
-# 1692 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 1682 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256d __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_blendv_pd(__m256d __a, __m256d __b, __m256d __c)
 {
   return (__m256d)__builtin_ia32_blendvpd256(
     (__v4df)__a, (__v4df)__b, (__v4df)__c);
 }
-# 1727 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 1717 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256 __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_blendv_ps(__m256 __a, __m256 __b, __m256 __c)
 {
   return (__m256)__builtin_ia32_blendvps256(
     (__v8sf)__a, (__v8sf)__b, (__v8sf)__c);
 }
-# 2556 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 2546 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256d __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_cvtepi32_pd(__m128i __a)
 {
   return (__m256d)__builtin_convertvector((__v4si)__a, __v4df);
 }
-# 2576 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 2566 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256 __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_cvtepi32_ps(__m256i __a)
 {
   return (__m256)__builtin_convertvector((__v8si)__a, __v8sf);
 }
-# 2597 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 2587 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m128 __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_cvtpd_ps(__m256d __a)
 {
   return (__m128)__builtin_ia32_cvtpd2ps256((__v4df) __a);
 }
-# 2617 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 2607 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256i __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_cvtps_epi32(__m256 __a)
 {
   return (__m256i)__builtin_ia32_cvtps2dq256((__v8sf) __a);
 }
-# 2638 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 2628 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256d __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_cvtps_pd(__m128 __a)
 {
   return (__m256d)__builtin_convertvector((__v4sf)__a, __v4df);
 }
-# 2660 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 2650 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m128i __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_cvttpd_epi32(__m256d __a)
 {
   return (__m128i)__builtin_ia32_cvttpd2dq256((__v4df) __a);
 }
-# 2682 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 2672 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m128i __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_cvtpd_epi32(__m256d __a)
 {
   return (__m128i)__builtin_ia32_cvtpd2dq256((__v4df) __a);
 }
-# 2703 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 2693 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256i __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_cvttps_epi32(__m256 __a)
 {
   return (__m256i)__builtin_ia32_cvttps2dq256((__v8sf) __a);
 }
-# 2724 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 2714 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline double __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_cvtsd_f64(__m256d __a)
 {
  return __a[0];
 }
-# 2745 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 2735 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline int __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_cvtsi256_si32(__m256i __a)
 {
  __v8si __b = (__v8si)__a;
  return __b[0];
 }
-# 2767 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 2757 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline float __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_cvtss_f32(__m256 __a)
 {
  return __a[0];
 }
-# 2798 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 2788 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256 __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_movehdup_ps(__m256 __a)
 {
   return __builtin_shufflevector((__v8sf)__a, (__v8sf)__a, 1, 1, 3, 3, 5, 5, 7, 7);
 }
-# 2828 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 2818 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256 __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_moveldup_ps(__m256 __a)
 {
   return __builtin_shufflevector((__v8sf)__a, (__v8sf)__a, 0, 0, 2, 2, 4, 4, 6, 6);
 }
-# 2855 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 2845 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256d __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_movedup_pd(__m256d __a)
 {
   return __builtin_shufflevector((__v4df)__a, (__v4df)__a, 0, 0, 2, 2);
 }
-# 2884 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 2874 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256d __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_unpackhi_pd(__m256d __a, __m256d __b)
 {
   return __builtin_shufflevector((__v4df)__a, (__v4df)__b, 1, 5, 1+2, 5+2);
 }
-# 2912 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 2902 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256d __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_unpacklo_pd(__m256d __a, __m256d __b)
 {
   return __builtin_shufflevector((__v4df)__a, (__v4df)__b, 0, 4, 0+2, 4+2);
 }
-# 2945 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 2935 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256 __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_unpackhi_ps(__m256 __a, __m256 __b)
 {
   return __builtin_shufflevector((__v8sf)__a, (__v8sf)__b, 2, 10, 2+1, 10+1, 6, 14, 6+1, 14+1);
 }
-# 2978 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 2968 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256 __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_unpacklo_ps(__m256 __a, __m256 __b)
 {
   return __builtin_shufflevector((__v8sf)__a, (__v8sf)__b, 0, 8, 0+1, 8+1, 4, 12, 4+1, 12+1);
 }
-# 3005 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 2995 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline int __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(128)))
 _mm_testz_pd(__m128d __a, __m128d __b)
 {
   return __builtin_ia32_vtestzpd((__v2df)__a, (__v2df)__b);
 }
-# 3031 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 3021 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline int __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(128)))
 _mm_testc_pd(__m128d __a, __m128d __b)
 {
   return __builtin_ia32_vtestcpd((__v2df)__a, (__v2df)__b);
 }
-# 3058 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 3048 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline int __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(128)))
 _mm_testnzc_pd(__m128d __a, __m128d __b)
 {
   return __builtin_ia32_vtestnzcpd((__v2df)__a, (__v2df)__b);
 }
-# 3084 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 3074 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline int __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(128)))
 _mm_testz_ps(__m128 __a, __m128 __b)
 {
   return __builtin_ia32_vtestzps((__v4sf)__a, (__v4sf)__b);
 }
-# 3110 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 3100 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline int __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(128)))
 _mm_testc_ps(__m128 __a, __m128 __b)
 {
   return __builtin_ia32_vtestcps((__v4sf)__a, (__v4sf)__b);
 }
-# 3137 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 3127 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline int __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(128)))
 _mm_testnzc_ps(__m128 __a, __m128 __b)
 {
   return __builtin_ia32_vtestnzcps((__v4sf)__a, (__v4sf)__b);
 }
-# 3163 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 3153 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline int __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_testz_pd(__m256d __a, __m256d __b)
 {
   return __builtin_ia32_vtestzpd256((__v4df)__a, (__v4df)__b);
 }
-# 3189 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 3179 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline int __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_testc_pd(__m256d __a, __m256d __b)
 {
   return __builtin_ia32_vtestcpd256((__v4df)__a, (__v4df)__b);
 }
-# 3216 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 3206 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline int __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_testnzc_pd(__m256d __a, __m256d __b)
 {
   return __builtin_ia32_vtestnzcpd256((__v4df)__a, (__v4df)__b);
 }
-# 3242 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 3232 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline int __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_testz_ps(__m256 __a, __m256 __b)
 {
   return __builtin_ia32_vtestzps256((__v8sf)__a, (__v8sf)__b);
 }
-# 3268 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 3258 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline int __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_testc_ps(__m256 __a, __m256 __b)
 {
   return __builtin_ia32_vtestcps256((__v8sf)__a, (__v8sf)__b);
 }
-# 3295 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 3285 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline int __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_testnzc_ps(__m256 __a, __m256 __b)
 {
   return __builtin_ia32_vtestnzcps256((__v8sf)__a, (__v8sf)__b);
 }
-# 3319 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 3309 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline int __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_testz_si256(__m256i __a, __m256i __b)
 {
   return __builtin_ia32_ptestz256((__v4di)__a, (__v4di)__b);
 }
-# 3343 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 3333 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline int __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_testc_si256(__m256i __a, __m256i __b)
 {
   return __builtin_ia32_ptestc256((__v4di)__a, (__v4di)__b);
 }
-# 3368 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 3358 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline int __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_testnzc_si256(__m256i __a, __m256i __b)
 {
   return __builtin_ia32_ptestnzc256((__v4di)__a, (__v4di)__b);
 }
-# 3392 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 3382 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline int __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_movemask_pd(__m256d __a)
 {
   return __builtin_ia32_movmskpd256((__v4df)__a);
 }
-# 3415 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 3405 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline int __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_movemask_ps(__m256 __a)
 {
   return __builtin_ia32_movmskps256((__v8sf)__a);
 }
-# 3430 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 3420 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline void __attribute__((__always_inline__, __nodebug__, __target__("avx")))
 _mm256_zeroall(void)
 {
   __builtin_ia32_vzeroall();
 }
-# 3444 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 3434 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline void __attribute__((__always_inline__, __nodebug__, __target__("avx")))
 _mm256_zeroupper(void)
 {
   __builtin_ia32_vzeroupper();
 }
-# 3468 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 3458 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m128 __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(128)))
 _mm_broadcast_ss(float const *__a)
 {
   float __f = *__a;
   return __extension__ (__m128)(__v4sf){ __f, __f, __f, __f };
 }
-# 3492 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 3482 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256d __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_broadcast_sd(double const *__a)
 {
   double __d = *__a;
   return __extension__ (__m256d)(__v4df){ __d, __d, __d, __d };
 }
-# 3516 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 3506 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256 __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_broadcast_ss(float const *__a)
 {
   float __f = *__a;
   return __extension__ (__m256)(__v8sf){ __f, __f, __f, __f, __f, __f, __f, __f };
 }
-# 3540 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 3530 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256d __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_broadcast_pd(__m128d const *__a)
 {
@@ -29904,7 +29880,7 @@ _mm256_broadcast_pd(__m128d const *__a)
   return (__m256d)__builtin_shufflevector((__v2df)__b, (__v2df)__b,
                                           0, 1, 0, 1);
 }
-# 3565 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 3555 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256 __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_broadcast_ps(__m128 const *__a)
 {
@@ -29912,19 +29888,19 @@ _mm256_broadcast_ps(__m128 const *__a)
   return (__m256)__builtin_shufflevector((__v4sf)__b, (__v4sf)__b,
                                          0, 1, 2, 3, 0, 1, 2, 3);
 }
-# 3590 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 3580 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256d __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_load_pd(double const *__p)
 {
   return *(const __m256d *)__p;
 }
-# 3611 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 3601 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256 __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_load_ps(float const *__p)
 {
   return *(const __m256 *)__p;
 }
-# 3633 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 3623 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256d __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_loadu_pd(double const *__p)
 {
@@ -29933,7 +29909,7 @@ _mm256_loadu_pd(double const *__p)
   } __attribute__((__packed__, __may_alias__));
   return ((const struct __loadu_pd*)__p)->__v;
 }
-# 3658 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 3648 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256 __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_loadu_ps(float const *__p)
 {
@@ -29942,13 +29918,13 @@ _mm256_loadu_ps(float const *__p)
   } __attribute__((__packed__, __may_alias__));
   return ((const struct __loadu_ps*)__p)->__v;
 }
-# 3683 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 3673 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256i __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_load_si256(__m256i const *__p)
 {
   return *__p;
 }
-# 3704 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 3694 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256i __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_loadu_si256(__m256i_u const *__p)
 {
@@ -29957,25 +29933,25 @@ _mm256_loadu_si256(__m256i_u const *__p)
   } __attribute__((__packed__, __may_alias__));
   return ((const struct __loadu_si256*)__p)->__v;
 }
-# 3730 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 3720 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256i __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_lddqu_si256(__m256i_u const *__p)
 {
   return (__m256i)__builtin_ia32_lddqu256((char const *)__p);
 }
-# 3754 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 3744 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline void __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_store_pd(double *__p, __m256d __a)
 {
   *(__m256d *)__p = __a;
 }
-# 3776 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 3766 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline void __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_store_ps(float *__p, __m256 __a)
 {
   *(__m256 *)__p = __a;
 }
-# 3798 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 3788 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline void __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_storeu_pd(double *__p, __m256d __a)
 {
@@ -29984,7 +29960,7 @@ _mm256_storeu_pd(double *__p, __m256d __a)
   } __attribute__((__packed__, __may_alias__));
   ((struct __storeu_pd*)__p)->__v = __a;
 }
-# 3822 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 3812 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline void __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_storeu_ps(float *__p, __m256 __a)
 {
@@ -29993,13 +29969,13 @@ _mm256_storeu_ps(float *__p, __m256 __a)
   } __attribute__((__packed__, __may_alias__));
   ((struct __storeu_ps*)__p)->__v = __a;
 }
-# 3847 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 3837 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline void __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_store_si256(__m256i *__p, __m256i __a)
 {
   *__p = __a;
 }
-# 3868 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 3858 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline void __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_storeu_si256(__m256i_u *__p, __m256i __a)
 {
@@ -30008,115 +29984,115 @@ _mm256_storeu_si256(__m256i_u *__p, __m256i __a)
   } __attribute__((__packed__, __may_alias__));
   ((struct __storeu_si256*)__p)->__v = __a;
 }
-# 3902 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 3892 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m128d __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(128)))
 _mm_maskload_pd(double const *__p, __m128i __m)
 {
   return (__m128d)__builtin_ia32_maskloadpd((const __v2df *)__p, (__v2di)__m);
 }
-# 3932 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 3922 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256d __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_maskload_pd(double const *__p, __m256i __m)
 {
   return (__m256d)__builtin_ia32_maskloadpd256((const __v4df *)__p,
                                                (__v4di)__m);
 }
-# 3963 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 3953 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m128 __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(128)))
 _mm_maskload_ps(float const *__p, __m128i __m)
 {
   return (__m128)__builtin_ia32_maskloadps((const __v4sf *)__p, (__v4si)__m);
 }
-# 3993 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 3983 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256 __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_maskload_ps(float const *__p, __m256i __m)
 {
   return (__m256)__builtin_ia32_maskloadps256((const __v8sf *)__p, (__v8si)__m);
 }
-# 4023 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 4013 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline void __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_maskstore_ps(float *__p, __m256i __m, __m256 __a)
 {
   __builtin_ia32_maskstoreps256((__v8sf *)__p, (__v8si)__m, (__v8sf)__a);
 }
-# 4052 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 4042 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline void __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(128)))
 _mm_maskstore_pd(double *__p, __m128i __m, __m128d __a)
 {
   __builtin_ia32_maskstorepd((__v2df *)__p, (__v2di)__m, (__v2df)__a);
 }
-# 4081 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 4071 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline void __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_maskstore_pd(double *__p, __m256i __m, __m256d __a)
 {
   __builtin_ia32_maskstorepd256((__v4df *)__p, (__v4di)__m, (__v4df)__a);
 }
-# 4110 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 4100 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline void __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(128)))
 _mm_maskstore_ps(float *__p, __m128i __m, __m128 __a)
 {
   __builtin_ia32_maskstoreps((__v4sf *)__p, (__v4si)__m, (__v4sf)__a);
 }
-# 4134 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 4124 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline void __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_stream_si256(__m256i *__a, __m256i __b)
 {
   typedef __v4di __v4di_aligned __attribute__((aligned(32)));
   __builtin_nontemporal_store((__v4di_aligned)__b, (__v4di_aligned*)__a);
 }
-# 4158 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 4148 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline void __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_stream_pd(double *__a, __m256d __b)
 {
   typedef __v4df __v4df_aligned __attribute__((aligned(32)));
   __builtin_nontemporal_store((__v4df_aligned)__b, (__v4df_aligned*)__a);
 }
-# 4183 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 4173 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline void __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_stream_ps(float *__p, __m256 __a)
 {
   typedef __v8sf __v8sf_aligned __attribute__((aligned(32)));
   __builtin_nontemporal_store((__v8sf_aligned)__a, (__v8sf_aligned*)__p);
 }
-# 4202 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 4192 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static __inline__ __m256d __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_undefined_pd(void)
 {
   return (__m256d)__builtin_ia32_undef256();
 }
-# 4219 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 4209 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static __inline__ __m256 __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_undefined_ps(void)
 {
   return (__m256)__builtin_ia32_undef256();
 }
-# 4236 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 4226 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static __inline__ __m256i __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_undefined_si256(void)
 {
   return (__m256i)__builtin_ia32_undef256();
 }
-# 4271 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 4261 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256d __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_set_pd(double __a, double __b, double __c, double __d)
 {
   return __extension__ (__m256d){ __d, __c, __b, __a };
 }
-# 4322 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 4312 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256 __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_set_ps(float __a, float __b, float __c, float __d,
               float __e, float __f, float __g, float __h)
 {
   return __extension__ (__m256){ __h, __g, __f, __e, __d, __c, __b, __a };
 }
-# 4366 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 4356 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256i __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_set_epi32(int __i0, int __i1, int __i2, int __i3,
                  int __i4, int __i5, int __i6, int __i7)
 {
   return __extension__ (__m256i)(__v8si){ __i7, __i6, __i5, __i4, __i3, __i2, __i1, __i0 };
 }
-# 4434 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 4424 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256i __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_set_epi16(short __w15, short __w14, short __w13, short __w12,
                  short __w11, short __w10, short __w09, short __w08,
@@ -30126,7 +30102,7 @@ _mm256_set_epi16(short __w15, short __w14, short __w13, short __w12,
   return __extension__ (__m256i)(__v16hi){ __w00, __w01, __w02, __w03, __w04, __w05, __w06,
     __w07, __w08, __w09, __w10, __w11, __w12, __w13, __w14, __w15 };
 }
-# 4553 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 4543 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256i __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_set_epi8(char __b31, char __b30, char __b29, char __b28,
                 char __b27, char __b26, char __b25, char __b24,
@@ -30144,33 +30120,33 @@ _mm256_set_epi8(char __b31, char __b30, char __b29, char __b28,
     __b24, __b25, __b26, __b27, __b28, __b29, __b30, __b31
   };
 }
-# 4596 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 4586 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256i __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_set_epi64x(long long __a, long long __b, long long __c, long long __d)
 {
   return __extension__ (__m256i)(__v4di){ __d, __c, __b, __a };
 }
-# 4633 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 4623 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256d __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_setr_pd(double __a, double __b, double __c, double __d)
 {
   return _mm256_set_pd(__d, __c, __b, __a);
 }
-# 4685 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 4675 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256 __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_setr_ps(float __a, float __b, float __c, float __d,
                float __e, float __f, float __g, float __h)
 {
   return _mm256_set_ps(__h, __g, __f, __e, __d, __c, __b, __a);
 }
-# 4729 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 4719 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256i __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_setr_epi32(int __i0, int __i1, int __i2, int __i3,
                   int __i4, int __i5, int __i6, int __i7)
 {
   return _mm256_set_epi32(__i7, __i6, __i5, __i4, __i3, __i2, __i1, __i0);
 }
-# 4797 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 4787 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256i __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_setr_epi16(short __w15, short __w14, short __w13, short __w12,
        short __w11, short __w10, short __w09, short __w08,
@@ -30182,7 +30158,7 @@ _mm256_setr_epi16(short __w15, short __w14, short __w13, short __w12,
                           __w08, __w09, __w10, __w11,
                           __w12, __w13, __w14, __w15);
 }
-# 4918 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 4908 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256i __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_setr_epi8(char __b31, char __b30, char __b29, char __b28,
                  char __b27, char __b26, char __b25, char __b24,
@@ -30198,38 +30174,38 @@ _mm256_setr_epi8(char __b31, char __b30, char __b29, char __b28,
                          __b16, __b17, __b18, __b19, __b20, __b21, __b22, __b23,
                          __b24, __b25, __b26, __b27, __b28, __b29, __b30, __b31);
 }
-# 4959 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 4949 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256i __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_setr_epi64x(long long __a, long long __b, long long __c, long long __d)
 {
   return _mm256_set_epi64x(__d, __c, __b, __a);
 }
-# 4983 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 4973 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256d __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_set1_pd(double __w)
 {
   return _mm256_set_pd(__w, __w, __w, __w);
 }
-# 5007 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 4997 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256 __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_set1_ps(float __w)
 {
   return _mm256_set_ps(__w, __w, __w, __w, __w, __w, __w, __w);
 }
-# 5031 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 5021 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256i __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_set1_epi32(int __i)
 {
   return _mm256_set_epi32(__i, __i, __i, __i, __i, __i, __i, __i);
 }
-# 5054 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 5044 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256i __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_set1_epi16(short __w)
 {
   return _mm256_set_epi16(__w, __w, __w, __w, __w, __w, __w, __w,
                           __w, __w, __w, __w, __w, __w, __w, __w);
 }
-# 5077 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 5067 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256i __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_set1_epi8(char __b)
 {
@@ -30238,175 +30214,175 @@ _mm256_set1_epi8(char __b)
                          __b, __b, __b, __b, __b, __b, __b, __b,
                          __b, __b, __b, __b, __b, __b, __b, __b);
 }
-# 5103 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 5093 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256i __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_set1_epi64x(long long __q)
 {
   return _mm256_set_epi64x(__q, __q, __q, __q);
 }
-# 5122 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 5112 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256d __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_setzero_pd(void)
 {
-  return __extension__ (__m256d){ 0.0, 0.0, 0.0, 0.0 };
+  return __extension__ (__m256d){ 0, 0, 0, 0 };
 }
-# 5140 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 5130 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256 __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_setzero_ps(void)
 {
-  return __extension__ (__m256){ 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f };
+  return __extension__ (__m256){ 0, 0, 0, 0, 0, 0, 0, 0 };
 }
-# 5157 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 5147 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256i __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_setzero_si256(void)
 {
   return __extension__ (__m256i)(__v4di){ 0, 0, 0, 0 };
 }
-# 5180 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 5170 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256 __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_castpd_ps(__m256d __a)
 {
   return (__m256)__a;
 }
-# 5202 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 5192 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256i __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_castpd_si256(__m256d __a)
 {
   return (__m256i)__a;
 }
-# 5224 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 5214 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256d __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_castps_pd(__m256 __a)
 {
   return (__m256d)__a;
 }
-# 5246 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 5236 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256i __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_castps_si256(__m256 __a)
 {
   return (__m256i)__a;
 }
-# 5268 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 5258 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256 __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_castsi256_ps(__m256i __a)
 {
   return (__m256)__a;
 }
-# 5290 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 5280 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256d __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_castsi256_pd(__m256i __a)
 {
   return (__m256d)__a;
 }
-# 5312 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 5302 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m128d __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_castpd256_pd128(__m256d __a)
 {
   return __builtin_shufflevector((__v4df)__a, (__v4df)__a, 0, 1);
 }
-# 5334 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 5324 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m128 __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_castps256_ps128(__m256 __a)
 {
   return __builtin_shufflevector((__v8sf)__a, (__v8sf)__a, 0, 1, 2, 3);
 }
-# 5355 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 5345 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m128i __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_castsi256_si128(__m256i __a)
 {
   return __builtin_shufflevector((__v4di)__a, (__v4di)__a, 0, 1);
 }
-# 5378 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 5368 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256d __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_castpd128_pd256(__m128d __a)
 {
   return __builtin_shufflevector((__v2df)__a, (__v2df)__a, 0, 1, -1, -1);
 }
-# 5401 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 5391 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256 __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_castps128_ps256(__m128 __a)
 {
   return __builtin_shufflevector((__v4sf)__a, (__v4sf)__a, 0, 1, 2, 3, -1, -1, -1, -1);
 }
-# 5422 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 5412 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256i __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_castsi128_si256(__m128i __a)
 {
   return __builtin_shufflevector((__v2di)__a, (__v2di)__a, 0, 1, -1, -1);
 }
-# 5446 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 5436 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256d __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_zextpd128_pd256(__m128d __a)
 {
   return __builtin_shufflevector((__v2df)__a, (__v2df)_mm_setzero_pd(), 0, 1, 2, 3);
 }
-# 5469 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 5459 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256 __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_zextps128_ps256(__m128 __a)
 {
   return __builtin_shufflevector((__v4sf)__a, (__v4sf)_mm_setzero_ps(), 0, 1, 2, 3, 4, 5, 6, 7);
 }
-# 5492 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 5482 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256i __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_zextsi128_si256(__m128i __a)
 {
   return __builtin_shufflevector((__v2di)__a, (__v2di)_mm_setzero_si128(), 0, 1, 2, 3);
 }
-# 5745 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 5735 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256 __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_set_m128 (__m128 __hi, __m128 __lo)
 {
   return (__m256) __builtin_shufflevector((__v4sf)__lo, (__v4sf)__hi, 0, 1, 2, 3, 4, 5, 6, 7);
 }
-# 5772 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 5762 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256d __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_set_m128d (__m128d __hi, __m128d __lo)
 {
   return (__m256d) __builtin_shufflevector((__v2df)__lo, (__v2df)__hi, 0, 1, 2, 3);
 }
-# 5798 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 5788 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256i __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_set_m128i (__m128i __hi, __m128i __lo)
 {
   return (__m256i) __builtin_shufflevector((__v2di)__lo, (__v2di)__hi, 0, 1, 2, 3);
 }
-# 5827 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 5817 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256 __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_setr_m128 (__m128 __lo, __m128 __hi)
 {
   return _mm256_set_m128(__hi, __lo);
 }
-# 5856 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 5846 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256d __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_setr_m128d (__m128d __lo, __m128d __hi)
 {
   return (__m256d)_mm256_set_m128d(__hi, __lo);
 }
-# 5883 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 5873 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256i __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_setr_m128i (__m128i __lo, __m128i __hi)
 {
   return (__m256i)_mm256_set_m128i(__hi, __lo);
 }
-# 5917 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 5907 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256 __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_loadu2_m128(float const *__addr_hi, float const *__addr_lo)
 {
   return _mm256_set_m128(_mm_loadu_ps(__addr_hi), _mm_loadu_ps(__addr_lo));
 }
-# 5950 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 5940 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256d __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_loadu2_m128d(double const *__addr_hi, double const *__addr_lo)
 {
   return _mm256_set_m128d(_mm_loadu_pd(__addr_hi), _mm_loadu_pd(__addr_lo));
 }
-# 5980 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 5970 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline __m256i __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_loadu2_m128i(__m128i_u const *__addr_hi, __m128i_u const *__addr_lo)
 {
    return _mm256_set_m128i(_mm_loadu_si128(__addr_hi), _mm_loadu_si128(__addr_lo));
 }
-# 6010 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 6000 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline void __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_storeu2_m128(float *__addr_hi, float *__addr_lo, __m256 __a)
 {
@@ -30417,7 +30393,7 @@ _mm256_storeu2_m128(float *__addr_hi, float *__addr_lo, __m256 __a)
   __v128 = ((__m128)__builtin_ia32_vextractf128_ps256((__v8sf)(__m256)(__a), (int)(1)));
   _mm_storeu_ps(__addr_hi, __v128);
 }
-# 6044 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 6034 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline void __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_storeu2_m128d(double *__addr_hi, double *__addr_lo, __m256d __a)
 {
@@ -30428,7 +30404,7 @@ _mm256_storeu2_m128d(double *__addr_hi, double *__addr_lo, __m256d __a)
   __v128 = ((__m128d)__builtin_ia32_vextractf128_pd256((__v4df)(__m256d)(__a), (int)(1)));
   _mm_storeu_pd(__addr_hi, __v128);
 }
-# 6078 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
+# 6068 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\avxintrin.h" 3 4
 static inline void __attribute__((__always_inline__, __nodebug__, __target__("avx"), __min_vector_width__(256)))
 _mm256_storeu2_m128i(__m128i_u *__addr_hi, __m128i_u *__addr_lo, __m256i __a)
 {
@@ -30439,10 +30415,10 @@ _mm256_storeu2_m128i(__m128i_u *__addr_hi, __m128i_u *__addr_lo, __m256i __a)
   __v128 = ((__m128i)__builtin_ia32_vextractf128_si256((__v8si)(__m256i)(__a), (int)(1)));
   _mm_storeu_si128(__addr_hi, __v128);
 }
-# 67 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\immintrin.h" 2 3 4
-# 76 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\immintrin.h" 3 4
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\f16cintrin.h" 1 3 4
-# 43 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\f16cintrin.h" 3 4
+# 67 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\immintrin.h" 2 3 4
+# 76 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\immintrin.h" 3 4
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\f16cintrin.h" 1 3 4
+# 43 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\f16cintrin.h" 3 4
 static inline float __attribute__((__always_inline__, __nodebug__, __target__("f16c"), __min_vector_width__(128)))
 _cvtsh_ss(unsigned short __a)
 {
@@ -30450,136 +30426,136 @@ _cvtsh_ss(unsigned short __a)
   __v4sf __r = __builtin_ia32_vcvtph2ps(__v);
   return __r[0];
 }
-# 131 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\f16cintrin.h" 3 4
+# 131 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\f16cintrin.h" 3 4
 static inline __m128 __attribute__((__always_inline__, __nodebug__, __target__("f16c"), __min_vector_width__(128)))
 _mm_cvtph_ps(__m128i __a)
 {
   return (__m128)__builtin_ia32_vcvtph2ps((__v8hi)__a);
 }
-# 186 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\f16cintrin.h" 3 4
+# 186 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\f16cintrin.h" 3 4
 static inline __m256 __attribute__((__always_inline__, __nodebug__, __target__("f16c"), __min_vector_width__(256)))
 _mm256_cvtph_ps(__m128i __a)
 {
   return (__m256)__builtin_ia32_vcvtph2ps256((__v8hi)__a);
 }
-# 77 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\immintrin.h" 2 3 4
+# 77 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\immintrin.h" 2 3 4
 
 
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\bmiintrin.h" 1 3 4
-# 56 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\bmiintrin.h" 3 4
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\bmiintrin.h" 1 3 4
+# 56 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\bmiintrin.h" 3 4
 static __inline__ unsigned short __attribute__((__always_inline__, __nodebug__))
 __tzcnt_u16(unsigned short __X)
 {
   return __builtin_ia32_tzcnt_u16(__X);
 }
-# 78 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\bmiintrin.h" 3 4
+# 78 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\bmiintrin.h" 3 4
 static __inline__ unsigned int __attribute__((__always_inline__, __nodebug__))
 __tzcnt_u32(unsigned int __X)
 {
   return __builtin_ia32_tzcnt_u32(__X);
 }
-# 100 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\bmiintrin.h" 3 4
+# 100 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\bmiintrin.h" 3 4
 static __inline__ int __attribute__((__always_inline__, __nodebug__))
 _mm_tzcnt_32(unsigned int __X)
 {
   return (int)__builtin_ia32_tzcnt_u32(__X);
 }
-# 126 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\bmiintrin.h" 3 4
+# 126 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\bmiintrin.h" 3 4
 static __inline__ unsigned long long __attribute__((__always_inline__, __nodebug__))
 __tzcnt_u64(unsigned long long __X)
 {
   return __builtin_ia32_tzcnt_u64(__X);
 }
-# 148 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\bmiintrin.h" 3 4
+# 148 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\bmiintrin.h" 3 4
 static __inline__ long long __attribute__((__always_inline__, __nodebug__))
 _mm_tzcnt_64(unsigned long long __X)
 {
   return (long long)__builtin_ia32_tzcnt_u64(__X);
 }
-# 194 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\bmiintrin.h" 3 4
+# 194 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\bmiintrin.h" 3 4
 static __inline__ unsigned int __attribute__((__always_inline__, __nodebug__, __target__("bmi")))
 __andn_u32(unsigned int __X, unsigned int __Y)
 {
   return ~__X & __Y;
 }
-# 223 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\bmiintrin.h" 3 4
+# 223 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\bmiintrin.h" 3 4
 static __inline__ unsigned int __attribute__((__always_inline__, __nodebug__, __target__("bmi")))
 __bextr_u32(unsigned int __X, unsigned int __Y)
 {
   return __builtin_ia32_bextr_u32(__X, __Y);
 }
-# 255 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\bmiintrin.h" 3 4
+# 255 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\bmiintrin.h" 3 4
 static __inline__ unsigned int __attribute__((__always_inline__, __nodebug__, __target__("bmi")))
 _bextr_u32(unsigned int __X, unsigned int __Y, unsigned int __Z)
 {
   return __builtin_ia32_bextr_u32 (__X, ((__Y & 0xff) | ((__Z & 0xff) << 8)));
 }
-# 284 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\bmiintrin.h" 3 4
+# 284 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\bmiintrin.h" 3 4
 static __inline__ unsigned int __attribute__((__always_inline__, __nodebug__, __target__("bmi")))
 _bextr2_u32(unsigned int __X, unsigned int __Y) {
   return __builtin_ia32_bextr_u32(__X, __Y);
 }
-# 305 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\bmiintrin.h" 3 4
+# 305 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\bmiintrin.h" 3 4
 static __inline__ unsigned int __attribute__((__always_inline__, __nodebug__, __target__("bmi")))
 __blsi_u32(unsigned int __X)
 {
   return __X & -__X;
 }
-# 327 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\bmiintrin.h" 3 4
+# 327 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\bmiintrin.h" 3 4
 static __inline__ unsigned int __attribute__((__always_inline__, __nodebug__, __target__("bmi")))
 __blsmsk_u32(unsigned int __X)
 {
   return __X ^ (__X - 1);
 }
-# 349 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\bmiintrin.h" 3 4
+# 349 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\bmiintrin.h" 3 4
 static __inline__ unsigned int __attribute__((__always_inline__, __nodebug__, __target__("bmi")))
 __blsr_u32(unsigned int __X)
 {
   return __X & (__X - 1);
 }
-# 390 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\bmiintrin.h" 3 4
+# 390 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\bmiintrin.h" 3 4
 static __inline__ unsigned long long __attribute__((__always_inline__, __nodebug__, __target__("bmi")))
 __andn_u64 (unsigned long long __X, unsigned long long __Y)
 {
   return ~__X & __Y;
 }
-# 419 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\bmiintrin.h" 3 4
+# 419 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\bmiintrin.h" 3 4
 static __inline__ unsigned long long __attribute__((__always_inline__, __nodebug__, __target__("bmi")))
 __bextr_u64(unsigned long long __X, unsigned long long __Y)
 {
   return __builtin_ia32_bextr_u64(__X, __Y);
 }
-# 451 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\bmiintrin.h" 3 4
+# 451 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\bmiintrin.h" 3 4
 static __inline__ unsigned long long __attribute__((__always_inline__, __nodebug__, __target__("bmi")))
 _bextr_u64(unsigned long long __X, unsigned int __Y, unsigned int __Z)
 {
   return __builtin_ia32_bextr_u64 (__X, ((__Y & 0xff) | ((__Z & 0xff) << 8)));
 }
-# 480 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\bmiintrin.h" 3 4
+# 480 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\bmiintrin.h" 3 4
 static __inline__ unsigned long long __attribute__((__always_inline__, __nodebug__, __target__("bmi")))
 _bextr2_u64(unsigned long long __X, unsigned long long __Y) {
   return __builtin_ia32_bextr_u64(__X, __Y);
 }
-# 501 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\bmiintrin.h" 3 4
+# 501 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\bmiintrin.h" 3 4
 static __inline__ unsigned long long __attribute__((__always_inline__, __nodebug__, __target__("bmi")))
 __blsi_u64(unsigned long long __X)
 {
   return __X & -__X;
 }
-# 523 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\bmiintrin.h" 3 4
+# 523 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\bmiintrin.h" 3 4
 static __inline__ unsigned long long __attribute__((__always_inline__, __nodebug__, __target__("bmi")))
 __blsmsk_u64(unsigned long long __X)
 {
   return __X ^ (__X - 1);
 }
-# 545 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\bmiintrin.h" 3 4
+# 545 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\bmiintrin.h" 3 4
 static __inline__ unsigned long long __attribute__((__always_inline__, __nodebug__, __target__("bmi")))
 __blsr_u64(unsigned long long __X)
 {
   return __X & (__X - 1);
 }
-# 81 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\immintrin.h" 2 3 4
+# 81 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\immintrin.h" 2 3 4
 
 
 
@@ -30588,27 +30564,27 @@ __blsr_u64(unsigned long long __X)
 
 
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\lzcntintrin.h" 1 3 4
-# 59 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\lzcntintrin.h" 3 4
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\lzcntintrin.h" 1 3 4
+# 59 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\lzcntintrin.h" 3 4
 static __inline__ unsigned int __attribute__((__always_inline__, __nodebug__, __target__("lzcnt")))
 __lzcnt32(unsigned int __X)
 {
   return __builtin_ia32_lzcnt_u32(__X);
 }
-# 81 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\lzcntintrin.h" 3 4
+# 81 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\lzcntintrin.h" 3 4
 static __inline__ unsigned int __attribute__((__always_inline__, __nodebug__, __target__("lzcnt")))
 _lzcnt_u32(unsigned int __X)
 {
   return __builtin_ia32_lzcnt_u32(__X);
 }
-# 128 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\lzcntintrin.h" 3 4
+# 128 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\lzcntintrin.h" 3 4
 static __inline__ unsigned long long __attribute__((__always_inline__, __nodebug__, __target__("lzcnt")))
 _lzcnt_u64(unsigned long long __X)
 {
   return __builtin_ia32_lzcnt_u64(__X);
 }
-# 90 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\immintrin.h" 2 3 4
-# 523 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\immintrin.h" 3 4
+# 90 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\immintrin.h" 2 3 4
+# 366 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\immintrin.h" 3 4
 static __inline__ short __attribute__((__always_inline__, __nodebug__, __target__("movbe")))
 _loadbe_i16(void const * __P) {
   struct __loadu_i16 {
@@ -30657,38 +30633,38 @@ _storebe_i64(void * __P, long long __D) {
   } __attribute__((__packed__, __may_alias__));
   ((struct __storeu_i64*)__P)->__v = __builtin_bswap64((unsigned long long)__D);
 }
-# 587 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\immintrin.h" 3 4
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\fxsrintrin.h" 1 3 4
-# 32 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\fxsrintrin.h" 3 4
+# 430 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\immintrin.h" 3 4
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\fxsrintrin.h" 1 3 4
+# 32 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\fxsrintrin.h" 3 4
 static __inline__ void __attribute__((__always_inline__, __nodebug__, __target__("fxsr")))
 _fxsave(void *__p)
 {
   __builtin_ia32_fxsave(__p);
 }
-# 53 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\fxsrintrin.h" 3 4
+# 53 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\fxsrintrin.h" 3 4
 static __inline__ void __attribute__((__always_inline__, __nodebug__, __target__("fxsr")))
 _fxrstor(void *__p)
 {
   __builtin_ia32_fxrstor(__p);
 }
-# 73 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\fxsrintrin.h" 3 4
+# 73 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\fxsrintrin.h" 3 4
 static __inline__ void __attribute__((__always_inline__, __nodebug__, __target__("fxsr")))
 _fxsave64(void *__p)
 {
   __builtin_ia32_fxsave64(__p);
 }
-# 94 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\fxsrintrin.h" 3 4
+# 94 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\fxsrintrin.h" 3 4
 static __inline__ void __attribute__((__always_inline__, __nodebug__, __target__("fxsr")))
 _fxrstor64(void *__p)
 {
   __builtin_ia32_fxrstor64(__p);
 }
-# 588 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\immintrin.h" 2 3 4
+# 431 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\immintrin.h" 2 3 4
 
 
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xsaveintrin.h" 1 3 4
-# 24 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xsaveintrin.h" 3 4
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xsaveintrin.h" 1 3 4
+# 24 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xsaveintrin.h" 3 4
 static __inline__ void __attribute__((__always_inline__, __nodebug__, __target__("xsave")))
 _xsave(void *__p, unsigned long long __m) {
   __builtin_ia32_xsave(__p, __m);
@@ -30698,7 +30674,7 @@ static __inline__ void __attribute__((__always_inline__, __nodebug__, __target__
 _xrstor(void *__p, unsigned long long __m) {
   __builtin_ia32_xrstor(__p, __m);
 }
-# 49 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xsaveintrin.h" 3 4
+# 49 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xsaveintrin.h" 3 4
 static __inline__ void __attribute__((__always_inline__, __nodebug__, __target__("xsave")))
 _xsave64(void *__p, unsigned long long __m) {
   __builtin_ia32_xsave64(__p, __m);
@@ -30708,12 +30684,12 @@ static __inline__ void __attribute__((__always_inline__, __nodebug__, __target__
 _xrstor64(void *__p, unsigned long long __m) {
   __builtin_ia32_xrstor64(__p, __m);
 }
-# 592 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\immintrin.h" 2 3 4
+# 435 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\immintrin.h" 2 3 4
 
 
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xsaveoptintrin.h" 1 3 4
-# 20 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\xsaveoptintrin.h" 3 4
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xsaveoptintrin.h" 1 3 4
+# 20 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\xsaveoptintrin.h" 3 4
 static __inline__ void __attribute__((__always_inline__, __nodebug__, __target__("xsaveopt")))
 _xsaveopt(void *__p, unsigned long long __m) {
   __builtin_ia32_xsaveopt(__p, __m);
@@ -30724,10 +30700,10 @@ static __inline__ void __attribute__((__always_inline__, __nodebug__, __target__
 _xsaveopt64(void *__p, unsigned long long __m) {
   __builtin_ia32_xsaveopt64(__p, __m);
 }
-# 596 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\immintrin.h" 2 3 4
-# 615 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\immintrin.h" 3 4
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\adxintrin.h" 1 3 4
-# 21 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\adxintrin.h" 3 4
+# 439 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\immintrin.h" 2 3 4
+# 458 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\immintrin.h" 3 4
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\adxintrin.h" 1 3 4
+# 21 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\adxintrin.h" 3 4
 static inline unsigned char __attribute__((__always_inline__, __nodebug__, __target__("adx")))
 _addcarryx_u32(unsigned char __cf, unsigned int __x, unsigned int __y,
                unsigned int *__p)
@@ -30775,8 +30751,8 @@ _subborrow_u64(unsigned char __cf, unsigned long long __x,
 {
   return __builtin_ia32_subborrow_u64(__cf, __x, __y, __p);
 }
-# 616 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\immintrin.h" 2 3 4
-# 16 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\x86intrin.h" 2 3 4
+# 459 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\immintrin.h" 2 3 4
+# 16 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\x86intrin.h" 2 3 4
 
 
 
@@ -30785,14 +30761,14 @@ _subborrow_u64(unsigned char __cf, unsigned long long __x,
 
 
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\prfchwintrin.h" 1 3 4
-# 31 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\prfchwintrin.h" 3 4
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\prfchwintrin.h" 1 3 4
+# 31 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\prfchwintrin.h" 3 4
 static __inline__ void __attribute__((__always_inline__, __nodebug__))
 _m_prefetch(void *__P)
 {
   __builtin_prefetch (__P, 0, 3 );
 }
-# 52 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\prfchwintrin.h" 3 4
+# 52 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\prfchwintrin.h" 3 4
 static __inline__ void __attribute__((__always_inline__, __nodebug__))
 _m_prefetchw(volatile const void *__P)
 {
@@ -30801,38 +30777,38 @@ _m_prefetchw(volatile const void *__P)
   __builtin_prefetch ((const void*)__P, 1, 3 );
 #pragma clang diagnostic pop
 }
-# 25 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\x86intrin.h" 2 3 4
+# 25 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\x86intrin.h" 2 3 4
 
 
 
 
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\ammintrin.h" 1 3 4
-# 82 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\ammintrin.h" 3 4
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\ammintrin.h" 1 3 4
+# 82 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\ammintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse4a"), __min_vector_width__(128)))
 _mm_extract_si64(__m128i __x, __m128i __y)
 {
   return (__m128i)__builtin_ia32_extrq((__v2di)__x, (__v16qi)__y);
 }
-# 166 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\ammintrin.h" 3 4
+# 166 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\ammintrin.h" 3 4
 static __inline__ __m128i __attribute__((__always_inline__, __nodebug__, __target__("sse4a"), __min_vector_width__(128)))
 _mm_insert_si64(__m128i __x, __m128i __y)
 {
   return (__m128i)__builtin_ia32_insertq((__v2di)__x, (__v2di)__y);
 }
-# 188 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\ammintrin.h" 3 4
+# 188 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\ammintrin.h" 3 4
 static __inline__ void __attribute__((__always_inline__, __nodebug__, __target__("sse4a"), __min_vector_width__(128)))
 _mm_stream_sd(double *__p, __m128d __a)
 {
   __builtin_ia32_movntsd(__p, (__v2df)__a);
 }
-# 210 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\ammintrin.h" 3 4
+# 210 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\ammintrin.h" 3 4
 static __inline__ void __attribute__((__always_inline__, __nodebug__, __target__("sse4a"), __min_vector_width__(128)))
 _mm_stream_ss(float *__p, __m128 __a)
 {
   __builtin_ia32_movntss(__p, (__v4sf)__a);
 }
-# 30 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000\\host_tools\\lib\\clang\\include\\x86intrin.h" 2 3 4
-# 17 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include_common\\sce_atomic/sce_atomic_orbis.h" 2 3
+# 30 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500\\host_tools\\lib\\clang\\include\\x86intrin.h" 2 3 4
+# 17 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include_common\\sce_atomic/sce_atomic_orbis.h" 2 3
 
 
 static inline
@@ -31178,7 +31154,7 @@ void* sceAtomicExchangePointerRelaxed(volatile void** ptr, void* swap)
 {
  return (void*)(intptr_t)sceAtomicExchange64Relaxed((volatile int64_t*)(intptr_t)ptr, (int64_t)swap);
 }
-# 371 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include_common\\sce_atomic/sce_atomic_orbis.h" 3
+# 371 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include_common\\sce_atomic/sce_atomic_orbis.h" 3
 static inline int8_t sceAtomicAdd8Acquire(volatile int8_t* ptr, int8_t value)
 {
  return __atomic_fetch_add(ptr, value, 5);
@@ -31494,7 +31470,7 @@ void* sceAtomicExchangePointerAcquire(volatile void** ptr, void* swap)
 {
    return (void*)(intptr_t)sceAtomicExchange64Acquire((volatile int64_t*)(intptr_t)ptr, (int64_t)swap);
 }
-# 695 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include_common\\sce_atomic/sce_atomic_orbis.h" 3
+# 695 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include_common\\sce_atomic/sce_atomic_orbis.h" 3
 static inline
 int8_t sceAtomicAdd8Release(volatile int8_t* ptr, int8_t value)
 {
@@ -31812,7 +31788,7 @@ void* sceAtomicExchangePointerRelease(volatile void** ptr, void* swap)
 {
  return (void*)(intptr_t)sceAtomicExchange64Release((volatile int64_t*)(intptr_t)ptr, (int64_t)swap);
 }
-# 1020 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include_common\\sce_atomic/sce_atomic_orbis.h" 3
+# 1020 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include_common\\sce_atomic/sce_atomic_orbis.h" 3
 static inline int8_t sceAtomicAdd8AcqRel(volatile int8_t* ptr, int8_t value)
 {
  return __atomic_fetch_add(ptr, value, 5);
@@ -32134,7 +32110,7 @@ void* sceAtomicExchangePointerAcqRel(volatile void** ptr, void* swap)
 {
      return (void*)(intptr_t)sceAtomicExchange64AcqRel((volatile int64_t*)(intptr_t)ptr, (int64_t)swap);
 }
-# 1350 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include_common\\sce_atomic/sce_atomic_orbis.h" 3
+# 1350 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include_common\\sce_atomic/sce_atomic_orbis.h" 3
 static inline int8_t sceAtomicAdd8(volatile int8_t* ptr, int8_t value)
 {
 
@@ -32618,13 +32594,13 @@ void* sceAtomicExchangePointer(volatile void** ptr, void* swap)
  return sceAtomicExchangePointerRelaxed(ptr, swap);
 
 }
-# 16 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include_common\\sce_atomic.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include_common\\sce_atomic/sce_atomic_psp2.h" 1 3
-# 17 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include_common\\sce_atomic.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include_common\\sce_atomic/sce_atomic_win.h" 1 3
-# 18 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include_common\\sce_atomic.h" 2 3
-# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include_common\\sce_atomic/sce_atomic_acqrel.h" 1 3
-# 19 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\11.000/target/include_common\\sce_atomic.h" 2 3
+# 16 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include_common\\sce_atomic.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include_common\\sce_atomic/sce_atomic_psp2.h" 1 3
+# 17 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include_common\\sce_atomic.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include_common\\sce_atomic/sce_atomic_win.h" 1 3
+# 18 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include_common\\sce_atomic.h" 2 3
+# 1 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include_common\\sce_atomic/sce_atomic_acqrel.h" 1 3
+# 19 "C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\10.500/target/include_common\\sce_atomic.h" 2 3
 # 5 "C:\\code\\scotland-yard\\Packages\\com.unity.savedata.ps4@1.0.2\\Source~/Source/Notifications.cpp" 2
 
 namespace SaveData
