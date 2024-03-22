@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System;
 using System.Linq;
+using Korion.ScotlandYard;
 
 public class PopupManager : MonoBehaviour
 {
@@ -263,8 +264,8 @@ public class PopupManager : MonoBehaviour
         GameObject go = NGUITools.AddChild(Parent, TutorialPopupPrefab);
         go.name = "TutorialPopup";
         currentTutorialPopup = InitializeWindow(go);
-
-        currentTutorialPopup.text.GetComponent<UILabel>().text = Loc.Get(textId);
+        
+        currentTutorialPopup.text.GetComponent<InputSymbolTextChanger>().Setup(Loc.Get(textId));
 
         UISprite spr = currentTutorialPopup.windowButton.GetComponent<UISprite>();
         float arrowWidth = go.transform.Find("ArrowRight").GetComponent<UISprite>().width + 30;
