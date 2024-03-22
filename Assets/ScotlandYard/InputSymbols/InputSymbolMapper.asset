@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43a5577d78b54ddbb9623553ce490ce3, type: 3}
+  m_Name: InputSymbolMapper
+  m_EditorClassIdentifier: 
+  _inputSymbolsText:
+    submit: '{submit}'
+    cancel: '{cancel}'
+    other1: '{other1}'
+    other2: '{other2}'
+    leftStick: '{leftstick}'
+    rightStick: '{rightstick}'
+    leftShoulder1: '{leftshoulder1}'
+    rightShoulder1: '{rightshoulder1}'
+    leftShoulder2: '{leftshoulder2}'
+    rightShoulder2: '{rightshoulder2}'
+    option: '{options}'
+  _inputPlaystation:
+    submit: '{P5Cr}'
+    cancel: '{P5Ci}'
+    other1: '{P5S}'
+    other2: '{P5T}'
+    leftStick: '{XL}'
+    rightStick: '{XR}'
+    leftShoulder1: '{P5L1}'
+    rightShoulder1: '{P5R1}'
+    leftShoulder2: '{P5L2}'
+    rightShoulder2: '{P5R2}'
+    option: '{P5O}'
+  _inputXbox:
+    submit: '{XA}'
+    cancel: '{XB}'
+    other1: '{XX}'
+    other2: '{XY}'
+    leftStick: '{XL}'
+    rightStick: '{XR}'
+    leftShoulder1: '{XLB}'
+    rightShoulder1: '{XRB}'
+    leftShoulder2: '{XLT}'
+    rightShoulder2: '{XRT}'
+    option: '{XO}'
+  _inputSwitch:
+    submit: '{SA}'
+    cancel: '{SB}'
+    other1: '{SX}'
+    other2: '{SY}'
+    leftStick: '{SL}'
+    rightStick: '{SR}'
+    leftShoulder1: '{SL1}'
+    rightShoulder1: '{SR1}'
+    leftShoulder2: '{SZL}'
+    rightShoulder2: '{SZR}'
+    option: '{S+}'

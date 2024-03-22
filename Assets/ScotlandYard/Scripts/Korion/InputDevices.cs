@@ -1,4 +1,6 @@
 using Rewired;
+using UnityEngine;
+
 public class InputDevices
 {
 

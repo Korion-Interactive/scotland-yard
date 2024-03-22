@@ -691,6 +691,7 @@ GameObject:
   - component: {fileID: 400010}
   - component: {fileID: 11400028}
   - component: {fileID: 11400026}
+  - component: {fileID: 2656095542522039004}
   m_Layer: 8
   m_Name: PopUpText
   m_TagString: Untagged
@@ -752,8 +753,8 @@ MonoBehaviour:
   keepAspectRatio: 0
   aspectRatio: 2.7272727
   keepCrispWhenShrunk: 1
-  mTrueTypeFont: {fileID: 12800000, guid: f22d766b1aeaab84287fa886b66327d4, type: 3}
-  mFont: {fileID: 0}
+  mTrueTypeFont: {fileID: 0}
+  mFont: {fileID: 4675208210385610792, guid: d487f769f38a968438128555c47101d4, type: 3}
   mText: popup_text
   mFontSize: 50
   mFontStyle: 0
@@ -790,6 +791,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   UseIosSuffix: 0
   UseAndroidSuffix: 0
+--- !u!114 &2656095542522039004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29062dba92ee9c544b4bac0f6eeef33b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _inputSymbolMapper: {fileID: 11400000, guid: 148a59fa6a5bec947be331eb4d50dd0e, type: 2}
 --- !u!1 &100012
 GameObject:
   m_ObjectHideFlags: 0
