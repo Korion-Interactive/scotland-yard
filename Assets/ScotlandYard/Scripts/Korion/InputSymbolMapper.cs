@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace Korion.ScotlandYard
 {
@@ -14,26 +15,14 @@ namespace Korion.ScotlandYard
         [SerializeField] private InputSymbolData _inputXbox;
 
         [SerializeField] private InputSymbolData _inputSwitch;
+        
+        [SerializeField] private InputSymbolData _inputKeyboard;
 
         public InputSymbolData InputSymbolsText => _inputSymbolsText;
         public InputSymbolData InputPlaystation => _inputPlaystation;
         public InputSymbolData InputXbox => _inputXbox;
         public InputSymbolData InputSwitch => _inputSwitch;
-
-        public InputSymbolData EmptyInputSymbols => new()
-        {
-            submit = "",
-            cancel = "",
-            other1 = "",
-            other2 = "",
-            leftStick = "",
-            rightStick = "",
-            leftShoulder1 = "",
-            rightShoulder1 = "",
-            leftShoulder2 = "",
-            rightShoulder2 = "",
-            option = ""
-        };
+        public InputSymbolData InputKeyboard => _inputKeyboard;
 
         [Serializable]
         public struct InputSymbolData
@@ -43,12 +32,15 @@ namespace Korion.ScotlandYard
             public string other1;
             public string other2;
             public string leftStick;
-            public string rightStick;
+            public string move;
             public string leftShoulder1;
             public string rightShoulder1;
             public string leftShoulder2;
             public string rightShoulder2;
             public string option;
+            public string share;
+            public string selectPlayers;
+            public string zoom;
         }
     }
 }

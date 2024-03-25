@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b4eb3a400afab046abb8471a9d746d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
+  mMat: {fileID: 2100000, guid: df4d07943c342d347b20415a66ad743e, type: 2}
   mUVRect:
     serializedVersion: 2
     x: 0
@@ -2025,6 +2025,20 @@ MonoBehaviour:
     spriteName: XBOX_X
   - sequence: '{XY}'
     spriteName: XBOX_Y
+  - sequence: '{WASD}'
+    spriteName: PC_WASD
+  - sequence: '{MM}'
+    spriteName: PC_Middle
+  - sequence: '{PS5S}'
+    spriteName: PS5_Share
+  - sequence: '{XS}'
+    spriteName: XBOX_Share
+  - sequence: '{PCPU}'
+    spriteName: PC_PicUp
+  - sequence: '{PCPD}'
+    spriteName: PC_PicDown
+  - sequence: '{PCTAB}'
+    spriteName: PC_Tab
   mDynamicFont: {fileID: 0}
   mDynamicFontSize: 16
   mDynamicFontStyle: 0

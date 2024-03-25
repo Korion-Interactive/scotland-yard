@@ -21,7 +21,7 @@ namespace Korion.ScotlandYard
 #elif UNITY_SWITCH && !UNITY_EDITOR
         _currentInputSymbols = _inputSymbolMapper.InputSwitch;
 #elif UNITY_STANDALONE || UNITY_EDITOR
-            _currentInputSymbols = _inputSymbolMapper.EmptyInputSymbols;
+            OnInputDeviceChanged(InputDevices.LastActiveController);
             InputDevices.onInputDeviceChanged += OnInputDeviceChanged;
 #endif
         }
@@ -31,8 +31,8 @@ namespace Korion.ScotlandYard
             _currentInputSymbols = controller.type switch
             {
                 ControllerType.Joystick => _inputSymbolMapper.InputXbox,
-                ControllerType.Keyboard => _inputSymbolMapper.EmptyInputSymbols,
-                ControllerType.Mouse => _inputSymbolMapper.EmptyInputSymbols,
+                ControllerType.Keyboard => _inputSymbolMapper.InputKeyboard,
+                ControllerType.Mouse => _inputSymbolMapper.InputKeyboard,
                 _ => _currentInputSymbols
             };
             Debug.Log("Input device changed to: " + controller.type);
@@ -59,6 +59,7 @@ namespace Korion.ScotlandYard
 
         private string ChangeText()
         {
+            if(_text == null) return string.Empty;
             if (_text.Contains(_inputSymbolMapper.InputSymbolsText.submit))
                 return _text.Replace(_inputSymbolMapper.InputSymbolsText.submit, _currentInputSymbols.submit);
             if (_text.Contains(_inputSymbolMapper.InputSymbolsText.cancel))
@@ -69,8 +70,8 @@ namespace Korion.ScotlandYard
                 return _text.Replace(_inputSymbolMapper.InputSymbolsText.other2, _currentInputSymbols.other2);
             if (_text.Contains(_inputSymbolMapper.InputSymbolsText.leftStick))
                 return _text.Replace(_inputSymbolMapper.InputSymbolsText.leftStick, _currentInputSymbols.leftStick);
-            if (_text.Contains(_inputSymbolMapper.InputSymbolsText.rightStick))
-                return _text.Replace(_inputSymbolMapper.InputSymbolsText.rightStick, _currentInputSymbols.rightStick);
+            if (_text.Contains(_inputSymbolMapper.InputSymbolsText.move))
+                return _text.Replace(_inputSymbolMapper.InputSymbolsText.move, _currentInputSymbols.move);
             if (_text.Contains(_inputSymbolMapper.InputSymbolsText.leftShoulder1))
                 return _text.Replace(_inputSymbolMapper.InputSymbolsText.leftShoulder1,
                     _currentInputSymbols.leftShoulder1);
@@ -85,6 +86,13 @@ namespace Korion.ScotlandYard
                     _currentInputSymbols.rightShoulder2);
             if (_text.Contains(_inputSymbolMapper.InputSymbolsText.option))
                 return _text.Replace(_inputSymbolMapper.InputSymbolsText.option, _currentInputSymbols.option);
+            if (_text.Contains(_inputSymbolMapper.InputSymbolsText.share))
+                return _text.Replace(_inputSymbolMapper.InputSymbolsText.share, _currentInputSymbols.share);
+            if (_text.Contains(_inputSymbolMapper.InputSymbolsText.zoom))
+                return _text.Replace(_inputSymbolMapper.InputSymbolsText.zoom, _currentInputSymbols.zoom);
+            if (_text.Contains(_inputSymbolMapper.InputSymbolsText.selectPlayers))
+                return _text.Replace(_inputSymbolMapper.InputSymbolsText.selectPlayers,
+                    _currentInputSymbols.selectPlayers);
             return _text;
         }
     }
