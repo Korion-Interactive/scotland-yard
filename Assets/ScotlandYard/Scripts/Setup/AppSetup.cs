@@ -158,6 +158,8 @@ public class AppSetup : MonoBehaviour
         var writer = IOSystem.Instance.GetWriter();
         //string json = JsonUtility.ToJson(savedSettings, prettyPrint: true); //now data
 
+        Debug.Log("Writing Korion IO");
+
         return writer.WriteAsync(id, data, cancellationToken);
     }
 
@@ -170,7 +172,8 @@ public class AppSetup : MonoBehaviour
         {
             return null; //json
         }
-        Debug.Log("Config: " + stringData);
+
+        Debug.Log("Reading Korion IO: " + stringData);
         return stringData;
     }
 
@@ -249,7 +252,12 @@ public class AppSetup : MonoBehaviour
 
     public static bool HasOpenGame()
     {
-        return false;//TODO KORION IO: //File.Exists(Globals.LastGameSetupPath) && File.Exists(Globals.LastGameStatePath);
+#if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5
+        IOSystem.Instance.GetReader().Read //@ james? oder doku? gibts so nen check?
+        return false;//TODO KORION IO
+#else
+        return File.Exists(Globals.LastGameSetupPath) && File.Exists(Globals.LastGameStatePath);
+#endif
     }
 
     public void SaveGame()
