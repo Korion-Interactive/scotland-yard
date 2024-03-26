@@ -28784,6 +28784,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efc00513d45da57429387b93ca2f4b65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Parent: {fileID: 1429165313}
+  TutorialPopupDefaultPosition: {fileID: 0}
+  NotificationPosition: {fileID: 1745795402}
+  PopUpWindowPrefab: {fileID: 100018, guid: 05f811a0bbdbe7a4caa24ca01985ecb9, type: 3}
+  TutorialPopupPrefab: {fileID: 0}
+  NotificationPrefab: {fileID: 100016, guid: ed9613dc550233d42bddad9555758e50, type: 3}
 --- !u!4 &1357143892
 Transform:
   m_ObjectHideFlags: 0
