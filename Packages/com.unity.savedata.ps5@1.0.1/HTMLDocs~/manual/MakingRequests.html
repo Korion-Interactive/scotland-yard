@@ -1,0 +1,269 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);  })(window,document,'script','dataLayer','GTM-5V25JL6');</script>
+    <script type="text/javascript">thisPackageMetaData = { name: "com.unity.savedata.ps5", version: "1.0.1", displayTitle:"Save Data PS5 1.0.1", lang: "en" };</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    
+  
+    <title>Making requests | Save Data PS5 | 1.0.1 </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Making requests | Save Data PS5 | 1.0.1 ">
+    <meta name="generator" content="docfx 2.58.9.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/statictoc.docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="unity:packageTitle" content="Save Data PS5 | 1.0.1">
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+                <div class="back-to-unity-group">
+                  <a class="back-to-unity" href="http://docs.unity3d.com/">docs.unity3d.com</a>
+                </div>
+              </form>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li class="active">
+                          <a href="../manual/index.html" title="Manual">Manual</a>
+                      </li>
+                      <li class="">
+                          <a href="../api/index.html" title="Scripting API">Scripting API</a>
+                      </li>
+                      <li class="">
+                          <a href="../changelog/CHANGELOG.html" title="Changelog">Changelog</a>
+                      </li>
+                      <li class="">
+                          <a href="../license/LICENSE.html" title="License">License</a>
+                      </li>
+                </ul>    </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <a href="index.html" title="About the Save Data package" class="">About the Save Data package</a>
+                    </li>
+                    <li class="">
+                      <a href="Installation.html" title="Installation" class="">Installation</a>
+                    </li>
+                    <li class="">
+                      <a href="ViewHTML.html" title="HTML documentation" class="">HTML documentation</a>
+                    </li>
+                    <li class="">
+                      <a href="Features.html" title="C# API features" class="">C# API features</a>
+                    </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a class="">Getting started</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Sample.html" title="Save Data Sample" class="">Save Data Sample</a>
+                          </li>
+                          <li class="">
+                            <a href="Initialization.html" title="Initializing the API" class="">Initializing the API</a>
+                          </li>
+                          <li class="active">
+                            <a href="MakingRequests.html" title="Making requests" class="active">Making requests</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a class="">Basic processes</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="CreateSequence.html" title="Creating a save data file" class="">Creating a save data file</a>
+                          </li>
+                          <li class="">
+                            <a href="DialogSequence.html" title="Using system dialogs" class="">Using system dialogs</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <a href="ExternalLinks.html" title="Links to Sony documentation" class="">Links to Sony documentation</a>
+                    </li>
+                  </ul>        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="making-requests">Making requests</h1>
+
+<p>After you <a href="Installation.html">install</a> the package, you must initialize the system and a response callback needs to be created, as described in the <a href="Initialization.html">Initialization</a> instructions.</p>
+<h2 id="creating-requests-and-handling-responses">Creating requests and handling responses</h2>
+<p>After the system has been initialized, it is ready to receive its first request. All requests can either be asynchronous or block the thread they are called on. </p>
+<p>The following example shows how to create a <a href="../api/Unity.SaveData.PS5.Search.Searching.html">searching</a> request. All request types follow a similar pattern.</p>
+<h3 id="creating-a-request">Creating a request</h3>
+<p>Each request method requires two objects:</p>
+<ul>
+<li>A request object that contains the request settings</li>
+<li>A response object that contains the results after the request has completed</li>
+</ul>
+<p>You should put all calls to the request inside a <code>try..catch</code> C# block, because requests can throw exceptions if they use incorrect parameters or options. For brevity, the code example below omits this, but it is recommended to use exception handling. See the <a href="Sample.html">Sample</a> script code for a more detailed look at how to handle errors and exceptions.</p>
+<p>Requests are placed into a queue and processed in the order they are added.</p>
+<pre><code class="lang-CSharp">    // Create the request object
+    Searching.DirNameSearchRequest request = new Searching.DirNameSearchRequest();
+
+    // Set the request properties including the local user Id 
+    request.UserId = userId;
+    request.Key = Searching.SearchSortKey.Time;
+    request.Order = Searching.SearchSortOrder.Ascending;
+    request.IncludeBlockInfo = false;
+    request.IncludeParams = false;
+    request.MaxDirNameCount = 10;
+
+    // Create a response object
+    Searching.DirNameSearchResponse response = new Searching.DirNameSearchResponse();
+
+    // Call the API
+    int requestId = Searching.DirNameSearch(request, response);
+</code></pre><p>The <code>requestId</code> is returned for asynchronous calls. You can use it in <a href="../api/Unity.SaveData.PS5.Main.html#Unity_SaveData_PS5_Main_AbortRequest_System_Int32_">Main.AbortRequest</a> to cancel a request in the pending queue. If the request is already being processed, you can&#39;t cancel it.</p>
+<h3 id="receiving-the-response">Receiving the response</h3>
+<p>After a request has completed, the event callback method receives a <code>SaveDataCallbackEvent</code> that contains the request and response objects, as well the codes for  errors that occurred during request handling, if there are any.</p>
+<p>For an example of the callback, see the <code>Main_OnAsyncEvent</code> method in the <a href="Initialization.html">Initialization</a> instructions. </p>
+<p>The following example omits error handling, but this should be done in a full implementation of the callback method.</p>
+<pre><code class="lang-CSharp">    private void Main_OnAsyncEvent(SaveDataCallbackEvent callbackEvent)
+    {
+        switch (callbackEvent.ApiCalled)
+        {
+            case FunctionTypes.DirNameSearch:
+                {
+                    Searching.DirNameSearchResponse response = callbackEvent.Response as Searching.DirNameSearchResponse;
+
+                    // Handle response here. In the case of a DirNameSearchResponse, this contains an array of found save data.
+                }
+                break;
+        }
+    }
+</code></pre><h3 id="polling-responses">Polling responses</h3>
+<p>Instead of handling a response via the callback, you can poll the response to test if it has completed. This can be useful when doing a Unity coroutine. Response polling is used in the <a href="../api/Unity.SaveData.PS5.Dialog.SaveDataDialogProcess.html">dialog state machine</a>.</p>
+<p>To stop a request from using the callback, set the <code>IgnoreCallback</code> property to true.</p>
+<p>For example, a part of a coroutine might look like this:</p>
+<pre><code class="lang-CSharp">    Searching.DirNameSearchRequest request = new Searching.DirNameSearchRequest();
+
+    request.UserId = userId;
+    // Stop the request using the callback
+    request.IgnoreCallback = true;
+
+    Searching.DirNameSearchResponse response = new Searching.DirNameSearchResponse();
+
+    // Call the API
+    Searching.DirNameSearch(request, response);
+
+    while (response.Locked == true)
+    {
+        // Yield the coroutine until the next update
+        yield return null;
+    }
+
+    // Process the results now the response is no longer locked.
+</code></pre><h3 id="synchronous-calls">Synchronous calls</h3>
+<p>You can make request calls to block the calling thread until complete. These calls block the thread until they reach the top of the pending queue and their execution completes.</p>
+<pre><code class="lang-CSharp">    request.Async = false;
+</code></pre><p>Avoid doing this on the main Unity thread because save data operations might take a while to complete.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

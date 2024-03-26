@@ -1,0 +1,785 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);  })(window,document,'script','dataLayer','GTM-5V25JL6');</script>
+    <script type="text/javascript">thisPackageMetaData = { name: "com.unity.psn.ps5", version: "1.0.1", displayTitle:"PS5 PlayStation Network 1.0.1", lang: "en" };</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    
+  
+    <title>Changelog | PS5 PlayStation Network | 1.0.1 </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Changelog | PS5 PlayStation Network | 1.0.1 ">
+    <meta name="generator" content="docfx 2.58.9.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/statictoc.docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="unity:packageTitle" content="PS5 PlayStation Network | 1.0.1">
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+                <div class="back-to-unity-group">
+                  <a class="back-to-unity" href="http://docs.unity3d.com/">docs.unity3d.com</a>
+                </div>
+              </form>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li class="">
+                          <a href="../manual/index.html" title="Manual">Manual</a>
+                      </li>
+                      <li class="">
+                          <a href="../api/index.html" title="Scripting API">Scripting API</a>
+                      </li>
+                      <li class="active">
+                          <a href="../changelog/CHANGELOG.html" title="Changelog">Changelog</a>
+                      </li>
+                      <li class="">
+                          <a href="../license/LICENSE.html" title="License">License</a>
+                      </li>
+                </ul>    </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="active">
+                      <a href="CHANGELOG.html" title="Changes" class="active">Changes</a>
+                    </li>
+                  </ul>        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="changelog">Changelog</h1>
+
+<p>All notable changes to the package will be documented in this file.</p>
+<p>The format is based on <a href="http://keepachangelog.com/en/1.0.0/">Keep a Changelog</a>
+and this project adheres to <a href="http://semver.org/spec/v2.0.0.html">Semantic Versioning</a>.</p>
+<p>Due to package verification, the latest version below is the unpublished version and the date is meaningless.
+however, it has to be formatted properly to pass verification tests.</p>
+<h2 id="101---2023-10-18">[1.0.1] - 2023-10-18</h2>
+<h3 id="fixed">Fixed</h3>
+<ul>
+<li>Stop editor build script executing when an non-PlayStation platform is being built</li>
+</ul>
+<h2 id="100---2023-09-04">[1.0.0] - 2023-09-04</h2>
+<ul>
+<li>New package format.</li>
+<li>Fix issue with strings when using TitleCloudStorage</li>
+</ul>
+<h2 id="0038-preview---2023-06-05">[0.0.38-preview] - 2023-06-05</h2>
+<h3 id="added">Added</h3>
+<ul>
+<li>Added Match.RemoveMatch static method to cleanup Match instances that no longer need to be tracked.<ul>
+<li>Allows for Match instances to be forgotten about and released by the GC when they are no longer required.</li>
+</ul>
+</li>
+<li>Added SessionsManager.RemovePlayerSession static method to cleanup PlayerSession instances that no longer need to be tracked.<ul>
+<li>Allows for PlayerSession instances to be forgotten about and released by the GC when they are no longer required.</li>
+<li>Player sessions are cleaned up if the title recieves a notification when a player session has been destroyed. However if a player leavers a session then the session needs to be cleaned up separately. </li>
+</ul>
+</li>
+<li>Added SessionsManager.RemoveGameSession static method to cleanup GameSession instances that no longer need to be tracked.<ul>
+<li>Allows for GameSession instances to be forgotten about and released by the GC when they are no longer required.</li>
+<li>Game sessions are cleaned up if the title recieves a notification when a game session has been destroyed. However if a player leavers a session then the session needs to be cleaned up separately. </li>
+</ul>
+</li>
+</ul>
+<h3 id="fixed-1">Fixed</h3>
+<ul>
+<li>Fixed problems that can occur when a single accountId joins a session from both PS5 and PS4 simultaneously.</li>
+</ul>
+<h2 id="0037-preview---2023-06-01">[0.0.37-preview] - 2023-06-01</h2>
+<h3 id="fixed-2">Fixed</h3>
+<ul>
+<li>Fixed issue with MatchRequests.ReportResultsRequest failing to run in the MatchesCommands::ReportResultsImpl native code.</li>
+</ul>
+<h2 id="0036-preview---2023-05-16">[0.0.36-preview] - 2023-05-16</h2>
+<h3 id="added-1">Added</h3>
+<ul>
+<li>Added support for Crossplatform PS4 SDK 10.5</li>
+</ul>
+<h2 id="0035-preview---2023-04-06">[0.0.35-preview] - 2023-04-06</h2>
+<h3 id="added-2">Added</h3>
+<ul>
+<li>Added support for SDK 7.0
+### Fixed</li>
+<li>Fixed a bug where showing the PlayStation store icon prevented other Common Dialogs from opening.</li>
+<li>Fixed reporting of API errors when retrieving friends, profiles and basic presences.</li>
+</ul>
+<h2 id="0034-preview---2023-01-27">[0.0.34-preview] - 2023-01-27</h2>
+<h3 id="fixed-3">Fixed</h3>
+<ul>
+<li>Fixed platform filter errors with PS4 10.0 and PS5 6.0 native plugins.</li>
+<li>Fixed errors in PlayerSession disableSystemUiMenu and privilege flags (introduced in 0.0.33) when running on PS4.  See <a href="https://p.siedev.net/forums/thread/224892/">https://p.siedev.net/forums/thread/224892/</a></li>
+<li>Made <code>GameSessionInitMember.AccountId</code> publicly settable, for use in <code>GameSessionCreationParams.AdditionalMembers</code>.</li>
+</ul>
+<h2 id="0033-preview---2023-01-06">[0.0.33-preview] - 2023-01-06</h2>
+<h3 id="added-3">Added</h3>
+<ul>
+<li>Added support for NpBandwidthTest library.<ul>
+<li>MeasureBandwidthRequest - Calculate the bps download or upload bandwidth to PlayStation Network.</li>
+</ul>
+</li>
+<li>Added DisableSystemUiMenu to Player Sessions to disable certain system UI items for session leaders, for SDK 6 and above.</li>
+<li>Added support for PromoteToLeader in LeaderPrivilegeFlags for Player Sessions.</li>
+</ul>
+<h2 id="0032-preview---2022-12-16">[0.0.32-preview] - 2022-12-16</h2>
+<h3 id="added-4">Added</h3>
+<ul>
+<li>Added support for Crossplatform PS5 SDK 10.0</li>
+</ul>
+<h2 id="0031-preview---2022-10-19">[0.0.31-preview] - 2022-10-19</h2>
+<h3 id="added-5">Added</h3>
+<ul>
+<li>Added support for SDK 6.0</li>
+<li><code>SessionSignalling.ConnectionEvent</code> now has a property for the GroupId, corresponding to the <code>grpId</code> parameter of the native <code>SceNpSessionSignalingConnectionCallback2</code> function.</li>
+<li>Added support for PlayerInvitationDialog</li>
+<li>Fixed for GetGameSessionsRequest and GetPlayerSessionsRequest to support multiple sessions</li>
+</ul>
+<h2 id="0030-preview---2022-08-18">[0.0.30-preview] - 2022-08-18</h2>
+<h3 id="added-6">Added</h3>
+<ul>
+<li>Updated &#39;ConnectionEvent.Reasons&#39; enum with new &#39;Activate&#39; value.</li>
+</ul>
+<h3 id="fixed-4">Fixed</h3>
+<ul>
+<li>Fixed error in native MatchesCommands::GetMatchDetailsImpl method that was leaking HTTP pool memory.</li>
+</ul>
+<h2 id="0029-preview---2022-06-24">[0.0.29-preview] - 2022-06-24</h2>
+<h3 id="added-7">Added</h3>
+<ul>
+<li>Commerce<ul>
+<li>OpenJoinPremiumDialogRequest - Open Join premium dialog.</li>
+<li>OpenBrowseCategoryDialogRequest - Open Browse Category dialog.</li>
+<li>OpenBrowseProductDialogRequest - Open browse product dialog.</li>
+<li>OpenRedeemPromotionCodeDialogRequest - Open redeem promotion code dialog.</li>
+<li>OpenCheckoutDialogRequest - Open checkout dialog.</li>
+<li>OpenDownloadDialogRequest - Open download dialog.</li>
+</ul>
+</li>
+<li>Entitlements<ul>
+<li>GetAdditionalContentEntitlementListRequest - Gets a list of additional content information for which the entitlement is valid</li>
+<li>GetSkuFlagRequest - Gets the SKU type</li>
+<li>GetAdditionalContentEntitlementInfoRequest - Gets additional content information</li>
+<li>GetEntitlementKeyRequest - Gets the entitlement key of additional content</li>
+<li>GetUnifiedEntitlementInfoListRequest - Requests to obtain a list of unified entitlement information</li>
+<li>GetUnifiedEntitlementInfoRequest - Requests to obtain unified entitlement information.</li>
+<li>GetServiceEntitlementInfoListRequest - Requests to obtain a list of service entitlement information</li>
+<li>GetServiceEntitlementInfoRequest - Requests to obtain service entitlement information.</li>
+<li>GenerateTransactionIdRequest -  Generates a transaction ID</li>
+<li>ConsumeUnifiedEntitlementRequest - Requests to consume a unified entitlement</li>
+<li>ConsumeServiceEntitlementRequest - Requests to consume a service entitlement<ul>
+<li>Added CommerceSystem.PSStoreIconRequest to show, hide and set the layout of the PlayStation Store Icon.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="changed">Changed</h3>
+<ul>
+<li>Included offline HTML documentation in the HTMLDocs~ folder. Documentation can now be viewed without needing to run a local webserver.</li>
+<li>Added options to re-initialize PSN to the sample and also to exit the application after shutdown.</li>
+<li>Added several fixes to correctly shutdown parts of the PSN plugin; SystemEventManager, WebApiInstance, WebApiNotifications.</li>
+<li>Leaderboards.GetRankingRequest: Added properties for UserCenteredAround and CenterToEdgeLimit to return a set of ranking centered around a given user.</li>
+<li>MatchMakingRequests.SubmitTicketRequest: Added GameSessionId to support Matchmaking backfill.  </li>
+</ul>
+<h2 id="0028-preview---2022-04-25">[0.0.28-preview] - 2022-04-25</h2>
+<h3 id="added-8">Added</h3>
+<ul>
+<li>Added support for GameSessionSearch<ul>
+<li>Search for an existing game session based on wide range of parameters, including SearchIndex and SearchAttributes</li>
+</ul>
+</li>
+<li>Added new fields in GameSession Creation. <ul>
+<li>SearchIndex</li>
+<li>Searchable</li>
+<li>SearchAttributes</li>
+</ul>
+</li>
+<li><p>Added new fields to GameSession class</p>
+<ul>
+<li>NatType</li>
+<li>Searchable</li>
+<li>SearchIndex</li>
+</ul>
+</li>
+<li><p>Added support for GameUpdate SDK API calls. Allows checking for updates for programs, data and additional content.</p>
+</li>
+<li><p>Added support for request to obtain NAT router information. Calls sdk function sceNetCtlGetNatInfo() to obtain detailed information about the NAT router..</p>
+</li>
+</ul>
+<h2 id="0027-preview---2022-01-04">[0.0.27-preview] - 2022-01-04</h2>
+<h3 id="changed-1">Changed</h3>
+<ul>
+<li>Changed how the recipients of a <code>SendGameSessionMessageRequest</code> and <code>SendPlayerSessionMessageRequest</code> are specified.  The recipients of the messages are now specified using a new structure <code>SessionMemberIdentifier</code>, containing both the account id and the platform of the recipient.  Previously it was just the account id, and the recipients were assumed to be on PS5.  This change fixes a bug where messages sent to session members who were on PS4 would fail to send.  This is a breaking change that requires corresponding alterations to users&#39; code.</li>
+<li>Added ExceededMaximumOperations exception to all Schedule() calls. This occurs if too many operations are waiting in the work queue. This catches issues where a title is flooding the queue with more work than it can safely process.</li>
+<li>Improved example of RecordScoreRequest in sample. Sample now better explains what happens when the request has a SCE_NP_WEBAPI_SERVER_ERROR_LEADERBOARDS_LARGE_DATA_EXCEEDS_NUMBER_LIMIT error.</li>
+<li>Removed &quot;Get Group Info (0)&quot; button from sample as &#39;Group 0&#39; doesn&#39;t exist and it was creating an error message.</li>
+</ul>
+<h3 id="fixed-5">Fixed</h3>
+<ul>
+<li>Error in UploadDataRequest which caused a random crash due to incorrect data serialization.</li>
+</ul>
+<h2 id="0026-preview---2021-11-23">[0.0.26-preview] - 2021-11-23</h2>
+<h3 id="added-9">Added</h3>
+<ul>
+<li>Added support for SDK 4.0</li>
+</ul>
+<h2 id="0025-preview---2021-07-28">[0.0.25-preview] - 2021-07-28</h2>
+<h3 id="added-10">Added</h3>
+<ul>
+<li>Added support for PS4 SDK 8.5 cross-gen</li>
+</ul>
+<h2 id="0024-preview---2021-07-13">[0.0.24-preview] - 2021-07-13</h2>
+<h3 id="added-11">Added</h3>
+<ul>
+<li>Added support for SDK 3.0</li>
+</ul>
+<h2 id="0023-preview---2021-02-23">[0.0.23-preview] - 2021-02-23</h2>
+<h3 id="added-12">Added</h3>
+<ul>
+<li>GameSessionJoinState to SessionMember for game session members. This replaces the IsReserved property.</li>
+<li>Support for Representative data added to GameSession and RetrievedSessionData. </li>
+<li>Handler for &quot;psn:sessionManager:gs:representative:updated&quot; added to game session notification update callback.</li>
+<li>New &#39;Start UDS&#39; button added to Trophy menu in sample app to aid in unlocking trophies.</li>
+<li>Error messages during start-up if any of the modules fail to load or initialization fails.</li>
+</ul>
+<h3 id="changed-2">Changed</h3>
+<ul>
+<li>Replaced UnlockTrophyProgressRequest with UpdateTrophyProgressRequest. UnlockTrophyProgressRequest has been marked as obsolete.</li>
+<li>Removed the IsReserved property from SessionMember and replaced it with enum GameSessionJoinState.</li>
+<li>SessionFilters in PlayerSession and GameSession requests now use a static instance of PlayerSessionFilters or GameSessionFilters. This shares the same set of filters with all the players WebApiPushEvent that join the session. This helps reduce the number of resources allocated by session. This default behaviour can be changed by assigning any custom filter set to the SessionFilters property. </li>
+<li>Sample now has improved handling of off-line users and handles user logging into PSN while the sample is running. </li>
+</ul>
+<h3 id="fixed-6">Fixed</h3>
+<ul>
+<li>JoinGameSessionRequest now uses correct GameSession.SessionWebApiEventHandler instead of PlayerSession.SessionWebApiEventHandler.</li>
+<li>JoinGameSessionRequest incorrectly initialised SessionFilters to use PlayerSessionFilters. Fixed to now use GameSessionFilters.</li>
+<li>The Joined or Reserved state of a game session member is now correctly updated when RetrievedSessionData is applied to a GameSession. </li>
+<li>WebApiPushEvent created for each user joining a PlayerSession or GameSession are now released automatically when the player leaves that session.</li>
+<li>Fixed typo in GetActivePashEvents to GetActivePushEvents</li>
+<li>Removed unused SessionsManager.PlayerSessionFilters property.</li>
+</ul>
+<h2 id="0022-preview---2021-02-11">[0.0.22-preview] - 2021-02-11</h2>
+<h3 id="added-13">Added</h3>
+<ul>
+<li>Title Cloud Storage<ul>
+<li>AddAndGetVariableRequest - Add a value to a TCS variable and read the result.</li>
+<li>SetVariableWithConditionRequest - Write to a TCS variable conditionally.</li>
+<li>GetMultiVariablesBySlotRequest - Read TCS variables from multiple users.</li>
+<li>SetMultiVariablesByUserRequest -  Write TCS variables.</li>
+<li>GetMultiVariablesByUserRequest - Read TCS variables.</li>
+<li>DeleteMultiVariablesByUserRequest - Delete TCS variables</li>
+<li>UploadDataRequest - Write TCS data</li>
+<li>DownloadDataRequest - Read TCS data</li>
+<li>DeleteMultiDataBySlotRequest - Delete TCS data from multiple users</li>
+<li>DeleteMultiDataByUserRequest - Delete TCS data from multiple slots belonging to the specified user</li>
+<li>GetMultiDataStatusesBySlotRequest - Read TCS data statuses from multiple users for a slot</li>
+<li>GetMultiDataStatusesByUserRequest - Read TCS data statuses from multiple slots for the specified user  </li>
+</ul>
+</li>
+</ul>
+<h3 id="fixed-7">Fixed</h3>
+<ul>
+<li>MatchPlayerStats now serializes PlayerId correctly.</li>
+<li>OnlineSafety::GetCRSImpl C++ code now cleans up its parameters and transaction objects.</li>
+<li>PS4 Crash fixed: Crash in 0.0.21 was caused by SCE_SYSMODULE_NP_SESSION_SIGNALING not be loaded in the PS4 prx.</li>
+</ul>
+<h3 id="changed-3">Changed</h3>
+<ul>
+<li>GetCommunicationRestrictionStatusRequest - This will now return correctly if a user isn&#39;t signed up or signed into PSN. This can now be called before a user is registered with the system (AddUserRequest). If a user is signed in but not registered with the system it will return CRStatus.SignedInNotRegistered. If this occurs add the user, using AddUserRequest, then call GetCommunicationRestrictionStatusRequest to get the Restricted or Unrestricted state. If AddUserRequest is called on a user not signed up or signed in for PSN then it will fail to create the internal contexts required by the various PSN libraries. </li>
+</ul>
+<h2 id="0021-preview---2021-01-18">[0.0.21-preview] - 2021-01-18</h2>
+<h3 id="added-14">Added</h3>
+<ul>
+<li>UDS API<ul>
+<li>UnlockTrophyProgressRequest - Unlocks a progress trophy that uses a default Stat.</li>
+</ul>
+</li>
+<li>TrophySystem API<ul>
+<li>OnUnlockNotification - Callback when a trophy has become unlocked</li>
+<li>TrophyDetails.IsProgress - Boolean value to indicate if the trophy is a progress type.</li>
+<li>TrophyDetails.TargetValue - Target Value that will unlock the trophy. Only valid if IsProgress is true.</li>
+<li>TrophyData.IsProgress - Boolean value to indicate if the users trophy is a progress type.</li>
+<li>TrophyDetails.ProgressValue - The current progress value of the trophy for the user. Only valid if IsProgress is true.</li>
+</ul>
+</li>
+</ul>
+<h3 id="changed-4">Changed</h3>
+<ul>
+<li>Sample app<ul>
+<li>Updated Sample App to demonstrate two methods to unlock progress trophies.</li>
+<li>Added new menu option to unlock the next locked trophy. This uses a list of locked (non-progress) trophies and proceeds to unlock them in order. </li>
+<li>The app can unlock a simple progress trophy with a default stat using UnlockTrophyProgressRequest. The trophy unlocks once the value reaches 100.</li>
+<li>The app has two progress trophies that are linked to a single custom stat called &#39;killCount&#39;. One trophy will unlock once this number reaches 3 and the second one will unlock when it reaches 20.</li>
+<li>The custom stat &#39;killCount&#39; contains a &#39;Stat Extraction&#39; rule which updates the state when an event called <code>UpdateKillCount</code> is received and contains a value called &#39;newKillCount&#39;.</li>
+</ul>
+</li>
+</ul>
+<h3 id="fixed-8">Fixed</h3>
+<ul>
+<li>Leaderboards<ul>
+<li>Fixed crash when RecordScoreRequest.NeedsTmpRank is set to false.</li>
+</ul>
+</li>
+</ul>
+<h2 id="0020-preview---2020-11-26">[0.0.20-preview] - 2020-11-26</h2>
+<h3 id="fixed-9">Fixed</h3>
+<ul>
+<li>Critical Fix:<ul>
+<li>Fixed a problem where sceNpDeleteRequest() wasn&#39;t being called after sceNpCheckPremium was used.</li>
+<li>This is called as part of the FeatureGating CheckPremiumRequest</li>
+</ul>
+</li>
+</ul>
+<h2 id="0019-preview---2020-11-10">[0.0.19-preview] - 2020-11-10</h2>
+<h3 id="added-15">Added</h3>
+<ul>
+<li>Added additional support for SDK 2.0 on PS5 and cross-gen PS4 support for SDK 8.0<ul>
+<li>Moved existing .prx files to plug-in folders 1_00 and 7_50</li>
+<li>Added new .prx files to plug-in folders 2_00 and 8_00</li>
+</ul>
+</li>
+</ul>
+<h3 id="fixed-10">Fixed</h3>
+<ul>
+<li>Using Commerce or Message dialog could cause the dialog to not open again.<ul>
+<li>Fixed an issue where the native code wasn&#39;t calling sceNpCommerceDialogTerminate or sceMsgDialogTerminate when dialog was closed.</li>
+</ul>
+</li>
+<li>Player Review Dialog not available on PS4<ul>
+<li>Player Review Dialog has now been disabled on PS4 as its not available.</li>
+<li>Also fixed issue where scePlayerReviewDialogTerminate wasn&#39;t called when the dialog was closed.</li>
+</ul>
+</li>
+</ul>
+<h3 id="changed-5">Changed</h3>
+<ul>
+<li>Enable Message dialog on PS4. Before this was only enabled for the PS5.</li>
+</ul>
+<h2 id="0018-preview---2020-11-01">[0.0.18-preview] - 2020-11-01</h2>
+<h3 id="fixed-11">Fixed</h3>
+<ul>
+<li>C# Marshalling<ul>
+<li>Improved performance of marshalling data between the C# and C++ native plug-ins. </li>
+<li>There was a slow copy of marshal data occurring each frame during an update call to game intent. </li>
+</ul>
+</li>
+</ul>
+<h2 id="0017-preview---2020-10-14">[0.0.17-preview] - 2020-10-14</h2>
+<h3 id="added-16">Added</h3>
+<ul>
+<li>Matchmaking<ul>
+<li>SubmitTicketRequest - Create a matchmaking ticket</li>
+<li>GetTicketRequest - Obtain a matchmaking ticket</li>
+<li>CancelTicketRequest - Delete a matchmaking ticket</li>
+<li>GetOfferRequest - Obtain a matchmaking offer</li>
+<li>ListUserTicketsRequest - Obtain a list of matchmaking tickets that a user has joined</li>
+<li>WebAPINotifications for matchmaking notifications</li>
+<li>Example of matchmaking rules &#39;Doubles_Match_Ignoring_NatType.json&#39;</li>
+</ul>
+</li>
+<li>UniversalDataSystem<ul>
+<li>Added AppendValues method for EventPropertyArray </li>
+</ul>
+</li>
+</ul>
+<h3 id="changed-6">Changed</h3>
+<ul>
+<li>UserSessionFilters<ul>
+<li>Added additional &quot;psn:matchmaking&quot; notification datatypes for MatchMaking Ticket and Offer.</li>
+</ul>
+</li>
+</ul>
+<h3 id="fixed-12">Fixed</h3>
+<ul>
+<li>GameSessions<ul>
+<li>Fixed issue with GetGameSessionsRequest. The returned RetrievedSessionData didn&#39;t have flags set for Matchmaking and ReservationTimeoutSeconds properties.</li>
+<li>Fixed issue with GameSessionNotifications.NotificationTypes.InvitationsCreated not being sent. When Matchmaking tickets are matched the application will not receive the GameSessionNotifications.NotificationTypes.InvitationsCreated notification.</li>
+</ul>
+</li>
+<li>NpPlatformType<ul>
+<li>Fixed the NpPlatformType enum as PS5 value was set to 4 and should have been 5 to match SCE_NP_PLATFORM_TYPE_PROSPERO   </li>
+</ul>
+</li>
+</ul>
+<h2 id="0016-preview---2020-10-09">[0.0.16-preview] - 2020-10-09</h2>
+<h3 id="fixed-13">Fixed</h3>
+<ul>
+<li>Fixed crash in WebApiNotifications::FindOrderedPushEvent native code when a user wasn&#39;t registered with the system.</li>
+</ul>
+<h2 id="0015-preview---2020-10-01">[0.0.15-preview] - 2020-10-01</h2>
+<h3 id="fixed-14">Fixed</h3>
+<ul>
+<li>Removed calls to printf function in native plugin</li>
+</ul>
+<h2 id="0014-preview---2020-09-29">[0.0.14-preview] - 2020-09-29</h2>
+<h3 id="fixed-15">Fixed</h3>
+<ul>
+<li>Removed calls to Debug.Log methods for Non-Development builds</li>
+<li>Add missing documentation for various enums, classes and methods.</li>
+</ul>
+<h2 id="0013-preview---2020-09-22">[0.0.13-preview] - 2020-09-22</h2>
+<h3 id="added-17">Added</h3>
+<ul>
+<li>Leaderboards<ul>
+<li>GetBoardDefinitionRequest - Get the leaderboard definition state.</li>
+<li>RecordScoreRequest - Record score, including attaching large data if required</li>
+<li>GetRankingRequest - Read the current leaderboard results</li>
+<li>GetLargeDataRequest - Download any large data attached to a leaderboard entry.</li>
+</ul>
+</li>
+<li>Large data restrictions:<ul>
+<li>Only one of the upload strategies is currently supported. Large data is uploaded after the score is sent. </li>
+<li>The internal buffers need to be large enough to handle the size of the data both being uploaded and downloaded.</li>
+<li>Use the Main.Initialize method to set the size of the buffers. By default they are set to 2mb</li>
+</ul>
+</li>
+</ul>
+<h3 id="changed-7">Changed</h3>
+<ul>
+<li>Main.Initialize - Added parameters to set the internal read and write buffers used to marshal data to the native .prx.<ul>
+<li>These are both defaulted to 2mb. </li>
+</ul>
+</li>
+</ul>
+<h2 id="0012-preview---2020-09-14">[0.0.12-preview] - 2020-09-14</h2>
+<h3 id="added-18">Added</h3>
+<ul>
+<li>Support for user sign in/out notifications (OnSignedInNotification, StartSignedStateCallbackRequest and StopSignedStateCallbackRequest)</li>
+<li>Support for PSN reachability notifications (OnReachabilityNotification, StartReachabilityStateCallbackRequest and StopReachabilityStateCallbackRequest)</li>
+</ul>
+<h2 id="0011-preview---2020-09-07">[0.0.11-preview] - 2020-09-07</h2>
+<h3 id="added-19">Added</h3>
+<ul>
+<li>Matches<ul>
+<li>CreateMatchRequest - Create a match.</li>
+<li>GetMatchDetailRequest - Retrieve the details and status of a match.</li>
+<li>UpdateMatchStatusRequest - Change the match status to playing, on-hold or cancelled.</li>
+<li>JoinMatchRequest - Have a player join a match.</li>
+<li>LeaveMatchRequest - Have a player leave a match.</li>
+<li>ReportResultsRequest - Submit the results of a match and match stats.</li>
+<li>UpdateMatchDetailRequest - Update the details of the match, including submitting interim results and stats.</li>
+</ul>
+</li>
+<li>Player review dialog<ul>
+<li>OpenPlayerReviewDialogRequest - Display player review dialog.</li>
+</ul>
+</li>
+<li>Message dialog<ul>
+<li>OpenMsgDialogRequest - Display the common message dialog, including support for showing the PSN Communication Restriction message</li>
+</ul>
+</li>
+</ul>
+<h3 id="fixed-16">Fixed</h3>
+<ul>
+<li>Sample<ul>
+<li>Display publishing settings path when using <code>Set Publish Settings For PS5</code> editor script in Unity 2020.1 or above</li>
+</ul>
+</li>
+</ul>
+<h2 id="0010-preview---2020-08-28">[0.0.10-preview] - 2020-08-28</h2>
+<h3 id="changed-8">Changed</h3>
+<ul>
+<li>GetBlockingUsersRequest - Added support to return NextOffset, PreviousOffset and TotalItemCount </li>
+</ul>
+<h2 id="009-preview---2020-07-31">[0.0.9-preview] - 2020-07-31</h2>
+<h3 id="added-20">Added</h3>
+<ul>
+<li>Game Sessions<ul>
+<li>CreateGameSessionRequest - Create a game session</li>
+<li>LeaveGameSessionRequest - A user leaves the game session</li>
+<li>JoinGameSessionRequest - A user joins an existing game session as a player or spectator</li>
+<li>GetGameSessionsRequest - Get info about a game session</li>
+<li>SetGameSessionPropertiesRequest - Change some of the parameters of a game session</li>
+<li>Added PlayerNotification and GameNotification type for user based notifications for player and game sessions.</li>
+<li>SetGameSessionMemberSystemPropertiesRequest - Set custom data for a game session member</li>
+<li>SendGameSessionMessageRequest - Send player session message</li>
+<li>GetJoinedGameSessionsByUserRequest - Get a list of game sessions belonging to the user</li>
+<li>DeleteGameSessionRequest - Delete a game session.</li>
+</ul>
+</li>
+<li>Commerce Dialog<ul>
+<li>OpenJoinPremiumDialogRequest = Support to open and close Join premium dialog</li>
+</ul>
+</li>
+</ul>
+<h3 id="changed-9">Changed</h3>
+<ul>
+<li>Renamed NotificationPlayerSessionData to NotificationSessionData as both player and game session notification share the same json notification structure.</li>
+<li>Changed Notification struct to class so it can contain player and game notification types</li>
+</ul>
+<h2 id="008-preview---2020-07-02">[0.0.8-preview] - 2020-07-02</h2>
+<h3 id="added-21">Added</h3>
+<ul>
+<li>Player Sessions<ul>
+<li>Merge session changes in the RetrievedSessionData class, received from calling the GetPlayerSessionsRequest, into the PlayerSession object. This will allow the current state of the player session to be cached locally.</li>
+<li>GetPlayerSessionInvitationsRequest used to retrieve invitations for a user.</li>
+<li>ChangePlayerSessionLeaderRequest used change the leader of a player session</li>
+<li>AddPlayerSessionJoinableSpecifiedUsersRequest - Add list of join-able specified users to a session.</li>
+<li>DeletePlayerSessionJoinableSpecifiedUsersRequest - Delete list of join-able specified users from a session.</li>
+<li>SetPlayerSessionMemberSystemPropertiesRequest - Set member system properties for a player session (CustomData1)</li>
+<li>SendPlayerSessionMessageRequest - Sends a message to a list of user.</li>
+<li>GetJoinedPlayerSessionsByUserRequest - Obtain a list of Player Sessions in which a user is participating</li>
+<li>SetPlayerSessionPropertiesRequest - Update Player Session information</li>
+<li>SwapPlayerSessionMemberRequest - Swap session member between between player and spectator.</li>
+<li>Create session now supports setting both CustomData1 and CustomData2 during creation.</li>
+</ul>
+</li>
+<li>WebApi Notifications<ul>
+<li>Added user event callback, UserSessionEventHandler, called when non-guaranteed user events are received.</li>
+</ul>
+</li>
+<li>PS4 Cross-gen<ul>
+<li>Added PS4 Cross-gen .prx plugins to package</li>
+<li>Supports Authentication, Player Sessions, Game Intent, Online Safety, WebApi Notifications</li>
+</ul>
+</li>
+</ul>
+<h3 id="changed-10">Changed</h3>
+<ul>
+<li>Updated the RetrievedSessionData class to include all the data returned from the GetPlayerSessionsRequest</li>
+<li>Improved error messages in Sample app. Each async requests output errors if they occur.</li>
+<li>Updated many request class to use List&lt;&gt; objects instead of Arrays to reduce memory garbage. </li>
+<li>Reduced number of delegates to just one for a PlayerSession and another for User events. (OnSessionUpdated, OnUserEvent)</li>
+</ul>
+<h2 id="007-preview---2020-06-29">[0.0.7-preview] - 2020-06-29</h2>
+<h3 id="changed-11">Changed</h3>
+<ul>
+<li>Removed from WebApiNotifications:<ul>
+<li>CreateFilterRequest and RemoveFilterRequest</li>
+<li>RegisterUserCallbackRequest and UnregisterUserCallbackRequest</li>
+</ul>
+</li>
+<li>Added to WebApiNotifications:<ul>
+<li>CreatePushEventRequest and DeletePushEventRequest</li>
+<li>WebApiPushEvent -&gt; Filters are now included inside the a new Push event object</li>
+<li>Push events can be configured to be order-guaranteed</li>
+</ul>
+</li>
+<li>WebApiFilterSet renamed to WebApiFilters</li>
+</ul>
+<h3 id="added-22">Added</h3>
+<ul>
+<li><p>PlayerSession:</p>
+<ul>
+<li>Create session, setting max players, max spectators, allow swapping, join and invite restrictions, leader privileges and localised session name</li>
+<li>Leave session</li>
+<li>User can join an already existing session as a player or spectator, including join a session created by another local user.</li>
+<li>Retrieve player session settings and data</li>
+<li>Send session invites</li>
+<li>Merge player and spectator info retrieved from WebApi notifications into the local PlayerSession object.</li>
+<li>Added callbacks to PlayerSession when WebApiNotifications are received. <ul>
+<li>OnSessionMemberUpdated is used when member joins, leaves or changes role. The data from the notification is automatically updated in the PlayerSession</li>
+<li>OnSessionUpdated is used when a session parameter is changed. The notification doesn&#39;t contain any data about the change therefore RetrievedSessionData should be used to retrieve the data.  </li>
+<li>SetExternalEventCallback is used to return raw notification data. </li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>WebApiFilters</p>
+<ul>
+<li>Supports ServiceName and ServiceLabel parameters</li>
+<li>Now reference counted when registered with a WebApiPushEvent</li>
+<li>Can only be unregistered when its reference count is 0</li>
+</ul>
+</li>
+</ul>
+<h2 id="006-preview---2020-05-20">[0.0.6-preview] - 2020-05-20</h2>
+<h3 id="added-23">Added</h3>
+<ul>
+<li>Feature Gating provides methods to check if a user is allowed to access premium features or notify the system when a premium feature is being used<ul>
+<li>CheckPremiumRequest</li>
+</ul>
+</li>
+<li>Authentication system provides a feature to obtain the authorization code required by the application server to access user information on the PSN server <ul>
+<li>GetAuthorizationCodeRequest</li>
+<li>GetIdTokenRequest</li>
+</ul>
+</li>
+</ul>
+<h2 id="005-preview---2020-04-01">[0.0.5-preview] - 2020-04-01</h2>
+<h3 id="changed-12">Changed</h3>
+<ul>
+<li>PostEventRequest can now return the estimated size of the sent event.</li>
+<li>Renamed TrophyService to TrophySystem</li>
+<li>Renamed GameIntentService to GameIntentSystem</li>
+<li>Renamed RegisterUserFiltersRequest to RegisterUserCallbackRequest</li>
+<li>Renamed UnregisterUserFiltersRequest to UnregisterUserCallbackRequest</li>
+</ul>
+<h3 id="added-24">Added</h3>
+<ul>
+<li>StartSystemRequest and StopSystemRequest added to UDS. </li>
+<li>Can now set the UDS memory pool size using StartSystemRequest.</li>
+<li>GetMemoryStatsRequest returns memory stats for UDS.</li>
+<li>Included support for Float64 (double), Bool and Binary property types for UDS EventProperty and EventPropertyArray</li>
+<li>Retrieve Game Icons, Group Icons, Trophy Icons and Reward Icons from the Trophy system.</li>
+<li>ShowTrophyListRequest will display the Trophy list system dialog.</li>
+<li>Online Safety features supported - GetCommunicationRestrictionStatusRequest and FilterProfanityRequest added. </li>
+</ul>
+<h2 id="004-preview---2020-03-05">[0.0.4-preview] - 2020-03-05</h2>
+<h3 id="changed-13">Changed</h3>
+<ul>
+<li>Updated to use SDK 0.95</li>
+<li>Move Trophy support from separate package into this one.</li>
+<li>Split system into additional namespaces to group functionality and produce better documentation</li>
+</ul>
+<h3 id="added-25">Added</h3>
+<ul>
+<li>Added HTML documentation to HTML~ directory in package root.</li>
+</ul>
+<h2 id="003-preview---2019-12-13">[0.0.3-preview] - 2019-12-13</h2>
+<h3 id="changed-14">Changed</h3>
+<ul>
+<li>Updated to work with SDK 0.9</li>
+<li>Renamed Pzazz to PS5</li>
+</ul>
+<h3 id="added-26">Added</h3>
+<ul>
+<li>WebApi Notifications<ul>
+<li>Create Filters and notifications for webapi events.</li>
+</ul>
+</li>
+<li>User presence<ul>
+<li>Return online/offline basic presence for user(s)</li>
+</ul>
+</li>
+</ul>
+<h2 id="002-preview---2019-10-31">[0.0.2-preview] - 2019-10-31</h2>
+<h3 id="changed-15">Changed</h3>
+<ul>
+<li>Moved location of C++ source files and update VS projects</li>
+</ul>
+<h2 id="001-preview---2019-10-17">[0.0.1-preview] - 2019-10-17</h2>
+<h3 id="fixed-17">Fixed</h3>
+<ul>
+<li>Initial Version</li>
+</ul>
+<h3 id="changed-16">Changed</h3>
+<ul>
+<li>Initial Version</li>
+</ul>
+<h3 id="added-27">Added</h3>
+<ul>
+<li>Asynchronous Requests<ul>
+<li>Provides a way to call the API using asynchronous calls.</li>
+</ul>
+</li>
+<li>User Management<ul>
+<li>User can be registered and unregistered with the underlying native services. This is required for all other API&#39;s to work on a system level.</li>
+</ul>
+</li>
+<li>Universal Data System<ul>
+<li>Supports sending events and creating Event data, include custom event data structures. </li>
+</ul>
+</li>
+<li>Game Intent<ul>
+<li>Supports a callback when a user selects an Activity. </li>
+</ul>
+</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

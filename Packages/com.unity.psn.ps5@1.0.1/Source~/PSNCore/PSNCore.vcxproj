@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ORBIS">
+      <Configuration>Debug</Configuration>
+      <Platform>ORBIS</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Prospero">
+      <Configuration>Debug</Configuration>
+      <Platform>Prospero</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ORBIS">
+      <Configuration>Release</Configuration>
+      <Platform>ORBIS</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Prospero">
+      <Configuration>Release</Configuration>
+      <Platform>Prospero</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C0867F77-F7CE-4EC5-9923-8DB2348D4C3A}</ProjectGuid>
+    <ProjectName>PSNCore</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ORBIS'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ORBIS'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <PropertyGroup Condition="'$(DebuggerFlavor)'=='ORBISDebugger'" Label="OverrideDebuggerDefaults">
+    <!--LocalDebuggerCommand>$(TargetPath)</LocalDebuggerCommand-->
+    <!--LocalDebuggerCommandArguments></LocalDebuggerCommandArguments-->
+    <!--LocalDebuggerTarget></LocalDebuggerTarget-->
+    <!--LocalDebuggerWorkingDirectory>$(ProjectDir)</LocalDebuggerWorkingDirectory-->
+    <!--LocalRunCommandLine></LocalRunCommandLine-->
+  </PropertyGroup>
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|ORBIS'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|ORBIS'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ORBIS'">
+    <OutDir>$(ProjectDir)\build\ps4_debug\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">
+    <OutDir>$(ProjectDir)\build\ps5_debug\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ORBIS'">
+    <OutDir>$(ProjectDir)\build\ps4_release\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">
+    <OutDir>$(ProjectDir)\build\ps5_release\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ORBIS'">
+    <ClCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);GLOBAL_EVENT_QUEUE;</PreprocessorDefinitions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Analyze>true</Analyze>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\PSNCommon\SharedInclude</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>$(ProjectDir)..\PSNCommon\build\ps4_debug\PSNCommon_stub_weak.a;-lSceSysmodule_stub_weak;-lSceNpManager_stub_weak;-lSceNpGameIntent_stub_weak;-lSceJson2_stub_weak;-lSceNpCppWebApi_stub_weak;-lSceNet_stub_weak;-lSceSsl_stub_weak;-lSceHttp2_stub_weak;-lSceNpWebApi2_stub_weak;-lSceCommonDialog_stub_weak;-lSceNpAuth_stub_weak;-lSceNpEntitlementAccess_stub_weak;-lSceMsgDialog_stub_weak;-lSceNpSessionSignaling_stub_weak;-lSceNetCtl_stub_weak;-lSceNpUtility_stub_weak</AdditionalDependencies>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /y $(ProjectDir)..\PSNCommon\build\ps4_debug\PSNCommon.prx $(TargetDir)
+xcopy /y $(TargetDir)*.prx $(ProjectDir)..\..\Plugins\PS4</Command>
+    </PostBuildEvent>
+    <PostAnalyzeEvent>
+      <Message>
+      </Message>
+    </PostAnalyzeEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">
+    <ClCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);GLOBAL_EVENT_QUEUE;</PreprocessorDefinitions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Analyze>true</Analyze>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\PSNCommon\SharedInclude</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>$(ProjectDir)..\PSNCommon\build\ps5_debug\PSNCommon_stub_weak.a;-lSceSysmodule_stub_weak;-lSceNpTrophy2_stub_weak;-lSceNpUniversalDataSystem_stub_weak;-lSceNpManager_stub_weak;-lSceNpGameIntent_stub_weak;-lSceJson2_stub_weak;-lSceNpCppWebApi_stub_weak;-lSceNet_stub_weak;-lSceSsl_stub_weak;-lSceHttp2_stub_weak;-lSceNpWebApi2_stub_weak;-lSceCommonDialog_stub_weak;-lSceNpAuth_stub_weak;-lSceNpEntitlementAccess_stub_weak;-lSceNpCommerce_stub_weak;-lSceMsgDialog_stub_weak;-lSceNpSessionSignaling_stub_weak;-lSceGameUpdate_stub_weak;-lSceNetCtl_stub_weak;-lScePlayerInvitationDialog_stub_weak;-lSceNpUtility_stub_weak</AdditionalDependencies>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /y $(ProjectDir)..\PSNCommon\build\ps5_debug\PSNCommon.prx $(TargetDir)
+xcopy /y $(TargetDir)*.prx $(ProjectDir)..\..\Plugins\PS5\7_00</Command>
+    </PostBuildEvent>
+    <PostAnalyzeEvent>
+      <Message>
+      </Message>
+    </PostAnalyzeEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ORBIS'">
+    <ClCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions);GLOBAL_EVENT_QUEUE;</PreprocessorDefinitions>
+      <OptimizationLevel>Level2</OptimizationLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\PSNCommon\SharedInclude</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>$(ProjectDir)..\PSNCommon\build\ps4_release\PSNCommon_stub_weak.a;-lSceSysmodule_stub_weak;-lSceNpManager_stub_weak;-lSceNpGameIntent_stub_weak;-lSceJson2_stub_weak;-lSceNpCppWebApi_stub_weak;-lSceNet_stub_weak;-lSceSsl_stub_weak;-lSceHttp2_stub_weak;-lSceNpWebApi2_stub_weak;-lSceCommonDialog_stub_weak;-lSceNpAuth_stub_weak;-lSceNpEntitlementAccess_stub_weak;-lSceMsgDialog_stub_weak;-lSceNpSessionSignaling_stub_weak;-lSceNetCtl_stub_weak;-lSceNpUtility_stub_weak</AdditionalDependencies>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /y $(ProjectDir)..\PSNCommon\build\ps4_release\PSNCommon.prx $(TargetDir)
+xcopy /y $(TargetDir)*.prx $(ProjectDir)..\..\Plugins\PS4</Command>
+    </PostBuildEvent>
+    <PostAnalyzeEvent>
+      <Message>
+      </Message>
+    </PostAnalyzeEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">
+    <ClCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions);GLOBAL_EVENT_QUEUE;</PreprocessorDefinitions>
+      <OptimizationLevel>Level2</OptimizationLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\PSNCommon\SharedInclude</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>$(ProjectDir)..\PSNCommon\build\ps5_release\PSNCommon_stub_weak.a;-lSceSysmodule_stub_weak;-lSceNpTrophy2_stub_weak;-lSceNpUniversalDataSystem_stub_weak;-lSceNpManager_stub_weak;-lSceNpGameIntent_stub_weak;-lSceJson2_stub_weak;-lSceNpCppWebApi_stub_weak;-lSceNet_stub_weak;-lSceSsl_stub_weak;-lSceHttp2_stub_weak;-lSceNpWebApi2_stub_weak;-lSceCommonDialog_stub_weak;-lSceNpAuth_stub_weak;-lSceNpEntitlementAccess_stub_weak;-lSceNpCommerce_stub_weak;-lSceMsgDialog_stub_weak;-lSceNpSessionSignaling_stub_weak;-lSceGameUpdate_stub_weak;-lSceNetCtl_stub_weak;-lScePlayerInvitationDialog_stub_weak;-lSceNpUtility_stub_weak</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /y $(ProjectDir)..\PSNCommon\build\ps5_release\PSNCommon.prx $(TargetDir)
+xcopy /y $(TargetDir)*.prx $(ProjectDir)..\..\Plugins\PS5\7_00</Command>
+    </PostBuildEvent>
+    <PostAnalyzeEvent>
+      <Message>
+      </Message>
+    </PostAnalyzeEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Authentication.cpp" />
+    <ClCompile Include="Source\Bandwidth.cpp" />
+    <ClCompile Include="Source\Commerce.cpp" />
+    <ClCompile Include="Source\CoreMain.cpp" />
+    <ClCompile Include="Source\Entitlements.cpp" />
+    <ClCompile Include="Source\FeatureGating.cpp" />
+    <ClCompile Include="Source\GameIntent.cpp" />
+    <ClCompile Include="Source\GameSession.cpp" />
+    <ClCompile Include="Source\GameUpdate.cpp" />
+    <ClCompile Include="Source\Leaderboards.cpp" />
+    <ClCompile Include="Source\Matches.cpp" />
+    <ClCompile Include="Source\MatchMaking.cpp" />
+    <ClCompile Include="Source\MsgDialog.cpp" />
+    <ClCompile Include="Source\OnlineSafety.cpp" />
+    <ClCompile Include="Source\PlayerInvitationDialog.cpp" />
+    <ClCompile Include="Source\PlayerReviewDialog.cpp" />
+    <ClCompile Include="Source\PlayerSession.cpp" />
+    <ClCompile Include="Source\SessionSignalling.cpp" />
+    <ClCompile Include="Source\SessionsManager.cpp" />
+    <ClCompile Include="Source\Sockets.cpp" />
+    <ClCompile Include="Source\TitleCloudStorage.cpp" />
+    <ClCompile Include="Source\TrophyService.cpp" />
+    <ClCompile Include="Source\UniversalDataSystem.cpp" />
+    <ClCompile Include="Source\Users.cpp" />
+    <ClCompile Include="Source\Utils.cpp" />
+    <ClCompile Include="Source\WebApi.cpp" />
+    <ClCompile Include="Source\WebApiNotifications.cpp" />
+    <ClCompile Include="Source\WebApiPushEvents.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Authentication.h" />
+    <ClInclude Include="Source\Bandwidth.h" />
+    <ClInclude Include="Source\Commerce.h" />
+    <ClInclude Include="Source\CoreMain.h" />
+    <ClInclude Include="Source\Entitlements.h" />
+    <ClInclude Include="Source\FeatureGating.h" />
+    <ClInclude Include="Source\GameIntent.h" />
+    <ClInclude Include="Source\GameSession.h" />
+    <ClInclude Include="Source\GameUpdate.h" />
+    <ClInclude Include="Source\Leaderboards.h" />
+    <ClInclude Include="Source\Matches.h" />
+    <ClInclude Include="Source\MatchMaking.h" />
+    <ClInclude Include="Source\MsgDialog.h" />
+    <ClInclude Include="Source\OnlineSafety.h" />
+    <ClInclude Include="Source\PlayerInvitationDialog.h" />
+    <ClInclude Include="Source\PlayerReviewDialog.h" />
+    <ClInclude Include="Source\PlayerSession.h" />
+    <ClInclude Include="Source\SessionMap.h" />
+    <ClInclude Include="Source\SessionSignalling.h" />
+    <ClInclude Include="Source\SessionsManager.h" />
+    <ClInclude Include="Source\Sockets.h" />
+    <ClInclude Include="Source\TitleCloudStorage.h" />
+    <ClInclude Include="Source\TrophyService.h" />
+    <ClInclude Include="Source\UniversalDataSystem.h" />
+    <ClInclude Include="Source\Users.h" />
+    <ClInclude Include="Source\Utils.h" />
+    <ClInclude Include="Source\WebApi.h" />
+    <ClInclude Include="Source\WebApiNotifications.h" />
+    <ClInclude Include="Source\WebApiPushEvents.h" />
+  </ItemGroup>
+  <Import Condition="'$(ConfigurationType)' == 'Makefile' and Exists('$(VCTargetsPath)\Platforms\$(Platform)\SCE.Makefile.$(Platform).targets')" Project="$(VCTargetsPath)\Platforms\$(Platform)\SCE.Makefile.$(Platform).targets" />
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

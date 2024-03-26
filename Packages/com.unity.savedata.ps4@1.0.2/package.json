@@ -1,0 +1,36 @@
+{
+  "name": "com.unity.savedata.ps4",
+  "author": "Unity",
+  "displayName": "Save Data PS4",
+  "version": "1.0.2",
+  "unity": "2021.3",
+  "unityRelease": "29f1",
+  "documentationUrl": "file:/Documentation~/index.md",
+  "description": "Implements the PlayStation 4 SaveData2 libary, which allows you to implement saving and loading functionality in your title.",
+  "keywords": [
+    "savedata",
+    "ps4",
+    "playstation"
+  ],
+  "dependencies": {},
+  "samples": [
+    {
+      "displayName": "PS4 Save Data Sample",
+      "description": "Sample for SaveData functionality on PS4, showing all major functionality",
+      "path": "Samples~/SaveDataSample"
+    }
+  ],
+  "_upm": {
+    "changelog": "### Fixed\n   - Stop editor build script executing when an non-PlayStation platform is being built"
+  },
+  "upmCi": {
+    "footprint": "2ab9d39f6ae9325d7d18287a0895b63c7e8ad829"
+  },
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Korion-Interactive/sony-ps4-unity-savedata.git"
+	},
+	"publishConfig": {
+		"registry":"https://npm.pkg.github.com/@Korion-Interactive"
+	}
+}

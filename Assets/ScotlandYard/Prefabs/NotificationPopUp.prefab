@@ -254,8 +254,8 @@ MonoBehaviour:
   keepAspectRatio: 0
   aspectRatio: 3.7021277
   keepCrispWhenShrunk: 1
-  mTrueTypeFont: {fileID: 12800000, guid: 70e1d94f4bb358c478527940b0b4296e, type: 3}
-  mFont: {fileID: 0}
+  mTrueTypeFont: {fileID: 0}
+  mFont: {fileID: 4957276948020159512, guid: 5f8909bfd2bb9b548bf68754d0d62b82, type: 3}
   mText: No
   mFontSize: 75
   mFontStyle: 0
@@ -364,8 +364,8 @@ MonoBehaviour:
   keepAspectRatio: 0
   aspectRatio: 3.7021277
   keepCrispWhenShrunk: 1
-  mTrueTypeFont: {fileID: 12800000, guid: 70e1d94f4bb358c478527940b0b4296e, type: 3}
-  mFont: {fileID: 0}
+  mTrueTypeFont: {fileID: 0}
+  mFont: {fileID: 4957276948020159512, guid: 5f8909bfd2bb9b548bf68754d0d62b82, type: 3}
   mText: Yes
   mFontSize: 75
   mFontStyle: 0
@@ -656,8 +656,8 @@ MonoBehaviour:
   keepAspectRatio: 0
   aspectRatio: 1.9295301
   keepCrispWhenShrunk: 1
-  mTrueTypeFont: {fileID: 12800000, guid: f22d766b1aeaab84287fa886b66327d4, type: 3}
-  mFont: {fileID: 0}
+  mTrueTypeFont: {fileID: 0}
+  mFont: {fileID: 5105067679674714174, guid: f562cfe6df92c8240a9e5f5acaa49cb4, type: 3}
   mText: popup_text
   mFontSize: 60
   mFontStyle: 0
@@ -766,8 +766,8 @@ MonoBehaviour:
   keepAspectRatio: 0
   aspectRatio: 6.9325843
   keepCrispWhenShrunk: 1
-  mTrueTypeFont: {fileID: 12800000, guid: 70e1d94f4bb358c478527940b0b4296e, type: 3}
-  mFont: {fileID: 0}
+  mTrueTypeFont: {fileID: 0}
+  mFont: {fileID: 4957276948020159512, guid: 5f8909bfd2bb9b548bf68754d0d62b82, type: 3}
   mText: Headline
   mFontSize: 75
   mFontStyle: 0

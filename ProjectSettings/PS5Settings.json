@@ -37,7 +37,7 @@
         "buildCompressionType": 0,
         "buildCompressionLevel": 0,
         "keepPackageFiles": false,
-        "buildSubtarget": 0,
+        "buildSubtarget": 1,
         "sdkOverride": "",
         "saveDataImagePath": "",
         "configFileParsed": false,

@@ -1,0 +1,39 @@
+{
+  "name": "com.unity.psn.ps5",
+  "version": "1.0.1",
+  "unity": "2021.3",
+  "displayName": "PS5 PlayStation Network",
+  "description": "Provides the implementation for PSN features on PS5",
+  "keywords": [
+    "psn",
+    "ps5",
+    "playstation"
+  ],
+  "dependencies": {},
+  "_upm": {
+    "changelog": "### Fixed\n   - Stop editor build script executing when an non-PlayStation platform is being built"
+  },
+  "upmCi": {
+    "footprint": "9625db5cb02e597b44efb1c37dcfdfc6e018ea60"
+  },
+  "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.psn.ps5@1.0/manual/index.html",
+  "samples": [
+    {
+      "displayName": "PSN Sample",
+      "description": "Shows how to implement the various API's provided by the PSN Package. See the README.md file in the sample for details.",
+      "path": "Samples~/PSNSample"
+    }
+  ],
+  "author": {
+		"name": "Korion Interactive GmbH",
+		"email": "info@korion.de",
+		"url": "https://www.korion.de"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Korion-Interactive/sony-ps5-unity-psn.git"
+	},
+	"publishConfig": {
+		"registry":"https://npm.pkg.github.com/@Korion-Interactive"
+	}
+}

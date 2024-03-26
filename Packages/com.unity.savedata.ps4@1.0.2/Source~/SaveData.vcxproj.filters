@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{3964b519-90d7-4ddb-9fbd-1f5428f39d50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ErrorHandling">
+      <UniqueIdentifier>{7752fdb5-e676-444b-b9cd-9cf30cf71791}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes">
+      <UniqueIdentifier>{53621af1-6dc1-424d-af96-7ba177f0e2ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayerInterface">
+      <UniqueIdentifier>{640bba86-9262-4f07-98be-fa6fd801a77a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managed">
+      <UniqueIdentifier>{1b5f1f51-07b3-435f-b3e1-7f433c06c21c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorHandling\ErrorCodes.cpp">
+      <Filter>ErrorHandling</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorHandling\Errors.cpp">
+      <Filter>ErrorHandling</Filter>
+    </ClCompile>
+    <ClCompile Include="Managed\ManagedRequest.cpp">
+      <Filter>Managed</Filter>
+    </ClCompile>
+    <ClCompile Include="Managed\ManagedResponse.cpp">
+      <Filter>Managed</Filter>
+    </ClCompile>
+    <ClCompile Include="Managed\MemoryBufferManaged.cpp">
+      <Filter>Managed</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Notifications.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Delete.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mount.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Info.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utils.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Search.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Backup.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Dialogs.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Progress.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Main.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorHandling\Errors.h">
+      <Filter>ErrorHandling</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\CommonTypes.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\PluginCommonIncludes.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\SonyCommonIncludes.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerInterface\IPluginSceAppParams.h">
+      <Filter>PlayerInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerInterface\IPluginSceNpParams.h">
+      <Filter>PlayerInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerInterface\IPluginUnity.h">
+      <Filter>PlayerInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerInterface\UnityEventQueue.h">
+      <Filter>PlayerInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="Managed\ManagedRequest.h">
+      <Filter>Managed</Filter>
+    </ClInclude>
+    <ClInclude Include="Managed\ManagedResponse.h">
+      <Filter>Managed</Filter>
+    </ClInclude>
+    <ClInclude Include="Managed\MemoryBufferManaged.h">
+      <Filter>Managed</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Notifications.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Delete.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mount.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Info.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utils.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Search.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Backup.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Dialogs.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Progress.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

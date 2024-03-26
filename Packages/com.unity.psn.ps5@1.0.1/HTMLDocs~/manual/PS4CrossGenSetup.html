@@ -1,0 +1,277 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);  })(window,document,'script','dataLayer','GTM-5V25JL6');</script>
+    <script type="text/javascript">thisPackageMetaData = { name: "com.unity.psn.ps5", version: "1.0.1", displayTitle:"PS5 PlayStation Network 1.0.1", lang: "en" };</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    
+  
+    <title>Set up the PS4 Cross-Gen SDK | PS5 PlayStation Network | 1.0.1 </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Set up the PS4 Cross-Gen SDK | PS5 PlayStation Network | 1.0.1 ">
+    <meta name="generator" content="docfx 2.58.9.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/statictoc.docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="unity:packageTitle" content="PS5 PlayStation Network | 1.0.1">
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+                <div class="back-to-unity-group">
+                  <a class="back-to-unity" href="http://docs.unity3d.com/">docs.unity3d.com</a>
+                </div>
+              </form>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li class="active">
+                          <a href="../manual/index.html" title="Manual">Manual</a>
+                      </li>
+                      <li class="">
+                          <a href="../api/index.html" title="Scripting API">Scripting API</a>
+                      </li>
+                      <li class="">
+                          <a href="../changelog/CHANGELOG.html" title="Changelog">Changelog</a>
+                      </li>
+                      <li class="">
+                          <a href="../license/LICENSE.html" title="License">License</a>
+                      </li>
+                </ul>    </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="index.html" title="PlayStation Network Package" class="">PlayStation Network Package</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="AccessThePSNPackage.html" title="Access the PlayStation Network for PlayStation 5" class="">Access the PlayStation Network for PlayStation 5</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a href="InstallThePSNPackage.html" title="Install the PlayStation Network Package" class="">Install the PlayStation Network Package</a>
+                                </li>
+                                <li class="">
+                                  <a href="Addnpconfig.html" title="Add an npconfig.zip file to your Unity project" class="">Add an npconfig.zip file to your Unity project</a>
+                                </li>
+                                <li class="">
+                                  <a href="InitializeThePSNPackage.html" title="Initialize the PS5 PlayStation Network package in your project" class="">Initialize the PS5 PlayStation Network package in your project</a>
+                                </li>
+                              </ul>  </li>
+                          <li class="">
+                            <a href="UniversalDataSystem.html" title="Universal Data System" class="">Universal Data System</a>
+                          </li>
+                          <li class="">
+                            <a href="entitlements.html" title="Entitlements" class="">Entitlements</a>
+                          </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="Trophies.html" title="Add Trophies to your PS5 Unity project" class="">Add Trophies to your PS5 Unity project</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a href="TrophyConcepts.html" title="Trophies Concepts and Libraries" class="">Trophies Concepts and Libraries</a>
+                                </li>
+                                <li class="">
+                                  <a href="ConfigureTrophies.html" title="Set up and configure Trophies" class="">Set up and configure Trophies</a>
+                                </li>
+                                <li class="">
+                                  <a href="InteractWithTrophies.html" title="Interact with Trophies in Unity" class="">Interact with Trophies in Unity</a>
+                                </li>
+                              </ul>  </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="Activities.html" title="Add Activities to your PS5 Unity project" class="">Add Activities to your PS5 Unity project</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a href="ActivityTypes.html" title="Activity Types" class="">Activity Types</a>
+                                </li>
+                                <li class="">
+                                  <a href="ConfigureActivities.html" title="Set up and configure Activities" class="">Set up and configure Activities</a>
+                                </li>
+                                <li class="">
+                                  <a href="ImplementActivities.html" title="Implement Activities in your Unity Project" class="">Implement Activities in your Unity Project</a>
+                                </li>
+                              </ul>  </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="PS4CrossGen.html" title="Add the PS4 Cross-Gen SDK to your Unity project" class="">Add the PS4 Cross-Gen SDK to your Unity project</a>
+                              
+                              <ul class="nav level3">
+                                <li class="active">
+                                  <a href="PS4CrossGenSetup.html" title="Set up the PS4 Cross-Gen SDK" class="active">Set up the PS4 Cross-Gen SDK</a>
+                                </li>
+                              </ul>  </li>
+                        </ul>  </li>
+                  </ul>        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="set-up-the-ps4-cross-gen-sdk">Set up the PS4 Cross-Gen SDK</h1>
+
+<p>The following steps show you how to download and set up the PlayStation 4 (PS4) Cross-Gen SDK.</p>
+<h3 id="choose-sdk-versions">Choose SDK versions</h3>
+<p>To enable cross-generational features in your PS4 game, you must use compatible versions of the PS4 and PlayStation 5 (PS5) SDKs in your Unity builds for each platform. Using compatible versions of the PS4 and PS5 SDKs allows you to make two builds from one Unity project; a PS4 application that uses the PS5 PlayStation Network, and a PS5 application that uses the PS5 PlayStation Network.</p>
+<p>To choose compatible SDKs for your PS4 and PS5 builds, compare the SDK version numbers:</p>
+<ul>
+<li>PS4 SDK <strong>8.00</strong> is compatible with PS5 SDK** 2.00**</li>
+<li>PS4 SDK <strong>8.50</strong> is compatible with PS5 SDK <strong>3.00</strong></li>
+<li>PS4 SDK <strong>9.00</strong> is compatible with PS5 SDK <strong>4.00</strong></li>
+<li>PS4 SDK <strong>9.50 **is compatible with PS5 SDK **5.00</strong></li>
+</ul>
+<p>**Note: **Each PS4 SDK version is compatible with the PS5 SDK released at the same time. However, the version numbers do not match.</p>
+<h3 id="install-sdks">Install SDKs</h3>
+<p>Download the relevant SDKs you require for your project via the SDK manager and check that they have installed (and are targeted) using the SDK manager.</p>
+<p><img src="images/sdkmanagerhome.PNG" alt="The SDK Manager home screen"></p>
+<p>To install the PS5 SDK, do the following:</p>
+<ol>
+<li>Open the SDK Manager.</li>
+<li>Choose PlayStation 5 from the dropdown menu.</li>
+<li>Select ‘Install SDK’.</li>
+<li>Choose the relevant SDK you want to install.</li>
+<li>To add the Cross-Gen SDK, find the PS4 Cross-Gen SDK folder inside the SDK / Development Tools folder and ensure that the Cross-Gen SDK box is checked. This box is not checked by default. See the following screenshot for reference. <br> <strong>Note:</strong> If you have already installed the PS5 SDK, you can re-run the installation process for the SDK and select the checkbox to add it to your existing installation.</li>
+<li>Run the installation.</li>
+</ol>
+<p><img src="images/sdkmanagerinstall.PNG" alt="Example of installing the PS4 Cross-Gen SDK"></p>
+<p>If you do not have the PS4 SDK installed, do the following:</p>
+<ol>
+<li>Open the SDK manager.</li>
+<li>Choose PlayStation 4 from the dropdown menu.</li>
+<li>Select ‘Install SDK’.</li>
+<li>Choose the relevant SDK you want to install.</li>
+<li>Run the installation.</li>
+</ol>
+<p><strong>Note:</strong> The PS4 Cross-Gen SDK files are available only as part of the PS5 SDK, therefore, only PS5 developers can use them on PS4.</p>
+<h3 id="unzip-ps4-cross-gen-sdk">Unzip PS4 Cross-Gen SDK</h3>
+<p>The PS4 Cross-Gen SDK folder is stored in your program files and contains a .zip file with ‘-cross_gen.zip’ at the end of the file’s name. The .zip file contains extra files to add to your PS4 SDK installation. You cannot unzip it while it lives in the <code>Program Files</code> folder. Therefore, you must relocate the .zip file before extracting it and moving the required files to the PS4 SDK target folder.</p>
+<p>The following steps outline the process for extracting the PS4 Cross-Gen SDK .zip file..</p>
+<ol>
+<li>Locate where the PS4 Cross-Gen SDK folder is and find the .zip file.<br> For example, the install for the PS5 SDK 3.00 places the .zip file in <code>C:\Program Files (x86)\SCE\Prospero\PS4_Cross-gen\3.00</code>. For other versions of the SDK, the folder name <code>\3.00</code> changes to reflect the version number, for example, <code>\4.00</code>. </li>
+<li>Relocate the file to a different folder and extract it. It does not matter where it is extracted as long as it is no longer in the Program Files folder and you can remember where it is.</li>
+<li>In the extracted folder, navigate to the <code>sdk/target/</code>folder.<code>The</code>sdk/target/` folder contains the following folders: <br> - Include <br> - Lib <br> - Samples <br> - Sce_module <br> - sce_module_symbol</li>
+<li>Copy the above folders and their contents, and paste them to the relevant PS4 SDK’s target folder. The default location for this folder is <code>C:\Program Files (x86)\SCE\ORBIS SDKs\8.500\target</code>.</li>
+</ol>
+<h3 id="add-ps5-module-to-ps4-player">Add PS5 module to PS4 Player</h3>
+<p>After you have installed the SDKs on your local computer, you need to add a PS5 module to your PS4 Player Settings to use the Cross-Gen SDK in your PS4 build.</p>
+<ol>
+<li>Open the Player settings window (<strong>Edit</strong> &gt; <strong>Project Settings</strong> &gt; <strong>Player</strong>).</li>
+<li>Expand the Publishing Setting section for the PS4 build target.</li>
+<li>In the Modules section, select <strong>Add</strong></li>
+<li>Find and select the <code>libSceNpCppWebApi.prx</code> module (the default location for this module is C:\Program Files (x86)\SCE\ORBIS SDKs<your sdk="" version="">\target\sce_module)</your></li>
+</ol>
+<p><img src="images/ps5moduleinstall.PNG" alt="Adding the PS5 Module in Player Settings"></p>
+<h3 id="test-installation">Test Installation</h3>
+<p>If everything is set up correctly, you should now be able to initialize the PS5 PlayStation Network package by calling <code>Unity.PSN.PS5.Main.Initialize()</code> when running the build on a PS4. See <a href="AccessThePSNPackage.html">Access the PlayStation Network</a> for more information about initializing the package.</p>
+<p>If it is successful, you’ll see no error messages on the console output (on screen if you’re in development mode).</p>
+<p>If it is unsuccessful, you’ll see an error message like <code>Exception During PS5 Initialization : Error loading SCE_SYSMODULE_NP_CPP_WEB_API (Sce : 0x80020002 ) ( PSNCore\Source\CoreMain.cpp.</code>If this appears, you will need to restart the SDK installation process.</p>
+<p>The <a href="https://p.siedev.net/resources/documents/SDK/5.000/Cross_Generation-Overview/__toc.html">Sony Cross-Generation SDK documentation</a> contains a list of supplements for each PlayStation Network library, which provides more information on any restrictions or considerations when using these libraries in a PS4 application.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

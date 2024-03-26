@@ -1,11 +1,25 @@
 {
   "dependencies": {
+    "com.korion.achievements": "0.1.2",
+    "com.korion.common": "0.1.0-preview.37",
+    "com.korion.io": "0.1.0-preview.23",
+    "com.korion.ps4.psn": "0.0.1-preview.4",
+    "com.korion.ps5.psn": "0.1.0-preview.3",
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.ai.navigation": "1.1.5",
     "com.unity.ide.rider": "3.0.27",
     "com.unity.ide.visualstudio": "2.0.22",
+    "com.unity.inputsystem.ps4": "0.1.3-preview",
+    "com.unity.inputsystem.ps5": "0.1.12-preview",
     "com.unity.mobile.android-logcat": "1.4.0",
+    "com.unity.nptoolkit2.ps4": "1.0.2",
     "com.unity.nuget.newtonsoft-json": "3.2.1",
+    "com.unity.psn.ps5": "1.0.1",
+    "com.unity.render-pipelines.core": "14.0.10",
+    "com.unity.render-pipelines.ps4": "file:PS4RenderPipelines/package",
+    "com.unity.render-pipelines.ps5": "file:PS5RenderPipelines/package",
+    "com.unity.render-pipelines.universal": "14.0.10",
+    "com.unity.savedata.ps5": "1.0.1",
     "com.unity.test-framework": "1.1.33",
     "com.unity.ugui": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
@@ -24,5 +38,27 @@
     "com.unity.modules.unitywebrequestaudio": "1.0.0",
     "com.unity.modules.unitywebrequesttexture": "1.0.0",
     "com.unity.modules.unitywebrequestwww": "1.0.0"
-  }
+  },
+  "scopedRegistries": [
+    {
+      "name": "Korion package registry",
+      "url": "https://npm.pkg.github.com/@Korion-Interactive",
+      "scopes": [
+        "com.korion",
+        "com.unity.nptoolkit2.ps4",
+        "com.unity.inputsystem.ps4",
+        "com.unity.savedata.ps5",
+        "com.unity.inputsystem.ps5",
+        "com.unity.psn.ps5"
+      ]
+    },
+    {
+      "name": "package.openupm.com",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.cysharp.unitask",
+        "com.openupm"
+      ]
+    }
+  ]
 }

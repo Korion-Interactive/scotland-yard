@@ -64,7 +64,7 @@ namespace Rewired.Demos {
 #if UNITY_4_6_PLUS
         [Tooltip("The Player that will control the mouse")]
 #endif
-        public int playerId = MultiplayerInputManager.Instance.CurrentPlayer.id;
+        public int playerId = 0;
 
 #if UNITY_4_6_PLUS
         [Tooltip("The Rewired Action used for the mouse horizontal axis.")]
@@ -145,6 +145,7 @@ namespace Rewired.Demos {
         private static PlayerMouseSpriteExample _instance;
         
         public static PlayerMouseSpriteExample Instance => _instance;
+        private bool _awakeFinished = false;
         
 
         void Awake() {
@@ -156,6 +157,7 @@ namespace Rewired.Demos {
             else
             {
                 Destroy(gameObject);
+                return;
             }
             
             _mainCamera = Camera.main;
@@ -213,7 +215,7 @@ namespace Rewired.Demos {
 
         private void OnPlayerChanged(Player player)
         {
-            mouse.playerId = player.id;
+            mouse.playerId = MultiplayerInputManager.Instance.CurrentPlayer.id;
         }
 
         void Update() {

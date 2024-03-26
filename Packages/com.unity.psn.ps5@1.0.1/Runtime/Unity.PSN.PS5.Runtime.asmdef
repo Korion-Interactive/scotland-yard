@@ -1,0 +1,17 @@
+{
+    "name": "Unity.PSN.PS5.Runtime",
+    "references": [],
+    "includePlatforms": [
+        "Editor",
+        "PS4",
+        "PS5"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

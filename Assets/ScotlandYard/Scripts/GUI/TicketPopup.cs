@@ -3,6 +3,7 @@ using UnityEngine.Events;
 
 /// <summary>
 /// component 'TicketPopup'
+/// Make sure that the execution order of this script is after PlayerMouseSpriteExample.cs (to prevent race condition)
 /// </summary>
 [AddComponentMenu("Scripts/TicketPopup")]
 public class TicketPopup : MonoBehaviour

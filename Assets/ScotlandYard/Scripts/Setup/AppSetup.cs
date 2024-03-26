@@ -5,6 +5,18 @@ using System.Collections;
 using System.IO;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Cysharp.Threading.Tasks;
+
+#if UNITY_PS5
+using UnityEngine.PS5;
+using Korion.IO;
+using System.Threading;
+#elif UNITY_PS4
+using Sony.NP;
+using UnityEngine.PS4;
+using Korion.IO;
+using System.Threading;
+#endif
 
 public class AppSetup : MonoBehaviour
 {
@@ -13,7 +25,7 @@ public class AppSetup : MonoBehaviour
     {
         get
         {
-            if(instance == null)
+            if (instance == null)
             {
                 var go = new GameObject("AppSetup");
                 go.AddComponent<AppSetup>();
@@ -39,8 +51,8 @@ public class AppSetup : MonoBehaviour
     public bool IsVoiceChatEnabled
     {
         get => isVoiceChatEnabled;
-        set 
-        { 
+        set
+        {
             isVoiceChatEnabled = value;
             GSP.EnableVoiceChatIfPossible = value;
         }
@@ -54,9 +66,10 @@ public class AppSetup : MonoBehaviour
             Ensure(settingName, value);
 
             SettingsTable["value", settingName] = value.ToString();
+            //KORION IO
             SettingsTable.Save();
         }
-        catch(Exception ex)
+        catch (Exception ex)
         {
             this.LogError(ex);
         }
@@ -70,7 +83,7 @@ public class AppSetup : MonoBehaviour
             bool result = SettingsTable.Get<bool>("value", settingsName);
             return result;
         }
-        catch(Exception ex)
+        catch (Exception ex)
         {
             this.LogError(ex);
             return false;
@@ -80,14 +93,19 @@ public class AppSetup : MonoBehaviour
 
     private void Ensure(string settingsName, bool value)
     {
-        if(!SettingsTable.Contains("value", settingsName))
+        //KORION SettingsTable? is null? in Editor
+        Debug.Log("SettingsTable: " + SettingsTable);
+        if (!SettingsTable.Contains("value", settingsName))
         {
             SettingsTable.AppendRow(settingsName, value.ToString());
         }
     }
 
-    private void Awake()
+    private async UniTaskVoid Awake()
     {
+        await IOSystem.Instance.InitializeAsync(destroyCancellationToken);
+        //Debug.Log("IOSystem.Instance.IsInitialized: " + IOSystem.Instance.IsInitialized);
+
         // set instance
         instance = this;
 
@@ -116,35 +134,34 @@ public class AppSetup : MonoBehaviour
         AchievementTable = new Table(achvTxt.text, "achievements", new CSVSetting(true, true) { ColumnSeparator = '\t', });
 
         // stats
-        LoadOrCreateStatsTable();
-
-        // Load or create settings table
-
-#if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5
-        //TODO KORION
-        string settingsPath = "settings.txt";
-        SettingsTable = new Table(settingsPath, 2, 1);
-        SettingsTable[0, 0] = "id";
-        SettingsTable[1, 0] = "value";
-#else
-        string settingsPath = Path.Combine(Application.persistentDataPath, "settings.txt");
-        if (!File.Exists(settingsPath))
-        {
-            SettingsTable = new Table(settingsPath, 2, 1);
-            SettingsTable[0, 0] = "id";
-            SettingsTable[1, 0] = "value";
-        }
-        else
-        {
-            SettingsTable = new Table(settingsPath);
-        }
-#endif
+        LoadOrCreateStatsTable().Forget();
+        LoadOrCreateSettingsTable().Forget();
     }
 
-    public void LoadOrCreateStatsTable()
+    public UniTask WriteDataAsync<T>(string id, T data, CancellationToken cancellationToken = default)
+    {
+        var writer = IOSystem.Instance.GetWriter();
+        //string json = JsonUtility.ToJson(savedSettings, prettyPrint: true); //now data
+
+        Debug.Log("Writing Korion IO");
+
+        return writer.WriteAsync(id, data, cancellationToken);
+    }
+
+    public async UniTask<T> ReadDataAsync<T>(string id, CancellationToken cancellationToken = default)
+    {
+        var reader = IOSystem.Instance.GetReader();
+
+        T data = await reader.Read<T>(id, cancellationToken);
+
+        Debug.Log("Reading Korion IO: " + data);
+        return data;
+    }
+
+    public async UniTaskVoid LoadOrCreateStatsTable()
     {
 #if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5
-        //TODO KORION
+        //TODO KORION IO --> but in new Table //where is da load?
         string statsPath = "stats.txt";
         StatsTable = new Table(statsPath, 2, 1);
         StatsTable[0, 0] = "id";
@@ -164,6 +181,31 @@ public class AppSetup : MonoBehaviour
 #endif
     }
 
+    private async UniTaskVoid LoadOrCreateSettingsTable()
+    {
+#if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5
+        //TODO KORION IO //NEXT TOT DO11!!
+        string settingsPath = "settings.txt";
+        SettingsTable = new Table(settingsPath, 2, 1);
+        SettingsTable[0, 0] = "id";
+        SettingsTable[1, 0] = "value";
+#else
+        //save K
+        string settingsPath = Path.Combine(Application.persistentDataPath, "settings.txt");
+        if (!File.Exists(settingsPath))
+        {
+            SettingsTable = new Table(settingsPath, 2, 1);
+            SettingsTable[0, 0] = "id";
+            SettingsTable[1, 0] = "value";
+        }
+        else
+        {
+        //load K
+            SettingsTable = new Table(settingsPath);
+        }
+#endif
+    }
+
 
 #if UNITY_EDITOR
     void Update()
@@ -178,35 +220,41 @@ public class AppSetup : MonoBehaviour
     void OnApplicationFocus(bool focus)
     {
         if (!focus
-            && GameState.HasInstance 
-            && !GameState.Instance.IsGameOver 
+            && GameState.HasInstance
+            && !GameState.Instance.IsGameOver
             && GameSetupBehaviour.Instance.Setup.Mode == GameMode.HotSeat)
         {
             SaveGame();
         }
     }
 
-    public static bool HasOpenGame()
+    //KORION why was this even static?
+    public async UniTask<bool> HasOpenGame()
     {
-        return false;//TODO KORION: //File.Exists(Globals.LastGameSetupPath) && File.Exists(Globals.LastGameStatePath);
+#if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5
+        //TODO KORION IO
+        string data = await ReadDataAsync<string>(Globals.LastGameSetupPath);
+        return (data != null);
+#else
+        return File.Exists(Globals.LastGameSetupPath) && File.Exists(Globals.LastGameStatePath);
+#endif
     }
 
     public void SaveGame()
     {
-        //TODO KORION
-        return;
+        //TODO KORION IO
         string gameSetup = JsonConvert.SerializeObject(GameSetupBehaviour.Instance.Setup);
         SaveData(ref gameSetup, Globals.LastGameSetupPath);
 
         string gameState = JsonConvert.SerializeObject(GameState.Instance);
         SaveData(ref gameState, Globals.LastGameStatePath);
-
     }
 
     void SaveData(ref string data, string filePath)
     {
 #if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5
-        //TODO KORION
+        //TODO KORION IO
+        WriteDataAsync(filePath, data).Forget();
 #else
         try
         {
@@ -236,38 +284,55 @@ public class AppSetup : MonoBehaviour
 
     internal void LoadLastGame()
     {
-        StartCoroutine(CoLoadLastGame());
+        //in theory i could load it here and on finish --> call this load coroutine // less fuck up no need for await nor change coroutine logic //implement callback
+        AsyncLoadLastGame().Forget();
     }
 
-    IEnumerator CoLoadLastGame()
+    private async UniTaskVoid AsyncLoadLastGame()
     {
-        if (!TryLoad(Globals.LastGameSetupPath, out GameSetup setup))
-        {
-            yield break;
-        }
+        GameSetup setup;
+        setup = await TryLoad(Globals.LastGameSetupPath);
+        if (setup == null)
+            return;
 
         GameSetupBehaviour.Instance.Setup = setup;
 
-        yield return new WaitForEndOfFrame();
+        await UniTask.DelayFrame(1);// or await UniTask.Yield() or await Task.Delay(150);
 
         this.Broadcast(GameGuiEvents.LoadingScene);
-        SceneManager.LoadSceneAsync("Game");
-        
-        yield return new WaitForEndOfFrame();
+        SceneManager.LoadSceneAsync("Game"); //maybe use this sometime else
 
-        // --- DON'T SIMPLY REMOVE THIS! ---
-        // this looks very stupid, but the deserializing constructor assigns the fresh GameState to the singleton immediately
-        if (!TryLoad(Globals.LastGameStatePath, out GameState _))
-        {
-            yield break;
-        }
+        //// --- DON'T SIMPLY REMOVE THIS! ---
+        //// this looks very stupid, but the deserializing constructor assigns the fresh GameState to the singleton immediately
+        //if (TryLoad(Globals.LastGameStatePath))
+        //{
+        //    yield break;
+        //}
     }
 
-    private bool TryLoad<T>(string filePath, out T result)
+    private async UniTask<GameSetup> TryLoad(string filePath)
     {
+        GameSetup gameSetup;
+
 #if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5
-        //TODO KORION
-        result = default;
+        //TODO KORION IO
+        string result = await ReadDataAsync<string>(filePath);
+
+        if (result != null)
+        {
+            Debug.Log("Loaded Config");
+
+            gameSetup = JsonConvert.DeserializeObject<GameSetup>(result);
+            //OnLoadSettingsCompleted(true, configData);
+        }
+        else
+        {
+            //KORION IO - what happens if we simply dont have a game to load --> prompts? xD
+            PopupManager.ShowPrompt("error", "something_went_wrong");
+            Debug.Log("loading failed");
+            DeleteSavegame();
+            return null;
+        }
 #else
         try
         {
@@ -275,26 +340,27 @@ public class AppSetup : MonoBehaviour
             {
                 using (var reader = new StreamReader(stream))
                 {
-                    result = JsonConvert.DeserializeObject<T>(reader.ReadToEnd());
+                    gameSetup = JsonConvert.DeserializeObject<GameSetup>(reader.ReadToEnd());
                 }
             }
         }
-        catch(Exception ex)
+        catch (Exception ex)
         {
             this.LogError($"Error at TryLoad({filePath})", ex);
             PopupManager.ShowPrompt("error", "something_went_wrong");
             result = default;
             DeleteSavegame();
-            return false;
+            return null;
         }
 #endif
-        return true;
+        return gameSetup;
     }
 
     internal void DeleteSavegame()
     {
 #if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5
-        //TODO KORION
+        //TODO KORION IO // CancellationToken cancellationToken = default 
+        IOSystem.Instance.RemoveData(Globals.LastGameSetupPath, new CancellationTokenSource().Token).Forget();
 #else
         if (File.Exists(Globals.LastGameSetupPath))
         {

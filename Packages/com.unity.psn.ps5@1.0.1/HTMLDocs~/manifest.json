@@ -1,0 +1,5685 @@
+{
+  "sitemap": {
+    "fileOptions": {},
+    "priority": 0.0,
+    "lastmod": "0001-01-01T00:00:00"
+  },
+  "homepages": [],
+  "source_base_path": "C:/temp/com.unity.psn.ps5@0.0",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Packages/com.unity.psn.ps5/Documentation~/AccessThePSNPackage.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/AccessThePSNPackage.html",
+          "hash": "qKdbMi+GPG9s3OC2wLQ5q4WOlTMHL1WoIoAE6DNZ1Yk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Packages/com.unity.psn.ps5/Documentation~/Activities.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/Activities.html",
+          "hash": "JUh8rYhBFu0bS9MAG11Xm++mAkpAOitUeCshNUQJi3I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Packages/com.unity.psn.ps5/Documentation~/ActivityTypes.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/ActivityTypes.html",
+          "hash": "KcrkH9PAiaLUtuPfzR75IKiRfbU7dtbY33U9Tq+ukPM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Packages/com.unity.psn.ps5/Documentation~/Addnpconfig.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/Addnpconfig.html",
+          "hash": "gOdEbU/CNbjRDq0nB5qSZSGYaDyB+FFQ8osPuqsXaMs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Packages/com.unity.psn.ps5/Documentation~/ConfigureActivities.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/ConfigureActivities.html",
+          "hash": "MwaWtxQATyQucbUnxVZ4N5OUcVutmuYFvMlL5u6HaGU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Packages/com.unity.psn.ps5/Documentation~/ConfigureTrophies.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/ConfigureTrophies.html",
+          "hash": "ZXEVG6uU4mQDQvB2g5DIOj6zZaNVejBabF1wXE1QWTw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Packages/com.unity.psn.ps5/Documentation~/Images/UDSManagementToolActivities.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/UDSManagementToolActivities.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Packages/com.unity.psn.ps5/Documentation~/Images/UDSManagementToolTrophies.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/UDSManagementToolTrophies.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Packages/com.unity.psn.ps5/Documentation~/Images/activitiesservices.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/activitiesservices.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Packages/com.unity.psn.ps5/Documentation~/Images/ps5moduleinstall.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/ps5moduleinstall.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Packages/com.unity.psn.ps5/Documentation~/Images/sdkmanagerhome.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/sdkmanagerhome.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Packages/com.unity.psn.ps5/Documentation~/Images/sdkmanagerinstall.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/sdkmanagerinstall.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Packages/com.unity.psn.ps5/Documentation~/Images/trophyservices.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/trophyservices.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Packages/com.unity.psn.ps5/Documentation~/ImplementActivities.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/ImplementActivities.html",
+          "hash": "FzOtDf3kibmNV0YYLoClmszgHFoE5Ib0aBGWatytqJc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Packages/com.unity.psn.ps5/Documentation~/InitializeThePSNPackage.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/InitializeThePSNPackage.html",
+          "hash": "1UnUUwMbPuIAxW/pIk5NQkRvjNYEf78jYqoLG2Kff5U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Packages/com.unity.psn.ps5/Documentation~/InstallThePSNPackage.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/InstallThePSNPackage.html",
+          "hash": "cCdPlS5T527UDdaCF6bcZd9xwerQgijtPhzH5r4UT5o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Packages/com.unity.psn.ps5/Documentation~/InteractWithTrophies.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/InteractWithTrophies.html",
+          "hash": "zyGyPpPf3HM7j0Zqq7W+nzvwfBVsTlwugiwNyqzwVow="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Packages/com.unity.psn.ps5/Documentation~/PS4CrossGen.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/PS4CrossGen.html",
+          "hash": "khhk2jFCFc09vkSb9A7SCTSIsvss09vrpJtgOUwAGQc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Packages/com.unity.psn.ps5/Documentation~/PS4CrossGenSetup.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/PS4CrossGenSetup.html",
+          "hash": "tAWsVZQkJy1LALfqjbdDTHh9yhynSo9Dblev9Pf+CzI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Packages/com.unity.psn.ps5/Documentation~/TableOfContents.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/TableOfContents.html",
+          "hash": "VINyylPpmAHCYkwkGO1b7WEx551qoIMhDFFMWH9QXH4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Packages/com.unity.psn.ps5/Documentation~/Trophies.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/Trophies.html",
+          "hash": "2v61BeOzbYgUTjmUUQo8UT3zcvU1RnD6jBxdb6arTkY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Packages/com.unity.psn.ps5/Documentation~/TrophyConcepts.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/TrophyConcepts.html",
+          "hash": "YFYN+wYP8og39bKsvQiKAGOuVo34q/QsDZLLVtW7JsE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Packages/com.unity.psn.ps5/Documentation~/UniversalDataSystem.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/UniversalDataSystem.html",
+          "hash": "sn52AEhCu2WE+nl4nEJBrQrmGcTRVemqh9kq574zZjQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Packages/com.unity.psn.ps5/Documentation~/entitlements.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/entitlements.html",
+          "hash": "JxLfw10fAjtA4siXk6LKqL+2Av8iMgQH+yqXOCmocKQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Packages/com.unity.psn.ps5/Documentation~/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/index.html",
+          "hash": "VSNdJRmpyKzj9X+1EA0JbQKC0twyw5Z6woPByntQrSs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "Packages/com.unity.psn.ps5/Documentation~/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/toc.html",
+          "hash": "SRNt4O1alVmNmzNc7fKid4H/OefZ2fFNHPnsjJc2raE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global Namespace.CheckCppPlatform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global Namespace.CheckCppPlatform.html",
+          "hash": "OSwLfc3HUXEINFDmX2nFYy2iqs3zBNtieLC3+bYHLU4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global Namespace.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global Namespace.html",
+          "hash": "VF+ddsmYKFS18pkS22YZIz5/qYjNPciCjPZa/Fy/H14="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PSNTests.BaseTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PSNTests.BaseTests.html",
+          "hash": "ZRcCTPieCMCe/S6x/KKy5YQRxGZF8jB7Tu2La5vA8Y0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PSNTests.CommerceTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PSNTests.CommerceTests.html",
+          "hash": "ZnYjIIicp/y7pTGc79exZ58ltNBrJ//D7w8Mdcd2NAA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PSNTests.EntitlementTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PSNTests.EntitlementTests.html",
+          "hash": "bbc7dJMtEsObglHDVq7u7R5Anjduf/IKJQ4AWNZJJqk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PSNTests.FeatureGatingTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PSNTests.FeatureGatingTests.html",
+          "hash": "TnyklAnB7MmojuE8P6nHmq2jjQqkDSzjwNObWKJWZnE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PSNTests.GameUpdateTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PSNTests.GameUpdateTests.html",
+          "hash": "vAfKi4w94Ki0yum1yo/PSdT8qC39lafF6y6GNcj+RpM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PSNTests.InitializationTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PSNTests.InitializationTests.html",
+          "hash": "8a4+WVXPnwkhFfsu4w7vikftQgVbFV09G0Fy9fcL338="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PSNTests.LeaderboardTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PSNTests.LeaderboardTests.html",
+          "hash": "cocXmLdtAl/aF9oQVUURQXrXIAwFbYuCbBdETNuTbds="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PSNTests.OnlineSafetyTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PSNTests.OnlineSafetyTests.html",
+          "hash": "OkoJ6oqNE1YL/rsdjoIRe9p22/e3OzK7YIUva4mda8A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PSNTests.SessionTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PSNTests.SessionTests.html",
+          "hash": "/eINTIVGhSqZV68q06t2N3LzZLIwEfvp1VnOhdq83+E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PSNTests.TUSTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PSNTests.TUSTests.html",
+          "hash": "Rx6pBEqK8ANnQOCwxr/38ARTcveBDVveO2BdmA/Z70I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PSNTests.TrophyTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PSNTests.TrophyTests.html",
+          "hash": "FRwSYMWVKX3PWXo6vQOuygCWHAc5dLkpYIqSYf3XuSA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PSNTests.UDSTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PSNTests.UDSTests.html",
+          "hash": "VFuOzbOPktiy523yLSvaAEh5bIopKWULozYybwolGRU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PSNTests.UserTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PSNTests.UserTests.html",
+          "hash": "1JF5cP5AFO+IdB3DdgdRFplMy58G8BEwR/XZSKeP9qM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PSNTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PSNTests.html",
+          "hash": "KlSz2/4zPEVH0NL10Vy4gNP5NLhlTCzi5VlK8RgYSxg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.APIResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.APIResult.html",
+          "hash": "tiwXXXYDHfkkstY6pk4lJjsxqq3+JV1TvZotueLpuqI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.APIResultTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.APIResultTypes.html",
+          "hash": "U8rV/rf5GVd9MLfN7O6uxD/nua+46XyKh+fglvM6w48="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Auth.Authentication.GetAuthorizationCodeRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Auth.Authentication.GetAuthorizationCodeRequest.html",
+          "hash": "pT2x5zmO1eeMNbW2fvyIDS9o1UiS5+xh+zYUEuew9EY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Auth.Authentication.GetIdTokenRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Auth.Authentication.GetIdTokenRequest.html",
+          "hash": "3Lxa+k9LNgTi6DnmjWXiXBu6LS6jT23L3U7pRSUbVak="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Auth.Authentication.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Auth.Authentication.html",
+          "hash": "Q8OXbP2xGS/GEYfSlm619FK2YrYBfbjbkMDUmrcm9u8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Auth.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Auth.html",
+          "hash": "CVhnEBib2j0GyW1j7P/GbApp6FnsaMvakmwfkTbmSbs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Aysnc.AsyncAction-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Aysnc.AsyncAction-1.html",
+          "hash": "bjKqti/uEPHoj/lvG/LmyFde3THy6h8Tee7spcKxrmM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Aysnc.AsyncAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Aysnc.AsyncAction.html",
+          "hash": "78Ms5AmhG/lAXBQn785XSZZ85a2+TCvvjPNbA1K+pl0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Aysnc.AsyncOp.State.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Aysnc.AsyncOp.State.html",
+          "hash": "2knt13Sp4lMlc/hV0nZ3cgKa11IB5bHSqOqf+lwT3tc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Aysnc.AsyncOp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Aysnc.AsyncOp.html",
+          "hash": "2Kv71fH8+MDWleM5eI05a+58lFgYruR3UChGNYIyxf0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Aysnc.AsyncRequest-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Aysnc.AsyncRequest-1.html",
+          "hash": "T/3n68lka0qnEneD9PJ05lhnCRV4Q67AVbb1QvgVZyU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Aysnc.Request.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Aysnc.Request.html",
+          "hash": "gungyyHUw9Hc9G8lcLX9bM7hsTaoGrXCFwlBtgvcKhw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Aysnc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Aysnc.html",
+          "hash": "F+2H0VcilEHiSXbHfmsr3ujJ4d5Tj38EGJS5rStpVFE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Bandwidth.BandwidthTest.MeasureBandwidthRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Bandwidth.BandwidthTest.MeasureBandwidthRequest.html",
+          "hash": "+nMZbzzow7bmTez/VRkmxVfZ3KOpWJaPGmgTDFDfnJ8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Bandwidth.BandwidthTest.Modes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Bandwidth.BandwidthTest.Modes.html",
+          "hash": "harIm/DhQwARTkLgetmYc5vCJCJ6zGnILuDhZpaKJm4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Bandwidth.BandwidthTest.Status.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Bandwidth.BandwidthTest.Status.html",
+          "hash": "1iJS/BXtz9m14SYhpnF8cD6pjdv2qzAtV9culwGGgws="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Bandwidth.BandwidthTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Bandwidth.BandwidthTest.html",
+          "hash": "Jphwi2VW4EshEPSo1y0Svd/JRaCSc352L+Jvhs/3CbM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Bandwidth.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Bandwidth.html",
+          "hash": "kultvrvDKiI5x9hIrAlYZVTkuAdmnZfM20UUtycebOM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Checks.OnlineSafety.CRStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Checks.OnlineSafety.CRStatus.html",
+          "hash": "RKKKUj8DZ2R9Qn8dGQJkMs5mdnasXvocjCes4s0I5hY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Checks.OnlineSafety.FilterProfanityRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Checks.OnlineSafety.FilterProfanityRequest.html",
+          "hash": "XtsjxUksBYZZUPzYz0WbbPYXLeLtnA1rFDrlZX5nGxE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Checks.OnlineSafety.GetCommunicationRestrictionStatusRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Checks.OnlineSafety.GetCommunicationRestrictionStatusRequest.html",
+          "hash": "c/7zL+ptnuS07Yyk6+M8pXVAki/3Wlr0ooNcrhU/0vo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Checks.OnlineSafety.ProfanityFilterType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Checks.OnlineSafety.ProfanityFilterType.html",
+          "hash": "+FgO8TZrpRLhb+AG+sHPL4HID94LrANShnHVZF8GgZc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Checks.OnlineSafety.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Checks.OnlineSafety.html",
+          "hash": "Vebd5OuE0zgGbo+XzP/DpBgHqvPhj2Mm6MG81bx/HeY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Checks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Checks.html",
+          "hash": "tkJq556W3bybyU9bUeGEyyo3kpuyZdKvW3OgKLfV6+U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Commerce.CommerceDialogSystem.OpenBrowseCategoryDialogRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Commerce.CommerceDialogSystem.OpenBrowseCategoryDialogRequest.html",
+          "hash": "lYG4gSmYqJST8TK/+AljJImfxgSqqJIcajjQ7HQI4zs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Commerce.CommerceDialogSystem.OpenBrowseProductDialogRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Commerce.CommerceDialogSystem.OpenBrowseProductDialogRequest.html",
+          "hash": "6H/nYNTQ//MCTYamVfH3/sagQDInTC4hv36AGGaS0GU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Commerce.CommerceDialogSystem.OpenCheckoutDialogRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Commerce.CommerceDialogSystem.OpenCheckoutDialogRequest.html",
+          "hash": "8wdBQQ01LVDDQnj60PXgunBHyAWLY3eWNxcwVm20iTA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Commerce.CommerceDialogSystem.OpenDownloadDialogRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Commerce.CommerceDialogSystem.OpenDownloadDialogRequest.html",
+          "hash": "plkHmCKPSOhKOLl6uIDXa24fWeN0QjD69DvGMAr34vU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Commerce.CommerceDialogSystem.OpenJoinPremiumDialogRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Commerce.CommerceDialogSystem.OpenJoinPremiumDialogRequest.html",
+          "hash": "iEyXoZXs4zLEacmQNJbV0rB7HC8NZ30rWVh4ckBx8q4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Commerce.CommerceDialogSystem.OpenRedeemPromotionCodeDialogRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Commerce.CommerceDialogSystem.OpenRedeemPromotionCodeDialogRequest.html",
+          "hash": "HTt1e0ou82FV8ZODKQAmUO7uzmaC8nshhAu62ZUqHFA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Commerce.CommerceDialogSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Commerce.CommerceDialogSystem.html",
+          "hash": "erKAaDQm5bcz9Mf7PWc4G26LXN2U4kWPkOLGFol79VE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Commerce.CommerceSystem.PSStoreIconRequest.DisplayModes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Commerce.CommerceSystem.PSStoreIconRequest.DisplayModes.html",
+          "hash": "BRTRxtqkoulYpIziZFRvowyDatyDcZn1yBCffRgcFgs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Commerce.CommerceSystem.PSStoreIconRequest.IconLayouts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Commerce.CommerceSystem.PSStoreIconRequest.IconLayouts.html",
+          "hash": "iXE5xg95VhwuPShkVuT8hBOaTZx1wEEg/LvUDQ9mPSk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Commerce.CommerceSystem.PSStoreIconRequest.IconPositions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Commerce.CommerceSystem.PSStoreIconRequest.IconPositions.html",
+          "hash": "f0UPqjsd25OnZi6NqzOutBNqgnfqGvEu8eA0y2fGtiQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Commerce.CommerceSystem.PSStoreIconRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Commerce.CommerceSystem.PSStoreIconRequest.html",
+          "hash": "VIjNK9c3C5+9xlTyF+vCC9daoz/cHXSxaUp8q6Mivlw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Commerce.CommerceSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Commerce.CommerceSystem.html",
+          "hash": "zAaY26qwPAoH7Iof1HyjY+7nUCf9IcyTshSbxJjiED8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Commerce.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Commerce.html",
+          "hash": "JjvIdZBm5eQmaoglkjehlo/yxH5L5H/s+fSJ1mOqtpI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Dialogs.DialogSystem.DialogStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Dialogs.DialogSystem.DialogStatus.html",
+          "hash": "iW4U1T7+q2BeB8i8oa5KRRCHjOCKVx6p47Ho1JHzT2s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Dialogs.DialogSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Dialogs.DialogSystem.html",
+          "hash": "EMs/ZGFFjulojdxYtxdeICw8FWDa/52/ZBf10PSwz9s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Dialogs.MessageDialogSystem.OpenMsgDialogRequest.ButtonResultTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Dialogs.MessageDialogSystem.OpenMsgDialogRequest.ButtonResultTypes.html",
+          "hash": "1CKYWjF/CuvxghpHYnU6l637E8D1O4AnLAM1s1j5heQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Dialogs.MessageDialogSystem.OpenMsgDialogRequest.MsgModes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Dialogs.MessageDialogSystem.OpenMsgDialogRequest.MsgModes.html",
+          "hash": "UjP7CB4fnIFZpcR7aELbhhV+IRh29jE1jj0NfrBlPC8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Dialogs.MessageDialogSystem.OpenMsgDialogRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Dialogs.MessageDialogSystem.OpenMsgDialogRequest.html",
+          "hash": "igbTzRs+o8yK07fNpnysxPjLa+6YPd66H+zlbGVMVng="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Dialogs.MessageDialogSystem.ProgressBarParams.BarTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Dialogs.MessageDialogSystem.ProgressBarParams.BarTypes.html",
+          "hash": "5M2GlYvHDDS0w+Gi/UjH8FvaoxzBwp6DTXKCQ9Yhqkc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Dialogs.MessageDialogSystem.ProgressBarParams.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Dialogs.MessageDialogSystem.ProgressBarParams.html",
+          "hash": "QpQTCB/RokR8I0L7hE101PjBjX4t1o5bIdjYYGoJ2hs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Dialogs.MessageDialogSystem.SystemMsgParams.SystemMessageTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Dialogs.MessageDialogSystem.SystemMsgParams.SystemMessageTypes.html",
+          "hash": "LddutGqr8uPaEwY1inSPB8idoE2c9PeFI+WbIj11QMQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Dialogs.MessageDialogSystem.SystemMsgParams.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Dialogs.MessageDialogSystem.SystemMsgParams.html",
+          "hash": "WRcnCnyeVKCbijBMn1Ggpyx3OQPyh38d/NSv84I+tmQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Dialogs.MessageDialogSystem.UserMsgParams.ButtonTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Dialogs.MessageDialogSystem.UserMsgParams.ButtonTypes.html",
+          "hash": "plXPakVu+irQFfmWN6BJ21Os9HrPlCY37j8zMAAOGGs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Dialogs.MessageDialogSystem.UserMsgParams.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Dialogs.MessageDialogSystem.UserMsgParams.html",
+          "hash": "b+6lK60AftCM+3GKdWlgEYd9gDbM328vgh95gxX8C30="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Dialogs.MessageDialogSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Dialogs.MessageDialogSystem.html",
+          "hash": "6jmx6T8S2S5Fz/HcJQCOoICEdtWpMe5PGGRgENn+OGg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Dialogs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Dialogs.html",
+          "hash": "LNuD12DpoSX91vZF2Bp/CNGXT2nkc1wisrn1HBZDRU4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Entitlement.Entitlements.AdditionalContentEntitlementInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Entitlement.Entitlements.AdditionalContentEntitlementInfo.html",
+          "hash": "sgT06l9ZCyfi0jAhEAVrRh8kOLAy5FSck89vTDhsDok="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Entitlement.Entitlements.ConsumeServiceEntitlementRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Entitlement.Entitlements.ConsumeServiceEntitlementRequest.html",
+          "hash": "XrSOtjI5mOwiZA1kqZAoqxgK46ra92HTcU3L4pJKQl0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Entitlement.Entitlements.ConsumeUnifiedEntitlementRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Entitlement.Entitlements.ConsumeUnifiedEntitlementRequest.html",
+          "hash": "/FzTyOTRvIUhUhppNcE/lPQVIuBbBQ4H+ApUP72P9P4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Entitlement.Entitlements.EntitlementAccessDownloadStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Entitlement.Entitlements.EntitlementAccessDownloadStatus.html",
+          "hash": "5W02PcScE50RGbQxn+p91SBjIo6k7v/pjy/MzXZntx8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Entitlement.Entitlements.EntitlementAccessPackageType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Entitlement.Entitlements.EntitlementAccessPackageType.html",
+          "hash": "nMda+TyjW5NTUZgxOMCib9jZAuIUKLxra71W6iUjSyw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Entitlement.Entitlements.EntitlementTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Entitlement.Entitlements.EntitlementTypes.html",
+          "hash": "hIsJ4TWXKmYleOJG0M/f5t/ZiUR2RhniRSq8XWNaUnY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Entitlement.Entitlements.GenerateTransactionIdRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Entitlement.Entitlements.GenerateTransactionIdRequest.html",
+          "hash": "qTh9CMODxxj9zqdk9qQOnvzYjmgLMb1EmsdtMIDLKPg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Entitlement.Entitlements.GetAdditionalContentEntitlementInfoRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Entitlement.Entitlements.GetAdditionalContentEntitlementInfoRequest.html",
+          "hash": "PCyWdnxuTIF2FziQ7LkFPndQn3CXGIJsDn84GbYSUxk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Entitlement.Entitlements.GetAdditionalContentEntitlementListRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Entitlement.Entitlements.GetAdditionalContentEntitlementListRequest.html",
+          "hash": "je8MFm27+eBxCwRt+I51CMe2jYcXEWOxjOMs0e82eyE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Entitlement.Entitlements.GetEntitlementKeyRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Entitlement.Entitlements.GetEntitlementKeyRequest.html",
+          "hash": "vMEdJpbNVHGGFbmkAxhF00ozuWOQuuAnw7E+BWV5D5Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Entitlement.Entitlements.GetServiceEntitlementInfoListRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Entitlement.Entitlements.GetServiceEntitlementInfoListRequest.html",
+          "hash": "4F+9+4+uELV6BAqkUm09s38UdQhDNgpj7s+RHDwEpPE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Entitlement.Entitlements.GetServiceEntitlementInfoRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Entitlement.Entitlements.GetServiceEntitlementInfoRequest.html",
+          "hash": "9lDr2ekgWs9TzXq2uBfxR+pJ6Ph7+ZX/xV+D9W7KLM4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Entitlement.Entitlements.GetSkuFlagRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Entitlement.Entitlements.GetSkuFlagRequest.html",
+          "hash": "QIUg2ej6sNU+NOW/zjoZLp388csgoLQgf6bes6E5SwI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Entitlement.Entitlements.GetUnifiedEntitlementInfoListRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Entitlement.Entitlements.GetUnifiedEntitlementInfoListRequest.html",
+          "hash": "rbCJmQmhkNnjNpYD2JfKR0UY+PfkIguLzWqB7ErYoFg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Entitlement.Entitlements.GetUnifiedEntitlementInfoRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Entitlement.Entitlements.GetUnifiedEntitlementInfoRequest.html",
+          "hash": "zuifbYXwBGom1DPmmZr7aPRok+Fe86GOHKRxMTO7JTg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Entitlement.Entitlements.ServiceEntitlementInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Entitlement.Entitlements.ServiceEntitlementInfo.html",
+          "hash": "kAw4tmqxCmN/WDUwt6ma3SmCifygTWfHAVrinKrf0dc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Entitlement.Entitlements.SkuTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Entitlement.Entitlements.SkuTypes.html",
+          "hash": "xf9hfo2t/07Z2cAb6ViezB27gaiUW/ZIkVALyR2eJkg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Entitlement.Entitlements.SortOrders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Entitlement.Entitlements.SortOrders.html",
+          "hash": "fr6nv9tI1NraOywDelpS3h5+6k3FIsY9HglW7vIic5c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Entitlement.Entitlements.SortTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Entitlement.Entitlements.SortTypes.html",
+          "hash": "FpF+zfXfUPB3m//FjU437UGxiImkW05vfPaMV9JDSJM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Entitlement.Entitlements.UnifiedEntitlementInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Entitlement.Entitlements.UnifiedEntitlementInfo.html",
+          "hash": "evH1VR4uxlaJTz5eWfmbBJP4VrnxF7hOLT9Ve181npc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Entitlement.Entitlements.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Entitlement.Entitlements.html",
+          "hash": "lEbSp9M8WIzLmjlpp1xh4h5lI+pnp5bY+u+KDPhNn1I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Entitlement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Entitlement.html",
+          "hash": "3munYTZ6iu/8XrUT8BazmEv9s+nvOPtlWYVFp4FtgJ4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.ExceededMaximumOperations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.ExceededMaximumOperations.html",
+          "hash": "jMKm511GvaImO1YInFpoheTJeqTiZP4tZowyKH9IMEg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.GameIntent.GameIntentSystem.GameIntent.IntentTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.GameIntent.GameIntentSystem.GameIntent.IntentTypes.html",
+          "hash": "tMHwMv6kZ7JFKbAJHCRMSazwIt9JZud7nOAj34Xw2yk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.GameIntent.GameIntentSystem.GameIntent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.GameIntent.GameIntentSystem.GameIntent.html",
+          "hash": "ouy2+cFxNgiEW3X1thf6tBPVZ3jnZRXIhAtlFL91rgY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.GameIntent.GameIntentSystem.GameIntentNotification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.GameIntent.GameIntentSystem.GameIntentNotification.html",
+          "hash": "va5xGTLooPcJ6cWXZemm4oomfr2ghfWmmeCTwr4lvqQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.GameIntent.GameIntentSystem.JoinSession.MemberTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.GameIntent.GameIntentSystem.JoinSession.MemberTypes.html",
+          "hash": "j9G/ubULaUSS49IR6NSebivMSODr755qvm0Fb4fOsRU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.GameIntent.GameIntentSystem.JoinSession.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.GameIntent.GameIntentSystem.JoinSession.html",
+          "hash": "tfOgZtcWn3xNdwci9MRz+Y+tP+Q+oxnqLkaqkb4gTmM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.GameIntent.GameIntentSystem.LaunchActivity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.GameIntent.GameIntentSystem.LaunchActivity.html",
+          "hash": "lDwxkM1Yg6BpvzbMsW6l5HJyZ4IjDXC/KWJGn9b9pgA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.GameIntent.GameIntentSystem.LaunchMultiplayerActivity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.GameIntent.GameIntentSystem.LaunchMultiplayerActivity.html",
+          "hash": "P1lmJYiC4NFFvyTGte/LbGJZre7jZruykf05zJXtrv4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.GameIntent.GameIntentSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.GameIntent.GameIntentSystem.html",
+          "hash": "YOsw0FF3uejciTiIBN9M9PtZRiOe8ym+Whzlzvhyww0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.GameIntent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.GameIntent.html",
+          "hash": "/4Z5gs+0nWlc8Vq8jPZAHYIb9sMKae3EW5t7J9qU5uc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.GameUpdate.AddcontLatestVersionRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.GameUpdate.AddcontLatestVersionRequest.html",
+          "hash": "hFNWzwxC/Caqkvl3hXohW+qdF2GocYtSslubhZlROrc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.GameUpdate.GameUpdateRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.GameUpdate.GameUpdateRequest.html",
+          "hash": "xvfbFpl1VDvcxTB0FdaPYiWz4I7/N7WZU+65SEq/bp0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.GameUpdate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.GameUpdate.html",
+          "hash": "hDoABgCOA6qlnMGUm2L7usnG5KcuNtGOUEzo+J+4Qbg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Initialization.InitResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Initialization.InitResult.html",
+          "hash": "RP+qxchx06HytgAtaydypA5jTLfon1yikuZ5cF33YV8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Initialization.NativeInitResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Initialization.NativeInitResult.html",
+          "hash": "KZBBO0ikSUibNUML2y7GCX7wKStuiCXekWJLxtcN51I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Initialization.SceSDKVersion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Initialization.SceSDKVersion.html",
+          "hash": "TT9JUL0nvAC3moq/JFl0x0HLVUwh86gKWxYzXpNQFro="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Initialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Initialization.html",
+          "hash": "Wj8MlTIyCWlNWtDQXf9RI/oGXfdpTHel9YTb1H5mJYs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Leaderboard.Leaderboards.BoardDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Leaderboard.Leaderboards.BoardDefinition.html",
+          "hash": "47oLqdLfHXC73IyiTqYSZOqxNLOEIspFO5EMDfcvHww="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Leaderboard.Leaderboards.BoardFields.Flags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Leaderboard.Leaderboards.BoardFields.Flags.html",
+          "hash": "Czebakuq7Fl8eA6aT0Sx1PpJNwYDdFwuBYZqp3xllH8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Leaderboard.Leaderboards.BoardFields.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Leaderboard.Leaderboards.BoardFields.html",
+          "hash": "vPax/GUUFk6Q1aBhzmyWgzhAEZ5mGbwioYDK46+l/yw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Leaderboard.Leaderboards.GetBoardDefinitionRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Leaderboard.Leaderboards.GetBoardDefinitionRequest.html",
+          "hash": "Jp/lUiFUlpKvcXmUq+Sj9VoU45Wwp9YcOf63ckPq9QM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Leaderboard.Leaderboards.GetLargeDataRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Leaderboard.Leaderboards.GetLargeDataRequest.html",
+          "hash": "mI5LZy5HVfMVBd0YkavavLt7iiip65isbYMsJqvxkBU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Leaderboard.Leaderboards.GetRankingRequest.Groups.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Leaderboard.Leaderboards.GetRankingRequest.Groups.html",
+          "hash": "KJ16OecHHN8djJiJrDpn1SlkFKtGuVPVgzGQq0fXSj4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Leaderboard.Leaderboards.GetRankingRequest.UserInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Leaderboard.Leaderboards.GetRankingRequest.UserInfo.html",
+          "hash": "dmPpXVkrqRZyMkl0TA+DUYQfZzM7DnLVRmQixXX7ILs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Leaderboard.Leaderboards.GetRankingRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Leaderboard.Leaderboards.GetRankingRequest.html",
+          "hash": "nHW2qiAFi+eNIKXap/hTM8s6pnue0eXMNJjvv8SAYLE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Leaderboard.Leaderboards.RankingEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Leaderboard.Leaderboards.RankingEntry.html",
+          "hash": "f2eujUfrg1iCS5R5rq3xcDwoJkDn/5xdNr/2MNkSMZw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Leaderboard.Leaderboards.Rankings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Leaderboard.Leaderboards.Rankings.html",
+          "hash": "2GZiP0GDY8rnbJokVSa1Kdje/ELau+z8XTbdLNHdysU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Leaderboard.Leaderboards.RecordScoreRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Leaderboard.Leaderboards.RecordScoreRequest.html",
+          "hash": "rTxv7/7izhXuyrrYrQIowa2bDtBal/S9cb81VdrJSSo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Leaderboard.Leaderboards.SortModes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Leaderboard.Leaderboards.SortModes.html",
+          "hash": "OphsCQUWj/je2DP6ftnkUHAWU6SAyO1iewk6+mpZWDM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Leaderboard.Leaderboards.UpdateModes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Leaderboard.Leaderboards.UpdateModes.html",
+          "hash": "TATj5i3B8a33ONllGhrX+y74qyleo9hHT9/FFwJ79Bk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Leaderboard.Leaderboards.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Leaderboard.Leaderboards.html",
+          "hash": "ovkdcdKv+HC71JYAuV3L3QWKY5WhHeZrWwo1Cy2vg/Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Leaderboard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Leaderboard.html",
+          "hash": "YRHVMGSjU+isQGs8JSj6bW9arh/SiiAZvufW1/6b8I8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Main.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Main.html",
+          "hash": "4q4LX7TZ7oLcsN/hJ0lPEEvAqq8QJl4L616RXBIy8HI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matches.AdditonalStats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matches.AdditonalStats.html",
+          "hash": "p0wlaCsQmeS+Zf/AX64+SVG4iT8ms3hr+zhecbOJOFo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matches.CooperativeResults.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matches.CooperativeResults.html",
+          "hash": "tw3SqD1PGokQkQu1mzSfjE1nOn9wkp5FggFsZ++ZiRI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matches.Match.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matches.Match.html",
+          "hash": "hzNEn/TyWBKnBYIBBqssMCirTOKjm56pDIS4df8yYo8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matches.MatchCompetitionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matches.MatchCompetitionType.html",
+          "hash": "y3d8mWtQrJLfxVFTEaGUpfj/nwoir7x4JMg+0+dOmqs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matches.MatchCreationParams.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matches.MatchCreationParams.html",
+          "hash": "41eda7QMRNeX8Y92HtiBSR9swvw2avD9lt4nDr/AojY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matches.MatchGroupType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matches.MatchGroupType.html",
+          "hash": "m3oLztFk7BQtAlaRIRMQ11tvxBlOaR1He7Ime/7AHqw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matches.MatchPlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matches.MatchPlayer.html",
+          "hash": "kEbtQQ3HIsxMG7qLKeFzpDWbjfLM2OlaaE+sBBNQYGM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matches.MatchPlayerCreateParams.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matches.MatchPlayerCreateParams.html",
+          "hash": "Z4lozkvc+9qDa4PogXCjsMneAf5t0HXNudv2aOmeils="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matches.MatchPlayerResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matches.MatchPlayerResult.html",
+          "hash": "X5mH52rkJleTAAIBUnXCWDEx1Scds74X+28T2tn1lfM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matches.MatchPlayerStats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matches.MatchPlayerStats.html",
+          "hash": "mma7OfoQQfr3zaG7jcpG4qynIPSMOUpCL3pNoWaQIDc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matches.MatchRequests.CreateMatchRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matches.MatchRequests.CreateMatchRequest.html",
+          "hash": "Z7uvpCFcA3EpyQUdFN+vPOg8ha34q5cIlGqNwPzuRVE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matches.MatchRequests.GetMatchDetailRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matches.MatchRequests.GetMatchDetailRequest.html",
+          "hash": "/b/UgXPaQ0m5SFwsDcv8N6D4qF14AKJSM9T9aBYNe7I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matches.MatchRequests.JoinMatchRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matches.MatchRequests.JoinMatchRequest.html",
+          "hash": "cEOG5mUgxTG8x1fhfa9FsP44DfRWFOYikZXQxpK/tCI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matches.MatchRequests.JoinPlayer.ParamTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matches.MatchRequests.JoinPlayer.ParamTypes.html",
+          "hash": "oSVhFnWy5sZ+SyShbm6AbNED+O4MWFS3DH72p3n1kEU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matches.MatchRequests.JoinPlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matches.MatchRequests.JoinPlayer.html",
+          "hash": "IU6kFOGFxIVCmS4oCXprIZBwRC3XepzipxGc21UskMA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matches.MatchRequests.LeaveMatchRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matches.MatchRequests.LeaveMatchRequest.html",
+          "hash": "4b1Y7FZ5E0k351tcHMOyq3B70OzJFP9Pvn8gJOdXd5o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matches.MatchRequests.LeavePlayer.Reasons.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matches.MatchRequests.LeavePlayer.Reasons.html",
+          "hash": "NmjD/HOm3BLCC5PsTFPWrz9P4EqX7uTQtjHrv7JLo0c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matches.MatchRequests.LeavePlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matches.MatchRequests.LeavePlayer.html",
+          "hash": "e7tKrCW+CxGo8zGak7RX2aSSJofmtewLjNS1csGwCxc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matches.MatchRequests.PlayerReviewEligibility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matches.MatchRequests.PlayerReviewEligibility.html",
+          "hash": "EF5AiquercLTGrFK5sVwt55kBl5RemtplWBJhbeOvew="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matches.MatchRequests.ReportResultsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matches.MatchRequests.ReportResultsRequest.html",
+          "hash": "hVtee/8STSwVrFhpHDnE0qtYpoKfDAn/caXbBCqL42M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matches.MatchRequests.RetrievedMatchDetail.ParamTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matches.MatchRequests.RetrievedMatchDetail.ParamTypes.html",
+          "hash": "XvPVLPy2GgLu3frIz4jlfBi1SHbhJfLMGbxGqLTVs1M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matches.MatchRequests.RetrievedMatchDetail.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matches.MatchRequests.RetrievedMatchDetail.html",
+          "hash": "0clbjw0hvkBO7v1Fq85KwyaLXLUkTu01glNHp0UhuVI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matches.MatchRequests.UpdateMatchDetailRequest.ParamTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matches.MatchRequests.UpdateMatchDetailRequest.ParamTypes.html",
+          "hash": "Oacyogxzi+GTbsDuOMXwbg5WBrO3jMGwZ2SVvBeDz90="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matches.MatchRequests.UpdateMatchDetailRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matches.MatchRequests.UpdateMatchDetailRequest.html",
+          "hash": "xNN0j1xdlxuvpDvCVOFAqPOE2+VUu0HEZSFYV9eGWYg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matches.MatchRequests.UpdateMatchStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matches.MatchRequests.UpdateMatchStatus.html",
+          "hash": "xNDHj1HhVNHTiWmqIIdKg1aZ6uya0lPCyPzU6Jw8RTc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matches.MatchRequests.UpdateMatchStatusRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matches.MatchRequests.UpdateMatchStatusRequest.html",
+          "hash": "bvI0YWZa8LOsSDDPiXKTWOCfNjPQ9wMSY/+Ib+VOWvU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matches.MatchRequests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matches.MatchRequests.html",
+          "hash": "8GqRDMiW7lcETtUjS5x7S63zb2XnH6JYgGyfeHVSpO4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matches.MatchResults.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matches.MatchResults.html",
+          "hash": "N4ScXVrHJONV9WXPly0Iqgr7UbIhRqi01s1V2l2PnXk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matches.MatchResultsType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matches.MatchResultsType.html",
+          "hash": "AwEEaE3SoUVYM9sNNh8HGxHqmq9E9wMcW/eYJyEgldA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matches.MatchStats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matches.MatchStats.html",
+          "hash": "LCdEEbHmJ4w6nMQQXI+xcWSk4GVOAuxBg8mfTxiZD+M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matches.MatchStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matches.MatchStatus.html",
+          "hash": "WtVQ/fz0iaa9ciK3lcCle1XKzOkyQAeXHvlplpFEr80="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matches.MatchTeam.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matches.MatchTeam.html",
+          "hash": "iwtS5LT4jdagRK4VQZn1eWxWb9tjkuN0jn/IrJR/TXQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matches.MatchTeamCreateParams.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matches.MatchTeamCreateParams.html",
+          "hash": "Xzy8Lk9iRBMjTCBNMxPfYqMYkt0+PA7nscy+Tzm+Rq8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matches.MatchTeamMember.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matches.MatchTeamMember.html",
+          "hash": "r8VFvrir/dpbNjbrW+hmsNcfzGdAb+yVV4HuQRaWS5s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matches.MatchTeamMemberResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matches.MatchTeamMemberResult.html",
+          "hash": "zKqtXMIe+81JDe1T0K+vJULEa51Q9/rHniDrBo5bG8I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matches.MatchTeamMemberStats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matches.MatchTeamMemberStats.html",
+          "hash": "d50lEmvryCMFCqh6DpSnDu8aXGQuofKzDiYaykQqgRs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matches.MatchTeamResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matches.MatchTeamResult.html",
+          "hash": "58pEdkOjKpu49xgskpYcQ5nkMquw/1uoGZtopnArgh0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matches.MatchTeamStats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matches.MatchTeamStats.html",
+          "hash": "rZUdDOMU/xsDzWlwPYEanmOK1Xlcp+CQxQw5FH4wPNk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matches.MatchesDialogSystem.OpenPlayerReviewDialogRequest.ReviewModes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matches.MatchesDialogSystem.OpenPlayerReviewDialogRequest.ReviewModes.html",
+          "hash": "iGtBy7U9G8lhi3jChzOQ/q40YRSzWa1LAX8kFhH2U6c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matches.MatchesDialogSystem.OpenPlayerReviewDialogRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matches.MatchesDialogSystem.OpenPlayerReviewDialogRequest.html",
+          "hash": "B0QR1DYUamyOe4KX4ojMugpPN5Q6yUhg8hWbz5j+9Dk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matches.MatchesDialogSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matches.MatchesDialogSystem.html",
+          "hash": "/dAdPRvIMTakJQRwoG7r5nWbJXjsFq8YmjppT33NWdo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matches.PlayerType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matches.PlayerType.html",
+          "hash": "1Yv7/CJSVKPZ3auY7s0k99K7Xluzi5vHpry0okBkclk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matches.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matches.html",
+          "hash": "1+Jrfm2E12O5WkAQlN2PCuvsm192o7l2xmr9/RH86AM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matchmaking.Attribute.AttrTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matchmaking.Attribute.AttrTypes.html",
+          "hash": "oe/imU8yxm7g8FX1ctAFqaqKXdD7SYYh6mFWRPdxDwE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matchmaking.Attribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matchmaking.Attribute.html",
+          "hash": "uNO1odOwMror/G/58E0YF3Mxc00nyaGoAKTHJQMKwUk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matchmaking.Location.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matchmaking.Location.html",
+          "hash": "8FgqBRTCHjT7/zrxn4h6WS26uSU7nrWRe2dNtk8EDf8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matchmaking.MatchMakingNotifications.NotificationTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matchmaking.MatchMakingNotifications.NotificationTypes.html",
+          "hash": "UgOCoqPIUESfI1BW1NaZmpr/RYBVC284lbCIPVjwurM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matchmaking.MatchMakingNotifications.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matchmaking.MatchMakingNotifications.html",
+          "hash": "RtCXEtaW/nGwHNAOTRVUnXkGNbwet2n4UKJZAugTmlA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matchmaking.MatchMakingRequests.CancelTicketRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matchmaking.MatchMakingRequests.CancelTicketRequest.html",
+          "hash": "4oi8h2bDLtkZmpcWmuXhrVQmhiShHz7UALnV7u9eJ4A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matchmaking.MatchMakingRequests.GetOfferRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matchmaking.MatchMakingRequests.GetOfferRequest.html",
+          "hash": "iey/V/Ejc7y51JOuGbqz7hTiYraDVuSVF47FKM5HUvc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matchmaking.MatchMakingRequests.GetTicketRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matchmaking.MatchMakingRequests.GetTicketRequest.html",
+          "hash": "mo7lYbkiyozOOKEjfZy2EPgaHTTUSLZZD81m+Dfzhkc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matchmaking.MatchMakingRequests.ListUserTicketsRequest.PlatformFilters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matchmaking.MatchMakingRequests.ListUserTicketsRequest.PlatformFilters.html",
+          "hash": "hmWZdMWsBf5YGM1ZAYHwIUtF9AgthnEXvj8YGgzz3io="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matchmaking.MatchMakingRequests.ListUserTicketsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matchmaking.MatchMakingRequests.ListUserTicketsRequest.html",
+          "hash": "DQQSbzZ9n+ty6cPno/FCOjd44eHTVr4uRePJX2832KM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matchmaking.MatchMakingRequests.SubmitTicketRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matchmaking.MatchMakingRequests.SubmitTicketRequest.html",
+          "hash": "VVjZAuaBYJRxrRvPDYcFLCpfvcvpTKtKA5RwrOiAr9w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matchmaking.MatchMakingRequests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matchmaking.MatchMakingRequests.html",
+          "hash": "t5GrBdz/pahwc3HJ57k23S1hp0XNC/c55Co63UycKIM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matchmaking.Offer.Notification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matchmaking.Offer.Notification.html",
+          "hash": "VOUdRfVpswJsgY2bJ3p5eQTH/xVKfV1UNgQigAQeLV8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matchmaking.Offer.OfferStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matchmaking.Offer.OfferStatus.html",
+          "hash": "bUd9evOxihZ8JlGMA6i+yBavAFPN/WZT03OkjXN0tqY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matchmaking.Offer.TicketEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matchmaking.Offer.TicketEventHandler.html",
+          "hash": "R3pMalm2y4UgdxaeH5YwETwE4XK4U12XOJ3/Efj4HBs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matchmaking.Offer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matchmaking.Offer.html",
+          "hash": "QVVa4rD5wXKEC5NPWn/XmFx6UmY61TohYiFkny/uxSQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matchmaking.OfferPlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matchmaking.OfferPlayer.html",
+          "hash": "MlaNW3KO1gmi8zRJOuoR2hbUijfQ3ID3z9wCWwmSh+Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matchmaking.TestJSONParsing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matchmaking.TestJSONParsing.html",
+          "hash": "L9wdS0+6I60kBpPSckyf/TL63MAw84oU2Pk631vu1uo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matchmaking.Ticket.Notification.CancelType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matchmaking.Ticket.Notification.CancelType.html",
+          "hash": "pCgWaC5Z56GdqlvX7WP6BNq+6HvwzS06fK//8OdwgaI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matchmaking.Ticket.Notification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matchmaking.Ticket.Notification.html",
+          "hash": "ix7WfPsj5Q7z3i16kits1d3PgSaq9Sv7vFChGLezxpk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matchmaking.Ticket.TicketEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matchmaking.Ticket.TicketEventHandler.html",
+          "hash": "6opT8EuXWoD6qsQ7YrazCecmDQB3IZFvHpNpTK755lQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matchmaking.Ticket.TicketStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matchmaking.Ticket.TicketStatus.html",
+          "hash": "7+G45kB7N/HJPO2gCIZnNHOEC6b9KAOCvs3fBKCs/Ew="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matchmaking.Ticket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matchmaking.Ticket.html",
+          "hash": "E0IXXCcDN57xUClsg4MgwCB5118rAEJHcWH7fzqI5Dk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matchmaking.TicketPlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matchmaking.TicketPlayer.html",
+          "hash": "RNXspJyu0U6sY2Oh2X+ZRBd7y5aLFzN7MB3nD7oM3Jg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matchmaking.TicketSubmitter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matchmaking.TicketSubmitter.html",
+          "hash": "XYr/MUO5+TTN6cyKb0NruxWN4pHdLcvSJ6pxTCByTYM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matchmaking.UserTicket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matchmaking.UserTicket.html",
+          "hash": "bOHXoYU/QBYIJ8+7EAC2Qp+d88FoQD+42baivO/wh9M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Matchmaking.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Matchmaking.html",
+          "hash": "JFbnEwT8hSRVsE+Sf7HO+wDucY9BI9k3vxiLnum5thg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.NpPlatformType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.NpPlatformType.html",
+          "hash": "iEPiGD+BSmlqNAjij0V3NMHOXIc021W/3GyPIzfRris="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.PSNException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.PSNException.html",
+          "hash": "HGdMgDR3XL/Xg2YDUPCSfGDSrlAxtU4pu1gkXUD7wvw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.PremiumFeatures.FeatureGating.CheckPremiumRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.PremiumFeatures.FeatureGating.CheckPremiumRequest.html",
+          "hash": "HhReTcHITGmdiVritwdrN7WAl4aR6EaceYwUXnZdxfU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.PremiumFeatures.FeatureGating.Features.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.PremiumFeatures.FeatureGating.Features.html",
+          "hash": "HIVUREPAg2gGlkFnikJoUGwQ0w0DX4Bi39gaSqMe9Lk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.PremiumFeatures.FeatureGating.MultiplayProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.PremiumFeatures.FeatureGating.MultiplayProperties.html",
+          "hash": "gZnT8yf8o3L/XiWMf9JFZhoZnTGrqu2P3Ceib5Vsh0E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.PremiumFeatures.FeatureGating.NotifyPremiumFeatureRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.PremiumFeatures.FeatureGating.NotifyPremiumFeatureRequest.html",
+          "hash": "4pOCYXzY59U5FQ4cYJi6zLiOKoZ7xKhDNyoGGjyi1Fg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.PremiumFeatures.FeatureGating.PremiumEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.PremiumFeatures.FeatureGating.PremiumEvent.html",
+          "hash": "sFhIoNLTuKSaMPad0IJmsnNDsdv8G8yT0NMkKlJvzgI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.PremiumFeatures.FeatureGating.PremiumEventType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.PremiumFeatures.FeatureGating.PremiumEventType.html",
+          "hash": "1aBklpw5QOWFnkaC9cBRkMvKqns5D+T/ro7gbr+/hkw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.PremiumFeatures.FeatureGating.PremiumNotification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.PremiumFeatures.FeatureGating.PremiumNotification.html",
+          "hash": "sFj4NKt09J8NwF9Q/fRbfTCpiTEa3KO/DcKP4x4GKUY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.PremiumFeatures.FeatureGating.StartPremiumEventCallbackRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.PremiumFeatures.FeatureGating.StartPremiumEventCallbackRequest.html",
+          "hash": "PIKZhRSkUa2DQKu2if35DjNEoV6pFEd9C0XcLS+l93w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.PremiumFeatures.FeatureGating.StopPremiumEventCallbackRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.PremiumFeatures.FeatureGating.StopPremiumEventCallbackRequest.html",
+          "hash": "puDCNpSbpqZlLD/B7hlwC8QbAmz/CvDZlkJIERkGv4I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.PremiumFeatures.FeatureGating.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.PremiumFeatures.FeatureGating.html",
+          "hash": "OlKGlH94qYhjA2DLZgya9zE3Y7zV6gpAhoM9bG12YnA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.PremiumFeatures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.PremiumFeatures.html",
+          "hash": "azH9qru/vaWA48jC7Js9T+kBD4L+DApdeOknd1AQY6o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.Condition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.Condition.html",
+          "hash": "yZjS6HDPnxhQgSDXmLuNjM8NArkA2xL9QTAtA6vnq2M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.GameSession.Notification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.GameSession.Notification.html",
+          "hash": "qggFMxLjKF1OThf+hgWoFTorjQR33QVG53Z79hONnNA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.GameSession.ParamTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.GameSession.ParamTypes.html",
+          "hash": "LLtT+gV8GgO1akt0hJKNEo1QKHWp9tMOW6Ivlzsnx+o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.GameSession.SessionEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.GameSession.SessionEventHandler.html",
+          "hash": "viuoocCTxA+j1pFv9n2/tISdyBKZoAgChq9sB5bq04I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.GameSession.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.GameSession.html",
+          "hash": "1tt2agnQVyIga3QUoi+yByqCQ6K/kfqVl+bKDSL6DOA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.GameSessionCallbacks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.GameSessionCallbacks.html",
+          "hash": "B5ULSYu/s39TfszzZl1Mn2ocvE+tsoLVVnS7cZNPzuM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.GameSessionCreationParams.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.GameSessionCreationParams.html",
+          "hash": "dluNLJ6MuZoZBlHpNoPCLQlqCFAUIRcSM8rKTlxpkJc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.GameSessionFilters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.GameSessionFilters.html",
+          "hash": "0XMvh3VNyDMUs7319DAMx1CjlNnAK9AB9GqQdjsHaSQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.GameSessionInitMember.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.GameSessionInitMember.html",
+          "hash": "AsUAGY4jGDwiQNczxk1Vp1l6eJ7iCsKpoCskn4NXw4U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.GameSessionJoinState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.GameSessionJoinState.html",
+          "hash": "K4rg6DZeuDgCUq2xp4nE3NCgruqtvtU2my6whyX2rsM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.GameSessionNotifications.NotificationTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.GameSessionNotifications.NotificationTypes.html",
+          "hash": "KYT9CH9zVY/aU40r/i/jStnp0gWFEGD21XKu1tGTdD0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.GameSessionNotifications.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.GameSessionNotifications.html",
+          "hash": "gPmNqIKeDc3RN1HVMfwXSIiu0tdHHsdAU9oxFhyPz94="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.GameSessionRepresentative.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.GameSessionRepresentative.html",
+          "hash": "U8QW8eIy6sOyt4Im071ebtBK4XOoaSGJ7zXknooFUPk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.GameSessionRequests.CreateGameSessionRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.GameSessionRequests.CreateGameSessionRequest.html",
+          "hash": "LkjEIdWsdgVp/iRhPnJuMR+08Mlr6nL51QlStxqoFHQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.GameSessionRequests.DeleteGameSessionRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.GameSessionRequests.DeleteGameSessionRequest.html",
+          "hash": "VzWc28lam3ONzctXEt0BiMv8ovCLQsdE/sCQqd6bJVI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.GameSessionRequests.GameSessionsSearchRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.GameSessionRequests.GameSessionsSearchRequest.html",
+          "hash": "um+0X2osBvVGpQa1DhKifwomUgxeHN28y/PKkIK/Wts="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.GameSessionRequests.GetGameSessionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.GameSessionRequests.GetGameSessionsRequest.html",
+          "hash": "8jZ4+W/kS2n5JiBRHNGqtTwks+isvHAMtzyFwkFptTg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.GameSessionRequests.GetJoinedGameSessionsByUserRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.GameSessionRequests.GetJoinedGameSessionsByUserRequest.html",
+          "hash": "skRsdE/cfjBnsXQmlSaUeBtLE99vnrb8h/KfUepEhXg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.GameSessionRequests.JoinGameSessionRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.GameSessionRequests.JoinGameSessionRequest.html",
+          "hash": "0DLo4b+yuUchUxFzj7NYPU7M+7NgHRlkMrncCQqH2VI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.GameSessionRequests.JoinedGameSession.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.GameSessionRequests.JoinedGameSession.html",
+          "hash": "zoGs/Yn26RB1R7TuR2DEmyRo8lKfOUT+1znV4wf+Nzs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.GameSessionRequests.LeaveGameSessionRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.GameSessionRequests.LeaveGameSessionRequest.html",
+          "hash": "zlJS1LZ0kL20FXLMkXQXsk8kh8AoSuBi3gli2SB7tjs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.GameSessionRequests.RetrievedSessionData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.GameSessionRequests.RetrievedSessionData.html",
+          "hash": "bXCOjlhsHM8TuYqiBBDy6wcQko+Rj8YOnzo5x2BXuy0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.GameSessionRequests.RetrievedSessionsData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.GameSessionRequests.RetrievedSessionsData.html",
+          "hash": "VDBn/f8ORp/Sh1eVmx3nXX+IXC5PnbxD8sU8zMh9iS0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.GameSessionRequests.SendGameSessionMessageRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.GameSessionRequests.SendGameSessionMessageRequest.html",
+          "hash": "olO+psDXCl0m0wNUUOsFE6PI9cs02itjhWa2D6f2tCU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.GameSessionRequests.SetGameSessionMemberSystemPropertiesRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.GameSessionRequests.SetGameSessionMemberSystemPropertiesRequest.html",
+          "hash": "PNNK71pMgFL3JhZsGh5ggzCHNynS/z2kJzxxQZ4I9Hs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.GameSessionRequests.SetGameSessionPropertiesRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.GameSessionRequests.SetGameSessionPropertiesRequest.html",
+          "hash": "5J93mbxdoLiO+prXnelBUW8ZSAqppXunS37jjW6Xx3s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.GameSessionRequests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.GameSessionRequests.html",
+          "hash": "ddw4E5RFveog3t8zHsJ+IOgA3rMDK8Ek0yAfAH1bvmc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.InvitableUserTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.InvitableUserTypes.html",
+          "hash": "sSGnUGTSsbaoz2xgU7YegYpTY+6SsZbzyWJiChe4+i4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.InvitationDialogSystem.OpenPlayerInvitationDialogRequest.InvitationModes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.InvitationDialogSystem.OpenPlayerInvitationDialogRequest.InvitationModes.html",
+          "hash": "OwmUefhcQPG7rejDF3ijZsCpnFSKZBw3xcKAKbqowcY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.InvitationDialogSystem.OpenPlayerInvitationDialogRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.InvitationDialogSystem.OpenPlayerInvitationDialogRequest.html",
+          "hash": "Efj7GXem6UuEsz2ksOasTh949o2VtjSdouLtTNj3v88="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.InvitationDialogSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.InvitationDialogSystem.html",
+          "hash": "1QA4gWkxQu5/fxdXkNOBNpxl09w/nHa9EksWzJhy4U0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.JoinableSpecifiedUsers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.JoinableSpecifiedUsers.html",
+          "hash": "P/6lkTaRxSK0IIDxe0dwXUxS/TlcrXEfU80Z1mGa8no="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.JoinableUserTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.JoinableUserTypes.html",
+          "hash": "6hdbjka4T8qGlPMxyhS37TerGBLQ6Q+iL1OvRumoVI4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.LeaderPrivilegeFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.LeaderPrivilegeFlags.html",
+          "hash": "BP3NOfUFZq6U51rln8BsbuHCG5QTnO1QMFgp9YHdkDU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.LocalisedSessionNames.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.LocalisedSessionNames.html",
+          "hash": "TKi2ilN4UK3Oan9eVAxFmt2AoI6gaTlgFeVuYLuosTI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.LocalisedText.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.LocalisedText.html",
+          "hash": "ezpAiA5poaQ5dRgee2mDapuxb8Jm4ZTOlolTA+AdbOw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.NotificationJoinableUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.NotificationJoinableUser.html",
+          "hash": "/Qjo59C4b+mhm2X5wzjjEQS52zm30n3a2Z+J7aM76co="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSession.Notification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSession.Notification.html",
+          "hash": "N8m3IKcmtrzvE4ame/wJmsktx447d+FxG0qU+WlOeZc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSession.ParamTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSession.ParamTypes.html",
+          "hash": "BlDF+N/uhnEOvqfOUuYCxbRs1AqqPJ9/yavPifFo0Ng="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSession.SessionEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSession.SessionEventHandler.html",
+          "hash": "jbjVn/T70sD56hA0CmSZY3TO4RQ/H1V0purpnEUXYNA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSession.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSession.html",
+          "hash": "ZYwVhie1nU7BGr1mb05h7oYFv5MC2FfRpa6baq0Wuls="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSessionCallbacks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSessionCallbacks.html",
+          "hash": "kPDBHWLkqm+6KLLmtQSGStLoSSxMK3vpePxdDONR3Bg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSessionCreationParams.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSessionCreationParams.html",
+          "hash": "q4RgXghNF12T8cuCaI8PYwFTvDs4HgVumQagCF9nTfw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSessionFilters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSessionFilters.html",
+          "hash": "iu5Rhd7bv0pV6SEPvGeScmNHScVhWcf0aBwTb+MrVR8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSessionNotifications.NotificationTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSessionNotifications.NotificationTypes.html",
+          "hash": "uqmAvQP7Jsb4BNEPWt+L1KvX+OEfR2vl4oGtNeZhhEU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSessionNotifications.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSessionNotifications.html",
+          "hash": "bpuIRfyHncMpJd1d611MwRmryD6jFSHGwVxxF4R+vq0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSessionRequests.AddPlayerSessionJoinableSpecifiedUsersRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSessionRequests.AddPlayerSessionJoinableSpecifiedUsersRequest.html",
+          "hash": "QVFsWji9H1B7ydraJKUlr2ih2RxnNxBjCoQfaDSlNRw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSessionRequests.ChangePlayerSessionLeaderRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSessionRequests.ChangePlayerSessionLeaderRequest.html",
+          "hash": "NAMrR0rzTMoN/m3VVfeA+HsU1+dgfRwsTsFBrLJI5yg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSessionRequests.CreatePlayerSessionRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSessionRequests.CreatePlayerSessionRequest.html",
+          "hash": "o0+3HXwcWqUA9TYri0PHgYeOuIbE3VEZM+uNvqrF214="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSessionRequests.DeletePlayerSessionJoinableSpecifiedUsersRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSessionRequests.DeletePlayerSessionJoinableSpecifiedUsersRequest.html",
+          "hash": "uwYd+KgFQGM969ujxSNwDOUrszv50R82OlbAtCMEWFk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSessionRequests.GetJoinedPlayerSessionsByUserRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSessionRequests.GetJoinedPlayerSessionsByUserRequest.html",
+          "hash": "wz4K1rmHDS0+K7pw8ycogS7brUxEvBDABqNvrK4TNvI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSessionRequests.GetPlayerSessionInvitationsRequest.RetrievalFilters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSessionRequests.GetPlayerSessionInvitationsRequest.RetrievalFilters.html",
+          "hash": "W/iah38xxmaAFaIjQQGZIpx9yApGQ/5moYEbaOXE7x0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSessionRequests.GetPlayerSessionInvitationsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSessionRequests.GetPlayerSessionInvitationsRequest.html",
+          "hash": "ZidzUCwrzy3L2DlbsmJXSWoTGEoU3/QRxG1uuq7sVpE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSessionRequests.GetPlayerSessionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSessionRequests.GetPlayerSessionsRequest.html",
+          "hash": "O+5KwPGcYZ24GBYup2XMP0uQiQiKUgKXrZGuyrAquhA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSessionRequests.JoinPlayerSessionRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSessionRequests.JoinPlayerSessionRequest.html",
+          "hash": "v6SGqzDg7aNlE19o5uuiTzdRrHCYyVznRghE39tuUKI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSessionRequests.JoinedPlayerSession.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSessionRequests.JoinedPlayerSession.html",
+          "hash": "Cn72TMj44igZHzFIAMth5OVFNnrIoyN1SlL5wNwou04="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSessionRequests.LeavePlayerSessionRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSessionRequests.LeavePlayerSessionRequest.html",
+          "hash": "3Npf1z/qIQ46oXHpVxwcSY7aiU+tTk1+Pmm47Hu9JB0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSessionRequests.RetrievedInvitation.ParamTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSessionRequests.RetrievedInvitation.ParamTypes.html",
+          "hash": "g6q2nbMPPRIEZLs+VbMN4GjtbKWMb5k34ihWqaRlP40="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSessionRequests.RetrievedInvitation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSessionRequests.RetrievedInvitation.html",
+          "hash": "NQeX8PmeSACacs/VQ3F1BF29p6ANZVd6J8Xd5rfbtwA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSessionRequests.RetrievedSessionData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSessionRequests.RetrievedSessionData.html",
+          "hash": "vIyfZBIXePktSN3tY58IrApw8EuJ52qSrFFKSofNVZY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSessionRequests.RetrievedSessionsData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSessionRequests.RetrievedSessionsData.html",
+          "hash": "oCyT1dIY6N+B7ZXala45WpGDNpIiYEx2c++EyLaJXv0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSessionRequests.SendPlayerSessionInvitationsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSessionRequests.SendPlayerSessionInvitationsRequest.html",
+          "hash": "ttGNtP1T62CllOFBKWZ9/k23Cc8MojInkemIZ4GgOKI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSessionRequests.SendPlayerSessionMessageRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSessionRequests.SendPlayerSessionMessageRequest.html",
+          "hash": "iIZ88jEWGAm+wMVlDusuixARMDZzRqmTXV8SlQ417/U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSessionRequests.SetPlayerSessionMemberSystemPropertiesRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSessionRequests.SetPlayerSessionMemberSystemPropertiesRequest.html",
+          "hash": "82GQ/yvhNXZn24PYWYQgpQNmP3OPzkfJedPGqbUEu2Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSessionRequests.SetPlayerSessionPropertiesRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSessionRequests.SetPlayerSessionPropertiesRequest.html",
+          "hash": "laVK8trvOrbDpjJLLMAtMOJTGgFQlXJ22lkGfaLoslY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSessionRequests.SwapPlayerSessionMemberRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSessionRequests.SwapPlayerSessionMemberRequest.html",
+          "hash": "ISXrzsnaO6xypGDcuKEYhrkiRT3mtYs6JQ1GIO000KA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSessionRequests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.PlayerSessionRequests.html",
+          "hash": "5iskF04wUxybU8mnEzjZmXrUZfA9i5ZUlaL7pQNK3HA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.SearchAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.SearchAttribute.html",
+          "hash": "sIiOicP148/fE/ZFM6gvT+B0vuaqp7YOed+dHBQbGrg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.SearchAttributesType.DataStore-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.SearchAttributesType.DataStore-1.html",
+          "hash": "rRwgcaPnhkuDuo9ArzGYQtyfgy8xb7obNYMJpkob6cA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.SearchAttributesType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.SearchAttributesType.html",
+          "hash": "nbzcLIbVZCs5ZAsKUkHSx9Abu+yNTF37yxX60A34laU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.SearchOperator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.SearchOperator.html",
+          "hash": "UQf6425ra49uxHGjk2v2QcCAxg2vjMiaVkHdriGPItc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.Session.RawSessionEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.Session.RawSessionEventHandler.html",
+          "hash": "SC0aPvaXS2hJGlB2rwtXUjcdntPWH6b8Q/vgOhGy7KE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.Session.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.Session.html",
+          "hash": "eWwe0GRR8D9JLa039+VtvZkDa6tLImSQG/w/ZMQ9RfE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.SessionMember.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.SessionMember.html",
+          "hash": "IJu7DSo43hyXRRJ9J6YbiuY4S4vj73nLld1ztZGELaY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.SessionMemberIdentifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.SessionMemberIdentifier.html",
+          "hash": "74LPDIpwneUhe00B9ZDzFJYuhnFkJEb4l/n7OjS6Jeg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.SessionPlatforms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.SessionPlatforms.html",
+          "hash": "bEyy9JyWher0s3fi303ALFo94yWqOPj5lDCrP/GIy4U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.ActivateSessionRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.ActivateSessionRequest.html",
+          "hash": "pfAxj2Auth/NtDOnFbrztWxhWCHLeY95f/rYZJDTsIA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.ActivateUserRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.ActivateUserRequest.html",
+          "hash": "+4rv1awRkefwlqSXE2R9EB2kdEDmr8DRWizBKcVD3ok="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.ConnectionEvent.Reasons.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.ConnectionEvent.Reasons.html",
+          "hash": "X/IQso0q69tD0Y5Mv+UmRpPYbT2W1BmrOIYSvmr6Nm0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.ConnectionEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.ConnectionEvent.html",
+          "hash": "gRaE9NHiRLgGa98oYRE7ZEqjqaLWP6Mp138V0MOPmu0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.ConnectionInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.ConnectionInfo.html",
+          "hash": "0bzQYJreylFFrEYoER02GDZb0dXz66f7lF0QTuPak6w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.ConnectionInfoCodes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.ConnectionInfoCodes.html",
+          "hash": "KuW/PSfDUbPlZNzD/VJi1AB1CqqGO+5olEFzecoEDm8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.ConnectionNotification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.ConnectionNotification.html",
+          "hash": "9cQ3Rqitm8GXVThcNF4AtdaDMAXYFQsiFvENLX1qQvM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.ConnectionStatus.Statuses.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.ConnectionStatus.Statuses.html",
+          "hash": "U8XBEk17xQaegrKeZc7tZB7gOyS1VEvXfwkwkNdJEjA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.ConnectionStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.ConnectionStatus.html",
+          "hash": "JG/BKVvzIxN9WNI+u7MptwKac5pf9br8hGCnP1fN0M0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.CreateUserContextRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.CreateUserContextRequest.html",
+          "hash": "GsQgqUDNnEaT+igNRHzbgl7JjztPFI/ktGClPj+Q7Lk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.DeactivateRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.DeactivateRequest.html",
+          "hash": "mERre3kjASs0vGERcah9Lq6nSW7g2MYClb+DzHqwXRs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.DestroyUserContextRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.DestroyUserContextRequest.html",
+          "hash": "f2FCNWSYYI0K8jn3+LXaOIdgnjQV4PRVcTTiudt+6Do="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.GetConnectionInfoRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.GetConnectionInfoRequest.html",
+          "hash": "u7r0FT6qEvOF70FeQKtOrkqIG/ASOLhE6DXH7dEJlfU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.GetConnectionStatusRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.GetConnectionStatusRequest.html",
+          "hash": "U+qNZ6Rzbrso/naeDtNq59ywPLzVCIHfo7Brn6bnbj8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.GetLocalNetInfoRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.GetLocalNetInfoRequest.html",
+          "hash": "31bfURYeMSlZtlZJIHsFOkGunmzkfHxV5VADkr6vQio="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.GetNatRouterInfoRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.GetNatRouterInfoRequest.html",
+          "hash": "f5BWTdrEGntLyLw/b+3c9i7bHC5IMMrGKg0V0n1Q3Z4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.GroupEvent.Reasons.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.GroupEvent.Reasons.html",
+          "hash": "lTaJV2NgKnQJVPTirH8U1X8Y5OhH6trfFFoiM3eHQp0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.GroupEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.GroupEvent.html",
+          "hash": "58o1JGvzDSiTj30r/+lFCez9ii8IL+dTL/tH3VVMTmM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.GroupNotification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.GroupNotification.html",
+          "hash": "NFp1+uXnB1E6/1wjgnqmposy43lqj93J/JmvI3JAV9c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.NatInfoStunStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.NatInfoStunStatus.html",
+          "hash": "moIzN0RT3AgF5exTUk29S+YwzBRCtYyPOyEnjPrweqE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.NatRouterInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.NatRouterInfo.html",
+          "hash": "IsHBp8lF2aVJnJNI3/48B9S5JTYyny3HYSr9da+/iN4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.NetInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.NetInfo.html",
+          "hash": "Ki4TTUADW+SztI+Sqew5niyh874691Ncll8FHSuP9zI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.PeerAddress.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.PeerAddress.html",
+          "hash": "Z759FMSURk3robUqDANfmV+kurxMqAZ190E+AByGSuw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.RequestEvent.Reasons.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.RequestEvent.Reasons.html",
+          "hash": "LRfiObccel24T28/ingCVsCCzeqUjdcl0Yb8j+TWDXs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.RequestEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.RequestEvent.html",
+          "hash": "z8Q/i4G1xXLEhwSv1Djq7f2JlZ1f0GIxh+BcxgOsNMg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.RequestNotification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.RequestNotification.html",
+          "hash": "LbKT8eiclfg9efHqGQBGRpxtrXCwTRqKGWvcnLl/Sck="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.SignalingHostTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.SignalingHostTypes.html",
+          "hash": "Z+ddrzfBOuDqMiFoIpU8xjr6IhwTS15SIiFclxGL5mA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.SignalingSessionTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.SignalingSessionTypes.html",
+          "hash": "MzMyJlEW5wKs0a17rvDtnsFMLYXjdDGrT/UllOoodYg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.SignalingTopologyTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.SignalingTopologyTypes.html",
+          "hash": "hIlDnUGCvL+XYJLj79vXdqTcC6K8cHBgiDaxtVQnB+U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.SignallingEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.SignallingEvent.html",
+          "hash": "v11LBI3qdpbvFmKkd71av7hmaMtG4y1juo70KZ5zsVM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.UserToUserRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.UserToUserRequest.html",
+          "hash": "DCL+34YapKIqzQF8uCLiYn2Hh3wpxbb0AxpUwkOpUFc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.SessionSignalling.html",
+          "hash": "nlOwX/vWXE9S9L9RvY0r8vRVQ0hqoG8CqQjqrF9fLDA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.SessionsManager.GameNotification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.SessionsManager.GameNotification.html",
+          "hash": "eoWAKoplp7G7COI1wV9giCpCBIimAaCfvz+JATQogtE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.SessionsManager.Notification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.SessionsManager.Notification.html",
+          "hash": "PJKsJjj06sl1AyttSjv1MWQaxZ7Tka2VsEiWbbxGPmE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.SessionsManager.PlayerNotification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.SessionsManager.PlayerNotification.html",
+          "hash": "GVGZNFOlJH44YR/wc2yha7aDniPWi1wW1bLmzmQ+GiQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.SessionsManager.RawUserSessionEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.SessionsManager.RawUserSessionEventHandler.html",
+          "hash": "oky3SlFWeUVlgTtWIB0iI9MyyFbnTbKVvl8j4AaqFnY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.SessionsManager.UserEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.SessionsManager.UserEventHandler.html",
+          "hash": "/eGQfLAE2ue0rtnDlbo1ws4s+Osxc8VJkIVIPsWVfUI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.SessionsManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.SessionsManager.html",
+          "hash": "0Vek8swzbCOhUW4XTNSuGeXTauzKO1JpzlIAz4MwcbU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.Sockets.RecvSocketNotification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.Sockets.RecvSocketNotification.html",
+          "hash": "pOwOf4AJZNztdYjyoQ+JvLxse/rD13ZxHRGdLY09dD4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.Sockets.SendRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.Sockets.SendRequest.html",
+          "hash": "HbFbvhvJHVLbrpfNDBLn3jjOIhYdFmaCBUBF5BjYi4s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.Sockets.SetupUdpP2PSocketRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.Sockets.SetupUdpP2PSocketRequest.html",
+          "hash": "jzZEv9b38cl+VOuC4thrHk2AZVnAe+c/x4Y/jvASMro="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.Sockets.TerminateSocketRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.Sockets.TerminateSocketRequest.html",
+          "hash": "y9qO1ggBEruWGfBEOlpDgq4OaM1eZrDHYz/3CW9vhUU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.Sockets.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.Sockets.html",
+          "hash": "vr5QyI1U2Ov9WWa/KLSL80uz2S+9SM3DCtztkcdG4cU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.TestJSONParsing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.TestJSONParsing.html",
+          "hash": "r5CNXhbz/mLxHTSmKMoP93rQKqEnZkEfHLMLHIykArw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.UserSessionFilters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.UserSessionFilters.html",
+          "hash": "PnPD6CVG61gkEixacmpr25UA/q8M4S7xa2aTffAVNE4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Sessions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Sessions.html",
+          "hash": "iDfisz0zxR74K8liHuWwwSf5XapIH0HzBOZAjmEs66A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.TCS.TitleCloudStorage.AddAndGetVariableRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.TCS.TitleCloudStorage.AddAndGetVariableRequest.html",
+          "hash": "gnMOYFWJH6Y+JovlCd1oLfY/We/95KMxid6rWlIdXZo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.TCS.TitleCloudStorage.DataStatus.Filters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.TCS.TitleCloudStorage.DataStatus.Filters.html",
+          "hash": "c4jd1+vURUtFT+R/eoDz9GFPors1FhmoV6s4q64hJbs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.TCS.TitleCloudStorage.DataStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.TCS.TitleCloudStorage.DataStatus.html",
+          "hash": "IjQj2Ws9Z0RmspTV1nqJy/i9TCEAwvFhRud0hBHc48I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.TCS.TitleCloudStorage.DataStatusCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.TCS.TitleCloudStorage.DataStatusCollection.html",
+          "hash": "Hyua2hJ8upPTC3N+kOYybkw2ahIej9QoNRi1nBOH8nc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.TCS.TitleCloudStorage.DeleteMultiDataBySlotRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.TCS.TitleCloudStorage.DeleteMultiDataBySlotRequest.html",
+          "hash": "hVNKqk1tihO4b5L9gxQVsnhAiwuE8uNx4UZLk4rIsO8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.TCS.TitleCloudStorage.DeleteMultiDataByUserRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.TCS.TitleCloudStorage.DeleteMultiDataByUserRequest.html",
+          "hash": "ixz1J6zSIKEODtXt1CDr/NGS4zQJiGP5MoyuoXOyZEs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.TCS.TitleCloudStorage.DeleteMultiVariablesByUserRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.TCS.TitleCloudStorage.DeleteMultiVariablesByUserRequest.html",
+          "hash": "NboJfEgzlmLRVe0OSvmj7OYUBHZF59i/xUKQeKCPXUE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.TCS.TitleCloudStorage.DownloadDataRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.TCS.TitleCloudStorage.DownloadDataRequest.html",
+          "hash": "1N/x9+uh8AkSnxnfuVY7BAL5PDJ6ynP1qxU42VxJPsU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.TCS.TitleCloudStorage.GetMultiDataStatusesBySlotRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.TCS.TitleCloudStorage.GetMultiDataStatusesBySlotRequest.html",
+          "hash": "M0VfgMNl6++cWFiGZOrXq4LxYhxYWq0SvNjz8ixzLHY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.TCS.TitleCloudStorage.GetMultiDataStatusesByUserRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.TCS.TitleCloudStorage.GetMultiDataStatusesByUserRequest.html",
+          "hash": "M+93HzmkMwhnTQ7NLmyyxaSx0jz3mB8212zBuiHUduM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.TCS.TitleCloudStorage.GetMultiVariablesBySlotRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.TCS.TitleCloudStorage.GetMultiVariablesBySlotRequest.html",
+          "hash": "M+Ik2dBdciEHBQZYXB2O9JkKhq8/Hs8zKaEhpra6Fto="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.TCS.TitleCloudStorage.GetMultiVariablesByUserRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.TCS.TitleCloudStorage.GetMultiVariablesByUserRequest.html",
+          "hash": "wduSl78vFXlzmc5KOnIIKATrVepMRcUkHx7aXnHOUSw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.TCS.TitleCloudStorage.Groups.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.TCS.TitleCloudStorage.Groups.html",
+          "hash": "i8H0LwI+4SVooThYjEpsuiSl9sXliRScA7bbfRXMfOQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.TCS.TitleCloudStorage.OnlineUserId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.TCS.TitleCloudStorage.OnlineUserId.html",
+          "hash": "m4h6aR6C1WdWi4yQqR0e7DiGOK6snd1iCd7LxiuF1vQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.TCS.TitleCloudStorage.Range.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.TCS.TitleCloudStorage.Range.html",
+          "hash": "mAaPAROTvQa26wC8JjUH8fmGfEKu9Fe6V4oVgKOkG4w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.TCS.TitleCloudStorage.SetMultiVariablesByUserRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.TCS.TitleCloudStorage.SetMultiVariablesByUserRequest.html",
+          "hash": "OSG8B5ss8tPdHIhJ+sDoidEmMu6AoBCoqAxAusBT2Ng="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.TCS.TitleCloudStorage.SetVariableWithConditionRequest.Conditions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.TCS.TitleCloudStorage.SetVariableWithConditionRequest.Conditions.html",
+          "hash": "wCiWOztdI14Rs8FTPA3cfkwVAFbZxApCOivWjwe0EIM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.TCS.TitleCloudStorage.SetVariableWithConditionRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.TCS.TitleCloudStorage.SetVariableWithConditionRequest.html",
+          "hash": "pDaFkqiBGyy1cLlBJt8z/6V7+AZajLLr4NVLR54hMi4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.TCS.TitleCloudStorage.SortDataConditions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.TCS.TitleCloudStorage.SortDataConditions.html",
+          "hash": "2qYjf71Hrfc4TJwxeabW6BvK1PXs2PldkBQohTE+5n8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.TCS.TitleCloudStorage.SortModes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.TCS.TitleCloudStorage.SortModes.html",
+          "hash": "S5A9/CL1fJ7jBGHYlxL8eDQjdQ2+GLZi7exyhYLc/S4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.TCS.TitleCloudStorage.SortVariableConditions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.TCS.TitleCloudStorage.SortVariableConditions.html",
+          "hash": "r1G1B+3n//AiI+4VO17Z/mK9yDuke+o62qvb6BC3TLM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.TCS.TitleCloudStorage.UploadDataRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.TCS.TitleCloudStorage.UploadDataRequest.html",
+          "hash": "/AVq7fb+2DFpy6FR6yLXlqf1Uv95Pvfg3E4pnnX7iCY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.TCS.TitleCloudStorage.Variable.SetProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.TCS.TitleCloudStorage.Variable.SetProperties.html",
+          "hash": "nnuHbmg43xbD0ZuAjeQuUO4LLLoBD8NwtXPi3ir6qJk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.TCS.TitleCloudStorage.Variable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.TCS.TitleCloudStorage.Variable.html",
+          "hash": "Xh+wAewHdcqiGPNvJoz354w4GaAuosuUYlUs4QY7Cs8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.TCS.TitleCloudStorage.VariableCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.TCS.TitleCloudStorage.VariableCollection.html",
+          "hash": "JYXfkHiMu3rM50LJ00KzwuDSUM7waPZXfKM0kg36MQk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.TCS.TitleCloudStorage.VariableToWrite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.TCS.TitleCloudStorage.VariableToWrite.html",
+          "hash": "FOveHtKQ43eUxULrdq/5hRyjByerYI1ttWvQfy9aGks="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.TCS.TitleCloudStorage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.TCS.TitleCloudStorage.html",
+          "hash": "hA0gxpf+iIPnySpMTgG6LDNtpiiO9yKJ65LvL+zM1xM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.TCS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.TCS.html",
+          "hash": "8YXtuFdMPHL3Fvf50rJ3dTTt/opHKSIf2ApN8NWqW/Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Trophies.TrophySystem.GetGameInfoRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Trophies.TrophySystem.GetGameInfoRequest.html",
+          "hash": "6xW2f98xRUFN+JyosdhhmN9ud4/G1mw1/hya297YGX0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Trophies.TrophySystem.GetGroupInfoRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Trophies.TrophySystem.GetGroupInfoRequest.html",
+          "hash": "507p8b/FSF50VGso79GteBGvsJW1f2KbIAvQ0UgZF3I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Trophies.TrophySystem.GetTrophyGameIconRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Trophies.TrophySystem.GetTrophyGameIconRequest.html",
+          "hash": "E74SLGRllKeW2QrXtYzBDKDXMSy6fRHnAhGFHsspGC8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Trophies.TrophySystem.GetTrophyGroupIconRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Trophies.TrophySystem.GetTrophyGroupIconRequest.html",
+          "hash": "TSKLsXPo+hdSzdcMD7QcgpkMA7IIu1g2nh0Ffb+ITbY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Trophies.TrophySystem.GetTrophyIconRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Trophies.TrophySystem.GetTrophyIconRequest.html",
+          "hash": "sUJ4Mm32/FLJtlQWLFlOEj2s8W3C26l8/qX1Y3mjET0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Trophies.TrophySystem.GetTrophyInfoRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Trophies.TrophySystem.GetTrophyInfoRequest.html",
+          "hash": "jU0/uh6YfOJzochq4hFMzqml3ji9oPqbHS6CtARrhvE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Trophies.TrophySystem.GetTrophyRewardIconRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Trophies.TrophySystem.GetTrophyRewardIconRequest.html",
+          "hash": "+SAmZECs5f9Gi3mXpWJ7lQ69ufWlBExy8s3M66E879k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Trophies.TrophySystem.Icon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Trophies.TrophySystem.Icon.html",
+          "hash": "l37X85LlRa0n4Oes7mbFSW/2vWStSmSv+i9jki+3SqE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Trophies.TrophySystem.ShowTrophyListRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Trophies.TrophySystem.ShowTrophyListRequest.html",
+          "hash": "4ZJwsmNKOVdqkrNrqeZmFkR29i5OUUF3ilL4euxkkuE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Trophies.TrophySystem.StartSystemRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Trophies.TrophySystem.StartSystemRequest.html",
+          "hash": "53DPuDv+LvbUAmH97+dBh8QMQgOE/nhFlbfjSQmyaWA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Trophies.TrophySystem.StopSystemRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Trophies.TrophySystem.StopSystemRequest.html",
+          "hash": "H/70TZ1J4nFixbGjQH1dx2sPYu+LqXyAVgzyNGG7Wto="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Trophies.TrophySystem.TrophyData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Trophies.TrophySystem.TrophyData.html",
+          "hash": "1LBgk93Rb83lZnEVvahK6l2/6X78iCTYMC6eJLTuRi8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Trophies.TrophySystem.TrophyDetails.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Trophies.TrophySystem.TrophyDetails.html",
+          "hash": "MBvofKQODWVS7Gr8Y1HWAqlIp32Bto7u4DS8YGq/b6I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Trophies.TrophySystem.TrophyGameData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Trophies.TrophySystem.TrophyGameData.html",
+          "hash": "HOTRl814PV6G3w829Igl37OJc5n/3BoXiX35veBfWh8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Trophies.TrophySystem.TrophyGameDetails.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Trophies.TrophySystem.TrophyGameDetails.html",
+          "hash": "5AkOYBPeUFp8vwFQG7Q8x3+im0ErzKpRNhSOCAJZQXU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Trophies.TrophySystem.TrophyGroupData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Trophies.TrophySystem.TrophyGroupData.html",
+          "hash": "WmcEsFkkt2ubi2rTIKn6xddC6yD1EBzY0wa4fbOLlFY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Trophies.TrophySystem.TrophyGroupDetails.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Trophies.TrophySystem.TrophyGroupDetails.html",
+          "hash": "jyjqzBT9VSEtX/8Z1x1hDagEGVvnJp4iEO+j6ssS5h0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Trophies.TrophySystem.UnlockNotification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Trophies.TrophySystem.UnlockNotification.html",
+          "hash": "sw4B9OickdBAXA/2XEBOClrFuhhgrUxaWuKKeYsEwd0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Trophies.TrophySystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Trophies.TrophySystem.html",
+          "hash": "WIRbAeSDVCyldkgKBef/eAgjMBGzy2obExCzVQTC6Ug="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Trophies.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Trophies.html",
+          "hash": "gAQE8fBABKwVMD6T3r0b/BmIye9/yQvgkCQGJGgN6cA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.UDS.UniversalDataSystem.EventDebugStringRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.UDS.UniversalDataSystem.EventDebugStringRequest.html",
+          "hash": "UYXricjJMqctmzJhpgj53Yy1s+H/J/53+QVPXVX/m30="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.UDS.UniversalDataSystem.EventProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.UDS.UniversalDataSystem.EventProperties.html",
+          "hash": "x2pRpLVcIPbKSI+C+XiAxoQZDhg3T9dLBsg5YQMlpAU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.UDS.UniversalDataSystem.EventProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.UDS.UniversalDataSystem.EventProperty.html",
+          "hash": "X0yiihF9R9wiWK6Q5KancBDE0aC5PX0kEdsLQlW+rU8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.UDS.UniversalDataSystem.EventPropertyArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.UDS.UniversalDataSystem.EventPropertyArray.html",
+          "hash": "aqgSUlZdJOAQzXIricY7kRzE03JkEtNEmMEf+l0YOwc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.UDS.UniversalDataSystem.GetMemoryStatsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.UDS.UniversalDataSystem.GetMemoryStatsRequest.html",
+          "hash": "RsetmkGHIb0+vAJKUxtjzuhW/8tU2yeo/MfASzFrPv4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.UDS.UniversalDataSystem.PostEventRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.UDS.UniversalDataSystem.PostEventRequest.html",
+          "hash": "EfmjGVT/NY5eUB0IL9HuC5YtejufzuzJPRfDSQ6euaw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.UDS.UniversalDataSystem.PropertiesContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.UDS.UniversalDataSystem.PropertiesContainer.html",
+          "hash": "8RL3MK2NSq4/pp8O5k9aaEZdSTiTGvVOtZPG1GgCjwk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.UDS.UniversalDataSystem.PropertyType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.UDS.UniversalDataSystem.PropertyType.html",
+          "hash": "wR5AetO3m4GwfoDO/qStTuQTLHSIhluytmStOfl8HoQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.UDS.UniversalDataSystem.StartSystemRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.UDS.UniversalDataSystem.StartSystemRequest.html",
+          "hash": "4Qxh2p7yG6C5IjSbdny5exaNX0dm8ZVND5CeQOSZTFk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.UDS.UniversalDataSystem.StopSystemRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.UDS.UniversalDataSystem.StopSystemRequest.html",
+          "hash": "8thpI6wTeOO7kDQhXa0LBoEmZpJz7s0BOakGE3FIlbY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.UDS.UniversalDataSystem.UDSEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.UDS.UniversalDataSystem.UDSEvent.html",
+          "hash": "6FzVN6Ae+njMF1gUoEq9cnk4rWgHkIJeomOUsvJ94No="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.UDS.UniversalDataSystem.UnlockTrophyProgressRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.UDS.UniversalDataSystem.UnlockTrophyProgressRequest.html",
+          "hash": "NnLLuaSdKgjBFGG24m4GIoGz3dj1FD+VvTyA2PoPkb4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.UDS.UniversalDataSystem.UnlockTrophyRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.UDS.UniversalDataSystem.UnlockTrophyRequest.html",
+          "hash": "uiy2ZoGaz68mCi2dwZZXFZO+oYSvSnepwtPngpZ2GZo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.UDS.UniversalDataSystem.UpdateTrophyProgressRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.UDS.UniversalDataSystem.UpdateTrophyProgressRequest.html",
+          "hash": "z/GdS8M3UDpJRCZbwvfBEPxrfW3rsPnM/lgwDQe6RWM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.UDS.UniversalDataSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.UDS.UniversalDataSystem.html",
+          "hash": "VtdaztCPFRyZZ0iY2PafwK5JMBqy7OfNZhrLMZGYIqc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.UDS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.UDS.html",
+          "hash": "l37G+6fARvpKU1qJPb2i73yOcqBDRFuXWf6SfCMHbos="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Users.UserSystem.AddUserRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Users.UserSystem.AddUserRequest.html",
+          "hash": "XN0bPFCLIIspmRQTHkmZgrl5wef9pyGdnX9BI0frj6I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Users.UserSystem.BasicPresence.OnlineStates.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Users.UserSystem.BasicPresence.OnlineStates.html",
+          "hash": "fcRkjm/66xdyNiTySvjZ8r0pj3Y775ZfamFZZ3zG9+U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Users.UserSystem.BasicPresence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Users.UserSystem.BasicPresence.html",
+          "hash": "EFScQIKWoagwGS8aruSDoRabQVeZ2jfq3trKV4EVA7A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Users.UserSystem.GetBasicPresencesRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Users.UserSystem.GetBasicPresencesRequest.html",
+          "hash": "tmaVGh/P7za0CAEC5aC+Z2evp+4Os9bkJU8c1YVZr3k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Users.UserSystem.GetBlockingUsersRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Users.UserSystem.GetBlockingUsersRequest.html",
+          "hash": "wTIHjYVCCNWVQqjYgueQMqYY/HGtAh9CJPNYrBm90yk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Users.UserSystem.GetFriendsRequest.Filters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Users.UserSystem.GetFriendsRequest.Filters.html",
+          "hash": "XsrjpJbS8K0xs6mvC2ap1iucsTWpUnigAowdAWa/E9w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Users.UserSystem.GetFriendsRequest.Order.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Users.UserSystem.GetFriendsRequest.Order.html",
+          "hash": "7Klhds96W0xHzh9oSyPxIC7OBZQ+BR9C7x+JmWpYqQg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Users.UserSystem.GetFriendsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Users.UserSystem.GetFriendsRequest.html",
+          "hash": "F92K8PxIvrkOe1SsX9HW0NRr6lSbQKUQHmMtGNezZMg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Users.UserSystem.GetProfilesRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Users.UserSystem.GetProfilesRequest.html",
+          "hash": "zBK1x6+5AZKbq1mHTenM3FkkHTDCD0ireqKXPKdB1oc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Users.UserSystem.ProfilePicture.Sizes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Users.UserSystem.ProfilePicture.Sizes.html",
+          "hash": "rP9opGuFkCFjDmLJ4QBcXl3rF47p0vDc2F+WzHK4Pvk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Users.UserSystem.ProfilePicture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Users.UserSystem.ProfilePicture.html",
+          "hash": "jbBwupsP2P7SOfc2LcWKBTJOw5k4rWCu4il6F+7Qxjc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Users.UserSystem.ReachabilityEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Users.UserSystem.ReachabilityEvent.html",
+          "hash": "aKCO0vj7+XN0ge64Ox90xkQXQXhDPayX24f36YJo2qE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Users.UserSystem.ReachabilityNotification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Users.UserSystem.ReachabilityNotification.html",
+          "hash": "d457fc0thYWcXbkACxUILm9cZ4HFszClLSmO8cC5ygw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Users.UserSystem.ReachabilityStates.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Users.UserSystem.ReachabilityStates.html",
+          "hash": "NHYGJ2MJ5ZkVk8o6MZyN4OzzadGHN1kl0bUf7onxr9g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Users.UserSystem.RemoveUserRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Users.UserSystem.RemoveUserRequest.html",
+          "hash": "R7suDGoQSItOBdOSwoA9b1myeO3PZ67lBR+VXd9hyGc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Users.UserSystem.SignedInEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Users.UserSystem.SignedInEvent.html",
+          "hash": "oXKtDOzQv2E2AnBFkLmlCzfZFdk0Y2jty0N5F2bzd08="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Users.UserSystem.SignedInStateNotification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Users.UserSystem.SignedInStateNotification.html",
+          "hash": "kjJaklZPr9r+iRM3bUnrKDczlx4rL7EtplEvnI7o3BA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Users.UserSystem.SignedInStates.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Users.UserSystem.SignedInStates.html",
+          "hash": "jx+sAQDR78djHYvtqCqXznql9rnFa4ZNpQ3ImX3jLx0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Users.UserSystem.StartReachabilityStateCallbackRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Users.UserSystem.StartReachabilityStateCallbackRequest.html",
+          "hash": "xTxHszRih+EOUfT7DGKssc7fZxhALsSGKkc6CptjWSY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Users.UserSystem.StartSignedStateCallbackRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Users.UserSystem.StartSignedStateCallbackRequest.html",
+          "hash": "UEvykQntuMJKH3QXvDaOMopMjGxIH+2/wJp7/xIV5lI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Users.UserSystem.StopReachabilityStateCallbackRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Users.UserSystem.StopReachabilityStateCallbackRequest.html",
+          "hash": "R9oaY/9oHM7beDXs/ru+pmo/+fQE14Byw7ezrhXUVsQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Users.UserSystem.StopSignedStateCallbackRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Users.UserSystem.StopSignedStateCallbackRequest.html",
+          "hash": "yeegdTsWxHpeAfCg7mYDVy9+toxWfMk8O1RUysHwy80="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Users.UserSystem.UserPersonalDetails.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Users.UserSystem.UserPersonalDetails.html",
+          "hash": "qtnwjo59bT37vIavh7N9bgUzyH61aAPiAVwHJEWCtEQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Users.UserSystem.UserProfile.VerifiedStates.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Users.UserSystem.UserProfile.VerifiedStates.html",
+          "hash": "iSyss8d1hblw58XIuk7uFKS36eILnOCuLBTwj+DumRI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Users.UserSystem.UserProfile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Users.UserSystem.UserProfile.html",
+          "hash": "POOrJKX36Q+5RK+Z2kh/levBaFRL3zZiZHy9vk7WT8E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Users.UserSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Users.UserSystem.html",
+          "hash": "83dhGkcXjFYzienkZWOSkW1WWB8bPavXY1w3tPze/BM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.Users.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.Users.html",
+          "hash": "ey7+/5kd1KOs+cwPK3pYeqPSJNVW2TFDDaDtjly/hJM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.WebApi.WebApiFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.WebApi.WebApiFilter.html",
+          "hash": "/j+DOAnC+D+DlakiUperhNDjSvDSLCQ65c6VHcF0JYw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.WebApi.WebApiFilters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.WebApi.WebApiFilters.html",
+          "hash": "ZN5JNN927MwzHhwgr1qyUWDTGbs2MNyUVByliHq0C4g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.WebApi.WebApiNotifications.CallbackParams.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.WebApi.WebApiNotifications.CallbackParams.html",
+          "hash": "wu9lW/sjbQ+6Jr7i4eu8/84rw7q2P8FZ1PpOid6t4NQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.WebApi.WebApiNotifications.ExtendedData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.WebApi.WebApiNotifications.ExtendedData.html",
+          "hash": "jNynXfOrMbfTuS2kQBZZK3PirhoG79D7bZQP4xpdTTU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.WebApi.WebApiNotifications.NotificationEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.WebApi.WebApiNotifications.NotificationEventHandler.html",
+          "hash": "59a4QBt6bHQ30tWHb0CK4AGc1Htl46+68yf/SvrTSLg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.WebApi.WebApiNotifications.NpPeerAddress.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.WebApi.WebApiNotifications.NpPeerAddress.html",
+          "hash": "GeibcYk5eJOhbQIPMh8TrcMa/aMc5sgfZacQtjpKXSw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.WebApi.WebApiNotifications.PushContextCallbackType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.WebApi.WebApiNotifications.PushContextCallbackType.html",
+          "hash": "Q0Nuc4c0QRdF5DWP9SwVxpCsBjTt3StXzvMoy62mAUk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.WebApi.WebApiNotifications.RegisterFilterRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.WebApi.WebApiNotifications.RegisterFilterRequest.html",
+          "hash": "EmFdlhsf0Oa+EDmp+qLgggKZKp+hI6xQT3JfzVV0pls="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.WebApi.WebApiNotifications.RegisterPushEventRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.WebApi.WebApiNotifications.RegisterPushEventRequest.html",
+          "hash": "oV1+7h2BSGSt4j9WmlNfTlbwt/eIINw9amt+vIA9A4I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.WebApi.WebApiNotifications.UnregisterFilterRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.WebApi.WebApiNotifications.UnregisterFilterRequest.html",
+          "hash": "ZTBa1F8cnEN9/Taxb+s1PqrrCnv5/5GxX46vQh2DQrs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.WebApi.WebApiNotifications.UnregisterPushEventRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.WebApi.WebApiNotifications.UnregisterPushEventRequest.html",
+          "hash": "Gt7orjkS3ayYj9n3VszvN/Y2Lcge1eEmNkbfG0einS8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.WebApi.WebApiNotifications.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.WebApi.WebApiNotifications.html",
+          "hash": "6fayFx/E8joM6aP6PTQxLrEck94h4HkAvhBYhk9K/iI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.WebApi.WebApiPushEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.WebApi.WebApiPushEvent.html",
+          "hash": "CZJDDETXE1yMYGjT4Yw3FW7dOpGipgaDaSHaMTmxM40="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.WebApi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.WebApi.html",
+          "hash": "B8VaMaKhbDuKLlZA3s4n8NLL4/R8ZUCyV+Dh92m2fwU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.PSN.PS5.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.PSN.PS5.html",
+          "hash": "h2S+H6Um8dVFyKR5jAa6yZmmhQ/dEd0H7MSax6+iL9Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "yeVETnaMHbXgtG/+dKrmkwejmNJ0iDziQbQhMG5lAf4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "VcDLu27byzvXr+p81EXUhwSMg6laZ75B74yKSzr+8+I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "changelog/CHANGELOG.md",
+      "output": {
+        ".html": {
+          "relative_path": "changelog/CHANGELOG.html",
+          "hash": "iQ9EJgGxVwgOPI3K2vteOZW7aymX0rRkluF2uqM2Dkw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "changelog/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "changelog/toc.html",
+          "hash": "NNxjDmqfyrYxcv1MzNCvi8NHk74c3SXHi83RxB1PZEA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "MwyXvkEIWAmi956hL8xx1VbYrlRhtwJrnpFd8904ZgU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "license/LICENSE.md",
+      "output": {
+        ".html": {
+          "relative_path": "license/LICENSE.html",
+          "hash": "/11KBMFVVN4ZCdrN5/wcqEC980ZDsGEaeScdJmyCHmw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "license/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "license/index.html",
+          "hash": "lrUepu5SwNH/VmzYfPKPfJWLD3XhaFxZk61A0mqUvsc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "license/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "license/toc.html",
+          "hash": "7fCxril+M8ICr7R7Qn3c0wfv2eAxkUGYLPYxG+4SZTw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "logo.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "tH9aI7TCqgezsDogM7bZQutX6s9gGwS7k34n2cYZBX8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 23,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 432,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
