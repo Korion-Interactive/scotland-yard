@@ -411,8 +411,8 @@ MonoBehaviour:
   keepAspectRatio: 0
   aspectRatio: 0.4
   keepCrispWhenShrunk: 1
-  mTrueTypeFont: {fileID: 12800000, guid: 70e1d94f4bb358c478527940b0b4296e, type: 3}
-  mFont: {fileID: 0}
+  mTrueTypeFont: {fileID: 0}
+  mFont: {fileID: 1184667423620487404, guid: 709cd3fbbc9e14845ae2581f35b8b92e, type: 3}
   mText: "\u2093"
   mFontSize: 120
   mFontStyle: 0
@@ -589,8 +589,8 @@ MonoBehaviour:
   keepAspectRatio: 0
   aspectRatio: 0.4
   keepCrispWhenShrunk: 1
-  mTrueTypeFont: {fileID: 12800000, guid: 70e1d94f4bb358c478527940b0b4296e, type: 3}
-  mFont: {fileID: 0}
+  mTrueTypeFont: {fileID: 0}
+  mFont: {fileID: 1184667423620487404, guid: 709cd3fbbc9e14845ae2581f35b8b92e, type: 3}
   mText: "\u2093"
   mFontSize: 120
   mFontStyle: 0
@@ -684,8 +684,8 @@ MonoBehaviour:
   keepAspectRatio: 0
   aspectRatio: 0.4
   keepCrispWhenShrunk: 1
-  mTrueTypeFont: {fileID: 12800000, guid: 70e1d94f4bb358c478527940b0b4296e, type: 3}
-  mFont: {fileID: 0}
+  mTrueTypeFont: {fileID: 0}
+  mFont: {fileID: 1184667423620487404, guid: 709cd3fbbc9e14845ae2581f35b8b92e, type: 3}
   mText: "\u2093"
   mFontSize: 120
   mFontStyle: 0
@@ -862,8 +862,8 @@ MonoBehaviour:
   keepAspectRatio: 0
   aspectRatio: 0.84615386
   keepCrispWhenShrunk: 1
-  mTrueTypeFont: {fileID: 12800000, guid: 70e1d94f4bb358c478527940b0b4296e, type: 3}
-  mFont: {fileID: 0}
+  mTrueTypeFont: {fileID: 0}
+  mFont: {fileID: 1184667423620487404, guid: 709cd3fbbc9e14845ae2581f35b8b92e, type: 3}
   mText: 7
   mFontSize: 120
   mFontStyle: 0
@@ -957,8 +957,8 @@ MonoBehaviour:
   keepAspectRatio: 0
   aspectRatio: 0.7692308
   keepCrispWhenShrunk: 1
-  mTrueTypeFont: {fileID: 12800000, guid: 70e1d94f4bb358c478527940b0b4296e, type: 3}
-  mFont: {fileID: 0}
+  mTrueTypeFont: {fileID: 0}
+  mFont: {fileID: 1184667423620487404, guid: 709cd3fbbc9e14845ae2581f35b8b92e, type: 3}
   mText: 7
   mFontSize: 120
   mFontStyle: 0
@@ -1138,8 +1138,8 @@ MonoBehaviour:
   keepAspectRatio: 0
   aspectRatio: 0.84615386
   keepCrispWhenShrunk: 1
-  mTrueTypeFont: {fileID: 12800000, guid: 70e1d94f4bb358c478527940b0b4296e, type: 3}
-  mFont: {fileID: 0}
+  mTrueTypeFont: {fileID: 0}
+  mFont: {fileID: 1184667423620487404, guid: 709cd3fbbc9e14845ae2581f35b8b92e, type: 3}
   mText: 7
   mFontSize: 120
   mFontStyle: 0
@@ -1233,8 +1233,8 @@ MonoBehaviour:
   keepAspectRatio: 0
   aspectRatio: 0.9722222
   keepCrispWhenShrunk: 1
-  mTrueTypeFont: {fileID: 12800000, guid: 70e1d94f4bb358c478527940b0b4296e, type: 3}
-  mFont: {fileID: 0}
+  mTrueTypeFont: {fileID: 0}
+  mFont: {fileID: 5105067679674714174, guid: f562cfe6df92c8240a9e5f5acaa49cb4, type: 3}
   mText: 135
   mFontSize: 60
   mFontStyle: 0
@@ -1592,8 +1592,8 @@ MonoBehaviour:
   keepAspectRatio: 0
   aspectRatio: 0.9722222
   keepCrispWhenShrunk: 1
-  mTrueTypeFont: {fileID: 12800000, guid: 70e1d94f4bb358c478527940b0b4296e, type: 3}
-  mFont: {fileID: 0}
+  mTrueTypeFont: {fileID: 0}
+  mFont: {fileID: 5105067679674714174, guid: f562cfe6df92c8240a9e5f5acaa49cb4, type: 3}
   mText: 85
   mFontSize: 60
   mFontStyle: 0
@@ -1822,8 +1822,8 @@ MonoBehaviour:
   keepAspectRatio: 0
   aspectRatio: 0.33333334
   keepCrispWhenShrunk: 1
-  mTrueTypeFont: {fileID: 12800000, guid: 70e1d94f4bb358c478527940b0b4296e, type: 3}
-  mFont: {fileID: 0}
+  mTrueTypeFont: {fileID: 0}
+  mFont: {fileID: 1184667423620487404, guid: 709cd3fbbc9e14845ae2581f35b8b92e, type: 3}
   mText: "\u2093"
   mFontSize: 120
   mFontStyle: 0
@@ -1917,8 +1917,8 @@ MonoBehaviour:
   keepAspectRatio: 0
   aspectRatio: 0.7692308
   keepCrispWhenShrunk: 1
-  mTrueTypeFont: {fileID: 12800000, guid: 70e1d94f4bb358c478527940b0b4296e, type: 3}
-  mFont: {fileID: 0}
+  mTrueTypeFont: {fileID: 0}
+  mFont: {fileID: 1184667423620487404, guid: 709cd3fbbc9e14845ae2581f35b8b92e, type: 3}
   mText: 7
   mFontSize: 120
   mFontStyle: 0
@@ -2012,8 +2012,8 @@ MonoBehaviour:
   keepAspectRatio: 0
   aspectRatio: 0.7692308
   keepCrispWhenShrunk: 1
-  mTrueTypeFont: {fileID: 12800000, guid: 70e1d94f4bb358c478527940b0b4296e, type: 3}
-  mFont: {fileID: 0}
+  mTrueTypeFont: {fileID: 0}
+  mFont: {fileID: 1184667423620487404, guid: 709cd3fbbc9e14845ae2581f35b8b92e, type: 3}
   mText: 7
   mFontSize: 120
   mFontStyle: 0
@@ -2107,8 +2107,8 @@ MonoBehaviour:
   keepAspectRatio: 0
   aspectRatio: 0.4
   keepCrispWhenShrunk: 1
-  mTrueTypeFont: {fileID: 12800000, guid: 70e1d94f4bb358c478527940b0b4296e, type: 3}
-  mFont: {fileID: 0}
+  mTrueTypeFont: {fileID: 0}
+  mFont: {fileID: 1184667423620487404, guid: 709cd3fbbc9e14845ae2581f35b8b92e, type: 3}
   mText: "\u2093"
   mFontSize: 120
   mFontStyle: 0

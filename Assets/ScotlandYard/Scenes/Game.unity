@@ -8643,6 +8643,11 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 9c4f243fcadc59f468c352743b986c94, type: 3}
+      propertyPath: mFont
+      value: 
+      objectReference: {fileID: 8139063715951219284, guid: 272a0a88119a43a44a30bb9d01de0505,
+        type: 3}
+    - target: {fileID: 11400000, guid: 9c4f243fcadc59f468c352743b986c94, type: 3}
       propertyPath: mDepth
       value: 501
       objectReference: {fileID: 0}
@@ -8658,6 +8663,11 @@ PrefabInstance:
       propertyPath: keepCrispWhenShrunk
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 11400004, guid: 9c4f243fcadc59f468c352743b986c94, type: 3}
+      propertyPath: mFont
+      value: 
+      objectReference: {fileID: 1977103844501525884, guid: ee7f4c96553dfd941a3e860c1447315f,
+        type: 3}
     - target: {fileID: 11400004, guid: 9c4f243fcadc59f468c352743b986c94, type: 3}
       propertyPath: mText
       value: 'Mr Perroer hat mister X gefangen genommen !
@@ -61238,16 +61248,70 @@ PrefabInstance:
       value: ticket_tube_b
       objectReference: {fileID: 0}
     - target: {fileID: 11400008, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
+      propertyPath: mFont
+      value: 
+      objectReference: {fileID: 1184667423620487404, guid: 709cd3fbbc9e14845ae2581f35b8b92e,
+        type: 3}
+    - target: {fileID: 11400008, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: aspectRatio
       value: 0.4
       objectReference: {fileID: 0}
+    - target: {fileID: 11400008, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
+      propertyPath: mTrueTypeFont
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400012, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
+      propertyPath: mFont
+      value: 
+      objectReference: {fileID: 1184667423620487404, guid: 709cd3fbbc9e14845ae2581f35b8b92e,
+        type: 3}
     - target: {fileID: 11400012, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: aspectRatio
       value: 0.4
       objectReference: {fileID: 0}
+    - target: {fileID: 11400012, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
+      propertyPath: mTrueTypeFont
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400014, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
+      propertyPath: mFont
+      value: 
+      objectReference: {fileID: 1184667423620487404, guid: 709cd3fbbc9e14845ae2581f35b8b92e,
+        type: 3}
     - target: {fileID: 11400014, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: aspectRatio
       value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400014, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
+      propertyPath: mTrueTypeFont
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400018, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
+      propertyPath: mFont
+      value: 
+      objectReference: {fileID: 1184667423620487404, guid: 709cd3fbbc9e14845ae2581f35b8b92e,
+        type: 3}
+    - target: {fileID: 11400018, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
+      propertyPath: mTrueTypeFont
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400020, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
+      propertyPath: mFont
+      value: 
+      objectReference: {fileID: 1184667423620487404, guid: 709cd3fbbc9e14845ae2581f35b8b92e,
+        type: 3}
+    - target: {fileID: 11400020, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
+      propertyPath: mTrueTypeFont
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400024, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
+      propertyPath: mFont
+      value: 
+      objectReference: {fileID: 1184667423620487404, guid: 709cd3fbbc9e14845ae2581f35b8b92e,
+        type: 3}
+    - target: {fileID: 11400024, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
+      propertyPath: mTrueTypeFont
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 11400026, guid: c03d147c39808ee4280d4b0e08233d54, type: 3}
       propertyPath: mFont
@@ -107191,16 +107255,70 @@ PrefabInstance:
       value: ticket_invisible_b
       objectReference: {fileID: 0}
     - target: {fileID: 11400008, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
+      propertyPath: mFont
+      value: 
+      objectReference: {fileID: 1184667423620487404, guid: 709cd3fbbc9e14845ae2581f35b8b92e,
+        type: 3}
+    - target: {fileID: 11400008, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: aspectRatio
       value: 0.4
       objectReference: {fileID: 0}
+    - target: {fileID: 11400008, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
+      propertyPath: mTrueTypeFont
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400012, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
+      propertyPath: mFont
+      value: 
+      objectReference: {fileID: 1184667423620487404, guid: 709cd3fbbc9e14845ae2581f35b8b92e,
+        type: 3}
     - target: {fileID: 11400012, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: aspectRatio
       value: 0.4
       objectReference: {fileID: 0}
+    - target: {fileID: 11400012, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
+      propertyPath: mTrueTypeFont
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400014, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
+      propertyPath: mFont
+      value: 
+      objectReference: {fileID: 1184667423620487404, guid: 709cd3fbbc9e14845ae2581f35b8b92e,
+        type: 3}
     - target: {fileID: 11400014, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: aspectRatio
       value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400014, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
+      propertyPath: mTrueTypeFont
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400018, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
+      propertyPath: mFont
+      value: 
+      objectReference: {fileID: 1184667423620487404, guid: 709cd3fbbc9e14845ae2581f35b8b92e,
+        type: 3}
+    - target: {fileID: 11400018, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
+      propertyPath: mTrueTypeFont
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400020, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
+      propertyPath: mFont
+      value: 
+      objectReference: {fileID: 1184667423620487404, guid: 709cd3fbbc9e14845ae2581f35b8b92e,
+        type: 3}
+    - target: {fileID: 11400020, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
+      propertyPath: mTrueTypeFont
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400024, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
+      propertyPath: mFont
+      value: 
+      objectReference: {fileID: 1184667423620487404, guid: 709cd3fbbc9e14845ae2581f35b8b92e,
+        type: 3}
+    - target: {fileID: 11400024, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
+      propertyPath: mTrueTypeFont
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 11400026, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: mFont
@@ -107505,6 +107623,11 @@ PrefabInstance:
       value: ticket_double_b
       objectReference: {fileID: 0}
     - target: {fileID: 11400042, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
+      propertyPath: mFont
+      value: 
+      objectReference: {fileID: 1184667423620487404, guid: 709cd3fbbc9e14845ae2581f35b8b92e,
+        type: 3}
+    - target: {fileID: 11400042, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: mWidth
       value: 48
       objectReference: {fileID: 0}
@@ -107512,9 +107635,40 @@ PrefabInstance:
       propertyPath: aspectRatio
       value: 0.4
       objectReference: {fileID: 0}
+    - target: {fileID: 11400042, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
+      propertyPath: mTrueTypeFont
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400044, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
+      propertyPath: mFont
+      value: 
+      objectReference: {fileID: 1184667423620487404, guid: 709cd3fbbc9e14845ae2581f35b8b92e,
+        type: 3}
+    - target: {fileID: 11400044, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
+      propertyPath: mTrueTypeFont
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400046, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
+      propertyPath: mFont
+      value: 
+      objectReference: {fileID: 1184667423620487404, guid: 709cd3fbbc9e14845ae2581f35b8b92e,
+        type: 3}
+    - target: {fileID: 11400046, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
+      propertyPath: mTrueTypeFont
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400048, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
+      propertyPath: mFont
+      value: 
+      objectReference: {fileID: 1184667423620487404, guid: 709cd3fbbc9e14845ae2581f35b8b92e,
+        type: 3}
     - target: {fileID: 11400048, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: aspectRatio
       value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400048, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
+      propertyPath: mTrueTypeFont
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 11400052, guid: 9858b3dd9fdb9ef4f8647623d2faf5c4, type: 3}
       propertyPath: hover.b
@@ -112438,7 +112592,7 @@ MonoBehaviour:
   aspectRatio: 0.90909094
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 12800000, guid: f22d766b1aeaab84287fa886b66327d4, type: 3}
-  mFont: {fileID: 0}
+  mFont: {fileID: 5581999970868234259, guid: 7f4886b633bdb0c46ab6aea073073197, type: 3}
   mText: 
   mFontSize: 40
   mFontStyle: 0
