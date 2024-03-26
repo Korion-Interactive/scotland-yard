@@ -66,7 +66,8 @@ public static class Stats
 
     public static void Reload()
     {
-        AppSetup.Instance.LoadOrCreateStatsTable();
+        //KORION IO
+        AppSetup.Instance.LoadOrCreateStatsTable().Forget();
     }
 
     public static void Save()

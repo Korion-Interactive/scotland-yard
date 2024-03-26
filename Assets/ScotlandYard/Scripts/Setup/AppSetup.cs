@@ -66,6 +66,7 @@ public class AppSetup : MonoBehaviour
             Ensure(settingName, value);
 
             SettingsTable["value", settingName] = value.ToString();
+            //KORION IO
             SettingsTable.Save();
         }
         catch (Exception ex)
@@ -92,14 +93,19 @@ public class AppSetup : MonoBehaviour
 
     private void Ensure(string settingsName, bool value)
     {
+        //KORION SettingsTable? is null? in Editor
+        Debug.Log("SettingsTable: " + SettingsTable);
         if (!SettingsTable.Contains("value", settingsName))
         {
             SettingsTable.AppendRow(settingsName, value.ToString());
         }
     }
 
-    private void Awake()
+    private async UniTaskVoid Awake()
     {
+        await IOSystem.Instance.InitializeAsync(destroyCancellationToken);
+        //Debug.Log("IOSystem.Instance.IsInitialized: " + IOSystem.Instance.IsInitialized);
+
         // set instance
         instance = this;
 
@@ -128,32 +134,11 @@ public class AppSetup : MonoBehaviour
         AchievementTable = new Table(achvTxt.text, "achievements", new CSVSetting(true, true) { ColumnSeparator = '\t', });
 
         // stats
-        LoadOrCreateStatsTable();
-
-        // Load or create settings table
-
-#if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5
-        //TODO KORION IO
-        string settingsPath = "settings.txt";
-        SettingsTable = new Table(settingsPath, 2, 1);
-        SettingsTable[0, 0] = "id";
-        SettingsTable[1, 0] = "value";
-#else
-        string settingsPath = Path.Combine(Application.persistentDataPath, "settings.txt");
-        if (!File.Exists(settingsPath))
-        {
-            SettingsTable = new Table(settingsPath, 2, 1);
-            SettingsTable[0, 0] = "id";
-            SettingsTable[1, 0] = "value";
-        }
-        else
-        {
-            SettingsTable = new Table(settingsPath);
-        }
-#endif
+        LoadOrCreateStatsTable().Forget();
+        LoadOrCreateSettingsTable().Forget();
     }
 
-    public UniTask WriteDataAsync(string id, string data, CancellationToken cancellationToken = default)
+    public UniTask WriteDataAsync<T>(string id, T data, CancellationToken cancellationToken = default)
     {
         var writer = IOSystem.Instance.GetWriter();
         //string json = JsonUtility.ToJson(savedSettings, prettyPrint: true); //now data
@@ -163,56 +148,24 @@ public class AppSetup : MonoBehaviour
         return writer.WriteAsync(id, data, cancellationToken);
     }
 
-    public async UniTask<string> ReadDataAsync(string id, CancellationToken cancellationToken = default)
+    public async UniTask<T> ReadDataAsync<T>(string id, CancellationToken cancellationToken = default)
     {
         var reader = IOSystem.Instance.GetReader();
 
-        string stringData = await reader.Read<string>(id, cancellationToken);
-        if (string.IsNullOrEmpty(stringData))
-        {
-            return null; //json
-        }
+        T data = await reader.Read<T>(id, cancellationToken);
 
-        Debug.Log("Reading Korion IO: " + stringData);
-        return stringData;
+        Debug.Log("Reading Korion IO: " + data);
+        return data;
     }
 
-    public void LoadOrCreateStatsTable()
+    public async UniTaskVoid LoadOrCreateStatsTable()
     {
 #if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5
-
+        //TODO KORION IO --> but in new Table //where is da load?
         string statsPath = "stats.txt";
         StatsTable = new Table(statsPath, 2, 1);
         StatsTable[0, 0] = "id";
         StatsTable[1, 0] = "value";
-
-        //save
-        //string json = JsonUtility.ToJson(StatsTable, prettyPrint: true); //now data
-
-        //Test
-        //KORION SAVE DATA
-        //WriteDataAsync(id, savestring).Forget();
-        //read data
-        //KORION LOAD DATA
-        //string configData = await ReadDataAsync(ConfigKeyIdentifier);
-
-        //if (configData != null)
-
-
-        ////TODO KORION IO
-        ////TryLoad
-        //if (false)
-        //{
-
-        //}
-        //else
-        //{
-        //    string statsPath = "stats.txt";
-        //    StatsTable = new Table(statsPath, 2, 1);
-        //    StatsTable[0, 0] = "id";
-        //    StatsTable[1, 0] = "value";
-        //}
-        ////how do i convert to binary --> then to a table again //json? memorrha
 #else
         string statsPath = Path.Combine(Application.persistentDataPath, "stats.txt");
         if (!File.Exists(statsPath))
@@ -224,6 +177,31 @@ public class AppSetup : MonoBehaviour
         else
         {
             StatsTable = new Table(statsPath);
+        }
+#endif
+    }
+
+    private async UniTaskVoid LoadOrCreateSettingsTable()
+    {
+#if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5
+        //TODO KORION IO //NEXT TOT DO11!!
+        string settingsPath = "settings.txt";
+        SettingsTable = new Table(settingsPath, 2, 1);
+        SettingsTable[0, 0] = "id";
+        SettingsTable[1, 0] = "value";
+#else
+        //save K
+        string settingsPath = Path.Combine(Application.persistentDataPath, "settings.txt");
+        if (!File.Exists(settingsPath))
+        {
+            SettingsTable = new Table(settingsPath, 2, 1);
+            SettingsTable[0, 0] = "id";
+            SettingsTable[1, 0] = "value";
+        }
+        else
+        {
+        //load K
+            SettingsTable = new Table(settingsPath);
         }
 #endif
     }
@@ -250,11 +228,13 @@ public class AppSetup : MonoBehaviour
         }
     }
 
-    public static bool HasOpenGame()
+    //KORION why was this even static?
+    public async UniTask<bool> HasOpenGame()
     {
 #if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5
-        IOSystem.Instance.GetReader().Read //@ james? oder doku? gibts so nen check?
-        return false;//TODO KORION IO
+        //TODO KORION IO
+        string data = await ReadDataAsync<string>(Globals.LastGameSetupPath);
+        return (data != null);
 #else
         return File.Exists(Globals.LastGameSetupPath) && File.Exists(Globals.LastGameStatePath);
 #endif
@@ -336,7 +316,7 @@ public class AppSetup : MonoBehaviour
 
 #if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5
         //TODO KORION IO
-        var result = await ReadDataAsync(filePath);
+        string result = await ReadDataAsync<string>(filePath);
 
         if (result != null)
         {
@@ -347,6 +327,7 @@ public class AppSetup : MonoBehaviour
         }
         else
         {
+            //KORION IO - what happens if we simply dont have a game to load --> prompts? xD
             PopupManager.ShowPrompt("error", "something_went_wrong");
             Debug.Log("loading failed");
             DeleteSavegame();
