@@ -202,9 +202,15 @@ MonoBehaviour:
       - _enabled: 1
         _categoryId: 1
         _layoutId: 0
-      _defaultMouseMaps: []
-      _defaultKeyboardMaps:
+      _defaultMouseMaps:
+      - _enabled: 0
+        _categoryId: 0
+        _layoutId: 0
       - _enabled: 1
+        _categoryId: 1
+        _layoutId: 0
+      _defaultKeyboardMaps:
+      - _enabled: 0
         _categoryId: 0
         _layoutId: 0
       - _enabled: 1
@@ -233,9 +239,15 @@ MonoBehaviour:
       - _enabled: 1
         _categoryId: 1
         _layoutId: 0
-      _defaultMouseMaps: []
-      _defaultKeyboardMaps:
+      _defaultMouseMaps:
+      - _enabled: 0
+        _categoryId: 0
+        _layoutId: 0
       - _enabled: 1
+        _categoryId: 1
+        _layoutId: 0
+      _defaultKeyboardMaps:
+      - _enabled: 0
         _categoryId: 0
         _layoutId: 0
       - _enabled: 1
@@ -264,9 +276,15 @@ MonoBehaviour:
       - _enabled: 1
         _categoryId: 1
         _layoutId: 0
-      _defaultMouseMaps: []
-      _defaultKeyboardMaps:
+      _defaultMouseMaps:
+      - _enabled: 0
+        _categoryId: 0
+        _layoutId: 0
       - _enabled: 1
+        _categoryId: 1
+        _layoutId: 0
+      _defaultKeyboardMaps:
+      - _enabled: 0
         _categoryId: 0
         _layoutId: 0
       - _enabled: 1
@@ -295,9 +313,15 @@ MonoBehaviour:
       - _enabled: 1
         _categoryId: 1
         _layoutId: 0
-      _defaultMouseMaps: []
-      _defaultKeyboardMaps:
+      _defaultMouseMaps:
+      - _enabled: 0
+        _categoryId: 0
+        _layoutId: 0
       - _enabled: 1
+        _categoryId: 1
+        _layoutId: 0
+      _defaultKeyboardMaps:
+      - _enabled: 0
         _categoryId: 0
         _layoutId: 0
       - _enabled: 1
@@ -326,9 +350,15 @@ MonoBehaviour:
       - _enabled: 1
         _categoryId: 1
         _layoutId: 0
-      _defaultMouseMaps: []
-      _defaultKeyboardMaps:
+      _defaultMouseMaps:
+      - _enabled: 0
+        _categoryId: 0
+        _layoutId: 0
       - _enabled: 1
+        _categoryId: 1
+        _layoutId: 0
+      _defaultKeyboardMaps:
+      - _enabled: 0
         _categoryId: 0
         _layoutId: 0
       - _enabled: 1
@@ -575,7 +605,7 @@ MonoBehaviour:
       _mouseOtherAxisMode: 0
       _mouseXYAxisSensitivity: 1
       _mouseXYAxisDeltaCalc: 0
-      _mouseOtherAxisSensitivity: 1
+      _mouseOtherAxisSensitivity: 5
       _customControllerAxisSensitivity: 1
       _buttonDoublePressSpeed: 0.3
       _buttonShortPressTime: 0.25
@@ -4439,13 +4469,79 @@ MonoBehaviour:
       customControllerUid: 0
       actionElementMaps:
       - _actionCategoryId: 0
-        _actionId: -1
+        _actionId: 14
         _elementType: 1
         _elementIdentifierId: -1
         _axisRange: 0
         _invert: 0
         _axisContribution: 0
-        _keyboardKeyCode: 0
+        _keyboardKeyCode: 9
+        _modifierKey1: 0
+        _modifierKey2: 0
+        _modifierKey3: 0
+      - _actionCategoryId: 0
+        _actionId: 15
+        _elementType: 1
+        _elementIdentifierId: -1
+        _axisRange: 0
+        _invert: 0
+        _axisContribution: 0
+        _keyboardKeyCode: 280
+        _modifierKey1: 0
+        _modifierKey2: 0
+        _modifierKey3: 0
+      - _actionCategoryId: 0
+        _actionId: 18
+        _elementType: 1
+        _elementIdentifierId: -1
+        _axisRange: 0
+        _invert: 0
+        _axisContribution: 0
+        _keyboardKeyCode: 281
+        _modifierKey1: 0
+        _modifierKey2: 0
+        _modifierKey3: 0
+      - _actionCategoryId: 0
+        _actionId: 12
+        _elementType: 1
+        _elementIdentifierId: -1
+        _axisRange: 0
+        _invert: 0
+        _axisContribution: 0
+        _keyboardKeyCode: 119
+        _modifierKey1: 0
+        _modifierKey2: 0
+        _modifierKey3: 0
+      - _actionCategoryId: 0
+        _actionId: 12
+        _elementType: 1
+        _elementIdentifierId: -1
+        _axisRange: 0
+        _invert: 0
+        _axisContribution: 1
+        _keyboardKeyCode: 115
+        _modifierKey1: 0
+        _modifierKey2: 0
+        _modifierKey3: 0
+      - _actionCategoryId: 0
+        _actionId: 11
+        _elementType: 1
+        _elementIdentifierId: -1
+        _axisRange: 0
+        _invert: 0
+        _axisContribution: 1
+        _keyboardKeyCode: 97
+        _modifierKey1: 0
+        _modifierKey2: 0
+        _modifierKey3: 0
+      - _actionCategoryId: 0
+        _actionId: 11
+        _elementType: 1
+        _elementIdentifierId: -1
+        _axisRange: 0
+        _invert: 0
+        _axisContribution: 0
+        _keyboardKeyCode: 100
         _modifierKey1: 0
         _modifierKey2: 0
         _modifierKey3: 0
@@ -4545,6 +4641,17 @@ MonoBehaviour:
         _actionId: 7
         _elementType: 1
         _elementIdentifierId: 3
+        _axisRange: 0
+        _invert: 0
+        _axisContribution: 0
+        _keyboardKeyCode: 0
+        _modifierKey1: 0
+        _modifierKey2: 0
+        _modifierKey3: 0
+      - _actionCategoryId: 0
+        _actionId: 9
+        _elementType: 0
+        _elementIdentifierId: 2
         _axisRange: 0
         _invert: 0
         _axisContribution: 0
