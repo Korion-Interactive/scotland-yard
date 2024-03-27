@@ -28,6 +28,7 @@ namespace Korion.ScotlandYard
 
         private void OnInputDeviceChanged(Controller controller)
         {
+            if (controller == null) return;
             _currentInputSymbols = controller.type switch
             {
                 ControllerType.Joystick => _inputSymbolMapper.InputXbox,
