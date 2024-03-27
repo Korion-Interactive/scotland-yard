@@ -4,11 +4,20 @@ using System.Linq;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
-using System.Diagnostics;
-using System.IO.IsolatedStorage;
 
 using DEBUG = DebugUtils;
 using BitBarons.Util; // old: Log
+
+using Cysharp.Threading.Tasks;
+
+#if UNITY_PS5
+using UnityEngine.PS5;
+using Korion.IO;
+using System.Threading;
+#elif UNITY_PS4
+using Korion.IO;
+using System.Threading;
+#endif
 
 namespace Sunbow.Util.IO
 {
@@ -180,6 +189,7 @@ namespace Sunbow.Util.IO
             this.fileName = file;
             this.Settings = settings; 
 
+            //Korion io - await?
             LoadFile(file, settings, isolatedStorage);
 
             UpdateHeaders(settings.EnsureUniqueRowHeaders, settings.EnsureUniqueColumnHeaders);
@@ -881,7 +891,7 @@ namespace Sunbow.Util.IO
         //    return false;
         //}
 
-        private void LoadFile(string fileName, CSVSetting settings, bool isolatedStorageFile)
+        private async UniTaskVoid LoadFile(string fileName, CSVSetting settings, bool isolatedStorageFile)
         {
             //using (Stream stream = new FileStream(file, FileMode.Open, FileAccess.Read, FileShare.ReadWrite | FileShare.Delete))
 #if XNA
@@ -902,7 +912,14 @@ namespace Sunbow.Util.IO
 #endif
             {
 #if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5
-                //TODO KORION IO
+                //TODO KORION IO LOAD STARTS
+
+                var reader = IOSystem.Instance.GetReader();
+
+                string data = await reader.Read<string>(fileName, new CancellationTokenSource().Token); //CancellationToken cancellationToken = default
+
+                LoadFromString(data, settings);
+
 #else
                 using (FileStream stream = new FileStream(fileName, FileMode.Open))
                 {
@@ -925,6 +942,7 @@ namespace Sunbow.Util.IO
                 input = sr.ReadToEnd();
                 sr.Close();
             }
+            //KORION IO LOAD
             LoadFromString(input, settings);
         }
         private void LoadFromString(string input, CSVSetting settings)
@@ -1103,6 +1121,13 @@ namespace Sunbow.Util.IO
             }
 #elif UNITY_SWITCH || UNITY_PS4 || UNITY_PS5
             //TODO KORION IO
+
+            string saveString = GetSaveString(setting);
+
+            var writer = IOSystem.Instance.GetWriter();
+
+            writer.WriteAsync(fileName, saveString, new CancellationTokenSource().Token).Forget();
+
 #else
             string dir = Path.GetDirectoryName(fileName);
             if (!string.IsNullOrEmpty(dir) && !Directory.Exists(dir))
@@ -1150,6 +1175,40 @@ namespace Sunbow.Util.IO
                 }
                 sw.Close();
             }
+        }
+
+        public string GetSaveString(CSVSetting setting)
+        {
+            var encoding = new UTF8Encoding(false);
+            //using (StreamWriter sw = new StreamWriter(stream, encoding))
+            //{
+                //for (int i = 0; i < Rows; i++)
+                //{
+                //    for (int k = 0; k < Columns; k++)
+                //    {
+                //        string cell = this[k, i];
+
+                //        if (setting.UseStringIdentifierOnlyOnNewLine)
+                //        {
+                //            if (cell.Contains('\n') || cell.Contains('\r'))
+                //                sw.Write(string.Format("{0}{1}{0}", setting.StringIdentifier, cell));
+                //            else
+                //                sw.Write(cell);
+                //        }
+                //        else
+                //        {
+                //            sw.Write(string.Format("{0}{1}{0}", setting.StringIdentifier, cell));
+                //        }
+
+                //        if (k != Columns - 1)
+                //            sw.Write(setting.ColumnSeparator);
+                //    }
+                //    sw.Write(sw.NewLine);
+                //}
+                //sw.Close();
+            //}
+
+            return null;
         }
 
         #endregion
