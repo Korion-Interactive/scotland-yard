@@ -9,6 +9,7 @@ using DEBUG = DebugUtils;
 using BitBarons.Util; // old: Log
 
 using Cysharp.Threading.Tasks;
+using Cysharp.Text;
 
 #if UNITY_PS5
 using UnityEngine.PS5;
@@ -1177,38 +1178,39 @@ namespace Sunbow.Util.IO
             }
         }
 
+        //maybe return utf8
         public string GetSaveString(CSVSetting setting)
         {
-            var encoding = new UTF8Encoding(false);
-            //using (StreamWriter sw = new StreamWriter(stream, encoding))
-            //{
-                //for (int i = 0; i < Rows; i++)
-                //{
-                //    for (int k = 0; k < Columns; k++)
-                //    {
-                //        string cell = this[k, i];
+            using var sb = ZString.CreateStringBuilder();
+            //var encoding = new UTF8Encoding(false);
 
-                //        if (setting.UseStringIdentifierOnlyOnNewLine)
-                //        {
-                //            if (cell.Contains('\n') || cell.Contains('\r'))
-                //                sw.Write(string.Format("{0}{1}{0}", setting.StringIdentifier, cell));
-                //            else
-                //                sw.Write(cell);
-                //        }
-                //        else
-                //        {
-                //            sw.Write(string.Format("{0}{1}{0}", setting.StringIdentifier, cell));
-                //        }
+            for (int i = 0; i < Rows; i++)
+            {
+                for (int k = 0; k < Columns; k++)
+                {
+                    string cell = this[k, i];
 
-                //        if (k != Columns - 1)
-                //            sw.Write(setting.ColumnSeparator);
-                //    }
-                //    sw.Write(sw.NewLine);
-                //}
-                //sw.Close();
-            //}
+                    if (setting.UseStringIdentifierOnlyOnNewLine)
+                    {
+                        if (cell.Contains('\n') || cell.Contains('\r'))
+                            sb.AppendFormat("{0}{1}{0}", setting.StringIdentifier, cell); //string.Format("{0}{1}{0}", setting.StringIdentifier, cell)
+                        else
+                            sb.Append(cell);
+                    }
+                    else
+                    {
+                        sb.AppendFormat("{0}{1}{0}", setting.StringIdentifier, cell);
+                    }
 
-            return null;
+                    if (k != Columns - 1)
+                        sb.Append(setting.ColumnSeparator);
+                }
+                sb.AppendLine();
+            }
+            
+            string result = sb.ToString();
+            //System.Text.Encoding.UTF8.GetEncoder();
+            return result;
         }
 
         #endregion
