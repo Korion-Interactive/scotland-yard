@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class AudioSystem : BaseSystem<GameEvents, GameGuiEvents, GameSetupEvents, AudioSystem>
 {
@@ -11,6 +12,7 @@ public class AudioSystem : BaseSystem<GameEvents, GameGuiEvents, GameSetupEvents
     public Transform SfxHolder;
     public AudioSource MainMusic, MusicEnd;
     Queue<AudioSource> sfxHolders = new Queue<AudioSource>();
+    private bool m_lastCachedFocus;
 
     protected override void RegisterEvents()
     {
@@ -37,13 +39,25 @@ public class AudioSystem : BaseSystem<GameEvents, GameGuiEvents, GameSetupEvents
         UIToggleNavigation.AnyToggleClicked += AnyButtonClicked;
         UIPlayAnimation.AnyAnimationStarted += AnyAnimationStarted;
 
+        if(AppSetup.Instance.IsSettingTableInit)
+        {
+            SetMusic();
+        }
+        else
+        {
+            //can only be invoked once!
+            AppSetup.Instance.m_isSettingTableInit.AddListener(SetMusic);
+        }
+    }
+
+    private void SetMusic()
+    {
         if (AppSetup.Instance.IsMusicEnabled)
         {
             MainMusic.volume = 1;
             MainMusic.Play();
         }
     }
-
 
     protected override void OnDestroy()
     {
@@ -55,11 +69,24 @@ public class AudioSystem : BaseSystem<GameEvents, GameGuiEvents, GameSetupEvents
 
     void OnApplicationFocus(bool focus)
     {
+        if (AppSetup.Instance.IsSettingTableInit)
+        {
+            OnApplicationFocusDelayed(focus);
+        }
+        else
+        {
+            m_lastCachedFocus = focus;
+            //can only be invoked once!
+            AppSetup.Instance.m_isSettingTableInit.AddListener(OnApplicationFocusDelayed);
+        }
+    }
+
+    private void OnApplicationFocusDelayed(bool focus)
+    {
         if (!AppSetup.Instance.IsMusicEnabled)
             return;
 
-
-        if(focus)
+        if (focus)
         {
             this.WaitAndDo(new WaitForSeconds(2f), null,
                 () => StartCoroutine(Helpers.CoFadeAudio(MainMusic, 1, 5, null)));
@@ -69,6 +96,11 @@ public class AudioSystem : BaseSystem<GameEvents, GameGuiEvents, GameSetupEvents
             StopAllCoroutines();
             MainMusic.volume = 0;
         }
+    }
+
+    private void OnApplicationFocusDelayed()
+    {
+        OnApplicationFocusDelayed(m_lastCachedFocus);
     }
 
     public void EnableMusic(bool enabled)

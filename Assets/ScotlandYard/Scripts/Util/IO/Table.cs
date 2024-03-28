@@ -10,6 +10,7 @@ using BitBarons.Util; // old: Log
 
 using Cysharp.Threading.Tasks;
 using Cysharp.Text;
+using UnityEngine;
 
 #if UNITY_PS5
 using UnityEngine.PS5;
@@ -916,11 +917,8 @@ namespace Sunbow.Util.IO
                 //TODO KORION IO LOAD STARTS
 
                 var reader = IOSystem.Instance.GetReader();
-
                 string data = await reader.Read<string>(fileName, new CancellationTokenSource().Token); //CancellationToken cancellationToken = default
-
                 LoadFromString(data, settings);
-
 #else
                 using (FileStream stream = new FileStream(fileName, FileMode.Open))
                 {

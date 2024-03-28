@@ -232,8 +232,25 @@ public class AppSetupSettings : MonoBehaviour
         }
     }
 
-    //DOES this still trigger --> KORION IO
-    async UniTaskVoid Start()
+    private void Start()
+    {
+        if (AppSetup.Instance.IsSettingTableInit)
+        {
+            OnStartDelayed().Forget();
+        }
+        else
+        {
+            //can only be invoked once!
+            AppSetup.Instance.m_isSettingTableInit.AddListener(OnStartDelayedListener);
+        }
+    }
+
+    private void OnStartDelayedListener()
+    {
+        OnStartDelayed().Forget();
+    }
+
+    private async UniTaskVoid OnStartDelayed()
     {
         PostProcessingOnCameras();
 
@@ -241,6 +258,6 @@ public class AppSetupSettings : MonoBehaviour
         {
             bool hasOpenGame = await AppSetup.Instance.HasOpenGame();
             ContinueButton.SetActive(hasOpenGame);
-        }    
+        }
     }
 }
