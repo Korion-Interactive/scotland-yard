@@ -18,14 +18,10 @@ public class AppSetupSettings : MonoBehaviour
     bool setFromSettings = false;
     GameObject voip;
 
-    [SerializeField]
-    private GameObject _music;
-    [SerializeField]
-    private GameObject _sfx;
-    [SerializeField]
-    private GameObject _voIP;
-    [SerializeField]
-    private GameObject _postFX;
+    public GameObject _music;
+    public GameObject _sfx;
+    public GameObject _voIP;
+    public GameObject _postFX;
 
     public void Set_Music_Sfx_VoIP_PostFX(GameObject music, GameObject sfx, GameObject voIP, GameObject postFX)
     {
