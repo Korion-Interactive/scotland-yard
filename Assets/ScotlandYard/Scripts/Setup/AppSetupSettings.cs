@@ -18,27 +18,45 @@ public class AppSetupSettings : MonoBehaviour
     bool setFromSettings = false;
     GameObject voip;
 
+    public GameObject _music;
+    public GameObject _sfx;
+    public GameObject _voIP;
+    public GameObject _postFX;
+
     public void Set_Music_Sfx_VoIP_PostFX(GameObject music, GameObject sfx, GameObject voIP, GameObject postFX)
     {
         this.voip = voIP;
+
         StartCoroutine(SetSettings(music, sfx, voIP, postFX));
     }
 
-    IEnumerator SetSettings(GameObject music, GameObject sfx, GameObject voIP, GameObject postFX)
+    IEnumerator SetSettings(GameObject music, GameObject sfx, GameObject voIP, GameObject postFX, bool isInverted = false)
     {
         setFromSettings = true;
-
+        
         yield return new WaitForEndOfFrame();
+        
+        if(isInverted)
+        {
+            SetState(music, !AppSetup.Instance.IsMusicEnabled);
+            SetState(sfx, !AppSetup.Instance.IsSfxEnabled);
 
-        SetState(music, AppSetup.Instance.IsMusicEnabled);
-        SetState(sfx, AppSetup.Instance.IsSfxEnabled);
+            SetState(postFX, !AppSetup.Instance.IsPostEffectEnabled);
+            SetState(voIP, !AppSetup.Instance.IsVoiceChatEnabled);
+        }
+        else
+        {
+            SetState(music, AppSetup.Instance.IsMusicEnabled);
+            SetState(sfx, AppSetup.Instance.IsSfxEnabled);
 
-        SetState(postFX, AppSetup.Instance.IsPostEffectEnabled);
-        SetState(voIP, AppSetup.Instance.IsVoiceChatEnabled);
+            SetState(postFX, AppSetup.Instance.IsPostEffectEnabled);
+            SetState(voIP, AppSetup.Instance.IsVoiceChatEnabled);
+        }
 
         // disable voice chat for all platforms
         voIP.SetActive(false);
 
+        yield return new WaitForEndOfFrame();
         setFromSettings = false;
     }
 
@@ -54,6 +72,7 @@ public class AppSetupSettings : MonoBehaviour
             return;
 
         AppSetup.Instance.IsMusicEnabled = buttonState == ENABLED;
+        Debug.Log("Music is now: " +  (buttonState == ENABLED? "true": "false"));
     }
 
     public void EnableSound(int buttonState)
@@ -62,6 +81,7 @@ public class AppSetupSettings : MonoBehaviour
             return;
 
         AppSetup.Instance.IsSfxEnabled = buttonState == ENABLED;
+        Debug.Log("SFX is now: " + (buttonState == ENABLED ? "true" : "false"));
     }
 
     public void EnableStatusBar(int buttonState)
@@ -252,6 +272,8 @@ public class AppSetupSettings : MonoBehaviour
 
     private async UniTaskVoid OnStartDelayed()
     {
+        //has to be inverted, since ngui starts with state 0 but doesnt apply it visually 
+        StartCoroutine(SetSettings(_music, _sfx, _voIP, _postFX, true));
         PostProcessingOnCameras();
 
         if (ContinueButton != null)
