@@ -50,7 +50,8 @@ public class ClickManager : MonoBehaviour
             }
         }
 
-        Debug.Log("Controller type: " + cType);
+        //KORION 
+        //Debug.Log("Controller type: " + cType);
 #if UNITY_STANDALONE || UNITY_IOS || UNITY_ANDROID
         if(Input.GetMouseButtonDown(0))
 #elif UNITY_SWITCH

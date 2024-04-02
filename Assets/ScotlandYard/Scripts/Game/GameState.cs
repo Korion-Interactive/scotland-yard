@@ -201,6 +201,7 @@ public class GameState : ISerializable
     public GameState() { }
     public GameState(SerializationInfo info, StreamingContext context)
     {
+        Debug.Log("SERIALIZATION CONSTRUCTOR");
         instance = this;
 
         // Wait for GameStarter, then initialize ... little hacky
