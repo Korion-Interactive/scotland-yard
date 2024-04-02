@@ -1,0 +1,10 @@
+{
+	"SuiteConfig":
+	{
+		"Targets":
+		[
+		    "+PS4"
+		    "+PS5"
+		]
+	}
+}

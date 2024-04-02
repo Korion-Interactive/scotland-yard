@@ -191,15 +191,7 @@ MonoBehaviour:
     ColorDisabled2: {r: 1, g: 1, b: 1, a: 1}
     LabelTextId: ai_diffcult
     LabelColor: {r: 0.9264706, g: 0.013624581, b: 0.013624581, a: 1}
-  stateChangedListeners:
-  - mTarget: {fileID: 0}
-    mMethodName: SetCPUDifficultyLocal
-    mParameters:
-    - obj: {fileID: 11400020}
-      field: GameID
-    - obj: {fileID: 11400004}
-      field: CurrentStateIndex
-    oneShot: 0
+  stateChangedListeners: []
 --- !u!1 &100002
 GameObject:
   m_ObjectHideFlags: 0
@@ -273,7 +265,7 @@ MonoBehaviour:
   aspectRatio: 3.6296296
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 12800000, guid: 70e1d94f4bb358c478527940b0b4296e, type: 3}
-  mFont: {fileID: 0}
+  mFont: {fileID: 157517368141647650, guid: 1d42db1bb22b8b2458ca7bec7e70a97c, type: 3}
   mText: ai_easy
   mFontSize: 48
   mFontStyle: 0
@@ -431,7 +423,7 @@ MonoBehaviour:
   aspectRatio: 3.6296296
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 12800000, guid: 70e1d94f4bb358c478527940b0b4296e, type: 3}
-  mFont: {fileID: 0}
+  mFont: {fileID: 157517368141647650, guid: 1d42db1bb22b8b2458ca7bec7e70a97c, type: 3}
   mText: player_name
   mFontSize: 48
   mFontStyle: 0
@@ -608,15 +600,7 @@ MonoBehaviour:
   activeTextColor: {r: 1, g: 1, b: 1, a: 1}
   caretColor: {r: 1, g: 1, b: 1, a: 0.8}
   selectionColor: {r: 1, g: 0.8745098, b: 0.5529412, a: 0.5}
-  onSubmit:
-  - mTarget: {fileID: 0}
-    mMethodName: SetDetectiveNameLocal
-    mParameters:
-    - obj: {fileID: 11400020}
-      field: GameID
-    - obj: {fileID: 11400012}
-      field: value
-    oneShot: 0
+  onSubmit: []
   onChange: []
   mValue: Mr Incognito
 --- !u!1 &100010
@@ -691,8 +675,8 @@ MonoBehaviour:
   keepAspectRatio: 0
   aspectRatio: 3.5487804
   keepCrispWhenShrunk: 1
-  mTrueTypeFont: {fileID: 12800000, guid: 70e1d94f4bb358c478527940b0b4296e, type: 3}
-  mFont: {fileID: 0}
+  mTrueTypeFont: {fileID: 0}
+  mFont: {fileID: 8139063715951219284, guid: 272a0a88119a43a44a30bb9d01de0505, type: 3}
   mText: player_free
   mFontSize: 62
   mFontStyle: 0
@@ -1053,14 +1037,6 @@ MonoBehaviour:
   - mTarget: {fileID: 11400000}
     mMethodName: SwitchSettinsVisibilty
     mParameters:
-    - obj: {fileID: 11400032}
-      field: CurrentStateIndex
-    oneShot: 0
-  - mTarget: {fileID: 0}
-    mMethodName: SetPlayerControllerLocal
-    mParameters:
-    - obj: {fileID: 11400020}
-      field: GameID
     - obj: {fileID: 11400032}
       field: CurrentStateIndex
     oneShot: 0

@@ -1,4 +1,6 @@
 using Rewired;
+using UnityEngine;
+
 public class InputDevices
 {
 
@@ -6,6 +8,16 @@ public class InputDevices
     public static event InputDeviceChanged onInputDeviceChanged;
 
     public static bool EventInitialized = false;
+    
+    public static Controller LastActiveController
+    {
+        get
+        {
+            if (ReInput.isReady)
+                return ReInput.controllers.GetLastActiveController();
+            return null;
+        }
+    }
 
     public InputDevices()
     {
@@ -23,5 +35,4 @@ public class InputDevices
     {
         onInputDeviceChanged?.Invoke(controller);
     }
-    
 }

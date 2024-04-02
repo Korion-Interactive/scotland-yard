@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using UnityEngine;
 using System.Collections;
 
@@ -131,7 +131,7 @@ public class PlayerTabSystem : BaseSystem<GameEvents, GameGuiEvents, PlayerTabSy
         currentIndex++;
         if(currentIndex >= PlayerTabs.Count)
         {
-            currentIndex = 0;
+            currentIndex = PermanentMrXTicketsLeft.gameObject.activeSelf ? 0 : 1;
         }
         DoTabClickSimulation();
     }
@@ -139,9 +139,9 @@ public class PlayerTabSystem : BaseSystem<GameEvents, GameGuiEvents, PlayerTabSy
     public void SimulateClickOnPreviousTab()
     {
         currentIndex--;
-        if (currentIndex < 0)
+        if (currentIndex < 0 || (currentIndex == 0 && !PermanentMrXTicketsLeft.gameObject.activeSelf))
         {
-            currentIndex = PlayerTabs.Count-1;
+            currentIndex = PlayerTabs.Count - 1;
         }
         DoTabClickSimulation();
     }

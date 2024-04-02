@@ -1,0 +1,15 @@
+{
+    "ErrorExceptions": [
+        {
+            "ValidationTest": "Manifest Validation",
+            "ExceptionMessage": "A Unity package must not have an author field. Please remove the field. Read more about this error and potential solutions at https://docs.unity3d.com/Packages/com.unity.package-validation-suite@latest/index.html?preview=1&subfolder=/manual/manifest_validation_error.html#a_unity_package_must_not_have_an_author_field",
+            "PackageVersion": "1.0.2"
+        },
+        {
+            "ValidationTest": "Manifest Validation",
+            "ExceptionMessage": "In package.json, \"documentationUrl\" can't be used for Unity packages.  It is a features reserved for enterprise customers.  The Unity documentation team will ensure the package's documentation is published in the appropriate fashion",
+            "PackageVersion": "1.0.2"
+        }
+    ],
+    "WarningExceptions": []
+}

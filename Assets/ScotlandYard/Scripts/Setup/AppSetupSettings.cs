@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using Ravity;
+using Cysharp.Threading.Tasks;
 
 #if UNITY_ANDROID && GOOGLE_PLAY
     using BluetoothMultiplayer = Bluetooth.Android.MultiplayerRT;
@@ -26,7 +27,7 @@ public class AppSetupSettings : MonoBehaviour
     IEnumerator SetSettings(GameObject music, GameObject sfx, GameObject voIP, GameObject postFX)
     {
         setFromSettings = true;
-        
+
         yield return new WaitForEndOfFrame();
 
         SetState(music, AppSetup.Instance.IsMusicEnabled);
@@ -115,7 +116,7 @@ public class AppSetupSettings : MonoBehaviour
         {
             return;
         }
-        
+
         if (GSP.IsStatusAvailable)
         {
             GSP.Status.ShowAchievements();
@@ -148,7 +149,7 @@ public class AppSetupSettings : MonoBehaviour
     {
         if (GameState.HasInstance)
         {
-            if(GameSetupBehaviour.Instance.Setup.Mode == GameMode.HotSeat && !GameState.Instance.IsGameOver)
+            if (GameSetupBehaviour.Instance.Setup.Mode == GameMode.HotSeat && !GameState.Instance.IsGameOver)
             {
                 AppSetup.Instance.SaveGame();
             }
@@ -156,7 +157,7 @@ public class AppSetupSettings : MonoBehaviour
             GameState.ReleaseInstance();
         }
 
-        if(GameSetupBehaviour.Instance.Setup.Mode == GameMode.Network)
+        if (GameSetupBehaviour.Instance.Setup.Mode == GameMode.Network)
         {
             GSP.MultiplayerRT.Disconnect();
         }
@@ -164,7 +165,13 @@ public class AppSetupSettings : MonoBehaviour
 
     public void ContinueGame()
     {
-        if (!AppSetup.HasOpenGame())
+        ContinueAsync().Forget();
+    }
+
+    async UniTaskVoid ContinueAsync()
+    {
+        bool hasOpenGame = await AppSetup.Instance.HasOpenGame();
+        if (!hasOpenGame)
             return;
 
         AppSetup.Instance.LoadLastGame();
@@ -225,11 +232,15 @@ public class AppSetupSettings : MonoBehaviour
         }
     }
 
-    void Start()
+    //DOES this still trigger --> KORION IO
+    async UniTaskVoid Start()
     {
         PostProcessingOnCameras();
 
         if (ContinueButton != null)
-            ContinueButton.SetActive(AppSetup.HasOpenGame());
+        {
+            bool hasOpenGame = await AppSetup.Instance.HasOpenGame();
+            ContinueButton.SetActive(hasOpenGame);
+        }    
     }
 }

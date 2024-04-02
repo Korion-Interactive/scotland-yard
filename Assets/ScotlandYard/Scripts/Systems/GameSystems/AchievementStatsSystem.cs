@@ -18,8 +18,9 @@ public class AchievementStatsSystem : BaseSystem<GameEvents, AchievementStatsSys
         ListenTo(GameEvents.MrXUseDoubleTicket, DoubleTicketUsed);
         ListenTo(GameEvents.GameStart, GameStart);
 
-        if(GSP.IsStatusAvailable)
-            GSP.Status.AchievementUnlockedSuccessfully += AnyAchievementUnlocked;
+        //TODO KORION Achievements
+        //if(GSP.IsStatusAvailable)
+        //    GSP.Status.AchievementUnlockedSuccessfully += AnyAchievementUnlocked;
 
     //    StartCoroutine(LoadAllAchievementsFromServer());
     //}
@@ -28,14 +29,16 @@ public class AchievementStatsSystem : BaseSystem<GameEvents, AchievementStatsSys
     //{
     //    yield return new WaitForSeconds(1f);
 
-        AnyAchievementUnlocked(null); // Check achievements on startup to get the right data of previous iOS version of the game
+        //TODO KORION Achievements setup
+        //AnyAchievementUnlocked(null); // Check achievements on startup to get the right data of previous iOS version of the game
 
     }
 
     protected override void OnDestroy()
     {
-        if (GSP.IsStatusAvailable)
-            GSP.Status.AchievementUnlockedSuccessfully -= AnyAchievementUnlocked;
+        //TODO KORION Achievements setup?
+        //if (GSP.IsStatusAvailable)
+        //    GSP.Status.AchievementUnlockedSuccessfully -= AnyAchievementUnlocked;
 
         base.OnDestroy();
     }
@@ -72,7 +75,8 @@ public class AchievementStatsSystem : BaseSystem<GameEvents, AchievementStatsSys
         if(GameState.Instance.MrX.PlayerInfo.Controller == PlayerController.Human)
         {
             Stats.DoubleTicketsUsed++;
-            Achievements.Progress(Achievements.life_in_a_fast_lane, 1);
+            //TODO KORION Achievements
+            //Achievements.Progress(Achievements.life_in_a_fast_lane, 1);
         }
     }
 
@@ -90,19 +94,23 @@ public class AchievementStatsSystem : BaseSystem<GameEvents, AchievementStatsSys
         {
             case TransportationType.Taxi:
                 Stats.TaxiRides++;
-                Achievements.Progress(Achievements.driver, 1);
+                //TODO KORION Achievements
+                //Achievements.Progress(Achievements.driver, 1);
                 break;
             case TransportationType.Bus:
                 Stats.BusRides++;
-                Achievements.Progress(Achievements.sightseeing_tour, 1);
+                //TODO KORION Achievements
+                //Achievements.Progress(Achievements.sightseeing_tour, 1);
                 break;
             case TransportationType.Metro:
                 Stats.MetroRides++;
-                Achievements.Progress(Achievements.nothing_better_than_tube, 1);
+                //TODO KORION Achievements
+                //Achievements.Progress(Achievements.nothing_better_than_tube, 1);
                 break;
             case TransportationType.Any:
                 Stats.BlackTicketsUsed++;
-                Achievements.Progress(Achievements.specialist, 1);
+                //TODO KORION Achievements
+                //Achievements.Progress(Achievements.specialist, 1);
                 break;
         }
 
@@ -124,7 +132,8 @@ public class AchievementStatsSystem : BaseSystem<GameEvents, AchievementStatsSys
 
                 if(twoStations && taxiOnly)
                 {
-                    Achievements.Unlock(Achievements.the_shadow);
+                    //TODO KORION Achievements
+                    //Achievements.Unlock(Achievements.the_shadow);
                 }
             }
         }
@@ -155,8 +164,9 @@ public class AchievementStatsSystem : BaseSystem<GameEvents, AchievementStatsSys
                 if (mrXIsHuman)
                 {
                     Stats.GamesWonAsMrX++;
-                    Achievements.Unlock(Achievements.mister_x);
-                    Achievements.Progress(Achievements.master_x, 1);
+                    //TODO KORION Achievements
+                    //Achievements.Unlock(Achievements.mister_x);
+                    //Achievements.Progress(Achievements.master_x, 1);
                 }
                 break;
             case GameOverReason.MrXCaught:
@@ -164,12 +174,14 @@ public class AchievementStatsSystem : BaseSystem<GameEvents, AchievementStatsSys
                 if (humanDetectiveExists)
                 {
                     Stats.GamesWonAsDetective++;
-                    Achievements.Unlock(Achievements.the_detective);
-                    Achievements.Progress(Achievements.bames_jond, 1);
+                    //TODO KORION Achievements
+                    //Achievements.Unlock(Achievements.the_detective);
+                    //Achievements.Progress(Achievements.bames_jond, 1);
 
                     if(GameState.Instance.MrX.Moves <= 8)
                     {
-                        Achievements.Unlock(Achievements.undercover_agent);
+                        //TODO KORION Achievements
+                        //Achievements.Unlock(Achievements.undercover_agent);
                     }
                 }
                 break;
@@ -177,7 +189,8 @@ public class AchievementStatsSystem : BaseSystem<GameEvents, AchievementStatsSys
 
         if(args.Reason == GameOverReason.MrXCaught && GameState.Instance.CurrentPlayer.PlayerInfo.Controller == PlayerController.Human)
         {
-            Achievements.Unlock(Achievements.gotcha);
+            //TODO KORION Achievements
+            //Achievements.Unlock(Achievements.gotcha);
         }
 
         Stats.Save();
@@ -232,7 +245,8 @@ public class AchievementStatsSystem : BaseSystem<GameEvents, AchievementStatsSys
 
             if (uncompletedCount == 0)
             {
-                Achievements.Unlock(Achievements.mi_5);
+                //TODO KORION Achievements
+                //Achievements.Unlock(Achievements.mi_5);
             }
         }
     }

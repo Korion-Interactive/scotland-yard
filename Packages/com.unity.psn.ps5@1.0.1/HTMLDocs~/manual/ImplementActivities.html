@@ -1,0 +1,347 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);  })(window,document,'script','dataLayer','GTM-5V25JL6');</script>
+    <script type="text/javascript">thisPackageMetaData = { name: "com.unity.psn.ps5", version: "1.0.1", displayTitle:"PS5 PlayStation Network 1.0.1", lang: "en" };</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    
+  
+    <title>Implement Activities in your Unity Project | PS5 PlayStation Network | 1.0.1 </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Implement Activities in your Unity Project | PS5 PlayStation Network | 1.0.1 ">
+    <meta name="generator" content="docfx 2.58.9.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/statictoc.docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="unity:packageTitle" content="PS5 PlayStation Network | 1.0.1">
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+                <div class="back-to-unity-group">
+                  <a class="back-to-unity" href="http://docs.unity3d.com/">docs.unity3d.com</a>
+                </div>
+              </form>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li class="active">
+                          <a href="../manual/index.html" title="Manual">Manual</a>
+                      </li>
+                      <li class="">
+                          <a href="../api/index.html" title="Scripting API">Scripting API</a>
+                      </li>
+                      <li class="">
+                          <a href="../changelog/CHANGELOG.html" title="Changelog">Changelog</a>
+                      </li>
+                      <li class="">
+                          <a href="../license/LICENSE.html" title="License">License</a>
+                      </li>
+                </ul>    </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="index.html" title="PlayStation Network Package" class="">PlayStation Network Package</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="AccessThePSNPackage.html" title="Access the PlayStation Network for PlayStation 5" class="">Access the PlayStation Network for PlayStation 5</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a href="InstallThePSNPackage.html" title="Install the PlayStation Network Package" class="">Install the PlayStation Network Package</a>
+                                </li>
+                                <li class="">
+                                  <a href="Addnpconfig.html" title="Add an npconfig.zip file to your Unity project" class="">Add an npconfig.zip file to your Unity project</a>
+                                </li>
+                                <li class="">
+                                  <a href="InitializeThePSNPackage.html" title="Initialize the PS5 PlayStation Network package in your project" class="">Initialize the PS5 PlayStation Network package in your project</a>
+                                </li>
+                              </ul>  </li>
+                          <li class="">
+                            <a href="UniversalDataSystem.html" title="Universal Data System" class="">Universal Data System</a>
+                          </li>
+                          <li class="">
+                            <a href="entitlements.html" title="Entitlements" class="">Entitlements</a>
+                          </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="Trophies.html" title="Add Trophies to your PS5 Unity project" class="">Add Trophies to your PS5 Unity project</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a href="TrophyConcepts.html" title="Trophies Concepts and Libraries" class="">Trophies Concepts and Libraries</a>
+                                </li>
+                                <li class="">
+                                  <a href="ConfigureTrophies.html" title="Set up and configure Trophies" class="">Set up and configure Trophies</a>
+                                </li>
+                                <li class="">
+                                  <a href="InteractWithTrophies.html" title="Interact with Trophies in Unity" class="">Interact with Trophies in Unity</a>
+                                </li>
+                              </ul>  </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="Activities.html" title="Add Activities to your PS5 Unity project" class="">Add Activities to your PS5 Unity project</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a href="ActivityTypes.html" title="Activity Types" class="">Activity Types</a>
+                                </li>
+                                <li class="">
+                                  <a href="ConfigureActivities.html" title="Set up and configure Activities" class="">Set up and configure Activities</a>
+                                </li>
+                                <li class="active">
+                                  <a href="ImplementActivities.html" title="Implement Activities in your Unity Project" class="active">Implement Activities in your Unity Project</a>
+                                </li>
+                              </ul>  </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="PS4CrossGen.html" title="Add the PS4 Cross-Gen SDK to your Unity project" class="">Add the PS4 Cross-Gen SDK to your Unity project</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a href="PS4CrossGenSetup.html" title="Set up the PS4 Cross-Gen SDK" class="">Set up the PS4 Cross-Gen SDK</a>
+                                </li>
+                              </ul>  </li>
+                        </ul>  </li>
+                  </ul>        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="implement-activities-in-your-unity-project">Implement Activities in your Unity Project</h1>
+
+<p>To implement and interact with Activities in C#, you must use UDS Events since Activities are a part of the UDS service.</p>
+<p>You can send UDS events to:</p>
+<ul>
+<li>Start a given Activity (<code>activityStart</code>).</li>
+<li>Resume a given Activity (<code>activityResume</code>).</li>
+<li>Stop a given Activity (<code>activityEnd</code>).</li>
+<li>Make Activities available or unavailable (<code>activityAvailabilityChange</code>)</li>
+<li>Change the priority of Activities (the order in which they appear on screen). (<code>activityPriorityChange</code>)</li>
+<li>Terminate all Activities (<code>activityTerminate</code>).</li>
+</ul>
+<p>To find the full list of available UDS Events, see <a href="https://p.siedev.net/resources/documents/SDK/latest/UniversalDataSystem-Overview/0011.html">Universal Data System documentation</a> on DevNet. You can also create your own custom UDS Events in the <a href="https://tools.partners.playstation.net/uds/app/uds-management/dashboard?sid=26&amp;pid=psn">UDS Management Tool</a>.</p>
+<h2 id="initialization">Initialization</h2>
+<p>In order to send UDS Events in the PSN package, you will need to:</p>
+<ol>
+<li>Initialize the PSN.PS5.Main class using <code>Unity.PSN.PS5.Main.Initialize()</code>.</li>
+<li>Initialize the UDS library using <code>UniversalDataSystem.StartSystemRequest</code>.</li>
+</ol>
+<p>To intialise the package and UDS, see <a href="UniversalDataSystem.html">Universal Data System</a>.</p>
+<h2 id="creating-uds-events">Creating UDS Events</h2>
+<p>In the PSN package, UDS events can be configured using the UDSEvent class. This class is designed to handle UDS events with multiple properties of different data types, hich is why the class can be used for PS5 system UDS events and custom UDS events.</p>
+<p>The steps for creating and sending a UDS event are:</p>
+<ol>
+<li>Declare a UDSEvent object.</li>
+<li>Call the object’s member function Create() with the name of the UDS event you wish to send.</li>
+<li>Add any properties required for that UDS event.</li>
+<li>Declare a PostEventRequest object with the ID of the PS5’s active user and the UDSEvent data.</li>
+<li>Create an AsyncRequest object with the PostEventRequest class as a parameter.</li>
+<li>Schedule the AsyncRequest.</li>
+<li>Inspect the AsyncRequest once it is complete to determine if the UDS event was sent successfully. <br> <strong>Note</strong>: this does not mean the event was successful in UDS, just that it was sent.</li>
+</ol>
+<p>Below is an example of how you can create and structure a UDS event using the <code>UDSEvent</code> class.</p>
+<pre><code>// Declare a UDSEvent object
+UniversalDataSystem.UDSEvent myEvent = new UniversalDataSystem.UDSEvent();
+
+// Call Create() with the name of the UDS event you’re calling to (activityStart, activityEnd etc.)
+myEvent.Create(&quot;activityEventName&quot;);
+
+// Add whatever properties are required for that event
+// This can be done by calling myEvent.Properties.Set()
+// ...
+// ...
+
+// When your event is ready, you need to make a PostEventRequest to send it
+// You also need to attach the active user’s PSN user ID
+// The PSN package sample project shows how you can do this
+UniversalDataSystem.PostEventRequest postEvent = new UniversalDataSystem.PostEventRequest
+{
+UserId = GamePad.activeGamePad.loggedInUser.userId,
+EventData = myEvent
+};
+
+// Create the AsyncRequest operation for scheduling
+var asyncOp = new AsyncRequest&lt;UniversalDataSystem.PostEventRequest&gt;(postEvent);
+
+UniversalDataSystem.Schedule(asyncOp);
+</code></pre><h2 id="examples-of-uds-events">Examples of UDS Events</h2>
+<h3 id="activityterminate">activityTerminate</h3>
+<p>The <code>activityTerminate</code> event requires no additional properties. It resets all the user’s Activities to their default state.</p>
+<pre><code>public IEnumerator TerminateAllActivities()
+{
+UniversalDataSystem.UDSEvent activityTerminateEvent = new UniversalDataSystem.UDSEvent();
+activityTerminateEvent.Create(&quot;activityTerminate&quot;);
+
+// You do not need to add anything here, as there are no properties!
+
+    // Create a PostEventRequest with the UDSEvent data
+UniversalDataSystem.PostEventRequest postEvent = new UniversalDataSystem.PostEventRequest
+{
+UserId = GamePad.activeGamePad.loggedInUser.userId,
+EventData = activityTerminateEvent
+};
+
+// Create the AsyncRequest operation for scheduling
+var asyncOp = new AsyncRequest&lt;UniversalDataSystem.PostEventRequest&gt;(postEvent);
+
+UniversalDataSystem.Schedule(asyncOp);
+
+yield return new WaitUntil(() =&gt; asyncOp.IsSequenceCompleted);
+
+// AsyncRequest is complete here
+// CheckAsyncRequestOK() is a function that checks if the returned Request is null/fail/success
+if (!NpManager.CheckAsyncRequestOK(startOp))
+    {
+        throw new System.Exception(“Failed to terminate Activities!&quot;);
+}
+}
+</code></pre><h3 id="activityend">activityEnd</h3>
+<p>The <code>activityEnd</code> event has one required property - the ID of the Activity to end. This can be added by calling <code>UDSEvent.Properties.Set()</code> with the name of the property, and the relevant data.</p>
+<pre><code>public IEnumerator ActivityEnd(string activityID)
+{
+UniversalDataSystem.UDSEvent activityEndEvent = new UniversalDataSystem.UDSEvent();
+
+activityEndEvent.Create(&quot;activityEnd&quot;);
+
+activityEndEvent.Properties.Set(&quot;activityId&quot;, activityID);
+
+// …
+// PostEventRequest, AsyncRequest&lt;&gt;, etc
+}
+</code></pre><h3 id="activityavailabilitychange">activityAvailabilityChange</h3>
+<p>The <code>activityAvailabilityChange</code> event requires properties which are string arrays; either a list of the Activities to be made available, a list of Activities to be made unavailable, or both.</p>
+<p>This is done by using the <code>EventPropertyArray</code> class. The class allows you to declare a data type for your array and copy in the values you want in the property.</p>
+<p>In the example below, the values in the string array <code>myActivitiesList</code> are copied into the EventPropertyArray class <code>availableActivities</code>. This can then be set as a property using <code>UDSEvent.Properties.Set()</code>.</p>
+<pre><code>public IEnumerator MakeActivitiesAvailable()
+{
+    string[] myActivitiesList = {“activity-1”, “activity-2”, “activity-3”};
+
+UniversalDataSystem.UDSEvent changeAvailabilityEvent = new UniversalDataSystem.UDSEvent();
+changeAvailabilityEvent.Create(&quot;activityAvailabilityChange&quot;);
+
+// To set an array as a property of the UDSEvent class, you need to use an EventPropertyArray
+UniversalDataSystem.EventPropertyArray availableActivities = new
+UniversalDataSystem.EventPropertyArray(UniversalDataSystem.PropertyType.String);
+
+availableActivities.CopyValues(myActivitiesList);
+
+changeAvailabilityEvent.Properties.Set(&quot;availableActivities&quot;, 
+availableActivities);
+changeAvailabilityEvent.Properties.Set(&quot;mode&quot;, &quot;full&quot;);
+
+// …
+// PostEventRequest, AsyncRequest&lt;&gt;, etc!
+
+}
+</code></pre><h2 id="tasks-and-sub-tasks">Tasks and Sub-Tasks</h2>
+<p>If you have created an Activity that has child Activities such as Tasks and Sub-Tasks, no extra code is needed to manage those Activities. They can be treated in the same way as standalone Activities by calling UDS events like <code>activityStart</code> and <code>activityEnd</code>.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{3b7b58b5-b57d-4c51-9282-0ea7469ae49c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ErrorHandling">
+      <UniqueIdentifier>{0f080db9-06ee-4f36-bd11-1ee8aa9cc20c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes">
+      <UniqueIdentifier>{9338a437-575a-4b2b-8793-48ee8eb24ebf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managed">
+      <UniqueIdentifier>{67b15915-6d76-4479-858c-ef93e1b4cf51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayerInterface">
+      <UniqueIdentifier>{b4dc5696-8b3b-4e25-8341-6d06e45bcf00}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Backup.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Delete.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Dialogs.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Info.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mount.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Notifications.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Progress.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Search.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Transactions.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utils.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorHandling\ErrorCodes.cpp">
+      <Filter>ErrorHandling</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorHandling\Errors.cpp">
+      <Filter>ErrorHandling</Filter>
+    </ClCompile>
+    <ClCompile Include="Managed\ManagedRequest.cpp">
+      <Filter>Managed</Filter>
+    </ClCompile>
+    <ClCompile Include="Managed\ManagedResponse.cpp">
+      <Filter>Managed</Filter>
+    </ClCompile>
+    <ClCompile Include="Managed\MemoryBufferManaged.cpp">
+      <Filter>Managed</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerInterface\UnityPrxPlugin.cpp">
+      <Filter>PlayerInterface</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Backup.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\config.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Delete.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Dialogs.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Info.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Main.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mount.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Notifications.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Progress.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Search.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Transactions.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utils.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorHandling\Errors.h">
+      <Filter>ErrorHandling</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\CommonTypes.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\PluginCommonIncludes.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\SonyCommonIncludes.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Managed\ManagedRequest.h">
+      <Filter>Managed</Filter>
+    </ClInclude>
+    <ClInclude Include="Managed\ManagedResponse.h">
+      <Filter>Managed</Filter>
+    </ClInclude>
+    <ClInclude Include="Managed\MemoryBufferManaged.h">
+      <Filter>Managed</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerInterface\IPluginSceAppParams.h">
+      <Filter>PlayerInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerInterface\IPluginSceNpParams.h">
+      <Filter>PlayerInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerInterface\IPluginUnity.h">
+      <Filter>PlayerInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerInterface\PrxPluginInterface.h">
+      <Filter>PlayerInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerInterface\UnityEventQueue.h">
+      <Filter>PlayerInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerInterface\UnityPrxPlugin.h">
+      <Filter>PlayerInterface</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
