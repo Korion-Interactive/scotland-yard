@@ -123,7 +123,9 @@ public class AppSetup : MonoBehaviour
 
     private async UniTaskVoid Awake()
     {
+#if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5
         await IOSystem.Instance.InitializeAsync(destroyCancellationToken);
+#endif
 
         // set instance
         instance = this;
@@ -190,6 +192,8 @@ public class AppSetup : MonoBehaviour
         LoadOrCreateStatsTable().Forget();
     }
 
+#if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5
+
     public UniTask WriteDataAsync<T>(string id, T data, CancellationToken cancellationToken = default)
     {
         var writer = IOSystem.Instance.GetWriter();
@@ -209,6 +213,8 @@ public class AppSetup : MonoBehaviour
         Debug.Log("Reading Korion IO: " + data);
         return data;
     }
+
+#endif
 
     public async UniTaskVoid LoadOrCreateStatsTable()
     {
@@ -412,7 +418,6 @@ public class AppSetup : MonoBehaviour
         {
             this.LogError($"Error at TryLoad({filePath})", ex);
             PopupManager.ShowPrompt("error", "something_went_wrong");
-            result = default;
             DeleteSavegame();
             return null;
         }

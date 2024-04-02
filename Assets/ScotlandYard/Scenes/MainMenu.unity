@@ -4669,6 +4669,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 61922872}
     m_Modifications:
+    - target: {fileID: -1831936398730703578, guid: b7df2809a25cfde40b809be2c496d420,
+        type: 3}
+      propertyPath: _playerColor
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -1831936398730703578, guid: b7df2809a25cfde40b809be2c496d420,
+        type: 3}
+      propertyPath: _playerIndex
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 100012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: m_Name
       value: 03_DetectiveGreenSettings
@@ -5605,7 +5615,7 @@ GameObject:
   m_Component:
   - component: {fileID: 253136592}
   - component: {fileID: 253136593}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: lt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7634,7 +7644,7 @@ GameObject:
   m_Component:
   - component: {fileID: 339118627}
   - component: {fileID: 339118628}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: rb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11839,6 +11849,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2961636678584230204, guid: 606406c7ada087d45bfa4e5e705172e6,
         type: 3}
+    - target: {fileID: 8789670504958024177, guid: 538fe765e1085c44898d152797810a8a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 9043106885688774723, guid: 538fe765e1085c44898d152797810a8a,
         type: 3}
       propertyPath: m_Sprite
@@ -15507,6 +15522,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 61922872}
     m_Modifications:
+    - target: {fileID: -1831936398730703578, guid: b7df2809a25cfde40b809be2c496d420,
+        type: 3}
+      propertyPath: _playerColor
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -1831936398730703578, guid: b7df2809a25cfde40b809be2c496d420,
+        type: 3}
+      propertyPath: _playerIndex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -15980,6 +16005,7 @@ GameObject:
   m_Component:
   - component: {fileID: 785213760}
   - component: {fileID: 785213761}
+  - component: {fileID: 785213762}
   m_Layer: 8
   m_Name: MisterXSettings
   m_TagString: Untagged
@@ -16055,6 +16081,19 @@ MonoBehaviour:
   rightType: 1
   bottomType: 1
   topType: 1
+--- !u!114 &785213762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 785213759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27ad267317e95db4a93956275d570ed0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerColor: 0
 --- !u!1 &789077061
 GameObject:
   m_ObjectHideFlags: 0
@@ -22041,6 +22080,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8789670504958024177, guid: 538fe765e1085c44898d152797810a8a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22171,6 +22215,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 61922872}
     m_Modifications:
+    - target: {fileID: -1831936398730703578, guid: b7df2809a25cfde40b809be2c496d420,
+        type: 3}
+      propertyPath: _playerColor
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -1831936398730703578, guid: b7df2809a25cfde40b809be2c496d420,
+        type: 3}
+      propertyPath: _playerIndex
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: m_Layer
       value: 8
@@ -25657,6 +25711,7 @@ GameObject:
   - component: {fileID: 1199559221}
   - component: {fileID: 1199559220}
   - component: {fileID: 1199559222}
+  - component: {fileID: 1199559223}
   m_Layer: 8
   m_Name: Panel - New Game
   m_TagString: Untagged
@@ -25796,6 +25851,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   alpha: 1
+--- !u!114 &1199559223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1199559216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6f1ba8690ed9a848a6d88c60f2bd42d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1204381083
 GameObject:
   m_ObjectHideFlags: 0
@@ -29662,7 +29729,7 @@ GameObject:
   - component: {fileID: 1394848449}
   - component: {fileID: 1394848451}
   - component: {fileID: 1394848450}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Panel - BG Blur
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31409,6 +31476,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 61922872}
     m_Modifications:
+    - target: {fileID: -1831936398730703578, guid: b7df2809a25cfde40b809be2c496d420,
+        type: 3}
+      propertyPath: _playerColor
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -1831936398730703578, guid: b7df2809a25cfde40b809be2c496d420,
+        type: 3}
+      propertyPath: _playerIndex
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: m_Layer
       value: 8
@@ -32838,6 +32915,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 61922872}
     m_Modifications:
+    - target: {fileID: -1831936398730703578, guid: b7df2809a25cfde40b809be2c496d420,
+        type: 3}
+      propertyPath: _playerColor
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: m_Layer
       value: 8
@@ -43886,7 +43968,7 @@ GameObject:
   - component: {fileID: 2070699457}
   - component: {fileID: 2070699458}
   - component: {fileID: 2070699459}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Texture
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45862,6 +45944,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8789670504958024177, guid: 538fe765e1085c44898d152797810a8a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
