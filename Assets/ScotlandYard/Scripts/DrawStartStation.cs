@@ -169,6 +169,9 @@ public class DrawStartStation : MonoBehaviour {
         GameObject go;
         if (player.PlayerId == 0) // is MrX
         {
+            // Set correct 
+            currentCard.transform.GetChildByName("Frontside").GetComponentInChildren<PlayerSpriteSwapper>().SetSprite(player.Color);
+
             if (functionCalled || (player.Controller == PlayerController.Ai || player.Controller == PlayerController.Network))
             {
                 currentCard.transform.GetChildByName("MrX").gameObject.SetActive(true);
@@ -185,6 +188,7 @@ public class DrawStartStation : MonoBehaviour {
         }
         else // is Detective
         {
+            currentCard.transform.GetChildByName("Frontside").GetComponentInChildren<PlayerSpriteSwapper>().SetSprite(player.Color);
             currentCard.transform.GetChildByName("Frontside").gameObject.SetActive(true);
             currentCard.transform.GetChildByName("Backside").gameObject.SetActive(false);
             functionToCall = "TurnComplete";
