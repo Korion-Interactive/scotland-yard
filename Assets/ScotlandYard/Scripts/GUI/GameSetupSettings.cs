@@ -79,6 +79,14 @@ public class GameSetupSettings : BaseBehaviour
         ReplaceNetworkPlayerWithAi(null);
     }
 
+    public void StartLocalGameMultiController()
+    {
+        GameSetupBehaviour.Instance.Setup.Mode = GameMode.MultiController;
+        Reset();
+        Initialize();
+        ReplaceNetworkPlayerWithAi(null);
+    }
+
     #region TUTORIAL SETUP
     public void StartTutorialGeneral()
     {

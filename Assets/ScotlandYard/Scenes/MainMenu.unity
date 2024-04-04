@@ -11732,7 +11732,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f093ad5830afe44aba6efa8b8a5d5b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 1750442953}
+  target: {fileID: 1199559221}
   animator: {fileID: 0}
   clipName: Window_Back
   trigger: 0
@@ -18111,11 +18111,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 9b09c4bbedf6db74c9d061b7096222db, type: 3}
       propertyPath: m_Name
-      value: 01_PlayBlueToothButton
+      value: 01_PlayOneController
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 9b09c4bbedf6db74c9d061b7096222db, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9b09c4bbedf6db74c9d061b7096222db, type: 3}
       propertyPath: m_RootOrder
@@ -18166,8 +18166,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11400002, guid: 9b09c4bbedf6db74c9d061b7096222db, type: 3}
+      propertyPath: hoverSprite
+      value: menu_button_a
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 9b09c4bbedf6db74c9d061b7096222db, type: 3}
       propertyPath: onClick.Array.size
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11400002, guid: 9b09c4bbedf6db74c9d061b7096222db, type: 3}
       propertyPath: onClick.Array.data[0].mTarget
@@ -18176,18 +18180,18 @@ PrefabInstance:
     - target: {fileID: 11400002, guid: 9b09c4bbedf6db74c9d061b7096222db, type: 3}
       propertyPath: onClick.Array.data[1].mTarget
       value: 
-      objectReference: {fileID: 1196352869}
+      objectReference: {fileID: 1446218572}
     - target: {fileID: 11400002, guid: 9b09c4bbedf6db74c9d061b7096222db, type: 3}
       propertyPath: onClick.Array.data[2].mTarget
       value: 
       objectReference: {fileID: 1446218572}
     - target: {fileID: 11400002, guid: 9b09c4bbedf6db74c9d061b7096222db, type: 3}
       propertyPath: onClick.Array.data[0].mMethodName
-      value: StartNetworkGame
+      value: StartLocalGame
       objectReference: {fileID: 0}
     - target: {fileID: 11400002, guid: 9b09c4bbedf6db74c9d061b7096222db, type: 3}
       propertyPath: onClick.Array.data[1].mMethodName
-      value: StartBluetoothMatch
+      value: EnterScreen
       objectReference: {fileID: 0}
     - target: {fileID: 11400002, guid: 9b09c4bbedf6db74c9d061b7096222db, type: 3}
       propertyPath: onClick.Array.data[2].mMethodName
@@ -18195,7 +18199,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400002, guid: 9b09c4bbedf6db74c9d061b7096222db, type: 3}
       propertyPath: onClick.Array.data[1].mParameters.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11400002, guid: 9b09c4bbedf6db74c9d061b7096222db, type: 3}
       propertyPath: onClick.Array.data[2].mParameters.Array.size
@@ -18232,7 +18236,7 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 11400014, guid: 9b09c4bbedf6db74c9d061b7096222db, type: 3}
       propertyPath: mText
-      value: play_bluetooth
+      value: play_local
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11400010, guid: 9b09c4bbedf6db74c9d061b7096222db, type: 3}
@@ -18253,6 +18257,14 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1368252440}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 9b09c4bbedf6db74c9d061b7096222db,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1368252445}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 9b09c4bbedf6db74c9d061b7096222db,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1368252444}
   m_SourcePrefab: {fileID: 100100000, guid: 9b09c4bbedf6db74c9d061b7096222db, type: 3}
 --- !u!1 &881120671
 GameObject:
@@ -28335,7 +28347,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400002, guid: 12a46d083ed1a064cb78b8bcbde904b7, type: 3}
       propertyPath: mSpriteName
-      value: playmode_wifi
+      value: more_games_icon
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -29123,6 +29135,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 912613955}
     m_Modifications:
+    - target: {fileID: 100000, guid: 9b09c4bbedf6db74c9d061b7096222db, type: 3}
+      propertyPath: m_Name
+      value: 01_PlayMultipleController
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9b09c4bbedf6db74c9d061b7096222db, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -29221,7 +29237,7 @@ PrefabInstance:
       objectReference: {fileID: 277965151}
     - target: {fileID: 11400002, guid: 9b09c4bbedf6db74c9d061b7096222db, type: 3}
       propertyPath: onClick.Array.data[0].mMethodName
-      value: StartLocalGame
+      value: StartLocalGameMultiController
       objectReference: {fileID: 0}
     - target: {fileID: 11400008, guid: 9b09c4bbedf6db74c9d061b7096222db, type: 3}
       propertyPath: target
@@ -29298,23 +29314,50 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _onClickDelegate:
   - mTarget: {fileID: 277965151}
-    mMethodName: StartNetworkGame
-    mParameters: []
-    oneShot: 0
-  - mTarget: {fileID: 1196352869}
-    mMethodName: StartBluetoothMatch
-    mParameters:
-    - obj: {fileID: 1368252438}
-      field: 
-    oneShot: 0
-  - mTarget: {fileID: 1446218572}
-    mMethodName: EnterScreen
+    mMethodName: StartLocalGame
     mParameters: []
     oneShot: 0
   _animations:
   - {fileID: 564493693}
   - {fileID: 564493692}
   - {fileID: 564493691}
+--- !u!114 &1368252444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1368252438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 643ea4bc79b55444d974ddbd31a6cd5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constraint: 0
+  onUp: {fileID: 0}
+  onDown: {fileID: 0}
+  onLeft: {fileID: 0}
+  onRight: {fileID: 2007193818}
+  onClick: {fileID: 0}
+  startsSelected: 1
+  forceStartSelection: 1
+--- !u!114 &1368252445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1368252438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15cc9c62605319f4a9b20b15918913fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tweenTarget: {fileID: 2007193818}
+  hover: {r: 0, g: 0.6627451, b: 1, a: 1}
+  pressed: {r: 0, g: 0.6627451, b: 1, a: 1}
+  disabledColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  duration: 0.2
 --- !u!1 &1368349336
 GameObject:
   m_ObjectHideFlags: 0
@@ -32035,7 +32078,7 @@ Transform:
   m_GameObject: {fileID: 1519260257}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1598, y: 899.00006, z: 0}
+  m_LocalPosition: {x: 1597.0001, y: 899.00006, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -41188,7 +41231,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _onClickDelegate:
   - mTarget: {fileID: 277965151}
-    mMethodName: StartLocalGame
+    mMethodName: StartLocalGameMultiController
     mParameters: []
     oneShot: 0
   _animations:
@@ -41210,11 +41253,11 @@ MonoBehaviour:
   constraint: 0
   onUp: {fileID: 0}
   onDown: {fileID: 0}
-  onLeft: {fileID: 0}
+  onLeft: {fileID: 1368252438}
   onRight: {fileID: 327033283}
   onClick: {fileID: 0}
-  startsSelected: 1
-  forceStartSelection: 1
+  startsSelected: 0
+  forceStartSelection: 0
 --- !u!114 &2007193824
 MonoBehaviour:
   m_ObjectHideFlags: 0
