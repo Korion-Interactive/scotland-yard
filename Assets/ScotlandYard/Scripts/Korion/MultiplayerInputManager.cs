@@ -37,6 +37,9 @@ namespace Korion.ScotlandYard.Input
                 
                 foreach(var player in ReInput.players.AllPlayers)
                 {
+                    if (ReInput.controllers.joystickCount <= _players.Count)  // Only add as much players as controllers are connected!
+                        break;
+
                     if (player.descriptiveName == "System")
                         continue;
 
