@@ -4940,13 +4940,29 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 61922874}
     - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: stateChangedListeners.Array.data[1].mMethodName
+      value: SetPlayerControllerLocal
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: stateChangedListeners.Array.data[2].mMethodName
       value: HandleHumanPlayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: stateChangedListeners.Array.data[1].mParameters.Array.size
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: stateChangedListeners.Array.data[2].mParameters.Array.size
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: stateChangedListeners.Array.data[1].mParameters.Array.data[0].obj
+      value: 
+      objectReference: {fileID: 559164062}
+    - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: stateChangedListeners.Array.data[1].mParameters.Array.data[1].obj
+      value: 
+      objectReference: {fileID: 1736864854}
     - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: stateChangedListeners.Array.data[2].mParameters.Array.data[0].obj
       value: 
@@ -4958,6 +4974,10 @@ PrefabInstance:
     - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: stateChangedListeners.Array.data[1].mParameters.Array.data[0].field
       value: GameID
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: stateChangedListeners.Array.data[1].mParameters.Array.data[1].field
+      value: CurrentStateIndex
       objectReference: {fileID: 0}
     - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: stateChangedListeners.Array.data[2].mParameters.Array.data[0].field
@@ -15705,13 +15725,29 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 61922874}
     - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: stateChangedListeners.Array.data[1].mMethodName
+      value: SetPlayerControllerLocal
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: stateChangedListeners.Array.data[2].mMethodName
       value: HandleHumanPlayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: stateChangedListeners.Array.data[1].mParameters.Array.size
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: stateChangedListeners.Array.data[2].mParameters.Array.size
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: stateChangedListeners.Array.data[1].mParameters.Array.data[0].obj
+      value: 
+      objectReference: {fileID: 1526686127}
+    - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: stateChangedListeners.Array.data[1].mParameters.Array.data[1].obj
+      value: 
+      objectReference: {fileID: 979457452}
     - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: stateChangedListeners.Array.data[2].mParameters.Array.data[0].obj
       value: 
@@ -15720,6 +15756,14 @@ PrefabInstance:
       propertyPath: stateChangedListeners.Array.data[2].mParameters.Array.data[1].obj
       value: 
       objectReference: {fileID: 764446997}
+    - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: stateChangedListeners.Array.data[1].mParameters.Array.data[0].field
+      value: GameID
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: stateChangedListeners.Array.data[1].mParameters.Array.data[1].field
+      value: CurrentStateIndex
+      objectReference: {fileID: 0}
     - target: {fileID: 11400032, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: stateChangedListeners.Array.data[2].mParameters.Array.data[0].field
       value: CurrentStateIndex
@@ -32214,6 +32258,18 @@ MonoBehaviour:
   mMat: {fileID: 0}
   mShader: {fileID: 4800000, guid: e75727d9555d9d14ca51d91908c681bc, type: 3}
   mFlip: 0
+--- !u!114 &1526686127 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 11400020, guid: b7df2809a25cfde40b809be2c496d420,
+    type: 3}
+  m_PrefabInstance: {fileID: 764446996}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35968cf83ef0b5347acdb15701bcdcb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1529660583
 GameObject:
   m_ObjectHideFlags: 0
