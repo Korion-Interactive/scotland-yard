@@ -79,6 +79,14 @@ public class GameSetupSettings : BaseBehaviour
         ReplaceNetworkPlayerWithAi(null);
     }
 
+    public void StartLocalGameMultiController()
+    {
+        GameSetupBehaviour.Instance.Setup.Mode = GameMode.MultiController;
+        Reset();
+        Initialize();
+        ReplaceNetworkPlayerWithAi(null);
+    }
+
     #region TUTORIAL SETUP
     public void StartTutorialGeneral()
     {
@@ -357,6 +365,7 @@ public class GameSetupSettings : BaseBehaviour
         isInitialized = true;
 
         this.LogDebug(string.Format("Plot Settings to GUI - START ({0})", GSP.IsMultiplayerRTAvailable ? "Multiplayer" : "Local"));
+
         storedPlayerArgs.Clear();
         for (int i = 0; i < GameSetupBehaviour.Instance.Setup.DetectiveSetups.Length + 1; i++)
         {
