@@ -11,14 +11,11 @@ using BitBarons.Util; // old: Log
 using Cysharp.Threading.Tasks;
 using Cysharp.Text;
 using UnityEngine;
+using Korion.IO;
+using System.Threading;
 
 #if UNITY_PS5
 using UnityEngine.PS5;
-using Korion.IO;
-using System.Threading;
-#elif UNITY_PS4
-using Korion.IO;
-using System.Threading;
 #endif
 
 namespace Sunbow.Util.IO

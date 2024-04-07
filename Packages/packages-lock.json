@@ -72,6 +72,13 @@
       },
       "url": "https://npm.pkg.github.com/@Korion-Interactive"
     },
+    "com.nintendo.sdk": {
+      "version": "17.5.4",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://npm.pkg.github.com/@Korion-Interactive"
+    },
     "com.unity.2d.sprite": {
       "version": "1.0.0",
       "depth": 0,

@@ -6,6 +6,7 @@
     "com.korion.io": "0.1.0-preview.23",
     "com.korion.ps4.psn": "0.0.1-preview.4",
     "com.korion.ps5.psn": "0.1.0-preview.3",
+	"com.nintendo.sdk": "17.5.4",
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.ai.navigation": "1.1.5",
     "com.unity.ide.rider": "3.0.27",
@@ -47,6 +48,7 @@
       "url": "https://npm.pkg.github.com/@Korion-Interactive",
       "scopes": [
         "com.korion",
+		"com.nintendo.sdk",
         "com.unity.nptoolkit2.ps4",
         "com.unity.inputsystem.ps4",
         "com.unity.savedata.ps5",

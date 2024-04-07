@@ -7,16 +7,14 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using Cysharp.Threading.Tasks;
 using UnityEngine.Events;
+using Korion.IO;
+using System.Threading;
 
 #if UNITY_PS5
 using UnityEngine.PS5;
-using Korion.IO;
-using System.Threading;
 #elif UNITY_PS4
 using Sony.NP;
 using UnityEngine.PS4;
-using Korion.IO;
-using System.Threading;
 #endif
 
 public class AppSetup : MonoBehaviour
