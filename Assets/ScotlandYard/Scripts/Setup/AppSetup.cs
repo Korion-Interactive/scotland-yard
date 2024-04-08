@@ -148,7 +148,8 @@ public class AppSetup : MonoBehaviour
         // Load localization
         TextAsset locaTxt = Resources.Load("Loca") as TextAsset;
         LocaTable = new Table(locaTxt.text, "Loca", new CSVSetting(true, true) { ColumnSeparator = '\t', });
-        Loc.Language = Application.systemLanguage;
+        Loc.Language = Application.systemLanguage; //KORION TODO SYSTEM LANGUAGE as in Arcade Fishing for example
+
 
         // load achievement data
         TextAsset achvTxt = Resources.Load("achievements") as TextAsset;
