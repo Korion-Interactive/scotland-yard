@@ -46,6 +46,11 @@ namespace Korion.ScotlandYard.Input
                     _players.Add(player);
                 }
 
+                if (_players.Count == 0)
+                {
+                    _players.Add(_mainPlayer);  // Add at least one player
+                }
+
                 _inputDevices = new InputDevices();
             }
         }
