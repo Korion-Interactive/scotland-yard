@@ -36383,6 +36383,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -4854040176081895673, guid: b4eb9eb408e7bc64880bcb10388feadf,
         type: 3}
+    - target: {fileID: 8789670504958024177, guid: 538fe765e1085c44898d152797810a8a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 9043106885688774723, guid: 538fe765e1085c44898d152797810a8a,
         type: 3}
       propertyPath: m_Sprite
