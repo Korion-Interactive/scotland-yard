@@ -18,6 +18,9 @@ public enum GameMode
 
     // GameCenter, Google Play Game Servicers or Bluetooth
     Network = 5,
+
+    // KORION: Multiplayer with more than one controller
+    MultiController = 6,
 }
 
 public static class GameModeExtensions

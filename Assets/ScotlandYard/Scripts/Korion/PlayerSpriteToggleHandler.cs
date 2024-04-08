@@ -13,10 +13,12 @@ namespace Korion.ScotlandYard.UI
         private void OnEnable()
         {
             _sprite = GetComponent<UISprite>();
+            GameSetupSystem.onStartClicked += ApplySelection;
         }
 
         private void OnDisable() 
-        { 
+        {
+            GameSetupSystem.onStartClicked -= ApplySelection;
             _sprite = null;
         }
 
@@ -38,7 +40,10 @@ namespace Korion.ScotlandYard.UI
                 _sprite.spriteName = currentName.Substring(0, currentName.Length - 1) + "1";
                 spriteVariant = 0;
             }
-            
+        }
+
+        private void ApplySelection()
+        {
             // Save player sprite selection to PlayerPrefs
             PlayerPrefs.SetInt(_playerColor.ToString(), spriteVariant);
             PlayerPrefs.Save();

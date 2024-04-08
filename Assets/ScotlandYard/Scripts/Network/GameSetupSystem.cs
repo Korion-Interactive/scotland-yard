@@ -24,6 +24,9 @@ public class GameSetupSystem : NetworkSystem<GameSetupEvents, GameSetupSystem>
 
     private GameObject cachedSelectedObject;
 
+    public delegate void OnStartClicked();
+    public static event OnStartClicked onStartClicked;
+
     protected override void RegisterEvents()
     {
         ListenTo(GameSetupEvents.RoundTimeChanged, (args) => SendEvent(GameSetupEvents.RoundTimeChanged, args));
@@ -103,6 +106,8 @@ public class GameSetupSystem : NetworkSystem<GameSetupEvents, GameSetupSystem>
     {
         if (scriptCalledForClick)
             return;
+
+        onStartClicked?.Invoke();
 
         if (GameSetupBehaviour.Instance.IsNetworkGame)
         {

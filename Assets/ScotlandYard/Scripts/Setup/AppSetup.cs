@@ -7,16 +7,14 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using Cysharp.Threading.Tasks;
 using UnityEngine.Events;
+using Korion.IO;
+using System.Threading;
 
 #if UNITY_PS5
 using UnityEngine.PS5;
-using Korion.IO;
-using System.Threading;
 #elif UNITY_PS4
 using Sony.NP;
 using UnityEngine.PS4;
-using Korion.IO;
-using System.Threading;
 #endif
 
 public class AppSetup : MonoBehaviour
@@ -197,6 +195,7 @@ public class AppSetup : MonoBehaviour
 
     public UniTask WriteDataAsync<T>(string id, T data, CancellationToken cancellationToken = default)
     {
+        Debug.Log("KORION: Start Writing Data");
         var writer = IOSystem.Instance.GetWriter();
         //string json = JsonUtility.ToJson(savedSettings, prettyPrint: true); //now data
 
@@ -207,6 +206,7 @@ public class AppSetup : MonoBehaviour
 
     public async UniTask<T> ReadDataAsync<T>(string id, CancellationToken cancellationToken = default)
     {
+        Debug.Log("KORION: Start Reading Data");
         var reader = IOSystem.Instance.GetReader();
 
         T data = await reader.Read<T>(id, cancellationToken);
@@ -222,7 +222,7 @@ public class AppSetup : MonoBehaviour
 #if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5
         //TODO KORION IO
         string statsPath = "stats.txt"; //id
-
+        Debug.Log("KORION: STart reading or creating stats table");
         string data = await ReadDataAsync<string>(statsPath);
         if (data == null)
         {
@@ -275,7 +275,10 @@ public class AppSetup : MonoBehaviour
     {
 #if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5
         //TODO KORION IO
+        Debug.Log("KORION: Checking if has open game");
+        Debug.Log("Last Savegamepath: " + Globals.LastGameSetupPath);
         string data = await ReadDataAsync<string>(Globals.LastGameSetupPath);
+        Debug.Log("KORION: Data read");
         return (data != null);
 #else
         return File.Exists(Globals.LastGameSetupPath) && File.Exists(Globals.LastGameStatePath);
@@ -284,11 +287,13 @@ public class AppSetup : MonoBehaviour
 
     public void SaveGame()
     {
+        Debug.Log("KORION: Start Saving game");
         string gameSetup = JsonConvert.SerializeObject(GameSetupBehaviour.Instance.Setup);
         SaveData(ref gameSetup, Globals.LastGameSetupPath);
 
         string gameState = JsonConvert.SerializeObject(GameState.Instance);
         SaveData(ref gameState, Globals.LastGameStatePath);
+        Debug.Log("KORION: Game Saved");
     }
 
     void SaveData(ref string data, string filePath)
@@ -323,6 +328,7 @@ public class AppSetup : MonoBehaviour
 
     internal void LoadLastGame()
     {
+        Debug.Log("KORION: Start Loading last game");
         AsyncLoadLastGame().Forget();
     }
 
@@ -390,6 +396,7 @@ public class AppSetup : MonoBehaviour
 
 #if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5
         //TODO KORION IO
+        Debug.Log("KORION: Sart loading Game setup");
         string result = await ReadDataAsync<string>(filePath);
         if (result != null)
         {
@@ -429,6 +436,7 @@ public class AppSetup : MonoBehaviour
     internal void DeleteSavegame()
     {
 #if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5
+        Debug.Log("KORION: Deleting Savegame");
         //TODO KORION IO // CancellationToken cancellationToken = default 
         IOSystem.Instance.RemoveData(Globals.LastGameSetupPath, new CancellationTokenSource().Token).Forget();
 #else
