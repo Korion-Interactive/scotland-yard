@@ -30,7 +30,9 @@ public class MultiplayerInputIndicator : MonoBehaviour
                 if (keyValuePairs.ContainsKey(MultiplayerInputManager.Instance.AllPlayers[i]))
                 {
                     //if every player is ocupied
-                    if(i == MultiplayerInputManager.Instance.AllPlayers.Count -1)
+                    if(i == MultiplayerInputManager.Instance.AllPlayers.Count -1
+                        || GameSetupBehaviour.Instance.Setup.Mode == GameMode.MultiController 
+                        && i == ReInput.controllers.joystickCount) //if multicontroller mode and every controller is occupied
                     {
                         //skip to cpu
                         nguiTextLabel.transform.parent.gameObject.GetComponent<UIStateButton>().TriggerOnClick();
