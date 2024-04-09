@@ -1,3 +1,4 @@
+using Cysharp.Threading.Tasks.Triggers;
 using Korion.ScotlandYard.Input;
 using Rewired;
 using System.Collections;
@@ -37,6 +38,7 @@ public class ChangeActionMap : MonoBehaviour
 
     public void SetControllerMapState()
     {
+        Debug.Log("Better be triggered, or I AM");
         Player player = ReInput.players.GetPlayer(_playerIndex);
         _cachedControllerMap = GetCurrentActionMap();
 
@@ -46,14 +48,24 @@ public class ChangeActionMap : MonoBehaviour
 
     private void SetControllerMap(Player player, string controllerMap)
     {
+        Debug.Log("Set to ControllerMap: " + controllerMap);
+
         if (_disableOtherMaps)
         {
             if (controllerMap == "Default")
             {
                 player.controllers.maps.SetMapsEnabled(false, "UI");
+                player.controllers.maps.SetMapsEnabled(false, "PopUp");
+
             }
-            else if(controllerMap == "UI")
+            else if (controllerMap == "UI")
             {
+                player.controllers.maps.SetMapsEnabled(false, "Default");
+                player.controllers.maps.SetMapsEnabled(false, "PopUp");
+            }
+            else if (controllerMap == "PopUp")
+            {
+                player.controllers.maps.SetMapsEnabled(false, "UI");
                 player.controllers.maps.SetMapsEnabled(false, "Default");
             }
         }
@@ -62,17 +74,26 @@ public class ChangeActionMap : MonoBehaviour
 
     public void ResetControllerMaps()
     {
+        Debug.Log("ResetControllerMaps");
         foreach (var _player in MultiplayerInputManager.Instance.AllPlayers)     // For now let every player share the same controller map
         {
             if (_controllerMapToSwitchTo == "Default")
             {
                 _player.controllers.maps.SetMapsEnabled(false, "Default");
+                _player.controllers.maps.SetMapsEnabled(false, "PopUp");
                 _player.controllers.maps.SetMapsEnabled(true, "UI");
             }
             else if (_controllerMapToSwitchTo == "UI")
             {
                 _player.controllers.maps.SetMapsEnabled(true, "Default");
                 _player.controllers.maps.SetMapsEnabled(false, "UI");
+                _player.controllers.maps.SetMapsEnabled(false, "PopUp");
+            }
+            else if(_controllerMapToSwitchTo == "PopUp")
+            {
+                _player.controllers.maps.SetMapsEnabled(true, "Default"); //IS THIS ALWAYS TRUE?! //why not using cached in these cases
+                _player.controllers.maps.SetMapsEnabled(false, "UI");
+                _player.controllers.maps.SetMapsEnabled(false, "PopUp");
             }
         }
     }

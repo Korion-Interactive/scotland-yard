@@ -3,14 +3,18 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class PlayerTurnSystem : BaseSystem<GameEvents, PlayerTurnSystem>
 {
     public BlurCam BlurCamera;
+
     private int round { get { return GameState.Instance.Round; } }
     private MrX mrX { get { return GameState.Instance.MrX; } }
     private PlayerBase curPlayer { get { return GameState.Instance.CurrentPlayer; } }
+
+    private GameObject m_cachedSelectedObj = null;
 
     //private bool doubleTicketInUse;
 
@@ -62,15 +66,18 @@ public class PlayerTurnSystem : BaseSystem<GameEvents, PlayerTurnSystem>
 
         if (IsMixedHotSeatGame())
         {
-            firstTurn();//TODO: KORION
-            /*
+            //firstTurn;
+            Debug.Log("POPUP-PASS");
+            //button immer selektieren ngui feature
             PauseAndBlur(true);
-            PopupManager.ShowQuestion("pass_device", "mr_x_turn_starts", (o) => { PauseAndBlur(false); firstTurn(); SetIngameSelectionActive(true); }, null); //KORION POP UP
+
+            PopupManager.ShowQuestion("pass_device", "mr_x_turn_starts", (o) => { PauseAndBlur(false); firstTurn(); SetIngameSelectionActive(true); PopupManager.Instance.CachedButton = null; }, null); //KORION POP UP
+            PopupManager.Instance.CachedButton = PopupManager.Instance.CurrentPopup.yesButton; //used to activate when receiving uiCancelAction //popupkill
             PopupManager.Instance.CurrentPopup.text.GetComponent<UILabel>().text = string.Format(PopupManager.Instance.CurrentPopup.text.GetComponent<UILabel>().text, GameState.Instance.MrX.PlayerDisplayName); //KORION IMPROVE --> NEXT LINE IN BETWEEN
             PopupManager.Instance.CurrentPopup.noButton.SetActive(false);
             //PopupManager.Instance.CurrentPopup.yesButton.SetActive(true);
             SetIngameSelectionActive(false);
-            */
+            
             //UICamera.selectedObject = PopupManager.Instance.CurrentPopup.yesButton;
         }
         else
@@ -82,6 +89,7 @@ public class PlayerTurnSystem : BaseSystem<GameEvents, PlayerTurnSystem>
     private void SetIngameSelectionActive(bool isActive)
     {
         gameObject.GetComponent<SetIngameSelectionActive>().SetActive(isActive);
+        gameObject.GetComponent<SetIngameSelectionActive>().SetProperActionMap(isActive);
     }
 
     private void PauseAndBlur(bool enable)

@@ -25,8 +25,9 @@ public class PopupManager : MonoBehaviour
     public GameObject PopUpWindowPrefab, TutorialPopupPrefab, NotificationPrefab;
 
     private PopupInfo currentPopup, currentTutorialPopup, currentNotification;
-    
 
+    //KORION
+    public GameObject CachedButton;
 
     // Use this for initialization
     void Start()
@@ -37,7 +38,8 @@ public class PopupManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyUp(KeyCode.Escape))
+        //KORION POPUP KILL TODO
+        if (Input.GetKeyUp(KeyCode.Escape)) //
         {
             if (currentPopup != null)// && ClickByKey.IsBlockedGlobally)
             {
@@ -47,6 +49,16 @@ public class PopupManager : MonoBehaviour
                 //btn.GetComponent<UIEventListener>().onClick.Invoke(btn);
             }
             EmergencyKillPopup("Prompt");
+        }
+    }
+
+    //KORION "PopUpCancel" Action will use this
+    public void KillPopUp()
+    {
+        if (currentPopup != null)// && ClickByKey.IsBlockedGlobally)
+        {
+            CachedButton.GetComponent<UIEventListener>().onClick.Invoke(CachedButton);
+            //DestroyWindow(CachedButton); //delayed?
         }
     }
 

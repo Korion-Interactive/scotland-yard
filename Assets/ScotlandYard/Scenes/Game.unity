@@ -30439,7 +30439,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2571, y: 1006, z: 10}
+  m_Size: {x: 2573, y: 1006, z: 10}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &458689119
 MonoBehaviour:
@@ -30472,7 +30472,7 @@ MonoBehaviour:
   updateAnchors: 1
   mColor: {r: 1, g: 1, b: 1, a: 0}
   mPivot: 4
-  mWidth: 2571
+  mWidth: 2573
   mHeight: 1006
   mDepth: -1
   autoResizeBoxCollider: 1
@@ -62837,6 +62837,7 @@ GameObject:
   - component: {fileID: 938627987}
   - component: {fileID: 938627989}
   - component: {fileID: 938627990}
+  - component: {fileID: 938627991}
   m_Layer: 0
   m_Name: PlayerTurnSystem
   m_TagString: Untagged
@@ -62906,6 +62907,25 @@ MonoBehaviour:
   actionReceiverss:
   - {fileID: 1881794143}
   - {fileID: 1646549208}
+  changeActionMap: {fileID: 938627991}
+--- !u!114 &938627991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938627986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02659cb5dd7f7e7428402b8fdf5580cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _executeOnAwake: 0
+  _executeOnEnable: 0
+  _controllerMapToSwitchTo: PopUp
+  _playerIndex: 0
+  _forAllPlayers: 1
+  _disableOtherMaps: 1
 --- !u!1 &938895638
 GameObject:
   m_ObjectHideFlags: 0
@@ -64706,6 +64726,7 @@ GameObject:
   m_Component:
   - component: {fileID: 957301844}
   - component: {fileID: 957301843}
+  - component: {fileID: 957301845}
   m_Layer: 0
   m_Name: Popup
   m_TagString: Untagged
@@ -64731,6 +64752,7 @@ MonoBehaviour:
   PopUpWindowPrefab: {fileID: 100018, guid: 05f811a0bbdbe7a4caa24ca01985ecb9, type: 3}
   TutorialPopupPrefab: {fileID: 100018, guid: 4a6b8381682798c43930c65fb84246a0, type: 3}
   NotificationPrefab: {fileID: 100016, guid: ed9613dc550233d42bddad9555758e50, type: 3}
+  CachedButton: {fileID: 0}
 --- !u!4 &957301844
 Transform:
   m_ObjectHideFlags: 0
@@ -64746,6 +64768,35 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &957301845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 957301842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c8f05e925b0479489f6782bb65d1ffd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _actionToTrigger: CancelPopUp
+  _onActionTriggered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 957301843}
+        m_TargetAssemblyTypeName: PopupManager, Assembly-CSharp
+        m_MethodName: KillPopUp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  PlayerID: 0
 --- !u!1 &957411275
 GameObject:
   m_ObjectHideFlags: 0
@@ -78372,10 +78423,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ContinueButton: {fileID: 0}
-  _music: {fileID: 0}
-  _sfx: {fileID: 0}
-  _voIP: {fileID: 0}
-  _postFX: {fileID: 0}
+  _music: {fileID: 200127860}
+  _sfx: {fileID: 248625420}
+  _voIP: {fileID: 1901331273}
+  _postFX: {fileID: 1900858600}
 --- !u!4 &1161405047
 Transform:
   m_ObjectHideFlags: 0
