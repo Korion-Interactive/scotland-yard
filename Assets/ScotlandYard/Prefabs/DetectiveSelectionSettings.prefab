@@ -725,6 +725,9 @@ GameObject:
   - component: {fileID: 11400026}
   - component: {fileID: 11400020}
   - component: {fileID: -1831936398730703578}
+  - component: {fileID: 4110526980801100853}
+  - component: {fileID: 8505120746971770193}
+  - component: {fileID: 4239047942788277151}
   m_Layer: 8
   m_Name: DetectiveSelectionSettings
   m_TagString: Untagged
@@ -745,6 +748,7 @@ Transform:
   m_LocalScale: {x: 0.999936, y: 0.999936, z: 0.999936}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 9044929535653678005}
   - {fileID: 400014}
   - {fileID: 400004}
   m_Father: {fileID: 0}
@@ -826,7 +830,75 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27ad267317e95db4a93956275d570ed0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _playerIndex: 2
+  _playerColor: 0
+--- !u!65 &4110526980801100853
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100012}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 290, y: 381.38242, z: 0}
+  m_Center: {x: 0, y: -0.23680687, z: 0}
+--- !u!114 &8505120746971770193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fdca5042b1d12a4890ec1bd4f04290d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tweenTarget: {fileID: 1363083865168628617}
+  hover: {r: 1, g: 1, b: 1, a: 0.5019608}
+  pressed: {r: 1, g: 1, b: 1, a: 0.5019608}
+  disabledColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  duration: 0.2
+  dragHighlight: 0
+  hoverSprite: game_setup_player_matrix_mid
+  pressedSprite: game_setup_player_matrix_mid
+  disabledSprite: 
+  pixelSnap: 0
+  onClick:
+  - mTarget: {fileID: -1831936398730703578}
+    mMethodName: TogglePlayerSprite
+    mParameters: []
+    oneShot: 0
+--- !u!114 &4239047942788277151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 643ea4bc79b55444d974ddbd31a6cd5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constraint: 0
+  onUp: {fileID: 0}
+  onDown: {fileID: 0}
+  onLeft: {fileID: 0}
+  onRight: {fileID: 0}
+  onClick: {fileID: 0}
+  startsSelected: 0
+  forceStartSelection: 0
 --- !u!1 &100014
 GameObject:
   m_ObjectHideFlags: 0
@@ -934,8 +1006,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 290, y: 325, z: 0}
-  m_Center: {x: 0, y: 110, z: 0}
+  m_Size: {x: 290, y: 99.41384, z: 0}
+  m_Center: {x: 0, y: -2.7932167, z: 0}
 --- !u!114 &11400030
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1060,3 +1132,86 @@ MonoBehaviour:
   onClick: {fileID: 0}
   startsSelected: 0
   forceStartSelection: 0
+--- !u!1 &1363083865168628617
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9044929535653678005}
+  - component: {fileID: 5769834702044903071}
+  m_Layer: 8
+  m_Name: PlayerSpriteBorder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9044929535653678005
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363083865168628617}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.9984, y: 0.9984, z: 0.9984}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 400012}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5769834702044903071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363083865168628617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftAnchor:
+    target: {fileID: 0}
+    relative: 0
+    absolute: 0
+  rightAnchor:
+    target: {fileID: 0}
+    relative: 1
+    absolute: 0
+  bottomAnchor:
+    target: {fileID: 0}
+    relative: 0
+    absolute: 0
+  topAnchor:
+    target: {fileID: 0}
+    relative: 1
+    absolute: 0
+  updateAnchors: 1
+  mColor: {r: 1, g: 1, b: 1, a: 0}
+  mPivot: 4
+  mWidth: 297
+  mHeight: 379
+  mDepth: 12
+  autoResizeBoxCollider: 0
+  hideIfOffScreen: 0
+  keepAspectRatio: 0
+  aspectRatio: 0.78364116
+  mAtlas: {fileID: 11400000, guid: 08a81d143abb1684e99f3f53f7a179f4, type: 3}
+  mSpriteName: game_setup_player_matrix_mid
+  mType: 0
+  mFillDirection: 4
+  mFillAmount: 1
+  mInvert: 0
+  mFlip: 0
+  mFillCenter: 1
+  centerType: 1
+  leftType: 1
+  rightType: 1
+  bottomType: 1
+  topType: 1

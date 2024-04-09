@@ -27,7 +27,9 @@ public class MultiplayerInputIndicator : MonoBehaviour
             for (int i = 0; i < MultiplayerInputManager.Instance.AllPlayers.Count; i++)
             {
                 //exists already a player with a label?
-                if (keyValuePairs.ContainsKey(MultiplayerInputManager.Instance.AllPlayers[i]))
+                if (keyValuePairs.ContainsKey(MultiplayerInputManager.Instance.AllPlayers[i])
+                    || GameSetupBehaviour.Instance.Setup.Mode == GameMode.MultiController // if multicontroller mode and every controller is occupied
+                        && i > 0 && i >= ReInput.controllers.joystickCount) // && i > 0 -> if no joystick is connected, still allow player1 to be assigned (keyboard & mouse)
                 {
                     //if every player is ocupied
                     if(i == MultiplayerInputManager.Instance.AllPlayers.Count -1)
@@ -41,6 +43,7 @@ public class MultiplayerInputIndicator : MonoBehaviour
                 }
                 else //if player is free
                 {
+
                     //add
                     string newText = nguiTextLabel.GetComponent<UILabel>().text + (i+1).ToString();
                     nguiTextLabel.GetComponent<UILabel>().text = newText;
