@@ -227,17 +227,17 @@ public class PlayerTurnSystem : BaseSystem<GameEvents, PlayerTurnSystem>
 
         if(IsMixedHotSeatGame())
         {
-            nextPlayer();
-            /*
+            //firstTurn;
+            Debug.Log("POPUP-PASS");
+            //button immer selektieren ngui feature
             PauseAndBlur(true);
-            PopupManager.ShowQuestion("pass_device", "mr_x_turn_starts", (o) => { PauseAndBlur(false); nextPlayer(); SetIngameSelectionActive(true); }, null); //KORION POP UP
+
+            PopupManager.ShowQuestion("pass_device", "mr_x_turn_starts", (o) => { PauseAndBlur(false); nextPlayer(); SetIngameSelectionActive(true); PopupManager.Instance.CachedButton = null; }, null); //KORION POP UP
+            PopupManager.Instance.CachedButton = PopupManager.Instance.CurrentPopup.yesButton; //used to activate when receiving uiCancelAction //popupkill
             PopupManager.Instance.CurrentPopup.text.GetComponent<UILabel>().text = string.Format(PopupManager.Instance.CurrentPopup.text.GetComponent<UILabel>().text, GameState.Instance.MrX.PlayerDisplayName); //KORION IMPROVE --> NEXT LINE IN BETWEEN
             PopupManager.Instance.CurrentPopup.noButton.SetActive(false);
             //PopupManager.Instance.CurrentPopup.yesButton.SetActive(true);
             SetIngameSelectionActive(false);
-            */
-
-            //UICamera.selectedObject = PopupManager.Instance.CurrentPopup.yesButton;
         }
         else
         {
@@ -255,14 +255,9 @@ public class PlayerTurnSystem : BaseSystem<GameEvents, PlayerTurnSystem>
     }
 
     private bool IsMixedHotSeatGame()
-    {
-        // KORION: Changed condition because of game mode changes
-        return GameSetupBehaviour.Instance.Setup.Mode == GameMode.HotSeat
-            && GameSetupBehaviour.Instance.HumanPlayers > 1;
-        
-        // Old condition:
-        //return curPlayer.IsMrX && curPlayer.PlayerInfo.Controller == PlayerController.Human
-        //    && GameState.Instance.DetectivesIterator().FirstOrDefault((o) => o.PlayerInfo.Controller == PlayerController.Human) != null;
+    {       
+        return curPlayer.IsMrX && curPlayer.PlayerInfo.Controller == PlayerController.Human
+            && GameState.Instance.DetectivesIterator().FirstOrDefault((o) => o.PlayerInfo.Controller == PlayerController.Human) != null;
     }
 
 
