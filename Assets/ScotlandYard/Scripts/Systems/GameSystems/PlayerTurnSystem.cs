@@ -256,8 +256,13 @@ public class PlayerTurnSystem : BaseSystem<GameEvents, PlayerTurnSystem>
 
     private bool IsMixedHotSeatGame()
     {
-        return curPlayer.IsMrX && curPlayer.PlayerInfo.Controller == PlayerController.Human
-            && GameState.Instance.DetectivesIterator().FirstOrDefault((o) => o.PlayerInfo.Controller == PlayerController.Human) != null;
+        // KORION: Changed condition because of game mode changes
+        return GameSetupBehaviour.Instance.Setup.Mode == GameMode.HotSeat
+            && GameSetupBehaviour.Instance.HumanPlayers > 1;
+        
+        // Old condition:
+        //return curPlayer.IsMrX && curPlayer.PlayerInfo.Controller == PlayerController.Human
+        //    && GameState.Instance.DetectivesIterator().FirstOrDefault((o) => o.PlayerInfo.Controller == PlayerController.Human) != null;
     }
 
 
