@@ -39,7 +39,7 @@ public class ChangeActionMap : MonoBehaviour
 
     public void SetControllerMapState()
     {
-        Debug.Log("Better be triggered, or I AM");
+        //Debug.Log("Better be triggered, or I AM");
         Player player = ReInput.players.GetPlayer(_playerIndex);
         _cachedControllerMap = GetCurrentActionMap();
 

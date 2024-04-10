@@ -161,6 +161,7 @@ public class GameSetupSystem : NetworkSystem<GameSetupEvents, GameSetupSystem>
 
                     //UICamera.
 
+                    Debug.Log("  cachedSelectedObject = UICamera.selectedObject;" + UICamera.selectedObject);
                     cachedSelectedObject = UICamera.selectedObject;
                     //Debug.Log("UICamera.selectedObject: " + UICamera.selectedObject);
 
@@ -200,14 +201,20 @@ public class GameSetupSystem : NetworkSystem<GameSetupEvents, GameSetupSystem>
     //KORION
     private void OnClick(GameObject go)
     {
-        UICamera.MLastSelection = cachedSelectedObject;
         //UICamera.selectedObject = cachedSelectedObject;
         //Debug.Log("cachedSelectedObject: " + cachedSelectedObject);
-        cachedSelectedObject = null;
-
         SetNewGamePanelSelectionActive(true);
 
         PopupManager.Instance.CachedButton = null;
+
+        //changed ja aber nicht
+        //UICamera.MLastSelection = cachedSelectedObject; 
+        Debug.Log("UICamera.MLastSelection = cachedSelectedObject; " + UICamera.MLastSelection);
+        Debug.Log("cachedSelectedObject: " + cachedSelectedObject);
+        UICamera.ForceSetSelection(cachedSelectedObject);
+
+        //UICamera.selectedObject = cachedSelectedObject;
+        cachedSelectedObject = null;
     }
 
     //KORION

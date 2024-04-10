@@ -50,6 +50,9 @@ public class PopupManager : MonoBehaviour
             }
             EmergencyKillPopup("Prompt");
         }
+
+        //Debug.Log("UICamera.selectedObject: " + UICamera.selectedObject);
+        //Debug.Log("UICamera.MLastSelection: " + UICamera.MLastSelection);
     }
 
     //KORION "PopUpCancel" Action will use this
