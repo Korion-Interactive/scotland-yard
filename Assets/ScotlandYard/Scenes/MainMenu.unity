@@ -5034,18 +5034,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 236333002}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &236333004 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4966963517602743666, guid: b7df2809a25cfde40b809be2c496d420,
-    type: 3}
-  m_PrefabInstance: {fileID: 236333002}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1014053794}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 643ea4bc79b55444d974ddbd31a6cd5d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &237413619
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15936,18 +15924,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 764446996}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &764446998 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4966963517602743666, guid: b7df2809a25cfde40b809be2c496d420,
-    type: 3}
-  m_PrefabInstance: {fileID: 764446996}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 37170153}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 643ea4bc79b55444d974ddbd31a6cd5d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &766925601 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100014, guid: b7df2809a25cfde40b809be2c496d420,
@@ -22915,18 +22891,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1040296888}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1040296890 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4966963517602743666, guid: b7df2809a25cfde40b809be2c496d420,
-    type: 3}
-  m_PrefabInstance: {fileID: 1040296888}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 766925601}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 643ea4bc79b55444d974ddbd31a6cd5d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1043048217
 GameObject:
   m_ObjectHideFlags: 0
@@ -29220,6 +29184,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1357143892}
   - component: {fileID: 1357143891}
+  - component: {fileID: 1357143893}
   m_Layer: 0
   m_Name: Popup
   m_TagString: Untagged
@@ -29261,6 +29226,35 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1357143893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1357143890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c8f05e925b0479489f6782bb65d1ffd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _actionToTrigger: CancelPopUp
+  _onActionTriggered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1357143891}
+        m_TargetAssemblyTypeName: PopupManager, Assembly-CSharp
+        m_MethodName: KillPopUp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  PlayerID: 0
 --- !u!1 &1358589449
 GameObject:
   m_ObjectHideFlags: 0
@@ -30629,7 +30623,7 @@ Transform:
   m_GameObject: {fileID: 1429165313}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.00036621094, y: 0, z: 0}
+  m_LocalPosition: {x: -0.34181213, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -32285,18 +32279,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1501843819}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1501843821 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4966963517602743666, guid: b7df2809a25cfde40b809be2c496d420,
-    type: 3}
-  m_PrefabInstance: {fileID: 1501843819}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 948750329}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 643ea4bc79b55444d974ddbd31a6cd5d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1503853799
 GameObject:
   m_ObjectHideFlags: 0
@@ -32499,7 +32481,7 @@ Transform:
   m_GameObject: {fileID: 1519260257}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1597.0001, y: 899.00006, z: 0}
+  m_LocalPosition: {x: 1596, y: 899.00006, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -33755,18 +33737,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1578768998}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1578769000 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4966963517602743666, guid: b7df2809a25cfde40b809be2c496d420,
-    type: 3}
-  m_PrefabInstance: {fileID: 1578768998}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1498009547}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 643ea4bc79b55444d974ddbd31a6cd5d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1580828381 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100004, guid: b501b788c71b2d44382ad4e5604d9bfb,
@@ -43590,6 +43560,7 @@ GameObject:
   - component: {fileID: 2052038998}
   - component: {fileID: 2052038997}
   - component: {fileID: 2052038999}
+  - component: {fileID: 2052039000}
   m_Layer: 0
   m_Name: GameSetupSystem
   m_TagString: Untagged
@@ -43666,18 +43637,25 @@ MonoBehaviour:
   actionReceiverss:
   - {fileID: 840021276}
   - {fileID: 2019718600}
-  uIKeyNavigations:
-  - {fileID: 764446998}
-  - {fileID: 1578769000}
-  - {fileID: 236333004}
-  - {fileID: 1040296890}
-  - {fileID: 1501843821}
-  - {fileID: 1709514734}
-  - {fileID: 172826182}
-  - {fileID: 1303626272}
-  - {fileID: 2117380677}
-  - {fileID: 772961906}
-  - {fileID: 109400981}
+  changeActionMap: {fileID: 2052039000}
+--- !u!114 &2052039000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052038995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02659cb5dd7f7e7428402b8fdf5580cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _executeOnAwake: 0
+  _executeOnEnable: 0
+  _controllerMapToSwitchTo: PopUp
+  _playerIndex: 0
+  _forAllPlayers: 1
+  _disableOtherMaps: 1
 --- !u!1 &2053063496
 GameObject:
   m_ObjectHideFlags: 0

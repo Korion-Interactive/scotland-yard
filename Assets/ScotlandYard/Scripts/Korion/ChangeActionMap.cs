@@ -1,7 +1,5 @@
-using Cysharp.Threading.Tasks.Triggers;
 using Korion.ScotlandYard.Input;
 using Rewired;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -25,7 +23,8 @@ public class ChangeActionMap : MonoBehaviour
     [SerializeField]
     private bool _disableOtherMaps = true;
 
-    private string _cachedControllerMap = null;
+    //private string _cachedControllerMap = null;
+    private int _cachedControllerMap = -1;
 
     // Start is called before the first frame update
     void Awake()
@@ -72,33 +71,21 @@ public class ChangeActionMap : MonoBehaviour
         player.controllers.maps.SetMapsEnabled(true, controllerMap);
     }
 
-    public void ResetControllerMaps()
+    public void RevertControllerMaps()
     {
         Debug.Log("ResetControllerMaps");
         foreach (var _player in MultiplayerInputManager.Instance.AllPlayers)     // For now let every player share the same controller map
         {
-            if (_controllerMapToSwitchTo == "Default")
+            if(_cachedControllerMap != -1)
             {
-                _player.controllers.maps.SetMapsEnabled(false, "Default");
-                _player.controllers.maps.SetMapsEnabled(false, "PopUp");
-                _player.controllers.maps.SetMapsEnabled(true, "UI");
-            }
-            else if (_controllerMapToSwitchTo == "UI")
-            {
-                _player.controllers.maps.SetMapsEnabled(true, "Default");
-                _player.controllers.maps.SetMapsEnabled(false, "UI");
-                _player.controllers.maps.SetMapsEnabled(false, "PopUp");
-            }
-            else if(_controllerMapToSwitchTo == "PopUp")
-            {
-                _player.controllers.maps.SetMapsEnabled(true, "Default"); //IS THIS ALWAYS TRUE?! //why not using cached in these cases
-                _player.controllers.maps.SetMapsEnabled(false, "UI");
-                _player.controllers.maps.SetMapsEnabled(false, "PopUp");
+                _player.controllers.maps.SetAllMapsEnabled(false);
+
+                _player.controllers.maps.SetMapsEnabled(true, _cachedControllerMap);
             }
         }
     }
 
-    private string GetCurrentActionMap()
+    private int GetCurrentActionMap()
     {
         Player player = ReInput.players.GetPlayer(_playerIndex);
         IEnumerable<ControllerMap> cm = player.controllers.maps.GetMaps(ControllerType.Joystick, _playerIndex); //KORION Todo: Get proper player Index
@@ -106,11 +93,11 @@ public class ChangeActionMap : MonoBehaviour
         {
             if(c.enabled)
             {
-                return c.name;
+                return c.categoryId;
             }
         }
 
         Debug.LogError("Error, no controller map active");
-        return "Error, no controller map active";
+        return -1;
     }
 }

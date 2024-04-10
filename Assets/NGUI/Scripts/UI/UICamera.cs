@@ -661,11 +661,13 @@ public class UICamera : MonoBehaviour
 		}
 	}
 
-	/// <summary>
-	/// Static comparison function used for sorting.
-	/// </summary>
+    public static GameObject MLastSelection { get => mLastSelection; set => mLastSelection = value; }
 
-	static int CompareFunc (UICamera a, UICamera b)
+    /// <summary>
+    /// Static comparison function used for sorting.
+    /// </summary>
+
+    static int CompareFunc (UICamera a, UICamera b)
 	{
 		if (a.cachedCamera.depth < b.cachedCamera.depth) return 1;
 		if (a.cachedCamera.depth > b.cachedCamera.depth) return -1;

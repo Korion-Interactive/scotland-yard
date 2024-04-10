@@ -158,10 +158,20 @@ public class GameSetupSystem : NetworkSystem<GameSetupEvents, GameSetupSystem>
                 {
                     //KORION
                     //if(cachedSelectedObject == no button... dann nicht) //breakpoints
+
+                    //UICamera.
+
                     cachedSelectedObject = UICamera.selectedObject;
-                    PopupManager.ShowQuestion("access_denied", "too_few_players", OnClick, null); //KORION POP UP
-                    SetNewGamePanelSelectionActive(false);
+                    //Debug.Log("UICamera.selectedObject: " + UICamera.selectedObject);
+
+                    PopupManager.ShowQuestion("access_denied", "too_few_players", OnClick , null); //KORION POP UP
+                    PopupManager.Instance.CachedButton = PopupManager.Instance.CurrentPopup.yesButton; //used to activate when receiving uiCancelAction //popupkill
+                    
                     PopupManager.Instance.CurrentPopup.noButton.SetActive(false);
+                    PopupManager.Instance.CurrentPopup.yesButton.SetActive(true);
+                    
+                    SetNewGamePanelSelectionActive(false);
+
                 }
                 else
                 {
@@ -190,15 +200,21 @@ public class GameSetupSystem : NetworkSystem<GameSetupEvents, GameSetupSystem>
     //KORION
     private void OnClick(GameObject go)
     {
-        UICamera.selectedObject = cachedSelectedObject;
+        UICamera.MLastSelection = cachedSelectedObject;
+        //UICamera.selectedObject = cachedSelectedObject;
+        //Debug.Log("cachedSelectedObject: " + cachedSelectedObject);
         cachedSelectedObject = null;
+
         SetNewGamePanelSelectionActive(true);
+
+        PopupManager.Instance.CachedButton = null;
     }
 
     //KORION
     private void SetNewGamePanelSelectionActive(bool isActive)
     {
         gameObject.GetComponent<SetNewGamePanelSelectionActive>().SetActive(isActive);
+        gameObject.GetComponent<SetNewGamePanelSelectionActive>().ActivateActionMap(isActive);
     }
 
     public void BackClicked()

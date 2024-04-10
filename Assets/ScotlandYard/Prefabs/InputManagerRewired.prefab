@@ -219,7 +219,7 @@ MonoBehaviour:
       - _enabled: 1
         _categoryId: 1
         _layoutId: 0
-      - _enabled: 1
+      - _enabled: 0
         _categoryId: 2
         _layoutId: 0
       _defaultCustomControllerMaps: []
@@ -262,7 +262,7 @@ MonoBehaviour:
       - _enabled: 1
         _categoryId: 1
         _layoutId: 0
-      - _enabled: 1
+      - _enabled: 0
         _categoryId: 2
         _layoutId: 0
       _defaultCustomControllerMaps: []
@@ -305,7 +305,7 @@ MonoBehaviour:
       - _enabled: 1
         _categoryId: 1
         _layoutId: 0
-      - _enabled: 1
+      - _enabled: 0
         _categoryId: 2
         _layoutId: 0
       _defaultCustomControllerMaps: []
@@ -348,7 +348,7 @@ MonoBehaviour:
       - _enabled: 1
         _categoryId: 1
         _layoutId: 0
-      - _enabled: 1
+      - _enabled: 0
         _categoryId: 2
         _layoutId: 0
       _defaultCustomControllerMaps: []
@@ -391,7 +391,7 @@ MonoBehaviour:
       - _enabled: 1
         _categoryId: 1
         _layoutId: 0
-      - _enabled: 1
+      - _enabled: 0
         _categoryId: 2
         _layoutId: 0
       _defaultCustomControllerMaps: []
