@@ -150,7 +150,7 @@ public class GameSetupSystem : NetworkSystem<GameSetupEvents, GameSetupSystem>
         else
         {
             int playerCount = GameSetupBehaviour.Instance.IterateAllPlayers(false).Count();
-            if (playerCount <= 6 && !GameSetupBehaviour.Instance.IsMultiControllerGame())
+            if (playerCount <= 3)
             {
                 StartObject.SetComponentsInChildrenEnabled<UIPlayAnimation>(false);
 
