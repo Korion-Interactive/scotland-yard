@@ -34,6 +34,6 @@ public class SetNewGamePanelSelectionActive : MonoBehaviour
         if (!isSet)
             changeActionMap.SetControllerMapState();
         else
-            changeActionMap.RevertControllerMaps();
+            changeActionMap.ResetControllerMaps();
     }
 }

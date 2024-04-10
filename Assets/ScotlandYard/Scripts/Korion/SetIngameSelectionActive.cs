@@ -34,6 +34,6 @@ public class SetIngameSelectionActive : MonoBehaviour
         if(!isSet)
             changeActionMap.SetControllerMapState();
         else
-            changeActionMap.RevertControllerMaps();
+            changeActionMap.ResetControllerMaps();
     }
 }
