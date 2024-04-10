@@ -1,5 +1,7 @@
+using Cysharp.Threading.Tasks.Triggers;
 using Korion.ScotlandYard.Input;
 using Rewired;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -71,7 +73,7 @@ public class ChangeActionMap : MonoBehaviour
         player.controllers.maps.SetMapsEnabled(true, controllerMap);
     }
 
-    public void RevertControllerMaps()
+    public void ResetControllerMaps()
     {
         Debug.Log("ResetControllerMaps");
         foreach (var _player in MultiplayerInputManager.Instance.AllPlayers)     // For now let every player share the same controller map
