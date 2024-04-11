@@ -30414,7 +30414,7 @@ Transform:
   m_GameObject: {fileID: 458689115}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 61.419556, z: 0}
+  m_LocalPosition: {x: 0, y: 61.271973, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -30439,7 +30439,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2573, y: 1006, z: 10}
+  m_Size: {x: 2570, y: 1005, z: 10}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &458689119
 MonoBehaviour:
@@ -30472,13 +30472,13 @@ MonoBehaviour:
   updateAnchors: 1
   mColor: {r: 1, g: 1, b: 1, a: 0}
   mPivot: 4
-  mWidth: 2573
-  mHeight: 1006
+  mWidth: 2570
+  mHeight: 1005
   mDepth: -1
   autoResizeBoxCollider: 1
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 2.555666
+  aspectRatio: 2.5576541
   mAtlas: {fileID: 0}
   mSpriteName: menu_button_a
   mType: 0
@@ -55614,6 +55614,7 @@ MonoBehaviour:
   _executeOnAwake: 0
   _executeOnEnable: 0
   _controllerMapToSwitchTo: Default
+  _specifiedControllerMapToResetTo: 
   _playerIndex: 0
   _forAllPlayers: 0
   _disableOtherMaps: 0
@@ -62904,9 +62905,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc659eba6a2b27d4e92c86920ad06bc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  actionReceiverss:
-  - {fileID: 1881794143}
-  - {fileID: 1646549208}
   changeActionMap: {fileID: 938627991}
 --- !u!114 &938627991
 MonoBehaviour:
@@ -62923,6 +62921,7 @@ MonoBehaviour:
   _executeOnAwake: 0
   _executeOnEnable: 0
   _controllerMapToSwitchTo: PopUp
+  _specifiedControllerMapToResetTo: 
   _playerIndex: 0
   _forAllPlayers: 1
   _disableOtherMaps: 1
@@ -87865,6 +87864,7 @@ MonoBehaviour:
   _executeOnAwake: 0
   _executeOnEnable: 0
   _controllerMapToSwitchTo: UI
+  _specifiedControllerMapToResetTo: Default
   _playerIndex: 0
   _forAllPlayers: 0
   _disableOtherMaps: 1
@@ -90269,7 +90269,7 @@ Transform:
   m_GameObject: {fileID: 1338533925}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.4195709, z: 0}
+  m_LocalPosition: {x: 0, y: -1.5900421, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -109184,7 +109184,7 @@ Transform:
   m_GameObject: {fileID: 1600239678}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.4195709, z: 0}
+  m_LocalPosition: {x: 0, y: -1.5900421, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -115421,6 +115421,7 @@ MonoBehaviour:
   _executeOnAwake: 0
   _executeOnEnable: 0
   _controllerMapToSwitchTo: UI
+  _specifiedControllerMapToResetTo: 
   _playerIndex: 0
   _forAllPlayers: 0
   _disableOtherMaps: 1
@@ -135606,6 +135607,7 @@ MonoBehaviour:
   _executeOnAwake: 0
   _executeOnEnable: 0
   _controllerMapToSwitchTo: UI
+  _specifiedControllerMapToResetTo: 
   _playerIndex: 0
   _forAllPlayers: 1
   _disableOtherMaps: 1

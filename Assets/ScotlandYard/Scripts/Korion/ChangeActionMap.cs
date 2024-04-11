@@ -17,6 +17,9 @@ public class ChangeActionMap : MonoBehaviour
     private string _controllerMapToSwitchTo;
 
     [SerializeField]
+    private string _specifiedControllerMapToResetTo;
+
+    [SerializeField]
     private int _playerIndex = 0;
 
     [SerializeField]
@@ -43,7 +46,10 @@ public class ChangeActionMap : MonoBehaviour
         Player player = ReInput.players.GetPlayer(_playerIndex);
         _cachedControllerMap = GetCurrentActionMap();
 
-        foreach(var _player in MultiplayerInputManager.Instance.AllPlayers)     // For now let every player share the same controller map
+        Debug.Log("_cachedControllerMap: " + _cachedControllerMap);
+        Debug.Log("_controllerMapToSwitchTo_: " + _controllerMapToSwitchTo);
+
+        foreach (var _player in MultiplayerInputManager.Instance.AllPlayers)     // For now let every player share the same controller map
             SetControllerMap(_player, _controllerMapToSwitchTo);
     }
 
@@ -78,7 +84,14 @@ public class ChangeActionMap : MonoBehaviour
         Debug.Log("ResetControllerMaps");
         foreach (var _player in MultiplayerInputManager.Instance.AllPlayers)     // For now let every player share the same controller map
         {
-            if(_cachedControllerMap != -1)
+            //double Ticket fix, since the flow of an event fires after we already switched to ui and therefore cache ui to switch back to when we actually expect default
+            if(_specifiedControllerMapToResetTo != "")
+            {
+                Debug.Log("reset to specified controller map: " + _specifiedControllerMapToResetTo);
+                _player.controllers.maps.SetAllMapsEnabled(false);
+                _player.controllers.maps.SetMapsEnabled(true, _specifiedControllerMapToResetTo);
+            }
+            else if(_cachedControllerMap != -1)
             {
                 _player.controllers.maps.SetAllMapsEnabled(false);
 
