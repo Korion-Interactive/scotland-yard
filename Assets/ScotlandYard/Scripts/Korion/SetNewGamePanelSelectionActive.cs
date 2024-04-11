@@ -5,27 +5,7 @@ using UnityEngine;
 public class SetNewGamePanelSelectionActive : MonoBehaviour
 {
     [SerializeField]
-    public List<ActionReceiver> actionReceiverss = new List<ActionReceiver>();
-
-    //[SerializeField]
-    //public List<UIKeyNavigation> uIKeyNavigations = new List<UIKeyNavigation>();
-
-    [SerializeField]
     public ChangeActionMap changeActionMap;
-
-    //KORION this should not be neccessary anymore - since changed via action maps
-    public void SetActive(bool isActive)
-    {
-        //for (int i = 0; i < uIKeyNavigations.Count; i++)
-        //{
-        //    uIKeyNavigations[i].enabled = isActive;
-        //}
-
-        for (int i = 0; i < actionReceiverss.Count; i++)
-        {
-            actionReceiverss[i].enabled = isActive;
-        }
-    }
 
     public void ActivateActionMap(bool isSet)
     {

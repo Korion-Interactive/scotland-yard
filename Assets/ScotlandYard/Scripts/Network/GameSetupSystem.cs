@@ -158,9 +158,7 @@ public class GameSetupSystem : NetworkSystem<GameSetupEvents, GameSetupSystem>
                 if (playerCount <= 1)
                 {
                     //KORION
-                    Debug.Log("  cachedSelectedObject = UICamera.selectedObject;" + UICamera.selectedObject);
                     cachedSelectedObject = UICamera.selectedObject;
-                    //Debug.Log("UICamera.selectedObject: " + UICamera.selectedObject);
 
                     PopupManager.ShowQuestion("access_denied", "too_few_players", OnClick , null);
                     PopupManager.Instance.CachedButton = PopupManager.Instance.CurrentPopup.yesButton; //used to activate when receiving uiCancelAction //popupkill
@@ -209,19 +207,13 @@ public class GameSetupSystem : NetworkSystem<GameSetupEvents, GameSetupSystem>
     //KORION
     private void OnClick(GameObject go)
     {
-        //UICamera.selectedObject = cachedSelectedObject;
-        //Debug.Log("cachedSelectedObject: " + cachedSelectedObject);
         SetNewGamePanelSelectionActive(true);
 
         PopupManager.Instance.CachedButton = null;
 
         //changed ja aber nicht
-        //UICamera.MLastSelection = cachedSelectedObject; 
-        Debug.Log("UICamera.MLastSelection = cachedSelectedObject; " + UICamera.MLastSelection);
-        Debug.Log("cachedSelectedObject: " + cachedSelectedObject);
         UICamera.ForceSetSelection(cachedSelectedObject);
 
-        //UICamera.selectedObject = cachedSelectedObject;
         cachedSelectedObject = null;
 
         UICamera.currentCamera.GetComponent<UICamera>().horizontalAxisName = cachedHorizontalAxisName;
@@ -230,7 +222,6 @@ public class GameSetupSystem : NetworkSystem<GameSetupEvents, GameSetupSystem>
     //KORION
     private void SetNewGamePanelSelectionActive(bool isActive)
     {
-        gameObject.GetComponent<SetNewGamePanelSelectionActive>().SetActive(isActive);
         gameObject.GetComponent<SetNewGamePanelSelectionActive>().ActivateActionMap(isActive);
     }
 

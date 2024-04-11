@@ -43634,9 +43634,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95e6f8d22113e494aae8c2e060a89b29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  actionReceiverss:
-  - {fileID: 840021276}
-  - {fileID: 2019718600}
   changeActionMap: {fileID: 2052039000}
 --- !u!114 &2052039000
 MonoBehaviour:
