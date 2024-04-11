@@ -23,6 +23,7 @@ public class GameSetupSystem : NetworkSystem<GameSetupEvents, GameSetupSystem>
     HashSet<string> ReadyPlayers = new HashSet<string>();
 
     private GameObject cachedSelectedObject;
+    private string cachedHorizontalAxisName;
 
     public delegate void OnStartClicked();
     public static event OnStartClicked onStartClicked;
@@ -157,15 +158,11 @@ public class GameSetupSystem : NetworkSystem<GameSetupEvents, GameSetupSystem>
                 if (playerCount <= 1)
                 {
                     //KORION
-                    //if(cachedSelectedObject == no button... dann nicht) //breakpoints
-
-                    //UICamera.
-
                     Debug.Log("  cachedSelectedObject = UICamera.selectedObject;" + UICamera.selectedObject);
                     cachedSelectedObject = UICamera.selectedObject;
                     //Debug.Log("UICamera.selectedObject: " + UICamera.selectedObject);
 
-                    PopupManager.ShowQuestion("access_denied", "too_few_players", OnClick , null); //KORION POP UP
+                    PopupManager.ShowQuestion("access_denied", "too_few_players", OnClick , null);
                     PopupManager.Instance.CachedButton = PopupManager.Instance.CurrentPopup.yesButton; //used to activate when receiving uiCancelAction //popupkill
                     
                     PopupManager.Instance.CurrentPopup.noButton.SetActive(false);
@@ -185,7 +182,18 @@ public class GameSetupSystem : NetworkSystem<GameSetupEvents, GameSetupSystem>
                             scriptCalledForClick = true;
                             StartObject.BroadcastMessage("OnClick", SendMessageOptions.DontRequireReceiver);
                             scriptCalledForClick = false;
+                            SetNewGamePanelSelectionActive(true); //activates proper 
+                            UICamera.currentCamera.GetComponent<UICamera>().horizontalAxisName = cachedHorizontalAxisName;
+                            //?
+                            //cachedSelectedObject
                         }, OnClick);
+
+                    PopupManager.Instance.CachedButton = PopupManager.Instance.CurrentPopup.noButton; //used to activate when receiving uiCancelAction //popupkill
+
+                    //should be firstcamera
+                    cachedHorizontalAxisName = UICamera.currentCamera.GetComponent<UICamera>().horizontalAxisName;
+                    UICamera.currentCamera.GetComponent<UICamera>().horizontalAxisName = "HorizontalPopUp";
+
                     SetNewGamePanelSelectionActive(false);
                 }        
             }
@@ -215,6 +223,8 @@ public class GameSetupSystem : NetworkSystem<GameSetupEvents, GameSetupSystem>
 
         //UICamera.selectedObject = cachedSelectedObject;
         cachedSelectedObject = null;
+
+        UICamera.currentCamera.GetComponent<UICamera>().horizontalAxisName = cachedHorizontalAxisName;
     }
 
     //KORION

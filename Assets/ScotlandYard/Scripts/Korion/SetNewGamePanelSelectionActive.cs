@@ -13,6 +13,7 @@ public class SetNewGamePanelSelectionActive : MonoBehaviour
     [SerializeField]
     public ChangeActionMap changeActionMap;
 
+    //KORION this should not be neccessary anymore - since changed via action maps
     public void SetActive(bool isActive)
     {
         //for (int i = 0; i < uIKeyNavigations.Count; i++)
