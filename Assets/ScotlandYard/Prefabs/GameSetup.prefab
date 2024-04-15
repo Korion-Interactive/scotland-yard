@@ -107,4 +107,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8f1ebf7ad33ffd43a77e38ca1e3c7e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _achievementInitializer: {fileID: 0}
+  _achievementInitializer: {fileID: 2933540705757860868, guid: 6e3da5c1d6d7b36419b4bb31bacd60c5,
+    type: 3}

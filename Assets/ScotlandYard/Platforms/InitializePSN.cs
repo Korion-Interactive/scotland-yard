@@ -42,6 +42,6 @@ public class InitializePSN : MonoBehaviour
             }
 #endif
         //Korion todo Test Achievements
-        //Instantiate(_achievementInitializer, transform.parent);
+        Instantiate(_achievementInitializer, transform.parent);
     }
 }
