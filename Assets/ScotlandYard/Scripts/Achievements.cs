@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Ravity;
+using Korion.Achievements;
 
 public static class Achievements
 {
@@ -15,22 +16,25 @@ public static class Achievements
     public const string sightseeing_tour = "sightseeing_tour";
     public const string nothing_better_than_tube = "nothing_better_than_tube";
     public const string rookie = "rookie";
-    public const string society = "society";
+    public const string society = "society"; //KORION WE DONT SUPPORT this CHEAT that cause an avalanche
     public const string life_in_a_fast_lane = "life_in_a_fast_lane";
     public const string specialist = "specialist";
     public const string master_x = "master_x";
     public const string bames_jond = "bames_jond";
-    public const string mi_5 = "mi_5";
+    public const string mi_5 = "mi_5"; //KORION NOT NECCESSARY
 
     public static void Unlock(string lookupId)
     {
-        if (!GSP.IsStatusAvailable)
-        {
-			Log.info("achievements", "couldn't unlock achievement because GSP status is not available.");
-            return;
-        }
-        string id = GetId(lookupId);
-        GSP.Status.UnlockAchievement(id);
+        //KORION ACHIEVEMENTS //Cleaned
+   //     if (!GSP.IsStatusAvailable)
+   //     {
+			//Log.info("achievements", "couldn't unlock achievement because GSP status is not available.");
+   //         return;
+   //     }
+        //string id = GetId(lookupId);
+        //GSP.Status.UnlockAchievement(id);
+
+        AchievementFacade.Unlock(lookupId);
     }
 
     public static void Progress(string lookupId, int stepIncrement)
@@ -52,7 +56,7 @@ public static class Achievements
 
         if (HardwareUtils.IsiOS) column = "game_center_id";
         if (HardwareUtils.IsAndroid) column = "google_play_id";
-
+        
         //KORION TODO: Column is game center or google play ID. This must be changed. Is this even easily possible to use?
         return AppSetup.Instance.AchievementTable[column, lookupId];
     }

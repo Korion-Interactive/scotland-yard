@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1c4b6d46537b5fc47b633774fca6ad7c, type: 3}
-  m_Name: Achievement_01_Catch20fishintheRuhr-lake
+  m_Name: Achievement_01_TheDetective
   m_EditorClassIdentifier: 
   _sharedId: Bigge1
   _data:

@@ -53,14 +53,14 @@ public static class Stats
     static void TutorialAchivementCheck(bool before, bool after)
     {
         //TODO KORION Achievements
-        if (before == false && after == true)
+        //if (before == false && after == true)
             //Achievements.Progress(Achievements.rookie, 1);
 
         if(Stats.CompletedTutorial1 && Stats.CompletedTutorial2 && Stats.CompletedTutorial3)
         {
             // just to be sure... maybe it couldn't access achievements before
             //TODO KORION Achievements
-            //Achievements.Progress(Achievements.rookie, 3);
+            Achievements.Unlock(Achievements.rookie);
         }
     }
 
