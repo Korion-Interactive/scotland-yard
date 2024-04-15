@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class ClickByKey : MonoBehaviour
 {
@@ -11,6 +6,8 @@ public class ClickByKey : MonoBehaviour
 
     public KeyCode Key = KeyCode.Escape; // Escape is "Back" on Android
 
+
+#if !UNITY_EDITOR && !UNITY_PS4 && !UNITY_PS5 && !UNITY_STANDALONE
     void Update()
     {
         if (Input.GetKeyUp(Key) && ! IsBlockedGlobally)
@@ -18,5 +15,5 @@ public class ClickByKey : MonoBehaviour
             SendMessage("OnClick");
         }
     }
-
+#endif
 }

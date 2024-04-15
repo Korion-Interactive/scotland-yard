@@ -1,8 +1,5 @@
 using Korion.ScotlandYard.Input;
 using Rewired;
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 

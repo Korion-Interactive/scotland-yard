@@ -43664,7 +43664,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actionReceiverss:
-  - {fileID: 840021276}
+  - {fileID: 0}
   - {fileID: 2019718600}
   uIKeyNavigations:
   - {fileID: 764446998}
