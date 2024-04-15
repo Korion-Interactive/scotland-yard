@@ -196,4 +196,9 @@ public class GameSetupBehaviour : MonoBehaviour
 
         return sb.ToString();
     }
+
+    public bool IsMultiControllerGame()
+    {
+        return Setup.Mode == GameMode.MultiController;
+    }
 }
