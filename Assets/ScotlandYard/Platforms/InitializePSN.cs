@@ -41,7 +41,7 @@ public class InitializePSN : MonoBehaviour
                 Korion.PS4.PSN.PSNService.Initialize(init);
             }
 #endif
-        //Korion todo Test Achievements
-        //Instantiate(_achievementInitializer, transform.parent);
+        //Korion
+        Instantiate(_achievementInitializer, transform.parent);
     }
 }

@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1c4b6d46537b5fc47b633774fca6ad7c, type: 3}
-  m_Name: Achievement_02_Catch40fishintheRuhr-lake
+  m_Name: Achievement_11_HammerThrowRecord
   m_EditorClassIdentifier: 
-  _sharedId: Bigge2
+  _sharedId: HammerThrowRecord
   _data:
   - rid: 6113317808777723904
   - rid: 6113317808777723905
@@ -22,10 +22,10 @@ MonoBehaviour:
     - rid: 6113317808777723904
       type: {class: PS4AchievementData, ns: Korion.Achievements.PS4, asm: Korion.Achievements}
       data:
-        _trophyIdentifier: 2
+        _trophyIdentifier: 11
         _maxProgress: 1
     - rid: 6113317808777723905
       type: {class: PS5AchievementData, ns: Korion.Achievements.PS5, asm: Korion.Achievements}
       data:
-        _trophyIdentifier: 2
+        _trophyIdentifier: 11
         _maxProgress: 1
