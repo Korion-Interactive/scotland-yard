@@ -83,7 +83,7 @@ public class CheatAchievementSociety : Cheat
     public override void Activate()
     {
         //PopupManager.ShowPrompt("CHEAT ACTIVATED", "\n\nYou found a cheat code:\nAchievement 'Society'\n\n");
-        //TODO KORION Achievements //Cleaned
+        //KORION Achievements //Cleaned
         //Achievements.Unlock(Achievements.society);
     }
 }
