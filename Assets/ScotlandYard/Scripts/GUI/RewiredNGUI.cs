@@ -13,6 +13,8 @@ public class RewiredNGUI : MonoBehaviour
     // Rewired Axis Actions
     private static string _leftStickX = "UIHorizontal";
     private static string _leftStickY = "UIVertical";
+    
+    private static string _leftStickXPop = "HorizontalPopUp";
 
     private static string _dPadX = "Horizontal";
     private static string _dPadY = "Vertical";
@@ -78,6 +80,8 @@ public class RewiredNGUI : MonoBehaviour
         {
             case "UIHorizontal": return MultiplayerInputManager.Instance.CurrentPlayer.GetAxis(_leftStickX) + MultiplayerInputManager.Instance.CurrentPlayer.GetAxis(_dPadX);
             case "UIVertical": return MultiplayerInputManager.Instance.CurrentPlayer.GetAxis(_leftStickY) + MultiplayerInputManager.Instance.CurrentPlayer.GetAxis(_dPadY);
+
+            case "HorizontalPopUp": return MultiplayerInputManager.Instance.CurrentPlayer.GetAxis(_leftStickXPop) + MultiplayerInputManager.Instance.CurrentPlayer.GetAxis(_dPadX);
         }
         return 0;
     }

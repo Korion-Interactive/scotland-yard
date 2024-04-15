@@ -195,23 +195,23 @@ public class AppSetup : MonoBehaviour
 
     public UniTask WriteDataAsync<T>(string id, T data, CancellationToken cancellationToken = default)
     {
-        Debug.Log("KORION: Start Writing Data");
+        //Debug.Log("KORION: Start Writing Data");
         var writer = IOSystem.Instance.GetWriter();
         //string json = JsonUtility.ToJson(savedSettings, prettyPrint: true); //now data
 
-        Debug.Log("Writing Korion IO");
+        //Debug.Log("Writing Korion IO");
 
         return writer.WriteAsync(id, data, cancellationToken);
     }
 
     public async UniTask<T> ReadDataAsync<T>(string id, CancellationToken cancellationToken = default)
     {
-        Debug.Log("KORION: Start Reading Data");
+        //Debug.Log("KORION: Start Reading Data");
         var reader = IOSystem.Instance.GetReader();
 
         T data = await reader.Read<T>(id, cancellationToken);
 
-        Debug.Log("Reading Korion IO: " + data);
+        //Debug.Log("Reading Korion IO: " + data);
         return data;
     }
 
@@ -222,7 +222,6 @@ public class AppSetup : MonoBehaviour
 #if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5
         //TODO KORION IO
         string statsPath = "stats.txt"; //id
-        Debug.Log("KORION: STart reading or creating stats table");
         string data = await ReadDataAsync<string>(statsPath);
         if (data == null)
         {
@@ -270,15 +269,13 @@ public class AppSetup : MonoBehaviour
         }
     }
 
-    //KORION why was this even static?
     public async UniTask<bool> HasOpenGame()
     {
 #if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5
-        //TODO KORION IO
-        Debug.Log("KORION: Checking if has open game");
-        Debug.Log("Last Savegamepath: " + Globals.LastGameSetupPath);
+        //Debug.Log("KORION: Checking if has open game");
+        //Debug.Log("Last Savegamepath: " + Globals.LastGameSetupPath);
         string data = await ReadDataAsync<string>(Globals.LastGameSetupPath);
-        Debug.Log("KORION: Data read");
+        //Debug.Log("KORION: Data read");
         return (data != null);
 #else
         return File.Exists(Globals.LastGameSetupPath) && File.Exists(Globals.LastGameStatePath);

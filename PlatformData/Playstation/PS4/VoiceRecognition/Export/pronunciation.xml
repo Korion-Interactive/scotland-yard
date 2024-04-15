@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gamePackage>
+  <language id="01" modified="0">
+    <speechRecognitionWords>
+      <text display="1">Summer Games Challenge</text>
+      <pronunciation>s ah m ax r ___ g ey m z ___ ch ae l ih n jh</pronunciation>
+    </speechRecognitionWords>
+  </language>
+  <language id="02" modified="0">
+    <speechRecognitionWords>
+      <text display="1">Summer Games Challenge</text>
+      <pronunciation>s O m E R ___ g e i m z ___ S a l AX n d z</pronunciation>
+    </speechRecognitionWords>
+  </language>
+  <language id="03" modified="0">
+    <speechRecognitionWords>
+      <text display="1">Summer Games Challenge</text>
+      <pronunciation>s o m e r ___ g e j m s ___ tS a l a n jj</pronunciation>
+    </speechRecognitionWords>
+  </language>
+  <language id="04" modified="0">
+    <speechRecognitionWords>
+      <text display="1">Summer Games Challenge</text>
+      <pronunciation>s o m er ___ g e j m z ___ tS ae l ae n Z</pronunciation>
+    </speechRecognitionWords>
+  </language>
+  <language id="05" modified="0">
+    <speechRecognitionWords>
+      <text display="1">Summer Games Challenge</text>
+      <pronunciation>s u m m e r ___ g a m e s ___ tS e l l e n dZ e</pronunciation>
+    </speechRecognitionWords>
+  </language>
+  <language id="08" modified="0">
+    <speechRecognitionWords>
+      <text display="1">Summer Games Challenge</text>
+      <pronunciation>s o m ae r ___ g e j m z ___ tS a l ae n Z</pronunciation>
+    </speechRecognitionWords>
+  </language>
+  <language id="16" modified="0">
+    <speechRecognitionWords>
+      <text display="1">Summer Games Challenge</text>
+      <pronunciation>s u m m e r ___ g e j m s ___ x a l l e N g e</pronunciation>
+    </speechRecognitionWords>
+  </language>
+  <language id="18" modified="0">
+    <speechRecognitionWords>
+      <text display="1">Summer Games Challenge</text>
+      <pronunciation>s ah m ax r ___ g ey m z ___ ch ae l ih n jh</pronunciation>
+    </speechRecognitionWords>
+  </language>
+</gamePackage>

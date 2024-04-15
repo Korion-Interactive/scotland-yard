@@ -66,19 +66,13 @@ public class PlayerTurnSystem : BaseSystem<GameEvents, PlayerTurnSystem>
 
         if (IsMixedHotSeatGame())
         {
-            //firstTurn;
-            Debug.Log("POPUP-PASS");
-            //button immer selektieren ngui feature
             PauseAndBlur(true);
 
             PopupManager.ShowQuestion("pass_device", "mr_x_turn_starts", (o) => { PauseAndBlur(false); firstTurn(); SetIngameSelectionActive(true); PopupManager.Instance.CachedButton = null; }, null); //KORION POP UP
             PopupManager.Instance.CachedButton = PopupManager.Instance.CurrentPopup.yesButton; //used to activate when receiving uiCancelAction //popupkill
             PopupManager.Instance.CurrentPopup.text.GetComponent<UILabel>().text = string.Format(PopupManager.Instance.CurrentPopup.text.GetComponent<UILabel>().text, GameState.Instance.MrX.PlayerDisplayName); //KORION IMPROVE --> NEXT LINE IN BETWEEN
             PopupManager.Instance.CurrentPopup.noButton.SetActive(false);
-            //PopupManager.Instance.CurrentPopup.yesButton.SetActive(true);
             SetIngameSelectionActive(false);
-            
-            //UICamera.selectedObject = PopupManager.Instance.CurrentPopup.yesButton;
         }
         else
         {
@@ -88,7 +82,6 @@ public class PlayerTurnSystem : BaseSystem<GameEvents, PlayerTurnSystem>
 
     private void SetIngameSelectionActive(bool isActive)
     {
-        gameObject.GetComponent<SetIngameSelectionActive>().SetActive(isActive);
         gameObject.GetComponent<SetIngameSelectionActive>().SetProperActionMap(isActive);
     }
 
@@ -227,16 +220,12 @@ public class PlayerTurnSystem : BaseSystem<GameEvents, PlayerTurnSystem>
 
         if(IsMixedHotSeatGame())
         {
-            //firstTurn;
-            Debug.Log("POPUP-PASS");
-            //button immer selektieren ngui feature
             PauseAndBlur(true);
 
             PopupManager.ShowQuestion("pass_device", "mr_x_turn_starts", (o) => { PauseAndBlur(false); nextPlayer(); SetIngameSelectionActive(true); PopupManager.Instance.CachedButton = null; }, null); //KORION POP UP
             PopupManager.Instance.CachedButton = PopupManager.Instance.CurrentPopup.yesButton; //used to activate when receiving uiCancelAction //popupkill
             PopupManager.Instance.CurrentPopup.text.GetComponent<UILabel>().text = string.Format(PopupManager.Instance.CurrentPopup.text.GetComponent<UILabel>().text, GameState.Instance.MrX.PlayerDisplayName); //KORION IMPROVE --> NEXT LINE IN BETWEEN
             PopupManager.Instance.CurrentPopup.noButton.SetActive(false);
-            //PopupManager.Instance.CurrentPopup.yesButton.SetActive(true);
             SetIngameSelectionActive(false);
         }
         else

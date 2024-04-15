@@ -12,7 +12,16 @@ public class ActionReceiver : MonoBehaviour
 
     private void OnEnable()
     {
+        //or enable this object later
+        if(MultiplayerInputManager.Instance.CurrentPlayer == null)
+        {
+            MultiplayerInputManager.onPlayerChanged += OnPlayerChanged;
+            Debug.Log("Couldnt set ActionReceivers Player on Enable, will be set OnPlayerChanged later");
+            return;
+        }
+
         //KORION TODO: Get current player
+
         _player = MultiplayerInputManager.Instance.CurrentPlayer;
 
         MultiplayerInputManager.onPlayerChanged += OnPlayerChanged;

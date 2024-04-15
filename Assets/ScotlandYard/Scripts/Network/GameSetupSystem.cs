@@ -1,9 +1,6 @@
-using Newtonsoft.Json.Bson;
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using UnityEngine;
 
 public class GameSetupSystem : NetworkSystem<GameSetupEvents, GameSetupSystem>
@@ -23,6 +20,7 @@ public class GameSetupSystem : NetworkSystem<GameSetupEvents, GameSetupSystem>
     HashSet<string> ReadyPlayers = new HashSet<string>();
 
     private GameObject cachedSelectedObject;
+    private string cachedHorizontalAxisName;
 
     public delegate void OnStartClicked();
     public static event OnStartClicked onStartClicked;
@@ -157,11 +155,16 @@ public class GameSetupSystem : NetworkSystem<GameSetupEvents, GameSetupSystem>
                 if (playerCount <= 1)
                 {
                     //KORION
-                    //if(cachedSelectedObject == no button... dann nicht) //breakpoints
                     cachedSelectedObject = UICamera.selectedObject;
-                    PopupManager.ShowQuestion("access_denied", "too_few_players", OnClick, null); //KORION POP UP
-                    SetNewGamePanelSelectionActive(false);
+
+                    PopupManager.ShowQuestion("access_denied", "too_few_players", OnClick , null);
+                    PopupManager.Instance.CachedButton = PopupManager.Instance.CurrentPopup.yesButton; //used to activate when receiving uiCancelAction //popupkill
+                    
                     PopupManager.Instance.CurrentPopup.noButton.SetActive(false);
+                    PopupManager.Instance.CurrentPopup.yesButton.SetActive(true);
+                    
+                    SetNewGamePanelSelectionActive(false);
+
                 }
                 else
                 {
@@ -174,7 +177,18 @@ public class GameSetupSystem : NetworkSystem<GameSetupEvents, GameSetupSystem>
                             scriptCalledForClick = true;
                             StartObject.BroadcastMessage("OnClick", SendMessageOptions.DontRequireReceiver);
                             scriptCalledForClick = false;
+                            SetNewGamePanelSelectionActive(true); //activates proper 
+                            UICamera.currentCamera.GetComponent<UICamera>().horizontalAxisName = cachedHorizontalAxisName;
+                            //?
+                            //cachedSelectedObject
                         }, OnClick);
+
+                    PopupManager.Instance.CachedButton = PopupManager.Instance.CurrentPopup.noButton; //used to activate when receiving uiCancelAction //popupkill
+
+                    //should be firstcamera
+                    cachedHorizontalAxisName = UICamera.currentCamera.GetComponent<UICamera>().horizontalAxisName;
+                    UICamera.currentCamera.GetComponent<UICamera>().horizontalAxisName = "HorizontalPopUp";
+
                     SetNewGamePanelSelectionActive(false);
                 }        
             }
@@ -190,15 +204,22 @@ public class GameSetupSystem : NetworkSystem<GameSetupEvents, GameSetupSystem>
     //KORION
     private void OnClick(GameObject go)
     {
-        UICamera.selectedObject = cachedSelectedObject;
-        cachedSelectedObject = null;
         SetNewGamePanelSelectionActive(true);
+
+        PopupManager.Instance.CachedButton = null;
+
+        //changed ja aber nicht
+        UICamera.ForceSetSelection(cachedSelectedObject);
+
+        cachedSelectedObject = null;
+
+        UICamera.currentCamera.GetComponent<UICamera>().horizontalAxisName = cachedHorizontalAxisName;
     }
 
     //KORION
     private void SetNewGamePanelSelectionActive(bool isActive)
     {
-        gameObject.GetComponent<SetNewGamePanelSelectionActive>().SetActive(isActive);
+        gameObject.GetComponent<SetNewGamePanelSelectionActive>().ActivateActionMap(isActive);
     }
 
     public void BackClicked()

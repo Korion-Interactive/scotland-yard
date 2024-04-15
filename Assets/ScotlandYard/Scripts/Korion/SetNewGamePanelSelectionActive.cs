@@ -5,24 +5,16 @@ using UnityEngine;
 public class SetNewGamePanelSelectionActive : MonoBehaviour
 {
     [SerializeField]
-    public List<ActionReceiver> actionReceiverss = new List<ActionReceiver>();
+    public ChangeActionMap changeActionMap;
 
-    [SerializeField]
-    public List<UIKeyNavigation> uIKeyNavigations = new List<UIKeyNavigation>();
-
-    public void SetActive(bool isActive)
+    public void ActivateActionMap(bool isSet)
     {
-        //TOOD KORION --> cancelui action map fix
-        //PopupManager.Instance.CurrentPopup.yesButton.GetComponent<ActionReceiver>().enabled = isActive;
+        Debug.Log("ActivateActionMap");
 
-        for (int i = 0; i < uIKeyNavigations.Count; i++)
-        {
-            uIKeyNavigations[i].enabled = isActive;
-        }
-
-        for (int i = 0; i < actionReceiverss.Count; i++)
-        {
-            actionReceiverss[i].enabled = isActive;
-        }
+        //opposite as expected --> since used by a different variable
+        if (!isSet)
+            changeActionMap.SetControllerMapState();
+        else
+            changeActionMap.ResetControllerMaps();
     }
 }
