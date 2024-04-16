@@ -45,11 +45,12 @@ public class AchievementStatsSystem : BaseSystem<GameEvents, AchievementStatsSys
 
     bool IsTrackingAllowed()
     {
-        //KORION ACHIEVEMENTS ISTRACKINGALLOWED
-        return true;
-
+        //not in toutorial
         if (GameSetupBehaviour.Instance.Setup.Mode != GameMode.HotSeat && GameSetupBehaviour.Instance.Setup.Mode != GameMode.Network && GameSetupBehaviour.Instance.Setup.Mode != GameMode.MultiController)
             return false;
+
+        //KORION ACHIEVEMENTS ISTRACKINGALLOWED
+        return true;
 
         bool isMrXHuman = GameState.Instance.MrX.PlayerInfo.Controller == PlayerController.Human;
         bool isAnyDetectiveHuman = GameSetupBehaviour.Instance.CountDetectiveControlTypes(PlayerController.Human) > 0;
