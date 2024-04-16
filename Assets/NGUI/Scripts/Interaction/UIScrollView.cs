@@ -3,6 +3,9 @@
 // Copyright © 2011-2014 Tasharen Entertainment
 //----------------------------------------------
 
+using Korion.ScotlandYard.Input;
+using Rewired;
+using System;
 using UnityEngine;
 
 /// <summary>
@@ -145,6 +148,9 @@ public class UIScrollView : MonoBehaviour
 	protected int mDragID = -10;
 	protected Vector2 mDragStartOffset = Vector2.zero;
 	protected bool mDragStarted = false;
+
+	// KORION: Rewire Player
+	private Player _player;
 
 	/// <summary>
 	/// Panel that's being dragged.
@@ -328,8 +334,38 @@ public class UIScrollView : MonoBehaviour
 		}
 	}
 
-	void OnEnable () { list.Add(this); }
-	void OnDisable () { list.Remove(this); }
+	void OnEnable () 
+	{ 
+		list.Add(this);
+
+		// KORION: player management
+		foreach (Player p in MultiplayerInputManager.Instance.AllPlayers)
+		{
+			p.AddInputEventDelegate(OnRightStickY, UpdateLoopType.Update, "UIScrollVertical");
+		}
+	}
+
+	void OnDisable () 
+	{
+		// KORION: player management
+		foreach (Player p in MultiplayerInputManager.Instance.AllPlayers)
+		{
+			p.RemoveInputEventDelegate(OnRightStickY);
+		}
+
+		list.Remove(this); 
+	}
+
+	// KORION: Scroll on controller input!
+	int nonTouchScrollSpeed = 800;	// Change for higher/lower scroll speed on joysticks and mouse wheel
+	private void OnRightStickY(InputActionEventData data)
+	{
+		if (data.GetAxis() != 0 && shouldMoveVertically)
+		{
+			Vector3 relativeMove = new Vector3(0, -data.GetAxis() * Time.deltaTime * nonTouchScrollSpeed, 0);
+			MoveRelative(relativeMove);
+		}
+	}
 
 	/// <summary>
 	/// Set the initial drag value and register the listener delegates.
