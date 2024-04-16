@@ -190,7 +190,7 @@ public class GameNetworkSystem : NetworkSystem<GameEvents, GameNetworkSystem>
 
     private void GainSocietyAchievement(BaseArgs obj)
     {
-        //TODO KORION Achievements
+        //KORION Achievements //Cleaned
         //Achievements.Unlock(Achievements.society);
     }
 }

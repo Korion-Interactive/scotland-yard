@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 400000}
   - component: {fileID: 11400000}
-  - component: {fileID: 1745301209482449277}
   m_Layer: 0
   m_Name: GameSetup
   m_TagString: Untagged
@@ -95,16 +94,3 @@ MonoBehaviour:
   PrefabMrX: {fileID: 100002, guid: 201ae68d54a4c614a85c2c4e626517c1, type: 3}
   PrefabDetective: {fileID: 100000, guid: 55440888d501410468ba900e5bca694b, type: 3}
   StationFont: {fileID: 12800000, guid: 70e1d94f4bb358c478527940b0b4296e, type: 3}
---- !u!114 &1745301209482449277
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8f1ebf7ad33ffd43a77e38ca1e3c7e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _achievementInitializer: {fileID: 0}

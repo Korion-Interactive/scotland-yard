@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1c4b6d46537b5fc47b633774fca6ad7c, type: 3}
-  m_Name: Achievement_13_Firstfishofover10kg
+  m_Name: Achievement_07_SightseeingTour
   m_EditorClassIdentifier: 
-  _sharedId: Weight4
+  _sharedId: sightseeing_tour
   _data:
   - rid: 6113317808777723904
   - rid: 6113317808777723905
@@ -22,10 +22,10 @@ MonoBehaviour:
     - rid: 6113317808777723904
       type: {class: PS4AchievementData, ns: Korion.Achievements.PS4, asm: Korion.Achievements}
       data:
-        _trophyIdentifier: 13
+        _trophyIdentifier: 7
         _maxProgress: 1
     - rid: 6113317808777723905
       type: {class: PS5AchievementData, ns: Korion.Achievements.PS5, asm: Korion.Achievements}
       data:
-        _trophyIdentifier: 13
+        _trophyIdentifier: 7
         _maxProgress: 1

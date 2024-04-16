@@ -863,14 +863,14 @@ PlayerSettings:
   switchRamDiskSpaceSize: 12
   ps4NPAgeRating: 12
   ps4NPTitleSecret: 
-  ps4NPTrophyPackPath: 
+  ps4NPTrophyPackPath: PlatformData/Playstation/PS4/trophies.trp
   ps4ParentalLevel: 1
   ps4ContentID: ED1633-NPXX51362_00-0000000000000000
   ps4Category: 0
   ps4MasterVersion: 01.00
   ps4AppVersion: 01.00
   ps4AppType: 0
-  ps4ParamSfxPath: 
+  ps4ParamSfxPath: PlatformData/Playstation/PS4/param_eu.sfx
   ps4VideoOutPixelFormat: 0
   ps4VideoOutInitialWidth: 1920
   ps4VideoOutBaseModeInitialWidth: 1920
@@ -884,11 +884,11 @@ PlayerSettings:
   ps4SaveDataImagePath: 
   ps4SdkOverride: 
   ps4BGMPath: 
-  ps4ShareFilePath: 
+  ps4ShareFilePath: PlatformData/Playstation/PS4/shareparam.json
   ps4ShareOverlayImagePath: 
   ps4PrivacyGuardImagePath: 
   ps4ExtraSceSysFile: 
-  ps4NPtitleDatPath: 
+  ps4NPtitleDatPath: PlatformData/Playstation/PS4/CUSA48071_00_EU/nptitle.dat
   ps4RemotePlayKeyAssignment: -1
   ps4RemotePlayKeyMappingDir: 
   ps4PlayTogetherPlayerCount: 0
