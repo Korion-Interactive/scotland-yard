@@ -45,12 +45,16 @@ public class AchievementStatsSystem : BaseSystem<GameEvents, AchievementStatsSys
 
     bool IsTrackingAllowed()
     {
-        if (GameSetupBehaviour.Instance.Setup.Mode != GameMode.HotSeat && GameSetupBehaviour.Instance.Setup.Mode != GameMode.Network)
+        //KORION ACHIEVEMENTS ISTRACKINGALLOWED
+        return true;
+
+        if (GameSetupBehaviour.Instance.Setup.Mode != GameMode.HotSeat && GameSetupBehaviour.Instance.Setup.Mode != GameMode.Network && GameSetupBehaviour.Instance.Setup.Mode != GameMode.MultiController)
             return false;
 
         bool isMrXHuman = GameState.Instance.MrX.PlayerInfo.Controller == PlayerController.Human;
         bool isAnyDetectiveHuman = GameSetupBehaviour.Instance.CountDetectiveControlTypes(PlayerController.Human) > 0;
 
+        //Korion Achievement Stats Tracking --> entweder nur MR X oder nur Detective
         return (isMrXHuman && !isAnyDetectiveHuman) || (!isMrXHuman && isAnyDetectiveHuman);
     }
 
