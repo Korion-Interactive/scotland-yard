@@ -31,8 +31,14 @@
             "libc.prx",
             "libSceNpCppWebApi.prx"
         ],
-        "sharedBinaryContentLabels": [],
-        "sharedBinarySystemFolders": [],
+        "sharedBinaryContentLabels": [
+            "",
+            "secondary"
+        ],
+        "sharedBinarySystemFolders": [
+            "PlatformData/Playstation/PS5/PPSA22034_00_EU",
+            "PlatformData/Playstation/PS5/PPSA22035_00_US"
+        ],
         "workspaceName": "workspace0",
         "buildCompressionType": 0,
         "buildCompressionLevel": 0,
