@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c4b6d46537b5fc47b633774fca6ad7c, type: 3}
   m_Name: Achievement_09_Rookie
   m_EditorClassIdentifier: 
-  _sharedId: Alaska5
+  _sharedId: rookie
   _data:
   - rid: 6113317808777723904
   - rid: 6113317808777723905
