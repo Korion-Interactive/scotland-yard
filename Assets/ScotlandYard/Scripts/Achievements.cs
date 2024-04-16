@@ -26,14 +26,14 @@ public static class Achievements
     public static void Unlock(string lookupId)
     {
         //KORION ACHIEVEMENTS //Cleaned
-   //     if (!GSP.IsStatusAvailable)
-   //     {
-			//Log.info("achievements", "couldn't unlock achievement because GSP status is not available.");
-   //         return;
-   //     }
+        //     if (!GSP.IsStatusAvailable)
+        //     {
+        //Log.info("achievements", "couldn't unlock achievement because GSP status is not available.");
+        //         return;
+        //     }
         //string id = GetId(lookupId);
         //GSP.Status.UnlockAchievement(id);
-
+        UnityEngine.Debug.Log(lookupId);
         AchievementFacade.Unlock(lookupId);
     }
 

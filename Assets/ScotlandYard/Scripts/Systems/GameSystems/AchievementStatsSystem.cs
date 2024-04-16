@@ -96,7 +96,7 @@ public class AchievementStatsSystem : BaseSystem<GameEvents, AchievementStatsSys
         {
             case TransportationType.Taxi:
                 Stats.TaxiRides++;
-
+                Debug.Log("Stats.TaxiRides: " + Stats.TaxiRides);
                 //TODO KORION Achievements
                 if(Stats.TaxiRides >= 100)
                     Achievements.Unlock(Achievements.driver);
@@ -104,20 +104,23 @@ public class AchievementStatsSystem : BaseSystem<GameEvents, AchievementStatsSys
             case TransportationType.Bus:
                 Stats.BusRides++;
 
-                    //TODO KORION Achievements
+                Debug.Log("Stats.BusRides: " + Stats.BusRides);
+                //TODO KORION Achievements
                 if (Stats.BusRides >= 100)
                     Achievements.Unlock(Achievements.sightseeing_tour);
                     break;
             case TransportationType.Metro:
                 Stats.MetroRides++;
 
+                Debug.Log("Stats.MetroRides: " + Stats.MetroRides);
                 //TODO KORION Achievements
-                if(Stats.MetroRides >= 100)
+                if (Stats.MetroRides >= 100)
                     Achievements.Unlock(Achievements.nothing_better_than_tube);
                 break;
             case TransportationType.Any:
                 Stats.BlackTicketsUsed++;
 
+                Debug.Log("Stats.BlackTicketsUsed: " + Stats.BlackTicketsUsed);
                 //TODO KORION Achievements
                 if (Stats.BlackTicketsUsed > 100)
                     Achievements.Unlock(Achievements.specialist);
