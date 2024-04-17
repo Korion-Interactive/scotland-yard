@@ -3819,6 +3819,7 @@ GameObject:
   - component: {fileID: 192382898}
   - component: {fileID: 192382899}
   - component: {fileID: 192382900}
+  - component: {fileID: 192382901}
   m_Layer: 8
   m_Name: Panel - Main Menu
   m_TagString: Untagged
@@ -3965,6 +3966,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   alpha: 1
+--- !u!114 &192382901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 192382894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02659cb5dd7f7e7428402b8fdf5580cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _executeOnAwake: 0
+  _executeOnEnable: 1
+  _controllerMapToSwitchTo: UI
+  _specifiedControllerMapToResetTo: UI
+  _playerIndex: 0
+  _forAllPlayers: 1
+  _disableOtherMaps: 1
 --- !u!1 &196497375
 GameObject:
   m_ObjectHideFlags: 0
@@ -30623,7 +30643,7 @@ Transform:
   m_GameObject: {fileID: 1429165313}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.31443787, y: 0, z: 0}
+  m_LocalPosition: {x: -0.00036621094, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -43650,6 +43670,7 @@ MonoBehaviour:
   _executeOnAwake: 0
   _executeOnEnable: 0
   _controllerMapToSwitchTo: PopUp
+  _specifiedControllerMapToResetTo: 
   _playerIndex: 0
   _forAllPlayers: 1
   _disableOtherMaps: 1
