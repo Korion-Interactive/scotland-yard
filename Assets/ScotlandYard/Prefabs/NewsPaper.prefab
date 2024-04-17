@@ -233,6 +233,8 @@ GameObject:
   - component: {fileID: 6500000}
   - component: {fileID: 11400010}
   - component: {fileID: 11400012}
+  - component: {fileID: 8511949277828804121}
+  - component: {fileID: 7055708500286085300}
   m_Layer: 8
   m_Name: NewsPaper
   m_TagString: Untagged
@@ -354,6 +356,54 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d80b41a10f0fff45b9e2c18e0ae034f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &8511949277828804121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c8f05e925b0479489f6782bb65d1ffd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _actionToTrigger: UISubmit
+  _onActionTriggered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400012}
+        m_TargetAssemblyTypeName: MakeNewsPaperClickeable, Assembly-CSharp
+        m_MethodName: LoadMenu
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 100004}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  PlayerID: 0
+--- !u!114 &7055708500286085300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02659cb5dd7f7e7428402b8fdf5580cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _executeOnAwake: 0
+  _executeOnEnable: 1
+  _controllerMapToSwitchTo: UI
+  _specifiedControllerMapToResetTo: 
+  _playerIndex: 0
+  _forAllPlayers: 0
+  _disableOtherMaps: 1
 --- !u!1 &100006
 GameObject:
   m_ObjectHideFlags: 0

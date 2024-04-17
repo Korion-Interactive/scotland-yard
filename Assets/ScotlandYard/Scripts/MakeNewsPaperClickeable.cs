@@ -22,7 +22,7 @@ public class MakeNewsPaperClickeable : MonoBehaviour {
         }
     }
 
-    private void LoadMenu(GameObject obj)
+    public void LoadMenu(GameObject obj)
     {
         if(!GameSetupBehaviour.Instance.Setup.Mode.IsTutorial())
         {
