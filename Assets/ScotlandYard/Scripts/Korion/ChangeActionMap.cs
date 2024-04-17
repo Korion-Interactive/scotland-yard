@@ -1,7 +1,5 @@
-using Cysharp.Threading.Tasks.Triggers;
 using Korion.ScotlandYard.Input;
 using Rewired;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -35,6 +33,14 @@ public class ChangeActionMap : MonoBehaviour
     void Awake()
     {
         if(_executeOnAwake)
+        {
+            SetControllerMapState();
+        }
+    }
+
+    private void OnEnable()
+    {
+        if(_executeOnEnable)
         {
             SetControllerMapState();
         }
