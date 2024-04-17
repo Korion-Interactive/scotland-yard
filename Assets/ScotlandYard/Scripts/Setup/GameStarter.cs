@@ -34,7 +34,10 @@ public class GameStarter : MonoBehaviour
         if (!GameState.Instance.HasBeenLoadedFromFile)
         {
             this.Broadcast<GameEvents>(GameEvents.GameStart);
-            _onGameLoadedNotFromFile?.Invoke();
+
+            //not if first player ist mr x... 
+            if(!(GameSetupBehaviour.Instance.Setup.MrXSetup.Controller == PlayerController.Human))
+                _onGameLoadedNotFromFile?.Invoke();
         }
     }
 
