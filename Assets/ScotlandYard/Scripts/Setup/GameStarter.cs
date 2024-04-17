@@ -11,7 +11,7 @@ using Korion.ScotlandYard.Input;
 public class GameStarter : MonoBehaviour
 {
     [SerializeField]
-    private UnityEvent _onGameLoaded;
+    private UnityEvent _onGameLoadedNotFromFile;
     IEnumerator Start()
     {
         GSP.AllowInvites = false;
@@ -30,10 +30,12 @@ public class GameStarter : MonoBehaviour
 
         MultiplayerInputManager.Instance.NextPlayer(); // KORION: Switch to next player, so that input-player 0 is starting
 
-        _onGameLoaded?.Invoke();
 
         if (!GameState.Instance.HasBeenLoadedFromFile)
+        {
             this.Broadcast<GameEvents>(GameEvents.GameStart);
+            _onGameLoadedNotFromFile?.Invoke();
+        }
     }
 
     void OnDestroy()

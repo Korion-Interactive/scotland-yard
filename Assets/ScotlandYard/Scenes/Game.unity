@@ -30414,7 +30414,7 @@ Transform:
   m_GameObject: {fileID: 458689115}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 61.271973, z: 0}
+  m_LocalPosition: {x: -0.49438477, y: 61.236694, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -30439,7 +30439,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2570, y: 1005, z: 10}
+  m_Size: {x: 2569, y: 1006, z: 10}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &458689119
 MonoBehaviour:
@@ -30472,13 +30472,13 @@ MonoBehaviour:
   updateAnchors: 1
   mColor: {r: 1, g: 1, b: 1, a: 0}
   mPivot: 4
-  mWidth: 2570
-  mHeight: 1005
+  mWidth: 2569
+  mHeight: 1006
   mDepth: -1
   autoResizeBoxCollider: 1
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 2.5576541
+  aspectRatio: 2.557214
   mAtlas: {fileID: 0}
   mSpriteName: menu_button_a
   mType: 0
@@ -55555,7 +55555,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4f9bf0b5ba2e29459e87a7307953981, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _onGameLoaded:
+  _onGameLoadedNotFromFile:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 851777423}
@@ -90269,7 +90269,7 @@ Transform:
   m_GameObject: {fileID: 1338533925}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.5900421, z: 0}
+  m_LocalPosition: {x: 0, y: -1.2366943, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -109184,7 +109184,7 @@ Transform:
   m_GameObject: {fileID: 1600239678}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.5900421, z: 0}
+  m_LocalPosition: {x: 0, y: -1.2366943, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
