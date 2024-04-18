@@ -44,9 +44,9 @@ public static class Globals
     public const int Detective_TicketStartAmount_Bus = 8;
     public const int Detective_TicketStartAmount_Metro = 4;
 
-    public const int MrX_TicketStartAmount_Taxi = 4;
-    public const int MrX_TicketStartAmount_Bus = 3;
-    public const int MrX_TicketStartAmount_Metro = 3;
+    public const int MrX_TicketStartAmount_Taxi = 99;
+    public const int MrX_TicketStartAmount_Bus = 99;
+    public const int MrX_TicketStartAmount_Metro = 99;
     public const int MrX_StartAmount_DoubleTickets = 2;
 
     public const int MrX_Appear_1st_Time = 3;
