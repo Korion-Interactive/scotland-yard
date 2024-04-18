@@ -52,6 +52,11 @@ public class ActionReceiver : MonoBehaviour
         }
     }
 
+    public void SimulateActionPressed()
+    {
+        _onActionTriggered?.Invoke();
+    }
+
     // Update is called once per frame
     void Update()
     {
