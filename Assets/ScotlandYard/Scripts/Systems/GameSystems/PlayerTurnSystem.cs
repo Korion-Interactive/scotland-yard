@@ -40,12 +40,10 @@ public class PlayerTurnSystem : BaseSystem<GameEvents, PlayerTurnSystem>
         if (IsMixedHotSeatGame() && player.IsMrX && !player.PlayerState.IsCurrentlyMoving)
         {
             PauseAndBlur(true); 
-            //PopupManager.ShowPrompt("pass_device", "mr_x_turn_starts", (o) => { PauseAndBlur(false);}, GameState.Instance.MrX.PlayerDisplayName);
-
-            //first turn nicht?
-            PopupManager.ShowQuestion("pass_device", "mr_x_turn_starts", (o) => { PauseAndBlur(false); SetIngameSelectionActive(true); PopupManager.Instance.CachedButton = null; }, null); //KORION POP UP
+            
+            PopupManager.ShowQuestion("pass_device", "MrX_turn", (o) => { PauseAndBlur(false); SetIngameSelectionActive(true); PopupManager.Instance.CachedButton = null; }, null); //KORION POP UP
             PopupManager.Instance.CachedButton = PopupManager.Instance.CurrentPopup.yesButton; //used to activate when receiving uiCancelAction //popupkill
-            PopupManager.Instance.CurrentPopup.text.GetComponent<UILabel>().text = string.Format(PopupManager.Instance.CurrentPopup.text.GetComponent<UILabel>().text, GameState.Instance.MrX.PlayerDisplayName); //KORION IMPROVE --> NEXT LINE IN BETWEEN
+            //PopupManager.Instance.CurrentPopup.text.GetComponent<UILabel>().text = string.Format(PopupManager.Instance.CurrentPopup.text.GetComponent<UILabel>().text, GameState.Instance.MrX.PlayerDisplayName); //KORION IMPROVE --> NEXT LINE IN BETWEEN
             PopupManager.Instance.CurrentPopup.noButton.SetActive(false);
             SetIngameSelectionActive(false);
         }
@@ -75,9 +73,9 @@ public class PlayerTurnSystem : BaseSystem<GameEvents, PlayerTurnSystem>
         {
             PauseAndBlur(true);
 
-            PopupManager.ShowQuestion("pass_device", "mr_x_turn_starts", (o) => { PauseAndBlur(false); firstTurn(); SetIngameSelectionActive(true); PopupManager.Instance.CachedButton = null; }, null); //KORION POP UP
+            PopupManager.ShowQuestion("pass_device", "MrX_turn", (o) => { PauseAndBlur(false); firstTurn(); SetIngameSelectionActive(true); PopupManager.Instance.CachedButton = null; }, null); //KORION POP UP
             PopupManager.Instance.CachedButton = PopupManager.Instance.CurrentPopup.yesButton; //used to activate when receiving uiCancelAction //popupkill
-            PopupManager.Instance.CurrentPopup.text.GetComponent<UILabel>().text = string.Format(PopupManager.Instance.CurrentPopup.text.GetComponent<UILabel>().text, GameState.Instance.MrX.PlayerDisplayName); //KORION IMPROVE --> NEXT LINE IN BETWEEN
+            //PopupManager.Instance.CurrentPopup.text.GetComponent<UILabel>().text = string.Format(PopupManager.Instance.CurrentPopup.text.GetComponent<UILabel>().text, GameState.Instance.MrX.PlayerDisplayName); //KORION IMPROVE --> NEXT LINE IN BETWEEN
             PopupManager.Instance.CurrentPopup.noButton.SetActive(false);
             SetIngameSelectionActive(false);
         }
@@ -229,7 +227,7 @@ public class PlayerTurnSystem : BaseSystem<GameEvents, PlayerTurnSystem>
         {
             PauseAndBlur(true);
 
-            PopupManager.ShowQuestion("pass_device", "mr_x_turn_starts", (o) => { PauseAndBlur(false); nextPlayer(); SetIngameSelectionActive(true); PopupManager.Instance.CachedButton = null; }, null); //KORION POP UP
+            PopupManager.ShowQuestion("pass_device", "MrX_turn", (o) => { PauseAndBlur(false); nextPlayer(); SetIngameSelectionActive(true); PopupManager.Instance.CachedButton = null; }, null); //KORION POP UP
             PopupManager.Instance.CachedButton = PopupManager.Instance.CurrentPopup.yesButton; //used to activate when receiving uiCancelAction //popupkill
             PopupManager.Instance.CurrentPopup.text.GetComponent<UILabel>().text = string.Format(PopupManager.Instance.CurrentPopup.text.GetComponent<UILabel>().text, GameState.Instance.MrX.PlayerDisplayName); //KORION IMPROVE --> NEXT LINE IN BETWEEN
             PopupManager.Instance.CurrentPopup.noButton.SetActive(false);
