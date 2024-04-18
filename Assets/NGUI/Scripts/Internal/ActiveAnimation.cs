@@ -212,6 +212,7 @@ public class ActiveAnimation : MonoBehaviour
 			if (current == null)
 			{
 				current = this;
+				Debug.Log("hey Active Animation is trigger here: " + gameObject);
 				EventDelegate.Execute(onFinished);
 
 				// Deprecated functionality, kept for backwards compatibility
@@ -320,7 +321,7 @@ public class ActiveAnimation : MonoBehaviour
 		if (aa == null) aa = anim.gameObject.AddComponent<ActiveAnimation>();
 		aa.mAnim = anim;
 		aa.mDisableDirection = (Direction)(int)disableCondition;
-		aa.onFinished.Clear();
+		//aa.onFinished.Clear();
 		aa.Play(clipName, playDirection);
 
 		if (aa.mAnim != null) aa.mAnim.Sample();
@@ -373,7 +374,7 @@ public class ActiveAnimation : MonoBehaviour
 		if (aa == null) aa = anim.gameObject.AddComponent<ActiveAnimation>();
 		aa.mAnimator = anim;
 		aa.mDisableDirection = (Direction)(int)disableCondition;
-		aa.onFinished.Clear();
+		//aa.onFinished.Clear();
 		aa.Play(clipName, playDirection);
 
 		if (aa.mAnim != null) aa.mAnim.Sample();
