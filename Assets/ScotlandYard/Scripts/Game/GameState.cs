@@ -121,7 +121,8 @@ public class GameState : ISerializable
         var mrX = GameObject.FindObjectOfType<MrX>();
         this.Assert(mrX != null);
 
-        mrX.BlackTicketStartAmount = players.Count - 1;
+        //mrX.BlackTicketStartAmount = players.Count - 1;
+        mrX.BlackTicketStartAmount = 5;
 
         // INIT PLAYERS
         foreach (var p in players)
