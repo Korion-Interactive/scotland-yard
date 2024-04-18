@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class ClickManager : MonoBehaviour
 {
@@ -16,6 +17,8 @@ public class ClickManager : MonoBehaviour
     public List<GameObject> ObjectsToDisableOnClickAnywhere = new List<GameObject>();
 
     public PlayerMouseSpriteExample _playerPointer;
+
+    public UnityEvent _OnMoveHistoryClick, _OnOptionsButtonClick;
 
     Vector2 startClickPosition;
     bool clickTracked;
@@ -139,6 +142,20 @@ public class ClickManager : MonoBehaviour
                     if (clickable.TryClick())
                     {
                         anythingClicked = true;
+                        string clickableName = clickable.ToString();
+                        clickableName = clickable.GetSimpleName();
+
+                        if (clickableName.Contains("Arrow_down") || clickableName.Contains("Arrow_up"))
+                        {
+
+                            _OnMoveHistoryClick?.Invoke();
+
+                        }
+                        else if(clickableName.Contains("OptionsOnBtn") || clickableName.Contains("OptionsOffBtn"))
+                        {
+                            Debug.Log("OPTIONS");
+                            _OnOptionsButtonClick?.Invoke();
+                        }
                         break;
                     }
                 }
