@@ -18,7 +18,7 @@ public class ClickManager : MonoBehaviour
 
     public PlayerMouseSpriteExample _playerPointer;
 
-    public UnityEvent _OnMoveHistoryClick, _OnOptionsButtonClick;
+    public UnityEvent _OnMoveHistoryNonvisibleClick, _OnMoveHistoryVisibleClick, _OnOptionsNonVisibleClick, _OnOptionsVisibleClick;
 
     Vector2 startClickPosition;
     bool clickTracked;
@@ -145,16 +145,21 @@ public class ClickManager : MonoBehaviour
                         string clickableName = clickable.ToString();
                         clickableName = clickable.GetSimpleName();
 
-                        if (clickableName.Contains("Arrow_down") || clickableName.Contains("Arrow_up"))
+                        if (clickableName.Contains("Arrow_down"))
                         {
-
-                            _OnMoveHistoryClick?.Invoke();
-
+                            _OnMoveHistoryNonvisibleClick?.Invoke();
                         }
-                        else if(clickableName.Contains("OptionsOnBtn") || clickableName.Contains("OptionsOffBtn"))
+                        else if (clickableName.Contains("Arrow_up"))
                         {
-                            Debug.Log("OPTIONS");
-                            _OnOptionsButtonClick?.Invoke();
+                            _OnMoveHistoryVisibleClick?.Invoke();
+                        }
+                        else if (clickableName.Contains("OptionsOnBtn"))
+                        {
+                            _OnOptionsNonVisibleClick?.Invoke();
+                        }
+                        else if(clickableName.Contains("OptionsOffBtn"))
+                        {
+                            _OnOptionsVisibleClick?.Invoke();
                         }
                         break;
                     }

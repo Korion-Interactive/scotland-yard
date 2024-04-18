@@ -54,7 +54,8 @@ public class ActionReceiver : MonoBehaviour
 
     public void SimulateActionPressed()
     {
-        _onActionTriggered?.Invoke();
+        if(gameObject.active)
+            _onActionTriggered?.Invoke();
     }
 
     // Update is called once per frame

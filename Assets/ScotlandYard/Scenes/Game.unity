@@ -30414,7 +30414,7 @@ Transform:
   m_GameObject: {fileID: 458689115}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.49438477, y: 61.236694, z: 0}
+  m_LocalPosition: {x: 0, y: 61.419556, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -30439,7 +30439,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2569, y: 1006, z: 10}
+  m_Size: {x: 2571, y: 1006, z: 10}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &458689119
 MonoBehaviour:
@@ -30472,13 +30472,13 @@ MonoBehaviour:
   updateAnchors: 1
   mColor: {r: 1, g: 1, b: 1, a: 0}
   mPivot: 4
-  mWidth: 2569
+  mWidth: 2571
   mHeight: 1006
   mDepth: -1
   autoResizeBoxCollider: 1
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 2.557214
+  aspectRatio: 2.555666
   mAtlas: {fileID: 0}
   mSpriteName: menu_button_a
   mType: 0
@@ -52735,6 +52735,8 @@ GameObject:
   - component: {fileID: 802800827}
   - component: {fileID: 802800835}
   - component: {fileID: 802800836}
+  - component: {fileID: 802800837}
+  - component: {fileID: 802800838}
   m_Layer: 8
   m_Name: OptionsOffBtn
   m_TagString: Untagged
@@ -52978,6 +52980,51 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _actionToTrigger: UIStart
+  _onActionTriggered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 802800832}
+        m_TargetAssemblyTypeName: UnityEngine.Component, UnityEngine
+        m_MethodName: SendMessage
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: OnClick
+          m_BoolArgument: 0
+        m_CallState: 2
+  PlayerID: 0
+--- !u!114 &802800837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 802800825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1df59dada5fdfc4da9d7b74d2f4354c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TriggerEvent: 12
+  ClickStartEvent: 12
+  consumeOrder: -400
+  ConsumeClick: 1
+--- !u!114 &802800838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 802800825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c8f05e925b0479489f6782bb65d1ffd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _actionToTrigger: UICancel
   _onActionTriggered:
     m_PersistentCalls:
       m_Calls:
@@ -67637,6 +67684,7 @@ GameObject:
   - component: {fileID: 996256825}
   - component: {fileID: 996256820}
   - component: {fileID: 996256826}
+  - component: {fileID: 996256827}
   m_Layer: 8
   m_Name: Arrow_up
   m_TagString: Untagged
@@ -67825,6 +67873,22 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   PlayerID: 0
+--- !u!114 &996256827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 996256818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1df59dada5fdfc4da9d7b74d2f4354c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TriggerEvent: 12
+  ClickStartEvent: 12
+  consumeOrder: -400
+  ConsumeClick: 1
 --- !u!1 &998867552
 GameObject:
   m_ObjectHideFlags: 0
@@ -88393,6 +88457,66 @@ MonoBehaviour:
   - {fileID: 1691254378}
   - {fileID: 1304427108}
   _playerPointer: {fileID: 999469969}
+  _OnMoveHistoryNonvisibleClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1646549208}
+        m_TargetAssemblyTypeName: ActionReceiver, Assembly-CSharp
+        m_MethodName: SimulateActionPressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _OnMoveHistoryVisibleClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 996256826}
+        m_TargetAssemblyTypeName: ActionReceiver, Assembly-CSharp
+        m_MethodName: SimulateActionPressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _OnOptionsNonVisibleClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1881794143}
+        m_TargetAssemblyTypeName: ActionReceiver, Assembly-CSharp
+        m_MethodName: SimulateActionPressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _OnOptionsVisibleClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 802800836}
+        m_TargetAssemblyTypeName: ActionReceiver, Assembly-CSharp
+        m_MethodName: SimulateActionPressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1310312027
 GameObject:
   m_ObjectHideFlags: 0
@@ -90269,7 +90393,7 @@ Transform:
   m_GameObject: {fileID: 1338533925}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.2366943, z: 0}
+  m_LocalPosition: {x: 0, y: -1.4195709, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -109184,7 +109308,7 @@ Transform:
   m_GameObject: {fileID: 1600239678}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.2366943, z: 0}
+  m_LocalPosition: {x: 0, y: -1.4195709, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -127473,6 +127597,7 @@ GameObject:
   - component: {fileID: 1881794140}
   - component: {fileID: 1881794142}
   - component: {fileID: 1881794143}
+  - component: {fileID: 1881794144}
   m_Layer: 8
   m_Name: OptionsOnBtn
   m_TagString: Untagged
@@ -127744,6 +127869,22 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   PlayerID: 0
+--- !u!114 &1881794144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1881794132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1df59dada5fdfc4da9d7b74d2f4354c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TriggerEvent: 12
+  ClickStartEvent: 12
+  consumeOrder: -400
+  ConsumeClick: 1
 --- !u!1 &1882762073
 GameObject:
   m_ObjectHideFlags: 0
