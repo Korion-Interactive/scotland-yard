@@ -11,6 +11,10 @@ public class GameSetupSettings : BaseBehaviour
     { "James Blond", "Sherlock", "Holmes", "Dr Watson", "Lestrade", "Mr Marple", "Holly Martens", "Austin Power", "Ace Venture", "Eddy Variant", 
         "Mr Diamond", "Charleston", "Mr Wang", "Mrs Marbles", "Mr Perrier"  };
 
+    static readonly string[] FallbackMrXNamesKorion = new string[] { "Mr X" };
+    static readonly string[] FallbackDetectiveNamesKorion = new string[]
+    { "James", "Robin", "William", "Olivia", "Mina"  };
+
     static GameSetupSettings instance;
     public static GameSetupSettings Instance { get { return instance; } }
 
@@ -218,6 +222,8 @@ public class GameSetupSettings : BaseBehaviour
 
     public void SetDetectiveNameLocal(int detectiveId, string name) {  SetPlayerName(detectiveId + 1, name, false); }
     public void SetMrXNameLocal(string name) { SetPlayerName(0, name, false); }
+
+    public void SetPlayerNameLocal(int playerId, string name) { SetPlayerName(playerId + 1, name, true); }
     public void SetPlayerName(int playerId, string name, bool forceGui = true)
     {
         if (!isInitialized && GameSetupBehaviour.Instance.IsNetworkGame)
@@ -226,9 +232,15 @@ public class GameSetupSettings : BaseBehaviour
         if (string.IsNullOrEmpty(name))
         {
             if (playerId == 0)
-                name = FallbackMrXNames.PickRandom();
+            {
+                //name = FallbackMrXNames.PickRandom(); // KORION: Original Call
+                name = FallbackMrXNamesKorion.PickRandom();
+            }
             else
-                name = FallbackDetectiveNames.PickRandom();
+            {
+                //name = FallbackDetectiveNames.PickRandom(); //KORION: Original Call
+                name = FallbackDetectiveNamesKorion[playerId-1];
+            }
         }
 
         PlayerSetup p = GameSetupBehaviour.Instance.GetPlayer(playerId);
@@ -299,7 +311,8 @@ public class GameSetupSettings : BaseBehaviour
                 }
                 else
                 {
-                    string name = (playerId == 0) ? FallbackMrXNames.PickRandom() : FallbackDetectiveNames.PickRandom();
+                    //string name = (playerId == 0) ? FallbackMrXNames.PickRandom() : FallbackDetectiveNames.PickRandom(); //KORION: Original Code
+                    string name = (playerId == 0) ? FallbackMrXNamesKorion.PickRandom() : FallbackDetectiveNamesKorion[playerId-1];
                     SetPlayerName(playerId, name, true);
                 }
                 break;

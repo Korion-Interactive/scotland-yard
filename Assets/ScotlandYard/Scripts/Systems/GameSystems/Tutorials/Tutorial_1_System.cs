@@ -52,7 +52,7 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
         if(tutorialPopupIndex == 29)
         {
             iTween.Stop();
-            GameBoardAnimationSystem.Instance.CamSubSystem.FocusCam(1f, GameState.Instance.CurrentPlayer.transform.position);
+            GameBoardAnimationSystem.Instance.CamSubSystem.FocusCam(0.65f, GameState.Instance.CurrentPlayer.transform.position); //KORION: Standard Zoom Changed from 1
         }
     }
 

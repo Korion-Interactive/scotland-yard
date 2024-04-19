@@ -141,7 +141,7 @@ public class SubCameraControl : SubSystem<GameBoardAnimationSystem>
 
     public void FocusCamera(params Vector3[] positions)
     {
-        FocusCam(-1, positions);
+        FocusCam(-0.65f, positions);
     }
 
     public void FocusCam(float targetZoom, params Vector3[] positions)
@@ -152,7 +152,7 @@ public class SubCameraControl : SubSystem<GameBoardAnimationSystem>
             iTween.ValueTo(Cam.gameObject,
                 iTween.Hash(
                 "from", Cam.orthographicSize,
-                "to", (targetZoom < 0) ? 1 : targetZoom,
+                "to", (targetZoom < 0) ? 0.65f : targetZoom,
                 "time", 1f,
                 "easetype", "easeOutCubic",
                 "onupdate", "UpdateCameraSize",

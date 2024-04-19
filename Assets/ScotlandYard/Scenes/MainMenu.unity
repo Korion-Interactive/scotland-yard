@@ -5060,17 +5060,45 @@ PrefabInstance:
       value: menu_button_a
       objectReference: {fileID: 0}
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
-      propertyPath: onSubmit.Array.data[0].mTarget
+      propertyPath: onChange.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: onSubmit.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: onChange.Array.data[0].mTarget
       value: 
       objectReference: {fileID: 277965151}
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: onSubmit.Array.data[0].mTarget
+      value: 
+      objectReference: {fileID: 2052038998}
+    - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: onChange.Array.data[0].mMethodName
+      value: SetPlayerNameLocal
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: onSubmit.Array.data[0].mMethodName
-      value: SetDetectiveNameLocal
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: onChange.Array.data[0].mParameters.Array.size
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: onSubmit.Array.data[0].mParameters.Array.size
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: onChange.Array.data[0].mParameters.Array.data[0].obj
+      value: 
+      objectReference: {fileID: 559164062}
+    - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: onChange.Array.data[0].mParameters.Array.data[1].obj
+      value: 
+      objectReference: {fileID: 2051734409}
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: onSubmit.Array.data[0].mParameters.Array.data[0].obj
       value: 
@@ -5079,6 +5107,14 @@ PrefabInstance:
       propertyPath: onSubmit.Array.data[0].mParameters.Array.data[1].obj
       value: 
       objectReference: {fileID: 2051734409}
+    - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: onChange.Array.data[0].mParameters.Array.data[0].field
+      value: GameID
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: onChange.Array.data[0].mParameters.Array.data[1].field
+      value: value
+      objectReference: {fileID: 0}
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: onSubmit.Array.data[0].mParameters.Array.data[0].field
       value: GameID
@@ -14215,7 +14251,7 @@ MonoBehaviour:
   keepAspectRatio: 0
   aspectRatio: 7.8267717
   keepCrispWhenShrunk: 1
-  mTrueTypeFont: {fileID: 12800000, guid: 70e1d94f4bb358c478527940b0b4296e, type: 3}
+  mTrueTypeFont: {fileID: 0}
   mFont: {fileID: 2118622807803598983, guid: 1bbdbd72b1efdbc4b96ca80333df2f52, type: 3}
   mText: player_selection_detectives
   mFontSize: 82
@@ -16049,9 +16085,61 @@ PrefabInstance:
       value: menu_button_a
       objectReference: {fileID: 0}
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: onChange.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: onSubmit.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: onChange.Array.data[0].mTarget
+      value: 
+      objectReference: {fileID: 277965151}
+    - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: onSubmit.Array.data[0].mTarget
       value: 
       objectReference: {fileID: 277965151}
+    - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: onChange.Array.data[0].mMethodName
+      value: SetPlayerNameLocal
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: onSubmit.Array.data[0].mMethodName
+      value: SetPlayerName
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: onChange.Array.data[0].mParameters.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: onSubmit.Array.data[0].mParameters.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: onChange.Array.data[0].mParameters.Array.data[0].obj
+      value: 
+      objectReference: {fileID: 1526686127}
+    - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: onChange.Array.data[0].mParameters.Array.data[1].obj
+      value: 
+      objectReference: {fileID: 189663980}
+    - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: onChange.Array.data[0].mParameters.Array.data[2].obj
+      value: 
+      objectReference: {fileID: 189663980}
+    - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: onChange.Array.data[0].mParameters.Array.data[0].field
+      value: GameID
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: onChange.Array.data[0].mParameters.Array.data[1].field
+      value: value
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: onChange.Array.data[0].mParameters.Array.data[2].field
+      value: enabled
+      objectReference: {fileID: 0}
     - target: {fileID: 11400016, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: mFont
       value: 
@@ -17582,7 +17670,7 @@ MonoBehaviour:
   keepAspectRatio: 0
   aspectRatio: 1.04
   keepCrispWhenShrunk: 1
-  mTrueTypeFont: {fileID: 12800000, guid: 70e1d94f4bb358c478527940b0b4296e, type: 3}
+  mTrueTypeFont: {fileID: 0}
   mFont: {fileID: 5105067679674714174, guid: f562cfe6df92c8240a9e5f5acaa49cb4, type: 3}
   mText: 
   mFontSize: 60
@@ -19558,7 +19646,7 @@ MonoBehaviour:
   keepAspectRatio: 0
   aspectRatio: 10.356021
   keepCrispWhenShrunk: 1
-  mTrueTypeFont: {fileID: 12800000, guid: f22d766b1aeaab84287fa886b66327d4, type: 3}
+  mTrueTypeFont: {fileID: 0}
   mFont: {fileID: 2411181735088573666, guid: 2790753ba150c3f40a2face461130d8c, type: 3}
   mText: player_selection_description
   mFontSize: 50
@@ -22779,7 +22867,7 @@ MonoBehaviour:
   keepAspectRatio: 0
   aspectRatio: 7.8267717
   keepCrispWhenShrunk: 1
-  mTrueTypeFont: {fileID: 12800000, guid: 70e1d94f4bb358c478527940b0b4296e, type: 3}
+  mTrueTypeFont: {fileID: 0}
   mFont: {fileID: 2118622807803598983, guid: 1bbdbd72b1efdbc4b96ca80333df2f52, type: 3}
   mText: player_selection_roundtime
   mFontSize: 82
@@ -22955,17 +23043,41 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 324737739}
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: onChange.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: onChange.Array.data[0].mTarget
+      value: 
+      objectReference: {fileID: 277965151}
+    - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: onSubmit.Array.data[0].mTarget
       value: 
       objectReference: {fileID: 277965151}
+    - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: onChange.Array.data[0].mMethodName
+      value: SetPlayerNameLocal
+      objectReference: {fileID: 0}
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: onSubmit.Array.data[0].mMethodName
       value: SetDetectiveNameLocal
       objectReference: {fileID: 0}
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: onChange.Array.data[0].mParameters.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: onSubmit.Array.data[0].mParameters.Array.size
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: onChange.Array.data[0].mParameters.Array.data[0].obj
+      value: 
+      objectReference: {fileID: 1460677286}
+    - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: onChange.Array.data[0].mParameters.Array.data[1].obj
+      value: 
+      objectReference: {fileID: 133806105}
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: onSubmit.Array.data[0].mParameters.Array.data[0].obj
       value: 
@@ -22974,6 +23086,14 @@ PrefabInstance:
       propertyPath: onSubmit.Array.data[0].mParameters.Array.data[1].obj
       value: 
       objectReference: {fileID: 133806105}
+    - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: onChange.Array.data[0].mParameters.Array.data[0].field
+      value: GameID
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: onChange.Array.data[0].mParameters.Array.data[1].field
+      value: value
+      objectReference: {fileID: 0}
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: onSubmit.Array.data[0].mParameters.Array.data[0].field
       value: GameID
@@ -30121,7 +30241,7 @@ MonoBehaviour:
   keepAspectRatio: 0
   aspectRatio: 7.8267717
   keepCrispWhenShrunk: 1
-  mTrueTypeFont: {fileID: 12800000, guid: 70e1d94f4bb358c478527940b0b4296e, type: 3}
+  mTrueTypeFont: {fileID: 0}
   mFont: {fileID: 2118622807803598983, guid: 1bbdbd72b1efdbc4b96ca80333df2f52, type: 3}
   mText: player_selection_misterx
   mFontSize: 82
@@ -30908,7 +31028,7 @@ Transform:
   m_GameObject: {fileID: 1429165313}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.5774231, y: 0, z: 0}
+  m_LocalPosition: {x: 0.00036621094, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -32380,17 +32500,41 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 324737739}
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: onChange.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: onChange.Array.data[0].mTarget
+      value: 
+      objectReference: {fileID: 277965151}
+    - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: onSubmit.Array.data[0].mTarget
       value: 
       objectReference: {fileID: 277965151}
+    - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: onChange.Array.data[0].mMethodName
+      value: SetPlayerNameLocal
+      objectReference: {fileID: 0}
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: onSubmit.Array.data[0].mMethodName
       value: SetDetectiveNameLocal
       objectReference: {fileID: 0}
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: onChange.Array.data[0].mParameters.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: onSubmit.Array.data[0].mParameters.Array.size
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: onChange.Array.data[0].mParameters.Array.data[0].obj
+      value: 
+      objectReference: {fileID: 1318261887}
+    - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: onChange.Array.data[0].mParameters.Array.data[1].obj
+      value: 
+      objectReference: {fileID: 1988458718}
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: onSubmit.Array.data[0].mParameters.Array.data[0].obj
       value: 
@@ -32399,6 +32543,14 @@ PrefabInstance:
       propertyPath: onSubmit.Array.data[0].mParameters.Array.data[1].obj
       value: 
       objectReference: {fileID: 1988458718}
+    - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: onChange.Array.data[0].mParameters.Array.data[0].field
+      value: GameID
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: onChange.Array.data[0].mParameters.Array.data[1].field
+      value: value
+      objectReference: {fileID: 0}
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: onSubmit.Array.data[0].mParameters.Array.data[0].field
       value: GameID
@@ -32779,7 +32931,7 @@ Transform:
   m_GameObject: {fileID: 1519260257}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1597.0001, y: 899.00006, z: 0}
+  m_LocalPosition: {x: 1598, y: 899.00006, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -33844,32 +33996,80 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 324737739}
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: onChange.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: onSubmit.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: onChange.Array.data[0].mTarget
+      value: 
+      objectReference: {fileID: 277965151}
+    - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: onSubmit.Array.data[0].mTarget
       value: 
       objectReference: {fileID: 277965151}
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
-      propertyPath: onSubmit.Array.data[0].mMethodName
-      value: SetDetectiveNameLocal
+      propertyPath: onSubmit.Array.data[1].mTarget
+      value: 
+      objectReference: {fileID: 277965151}
+    - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: onChange.Array.data[0].mMethodName
+      value: SetPlayerNameLocal
       objectReference: {fileID: 0}
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
-      propertyPath: onSubmit.Array.data[0].mParameters.Array.size
+      propertyPath: onSubmit.Array.data[0].mMethodName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: onChange.Array.data[0].mParameters.Array.size
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
-      propertyPath: onSubmit.Array.data[0].mParameters.Array.data[0].obj
+      propertyPath: onSubmit.Array.data[0].mParameters.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: onChange.Array.data[0].mParameters.Array.data[0].obj
       value: 
       objectReference: {fileID: 1935845169}
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
-      propertyPath: onSubmit.Array.data[0].mParameters.Array.data[1].obj
+      propertyPath: onChange.Array.data[0].mParameters.Array.data[1].obj
       value: 
       objectReference: {fileID: 801920258}
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
-      propertyPath: onSubmit.Array.data[0].mParameters.Array.data[0].field
+      propertyPath: onChange.Array.data[0].mParameters.Array.data[2].obj
+      value: 
+      objectReference: {fileID: 801920258}
+    - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: onSubmit.Array.data[0].mParameters.Array.data[0].obj
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: onSubmit.Array.data[0].mParameters.Array.data[1].obj
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: onChange.Array.data[0].mParameters.Array.data[0].field
       value: GameID
       objectReference: {fileID: 0}
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
-      propertyPath: onSubmit.Array.data[0].mParameters.Array.data[1].field
+      propertyPath: onChange.Array.data[0].mParameters.Array.data[1].field
       value: value
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: onChange.Array.data[0].mParameters.Array.data[2].field
+      value: enabled
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: onSubmit.Array.data[0].mParameters.Array.data[0].field
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: onSubmit.Array.data[0].mParameters.Array.data[1].field
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 11400016, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: mFont
@@ -36397,7 +36597,7 @@ MonoBehaviour:
   keepAspectRatio: 0
   aspectRatio: 3.0425532
   keepCrispWhenShrunk: 1
-  mTrueTypeFont: {fileID: 12800000, guid: 70e1d94f4bb358c478527940b0b4296e, type: 3}
+  mTrueTypeFont: {fileID: 0}
   mFont: {fileID: 1737021111251037978, guid: ddea7aa15c0d29949b16bc7a727a3174, type: 3}
   mText: 0:30
   mFontSize: 68
@@ -39283,8 +39483,14 @@ MonoBehaviour:
     - obj: {fileID: 1837576900}
       field: value
     oneShot: 0
-  onChange: []
-  mValue: Mr Incognito
+  onChange:
+  - mTarget: {fileID: 277965151}
+    mMethodName: SetMrXNameLocal
+    mParameters:
+    - obj: {fileID: 1837576900}
+      field: value
+    oneShot: 0
+  mValue: Mr X
 --- !u!65 &1837576901
 BoxCollider:
   m_ObjectHideFlags: 0

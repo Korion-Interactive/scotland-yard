@@ -41,6 +41,36 @@ public class Station : BaseBehaviour, IClickConsumable
         highlightFront = highlightContainer.transform.GetChildByName("highlight_front");
 
         this.spriteName = GetComponent<UISprite>().spriteName;
+
+        //KORION: We need to hack here because it is not possible to edit this inside Unity Editor without crashing
+        if(Id == 29)
+        {
+            if (stationNeighbours.ContainsKey(TransportationType.Taxi))
+            { 
+                foreach(Station s in stationNeighbours[TransportationType.Taxi])
+                {
+                    if(s.Id == 55)
+                    {
+                        stationNeighbours[TransportationType.Taxi].Remove(s);
+                        break;
+                    }
+                }
+            }
+        }
+        else if(Id == 55)
+        {
+            if (stationNeighbours.ContainsKey(TransportationType.Taxi))
+            {
+                foreach (Station s in stationNeighbours[TransportationType.Taxi])
+                {
+                    if (s.Id == 29)
+                    {
+                        stationNeighbours[TransportationType.Taxi].Remove(s);
+                        break;
+                    }
+                }
+            }
+        }
     }
 
     void Update()
