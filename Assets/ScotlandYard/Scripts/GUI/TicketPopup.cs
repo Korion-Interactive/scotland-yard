@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.UIElements;
 
 /// <summary>
 /// component 'TicketPopup'
@@ -64,7 +65,7 @@ public class TicketPopup : MonoBehaviour
         BtnTaxi.isEnabled = taxi;
         BtnBus.isEnabled = bus;
         BtnMetro.isEnabled = metro;
-        
+
         if (taxi)
         {
             _nextUiElement = BtnTaxi;
@@ -84,6 +85,25 @@ public class TicketPopup : MonoBehaviour
         this.Broadcast(GameGuiEvents.TicketPopupOpened);
         _enableClosingBehaviour = true;
         _onPopupBuilt?.Invoke();
+        /*
+        TweenScale scaler = BtnTaxi.gameObject.AddComponent<TweenScale>();
+        if (scaler != null)
+        {
+            scaler.duration = 0.1f;
+            BtnTaxi.GetComponent<TweenColor>().AddOnFinished(scaler.Toggle);
+        }
+        scaler = BtnBus.gameObject.AddComponent<TweenScale>();
+        if (scaler != null)
+        {
+            scaler.duration = 0.1f;
+            BtnBus.GetComponent<TweenColor>().AddOnFinished(scaler.Toggle);
+        }
+        scaler = BtnMetro.gameObject.AddComponent<TweenScale>();
+        if (scaler != null)
+        {
+            scaler.duration = 0.1f;
+            BtnMetro.GetComponent<TweenColor>().AddOnFinished(scaler.Toggle);
+        }*/
     }
 
     protected void SelectFirstButton()
@@ -98,11 +118,36 @@ public class TicketPopup : MonoBehaviour
             Debug.Log("ForceFocus2: " + _nextUiElement.name);
             UICamera.ForceSetSelection(_nextUiElement.gameObject);
             _nextUiElement.SetState(UIButtonColor.State.Hover, true);
+
+            TweenScale scaler = _nextUiElement.GetComponent<TweenScale>();
+            if (scaler != null)
+            {
+                scaler.from = Vector3.one;
+                scaler.to = new Vector3(1.1f, 1.1f, 1.1f);
+                scaler.enabled = true;
+                _nextUiElement.transform.localScale = new Vector3(1.1f, 1.1f, 1.1f);
+            }
+            else
+            {
+                TweenScale.Begin(_nextUiElement.gameObject, 0.1f, new Vector3(1.1f, 1.1f, 1.1f)).method = UITweener.Method.EaseInOut;
+            }
             forceFocus = false;
         }
         else
         {
             UICamera.selectedObject = _nextUiElement.gameObject;
+            TweenScale scaler = _nextUiElement.GetComponent<TweenScale>();
+            if (scaler != null)
+            {
+                scaler.from = Vector3.one;
+                scaler.to = new Vector3(1.1f, 1.1f, 1.1f);
+                scaler.enabled = true;
+                _nextUiElement.transform.localScale = new Vector3(1.1f, 1.1f, 1.1f);
+            }
+            else
+            {
+                TweenScale.Begin(_nextUiElement.gameObject, 0.1f, new Vector3(1.1f, 1.1f, 1.1f)).method = UITweener.Method.EaseInOut;
+            }
         }
     }
 

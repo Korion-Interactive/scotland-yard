@@ -23,9 +23,10 @@ public class TicketPopupMrX : TicketPopup
         BtnDouble.isEnabled = doubleT;
 
         base.SetupButtons(player, target);
+
         
-       
-            if (any)
+
+        if (any)
             {
                 _nextUiElement = BtnAny;
             } else if (doubleT)
