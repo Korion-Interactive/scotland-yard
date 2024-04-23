@@ -272,12 +272,12 @@ public class DrawStartStation : MonoBehaviour {
             this.Broadcast(GameSetupEvents.PlayerChoseCard, card.gameObject);
 
         UICamera.selectedObject = null;
-        currentPlayerID++;
 
-        if (currentPlayerID <= 6 && GameSetupBehaviour.Instance.GetPlayer(currentPlayerID).Controller == PlayerController.Human)
+        if (currentPlayerID < 6 && GameSetupBehaviour.Instance.GetPlayer(currentPlayerID).Controller == PlayerController.Human)
         {
             MultiplayerInputManager.Instance.NextPlayer();
         }
+        currentPlayerID++;
     }
 
 
