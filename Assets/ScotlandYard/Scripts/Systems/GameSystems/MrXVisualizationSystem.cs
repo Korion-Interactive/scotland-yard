@@ -24,11 +24,19 @@ using UnityEngine;
             ListenTo(GameEvents.GameLoaded, NewRound);
         }
 
-        private void Appear(BaseArgs args)
+    private void Update()
+    {
+        GhostSprite.transform.GetChild(0).GetChild(0).Rotate(0, 0, -100 * Time.deltaTime);
+        GhostSprite.transform.GetChild(0).GetChild(1).Rotate(0, 0, 60 * Time.deltaTime);
+        GhostSprite.transform.GetChild(0).GetChild(2).Rotate(0, 0, 300 * Time.deltaTime);
+    }
+
+    private void Appear(BaseArgs args)
         {
             var pos = GameState.Instance.MrX.LastAppearance.transform.position;
             GhostContainer.position = pos;
             GhostSprite.alpha = 0;
+            GhostSprite.transform.GetChild(0).gameObject.SetActive(true);
 
             iTween.ValueTo(this.gameObject,
                iTween.Hash(

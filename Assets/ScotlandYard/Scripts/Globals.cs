@@ -40,7 +40,7 @@ public static class Globals
 
     public const int StationCount = 199;
 
-    public const int Detective_TicketStartAmount_Taxi = 10;
+    public const int Detective_TicketStartAmount_Taxi = 11;
     public const int Detective_TicketStartAmount_Bus = 8;
     public const int Detective_TicketStartAmount_Metro = 4;
 
