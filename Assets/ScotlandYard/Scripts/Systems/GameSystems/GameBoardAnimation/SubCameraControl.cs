@@ -238,11 +238,7 @@ public class SubCameraControl : SubSystem<GameBoardAnimationSystem>
 
             if(_rightJoystickInput.x != 0 || _rightJoystickInput.y != 0)
             {
-#if !UNITY_SWITCH
-                DragInfo dragInfo = new DragInfo(Vector2.zero, _rightJoystickInput * 5, 1, 0, false, false);
-#else
-                DragInfo dragInfo = new DragInfo(Vector2.zero, _rightJoystickInput * 10, 1, 0, false, false);
-#endif
+                DragInfo dragInfo = new DragInfo(Vector2.zero, _rightJoystickInput * 550 * Time.deltaTime, 1, 0, false, false);
                 Gesture_onDraggingE(dragInfo);
             }
         }

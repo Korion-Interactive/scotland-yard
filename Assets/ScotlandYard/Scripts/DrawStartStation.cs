@@ -1,7 +1,6 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
 using UnityEngine.SceneManagement;
 using Korion.ScotlandYard.Input;
 
@@ -105,7 +104,7 @@ public class DrawStartStation : MonoBehaviour {
 
         if (player.Controller == PlayerController.Human)
         {
-            if(UICamera.selectedObject == null)
+            if(UICamera.selectedObject == null || !UICamera.selectedObject.activeSelf)
             {
                 // KORION: Select a new random card for each human player! 
                 UICamera.currentScheme = UICamera.ControlScheme.Controller;
@@ -273,10 +272,12 @@ public class DrawStartStation : MonoBehaviour {
             this.Broadcast(GameSetupEvents.PlayerChoseCard, card.gameObject);
 
         UICamera.selectedObject = null;
-        currentPlayerID++;
 
         if (currentPlayerID < 6 && GameSetupBehaviour.Instance.GetPlayer(currentPlayerID).Controller == PlayerController.Human)
+        {
             MultiplayerInputManager.Instance.NextPlayer();
+        }
+        currentPlayerID++;
     }
 
 
