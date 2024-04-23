@@ -15,15 +15,75 @@
       <Name>Scotland Yard</Name>
       <Publisher>Ravensburger Digital</Publisher>
     </Title>
+    <Title>
+      <Language>CanadianFrench</Language>
+      <Name>Scotland Yard</Name>
+      <Publisher>Ravensburger Digital</Publisher>
+    </Title>
+    <Title>
+      <Language>LatinAmericanSpanish</Language>
+      <Name>Scotland Yard</Name>
+      <Publisher>Ravensburger Digital</Publisher>
+    </Title>
+    <Title>
+      <Language>German</Language>
+      <Name>Scotland Yard</Name>
+      <Publisher>Ravensburger Digital</Publisher>
+    </Title>
+    <Title>
+      <Language>Italian</Language>
+      <Name>Scotland Yard</Name>
+      <Publisher>Ravensburger Digital</Publisher>
+    </Title>
+    <Title>
+      <Language>French</Language>
+      <Name>Scotland Yard</Name>
+      <Publisher>Ravensburger Digital</Publisher>
+    </Title>
+    <Title>
+      <Language>Spanish</Language>
+      <Name>Scotland Yard</Name>
+      <Publisher>Ravensburger Digital</Publisher>
+    </Title>
     <Icon>
       <Language>AmericanEnglish</Language>
-      <IconPath>..\..\..\Nintendo\SDK17_5_0\Unity2022_3_22\NintendoSDK\Resources\SpecFiles\NintendoSDK_Application.bmp</IconPath>
+      <IconPath>J:\Geteilte Ablagen\Scotland Yard\PlatformGraphics\Switch\GraphicsSwitchScotlandYard\ScotlandYard_AppIcon_1024x1024_v3_EN.bmp</IconPath>
+    </Icon>
+    <Icon>
+      <Language>CanadianFrench</Language>
+      <IconPath>J:\Geteilte Ablagen\Scotland Yard\PlatformGraphics\Switch\GraphicsSwitchScotlandYard\ScotlandYard_AppIcon_1024x1024_v3_FR.bmp</IconPath>
+    </Icon>
+    <Icon>
+      <Language>LatinAmericanSpanish</Language>
+      <IconPath>J:\Geteilte Ablagen\Scotland Yard\PlatformGraphics\Switch\GraphicsSwitchScotlandYard\ScotlandYard_AppIcon_1024x1024_v3_ES.bmp</IconPath>
+    </Icon>
+    <Icon>
+      <Language>German</Language>
+      <IconPath>J:\Geteilte Ablagen\Scotland Yard\PlatformGraphics\Switch\GraphicsSwitchScotlandYard\ScotlandYard_AppIcon_1024x1024_v3_DE.bmp</IconPath>
+    </Icon>
+    <Icon>
+      <Language>Italian</Language>
+      <IconPath>J:\Geteilte Ablagen\Scotland Yard\PlatformGraphics\Switch\GraphicsSwitchScotlandYard\ScotlandYard_AppIcon_1024x1024_v3_IT.bmp</IconPath>
+    </Icon>
+    <Icon>
+      <Language>French</Language>
+      <IconPath>J:\Geteilte Ablagen\Scotland Yard\PlatformGraphics\Switch\GraphicsSwitchScotlandYard\ScotlandYard_AppIcon_1024x1024_v3_FR.bmp</IconPath>
+    </Icon>
+    <Icon>
+      <Language>Spanish</Language>
+      <IconPath>J:\Geteilte Ablagen\Scotland Yard\PlatformGraphics\Switch\GraphicsSwitchScotlandYard\ScotlandYard_AppIcon_1024x1024_v3_ES.bmp</IconPath>
     </Icon>
     <ReleaseVersion>0</ReleaseVersion>
     <DisplayVersion>2.6</DisplayVersion>
     <StartupUserAccount>Required</StartupUserAccount>
     <UserAccountSwitchLock>Disable</UserAccountSwitchLock>
     <SupportedLanguage>AmericanEnglish</SupportedLanguage>
+    <SupportedLanguage>CanadianFrench</SupportedLanguage>
+    <SupportedLanguage>LatinAmericanSpanish</SupportedLanguage>
+    <SupportedLanguage>French</SupportedLanguage>
+    <SupportedLanguage>German</SupportedLanguage>
+    <SupportedLanguage>Spanish</SupportedLanguage>
+    <SupportedLanguage>Italian</SupportedLanguage>
     <Screenshot>Allow</Screenshot>
     <DataLossConfirmation>None</DataLossConfirmation>
     <UserAccountSaveDataSize>0x0000000000400000</UserAccountSaveDataSize>
