@@ -15,6 +15,12 @@ public class MultiplayerInputIndicator : MonoBehaviour
 
     public bool OneControllerOnly { get => _oneControllerOnly; set => _oneControllerOnly = value; }
 
+    public void ResetIndicators()
+    {
+        keyValuePairs.Clear();
+        GameSetupBehaviour.Instance.Reset();
+    }
+
     public void HandleHumanPlayer(int state, GameObject nguiTextLabel)
     {
         if (_oneControllerOnly)
