@@ -175,10 +175,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   constraint: 0
-  onUp: {fileID: 0}
-  onDown: {fileID: 0}
+  onUp: {fileID: 100000}
+  onDown: {fileID: 100000}
   onLeft: {fileID: 100006}
-  onRight: {fileID: 0}
+  onRight: {fileID: 100000}
   onClick: {fileID: 0}
   startsSelected: 0
   forceStartSelection: 0
@@ -577,9 +577,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   constraint: 0
-  onUp: {fileID: 0}
-  onDown: {fileID: 0}
-  onLeft: {fileID: 0}
+  onUp: {fileID: 100006}
+  onDown: {fileID: 100006}
+  onLeft: {fileID: 100006}
   onRight: {fileID: 100000}
   onClick: {fileID: 0}
   startsSelected: 1

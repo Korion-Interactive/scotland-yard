@@ -34,6 +34,24 @@ public class CardPanelPopUp : MonoBehaviour
         if (!(GameSetupBehaviour.Instance.Setup.MrXSetup.Controller == PlayerController.Human))
             return;
 
+        if ((GameSetupBehaviour.Instance.Setup.MrXSetup.Controller == PlayerController.Human))
+        {
+            bool hasHumanDetectives = false;
+            for (int i = 0; i < GameSetupBehaviour.Instance.Setup.DetectiveSetups.Length; i++)
+            {
+                if (GameSetupBehaviour.Instance.Setup.DetectiveSetups[i].Controller == PlayerController.Human)
+                {
+                    hasHumanDetectives = true;
+                    break;
+                }
+            }
+
+            if(!hasHumanDetectives)
+            {
+                return;
+            }
+        }
+
         cachedSelectedObject = UICamera.selectedObject;
 
         Debug.Log("triggered PopUp in Cards Panel");
