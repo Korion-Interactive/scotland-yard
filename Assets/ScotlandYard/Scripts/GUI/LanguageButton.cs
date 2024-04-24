@@ -19,8 +19,11 @@ public class LanguageButton : MonoBehaviour
         int idx = Array.FindIndex(Loc.SupportedLanguages, (l) => l == Loc.Language);
         idx = (idx + 1) % Loc.SupportedLanguages.Length;
 
+        PlayerPrefs.SetInt("Language", idx);
+
         SystemLanguage lang = Loc.SupportedLanguages[idx];
         Loc.Language = lang;
+
         SetLanguageSprite(lang);
         TranslateAllLabels();
     }

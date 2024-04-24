@@ -123,6 +123,10 @@ public class GameSetupBehaviour : MonoBehaviour
         DontDestroyOnLoad(gameObject);
         
         Reset();
+
+        // Set saved language. Do this here because this script is executed first!
+        SystemLanguage lang = PlayerPrefs.HasKey("Language") ? Loc.SupportedLanguages[PlayerPrefs.GetInt("Language")] : Loc.Language;
+        Loc.Language = lang;
     }
 
     public void CreatePlayers()
