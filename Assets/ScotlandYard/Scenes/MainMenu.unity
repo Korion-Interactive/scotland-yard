@@ -8133,7 +8133,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400018, guid: 786031fe68c96f54aa07814cb3cc9628, type: 3}
       propertyPath: mSpriteName
-      value: extras_icon
+      value: player_indicator_arrow
       objectReference: {fileID: 0}
     - target: {fileID: 11400018, guid: 786031fe68c96f54aa07814cb3cc9628, type: 3}
       propertyPath: keepAspectRatio
@@ -44909,7 +44909,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400018, guid: 786031fe68c96f54aa07814cb3cc9628, type: 3}
       propertyPath: mSpriteName
-      value: extras_icon
+      value: player_indicator_arrow
       objectReference: {fileID: 0}
     - target: {fileID: 11400018, guid: 786031fe68c96f54aa07814cb3cc9628, type: 3}
       propertyPath: keepAspectRatio

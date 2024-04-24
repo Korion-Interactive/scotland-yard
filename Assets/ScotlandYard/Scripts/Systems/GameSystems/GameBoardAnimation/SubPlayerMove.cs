@@ -60,7 +60,7 @@ public class SubPlayerMove : SubSystem<GameBoardAnimationSystem>
 
     private void PlayerMove(MoveArgs args)
     {
-        if (currentMovement == null)
+        if (currentMovement == null || GameSetupBehaviour.Instance.Setup.Mode.IsTutorial())
         {
             currentMovement = new Movement(args);
             iTween.MoveTo(currentMovement.Player.gameObject,
