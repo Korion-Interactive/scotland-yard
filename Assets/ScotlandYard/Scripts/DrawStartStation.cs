@@ -108,10 +108,18 @@ public class DrawStartStation : MonoBehaviour {
             {
                 // KORION: Select a new random card for each human player! 
                 UICamera.currentScheme = UICamera.ControlScheme.Controller;
-                int randomCard = Random.Range(0, startStationList.Count);
-                UICamera.selectedObject = startStationList[randomCard].GetComponentInChildren<UIKeyNavigation>().gameObject;
+
+                if (UICamera.MLastSelection != null && UICamera.MLastSelection.name.GetHashCode() != "Root UI (3D)".GetHashCode() && UICamera.MLastSelection.activeSelf)
+                {
+                    UICamera.selectedObject = UICamera.MLastSelection;
+                }
+                else
+                {
+                    int randomCard = Random.Range(0, startStationList.Count);
+                    GameObject randomCardGO = startStationList[randomCard].GetComponentInChildren<UIKeyNavigation>().gameObject;
+                    UICamera.selectedObject = randomCardGO;
+                }
             }
-                
 
             //TODO Korion: Make these to buttons. Why aren't these already buttons?
             if (Input.GetMouseButtonDown(0))
