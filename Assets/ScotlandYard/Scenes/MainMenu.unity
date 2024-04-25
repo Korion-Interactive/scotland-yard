@@ -43249,7 +43249,7 @@ MonoBehaviour:
   hover: {r: 0.5377358, g: 0.5377358, b: 0.5377358, a: 1}
   pressed: {r: 1, g: 1, b: 1, a: 1}
   disabledColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-  duration: 0.1
+  duration: 0.09
   dragHighlight: 0
   hoverSprite: start_button_a
   pressedSprite: start_button_a
@@ -43893,6 +43893,10 @@ PrefabInstance:
     - target: {fileID: 11400012, guid: 786031fe68c96f54aa07814cb3cc9628, type: 3}
       propertyPath: hover.r
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400014, guid: 786031fe68c96f54aa07814cb3cc9628, type: 3}
+      propertyPath: duration
+      value: 0.09
       objectReference: {fileID: 0}
     - target: {fileID: 11400014, guid: 786031fe68c96f54aa07814cb3cc9628, type: 3}
       propertyPath: hoverSprite
