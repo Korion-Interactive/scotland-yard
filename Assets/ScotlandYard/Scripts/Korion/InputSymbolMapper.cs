@@ -41,6 +41,7 @@ namespace Korion.ScotlandYard
             public string share;
             public string selectPlayers;
             public string zoom;
+            public string zoomOut;
         }
     }
 }

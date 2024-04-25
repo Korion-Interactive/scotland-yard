@@ -8,10 +8,13 @@ public class LanguageButton : MonoBehaviour
     public UISprite LanguageSprite;
     public UILabel CreditsText;
 
+    public UILabel HuntingMrX_EN, HuntingMrX_DE, HuntingMrX_ES, HuntingMrX_IT, HuntingMrX_FR;
+
     void Start()
     {
         SetLanguageSprite(Loc.Language);
         SetCreditsText();
+        SetTicker(Loc.Language);
     }
 
     void OnClick()
@@ -26,6 +29,8 @@ public class LanguageButton : MonoBehaviour
 
         SetLanguageSprite(lang);
         TranslateAllLabels();
+
+        SetTicker(lang);
     }
 
     public void SetLanguageSprite(SystemLanguage lang)
@@ -46,5 +51,41 @@ public class LanguageButton : MonoBehaviour
     void SetCreditsText()
     {
         CreditsText.text = string.Format(Loc.Get("credits_text"), Globals.VersionNumber);
+    }
+
+    void SetTicker(SystemLanguage lang)
+    {
+        switch (lang)
+        {
+            case SystemLanguage.German:
+                SetLabel(HuntingMrX_DE);
+                break;
+            case SystemLanguage.French:
+                SetLabel(HuntingMrX_FR);
+                break;
+            case SystemLanguage.Spanish:
+                SetLabel(HuntingMrX_ES);
+                break;
+            case SystemLanguage.Italian:
+                SetLabel(HuntingMrX_IT);
+                break;
+            case SystemLanguage.English:
+                SetLabel(HuntingMrX_EN);
+                break;
+            default:
+                SetLabel(HuntingMrX_EN);
+                break;
+        }
+    }
+
+    void SetLabel(UILabel lbl)
+    {
+        HuntingMrX_EN.gameObject.SetActive(false);
+        HuntingMrX_ES.gameObject.SetActive(false);
+        HuntingMrX_DE.gameObject.SetActive(false);
+        HuntingMrX_FR.gameObject.SetActive(false);
+        HuntingMrX_IT.gameObject.SetActive(false);
+
+        lbl.gameObject.SetActive(true);
     }
 }

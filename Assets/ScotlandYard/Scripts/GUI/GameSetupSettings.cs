@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine.SceneManagement;
+using Rewired;
 
 public class GameSetupSettings : BaseBehaviour
 {
@@ -12,8 +13,11 @@ public class GameSetupSettings : BaseBehaviour
         "Mr Diamond", "Charleston", "Mr Wang", "Mrs Marbles", "Mr Perrier"  };
 
     static readonly string[] FallbackMrXNamesKorion = new string[] { "Mr X" };
+    static readonly string[] FallbackMrXNamesAltKorion = new string[] { "Mrs X" };
     static readonly string[] FallbackDetectiveNamesKorion = new string[]
     { "James", "Robin", "William", "Olivia", "Mina"  };
+    static readonly string[] FallbackDetectiveNamesAltKorion = new string[]
+    { "Peter", "Shin", "Sarah", "Oscar", "Noah"  };
 
     static GameSetupSettings instance;
     public static GameSetupSettings Instance { get { return instance; } }
@@ -234,12 +238,26 @@ public class GameSetupSettings : BaseBehaviour
             if (playerId == 0)
             {
                 //name = FallbackMrXNames.PickRandom(); // KORION: Original Call
-                name = FallbackMrXNamesKorion.PickRandom();
+                if (transform.parent.GetComponent<UISprite>().name.Contains("02"))
+                {
+                    name = FallbackMrXNamesAltKorion.PickRandom();
+                }
+                else
+                {
+                    name = FallbackMrXNamesKorion.PickRandom();
+                }
             }
             else
             {
                 //name = FallbackDetectiveNames.PickRandom(); //KORION: Original Call
-                name = FallbackDetectiveNamesKorion[playerId-1];
+                if (transform.parent.GetComponent<UISprite>().name.Contains("02"))
+                {
+                    name = FallbackDetectiveNamesAltKorion[playerId - 1];
+                }
+                else
+                {
+                    name = FallbackDetectiveNamesKorion[playerId - 1];
+                }
             }
         }
 
@@ -536,5 +554,39 @@ public class GameSetupSettings : BaseBehaviour
             arg.IsDirty = false;
             this.Broadcast(GameSetupEvents.PlayerSetupChanged, arg);
         }
+    }
+
+    public void TogglePlayerName(int playerId, GameObject sprite)
+    {
+        playerId += 1;
+            PlayerSetup p = GameSetupBehaviour.Instance.GetPlayer(playerId);
+        if (playerId == 0)
+        {
+            //name = FallbackMrXNames.PickRandom(); // KORION: Original Call
+            if (sprite.GetComponent<UISprite>().spriteName.Contains("02"))
+            {
+                name = FallbackMrXNamesAltKorion.PickRandom();
+            }
+            else
+            {
+                name = FallbackMrXNamesKorion.PickRandom();
+            }
+            MrXName.text = name;
+        }
+        else
+        {
+            //name = FallbackDetectiveNames.PickRandom(); //KORION: Original Call
+            if (sprite.GetComponent<UISprite>().spriteName.Contains("02"))
+            {
+                name = FallbackDetectiveNamesAltKorion[playerId - 1];
+            }
+            else
+            {
+                name = FallbackDetectiveNamesKorion[playerId - 1];
+            }
+            DetectiveNames[playerId - 1].text = name;
+        }
+        p.DisplayName = name;
+        
     }
 }

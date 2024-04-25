@@ -9,7 +9,7 @@ using UnityEngine;
 public class SubCameraControl : SubSystem<GameBoardAnimationSystem>
 {
     const float MIN_ZOOM = 0.5f;
-    const float MAX_ZOOM = 2.25f;
+    const float MAX_ZOOM = 1.6f;
     const float DRAG_SLOW_DOWN = 5f;
 
     protected override bool needsUpdate { get { return true; } }

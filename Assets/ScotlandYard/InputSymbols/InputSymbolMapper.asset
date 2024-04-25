@@ -27,6 +27,7 @@ MonoBehaviour:
     share: '{share}'
     selectPlayers: '{switch}'
     zoom: '{zoom}'
+    zoomOut: '{zoomOut}'
   _inputPlaystation:
     submit: '{P5Cr}'
     cancel: '{P5Ci}'
@@ -41,7 +42,8 @@ MonoBehaviour:
     option: '{P5O}'
     share: '{PS5S}'
     selectPlayers: '{P5L1} {P5R1}'
-    zoom: '{P5L2} {P5R2}'
+    zoom: '{P5R2}'
+    zoomOut: '{P5L2}'
   _inputXbox:
     submit: '{XA}'
     cancel: '{XB}'
@@ -56,7 +58,8 @@ MonoBehaviour:
     option: '{XO}'
     share: '{XS}'
     selectPlayers: '{XLB} {XRB}'
-    zoom: '{XLT} {XRT}'
+    zoom: '{XRT}'
+    zoomOut: '{XLT}'
   _inputSwitch:
     submit: '{SA}'
     cancel: '{SB}'
@@ -71,7 +74,8 @@ MonoBehaviour:
     option: '{S+}'
     share: '{S-}'
     selectPlayers: '{SL1} {SR1}'
-    zoom: '{SZL} {SZR}'
+    zoom: '{SZR}'
+    zoomOut: '{SZL}'
   _inputKeyboard:
     submit: OK
     cancel: 
@@ -87,3 +91,4 @@ MonoBehaviour:
     share: '{PCTAB}'
     selectPlayers: '{PCPU} {PCPD}'
     zoom: '{MM}'
+    zoomOut: '{MM}'

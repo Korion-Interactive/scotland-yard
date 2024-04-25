@@ -91,6 +91,8 @@ namespace Korion.ScotlandYard
                 return _text.Replace(_inputSymbolMapper.InputSymbolsText.share, _currentInputSymbols.share);
             if (_text.Contains(_inputSymbolMapper.InputSymbolsText.zoom))
                 return _text.Replace(_inputSymbolMapper.InputSymbolsText.zoom, _currentInputSymbols.zoom);
+            if (_text.Contains(_inputSymbolMapper.InputSymbolsText.zoomOut))
+                return _text.Replace(_inputSymbolMapper.InputSymbolsText.zoomOut, _currentInputSymbols.zoomOut);
             if (_text.Contains(_inputSymbolMapper.InputSymbolsText.selectPlayers))
                 return _text.Replace(_inputSymbolMapper.InputSymbolsText.selectPlayers,
                     _currentInputSymbols.selectPlayers);

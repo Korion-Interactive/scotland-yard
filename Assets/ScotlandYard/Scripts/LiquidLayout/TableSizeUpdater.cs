@@ -11,7 +11,8 @@ public class TableSizeUpdater : MonoBehaviour
         TableCollider = gameObject.GetComponent<BoxCollider>();
         OriginalWidth = TableCollider.size.x;
     }
-    
+
+#if UNITY_IOS || UNITY_ANDRTOID
     public void Update()
     {
         float aspect = (float)Screen.width / (float)Screen.height;
@@ -21,7 +22,7 @@ public class TableSizeUpdater : MonoBehaviour
             TableCollider.size.y,
             TableCollider.size.z);
     }
-
+#endif
     private BoxCollider TableCollider { get; set; }
     private float OriginalWidth { get; set; }
 }

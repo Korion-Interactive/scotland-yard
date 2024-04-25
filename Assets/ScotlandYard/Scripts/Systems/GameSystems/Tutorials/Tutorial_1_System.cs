@@ -38,7 +38,7 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
 
     private void KeepCamInBounds(VectorEventArgs args)
     {
-        if (tutorialPopupIndex == 3 && args.Vector.x > 0.000001f)
+        if (tutorialPopupIndex == 3 && (Mathf.Abs(args.Vector.x) > 0.000001f || Mathf.Abs(args.Vector.y) > 0.000001f))
         {
             //Now it´s time to zoom.           
             Debug.Log("Case 3");
@@ -492,7 +492,7 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
         {
             case 4:
                 {
-                    if (GameCamera.orthographicSize == 2.25f)
+                    if (GameCamera.orthographicSize == 1.6f)
                     {
                         Debug.Log("Case 4");
                         //Now, zoom in again
