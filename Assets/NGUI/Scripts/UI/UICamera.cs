@@ -1199,7 +1199,8 @@ public class UICamera : MonoBehaviour
 			{
 				currentScheme = ControlScheme.Controller;
 				currentKey = cancelKey1;
-				selectedObject = null;
+				//selectedObject = null;	// KORION: Commented this out since we are always setting selected object to the correct button.
+											// This would just null the selected object in certain cases.
 			}
 		}
 
