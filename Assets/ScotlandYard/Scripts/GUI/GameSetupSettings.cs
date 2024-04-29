@@ -556,7 +556,7 @@ public class GameSetupSettings : BaseBehaviour
         }
     }
 
-    public void TogglePlayerName(int playerId, GameObject sprite)
+    public void TogglePlayerName(GameObject sprite, int playerId = -1)
     {
         playerId += 1;
             PlayerSetup p = GameSetupBehaviour.Instance.GetPlayer(playerId);

@@ -61,21 +61,21 @@ MonoBehaviour:
       StartAtStationId: 152
       DisplayName: 
       PlayerId: 1
-      Color: 1
+      Color: 2
       ControllingParticipantID: 
     - Controller: 2
       Difficulty: 1
       StartAtStationId: 57
       DisplayName: 
       PlayerId: 2
-      Color: 2
+      Color: 1
       ControllingParticipantID: 
     - Controller: 2
       Difficulty: 1
       StartAtStationId: 161
       DisplayName: 
       PlayerId: 3
-      Color: 3
+      Color: 5
       ControllingParticipantID: 
     - Controller: 2
       Difficulty: 1
@@ -89,7 +89,7 @@ MonoBehaviour:
       StartAtStationId: 170
       DisplayName: 
       PlayerId: 5
-      Color: 5
+      Color: 3
       ControllingParticipantID: 
   PrefabMrX: {fileID: 100002, guid: 201ae68d54a4c614a85c2c4e626517c1, type: 3}
   PrefabDetective: {fileID: 100000, guid: 55440888d501410468ba900e5bca694b, type: 3}

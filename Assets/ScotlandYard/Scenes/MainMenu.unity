@@ -5531,15 +5531,20 @@ PrefabInstance:
         type: 3}
       propertyPath: onClick.Array.data[1].mParameters.Array.data[0].obj
       value: 
-      objectReference: {fileID: 559164062}
+      objectReference: {fileID: 205086583}
     - target: {fileID: 8505120746971770193, guid: b7df2809a25cfde40b809be2c496d420,
         type: 3}
       propertyPath: onClick.Array.data[1].mParameters.Array.data[1].obj
       value: 
-      objectReference: {fileID: 205086583}
+      objectReference: {fileID: 559164062}
     - target: {fileID: 8505120746971770193, guid: b7df2809a25cfde40b809be2c496d420,
         type: 3}
       propertyPath: onClick.Array.data[1].mParameters.Array.data[0].field
+      value: GameID
+      objectReference: {fileID: 0}
+    - target: {fileID: 8505120746971770193, guid: b7df2809a25cfde40b809be2c496d420,
+        type: 3}
+      propertyPath: onClick.Array.data[1].mParameters.Array.data[1].field
       value: GameID
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -16774,15 +16779,20 @@ PrefabInstance:
         type: 3}
       propertyPath: onClick.Array.data[1].mParameters.Array.data[0].obj
       value: 
-      objectReference: {fileID: 1526686127}
+      objectReference: {fileID: 844427902}
     - target: {fileID: 8505120746971770193, guid: b7df2809a25cfde40b809be2c496d420,
         type: 3}
       propertyPath: onClick.Array.data[1].mParameters.Array.data[1].obj
       value: 
-      objectReference: {fileID: 844427902}
+      objectReference: {fileID: 1526686127}
     - target: {fileID: 8505120746971770193, guid: b7df2809a25cfde40b809be2c496d420,
         type: 3}
       propertyPath: onClick.Array.data[1].mParameters.Array.data[0].field
+      value: GameID
+      objectReference: {fileID: 0}
+    - target: {fileID: 8505120746971770193, guid: b7df2809a25cfde40b809be2c496d420,
+        type: 3}
+      propertyPath: onClick.Array.data[1].mParameters.Array.data[1].field
       value: GameID
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -17070,6 +17080,7 @@ GameObject:
   - component: {fileID: 785213764}
   - component: {fileID: 785213763}
   - component: {fileID: 785213765}
+  - component: {fileID: 785213766}
   m_Layer: 8
   m_Name: MisterXSettings
   m_TagString: Untagged
@@ -17191,8 +17202,8 @@ MonoBehaviour:
     mParameters:
     - obj: {fileID: 785213759}
       field: 
-    - obj: {fileID: 0}
-      field: 
+    - obj: {fileID: 785213766}
+      field: GameID
     oneShot: 0
 --- !u!65 &785213764
 BoxCollider:
@@ -17235,6 +17246,20 @@ MonoBehaviour:
   onClick: {fileID: 0}
   startsSelected: 0
   forceStartSelection: 0
+--- !u!114 &785213766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 785213759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35968cf83ef0b5347acdb15701bcdcb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: -1
+  IdShift: 0
 --- !u!1 &787930487 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100012, guid: b7df2809a25cfde40b809be2c496d420,
@@ -23865,15 +23890,20 @@ PrefabInstance:
         type: 3}
       propertyPath: onClick.Array.data[1].mParameters.Array.data[0].obj
       value: 
-      objectReference: {fileID: 1460677286}
+      objectReference: {fileID: 857097581}
     - target: {fileID: 8505120746971770193, guid: b7df2809a25cfde40b809be2c496d420,
         type: 3}
       propertyPath: onClick.Array.data[1].mParameters.Array.data[1].obj
       value: 
-      objectReference: {fileID: 857097581}
+      objectReference: {fileID: 1460677286}
     - target: {fileID: 8505120746971770193, guid: b7df2809a25cfde40b809be2c496d420,
         type: 3}
       propertyPath: onClick.Array.data[1].mParameters.Array.data[0].field
+      value: GameID
+      objectReference: {fileID: 0}
+    - target: {fileID: 8505120746971770193, guid: b7df2809a25cfde40b809be2c496d420,
+        type: 3}
+      propertyPath: onClick.Array.data[1].mParameters.Array.data[1].field
       value: GameID
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -33509,15 +33539,20 @@ PrefabInstance:
         type: 3}
       propertyPath: onClick.Array.data[1].mParameters.Array.data[0].obj
       value: 
-      objectReference: {fileID: 1318261887}
+      objectReference: {fileID: 787930487}
     - target: {fileID: 8505120746971770193, guid: b7df2809a25cfde40b809be2c496d420,
         type: 3}
       propertyPath: onClick.Array.data[1].mParameters.Array.data[1].obj
       value: 
-      objectReference: {fileID: 787930487}
+      objectReference: {fileID: 1318261887}
     - target: {fileID: 8505120746971770193, guid: b7df2809a25cfde40b809be2c496d420,
         type: 3}
       propertyPath: onClick.Array.data[1].mParameters.Array.data[0].field
+      value: GameID
+      objectReference: {fileID: 0}
+    - target: {fileID: 8505120746971770193, guid: b7df2809a25cfde40b809be2c496d420,
+        type: 3}
+      propertyPath: onClick.Array.data[1].mParameters.Array.data[1].field
       value: GameID
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -35056,15 +35091,20 @@ PrefabInstance:
         type: 3}
       propertyPath: onClick.Array.data[1].mParameters.Array.data[0].obj
       value: 
-      objectReference: {fileID: 1935845169}
+      objectReference: {fileID: 2035443516}
     - target: {fileID: 8505120746971770193, guid: b7df2809a25cfde40b809be2c496d420,
         type: 3}
       propertyPath: onClick.Array.data[1].mParameters.Array.data[1].obj
       value: 
-      objectReference: {fileID: 2035443516}
+      objectReference: {fileID: 1935845169}
     - target: {fileID: 8505120746971770193, guid: b7df2809a25cfde40b809be2c496d420,
         type: 3}
       propertyPath: onClick.Array.data[1].mParameters.Array.data[0].field
+      value: GameID
+      objectReference: {fileID: 0}
+    - target: {fileID: 8505120746971770193, guid: b7df2809a25cfde40b809be2c496d420,
+        type: 3}
+      propertyPath: onClick.Array.data[1].mParameters.Array.data[1].field
       value: GameID
       objectReference: {fileID: 0}
     m_RemovedComponents: []

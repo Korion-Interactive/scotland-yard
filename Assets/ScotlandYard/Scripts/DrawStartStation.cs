@@ -64,6 +64,12 @@ public class DrawStartStation : MonoBehaviour {
         List<Vector3> cardPositions = new List<Vector3>();
         startStationList.Clear();
 
+        player = GameSetupBehaviour.Instance.GetPlayer(currentPlayerID);
+
+        sprite = TopBar.transform.GetChildByName("PlayerActor").GetComponent<UISprite>();
+        sprite.spriteName = player.Color.GetActorSpriteName();
+        sprite.GetComponent<PlayerSpriteSwapper>().SetSprite(player.Color);
+
         foreach (GameObject tempPos in StartStationCards)
         {
             cardPositions.Add(tempPos.transform.position);
@@ -100,6 +106,7 @@ public class DrawStartStation : MonoBehaviour {
 
         sprite = TopBar.transform.GetChildByName("PlayerActor").GetComponent<UISprite>();
         sprite.spriteName = player.Color.GetActorSpriteName();
+        sprite.GetComponent<PlayerSpriteSwapper>().SetSprite(player.Color);
         TopBar.transform.GetChildByName("Label").GetComponent<LabelTranslator>().SetTextWithStaticParams("select_card_player", player.DisplayName);
 
         if (player.Controller == PlayerController.Human)
