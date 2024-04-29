@@ -55,6 +55,8 @@ public class ChangeActionMap : MonoBehaviour
         Debug.Log("_cachedControllerMap: " + _cachedControllerMap);
         Debug.Log("_controllerMapToSwitchTo_: " + _controllerMapToSwitchTo);
 
+        if(MultiplayerInputManager.Instance == null) { return; }
+
         foreach (var _player in MultiplayerInputManager.Instance.AllPlayers)     // For now let every player share the same controller map
             SetControllerMap(_player, _controllerMapToSwitchTo);
     }
