@@ -490,7 +490,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   constraint: 0
-  onUp: {fileID: 0}
+  onUp: {fileID: 865606258}
   onDown: {fileID: 0}
   onLeft: {fileID: 0}
   onRight: {fileID: 1984192858}
