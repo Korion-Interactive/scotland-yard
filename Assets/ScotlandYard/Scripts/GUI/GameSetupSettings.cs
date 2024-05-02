@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine.SceneManagement;
 using Rewired;
+using UnityEngine.InputSystem;
 
 public class GameSetupSettings : BaseBehaviour
 {
@@ -186,16 +187,15 @@ public class GameSetupSettings : BaseBehaviour
             {
                 player.DisplayName = Loc.Get("mister_x");
                 MrXName.text = player.DisplayName;
-
+                TogglePlayerName(-1, MrXName.transform.parent.parent.parent.gameObject);
             }
             else // Detective
             {
                 player.DisplayName = string.Format("{0} {1}", Loc.Get("detective"), player.PlayerId);
                 DetectiveNames[player.PlayerId - 1].text = player.DisplayName;
-
+                TogglePlayerName(-1, DetectiveNames[player.PlayerId - 1].transform.parent.parent.parent.gameObject);
             }
         }
-
     }
 
     public void SetRoundTimeLocal(byte timeInSeconds, bool isSet) { if (isSet) SetRoundTime(timeInSeconds, false); }
@@ -347,6 +347,15 @@ public class GameSetupSettings : BaseBehaviour
 
         if (storedPlayerArgs.Count > playerId)
             this.storedPlayerArgs[playerId].Controller = c;
+
+        if(playerId == 0)
+        {
+            TogglePlayerName(-1, btn.transform.parent.gameObject);
+        }
+        else
+        {
+            TogglePlayerName(detId, btn.transform.parent.gameObject);
+        }
     }
 
 
@@ -558,8 +567,12 @@ public class GameSetupSettings : BaseBehaviour
 
     public void TogglePlayerName(int playerId, GameObject sprite)
     {
+        if (playerId > 6)
+            playerId = -1;
+
         playerId += 1;
             PlayerSetup p = GameSetupBehaviour.Instance.GetPlayer(playerId);
+        
         if (playerId == 0)
         {
             //name = FallbackMrXNames.PickRandom(); // KORION: Original Call
@@ -572,6 +585,10 @@ public class GameSetupSettings : BaseBehaviour
                 name = FallbackMrXNamesKorion.PickRandom();
             }
             MrXName.text = name;
+            UIInput inputfield = MrXName.transform.parent.GetComponent<UIInput>();
+            inputfield.value = name;
+            inputfield.text = name;
+            MrXName.SetDirty();
         }
         else
         {
@@ -585,8 +602,15 @@ public class GameSetupSettings : BaseBehaviour
                 name = FallbackDetectiveNamesKorion[playerId - 1];
             }
             DetectiveNames[playerId - 1].text = name;
+            DetectiveNames[playerId - 1].SetDirty();
+
+            UIInput inputfield = DetectiveNames[playerId - 1].transform.parent.GetComponent<UIInput>();
+            inputfield.value = name;
+            inputfield.text = name;
         }
         p.DisplayName = name;
-        
+
+        if (storedPlayerArgs.Count > playerId)
+            this.storedPlayerArgs[playerId].Name = name;
     }
 }

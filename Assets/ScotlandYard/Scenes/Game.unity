@@ -16640,8 +16640,8 @@ MonoBehaviour:
   pathColor: {r: 1, g: 0.92, b: 0.16, a: 1}
   nodes:
   - {x: 2.4527345, y: -0.37747383, z: 0}
-  - {x: 2.6116333, y: 0.057275355, z: -0.1}
-  - {x: 2.5470703, y: 0.20084643, z: 0}
+  - {x: 2.59, y: 0.057275355, z: -0.1}
+  - {x: 2.54707, y: 0.20084643, z: 0}
   nodeCount: 3
   initialized: 1
   initialName: Taxi [119] to [107] Path
@@ -30498,7 +30498,7 @@ Transform:
   m_GameObject: {fileID: 458689115}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 59.429504, z: 0}
+  m_LocalPosition: {x: 0, y: 60.92273, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -35245,10 +35245,10 @@ MonoBehaviour:
   pathName: Taxi [129] to [118] Path
   pathColor: {r: 1, g: 0.92, b: 0.16, a: 1}
   nodes:
-  - {x: 1.5640625, y: -0.34602866, z: 0}
-  - {x: 1.3443577, y: -0.34084952, z: -0.1}
-  - {x: 1.2868541, y: -0.30117574, z: -0.1}
-  - {x: 1.1539062, y: -0.31095156, z: 0}
+  - {x: 1.54, y: -0.34, z: 0}
+  - {x: 1.38, y: -0.33, z: -0.1}
+  - {x: 1.34, y: -0.3, z: -0.1}
+  - {x: 1.1539062, y: -0.3109516, z: 0}
   nodeCount: 4
   initialized: 1
   initialName: Taxi [129] to [118] Path
@@ -45044,7 +45044,7 @@ MonoBehaviour:
   pathColor: {r: 1, g: 0.92, b: 0.16, a: 1}
   nodes:
   - {x: 1.9003906, y: 1.9016275, z: 0}
-  - {x: 1.9647367, y: 1.7758213, z: -0.1}
+  - {x: 1.964737, y: 1.7758213, z: -0.1}
   - {x: 1.8921009, y: 1.5668582, z: -0.1}
   - {x: 1.9476881, y: 1.4959853, z: -0.1}
   - {x: 1.9236326, y: 1.3752604, z: 0}
@@ -69136,7 +69136,7 @@ MonoBehaviour:
   pathColor: {r: 1, g: 0.92, b: 0.16, a: 1}
   nodes:
   - {x: 2.5470703, y: 0.20084643, z: 0}
-  - {x: 2.4383845, y: 0.20084643, z: -0.1}
+  - {x: 2.4383845, y: 0.2008464, z: -0.1}
   - {x: 2.311914, y: 0.20084643, z: 0}
   nodeCount: 3
   initialized: 1
@@ -75848,9 +75848,9 @@ MonoBehaviour:
   pathName: Taxi [6] to [7] Path
   pathColor: {r: 1, g: 0.92, b: 0.16, a: 1}
   nodes:
-  - {x: 1.9003906, y: 1.9016275, z: 0}
-  - {x: 2.233122, y: 1.9449823, z: -0.1}
-  - {x: 2.3898437, y: 1.831901, z: 0}
+  - {x: 1.9003906, y: 1.9016, z: 0}
+  - {x: 2.233122, y: 1.912345, z: -0.1}
+  - {x: 2.36, y: 1.87, z: 0}
   nodeCount: 3
   initialized: 1
   initialName: Taxi [6] to [7] Path
@@ -95347,7 +95347,7 @@ Transform:
   m_GameObject: {fileID: 1338533925}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.87771606, z: 0}
+  m_LocalPosition: {x: 0, y: -1.4195709, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -101526,7 +101526,7 @@ MonoBehaviour:
   pathColor: {r: 0, g: 1, b: 0, a: 1}
   nodes:
   - {x: 2.5470703, y: 0.20084643, z: 0}
-  - {x: 2.6233368, y: 0.06293493, z: -0.1}
+  - {x: 2.6, y: 0.06293493, z: -0.1}
   - {x: 2.500645, y: -0.24979784, z: -0.1}
   - {x: 2.3745675, y: -0.60993165, z: -0.1}
   - {x: 2.0740232, y: -0.97766924, z: 0}
@@ -114445,7 +114445,7 @@ Transform:
   m_GameObject: {fileID: 1600239678}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.5705154, z: 0}
+  m_LocalPosition: {x: 0, y: -0.922721, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

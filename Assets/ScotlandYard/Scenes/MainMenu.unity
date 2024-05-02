@@ -17172,9 +17172,9 @@ MonoBehaviour:
   - mTarget: {fileID: 277965151}
     mMethodName: TogglePlayerName
     mParameters:
+    - obj: {fileID: 785213761}
+      field: depth
     - obj: {fileID: 785213759}
-      field: 
-    - obj: {fileID: 0}
       field: 
     oneShot: 0
 --- !u!65 &785213764
@@ -26743,42 +26743,6 @@ MonoBehaviour:
   onClick: {fileID: 0}
   startsSelected: 1
   forceStartSelection: 0
---- !u!114 &1189035737 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 11400020, guid: 786031fe68c96f54aa07814cb3cc9628,
-    type: 3}
-  m_PrefabInstance: {fileID: 1719463989}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1189035719}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2e1a147c24165da4b8936f4a453da17e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1189035738 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 11400022, guid: 786031fe68c96f54aa07814cb3cc9628,
-    type: 3}
-  m_PrefabInstance: {fileID: 1719463989}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1189035719}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2e1a147c24165da4b8936f4a453da17e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1189035739 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 11400024, guid: 786031fe68c96f54aa07814cb3cc9628,
-    type: 3}
-  m_PrefabInstance: {fileID: 1719463989}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1189035719}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2e1a147c24165da4b8936f4a453da17e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1196352868
 GameObject:
   m_ObjectHideFlags: 0
@@ -43376,83 +43340,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ad13a69b63889842ab2dd212665650b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _eventListener: {fileID: 1984192869}
-  _onHover:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1189035739}
-        m_TargetAssemblyTypeName: UnityEngine.Component, UnityEngine
-        m_MethodName: SendMessage
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: OnClick
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1189035738}
-        m_TargetAssemblyTypeName: UnityEngine.Component, UnityEngine
-        m_MethodName: SendMessage
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: OnClick
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1189035737}
-        m_TargetAssemblyTypeName: UnityEngine.Component, UnityEngine
-        m_MethodName: SendMessage
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: OnClick
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1189035721}
-        m_TargetAssemblyTypeName: UnityEngine.Component, UnityEngine
-        m_MethodName: SendMessage
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: OnClick
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1189035722}
-        m_TargetAssemblyTypeName: UnityEngine.Component, UnityEngine
-        m_MethodName: SendMessage
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: OnClick
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1189035723}
-        m_TargetAssemblyTypeName: UnityEngine.Component, UnityEngine
-        m_MethodName: SendMessage
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: OnClick
-          m_BoolArgument: 0
-        m_CallState: 2
-  _activeGameObjectDependency: {fileID: 1189035719}
 --- !u!114 &1984192869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43477,47 +43364,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ad13a69b63889842ab2dd212665650b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _eventListener: {fileID: 1984192869}
-  _onHover:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2119653954}
-        m_TargetAssemblyTypeName: UnityEngine.Component, UnityEngine
-        m_MethodName: SendMessage
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: OnClick
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 2119653953}
-        m_TargetAssemblyTypeName: UnityEngine.Component, UnityEngine
-        m_MethodName: SendMessage
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: OnClick
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 2119653952}
-        m_TargetAssemblyTypeName: UnityEngine.Component, UnityEngine
-        m_MethodName: SendMessage
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: OnClick
-          m_BoolArgument: 0
-        m_CallState: 2
-  _activeGameObjectDependency: {fileID: 2119653937}
 --- !u!1 &1987939010
 GameObject:
   m_ObjectHideFlags: 0
@@ -45338,47 +45184,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ad13a69b63889842ab2dd212665650b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _eventListener: {fileID: 2050216322}
-  _onHover:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2119653954}
-        m_TargetAssemblyTypeName: UnityEngine.Component, UnityEngine
-        m_MethodName: SendMessage
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: OnClick
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 2119653953}
-        m_TargetAssemblyTypeName: UnityEngine.Component, UnityEngine
-        m_MethodName: SendMessage
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: OnClick
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 2119653952}
-        m_TargetAssemblyTypeName: UnityEngine.Component, UnityEngine
-        m_MethodName: SendMessage
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: OnClick
-          m_BoolArgument: 0
-        m_CallState: 2
-  _activeGameObjectDependency: {fileID: 2119653937}
 --- !u!114 &2050216324
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45391,83 +45196,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ad13a69b63889842ab2dd212665650b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _eventListener: {fileID: 2050216322}
-  _onHover:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1189035739}
-        m_TargetAssemblyTypeName: UnityEngine.Component, UnityEngine
-        m_MethodName: SendMessage
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: OnClick
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1189035738}
-        m_TargetAssemblyTypeName: UnityEngine.Component, UnityEngine
-        m_MethodName: SendMessage
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: OnClick
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1189035737}
-        m_TargetAssemblyTypeName: UnityEngine.Component, UnityEngine
-        m_MethodName: SendMessage
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: OnClick
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1189035721}
-        m_TargetAssemblyTypeName: UnityEngine.Component, UnityEngine
-        m_MethodName: SendMessage
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: OnClick
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1189035722}
-        m_TargetAssemblyTypeName: UnityEngine.Component, UnityEngine
-        m_MethodName: SendMessage
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: OnClick
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1189035723}
-        m_TargetAssemblyTypeName: UnityEngine.Component, UnityEngine
-        m_MethodName: SendMessage
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: OnClick
-          m_BoolArgument: 0
-        m_CallState: 2
-  _activeGameObjectDependency: {fileID: 1189035719}
 --- !u!1 &2051557598
 GameObject:
   m_ObjectHideFlags: 0
@@ -48105,42 +47833,6 @@ MonoBehaviour:
   onClick: {fileID: 0}
   startsSelected: 1
   forceStartSelection: 0
---- !u!114 &2119653952 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 11400020, guid: 786031fe68c96f54aa07814cb3cc9628,
-    type: 3}
-  m_PrefabInstance: {fileID: 2061335048}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2119653937}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2e1a147c24165da4b8936f4a453da17e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &2119653953 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 11400022, guid: 786031fe68c96f54aa07814cb3cc9628,
-    type: 3}
-  m_PrefabInstance: {fileID: 2061335048}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2119653937}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2e1a147c24165da4b8936f4a453da17e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &2119653954 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 11400024, guid: 786031fe68c96f54aa07814cb3cc9628,
-    type: 3}
-  m_PrefabInstance: {fileID: 2061335048}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2119653937}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2e1a147c24165da4b8936f4a453da17e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2120911862
 GameObject:
   m_ObjectHideFlags: 0
