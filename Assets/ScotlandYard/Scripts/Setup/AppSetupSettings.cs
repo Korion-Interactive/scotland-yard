@@ -14,6 +14,8 @@ public class AppSetupSettings : MonoBehaviour
     const int DISABLED = 0;
 
     public GameObject ContinueButton;
+    public GameObject PlayButton;
+    public GameObject LangButton;
 
     bool setFromSettings = false;
     GameObject voip;
@@ -280,6 +282,8 @@ public class AppSetupSettings : MonoBehaviour
         {
             bool hasOpenGame = await AppSetup.Instance.HasOpenGame();
             ContinueButton.SetActive(hasOpenGame);
+
+            PlayButton.GetComponent<UIKeyNavigation>().onUp = hasOpenGame ? ContinueButton : LangButton;
         }
     }
 }

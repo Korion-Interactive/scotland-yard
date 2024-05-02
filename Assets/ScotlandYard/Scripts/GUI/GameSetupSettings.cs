@@ -187,13 +187,13 @@ public class GameSetupSettings : BaseBehaviour
             {
                 player.DisplayName = Loc.Get("mister_x");
                 MrXName.text = player.DisplayName;
-                TogglePlayerName(-1, MrXName.transform.parent.parent.parent.gameObject);
+                TogglePlayerName(MrXName.transform.parent.parent.parent.gameObject, -1);
             }
             else // Detective
             {
                 player.DisplayName = string.Format("{0} {1}", Loc.Get("detective"), player.PlayerId);
                 DetectiveNames[player.PlayerId - 1].text = player.DisplayName;
-                TogglePlayerName(-1, DetectiveNames[player.PlayerId - 1].transform.parent.parent.parent.gameObject);
+                TogglePlayerName(DetectiveNames[player.PlayerId - 1].transform.parent.parent.parent.gameObject, -1);
             }
         }
     }
@@ -350,11 +350,11 @@ public class GameSetupSettings : BaseBehaviour
 
         if(playerId == 0)
         {
-            TogglePlayerName(-1, btn.transform.parent.gameObject);
+            TogglePlayerName(btn.transform.parent.gameObject, -1);
         }
         else
         {
-            TogglePlayerName(detId, btn.transform.parent.gameObject);
+            TogglePlayerName(btn.transform.parent.gameObject, detId);
         }
     }
 
@@ -565,7 +565,7 @@ public class GameSetupSettings : BaseBehaviour
         }
     }
 
-    public void TogglePlayerName(int playerId, GameObject sprite)
+    public void TogglePlayerName(GameObject sprite, int playerId = -1)
     {
         if (playerId > 6)
             playerId = -1;

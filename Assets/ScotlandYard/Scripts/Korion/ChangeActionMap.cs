@@ -55,6 +55,8 @@ public class ChangeActionMap : MonoBehaviour
         Debug.Log("_cachedControllerMap: " + _cachedControllerMap);
         Debug.Log("_controllerMapToSwitchTo_: " + _controllerMapToSwitchTo);
 
+        if(MultiplayerInputManager.Instance == null) { return; }
+
         foreach (var _player in MultiplayerInputManager.Instance.AllPlayers)     // For now let every player share the same controller map
             SetControllerMap(_player, _controllerMapToSwitchTo);
     }
@@ -109,8 +111,8 @@ public class ChangeActionMap : MonoBehaviour
     private int GetCurrentActionMap()
     {
         Player player = ReInput.players.GetPlayer(_playerIndex);
-        IEnumerable<ControllerMap> cm = player.controllers.maps.GetMaps(ControllerType.Joystick, _playerIndex); //KORION Todo: Get proper player Index
-        foreach(ControllerMap c in cm)
+        IEnumerable<ControllerMap> cm = player.controllers.maps.GetMaps(InputDevices.LastActiveController.type, _playerIndex);  //KORION Todo: Get proper player Index
+        foreach(ControllerMap c in cm)                                                                                          //KORION: All players share the same input mapping so it should work fine!
         {
             if(c.enabled)
             {
