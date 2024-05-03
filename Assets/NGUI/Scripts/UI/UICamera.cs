@@ -1478,25 +1478,25 @@ public class UICamera : MonoBehaviour
 		bool submitKeyDown = false;
 		bool submitKeyUp = false;
 
-		if (submitKey0 != KeyCode.None && Input.GetKeyDown(submitKey0)|| _player.GetButtonDown("UISubmit"))
+		if (submitKey0 != KeyCode.None && Input.GetKeyDown(submitKey0)|| _player.GetButtonDown("UISubmit") || _player.GetButtonDown("SubmitPopup"))
 		{
 			currentKey = submitKey0;
 			submitKeyDown = true;
 		}
 
-		if (submitKey1 != KeyCode.None && Input.GetKeyDown(submitKey1) || _player.GetButtonDown("UISubmit"))
+		if (submitKey1 != KeyCode.None && Input.GetKeyDown(submitKey1) || _player.GetButtonDown("UISubmit") || _player.GetButtonDown("SubmitPopup"))
 		{
 			currentKey = submitKey1;
 			submitKeyDown = true;
 		}
 
-		if (submitKey0 != KeyCode.None && Input.GetKeyUp(submitKey0) || _player.GetButtonUp("UISubmit"))
+		if (submitKey0 != KeyCode.None && Input.GetKeyUp(submitKey0) || _player.GetButtonUp("UISubmit") || _player.GetButtonUp("SubmitPopup"))
 		{
 			currentKey = submitKey0;
 			submitKeyUp = true;
 		}
 
-		if (submitKey1 != KeyCode.None && Input.GetKeyUp(submitKey1) || _player.GetButtonUp("UISubmit"))
+		if (submitKey1 != KeyCode.None && Input.GetKeyUp(submitKey1) || _player.GetButtonUp("UISubmit") || _player.GetButtonUp("SubmitPopup"))
 		{
 			currentKey = submitKey1;
 			submitKeyUp = true;

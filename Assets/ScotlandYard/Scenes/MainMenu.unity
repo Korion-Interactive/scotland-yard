@@ -32803,6 +32803,7 @@ GameObject:
   - component: {fileID: 1492567454}
   - component: {fileID: 1492567457}
   - component: {fileID: 1492567458}
+  - component: {fileID: 1492567459}
   m_Layer: 8
   m_Name: Panel - Rules
   m_TagString: Untagged
@@ -32941,6 +32942,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   alpha: 1
+--- !u!114 &1492567459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1492567452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1840a06093aedcb47bb14f0eb5c774fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _buttons:
+  - {fileID: 1795930404}
+  - {fileID: 638424758}
+  - {fileID: 1214691865}
+  - {fileID: 306914301}
+  - {fileID: 2145691908}
+  - {fileID: 238998961}
+  - {fileID: 238998961}
+  - {fileID: 560513771}
+  _startSelection: {fileID: 1795930404}
 --- !u!1 &1497582315
 GameObject:
   m_ObjectHideFlags: 0
@@ -33775,7 +33798,7 @@ Transform:
   m_GameObject: {fileID: 1519260257}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1597.0001, y: 899.00006, z: 0}
+  m_LocalPosition: {x: 1598, y: 899.00006, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -46615,9 +46638,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movement: 1
   dragEffect: 2
-  restrictWithinPanel: 1
+  restrictWithinPanel: 0
   disableDragIfFits: 0
-  smoothDragStart: 1
+  smoothDragStart: 0
   iOSDragEmulation: 1
   scrollWheelFactor: 0.25
   momentumAmount: 35

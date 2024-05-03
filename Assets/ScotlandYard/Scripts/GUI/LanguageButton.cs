@@ -1,7 +1,10 @@
-﻿using System;
+﻿using Cysharp.Threading.Tasks;
+using Korion.IO;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using UnityEngine;
 public class LanguageButton : MonoBehaviour
 {
@@ -22,7 +25,14 @@ public class LanguageButton : MonoBehaviour
         int idx = Array.FindIndex(Loc.SupportedLanguages, (l) => l == Loc.Language);
         idx = (idx + 1) % Loc.SupportedLanguages.Length;
 
+
+
+#if UNITY_SWITCH
+        WriteDataAsync("language", idx.ToString()).Forget();
+#else
         PlayerPrefs.SetInt("Language", idx);
+        PlayerPrefs.Save();
+#endif
 
         SystemLanguage lang = Loc.SupportedLanguages[idx];
         Loc.Language = lang;
@@ -32,6 +42,31 @@ public class LanguageButton : MonoBehaviour
 
         SetTicker(lang);
     }
+
+    public void SetLanguageOnSwitch(int id)
+    {
+        SystemLanguage lang = Loc.SupportedLanguages[id];
+        Loc.Language = lang;
+
+        SetLanguageSprite(lang);
+        TranslateAllLabels();
+
+        SetTicker(lang);
+    }
+
+#if UNITY_SWITCH
+    public UniTask WriteDataAsync<T>(string id, T data, CancellationToken cancellationToken = default)
+    {
+        //Debug.Log("KORION: Start Writing Data");
+        var writer = IOSystem.Instance.GetWriter();
+        //string json = JsonUtility.ToJson(savedSettings, prettyPrint: true); //now data
+
+        //Debug.Log("Writing Korion IO");
+
+        return writer.WriteAsync(id, data, cancellationToken);
+    }
+
+#endif
 
     public void SetLanguageSprite(SystemLanguage lang)
     {

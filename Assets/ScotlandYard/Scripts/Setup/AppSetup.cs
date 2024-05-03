@@ -147,8 +147,32 @@ public class AppSetup : MonoBehaviour
         TextAsset locaTxt = Resources.Load("Loca") as TextAsset;
         LocaTable = new Table(locaTxt.text, "Loca", new CSVSetting(true, true) { ColumnSeparator = '\t', });
 
+#if UNITY_SWITCH
+        string langData = await ReadDataAsync<string>("language");
+        SystemLanguage lang;
+        int langResult = -1;
+        
+        if (langData != null)
+        {
+            if(!Int32.TryParse(langData, out langResult))
+            {
+                Debug.LogError("ERROR: Could not parse language file");
+            }
+            //lang = Loc.SupportedLanguages[langResult];
+            GameObject.Find("LanguageBtn").GetComponent<LanguageButton>().SetLanguageOnSwitch(langResult);
+        }
+        else
+        {
+            lang = Application.systemLanguage;
+        }
+
+
+
+#else
         SystemLanguage lang = PlayerPrefs.HasKey("Language") ? Loc.SupportedLanguages[PlayerPrefs.GetInt("Language")] : Application.systemLanguage;
         Loc.Language = lang;
+#endif
+
 
         // load achievement data
         TextAsset achvTxt = Resources.Load("achievements") as TextAsset;
