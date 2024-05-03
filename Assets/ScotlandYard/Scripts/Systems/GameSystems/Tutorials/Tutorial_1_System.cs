@@ -223,7 +223,8 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
                             Debug.Log("Case 13");
                             ShowNextPopup(HistoryDropDown.transform.position + shift, CompassDirection.North, AlwaysFalse, null, 13);
                             PlayerMouseSpriteExample.Instance.SetVisibility(true);
-                            player.AllowedStationConstraints.Clear();
+                        PlayerMouseSpriteExample.Instance.ResetCursorPosition();
+                        player.AllowedStationConstraints.Clear();
                             player.AllowedStationConstraints.Add(1);
                         }
                         else if(tutorialPopupIndex == 16)
@@ -283,8 +284,9 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
                             player.AllowedStationConstraints.Add(128);
                             this.BroadcastDelayed(GameEvents.TurnStart, player.gameObject, 0.1f);
                             PlayerMouseSpriteExample.Instance.SetVisibility(true);
-                            //UnPause();
-                        }
+                        PlayerMouseSpriteExample.Instance.ResetCursorPosition();
+                        //UnPause();
+                    }
                         if (tutorialPopupIndex == 27)
                         {
                             
@@ -380,6 +382,7 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
                 Debug.Log("Case 6");
                 ShowNextPopup(PlayerTabSystem.instance.PlayerTabs[1].transform.position, CompassDirection.South, AlwaysFalse, null, 6);
                 PlayerMouseSpriteExample.Instance.SetVisibility(true);
+                PlayerMouseSpriteExample.Instance.ResetCursorPosition();
                 UnPause();
                 break;
             case 8: //This is a taxi station
@@ -389,6 +392,7 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
                 Debug.Log("Case 8");
                 ShowNextPopup(GameToGui(NeededStations[5].transform.position), CompassDirection.East, AlwaysFalse, null, 8);
                 PlayerMouseSpriteExample.Instance.SetVisibility(true);
+                PlayerMouseSpriteExample.Instance.ResetCursorPosition();
                 break;
             case 11: //every move you make consumes 1 ticket
                 Debug.Log("Case 11");
@@ -412,6 +416,7 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
                 Debug.Log("Case 16");
                 ShowNextPopup(GameToGui(NeededStations[6].transform.position), CompassDirection.East, ErasePopupOnPlayerMoveStart, null, 16);
                 PlayerMouseSpriteExample.Instance.SetVisibility(true);
+                PlayerMouseSpriteExample.Instance.ResetCursorPosition();
                 _ticketPopup.ForceFocus();
                 break;
             case 18:
@@ -427,6 +432,7 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
                 ShowNextPopup(GameToGui(NeededStations[7].transform.position), CompassDirection.East, AlwaysFalse, null, 19);
                 UnPause();
                 PlayerMouseSpriteExample.Instance.SetVisibility(true);
+                PlayerMouseSpriteExample.Instance.ResetCursorPosition();
                 break;
             case 20:
                 break;
@@ -435,6 +441,7 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
                 ShowNextPopup(PlayerTabSystem.Instance.PlayerTabs[2].transform.position, CompassDirection.South, AlwaysFalse, null, 22);
                 UnPause();
                 PlayerMouseSpriteExample.Instance.SetVisibility(true);
+                PlayerMouseSpriteExample.Instance.ResetCursorPosition();
                 break;
             case 26:
                 if (player.PlayerId == 2)
@@ -546,6 +553,7 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
                         ShowNextPopup(GameToGui(NeededStations[4].transform.position), CompassDirection.North, () => TicketDetectivePopup.gameObject.activeSelf, null, 31);
                         UnPause();
                         PlayerMouseSpriteExample.Instance.SetVisibility(true);
+                        PlayerMouseSpriteExample.Instance.ResetCursorPosition();
                     }
                 }
                 break;

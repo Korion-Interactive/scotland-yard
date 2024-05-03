@@ -103,6 +103,7 @@ public class Tutorial_3_System : TutorialSystem<Tutorial_3_System>
                         //Your turn! You should move to station 56
                         Debug.Log("Case 8");
                         PlayerMouseSpriteExample.Instance.SetVisibility(true);
+                        PlayerMouseSpriteExample.Instance.ResetCursorPosition();
                         ShowNextPopup(GameToGui(NeededStations[9].transform.position), CompassDirection.East, ErasePopupOnPlayerMoveStart, null, 8);   //Index 8
                         player.AllowedStationConstraints.Add(56);
                     }
@@ -229,6 +230,7 @@ public class Tutorial_3_System : TutorialSystem<Tutorial_3_System>
                 Debug.Log("Case 11");
                 ShowNextPopup(GameToGui(NeededStations[10].transform.position), CompassDirection.East, ErasePopupOnPlayerMoveStart, null, 11);
                 PlayerMouseSpriteExample.Instance.SetVisibility(true);
+                PlayerMouseSpriteExample.Instance.ResetCursorPosition();
                 break;
             case 13: //This icon opens the keyboard
                 Debug.Log("Case 13");
@@ -260,6 +262,7 @@ public class Tutorial_3_System : TutorialSystem<Tutorial_3_System>
                 Debug.Log("Case 18");
                 ShowNextPopup(GameToGui(NeededStations[1].transform.position), CompassDirection.East, ErasePopupOnPlayerMoveStart, null, 18);
                 PlayerMouseSpriteExample.Instance.SetVisibility(true);
+                PlayerMouseSpriteExample.Instance.ResetCursorPosition();
                 break;
             case 20: //If you don´t get him before all detectives are stuck
                 Debug.Log("Case 20");

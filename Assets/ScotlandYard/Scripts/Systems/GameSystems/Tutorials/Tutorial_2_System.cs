@@ -114,7 +114,8 @@ public class Tutorial_2_System : TutorialSystem<Tutorial_2_System>
                 PopupClosed(++tutorialPopupIndex);
                 ShowNextPopup(11); 
                 PlayerMouseSpriteExample.Instance.SetVisibility(true);
-            break;
+                PlayerMouseSpriteExample.Instance.ResetCursorPosition();
+                break;
 
             case 2:
             if (tutorialPopupIndex == 12)
@@ -220,6 +221,7 @@ public class Tutorial_2_System : TutorialSystem<Tutorial_2_System>
                 Debug.Log("Case 7");
                 ShowNextPopup(GameToGui(NeededSations[0].transform.position), CompassDirection.East, AlwaysFalse, null, 7);
                 PlayerMouseSpriteExample.Instance.SetVisibility(true);
+                PlayerMouseSpriteExample.Instance.ResetCursorPosition();
                 break;
             case 10: //As the ticket´s activated now, select station 155 again and move there.
                 Debug.Log("Case 10");
@@ -242,6 +244,7 @@ public class Tutorial_2_System : TutorialSystem<Tutorial_2_System>
                 Debug.Log("Case 17");
                 ShowNextPopup(17);
                 PlayerMouseSpriteExample.Instance.SetVisibility(true);
+                PlayerMouseSpriteExample.Instance.ResetCursorPosition();
                 break;
             case 20: //By the way, notice that Mr. X gets every ticket the detectives are using
                 Debug.Log("Case 20");
@@ -256,6 +259,7 @@ public class Tutorial_2_System : TutorialSystem<Tutorial_2_System>
                 ShowNextPopup(GameToGui(NeededSations[4].transform.position), CompassDirection.North, ErasePopupOnPlayerMoveStart, null, 22);
                 UnPause();
                 PlayerMouseSpriteExample.Instance.SetVisibility(true);
+                PlayerMouseSpriteExample.Instance.ResetCursorPosition();
                 break;
             case 24: //But take care when you use your special tickets
                 Debug.Log("Case 24");

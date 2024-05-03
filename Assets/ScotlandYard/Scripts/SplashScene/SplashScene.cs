@@ -44,8 +44,9 @@ public class SplashScene : MonoBehaviour
 
 	IEnumerator Start () 
 	{
-		yield return null;
+		yield return new WaitForSeconds(8);//yield return null;
 		
+
 		Time.timeScale = 1.0f;
 
 		foreach (Image logo in _logos)

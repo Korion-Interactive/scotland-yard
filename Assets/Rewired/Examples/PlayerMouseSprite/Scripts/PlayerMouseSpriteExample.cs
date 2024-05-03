@@ -146,7 +146,7 @@ namespace Rewired.Demos {
         
         public static PlayerMouseSpriteExample Instance => _instance;
         private bool _awakeFinished = false;
-        
+        private Vector3 _pointerOriginalPosition = Vector3.zero;
 
         void Awake() {
 
@@ -163,6 +163,7 @@ namespace Rewired.Demos {
             _mainCamera = Camera.main;
             
             pointer = Instantiate(pointerPrefab);
+            _pointerOriginalPosition = pointer.transform.position;
             pointer.transform.localScale = new Vector3(spriteScale, spriteScale, spriteScale);
 
 #if UNITY_5_PLUS
@@ -284,6 +285,7 @@ namespace Rewired.Demos {
         {
             //TODO: Check Controller Type
             Debug.Log("SetVisibility: " + cursorVisible, pointer);
+            
             pointer.SetActive(cursorVisible);
             CursorVisible = cursorVisible;
         }
@@ -296,6 +298,25 @@ namespace Rewired.Demos {
         public void EnableCursor()
         {
             SetVisibility(true);
+        }
+
+        public void ResetCursorPosition()
+        {
+            if (_mainCamera)
+            {
+                mouse.screenPosition = new Vector3(Screen.width * 0.5f, Screen.height * 0.5f);
+                pointer.transform.position = _mainCamera.ScreenToWorldPoint(new Vector3(Screen.width * 0.5f, Screen.height * 0.5f));
+            }
+            else if (_camera != null)
+            {
+                mouse.screenPosition = new Vector3(Screen.width * 0.5f, Screen.height * 0.5f);
+                pointer.transform.position = _camera.ScreenToWorldPoint(new Vector3(Screen.width * 0.5f, Screen.height * 0.5f));
+            }
+            else
+            {
+                mouse.screenPosition = new Vector3(Screen.width * 0.5f, Screen.height * 0.5f);
+                pointer.transform.position = UICamera.currentCamera.ScreenToWorldPoint(new Vector3(Screen.width * 0.5f, Screen.height * 0.5f));
+            }
         }
     }
 }
