@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UIElements;
 
@@ -112,6 +113,7 @@ public class TicketPopup : MonoBehaviour
         {
             return;
         }
+
         Debug.Log("SelectFirstButton: " + _nextUiElement.name);
         if (forceFocus)
         {
@@ -148,6 +150,12 @@ public class TicketPopup : MonoBehaviour
             {
                 TweenScale.Begin(_nextUiElement.gameObject, 0.1f, new Vector3(1.1f, 1.1f, 1.1f)).method = UITweener.Method.EaseInOut;
             }
+        }
+
+        Transform border = _nextUiElement.transform.Find("Border");
+        if(border != null)
+        {
+            border.gameObject.SetActive(true);
         }
     }
 
@@ -190,8 +198,18 @@ public class TicketPopup : MonoBehaviour
             forceFocus = true;
             return;
         }
+        /*
         UICamera.ForceSetSelection(_nextUiElement.gameObject);
         _nextUiElement.SetState(UIButtonColor.State.Hover, true);
         Debug.Log("ForceFocus: " + _nextUiElement.name);
+        */
+        StartCoroutine(DelayedFocus());
+    }
+
+    IEnumerator DelayedFocus()
+    {
+        yield return new WaitForSeconds(0.1f);
+
+        SelectFirstButton();
     }
 }

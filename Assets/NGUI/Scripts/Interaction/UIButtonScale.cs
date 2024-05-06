@@ -4,6 +4,7 @@
 //----------------------------------------------
 
 using UnityEngine;
+using UnityEngine.Events;
 
 /// <summary>
 /// Simple example script of how a button can be scaled visibly when the mouse hovers over it or it gets pressed.
@@ -19,6 +20,9 @@ public class UIButtonScale : MonoBehaviour
 
 	Vector3 mScale;
 	bool mStarted = false;
+
+	public UnityEvent _onSelected, _onUnselected;
+
 
 	void Start ()
 	{
@@ -68,6 +72,18 @@ public class UIButtonScale : MonoBehaviour
 	void OnSelect (bool isSelected)
 	{
 		if (enabled && (!isSelected || UICamera.currentScheme == UICamera.ControlScheme.Controller))
+		{
 			OnHover(isSelected);
-	}
+
+			if(isSelected)
+			{
+				_onSelected?.Invoke();
+			}
+		}
+
+        if (!isSelected)
+        {
+            _onUnselected?.Invoke();
+        }
+    }
 }

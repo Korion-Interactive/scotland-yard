@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 public class TicketPopupMrX : TicketPopup
 {
@@ -54,7 +55,15 @@ public class TicketPopupMrX : TicketPopup
     }
 
     public void ForceHighlight()
-    { 
-        _nextUiElement.SetState(UIButtonColor.State.Hover, true);
+    {
+        //_nextUiElement.SetState(UIButtonColor.State.Hover, true);
+        StartCoroutine(DelayedFocus());
+    }
+
+    IEnumerator DelayedFocus()
+    {
+        yield return new WaitForSeconds(0.1f);
+
+        SelectFirstButton();
     }
 }

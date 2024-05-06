@@ -15,6 +15,9 @@ public class MainMenuHelper : MonoBehaviour
     [SerializeField]
     private GameObject _activeGameObjectDependency;
 
+    [SerializeField]
+    private UnityEvent _onEnable;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +31,11 @@ public class MainMenuHelper : MonoBehaviour
             _onHover?.Invoke();
         }
         
+    }
+
+    private void OnEnable()
+    {
+        _onEnable?.Invoke();
     }
     
 }

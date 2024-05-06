@@ -27045,7 +27045,13 @@ MonoBehaviour:
   clearSelection: 0
   ifDisabledOnPlay: 0
   disableWhenFinished: 1
-  onFinished: []
+  onFinished:
+  - mTarget: {fileID: 1984192867}
+    mMethodName: SelectSSpecificObjectDelayed
+    mParameters:
+    - obj: {fileID: 1984192858}
+      field: 
+    oneShot: 0
   eventReceiver: {fileID: 0}
   callWhenFinished: 
 --- !u!1 &1198151047
@@ -33853,7 +33859,7 @@ Transform:
   m_GameObject: {fileID: 1519260257}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1598, y: 899.00006, z: 0}
+  m_LocalPosition: {x: 1597.0001, y: 899.00006, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -43611,6 +43617,21 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   _activeGameObjectDependency: {fileID: 1189035719}
+  _onEnable:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1984192867}
+        m_TargetAssemblyTypeName: SelectUIElement, Assembly-CSharp
+        m_MethodName: SelectSSpecificObjectDelayed
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1984192858}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1984192869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43676,6 +43697,9 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   _activeGameObjectDependency: {fileID: 2119653937}
+  _onEnable:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1987939010
 GameObject:
   m_ObjectHideFlags: 0
@@ -45566,6 +45590,9 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   _activeGameObjectDependency: {fileID: 2119653937}
+  _onEnable:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &2050216324
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45655,6 +45682,9 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   _activeGameObjectDependency: {fileID: 1189035719}
+  _onEnable:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &2051557598
 GameObject:
   m_ObjectHideFlags: 0
