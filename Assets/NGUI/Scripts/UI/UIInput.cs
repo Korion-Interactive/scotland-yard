@@ -181,11 +181,15 @@ public class UIInput : MonoBehaviour
 	static protected string mLastIME = "";
 #endif
 
-	/// <summary>
-	/// Default text used by the input's label.
-	/// </summary>
+#if UNITY_SWITCH
+    private nn.swkbd.ShowKeyboardArg showKeyboardArg;
+#endif
 
-	public string defaultText
+    /// <summary>
+    /// Default text used by the input's label.
+    /// </summary>
+
+    public string defaultText
 	{
 		get
 		{
@@ -243,6 +247,30 @@ public class UIInput : MonoBehaviour
 				mValue = value;
 				mLoadSavedValue = false;
 				if (!isSelected) SaveToPlayerPrefs(value);
+				UpdateLabel();
+				ExecuteOnChange();
+			}
+#elif UNITY_PS4 || UNITY_PS5 || UNITY_SWITCH
+			if (mValue != value)
+			{
+				mValue = value;
+				mLoadSavedValue = false;
+
+				if (isSelected)
+				{
+					if (string.IsNullOrEmpty(value))
+					{
+						mSelectionStart = 0;
+						mSelectionEnd = 0;
+					}
+					else
+					{
+						mSelectionStart = value.Length;
+						mSelectionEnd = mSelectionStart;
+					}
+				}
+				else SaveToPlayerPrefs(value);
+
 				UpdateLabel();
 				ExecuteOnChange();
 			}
@@ -508,17 +536,68 @@ public class UIInput : MonoBehaviour
 				mSelectionStart = 0;
 				mSelectionEnd = string.IsNullOrEmpty(mValue) ? 0 : mValue.Length;
 #endif
+
+#if UNITY_SWITCH
+				ShowKeyboard();
+#endif
 				mDrawStart = 0;
 			}
 			UpdateLabel();
 		}
 	}
 
-	/// <summary>
-	/// Notification of the input field losing selection.
-	/// </summary>
+#if UNITY_SWITCH
+    public void ShowKeyboard()
+    {
+        
+        nn.swkbd.Swkbd.Initialize(ref showKeyboardArg, false);
 
-	protected void OnDeselectEvent ()
+		nn.swkbd.Swkbd.InitializeKeyboardConfig(ref showKeyboardArg.keyboardConfig);
+        nn.swkbd.Swkbd.SetInitialText(ref showKeyboardArg, selection.value); //Get Inputfield name
+
+		showKeyboardArg.keyboardConfig.keyboardMode = nn.swkbd.KeyboardMode.Full;
+        showKeyboardArg.keyboardConfig.initialCursorPos = nn.swkbd.InitialCursorPos.First;
+        showKeyboardArg.keyboardConfig.textMaxLength = 12;
+        showKeyboardArg.keyboardConfig.textMinLength = 1;
+		showKeyboardArg.keyboardConfig.inputFormMode = nn.swkbd.InputFormMode.OneLine;
+
+        showKeyboardArg.keyboardConfig.isUseNewLine = true;
+        showKeyboardArg.keyboardConfig.isUseBlurBackground = true;
+        if (showKeyboardArg.keyboardConfig.inputFormMode == nn.swkbd.InputFormMode.Separate)
+        {
+            showKeyboardArg.keyboardConfig.separateTextPos[0] = 3;
+            showKeyboardArg.keyboardConfig.separateTextPos[1] = 7;
+            showKeyboardArg.keyboardConfig.separateTextPos[2] = 11;
+            for (int i = 3; i < nn.swkbd.Swkbd.SepareteTextPosMax; i++)
+            {
+                showKeyboardArg.keyboardConfig.separateTextPos[i] = -1;
+            }
+        }
+
+        // UTF-16
+        showKeyboardArg.keyboardConfig.isUseUtf8 = false;
+
+        System.Text.StringBuilder resultString = new System.Text.StringBuilder(nn.swkbd.Swkbd.TextMaxLength);
+        var result = nn.swkbd.Swkbd.ShowKeyboard(resultString, showKeyboardArg, true);
+        if (result.IsSuccess())
+        {
+            selection.value = resultString.ToString();
+
+        }
+
+        ReselectDetectiveNameButton reselector = GetComponent<ReselectDetectiveNameButton>();
+        if (reselector != null)
+        {
+            reselector.SelectButton();
+        }
+    }
+#endif
+
+    /// <summary>
+    /// Notification of the input field losing selection.
+    /// </summary>
+
+    protected void OnDeselectEvent ()
 	{
 		if (mDoInit) Init();
 
@@ -532,12 +611,22 @@ public class UIInput : MonoBehaviour
 				mKeyboard = null;
 			}
 #endif
-			if (string.IsNullOrEmpty(mValue))
+
+#if UNITY_SWITCH
+            nn.swkbd.Swkbd.Destroy(ref showKeyboardArg);
+#endif
+            if (string.IsNullOrEmpty(mValue))
 			{
 				label.text = mDefaultText;
 				label.color = mDefaultColor;
 			}
 			else label.text = mValue;
+
+			ReselectDetectiveNameButton reselector = GetComponent<ReselectDetectiveNameButton>();
+			if(reselector != null)
+			{
+				reselector.SelectButton();
+			}
 
 			Input.imeCompositionMode = IMECompositionMode.Auto;
 			RestoreLabelPivot();

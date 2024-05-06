@@ -103,6 +103,11 @@ public class PopupManager : MonoBehaviour
         currentPopup.yesButton.GetComponent<UIEventListener>().onClick += DestroyWindow;
         currentPopup.noButton.GetComponent<UIEventListener>().onClick += DestroyWindow;
 
+        if(textID == "MrX_turn")
+        {
+            currentPopup.yesButton.transform.GetChild(0).GetComponent<UILabel>().text = "OK";
+        }
+
         this.LogInfo(string.Format("ShowQuestionPopup({0}, {1}, {2}, {3})", headerID, textID, yesCallback, noCallback));
 
         #region debug log

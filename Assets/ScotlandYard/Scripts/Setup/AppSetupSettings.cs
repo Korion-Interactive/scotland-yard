@@ -157,13 +157,13 @@ public class AppSetupSettings : MonoBehaviour
 
     public void TryPauseGame()
     {
-        if (GameState.HasInstance && (GameSetupBehaviour.Instance.Setup.Mode == GameMode.HotSeat || GameSetupBehaviour.Instance.Setup.Mode.IsTutorial()))
+        if (GameState.HasInstance && (GameSetupBehaviour.Instance.Setup.Mode == GameMode.HotSeat || GameSetupBehaviour.Instance.Setup.Mode.IsTutorial() || GameSetupBehaviour.Instance.Setup.Mode == GameMode.MultiController))
             GameState.Instance.SetPausing(true, false);
     }
 
     public void TryUnpauseGame()
     {
-        if (GameState.HasInstance && (GameSetupBehaviour.Instance.Setup.Mode == GameMode.HotSeat || GameSetupBehaviour.Instance.Setup.Mode.IsTutorial()))
+        if (GameState.HasInstance && (GameSetupBehaviour.Instance.Setup.Mode == GameMode.HotSeat || GameSetupBehaviour.Instance.Setup.Mode.IsTutorial() || GameSetupBehaviour.Instance.Setup.Mode == GameMode.MultiController))
             GameState.Instance.SetPausing(false, false);
     }
 
