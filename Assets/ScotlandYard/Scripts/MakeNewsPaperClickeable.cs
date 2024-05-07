@@ -4,9 +4,19 @@ using UnityEngine.SceneManagement;
 
 public class MakeNewsPaperClickeable : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-	
+    private void Awake()
+    {
+        if (GameSetupBehaviour.Instance.Setup.Mode.IsTutorial())
+        {
+            Destroy(GetComponent<ChangeActionMap>());
+        }
+    }
+    // Use this for initialization
+    void Start () {
+	    if(GameSetupBehaviour.Instance.Setup.Mode.IsTutorial())
+        {
+            GetComponent<ActionReceiver>().enabled = false;
+        }
 	}
 	
 	// Update is called once per frame

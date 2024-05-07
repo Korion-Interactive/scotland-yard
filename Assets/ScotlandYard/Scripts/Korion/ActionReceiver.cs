@@ -46,6 +46,11 @@ public class ActionReceiver : MonoBehaviour
 
     private void OnActionPressed(InputActionEventData action)
     {
+        if(action.IsCurrentInputSource(ControllerType.Mouse))
+        {
+            return;
+        }
+
         if (action.GetButtonDown())
         {
             _onActionTriggered?.Invoke();
