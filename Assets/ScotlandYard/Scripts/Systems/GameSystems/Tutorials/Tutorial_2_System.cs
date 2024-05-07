@@ -34,6 +34,7 @@ public class Tutorial_2_System : TutorialSystem<Tutorial_2_System>
     private void StartGame(BaseArgs obj)
     {
         GameState.Instance.MrX.PlayerState.Tickets.AddTicket(TransportationType.Any);
+        PlayerMouseSpriteExample.Instance.ResetCursorPosition();
     }
 
     private void DTClicked(BaseArgs obj)
@@ -89,7 +90,10 @@ public class Tutorial_2_System : TutorialSystem<Tutorial_2_System>
             case 0:
                 if (player.IsMrX)
                 {
-                    focusPoints.Add(player.transform.position - new Vector3(0.35f, 0));
+                    if(tutorialPopupIndex >= 7)
+                        focusPoints.Add(player.transform.position - new Vector3(0.35f, 1));
+                    else
+                        focusPoints.Add(player.transform.position - new Vector3(0.35f, 0));
                     TicketsMrXPopup.AllowedTransportationTypes = 0;
                     TicketsMrXPopup.IsAllowedToUseSpecialTickets = false;
                     player.AllowedStationConstraints.Add(1);
@@ -150,7 +154,8 @@ public class Tutorial_2_System : TutorialSystem<Tutorial_2_System>
                 // Now there´s only a black ticket in the message box
                 Vector3 logShift = new Vector3(-0.4f, -0.1f);
                 Debug.Log("Case 18");
-                ShowNextPopup(PlayerTabSystem.instance.PlayerTabs[0].transform.position + logShift, CompassDirection.South, null, null, 18); // Index 18
+                    focusPoints.Add(player.transform.position + new Vector3(0.35f, 2f));
+                    ShowNextPopup(PlayerTabSystem.instance.PlayerTabs[0].transform.position + logShift, CompassDirection.South, null, null, 18); // Index 18
                 _ticketPopup.ForceFocus();
             }
             if (player.IsDetective && tutorialPopupIndex == 19)

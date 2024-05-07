@@ -256,7 +256,7 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
                         }
                         else if(tutorialPopupIndex == 19)
                         {
-                            focusPoints.Add(player.Location.transform.position + new Vector3(-1f, 0));
+                            focusPoints.Add(player.Location.transform.position + new Vector3(-1f, 1));
                         }
 
                     }
@@ -277,7 +277,8 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
                         //Time to move to an underground station
                         if (tutorialPopupIndex == 26)
                         {
-                            focusPoints.Add(player.Location.transform.position + new Vector3(-1f, 0));
+                            focusPoints.Clear();
+                            focusPoints.Add(player.Location.transform.position + new Vector3(-1f, -1f));
                             Debug.Log("Case 26");
                             ShowNextPopup(GameToGui(NeededStations[8].transform.position), CompassDirection.East, null, null, 26); // Index 26
                             player.AllowedStationConstraints.Clear();
@@ -290,7 +291,7 @@ public class Tutorial_1_System : TutorialSystem<Tutorial_1_System>
                         if (tutorialPopupIndex == 27)
                         {
                             
-                            focusPoints.Add(player.Location.transform.position + new Vector3(-1f, 0));
+                            focusPoints.Add(player.Location.transform.position + new Vector3(-1f, -1f));
                         }
                     }
                     if (player.PlayerId == 2)
