@@ -383,7 +383,7 @@ public class AppSetup : MonoBehaviour
         if (result != null)
         {
             GameState gameState = JsonConvert.DeserializeObject<GameState>(result); //this also sets the singleton
-            Debug.Log("Loaded GameState");
+            Debug.Log("Loaded GameState: " + result);
         }
         else
         {

@@ -910,7 +910,7 @@ namespace Sunbow.Util.IO
             else
 #endif
             {
-#if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5
+#if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5 || UNITY_STANDALONE
                 //TODO KORION IO LOAD STARTS
 
                 var reader = IOSystem.Instance.GetReader();

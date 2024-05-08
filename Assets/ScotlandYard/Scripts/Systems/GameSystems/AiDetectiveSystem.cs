@@ -183,6 +183,7 @@ public class AiDetectiveSystem : BaseSystem<GameEvents, AiDetectiveSystem>
         List<Station> wayToGo = new List<Station>();
         wayToGo.Add(target);
 
+        UnityEngine.Debug.Log("Trying to find way. Det: " + det + ", target: " + target);
         int step = det.ConnectionWeight[target.Id].Step;
 
         //if(target.Id == 46) // DEBUG
