@@ -30,7 +30,7 @@ public static class Globals
     public const string PlayerReady_LeftGame = "Cross";
     public const string PlayerReady_OtherReady = "BlueCheck";
     public const string PlayerReady_SelfReady = "WhiteCheck";
-#if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5
+#if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5 || UNITY_STANDALONE
     public static readonly string LastGameStatePath = "gamestate.json";
     public static readonly string LastGameSetupPath = "gamesetup.json";
 #else

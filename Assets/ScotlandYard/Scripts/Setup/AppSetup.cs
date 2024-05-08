@@ -121,7 +121,7 @@ public class AppSetup : MonoBehaviour
 
     private async UniTaskVoid Awake()
     {
-#if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5
+#if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5 || UNITY_STANDALONE
         await IOSystem.Instance.InitializeAsync(destroyCancellationToken);
 #endif
 
@@ -216,7 +216,7 @@ public class AppSetup : MonoBehaviour
         LoadOrCreateStatsTable().Forget();
     }
 
-#if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5
+#if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5 || UNITY_STANDALONE
 
     public UniTask WriteDataAsync<T>(string id, T data, CancellationToken cancellationToken = default)
     {
@@ -244,7 +244,7 @@ public class AppSetup : MonoBehaviour
 
     public async UniTaskVoid LoadOrCreateStatsTable()
     {
-#if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5
+#if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5 ||UNITY_STANDALONE
         //TODO KORION IO
         string statsPath = "stats.txt"; //id
         string data = await ReadDataAsync<string>(statsPath);
@@ -296,7 +296,7 @@ public class AppSetup : MonoBehaviour
 
     public async UniTask<bool> HasOpenGame()
     {
-#if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5
+#if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5 || UNITY_STANDALONE
         //Debug.Log("KORION: Checking if has open game");
         //Debug.Log("Last Savegamepath: " + Globals.LastGameSetupPath);
         string data = await ReadDataAsync<string>(Globals.LastGameSetupPath);
@@ -320,7 +320,7 @@ public class AppSetup : MonoBehaviour
 
     void SaveData(ref string data, string filePath)
     {
-#if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5
+#if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5 || UNITY_STANDALONE
         WriteDataAsync(filePath, data).Forget();
 #else
         try
@@ -377,7 +377,7 @@ public class AppSetup : MonoBehaviour
 
     private async UniTask LoadGameState(string filePath)
     {
-#if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5
+#if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5 || UNITY_STANDALONE
         //TODO KORION IO
         string result = await ReadDataAsync<string>(filePath);
         if (result != null)
@@ -416,7 +416,7 @@ public class AppSetup : MonoBehaviour
     {
         GameSetup gameSetup;
 
-#if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5
+#if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5 || UNITY_STANDALONE
         //TODO KORION IO
         Debug.Log("KORION: Sart loading Game setup");
         string result = await ReadDataAsync<string>(filePath);
@@ -433,6 +433,7 @@ public class AppSetup : MonoBehaviour
             DeleteSavegame();
             return null;
         }
+
 #else
         try
         {
@@ -440,7 +441,8 @@ public class AppSetup : MonoBehaviour
             {
                 using (var reader = new StreamReader(stream))
                 {
-                    gameSetup = JsonConvert.DeserializeObject<GameSetup>(reader.ReadToEnd());
+                    string savegameText = reader.ReadToEnd();
+                    gameSetup = JsonConvert.DeserializeObject<GameSetup>(savegameText);
                 }
             }
         }
@@ -457,7 +459,7 @@ public class AppSetup : MonoBehaviour
 
     internal void DeleteSavegame()
     {
-#if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5
+#if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5 || UNITY_STANDALONE
         Debug.Log("KORION: Deleting Savegame");
         //TODO KORION IO // CancellationToken cancellationToken = default 
         IOSystem.Instance.RemoveData(Globals.LastGameSetupPath, new CancellationTokenSource().Token).Forget();
