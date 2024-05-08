@@ -134,4 +134,9 @@ public class UIStateButton : MonoBehaviour
             UIButton.current = null;
         }
     }
+
+    public void ResetState()
+    {
+        currentState = 0;
+    }
 }

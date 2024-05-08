@@ -5315,7 +5315,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: onSubmit.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: onChange.Array.data[0].mTarget
@@ -5324,14 +5324,14 @@ PrefabInstance:
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: onSubmit.Array.data[0].mTarget
       value: 
-      objectReference: {fileID: 2052038998}
+      objectReference: {fileID: 2051734414}
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: onChange.Array.data[0].mMethodName
       value: SetPlayerNameLocal
       objectReference: {fileID: 0}
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: onSubmit.Array.data[0].mMethodName
-      value: 
+      value: SelectButton
       objectReference: {fileID: 0}
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: onChange.Array.data[0].mParameters.Array.size
@@ -16611,7 +16611,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: onSubmit.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: onChange.Array.data[0].mTarget
@@ -16620,14 +16620,14 @@ PrefabInstance:
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: onSubmit.Array.data[0].mTarget
       value: 
-      objectReference: {fileID: 277965151}
+      objectReference: {fileID: 189663985}
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: onChange.Array.data[0].mMethodName
       value: SetPlayerNameLocal
       objectReference: {fileID: 0}
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: onSubmit.Array.data[0].mMethodName
-      value: SetPlayerName
+      value: SelectButton
       objectReference: {fileID: 0}
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: onChange.Array.data[0].mParameters.Array.size
@@ -16635,7 +16635,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: onSubmit.Array.data[0].mParameters.Array.size
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: onChange.Array.data[0].mParameters.Array.data[0].obj
@@ -18720,6 +18720,30 @@ MonoBehaviour:
   _onClickDelegate:
   - mTarget: {fileID: 2052038998}
     mMethodName: BackClicked
+    mParameters: []
+    oneShot: 0
+  - mTarget: {fileID: 979457452}
+    mMethodName: ResetState
+    mParameters: []
+    oneShot: 0
+  - mTarget: {fileID: 2034223667}
+    mMethodName: ResetState
+    mParameters: []
+    oneShot: 0
+  - mTarget: {fileID: 1736864854}
+    mMethodName: ResetState
+    mParameters: []
+    oneShot: 0
+  - mTarget: {fileID: 42659372}
+    mMethodName: ResetState
+    mParameters: []
+    oneShot: 0
+  - mTarget: {fileID: 1793395883}
+    mMethodName: ResetState
+    mParameters: []
+    oneShot: 0
+  - mTarget: {fileID: 1709514730}
+    mMethodName: ResetState
     mParameters: []
     oneShot: 0
   _animations:
@@ -23676,20 +23700,24 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: onSubmit.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: onChange.Array.data[0].mTarget
       value: 
       objectReference: {fileID: 277965151}
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: onSubmit.Array.data[0].mTarget
       value: 
-      objectReference: {fileID: 277965151}
+      objectReference: {fileID: 1178427960}
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: onChange.Array.data[0].mMethodName
       value: SetPlayerNameLocal
       objectReference: {fileID: 0}
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: onSubmit.Array.data[0].mMethodName
-      value: SetDetectiveNameLocal
+      value: SelectButton
       objectReference: {fileID: 0}
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: onChange.Array.data[0].mParameters.Array.size
@@ -23697,7 +23725,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: onSubmit.Array.data[0].mParameters.Array.size
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: onChange.Array.data[0].mParameters.Array.data[0].obj
@@ -33388,20 +33416,24 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
+      propertyPath: onSubmit.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: onChange.Array.data[0].mTarget
       value: 
       objectReference: {fileID: 277965151}
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: onSubmit.Array.data[0].mTarget
       value: 
-      objectReference: {fileID: 277965151}
+      objectReference: {fileID: 1988458723}
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: onChange.Array.data[0].mMethodName
       value: SetPlayerNameLocal
       objectReference: {fileID: 0}
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: onSubmit.Array.data[0].mMethodName
-      value: SetDetectiveNameLocal
+      value: SelectButton
       objectReference: {fileID: 0}
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: onChange.Array.data[0].mParameters.Array.size
@@ -33409,7 +33441,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: onSubmit.Array.data[0].mParameters.Array.size
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: onChange.Array.data[0].mParameters.Array.data[0].obj
@@ -34929,7 +34961,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: onSubmit.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: onChange.Array.data[0].mTarget
@@ -34938,7 +34970,7 @@ PrefabInstance:
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: onSubmit.Array.data[0].mTarget
       value: 
-      objectReference: {fileID: 277965151}
+      objectReference: {fileID: 1491087973}
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: onSubmit.Array.data[1].mTarget
       value: 
@@ -34949,7 +34981,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: onSubmit.Array.data[0].mMethodName
-      value: 
+      value: SelectButton
       objectReference: {fileID: 0}
     - target: {fileID: 11400012, guid: b7df2809a25cfde40b809be2c496d420, type: 3}
       propertyPath: onChange.Array.data[0].mParameters.Array.size
@@ -40671,6 +40703,10 @@ MonoBehaviour:
     mParameters:
     - obj: {fileID: 1837576900}
       field: value
+    oneShot: 0
+  - mTarget: {fileID: 1837576903}
+    mMethodName: SelectButton
+    mParameters: []
     oneShot: 0
   onChange:
   - mTarget: {fileID: 277965151}
