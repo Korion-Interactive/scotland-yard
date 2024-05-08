@@ -3,10 +3,16 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System;
+using static EventDelegate;
 
 public class Station : BaseBehaviour, IClickConsumable
 {
     const float HIGHLIGHT_ROTATION_SPEED = 15;
+    private Color _colorHighlightBackMetro = new Color(236, 45, 32);
+    private Color _colorHighlightFrontMetro = new Color(255, 255, 255);
+
+    private Color _colorHighlightBackBus = new Color(0, 200, 227);
+    private Color _colorHighlightFrontBus = new Color(255, 255, 255);
 
     public static Station FindStation(int id)
     {
@@ -42,6 +48,7 @@ public class Station : BaseBehaviour, IClickConsumable
 
         this.spriteName = GetComponent<UISprite>().spriteName;
 
+
         //KORION: We need to hack here because it is not possible to edit this inside Unity Editor without crashing
         if(Id == 29)
         {
@@ -70,6 +77,17 @@ public class Station : BaseBehaviour, IClickConsumable
                     }
                 }
             }
+        }
+
+        if (HasAnyTransportationOption(TransportationType.Metro))
+        {
+            highlightFront.GetComponent<UISprite>().color = _colorHighlightFrontMetro;
+            highlightBack.GetComponent<UISprite>().color = _colorHighlightBackMetro;
+        }
+        else if (HasAnyTransportationOption(TransportationType.Metro))
+        {
+            highlightFront.GetComponent<UISprite>().color = _colorHighlightFrontBus;
+            highlightBack.GetComponent<UISprite>().color = _colorHighlightBackBus;
         }
     }
 
@@ -201,6 +219,17 @@ public class Station : BaseBehaviour, IClickConsumable
         }
 
         isHighlighted = active;
+
+        if (HasAnyTransportationOption(TransportationType.Metro))
+        {
+            highlightFront.GetComponent<UISprite>().color = Helpers.ColorFromRGB(255, 255, 255);
+            highlightBack.GetComponent<UISprite>().color = Helpers.ColorFromRGB(236, 45, 32);
+        }
+        else if (HasAnyTransportationOption(TransportationType.Bus))
+        {
+            highlightFront.GetComponent<UISprite>().color = Helpers.ColorFromRGB(255, 255, 255);
+            highlightBack.GetComponent<UISprite>().color = Helpers.ColorFromRGB(0, 200, 227);
+        }
     }
 
     public void SetFakeHighlight(bool active)
