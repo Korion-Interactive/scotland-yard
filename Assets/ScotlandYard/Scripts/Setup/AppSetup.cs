@@ -285,6 +285,7 @@ public class AppSetup : MonoBehaviour
 
     void OnApplicationFocus(bool focus)
     {
+        /* KORION: This should not be neccessary as we are not a classical mobile app anymore.
         if (!focus
             && GameState.HasInstance
             && !GameState.Instance.IsGameOver
@@ -292,6 +293,7 @@ public class AppSetup : MonoBehaviour
         {
             SaveGame();
         }
+        */
     }
 
     public async UniTask<bool> HasOpenGame()

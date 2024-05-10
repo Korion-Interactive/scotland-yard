@@ -322,7 +322,7 @@ public class PlayerTurnSystem : BaseSystem<GameEvents, PlayerTurnSystem>
 
         this.WaitAndDo(null, null, () => 
         {
-            if (GameSetupBehaviour.Instance.Setup.Mode == GameMode.HotSeat
+            if ((GameSetupBehaviour.Instance.Setup.Mode == GameMode.HotSeat || GameSetupBehaviour.Instance.Setup.Mode == GameMode.MultiController)
                 && !GameState.Instance.IsGameOver)
             {
                 AppSetup.Instance.SaveGame();

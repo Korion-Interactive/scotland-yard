@@ -171,9 +171,9 @@ public class AppSetupSettings : MonoBehaviour
     {
         if (GameState.HasInstance)
         {
-            if (GameSetupBehaviour.Instance.Setup.Mode == GameMode.HotSeat && !GameState.Instance.IsGameOver)
+            if ((GameSetupBehaviour.Instance.Setup.Mode == GameMode.HotSeat || GameSetupBehaviour.Instance.Setup.Mode == GameMode.MultiController) && !GameState.Instance.IsGameOver)
             {
-                AppSetup.Instance.SaveGame();
+                //AppSetup.Instance.SaveGame(); // KORION: We don't need this as we are saving after each turn
             }
 
             GameState.ReleaseInstance();

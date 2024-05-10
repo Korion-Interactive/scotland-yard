@@ -7183,7 +7183,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _userData:
-    _allowedNpadStyles: -1
+    _allowedNpadStyles: -25
     _joyConGripStyle: 0
     _adjustIMUsForGripStyle: 1
     _handheldActivationMode: 0

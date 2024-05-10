@@ -1,6 +1,8 @@
 using Korion.ScotlandYard.Input;
 using Rewired;
+using Rewired.Platforms.Switch;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class ChangeActionMap : MonoBehaviour
@@ -44,6 +46,21 @@ public class ChangeActionMap : MonoBehaviour
         {
             SetControllerMapState();
         }
+
+        SwitchControllerCheck._onControllerAppletOpened.AddListener(UpdateControllers);
+    }
+
+    private void OnDisable()
+    {
+        SwitchControllerCheck._onControllerAppletOpened.RemoveListener(UpdateControllers);
+    }
+
+    private void UpdateControllers()
+    {
+        if (MultiplayerInputManager.Instance == null) { return; }
+
+        foreach (var _player in MultiplayerInputManager.Instance.AllPlayers)     // For now let every player share the same controller map
+            SetControllerMap(_player, _controllerMapToSwitchTo);
     }
 
     public void SetControllerMapState()
@@ -111,15 +128,36 @@ public class ChangeActionMap : MonoBehaviour
     private int GetCurrentActionMap()
     {
         Player player = ReInput.players.GetPlayer(_playerIndex);
-        IEnumerable<ControllerMap> cm = player.controllers.maps.GetMaps(InputDevices.LastActiveController.type, _playerIndex);  //KORION Todo: Get proper player Index
-        foreach(ControllerMap c in cm)                                                                                          //KORION: All players share the same input mapping so it should work fine!
+
+#if UNITY_SWITCH
+        Debug.Log("GetCurrentActionMap: Joystick Count: " + player.controllers.joystickCount + ", Player ID: " + player.id);
+        SwitchGamepadExtension ext = player.controllers.Joysticks[0].GetExtension<SwitchGamepadExtension>();
+        if(ext != null)
+        {
+            Debug.Log("Npad ID of player " + _playerIndex + " is " + ext.npadId + ", npadStyle: " + ext.npadStyle);
+        }
+        Controller contr = player.controllers.GetLastActiveController();
+
+        IEnumerable<ControllerMap> cm = player.controllers.maps.GetMaps(InputDevices.LastActiveController.type, _playerIndex);
+
+#else
+        IEnumerable<ControllerMap> cm = player.controllers.maps.GetMaps(InputDevices.LastActiveController.type, _playerIndex); 
+#endif
+
+        //IEnumerable<ControllerMap> cm = player.controllers.maps.GetMaps(InputDevices.LastActiveController.type, _playerIndex);  //KORION Todo: Get proper player Index
+        foreach (ControllerMap c in cm)                                                                                          //KORION: All players share the same input mapping so it should work fine!
         {
             if(c.enabled)
             {
                 return c.categoryId;
             }
         }
-
+        /*
+        if (cm.Count<ControllerMap>() == 0)
+        {
+            UpdateControllers();
+        }
+        */
         Debug.LogError("Error, no controller map active");
         return -1;
     }
