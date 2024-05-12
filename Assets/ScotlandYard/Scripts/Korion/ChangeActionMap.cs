@@ -1,6 +1,7 @@
 using Korion.ScotlandYard.Input;
 using Rewired;
 using Rewired.Platforms.Switch;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -59,8 +60,62 @@ public class ChangeActionMap : MonoBehaviour
     {
         if (MultiplayerInputManager.Instance == null) { return; }
 
-        foreach (var _player in MultiplayerInputManager.Instance.AllPlayers)     // For now let every player share the same controller map
-            SetControllerMap(_player, _controllerMapToSwitchTo);
+        StartCoroutine(UpdateCOntrollersDelayed());
+    }
+
+    private IEnumerator UpdateCOntrollersDelayed()
+    {
+        yield return new WaitForSeconds(1);
+
+        for (int i = 0; i < MultiplayerInputManager.Instance.AllPlayers.Count; i++)
+        {
+            Player player = ReInput.players.GetPlayer(i);
+
+            for (int j = 0; j < 1; j++)
+            {
+#if UNITY_STANDALONE
+                IEnumerable<ControllerMap> cm = player.controllers.maps.GetMaps(InputDevices.LastActiveController.type, j);
+#elif UNITY_SWITCH
+                IEnumerable<ControllerMap> cm;
+                if (SwitchControllerCheck.IsHandheld)
+                {
+                    cm = player.controllers.maps.GetMaps(InputDevices.LastActiveController.type, 0);
+                }
+                else
+                {
+                    cm = player.controllers.maps.GetMaps(InputDevices.LastActiveController.type, 1);
+                }
+#else
+                IEnumerable<ControllerMap> cm = player.controllers.maps.GetMaps(ControllerType.Joystick, j);
+#endif
+                if (cm != null)
+                {
+                    Debug.Log("CM is not null at Index " + j);
+                    foreach (ControllerMap c in cm)                                                                                          //KORION: All players share the same input mapping so it should work fine!
+                    {
+                        if (c.categoryId == 0 && _controllerMapToSwitchTo == "Default")
+                        {
+                            c.enabled = true;
+                            player.controllers.maps.SetMapsEnabled(true, "Default");
+                        }
+                        else if (c.categoryId == 1 && _controllerMapToSwitchTo == "UI")
+                        {
+                            c.enabled = true;
+                            player.controllers.maps.SetMapsEnabled(true, "UI");
+                        }
+                        else if (c.categoryId == 2 && _controllerMapToSwitchTo == "PopUp")
+                        {
+                            c.enabled = true;
+                            player.controllers.maps.SetMapsEnabled(true, "PopUp");
+                        }
+                        else
+                        {
+                            Debug.LogWarning("Warning! Could not reset Action Map");
+                        }
+                    }
+                }
+            }
+        }
     }
 
     public void SetControllerMapState()
@@ -76,6 +131,7 @@ public class ChangeActionMap : MonoBehaviour
 
         foreach (var _player in MultiplayerInputManager.Instance.AllPlayers)     // For now let every player share the same controller map
             SetControllerMap(_player, _controllerMapToSwitchTo);
+       
     }
 
     private void SetControllerMap(Player player, string controllerMap)
@@ -137,8 +193,30 @@ public class ChangeActionMap : MonoBehaviour
             Debug.Log("Npad ID of player " + _playerIndex + " is " + ext.npadId + ", npadStyle: " + ext.npadStyle);
         }
         Controller contr = player.controllers.GetLastActiveController();
-
         IEnumerable<ControllerMap> cm = player.controllers.maps.GetMaps(InputDevices.LastActiveController.type, _playerIndex);
+
+        if (SwitchControllerCheck.IsHandheld)
+        {
+            cm = player.controllers.maps.GetMaps(InputDevices.LastActiveController.type, 0);
+        }
+        else
+        {
+            cm = player.controllers.maps.GetMaps(InputDevices.LastActiveController.type, 1);
+        }
+
+        if(cm == null)
+        {
+            for(int i =0; i < 10; i++)
+            {
+                cm = player.controllers.maps.GetMaps(InputDevices.LastActiveController.type, i);
+                if(cm != null)
+                {
+                    Debug.Log("CM is not null at Index " + i);
+                    break;
+                }
+            }
+        }
+        
 
 #else
         IEnumerable<ControllerMap> cm = player.controllers.maps.GetMaps(InputDevices.LastActiveController.type, _playerIndex); 

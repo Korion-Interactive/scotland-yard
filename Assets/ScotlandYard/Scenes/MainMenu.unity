@@ -15056,6 +15056,26 @@ PrefabInstance:
       propertyPath: _userData._allowedNpadStyles
       value: -25
       objectReference: {fileID: 0}
+    - target: {fileID: 8802288697380190877, guid: 31b550e5730c146479539829c0d3141b,
+        type: 3}
+      propertyPath: _userData._npadNo1._rewiredPlayerId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802288697380190877, guid: 31b550e5730c146479539829c0d3141b,
+        type: 3}
+      propertyPath: _userData._npadNo2._rewiredPlayerId
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802288697380190877, guid: 31b550e5730c146479539829c0d3141b,
+        type: 3}
+      propertyPath: _userData._npadNo3._rewiredPlayerId
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802288697380190877, guid: 31b550e5730c146479539829c0d3141b,
+        type: 3}
+      propertyPath: _userData._npadNo4._rewiredPlayerId
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

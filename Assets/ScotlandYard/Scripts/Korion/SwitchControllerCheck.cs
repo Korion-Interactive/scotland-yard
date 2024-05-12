@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Rewired;
 using UnityEngine.Events;
+using System.Linq;
 #if UNITY_SWITCH //&& !UNITY_EDITOR
 using nn.hid;
 #endif
@@ -24,6 +25,8 @@ namespace Korion.ScotlandYard.Input
 		private bool showingControllerSupport = false;
 		private Coroutine appletDelay = null;
 
+		public static bool IsHandheld;
+
 		public static UnityEvent _onControllerAppletOpened = new UnityEvent();
 
 		// Start is called before the first frame update
@@ -38,6 +41,7 @@ namespace Korion.ScotlandYard.Input
 				if (npadStyle == NpadStyle.Handheld)
 				{
 					isHandheld = true;
+					IsHandheld = true;
 				}
 
 				Npad.GetState(ref npadState, npadId, npadStyle);
@@ -61,13 +65,36 @@ namespace Korion.ScotlandYard.Input
 			{
 				NpadId npadId = npadIds[i];
 				NpadStyle npadStyle = Npad.GetStyleSet(npadId);
+				bool wasHandheldBefore = isHandheld;
+
                 if (i == 0 && npadStyle == NpadStyle.Handheld)
                 {
                     isHandheld = true;
+                    IsHandheld = true;
                 }
 				else if(i == 0 && npadStyle != NpadStyle.Handheld)
 				{
 					isHandheld = false;
+                    IsHandheld = false;
+                }
+
+				if(isHandheld != wasHandheldBefore)
+				{
+					//ReInput.players.GetPlayer(0)
+				}
+
+                IEnumerable<ControllerMap> cm = ReInput.players.GetPlayer(0).controllers.maps.GetAllMaps();
+
+				int count = 0;
+
+                foreach (ControllerMap c in cm)                                                                                        
+                {
+					count++;
+                }
+
+				if(count == 0)
+				{
+					Debug.Log("SwitchControllerCheck: Could not find a Controllermap for player 0");
 				}
 
                 Npad.GetState(ref npadState, npadId, npadStyle);
@@ -122,7 +149,7 @@ namespace Korion.ScotlandYard.Input
 			{ 
 				Debug.Log(result); 
 			}
-			ReInput.Reset();
+			//ReInput.Reset();
 			_onControllerAppletOpened?.Invoke();
 		}
 
