@@ -97,7 +97,7 @@ public class SubCameraControl : SubSystem<GameBoardAnimationSystem>
         if (Check(dragInfo))
             return;
         
-        dragVelocity = (new Vector3(dragInfo.delta.x, dragInfo.delta.y) / 384) * Cam.orthographicSize;
+        dragVelocity = (new Vector3(dragInfo.delta.x, dragInfo.delta.y) / 384.0f) * Cam.orthographicSize;
     }
 
     void Gesture_onPinchE(PinchInfo info)
@@ -238,7 +238,7 @@ public class SubCameraControl : SubSystem<GameBoardAnimationSystem>
 
             if(_rightJoystickInput.x != 0 || _rightJoystickInput.y != 0)
             {
-                DragInfo dragInfo = new DragInfo(Vector2.zero, _rightJoystickInput * 550 * Time.deltaTime, 1, 0, false, false);
+                DragInfo dragInfo = new DragInfo(Vector2.zero, _rightJoystickInput * 550.0f * Time.deltaTime, 1, 0, false, false);
                 Gesture_onDraggingE(dragInfo);
             }
         }
