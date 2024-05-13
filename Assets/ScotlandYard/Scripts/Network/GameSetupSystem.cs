@@ -179,6 +179,7 @@ public class GameSetupSystem : NetworkSystem<GameSetupEvents, GameSetupSystem>
                             scriptCalledForClick = false;
                             SetNewGamePanelSelectionActive(true); //activates proper 
                             UICamera.currentCamera.GetComponent<UICamera>().horizontalAxisName = cachedHorizontalAxisName;
+                            PrepareCardSelection();
                             //?
                             //cachedSelectedObject
                         }, OnClick);

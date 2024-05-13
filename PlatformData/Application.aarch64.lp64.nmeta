@@ -3,7 +3,7 @@
   <Core>
     <Name>Application</Name>
     <Is64BitInstruction>True</Is64BitInstruction>
-    <ApplicationId>0x01004b9000490000</ApplicationId>
+    <ApplicationId>0x0100ab101e9fa000</ApplicationId>
     <ProgramIndex>0</ProgramIndex>
     <MainThreadStackSize>0x00100000</MainThreadStackSize>
     <ProcessAddressSpace>AddressSpace64Bit</ProcessAddressSpace>
@@ -74,7 +74,7 @@
       <IconPath>J:\Geteilte Ablagen\Scotland Yard\PlatformGraphics\Switch\GraphicsSwitchScotlandYard\ScotlandYard_AppIcon_1024x1024_v3_ES.bmp</IconPath>
     </Icon>
     <ReleaseVersion>0</ReleaseVersion>
-    <DisplayVersion>2.6</DisplayVersion>
+    <DisplayVersion>1.0.0</DisplayVersion>
     <StartupUserAccount>Required</StartupUserAccount>
     <UserAccountSwitchLock>Disable</UserAccountSwitchLock>
     <SupportedLanguage>AmericanEnglish</SupportedLanguage>
@@ -91,9 +91,38 @@
     <LogoType>LicensedByNintendo</LogoType>
     <LogoHandling>Auto</LogoHandling>
     <Rating>
-      <Organization>ESRB</Organization>
+      <Organization>ACB</Organization>
       <Age>0</Age>
     </Rating>
+    <Rating>
+      <Organization>ClassInd</Organization>
+      <Age>0</Age>
+    </Rating>
+    <Rating>
+      <Organization>ESRB</Organization>
+      <Age>6</Age>
+    </Rating>
+    <Rating>
+      <Organization>OFLC</Organization>
+      <Age>0</Age>
+    </Rating>
+    <Rating>
+      <Organization>PEGI</Organization>
+      <Age>3</Age>
+    </Rating>
+    <Rating>
+      <Organization>PEGIBBFC</Organization>
+      <Age>3</Age>
+    </Rating>
+    <Rating>
+      <Organization>PEGIPortugal</Organization>
+      <Age>3</Age>
+    </Rating>
+    <Rating>
+      <Organization>USK</Organization>
+      <Age>0</Age>
+    </Rating>
+    <LegalInformationFilePath>legal_info_0100ab101e9fa000_b5c9.zip</LegalInformationFilePath>
     <VideoCapture>Enable</VideoCapture>
     <RuntimeAddOnContentInstall>Deny</RuntimeAddOnContentInstall>
     <CrashReport>Allow</CrashReport>

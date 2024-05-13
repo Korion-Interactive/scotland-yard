@@ -28,7 +28,8 @@ public class GameStarter : MonoBehaviour
 
         this.LogInfo(string.Format("Is Host: {0}", GameSetupBehaviour.Instance.LocalPlayer.IsHost));
 
-        MultiplayerInputManager.Instance.NextPlayer(); // KORION: Switch to next player, so that input-player 0 is starting
+        if(MultiplayerInputManager.Instance.CurrentPlayer.id != 0)
+            MultiplayerInputManager.Instance.NextPlayer(); // KORION: Switch to next player, so that input-player 0 is starting
 
 
         if (!GameState.Instance.HasBeenLoadedFromFile)

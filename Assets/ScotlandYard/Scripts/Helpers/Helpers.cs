@@ -54,4 +54,31 @@ public static class Helpers
         if (finishedCallback != null)
             finishedCallback();
     }
+
+    public static string TransferMrXTextToMrsX(string textID)
+    {
+        switch(textID)
+        {
+            case "MrX_turn":
+                return "MsX_turn";
+            case "player_selection_misterx":
+                return "player_selection_msx";
+            case "pass_device":
+                return "pass_device_msx";
+            case "game_end_text_MrXCaught":
+                return "game_end_text_MsXCaught";
+            case "game_end_title_MrXCaught":
+                return "game_end_title_MsXCaught";
+            case "game_end_text_EscapeOfMrX":
+                return "game_end_text_EscapeOfMsX";
+            case "game_end_title_EscapeOfMrX":
+                return "game_end_title_EscapeOfMsX";
+            case "game_end_text_MrXSurrounded":
+                return "game_end_text_MsXSurrounded";
+            case "game_end_title_MrXSurrounded":
+                return "game_end_title_MsXSurrounded";
+
+        }
+        return textID;
+    }
 }

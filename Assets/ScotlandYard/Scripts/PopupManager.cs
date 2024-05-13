@@ -72,6 +72,12 @@ public class PopupManager : MonoBehaviour
 
     void ShowQuestionPopup(string headerID, string textID, UIEventListener.VoidDelegate yesCallback, UIEventListener.VoidDelegate noCallback)
     {
+        if (GameSetupSettings.IsMrsX)
+        {
+            headerID = Helpers.TransferMrXTextToMrsX(headerID);
+            textID = Helpers.TransferMrXTextToMrsX(textID);
+        }
+
         GameObject go = NGUITools.AddChild(Parent, PopUpWindowPrefab);
 
         if (currentPopup != null)
@@ -125,6 +131,7 @@ public class PopupManager : MonoBehaviour
 
 
     }
+
 
     public static void ShowPrompt(string headerID, string textID) { ShowPrompt(headerID, textID, null); }
     public static void ShowPrompt(string headerID, string textID, UIEventListener.VoidDelegate okCallback, params object[] locaParams)

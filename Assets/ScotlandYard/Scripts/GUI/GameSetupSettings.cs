@@ -14,7 +14,7 @@ public class GameSetupSettings : BaseBehaviour
         "Mr Diamond", "Charleston", "Mr Wang", "Mrs Marbles", "Mr Perrier"  };
 
     static readonly string[] FallbackMrXNamesKorion = new string[] { "Mr X" };
-    static readonly string[] FallbackMrXNamesAltKorion = new string[] { "Mrs X" };
+    static readonly string[] FallbackMrXNamesAltKorion = new string[] { "Ms X" };
     static readonly string[] FallbackDetectiveNamesKorion = new string[]
     { "James", "Robin", "William", "Olivia", "Mina"  };
     static readonly string[] FallbackDetectiveNamesAltKorion = new string[]
@@ -22,6 +22,8 @@ public class GameSetupSettings : BaseBehaviour
 
     static GameSetupSettings instance;
     public static GameSetupSettings Instance { get { return instance; } }
+
+    public static bool IsMrsX = false;
 
     protected override void Awake()
     {
@@ -241,10 +243,12 @@ public class GameSetupSettings : BaseBehaviour
                 if (transform.parent.GetComponent<UISprite>().name.Contains("02"))
                 {
                     name = FallbackMrXNamesAltKorion.PickRandom();
+                    GameSetupSettings.IsMrsX = true;
                 }
                 else
                 {
                     name = FallbackMrXNamesKorion.PickRandom();
+                    GameSetupSettings.IsMrsX = false;
                 }
             }
             else
@@ -579,10 +583,12 @@ public class GameSetupSettings : BaseBehaviour
             if (sprite.GetComponent<UISprite>().spriteName.Contains("02"))
             {
                 name = FallbackMrXNamesAltKorion.PickRandom();
+                GameSetupSettings.IsMrsX = true;
             }
             else
             {
                 name = FallbackMrXNamesKorion.PickRandom();
+                GameSetupSettings.IsMrsX = false;
             }
             MrXName.text = name;
             UIInput inputfield = MrXName.transform.parent.GetComponent<UIInput>();

@@ -32,8 +32,16 @@ public class SubNewspaperEndScreen : SubSystem<GameBoardAnimationSystem>
         NewsPaper.SetActive(true);
         Rotate();
         Scale();
-        NewsHeader.SetText("game_end_title_" + args.Reason.ToString());
-        NewsText.SetTextWithStaticParams("game_end_text_" + args.Reason.ToString(), GameState.Instance.MrX.Location.Id.ToString(), GameState.Instance.CurrentPlayer.PlayerDisplayName);
+        if (GameSetupSettings.IsMrsX)
+        {
+            NewsHeader.SetText(Helpers.TransferMrXTextToMrsX("game_end_title_" + args.Reason.ToString()));
+            NewsText.SetTextWithStaticParams(Helpers.TransferMrXTextToMrsX("game_end_text_" + args.Reason.ToString()), GameState.Instance.MrX.Location.Id.ToString(), GameState.Instance.CurrentPlayer.PlayerDisplayName);
+        }
+        else
+        {
+            NewsHeader.SetText("game_end_title_" + args.Reason.ToString());
+            NewsText.SetTextWithStaticParams("game_end_text_" + args.Reason.ToString(), GameState.Instance.MrX.Location.Id.ToString(), GameState.Instance.CurrentPlayer.PlayerDisplayName);
+        }
         NewsSprite.spriteName = "end_screen_pic_" + ((args.Reason == GameOverReason.MrXCaught || args.Reason == GameOverReason.MrXSurrounded) ? "caught" : "escape");
     }
 

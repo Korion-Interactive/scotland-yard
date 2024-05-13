@@ -34,11 +34,13 @@ namespace Korion.ScotlandYard.UI
             {
                 _sprite.spriteName = currentName.Substring(0, currentName.Length - 1) + "2";
                 spriteVariant = 1;
+                GameSetupSettings.IsMrsX = true;
             }
             else
             {
                 _sprite.spriteName = currentName.Substring(0, currentName.Length - 1) + "1";
                 spriteVariant = 0;
+                GameSetupSettings.IsMrsX = false;
             }
         }
 

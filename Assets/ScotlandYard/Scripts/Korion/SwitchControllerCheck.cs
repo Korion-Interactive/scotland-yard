@@ -4,7 +4,7 @@ using UnityEngine;
 using Rewired;
 using UnityEngine.Events;
 using System.Linq;
-#if UNITY_SWITCH //&& !UNITY_EDITOR
+#if UNITY_SWITCH && !UNITY_EDITOR
 using nn.hid;
 #endif
 
@@ -14,7 +14,8 @@ namespace Korion.ScotlandYard.Input
 
     public class SwitchControllerCheck : MonoBehaviour
     {
-#if UNITY_SWITCH //&& !UNITY_EDITOR
+        public static bool IsHandheld;
+#if UNITY_SWITCH && !UNITY_EDITOR
 		private NpadId[] npadIds = { NpadId.Handheld, NpadId.No1, NpadId.No2, NpadId.No3, NpadId.No4 };
 		private NpadStyle[] states = new NpadStyle[7];
 		private NpadState npadState = new NpadState();
@@ -25,7 +26,7 @@ namespace Korion.ScotlandYard.Input
 		private bool showingControllerSupport = false;
 		private Coroutine appletDelay = null;
 
-		public static bool IsHandheld;
+		
 
 		public static UnityEvent _onControllerAppletOpened = new UnityEvent();
 
