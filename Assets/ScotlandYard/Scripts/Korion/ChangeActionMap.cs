@@ -47,13 +47,16 @@ public class ChangeActionMap : MonoBehaviour
         {
             SetControllerMapState();
         }
-
+#if UNITY_SWITCH
         SwitchControllerCheck._onControllerAppletOpened.AddListener(UpdateControllers);
+#endif
     }
 
     private void OnDisable()
     {
+#if UNITY_SWITCH
         SwitchControllerCheck._onControllerAppletOpened.RemoveListener(UpdateControllers);
+#endif
     }
 
     private void UpdateControllers()
