@@ -47,14 +47,14 @@ public class ChangeActionMap : MonoBehaviour
         {
             SetControllerMapState();
         }
-#if UNITY_SWITCH
+#if UNITY_SWITCH && !UNITY_EDITOR
         SwitchControllerCheck._onControllerAppletOpened.AddListener(UpdateControllers);
 #endif
     }
 
     private void OnDisable()
     {
-#if UNITY_SWITCH
+#if UNITY_SWITCH && !UNITY_EDITOR
         SwitchControllerCheck._onControllerAppletOpened.RemoveListener(UpdateControllers);
 #endif
     }
@@ -74,7 +74,7 @@ public class ChangeActionMap : MonoBehaviour
         {
             Player player = ReInput.players.GetPlayer(i);
 
-            for (int j = 0; j < 1; j++)
+            for (int j = 0; j < 10; j++)
             {
 #if UNITY_STANDALONE
                 IEnumerable<ControllerMap> cm = player.controllers.maps.GetMaps(InputDevices.LastActiveController.type, j);
@@ -82,11 +82,11 @@ public class ChangeActionMap : MonoBehaviour
                 IEnumerable<ControllerMap> cm;
                 if (SwitchControllerCheck.IsHandheld)
                 {
-                    cm = player.controllers.maps.GetMaps(InputDevices.LastActiveController.type, 0);
+                    cm = player.controllers.maps.GetMaps(InputDevices.LastActiveController.type, j);
                 }
                 else
                 {
-                    cm = player.controllers.maps.GetMaps(InputDevices.LastActiveController.type, 1);
+                    cm = player.controllers.maps.GetMaps(InputDevices.LastActiveController.type, j);
                 }
 #else
                 IEnumerable<ControllerMap> cm = player.controllers.maps.GetMaps(ControllerType.Joystick, j);
@@ -197,7 +197,7 @@ public class ChangeActionMap : MonoBehaviour
         }
         Controller contr = player.controllers.GetLastActiveController();
         IEnumerable<ControllerMap> cm = player.controllers.maps.GetMaps(InputDevices.LastActiveController.type, _playerIndex);
-
+        /*
         if (SwitchControllerCheck.IsHandheld)
         {
             cm = player.controllers.maps.GetMaps(InputDevices.LastActiveController.type, 0);
@@ -206,16 +206,19 @@ public class ChangeActionMap : MonoBehaviour
         {
             cm = player.controllers.maps.GetMaps(InputDevices.LastActiveController.type, 1);
         }
-
-        if(cm == null)
+        */
+        if(cm != null)
         {
             for(int i =0; i < 10; i++)
             {
-                cm = player.controllers.maps.GetMaps(InputDevices.LastActiveController.type, i);
-                if(cm != null)
+                cm = player.controllers.maps.GetMaps(ControllerType.Joystick, i);
+
+                foreach (ControllerMap c in cm)                                                                                          //KORION: All players share the same input mapping so it should work fine!
                 {
-                    Debug.Log("CM is not null at Index " + i);
-                    break;
+                    if (c.enabled)
+                    {
+                        return c.categoryId;
+                    }
                 }
             }
         }

@@ -1,0 +1,538 @@
+id	en	de	fr	it	es	comments for translation
+new_game	NEW GAME	NEUES SPIEL	NOUVELLE PARTIE	NUOVA PARTITA	PARTIDA NUEVA	
+player_selection	Player Selection	Spielerauswahl	Sélection du joueur	Selezione giocatore	Selección de jugador	
+start	Start	Start	Démarrer	Inizia	Inicio	
+back	Back	Zurück	Retour	Ind.	Atrás	
+cancel	Cancel	Abbrechen	Annuler	Annulla	Cancelar	
+player_human	PLAYER	SPIELER	JOUEUR	GIOCATORE	JUGADOR	
+player_cpu	CPU	KI	IA	CPU	CPU	
+player_free	OFF	AUS	OFF	NO	NO	
+ai_easy	Easy	Einfach	Facile	Facile	Fácil	
+ai_normal	Normal	Normal	Normal	Normale	Normal	
+ai_diffcult	Hard	Schwer	Difficile	Difficile	Difícil	
+player_selection_detectives	Detective	Detektiv	Inspecteur	Detective	Detective	
+player_selection_roundtime	Round time	Rundenzeit	Temps de la manche	Durata turni	Tiempo de ronda	
+player_selection_description	"Select the characters you want to control and set the difficulty of non-player characters.
+Set a time for the round between 0:30 and 1:30 or unlimited.
+"	"Wähle die zu kontrollierenden Spielfiguren und stelle die Schwierigkeit von CPU-gesteuerten Figuren ein.
+Stelle eine Rundenzeit zwischen 0:30 bis 1:30 und unendlich ein."	Sélectionne les personnages que tu désires contrôler et définis la difficulté des personnages non-joueurs. Règle le temps de la manche entre 0:30 et 1:30, ou illimité.	"Seleziona i personaggi che vuoi controllare e imposta il livello di difficoltà per i personaggi controllati dal computer.
+Imposta la durata dei turni tra 0:30 e 1:30, oppure scegli una durata illimitata.
+"	"Selecciona los personajes que quieras controlar y decide la dificultad de los personajes no jugadores.
+Establece un tiempo para la ronda entre 0:30 y 1:30, o sin límite."	
+player_selection_misterx	Mr. X	Mister X	Mr X	Mister X	Mr. X	
+menu_sound	Sound	Ton	Son	Suono	Sonido	
+menu_statusBar	Status bar	Statusleiste	Barre de statut	Barra di stato	Barra de estado	
+menu_music	Music	Musik	Musique	Musica	Música	
+menu_news	News	Nachrichten	Infos	Novità	Noticias	
+menu_voice	Voice	Voice	Voix	Voce	Voz	
+menu_exit	Exit	Beenden	Quitter	Esci	Salir	
+game_end_text_MrXCaught	"{1} caught Mr.X!
+He was found at station {0}."	"{1} hat Mister X gefangen genommen!
+Er befand sich bei der Haltestelle {0}."	"{1} a attrapé Mr X !!
+Il a été vu à la station {0}."	"{1} ha preso Mister X!
+È stato scoperto alla fermata {0}."	"¡{1} ha atrapado al Mr. X!
+Lo ha encontrado en la estación {0}."	
+game_end_title_MrXCaught	Mr. X Caught!	Mister X wurde gefangen genommen!	Mr X a été pris !	Mister X è stato preso!	¡El Mr. X ha sido capturado!	
+game_end_text_EscapeOfMrX	"Mr.X has escaped!
+He was at station {0}."	"Mister X ist entkommen!
+Er befand sich bei der Haltestelle {0}."	"Mr X s'est échappé !
+Il était à la station {0}."	"Mister X è scappato!
+Era alla fermata {0}."	"¡El Mr. X ha escapado!
+Estaba en la estación {0}."	
+game_end_title_EscapeOfMrX	Mr. X Escapes!	Mister X entkommt!	Mr X s'échappe !	Mister X è scappato!	¡El Mr. X ha escapado!	
+game_end_text_MrXSurrounded	Mr.X surrounded at {0}!	Mr. X bei {0} eingekreist!	Mr X encerclé à {0} !	Mister X è stato circondato alla fermata {0}!	¡El Mr. X está rodeado en {0}!	
+game_end_title_MrXSurrounded	Mr. X surrounded!	Mr. X eingekreist!	Mr X encerclé !	Mister X è stato circondato!	¡El Mr. X está rodeado!	
+game_end_text_NobodyCanMove	The world has frozen.	Fehler im Raum-Zeit-Kontinuum	Le monde s'est immobilisé.	Il mondo si è fermato.	El mundo se ha detenido.	
+game_end_title_NobodyCanMove	Nobody can move.	Niemand kann sich mehr bewegen.	Personne ne peut se déplacer.	Nessuno si muove.	Nadie puede moverse.	
+select_card_player	{0}: Choose a card	{0}: Wähle eine Karte	{0} : Choisis une carte	{0}: scegli una carta	{0}: Elige una carta	
+rules_1_title	What happens in Scotland Yard?	Worum geht es in Scotland Yard?	Comment joue-t-on à Scotland Yard ?	Come si gioca a Scotland Yard?	¿Qué ocurre en Scotland Yard?	
+rules_1_body	"In Scotland Yard players assume the role of either the fleeing Mr. X or the detectives pursuing him through the night streets of London.
+
+THE AIM OF THE DETECTIVES is to use their combined efforts to catch Mr. X by landing on his spot, or by encircling Mr. X so that he cannot escape.
+
+THE AIM OF MR. X is to either remain at large after 22 game moves, or until the detectives can pursue him no further using a means of transport.
+
+TIP: The interactive tutorial is the best way of learning Scotland Yard. This guide has been designed for players to consult quickly and easily and to remind them of the game rules."	"In Scotland Yard übernehmen die Spieler entweder die Rolle des flüchtenden Mister X oder der Detektive, die Mister X durch das nächtliche London jagen.
+
+ZIEL DER DETEKTIVE ist es, gemeinsam Mister X zu fassen, indem einer auf dessen Feld rückt oder der umzingelte Mister X keine Möglichkeit mehr hat zu entkommen.
+
+ZIEL VON MISTER X ist es, entweder 22 Spielzüge auf der Flucht zu bleiben oder genau so lange, bis die Detektive keine Möglichkeiten mehr haben, ihn durch die Nutzung von Verkehrsmitteln weiter zu verfolgen.
+
+HINWEIS: Das interaktive Tutorial ist der beste Weg, Scotland Yard kennenzulernen. Diese Anleitung ist zum schnellen Nachschlagen der Regeln und zur Auffrischung gedacht."	"Dans Scotland Yard, les joueurs jouent le rôle de Mr X, qui est le fugitif, ou celui des inspecteurs qui le poursuivent à travers les rues de Londres.
+
+LE BUT DES INSPECTEURS est de combiner leurs efforts pour attraper Mr X en se déplaçant sur la station qu'il occupe, ou en encerclant Mr X afin qu'il ne puisse plus leur filer entre les doigts.
+
+LE BUT DE MR X est d'échapper aux inspecteurs, soit jusqu'au terme des 22 tours du jeu, soit jusqu'à ce qu'ils ne puissent plus le poursuivre grâce aux moyens de transport mis à leur disposition.
+
+ASTUCE : Le didacticiel interactif est le meilleur moyen de te familiariser avec Scotland Yard. Ce guide a été conçu pour que les joueurs puissent se souvenir des règles du jeu en le consultant rapidement et facilement."	"In Scotland Yard i giocatori possono scegliere di scappare con Mister X o inseguirlo nelle strade notturne di Londra con i detective.
+
+LO SCOPO DEI DETECTIVE è di collaborare come una squadra per catturare Mister X, raggiungendo la sua stessa fermata o circondandolo in modo da non lasciargli più alcuna via di fuga.
+
+LO SCOPO DI MISTER X è di non farsi catturare per 22 turni di gioco o almeno finché i detective non potranno più inseguirlo utilizzando un mezzo di trasporto.
+
+CONSIGLIO: il tutorial interattivo è il modo migliore per imparare a giocare a Scotland Yard. Questa guida è stata realizzata per consentire ai giocatori di consultare le regole e il funzionamento del gioco in modo semplice e veloce."	"En Scotland Yard los jugadores asumen el papel o bien del escurridizo Mr. X, o de los detectives que lo persiguen por las calles nocturnas de Londres.
+
+EL OBJETIVO DE LOS DETECTIVES es combinar sus esfuerzos para capturar al Mr. X, y para hacerlo tienen que caer en su casilla o rodearlo para que no pueda escapar.
+
+EL OBJETIVO DEL Mr. X es mantenerse a la fuga durante 22 turnos del juego, o conseguir que los detectives ya no puedan seguirle con ningún medio de transporte.
+
+CONSEJO: el tutorial interactivo es la mejor manera de familiarizarse con Scotland Yard. Esta guía se ha diseñado para que los jugadores puedan consultarla rápida y fácilmente y para recordarles las reglas del juego."	
+rules_2_title	The pursuit through London: means of transportation	Jagd durch London: Verkehrsmittel	La poursuite à travers Londres : les moyens de transport	Inseguimento a Londra: mezzi di trasporto	Persecución en Londres: los medios de transporte	
+rules_2_body	"Depending on the composition of the group of players, each player receives a certain number of tickets to use on various means of transportation around London to either escape (Mr. X), or pursue (detectives). The detectives and Mr. X therefore take turns to move from station to station. Mr. X always makes the first move.
+Three different means of transportation are ALL available, and allow the player to travel between the relevant stations or stops, provided the player has the tickets required to do so:
+
+TAXI: Takes you reliably from one station to the next along the yellow lines.
+BUS: Allows the player to cover longer distances along the blue lines. Buses arrive at bus stops marked with a blue circle. Underground stations are also stops.
+UNDERGROUND: They enable the player to cover greater distances along the red broken lines from underground station to underground station that are marked with a red circle and a blue crossbar."	"Je nach Zusammensetzung der Spielergruppe erhält jeder Spieler eine bestimmte Anzahl Tickets, mit denen er Verkehrsmittel in London nutzen kann, um entweder zu flüchten (Mister X) oder zu verfolgen (Detektive).
+Die Detektive und Mister X bewegen sich dabei reihum von Station zu Station. Mister X macht stets den ersten Zug.
+Drei unterschiedliche Verkehrsmittel stehen ALLEN zur Verfügung und erlauben die Reise zwischen entsprechenden Stationen, sofern der Spieler die nötigen Tickets besitzt:
+
+TAXI: Bringt einen auf den gelben Linien verlässlich von einer Station zur jeweils nächstgelegenen.
+BUS: Ermöglicht auf den blauen Linien weitere Strecken zurückzulegen. Busse fahren Bushaltestellen an, die mit einem blauen Kreis markiert sind. Auch U-Bahn-Stationen sind Haltestellen.
+U-BAHN: Sie macht entlang der roten, gestrichelten Linien die Überbrückung noch weiterer Strecken möglich –von U-Bahn-Station zu U-Bahn-Station, die mit einem roten Kreis und blauem Querbalken markiert sind."	"En fonction de la composition du groupe de joueurs, chaque joueur reçoit un certain nombre de tickets à dépenser dans les divers moyens de transport de Londres, soit pour s'échapper (Mr X), soit pour poursuivre le fugitif (inspecteurs). Les inspecteurs et Mr X se déplacent donc tour à tour d'une station à l'autre. C'est toujours Mr X qui se déplace en premier.
+Les trois moyens de transport sont TOUJOURS disponibles, et permettent aux joueurs de voyager entre les stations correspondantes, du moment que les joueurs possèdent les tickets nécessaires à leurs déplacements :
+
+TAXI : Amène le joueur d'une station à l'autre en suivant les lignes jaunes.
+BUS : Permet au joueur de parcourir de plus grandes distances en suivant les lignes bleues. Les bus arrivent aux stations de bus indiquées d'un cercle bleue. Les stations de métro constituent aussi des stations de bus.
+MÉTRO : Permet aux joueurs de parcourir de plus grandes distances en suivant les lignes pointillées rouges d'une station de métro à l'autre, stations indiquées d'un cercle rouge et d'une barre bleue."	"In base alla composizione del gruppo di giocatori, ciascuno riceve un determinato numero di biglietti per utilizzare i vari mezzi di trasporto in tutta Londra e riuscire a scappare (nel caso di Mister X) o continuare l'inseguimento (nel caso dei detective). Nel proprio turno i detective e Mister X si spostano da una fermata all'altra. Mister X fa sempre la prima mossa.
+È possibile usare tre mezzi di trasporto per spostarsi tra le fermate, a condizione che il giocatore abbia i biglietti necessari per farlo:
+
+TAXI: permette al giocatore di spostarsi da una fermata alla successiva lungo le linee gialle.
+AUTOBUS: permette al giocatore di percorrere distanze maggiori lungo le linee blu. Gli autobus raggiungono le proprie fermate, che sono indicate da un cerchio blu, ma anche quelle della metropolitana.
+METROPOLITANA: permette al giocatore di percorrere distanze ancora più lunghe seguendo le linee rosse da una fermata della metropolitana alla successiva, indicate da un cerchio rosso con una sbarra blu."	"Según el número de jugadores que haya en la partida, cada jugador recibirá un cierto número de billetes para utilizar en diferentes medios de transporte de Londres, ya sea para escapar (Mr. X) o para perseguir (detectives). De este modo, el Mr. X y los detectives se turnan para desplazarse de estación en estación. El Mr. X siempre hace el primer movimiento.
+Hay tres tipos de transporte que SIEMPRE están disponibles, y permiten a los jugadores desplazarse entre las estaciones correspondientes, siempre y cuando dispongan de los billetes necesarios:
+
+TAXI: sirve para desplazarse de manera fiable entre las estaciones de la línea amarilla.
+AUTOBÚS: permite a los jugadores desplazarse en distancias más largas entre las estaciones de la línea azul. Los autobuses paran en las estaciones marcadas con un círculo azul. Las paradas de metro también son estaciones de autobús.
+METRO: permite a los jugadores recorrer grandes distancias entre las estaciones de metro de la línea roja, que están indicadas con un círculo rojo y una raya azul.
+"	
+rules_3_title	The pursuit through London: tickets	Jagd durch London: Tickets	La poursuite à travers Londres : les tickets	Inseguimento a Londra: biglietti	Persecución en Londres: los billetes	
+rules_3_body	"USING THE TICKETS: All the locations the player can travel to in the current move using the different tickets he has available are highlighted. If he selects these places, he will call up a context menu, where he can choose which ticket he wants to, or has to, use. The pawn then automatically moves to the next station.
+
+TICKETS OVERVIEW: The tickets available to the active player are shown on the top right. For the other players, select the player colors and names on the menu bar at the bottom. In so doing, the camera will also focus on the corresponding location of the pawn."	"BENUTZUNG DER TICKETS: Alle Orte, die man im aktuellen Zug durch Einsatz unterschiedlicher Tickets aus dem Vorrat erreichen kann, sind deutlich hervorgehoben. Wählt man diese Orte an, so kann der Spieler in einem Kontextmenü wählen, welches Ticket er einsetzen will bzw. muss. Im Anschluss zieht die Spielfigur automatisch zur nächsten Station.
+
+ÜBERSICHT TICKETS: Die verfügbaren Tickets werden beim aktiven Spieler oben rechts angezeigt, für die anderen durch Auswählen der Spielerfarben und -namen auf der unteren Menüleiste. Zusätzlich stellt sich dadurch die Kamera auf den entsprechenden Ort der Spielfigur ein.  "	"UTILISER LES TICKETS : Tous les lieux où le joueur peut se rendre grâce aux différents tickets qu'il possède actuellement sont mis en surbrillance. S'il sélectionne un de ces lieux, un menu contextuel apparaîtra où il pourra sélectionner le ticket qu'il souhaite (ou doit) utiliser. Le pion se déplace ensuite automatiquement jusqu'à la station suivante.
+
+APERÇU DES TICKETS : Les tickets disponibles au joueur actif s'affichent en haut à droite. Pour les autres joueurs, sélectionne la couleur et le nom du joueur dans la barre de menu en bas de l'écran. La caméra se centrera alors sur le pion correspondant."	"USARE I BIGLIETTI: tutte le fermate che il giocatore può raggiungere nel proprio turno usando i biglietti lampeggiano. Selezionando una di queste fermate, si apre un menu in cui è possibile scegliere quale biglietto si vuole o si deve usare. La pedina raggiungerà automaticamente la prossima fermata scelta.
+
+TIPI DI BIGLIETTI: i biglietti a disposizione del giocatore attivo sono mostrati in alto a destra. Per vedere quelli degli altri giocatori, basta selezionare il rispettivo colore o nome nella barra del menu nella parte inferiore. Così facendo, l'inquadratura si sposterà sulla pedina corrispondente."	"CÓMO USAR LOS BILLETES: todos los lugares a los que puede viajar el jugador en el turno actual con los billetes que tiene disponibles están iluminados. Si el jugador selecciona uno de esos lugares, aparecerá un menú contextual, en el que puede escoger qué billete quiere (o debe) utilizar. Una vez hecho esto, el peón se desplazará hasta la siguiente estación.
+
+RESUMEN DE LOS BILLETES: los billetes que tiene disponibles el jugador activo se muestran en la parte superior derecha. Para ver los de los otros jugadores, selecciona los nombres y colores correspondientes en la barra de menú de la parte inferior. Si tocas el color de otro jugador, la cámara se moverá hacia el lugar donde se encuentre su peón."	"Previously the game was for mobile games with touch interface.
+Now it's been ported to consoles with controller interface.
+So no ""touch"" references allowed. 
+Please edit the bold highlithted texts accordingly in the target languages FIS."
+rules_4_title	Where is Mr. X?	Wo ist Mister X?	Mais où est Mr X ?	Dov'è Mister X?	¿Dónde está el Mr. X?	
+rules_4_body	"Mr. X is in hiding, which of course makes the detectives' search for him much more difficult. The only leads the detectives have are:
+
+SIGHTINGS: Mr. X's position is visible in moves 3, 8, 13, 18 and 24, and these are the most vital clues for the detectives. A pawn sketched in dashes marks his last known position, and he is visible to all the detectives, but this will fade after a while. If the player selects the highlighted moves in Mr. X's log (menu bar at the bottom), he can use the camera to have another look at the stations where Mr. X had been spotted.
+MEANS OF TRANSPORT USED: Other places where Mr. X has been can only be ascertained indirectly from the means of transportation he has used. These are also clearly displayed in Mr. X's log. A general turn log also records the moves of all the players (menu bar on the left next to the turn time countdown)."	"Mister X ist untergetaucht, was die Suche nach ihm für die Detektive natürlich erschwert. Alles was die Detektive wissen sind:
+
+SICHTUNGEN: Mister X’ Position wird in Zug 3, 8, 13, 18 und 24 sichtbar. Dies sind die wichtigsten Anhaltspunkte für die Detektive. Seine letzte bekannte Position wird mit einer gestrichelten Spielfigur für alle Detektive sichtbar markiert. Diese verblasst jedoch über die Zeit. Durch Auswählen der hell markierten Spielzüge auf dem Mister-X-Protokoll (unterste Menüleiste) können die Stationen mit der Kamera auch später noch einmal angefahren werden, an denen sich Mister X gezeigt hatte.
+BENUTZTE VERKEHRSMITTEL: Wo sich Mister X ansonsten aufhält, kann nur indirekt über die Verkehrsmittel erschlossen werden, die er benutzt hat. Diese sind ebenfalls übersichtlich im Mister-X-Protokoll aufgezeichnet. Zusätzlich zeichnet ein allgemeines Spielzug-Protokoll die Züge aller Spieler auf (Menüleiste oben links neben dem Zugzeit-Countdown)."	"Mr X se planque, ce qui complique évidemment la tâche des inspecteurs. Les seuls indices dont ils disposent sont :
+
+APPARITIONS : La position de Mr X devient visible à tous lors des déplacements 3, 8, 13, 18 et 24. Ces apparitions constituent les indices les plus précieux pour les inspecteurs. Un pion en pointillé, visible de tous, marque la dernière position connue de Mr X, mais il disparaîtra au bout d'un certain temps. Si le joueur sélectionne les déplacements en surbrillance dans le journal de Mr X, (dans la barre de menu en bas), il peut utiliser la caméra pour revisiter plus tard les stations où Mr X a été vu.
+MOYENS DE TRANSPORT UTILISÉS : Les autres lieux où Mr X s'est rendu ne peuvent être qu'inférés indirectement à partir des moyens de transport qu'il a utilisés. Ces derniers sont aussi clairement affichés dans le journal de Mr X. Les déplacements de tous les joueurs sont aussi consignés dans un journal général (dans la barre de menu juste à gauche du compte à rebours du tour)."	"Mister X è nascosto e ciò rende più difficile la missione dei detective. Gli unici indizi a loro disposizione sono:
+
+AVVISTAMENTI: la posizione di Mister X è visibile solo nei turni 3, 8, 13, 18 e 24 e questi avvistamenti sono gli indizi più importanti per i detective. Una pedina fantasma segna la sua ultima posizione nota ed è visibile a tutti i detective fin quando non scomparirà. Se il giocatore seleziona le mosse evidenziate nel registro di Mister X (barra del menu nella parte inferiore), può usare l'inquadratura per rivedere successivamente le fermate in cui è stato avvistato Mister X.
+MEZZI DI TRASPORTO USATI: un altro modo per ottenere indirettamente indizi sulla posizione di Mister X è osservare i mezzi di trasporto che ha utilizzato. Questi sono indicati chiaramente nel registro di Mister X. Un registro generale riporta anche le mosse di tutti i giocatori (barra del menu sulla sinistra accanto al timer della durata del turno)."	"El Mr. X está escondido, lo que hace que la búsqueda de los detectives sea todavía más difícil. Las únicas pistas que tienen los detectives son:
+
+AVISTAMIENTOS: la posición del Mr. X se muestra en los turnos 3, 8, 13, 18 y 24, y estos avistamientos son las pistas clave de los detectives. El peón fantasma indica su última posición conocida, y es visible a ojos de todos los detectives, pero desaparecerá al cabo de un tiempo. Si un jugador selecciona los movimientos resaltados en el diario del Mr. X (barra de menú de la parte inferior), podrá utilizar la cámara para visitar las estaciones en las que se ha avistado al Mr. X.
+MEDIOS DE TRANSPORTE UTILIZADOS: los otros lugares donde ha estado el Mr. X sólo se pueden suponer por los medios de transporte que ha utilizado. Esto está también indicado en el diario del Mr. X. El diario de turno general también indica los movimientos de todos los jugadores (barra de menú de la izquierda, al lado del temporizador de turno)."	"Previously the game was for mobile games with touch interface.
+Now it's been ported to consoles with controller interface.
+So no ""touch"" references allowed. 
+Please edit the bold highlithted texts accordingly in the target languages FIS."
+rules_5_title	Mr. X's special skills	Mister X’ besondere Fähigkeiten	Capacités spéciales de Mr X	Mosse speciali di Mister X	Habilidades especiales del Mr. X	
+rules_5_body	"Mr. X also has some exclusive means at his disposal to help him escape:
+
+DOUBLE MOVE: If Mr. X uses this ticket in a move, he can use two means of transportation IN THE SAME MOVE if he wants to make a quick getaway, for example. Mr. X always has 2 double move tickets.
+BLACK TICKETS: If Mr. X. also uses one of these tickets, he can conceal the means of transportation in this turn. He can also use the black ticket to use a boat to escape over the Thames (to and via stations 108, 115, 157 and 194). Mr. X always has the same number of black tickets as there are detectives in the game."	"Mister X verfügt über exklusive Mittel, die ihm auf seiner Flucht zusätzlich helfen:
+
+DOPPELZUG: Setzt Mister X dieses Ticket bei einem Zug ein, so kann er IM GLEICHEN Zug zwei Verkehrsmittel nutzen, um beispielsweise schnell zu fliehen. Mister X hat immer 2 Doppelzugtickets.
+BLACK TICKETS: Setzt Mister X eines dieser Tickets zusätzlich ein, so kann er das Verkehrsmittel verbergen in diesem Zug. Mit einem Black Ticket kann er auch auf der Themse mit einem Boot flüchten (an und über Station 108, 115, 157 und 194). Mister X erhält immer so viele Black Tickets, wie es Detektive im Spiel gibt."	"Mais Mr X a aussi des moyens exclusifs à sa disposition pour l'aider à s'échapper :
+
+COUP DOUBLE : Si Mr X a besoin de filer à l'anglaise, il peut utiliser ce ticket lors d'un déplacement pour emprunter deux moyens de transport LORS DU MÊME TOUR. Mr X possède toujours 2 tickets coup double.
+BLACK TICKETS : Si Mr X utilise l'un de ces tickets, il peut cacher le moyen de transport qu'il emprunte lors de son tour. Il peut utiliser le black ticket y compris pour prendre le bateau afin de s'échapper par la Tamise (vers et via les stations 108, 115, 157 et 194). Mr X a toujours le même nombre de black tickets qu'il y a d'inspecteurs dans la partie."	"Per riuscire a scappare, Mister X ha alcuni assi nella manica a sua disposizione:
+
+MOSSA DOPPIA: utilizzando questo biglietto, Mister X può usare due mezzi di trasporto NELLO STESSO TURNO. Ad esempio, è uno stratagemma molto utile per scappare rapidamente. Mister X ha sempre 2 biglietti mossa doppia.
+BIGLIETTI NERI: utilizzando uno di questi biglietti, Mister X può nascondere i mezzi di trasporto usati nel suo turno. Ad esempio, può utilizzare il biglietto nero per prendere la barca e fuggire lungo il Tamigi (verso o tramite le fermate 108, 115, 157 e 194). Mister X ha tanti biglietti neri quanti sono i detective che partecipano al gioco."	"El Mr. X también cuenta con medios especiales que le ayuden a escapar:
+
+MOVIMIENTO DOBLE: si el Mr. X utiliza este billete en su turno, podrá utilizar dos medios de transporte EN EL MISMO TURNO. Esto es muy útil para escabullirse rápidamente. El Mr. X siempre cuenta con dos billetes dobles.
+BILLETE NEGRO: si el Mr. X utiliza uno de estos billetes podrá ocultar el medio de transporte utilizado en ese turno. Puede utilizar el billete para subirse a un barco y escapar por el Támesis (hacia las estaciones 108, 115, 157 y 194). El Mr. X siempre tiene tantos billetes negros como detectives haya en el juego."	
+rules_6_title	Who wins?	Wer gewinnt?	Alors, qui gagne ?	Chi vince?	¿Quién gana?	
+rules_6_body	"Mr. X must give himself up when one of the detectives lands on the same spot as him, or when he cannot escape	 the detectives have then won the game and Mr. X is captured.
+
+However, if Mr. X remains undetected right up to the 22nd move, he wins the game. (Important: this means 22 COMPLETE moves. Remember that Mr. X may have visited 24 STATIONS along his way when using the double move tickets!)"	"Mister X muss sich zeigen, wenn einer der Detektive auf sein Feld rückt oder er keine Möglichkeiten mehr zur Flucht hat. Dann haben die Detektive gewonnen – Mister X wurde gefasst.
+
+Bleibt Mister X allerdings bis zum 22. Zug unentdeckt, so gewinnt er. (Achtung: Es handelt sich um 22 KOMPLETTE Spielzüge. Aufgrund der Doppelzugtickets kann Mister X dabei allerdings 24 STATIONEN besucht haben!)"	"Mr X est forcé de se rendre si l'un des inspecteurs s'arrête dans la même station que lui, ou s'il se retrouve encerclé et ne peut plus s'échapper 	 les inspecteurs gagnent alors la partie et Mr X est capturé.
+
+Mais si Mr X court toujours au terme du 22ème tour, il gagne la partie. (Important : il doit y avoir eu 22 tours COMPLETS 	 n'oubliez pas que Mr X aura peut-être visité 24 STATIONS grâce à ses tickets coup double !)"	"Mister X deve arrendersi quando un detective raggiunge la sua stessa fermata o quando non ha più alcuna via di fuga. In questo caso i detective vincono la partita e Mister X viene catturato.
+
+Ma se Mister X riesce a scappare fino al 22° turno, vince la partita. (Importante: significa superare 22 turni COMPLETI. Infatti, Mister X potrebbe aver visitato 24 FERMATE grazie ai biglietti mossa doppia!)"	"El Mr. X se dará por vencido cuando uno de los detectives caiga en su misma casilla, o cuando quede rodeado. Si esto pasa, los detectives habrán ganado la partida y habrán capturado al Mr. X.
+
+Sin embargo, si el Mr. X consigue aguantar sin ser detectado hasta la ronda 22, habrá ganado la partida. (Importante: esto significa haber realizado 22 movimientos COMPLETOS. ¡Recuerda que el Mr. X puede haber visitado 24 ESTACIONES al utilizar movimientos dobles!)"	
+rules_7_title	Special rules	Regelbesonderheiten	Règles spéciales	Regole speciali	Normas especiales	
+rules_7_body	"Mr. X often has a distinct advantage. One detective alone would have little chance of catching him, so pursuing him only makes sense when enough detectives are playing the game. So if only two players are competing against Mr. X, they will assume TWO detective characters each.
+
+Mr. X ALWAYS operates undercover. The game provides a hint in the appropriate places in the game when it is his turn, and he has to move without being seen by the others.
+
+Stations must never be occupied by two detectives."	"Mister X ist oft deutlich im Vorteil. Ein Detektiv alleine hätte kaum eine Chance ihn zu schnappen, weswegen die Jagd nach ihm erst sinnvoll ist, wenn genügend Detektive im Spiel sind. Treten nur zwei Spieler gegen ihn an, so übernehmen sie deshalb jeweils ZWEI Detektiv-Figuren.
+
+Mister X operiert IMMER im Geheimen. Das Spiel gibt an den jeweiligen Stellen im Spiel Hinweise, wann er am Zug ist und ohne die Beobachtung der anderen ziehen muss.
+
+Stationen dürfen nie doppelt besetzt sein von Detektiven."	"Mr X a souvent l'avantage. Un inspecteur seul a peu de chances de l'attraper 	 poursuivre Mr X n'a donc de sens que lorsqu'il y a assez d'inspecteurs dans la partie. Si seulement deux joueurs affrontent Mr X, alors ils joueront chacun DEUX inspecteurs.
+
+Mr X opère TOUJOURS en sous-marin. Le jeu lui fait savoir lorsque c'est son tour de jouer afin qu'il puisse se déplacer sans être vu par les autres.
+
+Une station ne peut jamais être occupée par deux inspecteurs à la fois."	"Mister X ha spesso un netto vantaggio. Un solo detective avrebbe poche possibilità di catturarlo, perciò conviene inseguirlo soltanto con un buon numero di detective. Per questo motivo, se ci sono solo due giocatori che competono contro Mister X, entrambi controlleranno DUE detective ciascuno.
+
+Mister X agisce SEMPRE in incognito. Il gioco indica chiaramente il suo turno in modo che possa muoversi senza essere visto dagli altri giocatori.
+
+Le fermate non possono mai essere occupate da due detective contemporaneamente."	"El Mr. X suele tener una ventaja considerable. Un solo detective tendría pocas posibilidades de atraparlo, así que perseguirle solamente tiene sentido cuando hay suficientes detectives en la partida. De modo que si únicamente hay dos jugadores compitiendo contra el Mr. X, LOS DOS asumirán el papel de detective.
+
+El Mr. X SIEMPRE actúa de incógnito. El juego le proporciona una pista en los momentos apropiados de la partida cuando es su turno, y tiene que moverse sin ser visto por los demás.
+
+Dos detectives nunca pueden ocupar una misma estación."	
+tutorial_general_1	Welcome to the general tutorial! You´ll learn all the basics here. Press the {submit} button to continue. Let´s get started!	Willkommen bei der allgemeinen Einführung! Hier lernst du die Grundlagen des Spiels kennen. Drücke den {submit} Knopf um fortzufahren. Fangen wir an!	Bienvenue sur le didacticiel sur les généralités ! Ici, tu apprendras toutes les bases. Touche le {submit} bouton pour continuer. C'est parti !	Benvenuto al tutorial generale! Qui imparerai le regole di base del gioco. Tocca il pulsante {submit} per continuare. Iniziamo!	¡Bienvenido al tutorial general! Aquí aprenderás los conceptos básicos. Toca el botón {submit} para continuar. ¡Empecemos!	
+tutorial_general_2	This is your pawn for now. See the white dotted circle around it? This means that this pawn is active.	Im Moment ist das deine Spielfigur. Siehst du den weißen Kreis, der um die Spielfigur rotiert? Dieser Kreis sagt dir, dass die Spielfigur aktiv ist.	Pour le moment, ceci est ton pion. Tu vois le cercle blanc en pointillé qui l'entoure ? Cela signifie que ce pion est actif.	Questa è la tua pedina. Vedi il cerchio bianco punteggiato che la circonda? Significa che la pedina è attiva.	"Este será tu peón. ""¿Ves el círculo blanco punteado a su alrededor? Significa que ese peón está activo."""	
+tutorial_general_3	Let´s try to move the map. To do so, use {move}. Now move from left to right until you reach the end of the board.	Versuchen wir einmal die Karte zu bewegen. Benutze dafür {move}, um dich zum Rand des Brettes zu bewegen.	Essayons de déplacer la carte. Pour cela, fais simplement glisser ton doigt sur l'écran. Fais-le glisser de gauche à droite jusqu'à ce que tu atteignes le bord du plateau de jeu.	Proviamo a muovere la mappa. Per farlo, basta far scorrere il dito sullo schermo. Ora scorri da sinistra a destra fino a raggiungere la fine del piano di gioco.	Vamos a intentar mover el mapa. Para hacerlo, solo tienes que deslizar el dedo por la pantalla. Ahora, desplaza el dedo de izquierda a derecha hasta que llegues al final del tablero.	
+tutorial_general_4	Great! That was easy, wasn´t it? Now it´s time to zoom. Use {zoom} to zoom out.	Großartig! Das ging doch kinderleicht, oder? Jetzt verändern wir den Bildausschnitt. Benutze {zoom} um herauszuzoomen.	Bravo ! Ce n'était pas si difficile, si ? Maintenant, essayons de zoomer. Fais une sorte de pincement avec tes doigts pour zoomer vers l'arrière.	Ottimo! È stato facile, no? Ora impariamo a modificare l'inquadratura. Pizzica con due dita per allontanare l'inquadratura.	¡Genial! Ha sido fácil, verdad? Ahora vamos a jugar con el nivel de zoom. Pellizca la pantalla con dos dedos para alejar la vista.	
+tutorial_general_5	Awesome! Now, zoom in again with {zoom}.	Hervorragend! Jetzt zoome wieder herein mit {zoom}.	Génial ! Maintenant, écarte tes doigts pour zoomer vers l'avant.	Fantastico! Ora avvicina nuovamente l'inquadratura allontanando le dita.	¡Fantástico! Ahora, para acercar la vista otra vez, pon dos dedos juntos en la pantalla y sepáralos.	
+tutorial_general_6	That´s it! Look at the player bar with the different colors of the pawns. The highlighted color is the active pawn.	Das war es auch schon! Beachte die Spieleranzeige mit den verschiedenen Farben der Spielfiguren. Die markierte Farbe zeigt dir an, welche Spielfigur aktiv ist.	C'est ça ! Regarde la barre du joueur avec les différentes couleurs des pions. La couleur mise en surbrillance représente le pion actif.	Perfetto! Osserva la barra dei giocatori con pedine di diversi colori. Il colore evidenziato indica la pedina attiva.	¡Eso es! Mira la barra del jugador con distintos colores para los peones. El color resaltado es el peón activo.	
+tutorial_general_7	To get back to your pawn, just select the highlighted color. This will bring the camera back to the pawn. You can also use {switch}.	Wähle die markierte Farbe, um zu deiner Spielfigur zurückzukehren. Dadurch wird die Kamera wieder auf die Spielfigur ausgerichtet. Du kannst auch {switch} verwenden.	Pour retourner à ton pion, sélectionne la couleur en surbrillance, et la caméra retournera sur le pion. Tu peux aussi utiliser {switch}.	Per tornare alla tua pedina, seleziona il colore evidenziato. Così facendo l'inquadratura torna sulla pedina. Puoi anche usare {switch}.	Para volver a tu peón, selecciona el color resaltado. De este modo la cámara se desplazará hasta el peón. También puedes usar {switch}.	"Previously the game was for mobile games with touch interface.
+Now it's been ported to consoles with controller interface.
+So no ""touch"" references allowed. 
+Please edit the bold highlithted texts accordingly in the target languages FIS."
+tutorial_general_8	Ok, now it´s time to get moving! Look at this yellow glowing station.	Okay, es wird Zeit, dass wir uns in Bewegung setzen. Schau dir die gelb leuchtende Haltestelle an.	Ok, maintenant, déplaçons-nous un peu ! Regarde cette station qui brille en jaune.	OK, è arrivato il momento di muoversi! Guarda la fermata gialla lampeggiante.	Bien, ¡es hora de empezar a moverse! Echa un vistazo a esta estación iluminada de color amarillo.	
+tutorial_general_9	This is a taxi station, just like the one you´re standing on. Since both stations are connected with a yellow line, you can travel between them by taxi. Select it and see what happens.	Dies ist ein Taxistand, genau wie der, an dem du gerade stehst. Da beide Taxistände mit einer gelben Linie verbunden sind, kannst du zwischen ihnen mit dem Taxi fahren. Wähle ihn aus und achte darauf, was geschieht.	C'est une station de taxi, similaire à celle où tu te tiens en ce moment. Tu peux te déplacer d'une station à l'autre en taxi car elles sont connectées par une ligne jaune. Sélectionne-la et regarde ce qui se passe.	Questa è una fermata dei taxi, proprio come quella in cui ti trovi ora. Poiché entrambe le fermate sono collegate con una linea gialla, potrai spostarti tra loro usando il taxi. Selezionala e vedi cosa succede.	Es una estación de taxi, igual que la estación en la que estás ahora. Como las dos estaciones están conectadas por una línea amarilla, puedes viajar entre ellas en taxi. Selecciónala y mira qué pasa. 	
+tutorial_general_10	Ahh, there´s a new menu. This is the ticket menu. Select the taxi ticket to take a ride with it.	Ah, ein neues Menü! Das ist das Ticketmenü. Wähle das Taxiticket aus, um es für eine Fahrt einzusetzen.	Ahhh, il y a un nouveau menu. Ceci est le menu des tickets. Sélectionne le ticket de taxi pour monter dans un taxi.	Si è aperto un nuovo menu. Si tratta del menu biglietto. Seleziona il biglietto del taxi per usare il taxi.	Ah, hay un nuevo menú: este es el menú Billete. Selecciona el billete de taxi para montar en él.	
+tutorial_general_11	Congratulations! You did your first move! Look at the tickets: one taxi ticket has been removed, you now have one taxi ticket left.	Herzlichen Glückwunsch! Du hast den ersten Zug gemacht. Schau dir die Tickets an: Ein Taxiticket wurde entfernt. Jetzt hast du nur noch eines von dieser Sorte übrig	Félicitations ! Tu viens de faire ton premier déplacement ! Regarde bien les tickets : un ticket de taxi a été retiré, et il ne te reste plus qu'un seul ticket de taxi.	Congratulazioni! Hai fatto la tua prima mossa! Guarda i biglietti: come vedi un biglietto del taxi è stato rimosso, ora te ne resta solo un altro.	¡Enhorabuena! ¡Acabas de hacer tu primer movimiento! Mira los billetes: se ha eliminado un billete de taxi. Ahora solo te queda un billete de taxi.	
+tutorial_general_12	Keep in mind that every move you make consumes 1 ticket. You can´t get any new ones once you´ve run out of tickets. Be careful not to get stuck!	Vergiss nicht, dass bei jedem Zug den du machst, ein Ticket verbraucht wird. Wenn dir die Tickets ausgehen, werden sie nicht ersetzt! Ist dies der Fall, dann sitzt du für den Rest des Spiels mit deiner Figur fest.	Garde à l'esprit que chaque déplacement que tu réalises consomme 1 ticket. Tu ne peux plus te déplacer une fois que tu es tombé à court de tickets. Alors attention à ne pas rester coincé !	Ricordati che ogni tua mossa consuma 1 biglietto e quando li avrai finiti, non potrai più muoverti. Perciò cerca di non restare bloccato!	Ten en cuenta que cada movimiento que hagas consume 1 billete. No podrás obtener billetes nuevos una vez los hayas agotado todos. ¡Ten cuidado o te quedarás atrapado!	
+tutorial_general_13	Your turn ends after you´ve made a move. Now it´s the other pawn´s move. Just watch it.	Nachdem du deinen Zug ausgeführt hast, ist deine Runde vorbei. Jetzt ist die andere Spielfigur am Zug. Schau einfach zu.	Ton tour se termine une fois que tu as effectué ton déplacement. Maintenant, c'est au tour de l'autre pion de se déplacer. Regarde-le.	Il tuo turno termina dopo aver fatto una mossa. Ora è il turno dell'altra pedina. Puoi solo osservare.	Tu turno termina después de hacer un movimiento. Ahora es el turno del otro peón. Mira qué pasa.	
+tutorial_general_14	Let´s take a look at the message box. You will find the history of all moves made so far. Just select it or use {share} to expand...	Achte auf das Meldungsfeld. Dort werden alle Züge aufgelistet, die du bisher ausgeführt hast. Wähle das Meldungsfeld aus oder benutze {share}, um die Liste zu erweitern ...	Regardons un peu le journal des messages. Ici, tu trouveras l'historique de tous tes déplacements jusque-là. Sélectionne-le ou utilise simplement {share} pour l'agrandir...	Diamo un'occhiata al riquadro dei messaggi. Qui troverai la cronologia di tutte le tue mosse. Per espanderlo, selezionalo oppure usa {share}...	Vamos a echar un vistazo a la ventana de mensajes. Ahí encontrarás el historial de todos los movimientos hasta ahora. Selecciónala o usa {share} para ampliarla...	Please translate EN to target languages FIS.
+tutorial_general_15	... and select it again to make it disappear.	... und wähle es erneut aus, um es auszublenden.	... et sélectionne-le à nouveau pour le faire disparaître.	...e selezionalo di nuovo per nasconderlo.	… y vuelve a seleccionarla para hacer que desaparezca.	"Previously the game was for mobile games with touch interface.
+Now it's been ported to consoles with controller interface.
+So no ""touch"" references allowed. 
+Please edit the bold highlithted texts accordingly in the target languages FIS."
+tutorial_general_16	Check out the timer! It shows the time left for your current turn. When it reaches 0:00, you automatically make a random move.	Achte auf den Timer! Dort wird angezeigt, wie viel Zeit dir noch für den aktuellen Zug verbleibt. Wenn die Anzeige „0:00“ erreicht, macht deine Spielfigur automatisch einen zufällig ausgewählten Zug.	Regarde bien le chronomètre ! Il montre le temps qu'il te reste pour jouer ton tour. Lorsqu'il atteint 0:00, tu fais automatiquement un déplacement aléatoire.	Controlla il timer! Mostra il tempo rimasto per il tuo turno. Quando raggiunge lo 0, farai automaticamente una mossa a caso.	¡No pierdas de vista el temporizador! Muestra el tiempo de turno restante. Cuando llegue a 0:00, se hará un movimiento aleatorio automáticamente.	
+tutorial_general_17	Ok, let´s take the taxi again. This time we´ll take a ride to a bus station. Taxis can move between any stations that are connected by a yellow line.	Okay, nehmen wir noch einmal ein Taxi. Dieses Mal fahren wir zu einer Bushaltestelle. Taxis können jede Art von Haltestelle/Taxistand anfahren, die mit einer gelben Linie verbunden sind.	Ok, prenons à nouveau un taxi. Cette fois, nous allons faire un trajet jusqu'à une station de bus. Les taxis peuvent se déplacer entre toutes les stations connectées par une ligne jaune.	OK, prendiamo di nuovo il taxi. Questa volta raggiungeremo una fermata dell'autobus. I taxi possono spostarsi tra qualsiasi fermata collegata da una linea gialla.	Bien, vamos a ir otra vez en taxi. Esta vez iremos a una estación de autobús. Los taxis pueden desplazarse entre cualquier estación conectada por una línea amarilla.	
+tutorial_general_18	Perfect! Just a few more things left and we´re done! Now let´s watch the other pawn move again.	Perfekt! Nur noch ein paar Informationen und dann sind wir fertig! Schauen wir einmal dem Zug der anderen Spielfigur zu.	Parfait ! Plus que quelques détails, et nous en aurons terminé ! Regarde l'autre pion se déplacer encore.	Perfetto! Ancora qualche altra informazione e abbiamo finito! Ora osserva di nuovo la mossa dell'altra pedina.	¡Perfecto! ¡Solo tenemos que hacer algunas cosas más y ya está! Ahora veamos el movimiento del otro peón.	
+tutorial_general_19	Did you notice this icon? It shows that there is another pawn outside of the screen in this direction.	Hast du dieses Symbol bemerkt? Es informiert dich darüber, dass sich außerhalb dieses Bildschirms in der angegebenen Richtung eine weitere Spielfigur befindet.	Tu as remarqué son icône ? Elle signifie qu'il y a un autre pion en dehors de l'écran dans cette direction.	Hai notato questa icona? Indica che fuori dalla schermata c'è un'altra pedina in questa direzione.	¿Has visto este icono? Significa que hay otro peón fuera de la pantalla en esa dirección.	
+tutorial_general_20	But enough talking - let´s take the bus this time. Select this blue glowing station...	Aber genug geredet. Wir sollten dieses Mal den Bus nehmen. Wähle diese blau leuchtende Haltestelle aus ...	Mais assez parlé… prenons le bus cette fois. Sélectionne cette station qui brille en bleue...	Ma ora basta parlare, questa volta prendiamo l'autobus. Seleziona questa fermata blu lampeggiante...	Dejémonos de cháchara: ahora vamos a subirnos a un autobús. Selecciona esta estación iluminada de color azul...	"Previously the game was for mobile games with touch interface.
+Now it's been ported to consoles with controller interface.
+So no ""touch"" references allowed. 
+Please edit the bold highlithted texts accordingly in the target languages FIS."
+tutorial_general_21	... and select the bus ticket.	... und wähle das Busticket aus.	... et sélectionne le ticket de bus.	...e seleziona il biglietto dell'autobus.	… y selecciona el billete de autobús.	
+tutorial_general_22	Way to go! You just took one of London´s famous busses! Bus stations need to be connected by a blue line so you can travel between them.	Gut gemacht! Du bist gerade mit einem der berühmten Busse Londons gefahren! Bushaltestellen müssen mit einer blauen Linie verbunden sein, damit du zwischen ihnen reisen kannst.	C'est cela ! Tu viens juste de prendre l'un des fameux bus de Londres ! Les stations de bus doivent être connectées par une ligne bleue pour pouvoir se déplacer de l'une à l'autre.	Continua così! Hai appena preso uno dei famosi autobus londinesi! Per spostarti tra le fermate dell'autobus, devono essere collegate da una linea blu.	¡Así se hace! ¡Te acabas de subir a uno de los famosos autobuses de Londres! Las estaciones de autobús tienen que estar conectadas por una línea azul para poder viajar entre ellas.	
+tutorial_general_23	Now´s the other pawn´s turn. Select this pawn´s color in the player bar to see its tickets and focus on the pawn.	Jetzt ist die andere Spielfigur an der Reihe. Wähle die Farbe dieser Figur in der Spieleranzeige aus, um ihre Tickets anzuzeigen und diese Spielfigur in den Mittelpunkt zu bringen.	Maintenant, c'est au tour de l'autre pion. Sélectionne la couleur de ce pion dans la barre du joueur pour voir ses tickets et suivre son déplacement.	Ora è il turno dell'altra pedina. Seleziona il colore di questa pedina nella barra dei giocatori per vedere i suoi biglietti e inquadrarla.	Ahora es el turno del otro peón. Selecciona el color de este peón en la barra de jugador para ver sus billetes y céntrate en el peón.	"Previously the game was for mobile games with touch interface.
+Now it's been ported to consoles with controller interface.
+So no ""touch"" references allowed. 
+Please edit the bold highlithted texts accordingly in the target languages FIS."
+tutorial_general_24	You can use the player bar to quickly focus the camera onto different pawns. Now press your pawn color or use {switch}.	Mithilfe der Spieleranzeige kannst du die Kamera schnell und problemlos auf verschiedene Spielfiguren ausrichten. Wähle jetzt auf die Farbe deiner eigenen Spielfigur aus oder benutze {switch}.	Tu peux passer par la barre du joueur pour rapidement centrer la caméra sur plusieurs pions successivement. Maintenant, touche la couleur de ton pion.	Puoi usare la barra dei giocatori per spostare rapidamente l'inquadratura sulle diverse pedine. Ora tocca il colore della tua pedina.	Puedes usar la barra de jugador para centrar la cámara rápidamente en los diferentes peones. Ahora toca el color de tu peón.	
+tutorial_general_25	See? There´s your pawn! And now select the other pawn´s color again.	Siehst du? Das ist deine Spielfigur! Wähle jetzt die Farbe der anderen Spielfigur aus.	Tu vois ? Voilà ton pion ! Et maintenant, sélectionne à nouveau la couleur de l'autre pion.	Vedi? Ecco la tua pedina! Ora seleziona di nuovo il colore dell'altra pedina.	¿Lo ves? ¡Aquí está tu peón! Ahora selecciona otra vez el color del otro peón.	"Previously the game was for mobile games with touch interface.
+Now it's been ported to consoles with controller interface.
+So no ""touch"" references allowed. 
+Please edit the bold highlithted texts accordingly in the target languages FIS."
+tutorial_general_26	Tada! Here it is again! Now just watch the pawn move.	Ta-da! Da ist sie wieder! Beobachte jetzt den Zug der Spielfigur.	Abracadabra ! Et hop, le revoilà ! Maintenant, regarde le pion se déplacer.	Ta-dà! Eccola di nuovo! Ora aspetta che la pedina faccia la sua mossa.	¡Voilà! ¡Aquí está otra vez! Ahora observa el movimiento del peón.	
+tutorial_general_27	Time to move to an underground station. Underground stations and their connections are shown in red. In general, taxis can be taken at any station, but they don't take you that far.	Es ist Zeit, sich zu einer U-Bahn-Haltestelle zu begeben. U-Bahn-Haltestellen und ihre Verbindungen werden rot dargestellt. Im Allgemeinen fahren von allen Stationen Taxis ab, aber sie fahren nicht besonders weit.	Il est temps de se rendre à une station de métro. Les stations de métro ainsi que les correspondances auxquelles elles mènent apparaissent en rouges. En général, les taxis desservent toutes les stations, mais ils ne vous emmènent pas très loin.	È arrivato il momento di raggiungere una fermata della metropolitana. Le fermate della metropolitana e i loro collegamenti sono indicati in rosso. In generale, i taxi possono essere presi da qualsiasi fermata, ma non ti portano così lontano.	Es hora de ir a una estación de metro. Las estaciones de metro y sus conexiones se muestran en roja. En general, los taxis pueden ir a todas las estaciones, pero no te llevarán tan lejos.	
+tutorial_general_28	Consequently, undergrounds serve few stations but are the fastest means of travel. Finally buses are a tradeoff between flexibility and travel distance. Let´s take the bus to this underground station...	Und U-Bahnen fahren nur wenige Stationen an, sind aber die schnellste Methode zu reisen. Busse sind ein Kompromiss zwischen Flexibilität und Reisedistanz. Nehmen wir nun den Bus zu dieser U-Bahn-Haltestelle ...	En revanche, le métro ne dessert que quelques stations, mais ils constitue le moyen de transport le plus rapide. Enfin, le bus peut être considéré comme un juste milieu entre flexibilité et distance de voyage. Prenons le bus jusqu'à cette station de métro...	Ovviamente, la metropolitana raggiunge poche fermate ma è il mezzo più rapido per spostarsi, mentre gli autobus sono un compromesso tra flessibilità e distanza percorribile. Prendiamo l'autobus per questa fermata della metropolitana...	Consecuentemente, el metro llega a menos estaciones pero es el medio de transporte más rápido. Y finalmente, los autobuses son un punto medio entre flexibilidad y distancia de viaje. Vamos a ir en autobús hasta esta estación de metro…	
+tutorial_general_29	... and watch the other pawn do his move.	... und beobachten wir den Zug der anderen Spielfigur.	... et regardons l'autre pion faire son déplacement.	...e aspetta che l'altra pedina faccia la sua mossa.	… y veamos cuál es el siguiente movimiento del otro peón.	
+tutorial_general_30	Now´s your turn again! You see this arrow at the border of the screen? It indicates that there´s a station you can move to outside of the screen.	Jetzt bist du wieder an der Reihe! Siehst du diesen Pfeil am Rand des Bildschirms? Er zeigt an, dass es außerhalb des Bildschirms eine Haltestelle gibt, die du als Ziel auswählen kannst.	Voilà, c'est à nouveau ton tour ! Tu vois cette flèche sur le bord de l'écran ? Elle indique qu'il y a une station en dehors de l'écran jusqu'à laquelle tu peux te déplacer.	Ora tocca di nuovo a te! Vedi la freccia sul bordo della schermata? Indica che oltre lo schermo c'è una fermata che puoi raggiungere.	"¡Es tu turno otra vez! ""¿Ves la flecha que hay en el borde de la pantalla? Indica que hay una estación fuera de la pantalla a la que puedes ir."""	
+tutorial_general_31	Move the map in order to make the station appear.	Bewege die Karte, um die Haltestelle anzuzeigen.	Déplace la carte pour faire apparaître cette station.	Muovi la mappa per inquadrare la fermata.	Mueve el mapa hasta que aparezca la estación.	
+tutorial_general_32	This is an underground station, it has a red glow. The underground train lets you travel big distances much faster than the taxi and bus. Move to this station now.	U-Bahn-Haltestellen leuchten rot. Mit der U-Bahn kannst du weite Strecken schneller zurücklegen als mit dem Bus oder dem Taxi. Ziehe jetzt zu dieser Haltestelle.	C'est une station de métro. Elle brille en rouge. Le métro te permet de parcourir de grandes distances bien plus vite que le taxi et le bus. Déplace-toi maintenant jusqu'à cette station.	È una fermata della metropolitana e lampeggia di rosso. La metropolitana ti consente di spostarti per lunghe distanze più velocemente rispetto a taxi e autobus. Raggiungi questa fermata.	Esta es una estación de metro y está iluminada de color roja. El metro te permite recorrer grandes distancias en menos tiempo que el autobús o el taxi. Desplázate a esta estación ahora.	
+tutorial_general_33	Good job! You´ve completed the general tutorial and learned the basics of this game! You´re ready to play the next tutorial, as Mr. X!	Gut gemacht! Du hast die allgemeine Einführung abgeschlossen und die Grundlagen des Spiels kennengelernt. Du bist jetzt bereit, die nächste Einführung zu spielen - und zwar als Mister X!	Joli travail ! Tu as terminé le didacticiel sur les généralités et tu as appris les bases de ce jeu ! Tu es prêt à suivre le prochain didacticiel en tant que Mr X !	Ottimo lavoro! Hai completato il tutorial generale, imparando le regole di base del gioco! Ora puoi passare al prossimo tutorial dedicato a Mister X!	¡Buen trabajo! ¡Has completado el tutorial general y has aprendido los conceptos básicos de este juego! ¡Ya estás preparado para jugar el siguiente tutorial como Mr. X!	
+tutorial_mrx_1	Welcome back! This is the Mr. X tutorial. Here you´ll learn all you need to know to escape from Scotland Yard's detectives!	Willkommen zurück! Das hier ist die Einführung für Mister X. Hier erfährst du alles Notwendige, um den Detektiven des Scotland Yard zu entkommen.	Bienvenue ! Ceci est le didacticiel de Mr X . Tu y apprendras tout ce que tu dois savoir sur la meilleure manière d'échapper aux inspecteurs de Scotland Yard !	Bentornato! Questo è il tutorial di Mister X. Qui imparerai tutto quello che devi sapere per scappare dai detective di Scotland Yard!	¡Bienvenido de nuevo! Este es el tutorial del Mr. X. ¡Aquí aprenderás todo lo necesario para escaparte de los detectives de Scotland Yard!	
+tutorial_mrx_2	When you´re playing as Mr. X, you try to escape the detectives. They don´t know where you are.	Wenn du die Rolle von Mister X übernimmst, ist es dein Ziel, den Detektiven zu entkommen. Die Detektive wissen die meiste Zeit nicht, wo du dich aufhältst.	Quand tu joues en tant que Mr X, ton but est d'échapper aux inspecteurs. Ils ne savent pas où tu es.	Giocando nei panni di Mister X devi cercare di scappare dai detective. Loro ovviamente non conoscono la tua posizione.	Cuando juegas como Mr. X, tienes que escapar de los detectives. Ellos no saben dónde te encuentras.	
+tutorial_mrx_3	Check out the Mr. X log at the bottom of the screen. Do you see the numbers with the blue markings?	Achte auf das Mister-X-Protokoll am unteren Rand des Bildschirms. Siehst du die Zahlen mit den blauen Markierungen?	Regarde le journal de Mr X en bas de l'écran. Tu vois les nombres surlignés en bleu ?	Controlla il registro di Mister X nella parte inferiore dello schermo. Vedi i numeri contrassegnati in blu?	"Comprueba el diario del Mr. X en la parte inferior de la pantalla. ""¿Ves los números con marcas azules?"""	
+tutorial_mrx_4	In these turns, the detectives will find out your current position. Always keep this in mind!	In diesen Runden zeigt sich Mister X den Detektiven. Vergiss das nie!	Lors de ces tours, ta position actuelle sera dévoilée aux inspecteurs. Souviens-toi bien de cela !	In quei turni, i detective scopriranno la tua posizione. Cerca di non dimenticartelo!	En esos turnos, los detectives encontrarán tu posición actual. ¡Ten eso en cuenta en todo momento!	
+tutorial_mrx_5	Before we start, always keep your display covered if you´re playing with friends. You don´t want them to know where you are!	Bevor wir anfangen noch ein Tipp: Verdecke immer deine Anzeige, wenn du gemeinsam mit deinen Freunden spielst. Du möchtest ja nicht, dass sie sehen, wo du dich aufhältst!	Avant de démarrer, assure-toi de bien cacher ton écran si tu joues avec des amis. Ce ne serait pas une bonne idée de leur montrer où tu te trouves !	Prima di iniziare, ricordati di coprire sempre lo schermo se stai giocando con gli amici. Non vorrai certo fargli sapere dove sei!	Antes de empezar, acuérdate de mantener escondida tu pantalla si juegas con amigos. ¡No deben enterarse de dónde te encuentras!	
+tutorial_mrx_6	As Mr. X, you always play as the white pawn.	Mister X wird immer von der weißen Spielfigur repräsentiert.	En tant que Mr X, tu es toujours le pion blanc.	Nei panni di Mister X giocherai sempre con la pedina bianca.	Como Mr. X siempre serás el peón de color blanco.	
+tutorial_mrx_7	Beware! There´s a detective on a station next to yours! I will help you escape, just follow my instructions.	Pass auf! An der nächsten Haltestelle direkt neben deiner Position befindet sich ein Detektiv! Ich werde dir helfen, ihm zu entkommen. Folge einfach meinen Anweisungen.	Attention ! Il y a un inspecteur dans la station à côté de la tienne ! Je vais t'aider à t'échapper. Suis bien mes instructions.	Attenzione! C'è un detective in una fermata accanto alla tua! Ti aiuterò a scappare, basta che segui le mie istruzioni.	¡Cuidado! ¡Hay un detective en la estación adyacente a la tuya! Te ayudaré a escapar. Sigue mis instrucciones.	
+tutorial_mrx_8	Select station 155. You´ll see that you have 2 new tickets. Only Mr. X can use them!	Wähle Haltestelle 155 aus.	Sélectionne la station 155. Tu verras que tu as 2 nouveaux tickets. Seul Mr X peut les utiliser !	Seleziona la fermata 155. Come puoi vedere hai 2 nuovi biglietti che solo Mister X può utilizzare!	Selecciona la estación 155. Verás que tienes 2 billetes nuevos. ¡Solo el Mr. X puede utilizarlos!	"Previously the game was for mobile games with touch interface.
+Now it's been ported to consoles with controller interface.
+So no ""touch"" references allowed. 
+Please edit the bold highlithted texts accordingly in the target languages FIS."
+tutorial_mrx_9	Let´s get started with the double move ticket. Select it to activate it.	Wie du siehst, besitzt du zwei neue Tickets. Nur Mister X kann diese benutzen! Schauen wir uns einmal das Doppelzugticket an. Wähle es aus, um es zu aktivieren.	Commençons avec le ticket « Coup double ». Sélectionne-le pour l'activer.	Iniziamo con il biglietto mossa doppia. Selezionalo per attivarlo.	Empecemos con el billete de movimiento doble. Selecciónalo para activarlo.	"Previously the game was for mobile games with touch interface.
+Now it's been ported to consoles with controller interface.
+So no ""touch"" references allowed. 
+Please edit the bold highlithted texts accordingly in the target languages FIS."
+tutorial_mrx_10	The double move ticket allows you to move twice in one turn! Pretty convenient when you want to get away quickly!	Mit dem Doppelzugticket kannst du zwei Züge hintereinander machen. Das ist wirklich hilfreich, wenn man schnell entkommen muss!	Le ticket coup double te permet de te déplacer deux fois dans le même tour ! C'est très pratique quand tu veux filer en douce rapidement !	Il biglietto mossa doppia ti consente di muoverti due volte in un solo turno! Piuttosto utile quando devi scappare!	¡El billete de movimiento doble te permite hacer dos movimientos en un mismo turno! ¡Es muy útil si quieres escaparte rápidamente!	
+tutorial_mrx_11	As the ticket´s activated now, select station 155 again and move there.	Da das Ticket jetzt aktiviert ist, wähle Haltestelle 155 aus und ziehe dorthin.	Puisque tu as déjà activé le ticket, sélectionne la station 155 pour t'y déplacer.	Mentre il biglietto è attivo, seleziona la fermata 155 per raggiungerla.	Como el billete ya está activado, selecciona otra vez la estación 155 para desplazarte hacia allí.	
+tutorial_mrx_12	Now comes your second move. Select station 156 and move there.	Nun kommt der zweite Zug. Wähle Haltestelle 156 aus, um dorthin zu gelangen.	Et maintenant, effectue ton second déplacement. Sélectionne la station 156 et déplace-toi jusqu'à elle.	Ora puoi fare una seconda mossa. Seleziona la fermata 156 per raggiungerla.	Ahora viene el segundo movimiento. Selecciona la estación 156 y muévete allí.	"Previously the game was for mobile games with touch interface.
+Now it's been ported to consoles with controller interface.
+So no ""touch"" references allowed. 
+Please edit the bold highlithted texts accordingly in the target languages FIS."
+tutorial_mrx_13	That´s it! See how you evaded the detective? The double move ticket is always useful to escape critical situations. Now it´s the detective´s turn.	Das war es auch schon! Hast du gesehen, wie du dem Detektiv entwischt bist? Das Doppelzugticket ist eine große Hilfe, wenn du aus einer kritischen Lage entkommen willst. Jetzt ist der Detektiv an der Reihe.	C´est ça ! Tu vois comment on échappe à ces inspecteurs ? Le ticket coup double est toujours utile pour te sortir des situations difficiles. Maintenant, c´est au tour de l'inspecteur.	Tutto qua! Hai visto come sei riuscito a evitare il detective? Il biglietto mossa doppia è sempre molto utile per scappare dalle situazioni critiche. Ora tocca al detective.	"¡Eso es! ""¿Has visto cómo has evadido al detective? El billete de movimiento doble es muy útil para escapar de situaciones críticas. Ahora es el turno del detective."""	
+tutorial_mrx_14	Oh, he´s trying to follow you! He seems to know where you´re heading. There´s one thing you should know.	Oh, er versucht, dir zu folgen! Anscheinend kennt er dein Ziel. Eines solltest du wissen.	Oh, il essaie de te suivre ! On dirait qu'il sait où tu te rends. Il y a quelque chose que tu devrais savoir.	Sta cercando di seguirti! Sembra quasi che conosca la tua destinazione. C'è una cosa che dovresti sapere.	Oh, ¡está intentando seguirte! Parece que sabe hacia dónde te diriges. Hay una cosa que deberías saber.	
+tutorial_mrx_15	When you use a ticket, the detectives will know WHICH transportation you´re using, but they don´t know WHERE you´re going.	Wenn du ein Ticket benutzt, erfahren die Detektive zwar WELCHES Transportmittel du benutzt, aber sie wissen nicht, WOHIN du unterwegs bist.	Quand tu utilises un ticket, les inspecteurs savent QUEL moyen de transport tu empruntes, mais ils ne savent pas OÙ tu vas.	Quando usi un biglietto, i detective sapranno QUALE mezzo di trasporto stai usando, ma ovviamente non DOVE stai andando.	Cuando usas un billete, los detectives sabrán QUÉ método de transporte utilizas, pero no sabrán la DIRECCIÓN hacia la que te diriges.	
+tutorial_mrx_16	Always try to use this to your advantage! There´s another helpful ticket, the black ticket.	Nutze diese Tatsache immer zu deinem Vorteil. Es gibt außerdem noch ein weiteres hilfreiches Ticket, das Black Ticket.	Essaye donc toujours d'exploiter cela au mieux ! Il existe un autre ticket très utile : le black ticket.	Cerca sempre di sfruttare questa cosa a tuo vantaggio! Ecco un altro biglietto molto utile, il biglietto nero.	¡Intenta usar este dato a tu favor! Hay otro billete de gran utilidad: el billete negro.	
+tutorial_mrx_17	The black ticket will not reveal the transportation method you´re using! Very handy when you want to confuse the detectives!	Wenn du das Black Ticket einsetzt, erfährt niemand, mit welchem Transportmittel du unterwegs bist. Das ist sehr nützlich, wenn du die Detektive verwirren willst!	Le black ticket permet de ne pas révéler le moyen de transport que tu empruntes ! Il est donc très utile pour désorienter les inspecteurs !	Il biglietto nero non svelerà il mezzo di trasporto che stai usando! Decisamente utile quando vuoi confondere i detective!	¡El billete negro no revelará el método de transporte que estás utilizando! ¡Resulta muy útil para confundir a los detectives!	
+tutorial_mrx_18	Select station 157 and use the black ticket. It´s the one with the Mr. X silhouette.	Wähle Haltestelle 157 aus und benutze das Black Ticket. Das ist das Ticket mit der Silhouette von Mister X.	Sélectionne la station 157 et utilise un black ticket. C'est celui avec la silhouette de Mr X.	Seleziona la fermata 157 e usa il biglietto nero. È quello con la sagoma di Mister X.	Selecciona la estación 157 y utiliza el billete negro. Es el que tiene dibujada la silueta de Mr. X.	
+tutorial_mrx_19	You see? Now there´s only a black ticket in the message box. Let´s see where the detective is moving.	Siehst du? Jetzt wird im Meldungsfeld nur das Black Ticket angezeigt. Schauen wir einmal, wohin der Detektiv unterwegs ist.	Tu vois ? Maintenant, seul un black ticket apparaît dans ton journal des messages. Voyons comment l'inspecteur se déplace, maintenant.	Hai visto? Ora c'è solo un biglietto nero nel riquadro dei messaggi. Vediamo dove andrà il detective.	Lo ves? Ahora solo se ve un billete negro en la ventana de mensajes. Veamos hacia dónde va el detective.	
+tutorial_mrx_20	Oh, seems he´s smelling a rat! He´s still following you!	Oh, er scheint etwas zu ahnen! Er ist dir immer noch dicht auf den Fersen!	Oh, on dirait que c'est un fin limier, celui-là, il a reniflé ta combine ! Il te suit encore !	Sembra che abbia intuito le tue intenzioni! Ti sta seguendo!	Oh, ¡parece que no te pierde el rastro! ¡Todavía te está siguiendo!	
+tutorial_mrx_21	By the way, notice that Mr. X gets every ticket the detectives are using. This makes it hard for you to run out of tickets.	Ist dir übrigens aufgefallen, dass Mister X jedes Ticket erhält, das die Detektive verbrauchen? Dadurch gehen dir nie die Tickets aus.	Au fait, souviens-toi bien que Mr X obtient tous les tickets que les inspecteurs utilisent. Ainsi, tu auras du mal à tomber à court de tickets.	Comunque, come puoi vedere Mister X riceve ogni biglietto usato dai detective, perciò sarà piuttosto difficile restare senza.	Por cierto, fíjate que el Mr. X recibe todos los billetes que utilizan los detectives. De este modo es muy difícil que te quedes sin billetes.	
+tutorial_mrx_22	Let´s escape now. Do you see the black line in the Thames? Yes? Good! This is a boat line only Mr. X is able to use.	Komm, wir flüchten. Siehst du die schwarze Linie in der Themse? Ja? Gut! Das ist die Schifffahrtsroute, die nur Mister X mit dem Black Ticket benutzen kann.	Bon. File à l'anglaise, maintenant. Tu vois la ligne noire dans la Tamise ? Oui ? Bien ! C'est une ligne de bateau que seul Mr X peut utiliser.	Ora scappiamo. Vedi la linea nera nel Tamigi? Sì? Bene! È una barca che solo Mister X può usare.	Ahora tenemos que escapar. Ves la línea negra en el Támesis? Sí? ¡Bien! Es una línea acuática que solo puede utilizar el Mr. X.	
+tutorial_mrx_23	Follow it to the north, select station 115 and use the black ticket again.	Folge der Route Richtung Norden, wähle Haltestelle 115 aus und setze wieder das Black Ticket ein.	Suis-la vers le nord, sélectionne la station 115 et utilise à nouveau le black ticket.	Seguila verso nord, seleziona la fermata 115 e usa di nuovo il biglietto nero.	Síguela hacia el Norte, selecciona la estación 115 y vuelve a usar el billete negro.	"Previously the game was for mobile games with touch interface.
+Now it's been ported to consoles with controller interface.
+So no ""touch"" references allowed. 
+Please edit the bold highlithted texts accordingly in the target languages FIS."
+tutorial_mrx_24	Well done! You escaped the detective! You can also combine the double move and the black ticket for more distraction.	Gut gemacht! Du bist dem Detektiv entkommen! Wenn du noch mehr Verwirrung verbreiten möchtest, kannst du auch das Doppelzugticket und das Black Ticket zusammen einsetzen.	Bravo ! Tu as échappé à l'inspecteur ! Tu peux aussi combiner le coup double et le black ticket pour perturber encore plus tes adversaires.	Ottimo lavoro! Sei scappato dal detective! Puoi anche combinare il biglietto mossa doppia con il biglietto nero per creare un maggior diversivo.	¡Bien hecho! ¡Te has escapado del detective! Para causar más confusión, puedes combinar el billete de movimiento doble con el billete negro.	
+tutorial_mrx_25	But take care when you use your special tickets. Once used up, you can´t get any new ones! Good luck!	Aber sei mit den Spezialtickets sparsam. Sobald du alle verbraucht hast, erhältst du keine neuen mehr! Viel Glück!	Mais attention en utilisant tes tickets spéciaux. Une fois utilisés, tu ne peux pas en obtenir d'autres ! Bonne chance !	Ma fai attenzione quando usi i biglietti speciali. Una volta utilizzati, non potrai averne altri! Buona fortuna!	Pero piensa bien cuándo utilizar los billetes especiales. Una vez usados, ¡ya no podrás conseguir billetes nuevos! ¡Buena suerte!	
+tutorial_mrx_26	You win as Mr. X if you don´t get caught or surrounded before all detectives run out of tickets. If the detectives catch or surround you, you have lost.	Als Mister X gewinnst du das Spiel, wenn du nicht gefangen oder eingekreist wirst, bevor allen Detektiven die Tickets ausgegangen sind. Sollte es den Detektiven gelingen, dich zu fangen oder einzukreisen, hast du verloren.	Tu gagnes la partie en tant que Mr X si tu ne te fais pas attraper ni encercler avant que tous les inspecteurs tombent à court de tickets. Si les inspecteurs t'attrapent ou t'encerclent, tu perds la partie.	Vinci come Mister X se non ti prendono o se non vieni circondato prima che tutti i detective finiscano i biglietti. Se i detective ti prendono o ti circondano, hai perso.	Jugando como Mr. X, ganas la partida si no te atrapan o te rodean antes de que todos los detectives se queden sin billetes. Si los detectives te atrapan o te rodean, habrás perdido.	
+tutorial_mrx_27	You´re ready to escape them again without my help now! Or you can change sides and play the Detective tutorial.	Jetzt bist du bereit, ihnen beim nächsten Mal auch ohne meine Hilfe zu entkommen! Wechsle nun die Seiten und spiele die Einführung für Detektive.	Tu en sais assez pour tenter de leur échapper sans mon aide, maintenant ! Ou alors, tu peux échanger les rôles et visionner le didacticiel sur les inspecteurs.	Ora sei pronto a scappare anche senza il mio aiuto! O puoi cambiare schieramento e provare il tutorial del detective.	¡Ahora puedes escapar de ellos sin mi ayuda! O si lo prefieres, puedes cambiar de bando y jugar al tutorial de detective.	
+tutorial_agent_1	Changing sides, are you? Good choice, it´s never too late to work for Scotland Yard! I´ll show you everything you need to know as a detective.	Du läufst über? Eine lobenswerte Entscheidung! Es ist nie zu spät, noch für Scotland Yard tätig zu werden! Ich werde dir zeigen, was du wissen musst, um als Detektiv erfolgreich zu sein.	On échange les rôles ? Très bonne initiative, il n'est jamais trop tard pour travailler pour Scotland Yard ! Je vais te montrer tout ce que tu dois savoir sur Scotland Yard !	Hai cambiato schieramento, eh? Ottima scelta, non è mai troppo tardi per entrare in Scotland Yard! Ti mostrerò tutto quello che devi sapere per essere un buon detective.	¿Te cambias de bando, eh? Buena elección. ¡Nunca es tarde para trabajar para Scotland Yard! Te enseñaré todo lo que tienes que saber para ser detective.	
+tutorial_agent_2	As a detective you don´t know where Mr. X is currently hiding. He will show himself every now and then. The Mr. X log is a nice little helper for you.	Detektive wissen die meiste Zeit nicht, wo sich Mister X versteckt. Hin und wieder zeigt er sich. Das Mister-X-Protokoll ist sehr nützlich, um ihn aufzuspüren.	En tant qu'inspecteur, tu ne sais pas où se cache Mr X. Il ne se montre que de temps en temps. En revanche, le journal de Mr X contient des informations capitales.	Come detective non conosci la posizione di Mister X. Si mostrerà solo ogni tanto ma il suo registro può esserti d'aiuto.	Como detective, no sabes dónde se esconde el Mr. X actualmente. De vez en cuando se dejará ver, así que el diario del Mr. X es una gran ayuda para ti.	
+tutorial_agent_3	Do you see the tagged spaces in the log? Mr. X will reveal his location in these turns. As you can see, his current position will be revealed next turn.	Siehst du die markierten Stellen im Protokoll? In diesen Runden wird sich Mister X jeweils zeigen. Wie du sehen kannst, wirst du schon in der nächsten Runde seine aktuelle Position erfahren.	Tu vois les espaces marqués dans le journal ? Mr X révélera sa position lors de ces tours. Comme tu peux le voir, sa position actuelle sera révélée au tour prochain.	Vedi gli spazi contrassegnati nel registro? Mister X svelerà la sua posizione in quei turni. Come puoi vedere, nel prossimo turno sarà svelata la sua posizione attuale.	¿Ves los espacios marcados en el diario? El Mr. X revelará su posición en esos turnos. Como puedes ver, su posición actual se revelará en el siguiente turno.	
+tutorial_agent_4	You also see a ghost pawn at his last known location.	Außerdem wird an der Stelle, an der er zuletzt gesichtet wurde, eine Geisterspielfigur angezeigt.	Tu peux aussi voir un pion fantôme qui reste à sa dernière position connue.	Puoi anche vedere una pedina fantasma nella sua ultima posizione nota.	También puedes ver un peón fantasma en su última posición conocida.	
+tutorial_agent_5	Let´s wait for his next move...	Warten wir auf seinen nächsten Zug ...	Attendons son prochain déplacement...	Aspettiamo la sua prossima mossa...	Vamos a esperar a su próximo movimiento…	
+tutorial_agent_6	There he is! The ghost pawn location is updated everytime Mr. X reveals himself. Looks like he´s manoeuvring into a dead end...	Da ist er! Jedes Mal, wenn sich Mister X zeigt, wird die Position der Geisterspielfigur aktualisiert. Es sieht so aus, als würde er sich in eine Sackgasse hineinmanövrieren.	Le voilà ! La position du pion fantôme est mise à jour à chaque fois que Mr X se montre. On dirait qu'il s'est fourré dans une impasse...	Eccolo! La posizione della pedina fantasma viene aggiornata ogni volta che Mister X si rivela. A quanto pare sta per finire in un vicolo cieco...	¡Ahí está! La posición del peón fantasma se actualiza cada vez que el Mr. X se deja ver. Parece que se dirige hacia un callejón sin salida…	
+tutorial_agent_7	Unlike Mr. X, you don´t have any special tickets as a detective. This makes it very important to work as a team. Plan your strategy well!	Detektive haben keine Spezialtickets, wie sie Mister X zur Verfügung stehen. Deswegen ist es sehr wichtig, als Team zusammenzuarbeiten. Überleg dir eine gute Strategie!	À la différence de Mr X, tu n'as pas de tickets spéciaux. En tant qu'inspecteurs, cela vous oblige à travailler en équipe. Alors panifiez bien votre stratégie !	A differenza di Mister X, come detective non hai alcun biglietto speciale. Perciò è fondamentale collaborare come una squadra. Pianifica bene la tua strategia!	A diferencia del Mr. X, no tendrás billetes especiales cuando juegues como detective. ¡Es muy importante trabajar en equipo y planificar bien la estrategia!	
+tutorial_agent_8	Now wait for the other detectives to move.	Warte darauf, bis die anderen Detektive gezogen haben.	Maintenant, attends que les autres inspecteurs se soient déplacés.	Ora attendi che gli altri detective facciano la loro mossa.	Ahora espera a que se muevan los otros detectives.	
+tutorial_agent_9	Your turn! You should move to station 56. Mr. X will have a hard time to escape if you move here. Also note that only one detective is allowed per station.	Du bist dran. Bewege dich zur Haltestelle 56. Wenn du hierhin ziehst, wird Mister X die Flucht schwer fallen. Bitte beachte außerdem, dass pro Haltestelle jeweils nur ein Detektiv erlaubt ist.	C'est ton tour ! Tu devrais te déplacer à la station 56. Mr X aura bien du mal à t'échapper si tu t'y rends. De plus, remarque que chaque station ne peut accueillir qu'un seul inspecteur.	Tocca a te! Dovresti raggiungere la fermata 56. Se raggiungi questo punto, sarà difficile per Mister X riuscire a scappare. Inoltre, ricordati che in una fermata può sostare un solo detective alla volta.	¡Tu turno! Ahora deberías moverte hasta la estación 56. Si te desplazas hasta allí, el Mr. X lo tendrá muy difícil para escapar.	
+tutorial_agent_10	Good! Now wait for all others to move.	Gut! Warte jetzt auf die Züge der anderen.	Bien ! Maintenant, attends que les autres se soient déplacés.	Bene! Ora attendi che tutti gli altri facciano la loro mossa.	¡Bien! Ahora espera a que se muevan los otros.	
+tutorial_agent_11	The Mr. X log also shows you what transportation Mr. X used in his past turns. In this case, the last move was with a taxi.	Im Mister-X-Protokoll findest du außerdem die Information, welche Transportmittel Mister X bei seinen letzten Zügen benutzt hat. In diesem Fall ist er zuletzt mit einem Taxi gefahren.	Le journal de Mr X montre aussi le moyen de transport que Mr X a emprunté lors des tours précédents. Dans notre cas, le dernier déplacement a été effectué en taxi.	Il registro di Mister X ti mostra anche il mezzo di trasporto che ha usato nei suoi turni precedenti. In questo caso, l'ultima mossa è stata in taxi.	El diario del Mr. X también muestra qué método de transporte utilizó en sus últimos turnos. En este caso, su último movimiento lo hizo en taxi.	
+tutorial_agent_12	Now move to station 42.	Ziehe jetzt zur Haltestelle 42.	Maintenant, déplace-toi à la station 42.	Ora raggiungi la fermata 42.	Ahora ve a la estación 42.	
+tutorial_agent_13	When you´re playing a multiplayer game in a team of detectives you´ll see this icon next to the message box.	Wenn du im Mehrspielermodus zusammen mit anderen Detektiven in einem Team spielst, wirst du dieses Symbol neben dem Meldungsfeld sehen.	Lorsque tu joues en multijoueur du côté des inspecteurs, tu vois cette icône à côté du journal des messages.	Quando stai giocando una partita multigiocatore in una squadra di detective, accanto al riquadro dei messaggi vedrai questa icona.	Cuando estés jugando una partida multijugador en el bando de los detectives, verás este icono al lado de la ventana de mensajes.	
+tutorial_agent_14	This icon opens the keyboard. You can type a message that will be sent to all detectives and also Mr. X.	Dieses Symbol blendet die Tastatur ein. Du kannst eine Nachricht eingeben, die an alle Detektive geschickt wird, aber auch an Mister X.	Cette icône ouvre le clavier. Tu peux y taper un message qui sera envoyé à tous les inspecteurs ainsi qu'à Mr X.	Questa icona apre la tastiera. Puoi digitare un messaggio che sarà inviato a tutti i detective e anche a Mister X.	Este icono abre el teclado. Con él, podrás escribir mensajes que verán los demás detectives y también el Mr. X.	
+tutorial_agent_15	"Type something, then tap ""done"" to share your message. Tap it now and enter a message."	Gib etwas ein und tippe danach auf „Fertig“, um die Nachricht zu versenden. Probiere es jetzt aus.	Tape quelque chose, puis touche « terminé » pour partager ton message. Touche l'icône maintenant, puis saisis un message.	"Digita qualcosa, poi tocca ""OK"" per condividere il tuo messaggio. Toccala ora e digita un messaggio."	"Escribe lo que quieras y luego toca ""Hecho"" para compartir tu mensaje. Tócalo ahora y envía un mensaje."	
+tutorial_agent_16	You can also communicate with other players using the voice chat in a multiplayer game. But be aware that Mr. X can hear you as well. Now wait for all others to move.	Bei einem Multiplayer-Spiel kannst du außerdem über Voice-Chat mit deinen Mitspielern kommunizieren. Aber Vorsicht: Auch Mr. X hört mit. Warte jetzt auf die Züge der anderen.	Tu peux aussi communiquer avec les autres joueurs en utilisant le chat vocal dans une partie multijoueur. Mais souviens-toi que Mr X peut t'entendre lui aussi. Maintenant, attends que les autres se soient déplacés.	In una partita multigiocatore, puoi comunicare con gli altri giocatori anche tramite chat vocale. Ricordati però che anche Mister X potrà sentirti. Ora attendi che tutti gli altri facciano la loro mossa.	También puedes comunicarte con los demás jugadores mediante un chat de voz en una partida multijugador. Pero ten en cuenta que el Mr. X también escuchará lo que estáis diciendo. Ahora espera a que se muevan los otros.	
+tutorial_agent_17	Your turn again. Mr. X must be almost surrounded by now. One last thing: everytime you use a transport, you´ll have to pay one ticket.	Du bist wieder an der Reihe. Mister X müsste inzwischen so gut wie eingekreist sein. Eines noch: Jedes Mal, wenn du ein Transportmittel benutzt, musst du mit einem Ticket bezahlen.	C'est à nouveau ton tour. Mr X doit être pratiquement encerclé maintenant. Une dernière chose : à chaque fois que tu empruntes un moyen de transport, tu dois payer un ticket.	Tocca di nuovo a te. Ormai Mister X dev'essere quasi circondato. Un'ultima cosa: ogni volta che usi un mezzo di trasporto, dovrai pagare un biglietto.	Es tu turno otra vez. El Mr. X ya debe de estar casi rodeado. Solo un último detalle: cada vez que uses un método de transporte tendrás que pagar un billete.	
+tutorial_agent_18	Beware not to get stuck, as you won't get any additional tickets. If you can´t move anymore, it's game over for you. But of course you can still watch the game.	Achte darauf, dass du nicht irgendwo festsitzt, denn du erhältst keine zusätzlichen Tickets. Wenn du keinen Zug mehr machen kannst, ist das Spiel für dich vorbei. Aber natürlich kannst du das Spiel immer noch beobachten.	Alors attention à ne pas te retrouver coincé, car tu ne recevras pas d'autres tickets. Si tu ne peux plus bouger, la partie s'arrête pour toi. Mais tu peux quand même regarder la fin de la partie, bien sûr.	Fai attenzione a non bloccarti, poiché non riceverai alcun biglietto aggiuntivo. Se non puoi più muoverti, hai finito di giocare. Ma ovviamente puoi sempre continuare a osservare la partita in corso.	Procura no quedar bloqueado, ya que no podrás conseguir billetes adicionales. Si ya no puedes hacer ningún movimiento, tu partida habrá terminado.	
+tutorial_agent_19	This will be the last move. Go to station 29.	Das wird der letzte Zug. Ziehe zu Haltestelle 29.	Ceci constituera le dernier déplacement. Va à la station 29.	Questa sarà l'ultima mossa. Raggiungi la fermata 29.	Este será el último movimiento. Ve a la estación 29.	
+tutorial_agent_20	Well done! You caught Mr. X! You can win the game by moving to Mr. X's current station or by surrounding him.	Gut gemacht! Du hast Mister X gefangen! Du gewinnst entweder, indem du auf die Haltestelle ziehst, auf der sich Mister X gerade aufhält, oder indem du ihn umzingelst, sodass er keinen Zug mehr machen kann.  	Bravo ! Tu as attrapé Mr X ! Tu peux gagner la partie en te déplaçant sur la station occupée par Mr X, ou en l'encerclant.	Ottimo lavoro! Hai catturato Mister X! Puoi vincere la partita raggiungendo la fermata di Mister X o circondandolo.	¡Bien hecho! ¡Has atrapado al Mr. X! Para ganar la partida, puedes moverte hasta la estación donde está el Mr. X o rodearlo.	
+tutorial_agent_21	If you don´t get him before all detectives are stuck, you have lost and Mr. X has successfully escaped.	Wenn du ihn nicht erwischst, bevor alle Detektive festsitzen, hast du verloren und Mister X ist erfolgreich entkommen.	Si tu ne l'attrapes pas avant que tous les inspecteurs soient coincés, tu perds la partie, et Mr X parvient à s'échapper.	Se non riesci a catturarlo prima che tutti i detective restino bloccati, hai perso e Mister X riuscirà a scappare.	Si no consigues atraparlo antes de que todos los detectives estén bloqueados, habrás perdido y el Mr. X habrá escapado.	
+tutorial_agent_22	You have learned everything there´s to learn now. Go ahead and challenge your friends now. Have fun!	Du weißt jetzt alles, was du wissen musst. Fordere jetzt deine Freunde oder andere Spieler zu einem Spiel heraus. Viel Spaß!	Tu as appris tout ce qu'il faut savoir, maintenant. Aller, tu n'as plus qu'à lancer un défi à tes amis, maintenant. Amuse-toi bien !	Ora hai imparato tutto quello che c'è da sapere. Continua a giocare e sfida i tuoi amici! Buon divertimento!	Ya has aprendido todo lo que te podíamos enseñar. ¡Ahora ve y reta a tus amigos! ¡Que te diviertas!	
+matchmaking_start_bluetooth_ios_state	"Press ""connect” and then select the other player’s device. Once you have connected via Bluetooth you will be automatically redirected to the game setup screen."	"Tippe auf ""verbinden"" und wähle anschließend das Gerät des Mitspielers. Sobald ihr euch über Bluetooth verbunden habt, wirst du automatisch zum Spielvorbereitungsbildschirm weitergeleitet."	Appuie sur « Se connecter », puis sélectionne l'appareil de l'autre joueur. Dès que tu seras connecté en Bluetooth, tu seras automatiquement redirigé vers l'écran de configuration du jeu.	"Premi ""Connetti"" e poi seleziona il dispositivo dell'altro giocatore. Una volta completata la connessione tramite Bluetooth, apparirà automaticamente la schermata di configurazione del gioco."	Pulsa Conectar y luego selecciona el dispositivo del otro jugador. Cuando te hayas conectado mediante Bluetooth, pasarás automáticamente a la pantalla de configuración de la partida.	
+matchmaking_start_bluetooth_android_state	Note that if you connect, the other player should have created a server already. There is only one server device each game so negotiate who is going to be the server before starting a game. When all devices are connected you will be forwarded to the game setup screen automatically.	Beachte, dass ein Mitspieler bereits einen Server gestartet haben muss, bevor du dich verbinden kannst. Es gibt nur ein 'Server-Gerät' pro Spiel, daher ist es ratsam, vor dem Spiel untereinander abzustimmen, wer der Server ist. Sobald sich die Geräte verbunden haben, wirst du automatisch zum Spielvorbereitungsbildschirm weitergeleitet.	Note qu'un joueur devra avoir créé un serveur pour que tu puisses te connecter. Un seul appareil peut faire office de serveur pour chaque partie, il faut donc choisir le joueur concerné avant de démarrer une partie. Quand tous les appareils seront connectés, tu seras automatiquement dirigé vers l'écran de configuration du jeu.	Nota: per stabilire la connessione, è necessario che un giocatore abbia già creato un server. È possibile creare un solo server, perciò, prima di iniziare a giocare, è necessario decidere quale giocatore fungerà da server. Una volta connesso il numero selezionato di dispositivi, apparirà automaticamente la schermata di configurazione del gioco.	Ten en cuenta que, para conectarte, alguien tiene que haber creado un servidor. Solo hay un servidor por partida, así que poneos de acuerdo en quién será el servidor antes de iniciar la partida. Cuando se hayan conectado todos los dispositivos, pasarás automáticamente a la pantalla de configuración de la partida.	
+matchmaking_start_net_state	Select the maximum number of players you want to play with and press connect. Wait for the connection screen and do the settings there. After that you will be forwarded to the game setup screen automatically.	Wähle die maximale Anzahl an Spielern, mit denen du spielen möchtest und drücke auf 'verbinden'. Warte dann auf den Verbindungsbildschirm und nimm die Einstellungen dort vor. Danach wirst du automatisch zum Spielvorbereitungsbildschirm weitergeleitet.	Sélectionne le nombre maximum de joueurs avec lesquels tu veux jouer, puis appuie sur Se connecter. Patiente jusqu'au chargement de l'écran de connexion, puis effectue les différents réglages. Enfin, tu seras automatiquement dirigé vers l'écran de configuration du jeu.	"Seleziona il numero massimo di giocatori e premi ""Connetti"". Quando viene visualizzata la schermata di connessione, usala per definire le impostazioni. Al termine, apparirà automaticamente la schermata di configurazione del gioco."	Selecciona el número máximo de jugadores con los que quieras jugar y pulsa Conectar. Espera a que aparezca la pantalla de conexión y decide la configuración. Después pasarás automáticamente a la pantalla de configuración de la partida.	
+wait	please wait...	bitte warten...	Un instant...	Attendi...	Espera, por favor…	
+extras	Extras	Extras	Bonus	Extra	Extras	
+more_games	More Games	Mehr Spiele	Autres jeux	Altri giochi	Más juegos	
+more_games_ios	More	Mehr	Plus	Altro	Más	
+imprint	Imprint / Privacy policy	Impressum / Datenschutzerklärung	À propos / Politique de confidentialité	Colophon / Informativa sulla privacy	Información legal / Política de privacidad	
+options	Options	Optionen	Options	Opzioni	Opciones	
+news	News	Neuigkeiten	Infos	Novità	Noticias	
+continue_game	Resume	Fortsetzen	Reprendre	Riprendi	Reanudar	
+menu_postfx	Effects	Effekte	Effets	Effetti	Efectos	
+achievements	Achievements	Erfolge	Succès	Risultati	Logros	
+rules	Rules	Regeln	Règles	Regole	Reglas	
+statistics	Statistics	Statistik	Statistiques	Statistiche	Estadísticas	
+credits	Credits	Mitwirkende	Crédits	Riconoscimenti	Créditos	
+play_tutorial	Tutorial	Einführung	Didacticiel	Tutorial	Tutorial	
+play_local	One Controller per player	Jeder mit eigenem Controller	Une Manette par joueur	Un Controller per giocatore	Un Mando por jugador	
+play_bluetooth	One Controller to pass around	Ein Controller zum Herumreichen	Une Manette à partager	Un Controller da passare	Un Mando que pasar entre jugadores	
+play_changeimg	To Change Player Image	um Spielerbild zu wechseln	Pour modifier l'image d'un joueur	Per cambiare l'immagine del giocatore	Para cambiar la imagen del jugador	
+network	Multiplayer Game	Multiplayer Spiel	Partie multijoueur	Partita multigiocatore	Partida multijugador	
+select_play_mode	Game Mode	Spielmodus	Mode de jeu	Modalità di gioco	Modo de juego	
+play_mode_description	Start a game with up to 6 human players or start the tutorial.	Starte ein Spiel mit bis zu 6 menschlichen Spielern oder starte die Einführung.	Commence une partie avec jusqu'à 6 joueurs humains ou commence le didacticiel.	Inizia una partita con fino a 6 giocatori reali oppure avvia il tutorial.	Empieza una partida con hasta 6 jugadores humanos o empieza el tutorial.	"use the same term for translating ""tutorial"" as used in id ""play_tutorial"""
+Yes	YES	JA	OUI	SÌ	SÍ	
+No	NO	NEIN	NON	NO	NO	
+no_multiplayer_available_header	Multiplayer game not possible	Multiplayerspiel nicht möglich	Partie multijoueur impossible	Impossibile avviare partita multigiocatore	La partida multijugador no es posible	
+no_multiplayer_available_text	Make sure your Wi-Fi connection is active and that you are logged in. Then try again.	Stelle sicher, dass dein WLAN eingeschaltet ist und dass du eingeloggt bist. Dann versuche es erneut.	Vérifie que ta connexion Wi-Fi est activée et que tu es connecté. Puis réessaye.	Controlla che la connessione Wi-Fi sia attiva e verifica di aver effettuato l'accesso, poi riprova.	Comprueba que tu conexión Wi-Fi esté activada y que has iniciado sesión. Luego inténtalo de nuevo.	
+local_user_left_session_header	Disconnected	Verbindung getrennt	Déconnecté	Disconnesso	Desconectado	
+local_user_left_session_text	You left the multiplayer match.	Du hast das Mehrspielerspiel verlassen.	Tu as quitté la partie multijoueur.	Hai abbandonato la partita multigiocatore.	Has abandonado la partida multijugador.	
+peer_left_session_header	Peer Left	Mitspieler geht	Le joueur a quitté	Un giocatore ha abbandonato	Se ha ido un jugador	
+peer_left_session_text	{0} has been disconnected from the game.	{0} wurde vom Spiel getrennt.	{0} a été déconnecté de la partie.	Il giocatore {0} si è disconnesso.	{0} se ha desconectado de la partida.	
+tutorial_mode_description	"First learn the basics of the game here. Then find out what Mr. X can do and finally how you can catch Mr. X when you are a detective.
+"	Lerne hier zuerst die Grundlagen des Spiels, dann die Möglichkeiten von Mister X und zuletzt, wie man als Detektiv Mr. X schnappen kann.	Apprends les règles de base du jeu ici. Puis découvre ce que peut faire Mr X et comment tu peux l'attraper en incarnant un inspecteur.	"Apprendi le nozioni di base del gioco, poi scopri cosa può fare Mister X e come fermarlo nei panni del detective.
+"	Primero, aprende aquí los fundamentos del juego. Luego, descubre qué puede hacer el Mr. X. Por último, averigua cómo atrapar al Mr. X si eres un detective.	
+show_rules	Basics	Grundlagen	Règles de base	Nozioni di base	Fundamentos	
+mrx_tutorial	Mr. X	Mister X	Mr X	Mister X	Mr. X	
+detectives_tutorial	Detective	Detektiv	Inspecteur	Detective	Detective	
+tutorial	Tutorial	Einführung	Didacticiel	Tutorial	Tutorial	
+show_invitations	Invitations	Einladungen	Invitations	Inviti	Invitaciones	
+invitation_received	You received an invitation.	Du wurdest zu einem Spiel eingeladen.	Vous avez reçu une invitation.	Hai ricevuto un invito.	Has recibido una invitación.	
+rules_mr.x	Mr. X	Mister X	Mr X	Mister X	Mr. X	
+rules_special	Miscellaneous	Diverses	Divers	Altro	Varios	
+rules_special_tickets	Special Tickets	Spezielle Tickets	Tickets spéciaux	Biglietti speciali	Billetes especiales	
+rules_goal	Goal	Ziel	Objectif	Obiettivo	Objetivo	
+rules_about	General	Allgemein	Général	Generale	General	
+rules_tickets	Tickets	Tickets	Tickets	Biglietti	Billetes	
+rules_transport	Transportation	Verkehrsmittel	Transport	Mezzi di trasporto	Transporte	
+statistics_tickets	Tickets	Tickets	Tickets	Biglietti	Billetes	
+statistics_played_sum	Games  Played	Gespielte Spiele	Parties jouées	Partite giocate	Partidas jugadas	
+statistics_color	Favourite Colours	Lieblingsfarben	Couleurs préférées	Colori preferiti	Colores favoritos	
+statistics_summary	Summary	Zusammenfassung	Résumé	Riepilogo	Resumen	
+statistics_games_won	Games Won	Gewonnene Spiele	Parties gagnées	Partite vinte	Partidas ganadas	
+detective	Detective	Detektiv	Inspecteur	Detective	Detective	
+statistics_success	Success Rate	Erfolgsquote	Taux de réussite	Percentuale di successo	Índice de éxito	
+mister_x	Mr. X	Mister X	Mr X	Mister X	Mr. X	
+statistics_special	Black Tickets	Black Tickets	Black tickets	Biglietti neri	Billetes negros	
+statistics_played_figures	Preferred Role	Bevorzugte Seite	Rôle préféré	Schieramento preferito	Bando preferido	
+statistics_reset	Reset	Zurücksetzen	Réinitialiser	Azzera	Reiniciar	
+statistics_double	Double Ticket	Doppelticket	Ticket double	Biglietto doppio	Billete doble	
+statistics_reset_text	Do you really want to reset all statistics?	Willst du die Statistik wirklich komplett zurücksetzen?	Veux-tu vraiment réinitialiser toutes les statistiques ?	Vuoi davvero azzerare tutte le statistiche?	¿Seguro que quieres reiniciar todas las estadísticas?	
+game_is_loading	The game is loading...	Das Spiel wird geladen...	Chargement de la partie...	Caricamento partita...	Se está cargando la partida…	
+pass_device	Mr. X's Turn	Mister X ist an der Reihe	Tour de Mr X	Turno di Mister X	Turno del Mr. X	
+mr_x_turn_starts	Please pass the device to {0} (Mr. X).	Bitte gib das Gerät an {0} (Mister X) weiter.	Passe l'appareil à {0} (Mr X).	Passa il dispositivo a {0} (Mister X).	Por favor, pásale el dispositivo a {0} (Mr. X).	
+access_denied	Access Denied	Zugriff verweigert	Accès refusé	Accesso non consentito	Acceso denegado	
+too_few_players	A game without any detective is not possible	Ein Spiel ohne Detektiv ist nicht möglich.	Impossible de démarrer une partie sans inspecteur	Non è possibile giocare una partita senza detective.	No es posible jugar sin detectives	
+too_many_connections	Bluetooth multiplayer supports a maximum of 2 devices.	Bluetooth-Mehrspieler unterstützt maximal 2 Geräte.	Le multijoueur Bluetooth permet au maximum de 2 appareils.	Il multiplayer Bluetooth supporta un massimo di 2 dispositivi.	El multijugador Bluetooth admite un máximo de 2 dispositivos.	
+error	Error	Fehler	Erreur	Errore	Error	
+something_went_wrong	Something went wrong.	Es ist etwas schiefgelaufen.	Une erreur est survenue.	Qualcosa non ha funzionato.	Ha habido un error.	
+confirm_leave_session_header	Are you sure?	Bist du sicher?	Tu es sûr ?	Confermi?	¿Estás seguro?	
+confirm_leave_session_text	Do you really want to leave the current match?	Willst du das aktuelle Match wirklich verlassen?	Veux-tu vraiment quitter la partie en cours ?	Vuoi davvero abbandonare la partita in corso?	¿Seguro que quieres abandonar la partida actual?	
+player_cannot_move	{0} cannot move.	{0} kann sich nicht bewegen.	{0} ne peut pas se déplacer.	{0} non può muovere.	{0} no puede moverse.	
+enter_text_here	Select to enter a text...	Auswählen, um Text einzugeben...	Sélectionne pour saisir ton texte...	Seleziona qui per inserire testo...	Selecciona para introducir un texto…	"Previously the game was for mobile games with touch interface.
+Now it's been ported to consoles with controller interface.
+So no ""touch"" references allowed. 
+Please edit the bold highlithted texts accordingly in the target languages FIS."
+player_count	player count	Spieleranzahl	Nombre de joueurs	Numero di giocatori	Número de jugadores	
+connect_to_game	connect	verbinden	Se connecter	Connetti	Conectar	
+start_server	start server	Server starten	Démarrer le serveur	Avvia server	Iniciar servidor	
+tap	OK	OK	OK	OK	OK	
+player_network	Participant	Teilnehmer	Participant	Partecipante	Participante	
+unoptimal_game_question_title	Too few detectives	Nicht genug Detektive	Trop peu d'inspecteurs	Troppo pochi detective	Pocos detectives	
+unoptimal_game_question_body	"Scotland Yard is best when played with at least three detectives.
+Are you sure you want to continue anyway?"	"Scotland Yard spielt sich am besten mit mindestens drei Detektiven.
+Möchtest du wirklich fortfahren?"	Scotland Yard est plus amusant si on y joue à trois ou plus	"Per giocare a Scotland Yard sarebbe meglio avere almeno tre detective.
+Vuoi continuare ugualmente?"	"Es mejor jugar a Scotland Yard con al menos 3 detectives.
+¿Seguro que quieres continuar de todos modos?"	
+						
+credits_text	"
+
+A Ravensburger Game
+Published by Markt+Technik Verlag GmbH
+
+
+
+
+
+
+Based on the board game from
+Projekt Team III
+
+
+
+Developed by
+Bit Barons GmbH
+
+
+
+Ported by
+Korion Interactive GmbH
+
+
+
+© Markt+Technik Verlag GmbH. Published by Markt+Technik Verlag GmbH. Developed by Bit Barons GmbH. Ported by Korion Interactive GmbH. ""Scotland Yard"" and ""Ravensburger"" are registered trademarks of Ravensburger AG. All rights reserved."	"
+
+Ein Ravensburger Spiel
+Veröffentlicht von Markt+Technik Verlag GmbH
+
+
+
+
+
+
+Basiert auf dem Brettspiel von
+Projekt Team III
+
+
+
+Entwickelt von
+Bit Barons GmbH
+
+
+
+Portiert von 
+Korion Interactive GmbH
+
+
+
+© Markt+Technik Verlag GmbH. Published by Markt+Technik Verlag GmbH. Developed by Bit Barons GmbH. Ported by Korion Interactive GmbH. ""Scotland Yard"" and ""Ravensburger"" are registered trademarks of Ravensburger AG. All rights reserved."	"
+
+A Ravensburger Game
+Published by Markt+Technik Verlag GmbH
+
+
+
+
+
+
+Based on the board game from
+Projekt Team III
+
+
+
+Developed by
+Bit Barons GmbH
+
+
+
+Ported by
+Korion Interactive GmbH
+
+
+
+© Markt+Technik Verlag GmbH. Published by Markt+Technik Verlag GmbH. Developed by Bit Barons GmbH. Ported by Korion Interactive GmbH. ""Scotland Yard"" and ""Ravensburger"" are registered trademarks of Ravensburger AG. All rights reserved."	"
+
+A Ravensburger Game
+Published by Markt+Technik Verlag GmbH
+
+
+
+
+
+
+Based on the board game from
+Projekt Team III
+
+
+
+Developed by
+Bit Barons GmbH
+
+
+
+Ported by
+Korion Interactive GmbH
+
+
+
+© Markt+Technik Verlag GmbH. Published by Markt+Technik Verlag GmbH. Developed by Bit Barons GmbH. Ported by Korion Interactive GmbH. ""Scotland Yard"" and ""Ravensburger"" are registered trademarks of Ravensburger AG. All rights reserved."	"
+
+A Ravensburger Game
+Published by Markt+Technik Verlag GmbH
+
+
+
+
+
+
+Based on the board game from
+Projekt Team III
+
+
+
+Developed by
+Bit Barons GmbH
+
+
+
+Ported by
+Korion Interactive GmbH
+
+
+
+© Markt+Technik Verlag GmbH. Published by Markt+Technik Verlag GmbH. Developed by Bit Barons GmbH. Ported by Korion Interactive GmbH. ""Scotland Yard"" and ""Ravensburger"" are registered trademarks of Ravensburger AG. All rights reserved."	
+imprint_header	Imprint	Impressum	Imprint	Imprint	Imprint	
+MrX_turn	Mr X, now it's your turn. Make sure that the other players look away during your turn!	Mr. X, jetzt bist du am Zug. Stelle sicher, dass die Mitspieler während deines Zuges wegsehen!	Mr X, c'est à toi. Veille à ce que les autres joueurs regardent ailleurs pendant ton tour !	Mister X, tocca a te. Assicurati che gli altri giocatori non guardino!	Mr. X, te toca. ¡Y vigila que los otros jugadores no miren durante tu turno!	Please translate EN to target languages FIS.
+play_changeimg_alternative	Change Player Image	Spielerbild wechseln	Modifier l'image d'un joueur	Cambia l'immagine del giocatore	Cambiar la imagen del jugador	
+MsX_turn	Ms X, now it's your turn. Make sure that the other players look away during your turn!	Ms. X, jetzt bist du am Zug. Stelle sicher, dass die Mitspieler während deines Zuges wegsehen!	Ms X, c'est à toi. Veille à ce que les autres joueurs regardent ailleurs pendant ton tour !	Ms X, tocca a te. Assicurati che gli altri giocatori non guardino!	Ms. X, te toca. ¡Y vigila que los otros jugadores no miren durante tu turno!	
+player_selection_msx	Ms. X	Ms. X	Ms X	Ms X	Ms. X	
+pass_device_msx	Ms. X's Turn	Ms. X ist an der Reihe	Tour de Ms X	Turno di Ms X	Turno del Ms. X	
+game_end_text_MsXCaught	"{1} caught Ms.X!
+She was found at station {0}."	"{1} hat Ms. X gefangen genommen!
+Sie befand sich bei der Haltestelle {0}."	"{1} a attrapé Ms X !!
+Elle a été vu à la station {0}."	"{1} ha preso Ms X!
+È stata scoperta alla fermata {0}."	"¡{1} ha atrapado al Ms. X!
+Fue ha encontrada en la estación {0}."	
+game_end_title_MsXCaught	Ms. X Caught!	Ms. X wurde gefangen genommen!	Ms X a été pris !	Ms X è stato preso!	¡El Ms. X ha sido capturado!	
+game_end_text_EscapeOfMsX	"Ms.X has escaped!
+She was at station {0}."	"Ms. X ist entkommen!
+Sie befand sich bei der Haltestelle {0}."	"Ms X s'est échappé !
+Elle était à la station {0}."	"Ms X è scappato!
+Era alla fermata {0}."	"¡El Ms. X ha escapado!
+Se estaba en la estación {0}."	
+game_end_title_EscapeOfMsX	Ms. X Escapes!	Ms. X entkommt!	Ms X s'échappe !	Ms X è scappato!	¡El Ms. X ha escapado!	
+game_end_text_MsXSurrounded	Ms.X surrounded at {0}!	Ms. X bei {0} eingekreist!	Ms X encerclé à {0} !	Ms X è stato circondato alla fermata {0}!	¡El Ms. X está rodeado en {0}!	
+game_end_title_MsXSurrounded	Ms. X surrounded!	Ms. X eingekreist!	Ms X encerclé !	Ms X è stato circondato!	¡El Ms. X está rodeado!	

@@ -4162,6 +4162,7 @@ GameObject:
   - component: {fileID: 192382899}
   - component: {fileID: 192382900}
   - component: {fileID: 192382901}
+  - component: {fileID: 192382902}
   m_Layer: 8
   m_Name: Panel - Main Menu
   m_TagString: Untagged
@@ -4327,6 +4328,20 @@ MonoBehaviour:
   _playerIndex: 0
   _forAllPlayers: 1
   _disableOtherMaps: 1
+--- !u!114 &192382902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 192382894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 471d3f98329547346a62d65c9e1ffe86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectToSelectAfterTouch: {fileID: 1984192858}
+  RootObject: {fileID: 745922487}
 --- !u!1 &196497375
 GameObject:
   m_ObjectHideFlags: 0
@@ -15193,6 +15208,7 @@ GameObject:
   - component: {fileID: 709576484}
   - component: {fileID: 709576487}
   - component: {fileID: 709576488}
+  - component: {fileID: 709576489}
   m_Layer: 8
   m_Name: Panel - Tutorial
   m_TagString: Untagged
@@ -15336,6 +15352,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   alpha: 1
+--- !u!114 &709576489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709576482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 471d3f98329547346a62d65c9e1ffe86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectToSelectAfterTouch: {fileID: 1699497912}
+  RootObject: {fileID: 745922487}
 --- !u!1 &711361376
 GameObject:
   m_ObjectHideFlags: 0
@@ -27230,6 +27260,7 @@ GameObject:
   - component: {fileID: 1199559221}
   - component: {fileID: 1199559220}
   - component: {fileID: 1199559222}
+  - component: {fileID: 1199559223}
   m_Layer: 8
   m_Name: Panel - New Game
   m_TagString: Untagged
@@ -27369,6 +27400,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   alpha: 1
+--- !u!114 &1199559223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1199559216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 471d3f98329547346a62d65c9e1ffe86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectToSelectAfterTouch: {fileID: 1709514728}
+  RootObject: {fileID: 745922487}
 --- !u!1 &1204381083
 GameObject:
   m_ObjectHideFlags: 0
@@ -39509,6 +39554,7 @@ GameObject:
   - component: {fileID: 1790986597}
   - component: {fileID: 1790986596}
   - component: {fileID: 1790986598}
+  - component: {fileID: 1790986599}
   m_Layer: 8
   m_Name: Panel - Select Mode
   m_TagString: Untagged
@@ -39660,6 +39706,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   multiplayerInputIndicator: {fileID: 61922874}
+--- !u!114 &1790986599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790986591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 471d3f98329547346a62d65c9e1ffe86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectToSelectAfterTouch: {fileID: 1368252438}
+  RootObject: {fileID: 745922487}
 --- !u!1 &1792298423
 GameObject:
   m_ObjectHideFlags: 0
