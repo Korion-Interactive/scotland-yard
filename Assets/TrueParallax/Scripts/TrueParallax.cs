@@ -68,7 +68,7 @@ public class TrueParallax : MonoBehaviour
 #if !(UNITY_ANDROID || UNITY_IPHONE)
     void OnGUI()
     {
-        GUI.Label(new Rect(0, 0, 300, 20), "TrueParallax only works on iOS and Android platforms.");
+        //GUI.Label(new Rect(0, 0, 300, 20), "TrueParallax only works on iOS and Android platforms.");
     }
 
 #endif

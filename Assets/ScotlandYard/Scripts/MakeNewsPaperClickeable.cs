@@ -8,7 +8,11 @@ public class MakeNewsPaperClickeable : MonoBehaviour {
     {
         if (GameSetupBehaviour.Instance.Setup.Mode.IsTutorial())
         {
-            Destroy(GetComponent<ChangeActionMap>());
+            DestroyImmediate(GetComponent<ChangeActionMap>());
+        }
+        else
+        {
+            GetComponent<ChangeActionMap>().enabled = true;
         }
     }
     // Use this for initialization

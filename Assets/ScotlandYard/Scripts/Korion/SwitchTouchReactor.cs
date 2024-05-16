@@ -17,7 +17,7 @@ public class SwitchTouchReactor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {        
-        if ((UICamera.selectedObject == null || UICamera.selectedObject == RootObject) && MultiplayerInputManager.Instance.CurrentPlayer.GetAnyButton())
+        if ((UICamera.selectedObject == null || UICamera.selectedObject == RootObject) && (MultiplayerInputManager.Instance.CurrentPlayer.GetAnyButton() || MultiplayerInputManager.Instance.CurrentPlayer.GetAnyNegativeButton()))
         {
             UICamera.selectedObject = ObjectToSelectAfterTouch;
         }
