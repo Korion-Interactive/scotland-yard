@@ -69,6 +69,8 @@ public class AppSetup : MonoBehaviour
     public bool IsPostEffectEnabled { get => Get("post_effect", false); set => Set("post_effect", value); }
 
     bool isVoiceChatEnabled;
+
+    private int _saveCounter = 0;
     public bool IsVoiceChatEnabled
     {
         get => isVoiceChatEnabled;
@@ -311,13 +313,23 @@ public class AppSetup : MonoBehaviour
 
     public void SaveGame()
     {
-        Debug.Log("KORION: Start Saving game");
-        string gameSetup = JsonConvert.SerializeObject(GameSetupBehaviour.Instance.Setup);
-        SaveData(ref gameSetup, Globals.LastGameSetupPath);
+        if (_saveCounter % 3 == 0)
+        {
+            Debug.Log("KORION: Start Saving game");
+            string gameSetup = JsonConvert.SerializeObject(GameSetupBehaviour.Instance.Setup);
+            SaveData(ref gameSetup, Globals.LastGameSetupPath);
 
-        string gameState = JsonConvert.SerializeObject(GameState.Instance);
-        SaveData(ref gameState, Globals.LastGameStatePath);
-        Debug.Log("KORION: Game Saved");
+            string gameState = JsonConvert.SerializeObject(GameState.Instance);
+            SaveData(ref gameState, Globals.LastGameStatePath);
+            Debug.Log("KORION: Game Saved");
+
+            _saveCounter++;
+        }
+        else
+        {
+            _saveCounter++;
+            Debug.Log("Did not save. Save Counter is now " + _saveCounter);
+        }
     }
 
     void SaveData(ref string data, string filePath)

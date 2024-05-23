@@ -135,6 +135,9 @@ public class GameSetupBehaviour : MonoBehaviour
 
         var mrX = goX.GetComponent<MrX>();
         mrX.PlayerInfo = Setup.MrXSetup;
+        var idx = goX.GetComponent<Identifier>();
+        idx.IdShift = 100;
+        idx.GameID = 0;
 
         // Create All Detectives
         foreach (var d in Setup.DetectiveSetups)
