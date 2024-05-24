@@ -12,6 +12,9 @@ public class ReselectDetectiveNameButton : MonoBehaviour
         if(ButtonToSelect != null)
         {
             UICamera.selectedObject = ButtonToSelect;
+#if UNITY_PS4 || UNITY_PS4
+            UICamera.ForceSetSelection(ButtonToSelect);
+#endif
         }
     }
 }

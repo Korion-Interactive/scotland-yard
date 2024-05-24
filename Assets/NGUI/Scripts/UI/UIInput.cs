@@ -10,6 +10,10 @@
 using UnityEngine;
 using System.Collections.Generic;
 using System.Text;
+using System.Collections;
+#if UNITY_SWITCH
+using nn.swkbd;
+#endif
 
 /// <summary>
 /// Input field makes it possible to enter custom information within the UI.
@@ -183,13 +187,15 @@ public class UIInput : MonoBehaviour
 
 #if UNITY_SWITCH
     private nn.swkbd.ShowKeyboardArg showKeyboardArg;
+#elif UNITY_PS4 || UNITY_PS5
+	private TouchScreenKeyboard _keyboard;
 #endif
 
-    /// <summary>
-    /// Default text used by the input's label.
-    /// </summary>
+	/// <summary>
+	/// Default text used by the input's label.
+	/// </summary>
 
-    public string defaultText
+	public string defaultText
 	{
 		get
 		{
@@ -539,8 +545,11 @@ public class UIInput : MonoBehaviour
 
 #if UNITY_SWITCH
 				ShowKeyboard();
+#elif UNITY_PS4 || UNITY_PS5
+				_keyboard = TouchScreenKeyboard.Open(selection.value);
+				_keyboard.characterLimit = 12;
 #endif
-				mDrawStart = 0;
+                mDrawStart = 0;
 			}
 			UpdateLabel();
 		}
@@ -611,6 +620,13 @@ public class UIInput : MonoBehaviour
 				mKeyboard = null;
 			}
 #endif
+#if UNITY_PS4 || UNITY_PS5
+            if (_keyboard != null)
+            {
+                _keyboard.active = false;
+                _keyboard = null;
+            }
+#endif
 
 #if UNITY_SWITCH
             nn.swkbd.Swkbd.Destroy(ref showKeyboardArg);
@@ -636,9 +652,15 @@ public class UIInput : MonoBehaviour
 		UpdateLabel();
 	}
 
-	/// <summary>
-	/// Update the text based on input.
-	/// </summary>
+	private IEnumerator reselectDelayed(ReselectDetectiveNameButton resel)
+	{
+		yield return new WaitForSeconds(0.5f);
+		resel.SelectButton();
+	}
+
+    /// <summary>
+    /// Update the text based on input.
+    /// </summary>
 
 #if MOBILE
 	string mCached = "";
@@ -673,6 +695,41 @@ public class UIInput : MonoBehaviour
 #if UNITY_EDITOR
 		if (!Application.isPlaying) return;
 #endif
+
+#if UNITY_PS4 || UNITY_PS5
+        string mCached = "";
+        if (_keyboard != null && isSelected)
+        {
+            string text = _keyboard.text;
+
+            if (mCached != text)
+            {
+                mCached = text;
+                value = text;
+            }
+
+            if (_keyboard.status == TouchScreenKeyboard.Status.Done || !_keyboard.active)
+            {
+                Submit();
+
+				selection.value = _keyboard.text;
+
+                ReselectDetectiveNameButton reselector = GetComponent<ReselectDetectiveNameButton>();
+                if (reselector != null)
+                {
+                    //reselector.SelectButton();
+					StartCoroutine(reselectDelayed(reselector));
+                }
+
+                _keyboard = null;
+                isSelected = false;
+                mCached = "";
+
+                
+
+            }
+        }
+#else
 		if (isSelected)
 		{
 			if (mDoInit) Init();
@@ -729,7 +786,8 @@ public class UIInput : MonoBehaviour
 			if (isSelected && mLastAlpha != label.finalAlpha)
 				UpdateLabel();
 		}
-	}
+#endif
+    }
 
 	/// <summary>
 	/// Unfortunately Unity 4.3 and earlier doesn't offer a way to properly process events outside of OnGUI.
@@ -1123,11 +1181,11 @@ public class UIInput : MonoBehaviour
 	}
 #endif // !MOBILE
 
-	/// <summary>
-	/// Submit the input field's text.
-	/// </summary>
+		/// <summary>
+		/// Submit the input field's text.
+		/// </summary>
 
-	public void Submit ()
+		public void Submit ()
 	{
 		if (NGUITools.GetActive(this))
 		{

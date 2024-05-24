@@ -11,7 +11,7 @@ public class GlyphDisplay : MonoBehaviour
     void Start()
     {
         DisableAllGlyphs();
-        /*
+        
 #if UNITY_SWITCH
         _glyphSwitch.SetActive(true);
 #elif UNITY_PS4
@@ -21,7 +21,7 @@ public class GlyphDisplay : MonoBehaviour
 #else
         _glyphPCXBOX.SetActive(true);
 #endif
-        */
+        
     }
 
 

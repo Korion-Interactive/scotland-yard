@@ -314,7 +314,9 @@ public class Gesture : MonoBehaviour {
 			if(onMFDraggingE!=null) onMFDraggingE(dragInfo);
 		}
 		else{
+#if !UNITY_PS4 && !UNITY_PS5
 			if(onDraggingE!=null) onDraggingE(dragInfo);
+#endif
 		}
 	}
 	

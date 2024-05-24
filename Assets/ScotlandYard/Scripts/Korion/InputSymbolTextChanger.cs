@@ -16,8 +16,8 @@ namespace Korion.ScotlandYard
         private void Awake()
         {
             _label = GetComponent<UILabel>();
-#if UNITY_PS5 && !UNITY_EDITOR
-        _currentInputSymbols = _inputSymbolMapper.InputPlaystation;
+#if (UNITY_PS5 || UNITY_PS4) && !UNITY_EDITOR
+            _currentInputSymbols = _inputSymbolMapper.InputPlaystation;
 #elif UNITY_SWITCH && !UNITY_EDITOR
         _currentInputSymbols = _inputSymbolMapper.InputSwitch;
 #elif UNITY_STANDALONE || UNITY_EDITOR

@@ -878,25 +878,25 @@ PlayerSettings:
   ps4MasterVersion: 01.00
   ps4AppVersion: 01.00
   ps4AppType: 0
-  ps4ParamSfxPath: PlatformData/Playstation/PS4/param_eu.sfx
+  ps4ParamSfxPath: PlatformData/Playstation/PS4/param_us.sfx
   ps4VideoOutPixelFormat: 0
   ps4VideoOutInitialWidth: 1920
   ps4VideoOutBaseModeInitialWidth: 1920
   ps4VideoOutReprojectionRate: 120
-  ps4PronunciationXMLPath: 
-  ps4PronunciationSIGPath: 
-  ps4BackgroundImagePath: 
-  ps4StartupImagePath: 
-  ps4StartupImagesFolder: 
-  ps4IconImagesFolder: 
-  ps4SaveDataImagePath: 
+  ps4PronunciationXMLPath: PlatformData/Playstation/PS4/VoiceRecognition/Export/pronunciation.xml
+  ps4PronunciationSIGPath: PlatformData/Playstation/PS4/VoiceRecognition/Export/pronunciation.sig
+  ps4BackgroundImagePath: PlatformData/Playstation/PS4/StartupImage/pic0.png
+  ps4StartupImagePath: PlatformData/Playstation/PS4/StartupImage/pic1.png
+  ps4StartupImagesFolder: PlatformData/Playstation/PS4/StartupImage
+  ps4IconImagesFolder: PlatformData/Playstation/PS4/Icons
+  ps4SaveDataImagePath: Assets/Resources/Platform/PS4/icon0.png
   ps4SdkOverride: 
   ps4BGMPath: 
   ps4ShareFilePath: PlatformData/Playstation/PS4/shareparam.json
   ps4ShareOverlayImagePath: 
   ps4PrivacyGuardImagePath: 
   ps4ExtraSceSysFile: 
-  ps4NPtitleDatPath: PlatformData/Playstation/PS4/CUSA48071_00_EU/nptitle.dat
+  ps4NPtitleDatPath: PlatformData/Playstation/PS4/CUSA48072_00_US/nptitle.dat
   ps4RemotePlayKeyAssignment: -1
   ps4RemotePlayKeyMappingDir: 
   ps4PlayTogetherPlayerCount: 0
@@ -914,7 +914,7 @@ PlayerSettings:
   ps4pnPresence: 1
   ps4pnFriends: 1
   ps4pnGameCustomData: 1
-  playerPrefsSupport: 0
+  playerPrefsSupport: 1
   enableApplicationExit: 0
   resetTempFolder: 1
   restrictedAudioUsageRights: 0
