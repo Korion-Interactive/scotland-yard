@@ -2,50 +2,38 @@
 <gamePackage>
   <language id="01" modified="0">
     <speechRecognitionWords>
-      <text display="1">Summer Games Challenge</text>
-      <pronunciation>s ah m ax r ___ g ey m z ___ ch ae l ih n jh</pronunciation>
+      <text display="1">Scotland Yard</text>
+      <pronunciation>s k ao t l ax n d ___ y aa r d</pronunciation>
     </speechRecognitionWords>
   </language>
   <language id="02" modified="0">
     <speechRecognitionWords>
-      <text display="1">Summer Games Challenge</text>
-      <pronunciation>s O m E R ___ g e i m z ___ S a l AX n d z</pronunciation>
+      <text display="1">Scotland Yard</text>
+      <pronunciation>s k O t l aN d ___ j a R d</pronunciation>
     </speechRecognitionWords>
   </language>
   <language id="03" modified="0">
     <speechRecognitionWords>
-      <text display="1">Summer Games Challenge</text>
-      <pronunciation>s o m e r ___ g e j m s ___ tS a l a n jj</pronunciation>
+      <text display="1">Scotland Yard</text>
+      <pronunciation>s k o t l a n D ___ i a r D</pronunciation>
     </speechRecognitionWords>
   </language>
   <language id="04" modified="0">
     <speechRecognitionWords>
-      <text display="1">Summer Games Challenge</text>
-      <pronunciation>s o m er ___ g e j m z ___ tS ae l ae n Z</pronunciation>
+      <text display="1">Scotland Yard</text>
+      <pronunciation>z k o t l a n t ___ i a R t</pronunciation>
     </speechRecognitionWords>
   </language>
   <language id="05" modified="0">
     <speechRecognitionWords>
-      <text display="1">Summer Games Challenge</text>
-      <pronunciation>s u m m e r ___ g a m e s ___ tS e l l e n dZ e</pronunciation>
-    </speechRecognitionWords>
-  </language>
-  <language id="08" modified="0">
-    <speechRecognitionWords>
-      <text display="1">Summer Games Challenge</text>
-      <pronunciation>s o m ae r ___ g e j m z ___ tS a l ae n Z</pronunciation>
-    </speechRecognitionWords>
-  </language>
-  <language id="16" modified="0">
-    <speechRecognitionWords>
-      <text display="1">Summer Games Challenge</text>
-      <pronunciation>s u m m e r ___ g e j m s ___ x a l l e N g e</pronunciation>
+      <text display="1">Scotland Yard</text>
+      <pronunciation>s k o t l e n d ___ i a r d</pronunciation>
     </speechRecognitionWords>
   </language>
   <language id="18" modified="0">
     <speechRecognitionWords>
-      <text display="1">Summer Games Challenge</text>
-      <pronunciation>s ah m ax r ___ g ey m z ___ ch ae l ih n jh</pronunciation>
+      <text display="1">Scotland Yard</text>
+      <pronunciation>s k ao t l ax n d ___ y aa r d</pronunciation>
     </speechRecognitionWords>
   </language>
 </gamePackage>

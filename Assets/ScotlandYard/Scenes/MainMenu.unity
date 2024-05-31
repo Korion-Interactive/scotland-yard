@@ -6219,7 +6219,7 @@ GameObject:
   m_Component:
   - component: {fileID: 253136592}
   - component: {fileID: 253136593}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: lt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8354,7 +8354,7 @@ GameObject:
   m_Component:
   - component: {fileID: 339118627}
   - component: {fileID: 339118628}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: rb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31509,7 +31509,7 @@ GameObject:
   - component: {fileID: 1394848449}
   - component: {fileID: 1394848451}
   - component: {fileID: 1394848450}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Panel - BG Blur
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31602,7 +31602,7 @@ MonoBehaviour:
   mClipping: 0
   mClipRange: {x: 0, y: 0, z: 300, w: 200}
   mClipSoftness: {x: 4, y: 4}
-  mDepth: 1
+  mDepth: 2
   mSortingOrder: 0
   mClipOffset: {x: 0, y: 0}
 --- !u!1 &1397817602 stripped
@@ -33960,7 +33960,7 @@ Transform:
   m_GameObject: {fileID: 1519260257}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1597.0001, y: 899.00006, z: 0}
+  m_LocalPosition: {x: 1598, y: 899.00006, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -47110,7 +47110,7 @@ GameObject:
   - component: {fileID: 2070699457}
   - component: {fileID: 2070699458}
   - component: {fileID: 2070699459}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Texture
   m_TagString: Untagged
   m_Icon: {fileID: 0}

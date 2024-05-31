@@ -1,209 +1,150 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ProjectDataExport>
   <PhonemeData>
+    <Word>Scotland Yard</Word>
     <TargetLanguage>EnglishUS</TargetLanguage>
-    <Word>Summer Games Challenge</Word>
+    <Display>true</Display>
     <PhonemeParameterDataModelCollection>
       <PhonemeParameterDataModel>
-        <Phoneme>s ah m er ___ g ey m z ___ ch ae l ax n jh</Phoneme>
+        <Phoneme>s k ao t l ax n d ___ y aa r d</Phoneme>
+        <IsCheckedP>true</IsCheckedP>
+        <IsImported>false</IsImported>
+      </PhonemeParameterDataModel>
+      <PhonemeParameterDataModel>
+        <Phoneme>s k ao t l ae n d ___ y aa d</Phoneme>
         <IsCheckedP>false</IsCheckedP>
         <IsImported>false</IsImported>
       </PhonemeParameterDataModel>
       <PhonemeParameterDataModel>
-        <Phoneme>s ah m ax r ___ g ey m z ___ ch ae l ih n jh</Phoneme>
-        <IsCheckedP>true</IsCheckedP>
+        <Phoneme>s k ao t l ax n d ___ y aa d</Phoneme>
+        <IsCheckedP>false</IsCheckedP>
         <IsImported>false</IsImported>
       </PhonemeParameterDataModel>
     </PhonemeParameterDataModelCollection>
-    <Display>true</Display>
   </PhonemeData>
   <PhonemeData>
+    <Word>Scotland Yard</Word>
     <TargetLanguage>EnglishUK</TargetLanguage>
-    <Word>Summer Games Challenge</Word>
+    <Display>true</Display>
     <PhonemeParameterDataModelCollection>
       <PhonemeParameterDataModel>
-        <Phoneme>s ah m ax r ___ g ey m z ___ ch ae l ih n jh</Phoneme>
+        <Phoneme>s k ao t l ae n d ___ y aa d</Phoneme>
+        <IsCheckedP>false</IsCheckedP>
+        <IsImported>false</IsImported>
+      </PhonemeParameterDataModel>
+      <PhonemeParameterDataModel>
+        <Phoneme>s k ao t l ax n d ___ y aa r d</Phoneme>
         <IsCheckedP>true</IsCheckedP>
         <IsImported>false</IsImported>
       </PhonemeParameterDataModel>
       <PhonemeParameterDataModel>
-        <Phoneme>s ah m er ___ g ey m z ___ ch ae l ax n jh</Phoneme>
+        <Phoneme>s k ao t l ax n d ___ y aa d</Phoneme>
         <IsCheckedP>false</IsCheckedP>
         <IsImported>false</IsImported>
       </PhonemeParameterDataModel>
     </PhonemeParameterDataModelCollection>
-    <Display>true</Display>
   </PhonemeData>
   <PhonemeData>
+    <Word>Scotland Yard</Word>
     <TargetLanguage>French</TargetLanguage>
-    <Word>Summer Games Challenge</Word>
+    <Display>true</Display>
     <PhonemeParameterDataModelCollection>
       <PhonemeParameterDataModel>
-        <Phoneme>s O m e ___ g a m ___ S a l aN Z</Phoneme>
-        <IsCheckedP>false</IsCheckedP>
-        <IsImported>false</IsImported>
-      </PhonemeParameterDataModel>
-      <PhonemeParameterDataModel>
-        <Phoneme>s O m e ___ g a m t ___ S a l aN Z</Phoneme>
-        <IsCheckedP>false</IsCheckedP>
-        <IsImported>false</IsImported>
-      </PhonemeParameterDataModel>
-      <PhonemeParameterDataModel>
-        <Phoneme>s O m m e ___ g a m ___ S a l aN Z</Phoneme>
-        <IsCheckedP>false</IsCheckedP>
-        <IsImported>false</IsImported>
-      </PhonemeParameterDataModel>
-      <PhonemeParameterDataModel>
-        <Phoneme>s O m m e ___ g a m t ___ S a l aN Z</Phoneme>
-        <IsCheckedP>false</IsCheckedP>
-        <IsImported>false</IsImported>
-      </PhonemeParameterDataModel>
-      <PhonemeParameterDataModel>
-        <Phoneme>s O m E R ___ g e i m z ___ S a l AX n d z</Phoneme>
+        <Phoneme>s k O t l aN d ___ j a R d</Phoneme>
         <IsCheckedP>true</IsCheckedP>
         <IsImported>false</IsImported>
       </PhonemeParameterDataModel>
+      <PhonemeParameterDataModel>
+        <Phoneme>s O t l aN d ___ j a R d</Phoneme>
+        <IsCheckedP>false</IsCheckedP>
+        <IsImported>false</IsImported>
+      </PhonemeParameterDataModel>
+      <PhonemeParameterDataModel>
+        <Phoneme>s k O t l a n d ___ j O d</Phoneme>
+        <IsCheckedP>false</IsCheckedP>
+        <IsImported>false</IsImported>
+      </PhonemeParameterDataModel>
+      <PhonemeParameterDataModel>
+        <Phoneme>s k AX u t l AX n d ___ j O d</Phoneme>
+        <IsCheckedP>false</IsCheckedP>
+        <IsImported>false</IsImported>
+      </PhonemeParameterDataModel>
     </PhonemeParameterDataModelCollection>
-    <Display>true</Display>
   </PhonemeData>
   <PhonemeData>
+    <Word>Scotland Yard</Word>
     <TargetLanguage>German</TargetLanguage>
-    <Word>Summer Games Challenge</Word>
+    <Display>true</Display>
     <PhonemeParameterDataModelCollection>
       <PhonemeParameterDataModel>
-        <Phoneme>z u m m er ___ g a m e s ___ S a l l e N ae</Phoneme>
+        <Phoneme>z k o l a n t ___ i a R t</Phoneme>
         <IsCheckedP>false</IsCheckedP>
         <IsImported>false</IsImported>
       </PhonemeParameterDataModel>
       <PhonemeParameterDataModel>
-        <Phoneme>z u m m er ___ g a m e s ___ S a e l ae n g ae</Phoneme>
-        <IsCheckedP>false</IsCheckedP>
-        <IsImported>false</IsImported>
-      </PhonemeParameterDataModel>
-      <PhonemeParameterDataModel>
-        <Phoneme>z u m m er ___ g a m ae s ___ S a l l e N ae</Phoneme>
-        <IsCheckedP>false</IsCheckedP>
-        <IsImported>false</IsImported>
-      </PhonemeParameterDataModel>
-      <PhonemeParameterDataModel>
-        <Phoneme>z u m m er ___ g a m ae s ___ S a e l ae n g ae</Phoneme>
-        <IsCheckedP>false</IsCheckedP>
-        <IsImported>false</IsImported>
-      </PhonemeParameterDataModel>
-      <PhonemeParameterDataModel>
-        <Phoneme>z u m ae R ___ g a m e s ___ S a l l e N ae</Phoneme>
-        <IsCheckedP>false</IsCheckedP>
-        <IsImported>false</IsImported>
-      </PhonemeParameterDataModel>
-      <PhonemeParameterDataModel>
-        <Phoneme>z u m ae R ___ g a m e s ___ S a e l ae n g ae</Phoneme>
-        <IsCheckedP>false</IsCheckedP>
-        <IsImported>false</IsImported>
-      </PhonemeParameterDataModel>
-      <PhonemeParameterDataModel>
-        <Phoneme>z u m ae R ___ g a m ae s ___ S a l l e N ae</Phoneme>
-        <IsCheckedP>false</IsCheckedP>
-        <IsImported>false</IsImported>
-      </PhonemeParameterDataModel>
-      <PhonemeParameterDataModel>
-        <Phoneme>z u m ae R ___ g a m ae s ___ S a e l ae n g ae</Phoneme>
-        <IsCheckedP>false</IsCheckedP>
-        <IsImported>false</IsImported>
-      </PhonemeParameterDataModel>
-      <PhonemeParameterDataModel>
-        <Phoneme>s o m er ___ g e j m z ___ tS ae l ae n Z</Phoneme>
+        <Phoneme>z k o t l a n t ___ i a R t</Phoneme>
         <IsCheckedP>true</IsCheckedP>
         <IsImported>false</IsImported>
       </PhonemeParameterDataModel>
+      <PhonemeParameterDataModel>
+        <Phoneme>s k o t l ae n d ___ j o d</Phoneme>
+        <IsCheckedP>false</IsCheckedP>
+        <IsImported>false</IsImported>
+      </PhonemeParameterDataModel>
+      <PhonemeParameterDataModel>
+        <Phoneme>s k ae u t l ae n d ___ j o d</Phoneme>
+        <IsCheckedP>false</IsCheckedP>
+        <IsImported>false</IsImported>
+      </PhonemeParameterDataModel>
     </PhonemeParameterDataModelCollection>
-    <Display>true</Display>
   </PhonemeData>
   <PhonemeData>
+    <Word>Scotland Yard</Word>
     <TargetLanguage>Spanish</TargetLanguage>
-    <Word>Summer Games Challenge</Word>
+    <Display>true</Display>
     <PhonemeParameterDataModelCollection>
       <PhonemeParameterDataModel>
-        <Phoneme>s u m m e r ___ G a m e s ___ tS a jj e n x e</Phoneme>
+        <Phoneme>s k o t l a n D ___ jj a r D</Phoneme>
         <IsCheckedP>false</IsCheckedP>
         <IsImported>false</IsImported>
       </PhonemeParameterDataModel>
       <PhonemeParameterDataModel>
-        <Phoneme>s u m m e r ___ G a m e s ___ k a jj e N g e</Phoneme>
-        <IsCheckedP>false</IsCheckedP>
-        <IsImported>false</IsImported>
-      </PhonemeParameterDataModel>
-      <PhonemeParameterDataModel>
-        <Phoneme>s o m e r ___ g e j m s ___ tS a l a n jj</Phoneme>
+        <Phoneme>s k o t l a n D ___ i a r D</Phoneme>
         <IsCheckedP>true</IsCheckedP>
         <IsImported>false</IsImported>
       </PhonemeParameterDataModel>
+      <PhonemeParameterDataModel>
+        <Phoneme>s k o t l a n d ___ jj a d</Phoneme>
+        <IsCheckedP>false</IsCheckedP>
+        <IsImported>false</IsImported>
+      </PhonemeParameterDataModel>
+      <PhonemeParameterDataModel>
+        <Phoneme>s k a w t l a n d ___ jj a d</Phoneme>
+        <IsCheckedP>false</IsCheckedP>
+        <IsImported>false</IsImported>
+      </PhonemeParameterDataModel>
     </PhonemeParameterDataModelCollection>
-    <Display>true</Display>
   </PhonemeData>
   <PhonemeData>
+    <Word>Scotland Yard</Word>
     <TargetLanguage>Italian</TargetLanguage>
-    <Word>Summer Games Challenge</Word>
+    <Display>true</Display>
     <PhonemeParameterDataModelCollection>
       <PhonemeParameterDataModel>
-        <Phoneme>s u m e r ___ g a m e s ___ tS e l e n dZ e</Phoneme>
+        <Phoneme>s k o t l a n d ___ i a r d</Phoneme>
         <IsCheckedP>false</IsCheckedP>
         <IsImported>false</IsImported>
       </PhonemeParameterDataModel>
       <PhonemeParameterDataModel>
-        <Phoneme>s u m e r ___ g a m e s ___ tS e l l e n dZ e</Phoneme>
-        <IsCheckedP>false</IsCheckedP>
-        <IsImported>false</IsImported>
-      </PhonemeParameterDataModel>
-      <PhonemeParameterDataModel>
-        <Phoneme>s u m m e r ___ g a m e s ___ tS e l e n dZ e</Phoneme>
-        <IsCheckedP>false</IsCheckedP>
-        <IsImported>false</IsImported>
-      </PhonemeParameterDataModel>
-      <PhonemeParameterDataModel>
-        <Phoneme>s u m m e r ___ g a m e s ___ tS e l l e n dZ e</Phoneme>
+        <Phoneme>s k o t l e n d ___ i a r d</Phoneme>
         <IsCheckedP>true</IsCheckedP>
         <IsImported>false</IsImported>
       </PhonemeParameterDataModel>
       <PhonemeParameterDataModel>
-        <Phoneme>s o m e r ___ g e j m z ___ tS a l a n dZ</Phoneme>
+        <Phoneme>s k o t l e j n d ___ j o d</Phoneme>
         <IsCheckedP>false</IsCheckedP>
         <IsImported>false</IsImported>
       </PhonemeParameterDataModel>
     </PhonemeParameterDataModelCollection>
-    <Display>true</Display>
-  </PhonemeData>
-  <PhonemeData>
-    <TargetLanguage>Russian</TargetLanguage>
-    <Word>Summer Games Challenge</Word>
-    <PhonemeParameterDataModelCollection>
-      <PhonemeParameterDataModel>
-        <Phoneme>s o m ae r ___ g e j m z ___ tS a l ae n Z</Phoneme>
-        <IsCheckedP>true</IsCheckedP>
-        <IsImported>false</IsImported>
-      </PhonemeParameterDataModel>
-    </PhonemeParameterDataModelCollection>
-    <Display>true</Display>
-  </PhonemeData>
-  <PhonemeData>
-    <TargetLanguage>Polish</TargetLanguage>
-    <Word>Summer Games Challenge</Word>
-    <PhonemeParameterDataModelCollection>
-      <PhonemeParameterDataModel>
-        <Phoneme>s u m m e r ___ g e j m s ___ x a l l e N g e</Phoneme>
-        <IsCheckedP>true</IsCheckedP>
-        <IsImported>false</IsImported>
-      </PhonemeParameterDataModel>
-      <PhonemeParameterDataModel>
-        <Phoneme>s u m m e r ___ g e j m s ___ x a l l e n g e</Phoneme>
-        <IsCheckedP>false</IsCheckedP>
-        <IsImported>false</IsImported>
-      </PhonemeParameterDataModel>
-      <PhonemeParameterDataModel>
-        <Phoneme>s o m e r ___ g e j m z ___ tS a l ih n dZ</Phoneme>
-        <IsCheckedP>false</IsCheckedP>
-        <IsImported>false</IsImported>
-      </PhonemeParameterDataModel>
-    </PhonemeParameterDataModelCollection>
-    <Display>true</Display>
   </PhonemeData>
 </ProjectDataExport>
