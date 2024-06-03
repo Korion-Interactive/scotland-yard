@@ -4,6 +4,7 @@ using System.Linq;
 using System.Collections.Generic;
 using Newtonsoft.Json;
 using System.Runtime.Serialization;
+using Rewired.Demos;
 
 
 /// <summary>
@@ -122,6 +123,19 @@ public abstract class PlayerBase : MonoBehaviour
         //this.BroadcastDelayed(GameEvents.TurnStart, this.gameObject, 0.5f); // delay is necessary to make sure mrX can appear before start of turn.
         this.Broadcast(GameEvents.TurnStart, this.gameObject);
         this.LogInfo(PlayerDisplayName + ": Turn Start");
+        if (PlayerInfo.Controller == PlayerController.Human)
+        {
+            if (PlayerMouseSpriteExample.Instance != null)
+            {
+                PlayerMouseSpriteExample.Instance.SetVisibility(true);
+            }
+            GameObject ingameMenu = GameObject.Find("OptionsOnBtn");
+
+            if (ingameMenu != null)
+            {
+                ingameMenu.GetComponent<Collider>().enabled = true;
+            }
+        }
     }
 
     void Update()

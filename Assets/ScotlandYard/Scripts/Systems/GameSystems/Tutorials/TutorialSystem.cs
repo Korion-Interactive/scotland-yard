@@ -143,6 +143,13 @@ public abstract class TutorialSystem<TSystem> : BaseSystem<GameEvents, GameGuiEv
         currentClosingCondition = closingCondition;
 
         string locID = string.Format("{0}_{1}", LocaStringIdPrefix, tutorialPopupIndex + 1);
+
+#if UNITY_PS4 || UNITY_PS5
+        if(locID == "tutorial_general_1")
+        {
+            locID = "tutorial_general_1_PS";
+        }
+#endif
         PopupManager.ShowTutorial(locID, pointOfInterest, pointingDirection, closingCondition == null,
             (go) =>
             {

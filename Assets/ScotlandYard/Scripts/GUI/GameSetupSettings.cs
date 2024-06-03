@@ -13,8 +13,8 @@ public class GameSetupSettings : BaseBehaviour
     { "James Blond", "Sherlock", "Holmes", "Dr Watson", "Lestrade", "Mr Marple", "Holly Martens", "Austin Power", "Ace Venture", "Eddy Variant", 
         "Mr Diamond", "Charleston", "Mr Wang", "Mrs Marbles", "Mr Perrier"  };
 
-    static readonly string[] FallbackMrXNamesKorion = new string[] { "Mr X" };
-    static readonly string[] FallbackMrXNamesAltKorion = new string[] { "Ms X" };
+    static readonly string[] FallbackMrXNamesKorion = new string[] { "Mr. X" };
+    static readonly string[] FallbackMrXNamesAltKorion = new string[] { "Ms. X" };
     static readonly string[] FallbackDetectiveNamesKorion = new string[]
     { "James", "Robin", "William", "Olivia", "Mina"  };
     static readonly string[] FallbackDetectiveNamesAltKorion = new string[]
@@ -242,12 +242,12 @@ public class GameSetupSettings : BaseBehaviour
                 //name = FallbackMrXNames.PickRandom(); // KORION: Original Call
                 if (transform.parent.GetComponent<UISprite>().name.Contains("02"))
                 {
-                    name = FallbackMrXNamesAltKorion.PickRandom();
+                    name = Loc.Get("player_selection_msx");//FallbackMrXNamesAltKorion.PickRandom();
                     GameSetupSettings.IsMrsX = true;
                 }
                 else
                 {
-                    name = FallbackMrXNamesKorion.PickRandom();
+                    name = Loc.Get("player_selection_misterx");//FallbackMrXNamesKorion.PickRandom();
                     GameSetupSettings.IsMrsX = false;
                 }
             }
@@ -334,7 +334,7 @@ public class GameSetupSettings : BaseBehaviour
                 else
                 {
                     //string name = (playerId == 0) ? FallbackMrXNames.PickRandom() : FallbackDetectiveNames.PickRandom(); //KORION: Original Code
-                    string name = (playerId == 0) ? FallbackMrXNamesKorion.PickRandom() : FallbackDetectiveNamesKorion[playerId-1];
+                    string name = (playerId == 0) ? Loc.Get("player_selection_misterx") : FallbackDetectiveNamesKorion[playerId-1];
                     SetPlayerName(playerId, name, true);
                 }
                 break;
@@ -582,12 +582,12 @@ public class GameSetupSettings : BaseBehaviour
             //name = FallbackMrXNames.PickRandom(); // KORION: Original Call
             if (sprite.GetComponent<UISprite>().spriteName.Contains("02"))
             {
-                name = FallbackMrXNamesAltKorion.PickRandom();
+                name = name = Loc.Get("player_selection_msx");//FallbackMrXNamesAltKorion.PickRandom();
                 GameSetupSettings.IsMrsX = true;
             }
             else
             {
-                name = FallbackMrXNamesKorion.PickRandom();
+                name = Loc.Get("player_selection_misterx");
                 GameSetupSettings.IsMrsX = false;
             }
             MrXName.text = name;
