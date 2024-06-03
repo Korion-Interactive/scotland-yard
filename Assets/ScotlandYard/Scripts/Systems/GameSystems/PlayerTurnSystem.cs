@@ -86,6 +86,20 @@ public class PlayerTurnSystem : BaseSystem<GameEvents, PlayerTurnSystem>
                 ingameMenu.GetComponent<Collider>().enabled = true;
             }
         }
+        else
+        {
+            if(player.IsMrX && player.PlayerInfo.Controller == PlayerController.Human)
+            {
+                if (PlayerMouseSpriteExample.Instance != null)
+                {
+                    PlayerMouseSpriteExample.Instance.SetVisibility(true);
+                }
+                if (ingameMenu != null)
+                {
+                    ingameMenu.GetComponent<Collider>().enabled = true;
+                }
+            }
+        }
 
         //MrX mrX = GameState.Instance.MrX;
 
@@ -331,7 +345,7 @@ public class PlayerTurnSystem : BaseSystem<GameEvents, PlayerTurnSystem>
     }
 
     private bool IsMixedHotSeatGame()
-    {       
+    {
         return curPlayer.IsMrX && curPlayer.PlayerInfo.Controller == PlayerController.Human
             && GameState.Instance.DetectivesIterator().FirstOrDefault((o) => o.PlayerInfo.Controller == PlayerController.Human) != null;
     }
