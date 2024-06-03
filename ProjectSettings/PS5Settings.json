@@ -43,7 +43,7 @@
         "buildCompressionType": 0,
         "buildCompressionLevel": 0,
         "keepPackageFiles": false,
-        "buildSubtarget": 2,
+        "buildSubtarget": 1,
         "sdkOverride": "",
         "saveDataImagePath": "Assets/Resources/Platform/PS5/icon0.png",
         "configFileParsed": false,

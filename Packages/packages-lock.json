@@ -185,11 +185,10 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.psn.ps5": {
-      "version": "1.0.1",
+      "version": "file:com.unity.psn.ps5@1.0.1",
       "depth": 0,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://npm.pkg.github.com/@Korion-Interactive"
+      "source": "embedded",
+      "dependencies": {}
     },
     "com.unity.recorder": {
       "version": "4.0.2",
