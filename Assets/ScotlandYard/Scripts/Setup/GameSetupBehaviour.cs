@@ -157,6 +157,8 @@ public class GameSetupBehaviour : MonoBehaviour
 
             var sprite = go.GetComponentInChildren<UISprite>();
             sprite.spriteName = d.Color.GetActorSpriteName();
+
+            Debug.Log("Detective created with id " + id);
         }
 
     }

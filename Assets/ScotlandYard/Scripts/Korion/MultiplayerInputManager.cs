@@ -78,6 +78,11 @@ namespace Korion.ScotlandYard.Input
 
             // Change input player
             ++_currentInputIndex;
+            if (GameState.Instance.CurrentPlayer != null)
+            {
+                Debug.Log("CURRENT PLAYER: " + GameState.Instance.CurrentPlayer.PlayerId + ", Multiplayer Input Index: " + _currentInputIndex);
+                _currentInputIndex = GameState.Instance.CurrentPlayer.PlayerId;
+            }
 
             if (_currentInputIndex >= ReInput.players.playerCount
                 || _currentInputIndex >= GameSetupBehaviour.Instance.HumanPlayers)
