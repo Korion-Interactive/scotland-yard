@@ -7,6 +7,9 @@ public class StatisticsReset : MonoBehaviour {
     [SerializeField]
     public ChangeActionMap changeActionMap;
 
+    [SerializeField]
+    private GameObject _objectToSelectOnDisable;
+
     private GameObject cachedSelectedObject;
     private string cachedHorizontalAxisName;
 
@@ -74,5 +77,12 @@ public class StatisticsReset : MonoBehaviour {
         Stats.Reload();
         
         StatisticsGUI.ReloadAllStatistics();
+    }
+
+    private void OnDisable()
+    {
+        Debug.Log("ONDISABLE: SELECTED OBJECT: " + UICamera.selectedObject.name);
+        UICamera.selectedObject = _objectToSelectOnDisable;
+        _objectToSelectOnDisable.GetComponent<UIButton>().SetState(UIButtonColor.State.Hover,true);
     }
 }
