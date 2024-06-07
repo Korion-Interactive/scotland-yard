@@ -1,5 +1,3 @@
-// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
-
 Shader "Hidden/Unlit/Transparent Packed 1"
 {
 	Properties
@@ -16,6 +14,7 @@ Shader "Hidden/Unlit/Transparent Packed 1"
 			"Queue" = "Transparent"
 			"IgnoreProjector" = "True"
 			"RenderType" = "Transparent"
+			"DisableBatching" = "True"
 		}
 		
 		Pass
@@ -25,7 +24,7 @@ Shader "Hidden/Unlit/Transparent Packed 1"
 			ZWrite Off
 			Offset -1, -1
 			Fog { Mode Off }
-			ColorMask RGB
+			//ColorMask RGB
 			Blend SrcAlpha OneMinusSrcAlpha
 
 			CGPROGRAM
@@ -47,15 +46,16 @@ Shader "Hidden/Unlit/Transparent Packed 1"
 
 			struct v2f
 			{
-				float4 vertex : POSITION;
+				float4 vertex : SV_POSITION;
 				half4 color : COLOR;
 				float2 texcoord : TEXCOORD0;
 				float2 worldPos : TEXCOORD1;
 			};
 
+			v2f o;
+
 			v2f vert (appdata_t v)
 			{
-				v2f o;
 				o.vertex = UnityObjectToClipPos(v.vertex);
 				o.color = v.color;
 				o.texcoord = v.texcoord;
@@ -63,7 +63,7 @@ Shader "Hidden/Unlit/Transparent Packed 1"
 				return o;
 			}
 
-			half4 frag (v2f IN) : COLOR
+			half4 frag (v2f IN) : SV_Target
 			{
 				half4 mask = tex2D(_MainTex, IN.texcoord);
 				half4 mixed = saturate(ceil(IN.color - 0.5));

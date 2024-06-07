@@ -1,5 +1,3 @@
-// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
-
 Shader "Unlit/Transparent Colored"
 {
 	Properties
@@ -9,60 +7,64 @@ Shader "Unlit/Transparent Colored"
 	
 	SubShader
 	{
-		LOD 100
+		LOD 200
 
 		Tags
 		{
 			"Queue" = "Transparent"
 			"IgnoreProjector" = "True"
 			"RenderType" = "Transparent"
+			"DisableBatching" = "True"
 		}
 		
-		Cull Off
-		Lighting Off
-		ZWrite Off
-		Fog { Mode Off }
-		Offset -1, -1
-		Blend SrcAlpha OneMinusSrcAlpha
-
 		Pass
 		{
+			Cull Off
+			Lighting Off
+			ZWrite Off
+			Fog { Mode Off }
+			Offset -1, -1
+			Blend SrcAlpha OneMinusSrcAlpha
+
 			CGPROGRAM
 			#pragma vertex vert
-			#pragma fragment frag
-				
+			#pragma fragment frag			
 			#include "UnityCG.cginc"
+
+			sampler2D _MainTex;
+			float4 _MainTex_ST;
 	
 			struct appdata_t
 			{
 				float4 vertex : POSITION;
 				float2 texcoord : TEXCOORD0;
 				fixed4 color : COLOR;
+				UNITY_VERTEX_INPUT_INSTANCE_ID
 			};
 	
 			struct v2f
 			{
 				float4 vertex : SV_POSITION;
-				float2 texcoord : TEXCOORD0;
+				half2 texcoord : TEXCOORD0;
 				fixed4 color : COLOR;
+				UNITY_VERTEX_OUTPUT_STEREO
 			};
 	
-			sampler2D _MainTex;
-			float4 _MainTex_ST;
-				
+			v2f o;
+
 			v2f vert (appdata_t v)
 			{
-				v2f o;
+				UNITY_SETUP_INSTANCE_ID(v);
+				UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO(o);
 				o.vertex = UnityObjectToClipPos(v.vertex);
 				o.texcoord = v.texcoord;
 				o.color = v.color;
 				return o;
 			}
 				
-			fixed4 frag (v2f i) : COLOR
+			fixed4 frag (v2f IN) : SV_Target
 			{
-				fixed4 col = tex2D(_MainTex, i.texcoord) * i.color;
-				return col;
+				return tex2D(_MainTex, IN.texcoord) * IN.color;
 			}
 			ENDCG
 		}
@@ -77,6 +79,7 @@ Shader "Unlit/Transparent Colored"
 			"Queue" = "Transparent"
 			"IgnoreProjector" = "True"
 			"RenderType" = "Transparent"
+			"DisableBatching" = "True"
 		}
 		
 		Pass
@@ -86,8 +89,7 @@ Shader "Unlit/Transparent Colored"
 			ZWrite Off
 			Fog { Mode Off }
 			Offset -1, -1
-			ColorMask RGB
-			AlphaTest Greater .01
+			//ColorMask RGB
 			Blend SrcAlpha OneMinusSrcAlpha
 			ColorMaterial AmbientAndDiffuse
 			

@@ -255,6 +255,11 @@ public class SubCameraControl : SubSystem<GameBoardAnimationSystem>
 
     private void OnRightStickY(InputActionEventData data)
     {
+        if (GameSetupSettings.MoveHistoryOpen)
+        {
+            _rightJoystickInput.y = 0;
+            return;
+        }
         if (data.GetAxis() != 0)
         {
             _rightJoystickInput.y = -data.GetAxis();
@@ -267,6 +272,11 @@ public class SubCameraControl : SubSystem<GameBoardAnimationSystem>
 
     private void OnRightStickX(InputActionEventData data)
     {
+        if (GameSetupSettings.MoveHistoryOpen)
+        {
+            _rightJoystickInput.x = 0;
+            return;
+        }
         if (data.GetAxis() != 0)
         {
             _rightJoystickInput.x = -data.GetAxis();

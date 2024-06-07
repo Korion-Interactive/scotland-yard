@@ -342,7 +342,8 @@ public class UIScrollView : MonoBehaviour
 		foreach (Player p in MultiplayerInputManager.Instance.AllPlayers)
 		{
 			p.AddInputEventDelegate(OnRightStickY, UpdateLoopType.Update, "UIScrollVertical");
-		}
+            p.AddInputEventDelegate(OnRightStickY, UpdateLoopType.Update, "CameraY");
+        }
 	}
 
 	void OnDisable () 

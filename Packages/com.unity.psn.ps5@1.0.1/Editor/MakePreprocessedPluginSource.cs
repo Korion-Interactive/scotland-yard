@@ -5,7 +5,7 @@ using UnityEditor.Build.Reporting;
 using System.Diagnostics;
 using System;
 using System.IO;
-
+using System.Linq;
 
 public class MakePreprocessedPluginSource : IPreprocessBuildWithReport
 {
@@ -68,11 +68,13 @@ public class MakePreprocessedPluginSource : IPreprocessBuildWithReport
             Process process;
             System.Console.WriteLine($"SDKVersion():0x{SDKVersion():x}");
 
-
             string packagename="com.unity.psn.ps5";
-            string sourcepath = $"Packages/{packagename}/Source~";  // this will correctly handle packages wherever they are located.
 
+            UnityEditor.PackageManager.PackageInfo packageInfo = UnityEditor.PackageManager.PackageInfo.GetAllRegisteredPackages().FirstOrDefault(x => x.name == packagename);
 
+            //string sourcepath = $"Packages/{packagename}/Source~";  // this will correctly handle packages wherever they are located.
+            string sourcepath = $"{packageInfo.resolvedPath}/Source~";
+            System.Console.WriteLine($"Source Path: {sourcepath}");
             string filepath = $"{sourcepath}/psn_lump.cpp";
             string fullpath = Path.GetFullPath(filepath);
 

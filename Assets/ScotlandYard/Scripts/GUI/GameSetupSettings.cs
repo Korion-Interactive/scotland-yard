@@ -25,6 +25,8 @@ public class GameSetupSettings : BaseBehaviour
 
     public static bool IsMrsX = false;
 
+    public static bool MoveHistoryOpen = false;
+
     protected override void Awake()
     {
         base.Awake();
