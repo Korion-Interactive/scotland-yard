@@ -4,8 +4,8 @@ public static class Stats
 {
 
     public static bool CompletedTutorial1 { get => Get("tut1", false); set { bool before = CompletedTutorial1; Set("tut1", value); TutorialAchivementCheck(before, value); } }
-    public static bool CompletedTutorial2 { get => Get("tut1", false); set { bool before = CompletedTutorial2; Set("tut2", value); TutorialAchivementCheck(before, value); } }
-    public static bool CompletedTutorial3 { get => Get("tut1", false); set { bool before = CompletedTutorial3; Set("tut3", value); TutorialAchivementCheck(before, value); } }
+    public static bool CompletedTutorial2 { get => Get("tut2", false); set { bool before = CompletedTutorial2; Set("tut2", value); TutorialAchivementCheck(before, value); } }
+    public static bool CompletedTutorial3 { get => Get("tut3", false); set { bool before = CompletedTutorial3; Set("tut3", value); TutorialAchivementCheck(before, value); } }
 
     public static int TotalGamesPlayed => GamesPlayedAsMrX + GamesPlayedAsDetective;
 
