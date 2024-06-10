@@ -300,10 +300,7 @@ public class PlayerTurnSystem : BaseSystem<GameEvents, PlayerTurnSystem>
         if(IsMixedHotSeatGame())
         {
             PauseAndBlur(true);
-            if (PlayerMouseSpriteExample.Instance != null)
-            {
-                PlayerMouseSpriteExample.Instance.SetVisibility(false);
-            }
+            
             GameObject ingameMenu = GameObject.Find("OptionsOnBtn");
 
             if(ingameMenu != null)
@@ -311,9 +308,17 @@ public class PlayerTurnSystem : BaseSystem<GameEvents, PlayerTurnSystem>
                 ingameMenu.GetComponent<Collider>().enabled = false;
             }
 
+            Debug.Log("Current Player: " + MultiplayerInputManager.Instance.CurrentPlayer.id);
+            nextPlayer();
+
+            if (PlayerMouseSpriteExample.Instance != null)
+            {
+                PlayerMouseSpriteExample.Instance.SetVisibility(false);
+            }
+
             PopupManager.ShowQuestion("pass_device", "MrX_turn", (o) => 
             { 
-                PauseAndBlur(false); nextPlayer(); SetIngameSelectionActive(true); PopupManager.Instance.CachedButton = null;
+                PauseAndBlur(false);  SetIngameSelectionActive(true); PopupManager.Instance.CachedButton = null;
                 if (PlayerMouseSpriteExample.Instance != null)
                 {
                     PlayerMouseSpriteExample.Instance.SetVisibility(true);
@@ -321,6 +326,7 @@ public class PlayerTurnSystem : BaseSystem<GameEvents, PlayerTurnSystem>
                 if (ingameMenu != null)
                 {
                     ingameMenu.GetComponent<Collider>().enabled = true;
+
                 }
 
             }, null); //KORION POP UP

@@ -188,7 +188,7 @@ public class ChangeActionMap : MonoBehaviour
     {
         Player player = ReInput.players.GetPlayer(_playerIndex);
 
-#if UNITY_SWITCH
+#if UNITY_SWITCH && !UNITY_EDITOR
         Debug.Log("GetCurrentActionMap: Joystick Count: " + player.controllers.joystickCount + ", Player ID: " + player.id);
         SwitchGamepadExtension ext = player.controllers.Joysticks[0].GetExtension<SwitchGamepadExtension>();
         if(ext != null)

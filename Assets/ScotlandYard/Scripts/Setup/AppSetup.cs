@@ -313,11 +313,19 @@ public class AppSetup : MonoBehaviour
 
     public void SaveGame()
     {
+        if(GameStarter.SaveGameSetup)
+        {
+            Debug.Log("KORION: Start Saving Game Setup");
+            string gameSetup = JsonConvert.SerializeObject(GameSetupBehaviour.Instance.Setup);
+            SaveData(ref gameSetup, Globals.LastGameSetupPath);
+            GameStarter.SaveGameSetup = false;
+        }
+
         if (_saveCounter % 3 == 0)
         {
             Debug.Log("KORION: Start Saving game");
-            string gameSetup = JsonConvert.SerializeObject(GameSetupBehaviour.Instance.Setup);
-            SaveData(ref gameSetup, Globals.LastGameSetupPath);
+            //string gameSetup = JsonConvert.SerializeObject(GameSetupBehaviour.Instance.Setup);
+            //SaveData(ref gameSetup, Globals.LastGameSetupPath);
 
             string gameState = JsonConvert.SerializeObject(GameState.Instance);
             SaveData(ref gameState, Globals.LastGameStatePath);
