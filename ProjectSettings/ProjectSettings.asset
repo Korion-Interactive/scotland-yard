@@ -878,7 +878,7 @@ PlayerSettings:
   ps4MasterVersion: 01.00
   ps4AppVersion: 01.00
   ps4AppType: 0
-  ps4ParamSfxPath: PlatformData/Playstation/PS4/param_us.sfx
+  ps4ParamSfxPath: PlatformData/Playstation/PS4/param_eu.sfx
   ps4VideoOutPixelFormat: 0
   ps4VideoOutInitialWidth: 1920
   ps4VideoOutBaseModeInitialWidth: 1920
@@ -896,7 +896,7 @@ PlayerSettings:
   ps4ShareOverlayImagePath: 
   ps4PrivacyGuardImagePath: 
   ps4ExtraSceSysFile: 
-  ps4NPtitleDatPath: PlatformData/Playstation/PS4/CUSA48072_00_US/nptitle.dat
+  ps4NPtitleDatPath: PlatformData/Playstation/PS4/CUSA48071_00_EU/nptitle.dat
   ps4RemotePlayKeyAssignment: -1
   ps4RemotePlayKeyMappingDir: 
   ps4PlayTogetherPlayerCount: 0
