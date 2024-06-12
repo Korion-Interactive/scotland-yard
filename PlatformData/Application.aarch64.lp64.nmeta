@@ -47,31 +47,31 @@
     </Title>
     <Icon>
       <Language>AmericanEnglish</Language>
-      <IconPath>J:\Geteilte Ablagen\Scotland Yard\PlatformGraphics\Switch\GraphicsSwitchScotlandYard\ScotlandYard_AppIcon_1024x1024_v3_EN.bmp</IconPath>
+      <IconPath>Switch\ScotlandYard_AppIcon_1024x1024_v3_EN.bmp</IconPath>
     </Icon>
     <Icon>
       <Language>CanadianFrench</Language>
-      <IconPath>J:\Geteilte Ablagen\Scotland Yard\PlatformGraphics\Switch\GraphicsSwitchScotlandYard\ScotlandYard_AppIcon_1024x1024_v3_FR.bmp</IconPath>
+      <IconPath>Switch\ScotlandYard_AppIcon_1024x1024_v3_FR.bmp</IconPath>
     </Icon>
     <Icon>
       <Language>LatinAmericanSpanish</Language>
-      <IconPath>J:\Geteilte Ablagen\Scotland Yard\PlatformGraphics\Switch\GraphicsSwitchScotlandYard\ScotlandYard_AppIcon_1024x1024_v3_ES.bmp</IconPath>
+      <IconPath>Switch\ScotlandYard_AppIcon_1024x1024_v3_ES.bmp</IconPath>
     </Icon>
     <Icon>
       <Language>German</Language>
-      <IconPath>J:\Geteilte Ablagen\Scotland Yard\PlatformGraphics\Switch\GraphicsSwitchScotlandYard\ScotlandYard_AppIcon_1024x1024_v3_DE.bmp</IconPath>
+      <IconPath>Switch\ScotlandYard_AppIcon_1024x1024_v3_DE.bmp</IconPath>
     </Icon>
     <Icon>
       <Language>Italian</Language>
-      <IconPath>J:\Geteilte Ablagen\Scotland Yard\PlatformGraphics\Switch\GraphicsSwitchScotlandYard\ScotlandYard_AppIcon_1024x1024_v3_IT.bmp</IconPath>
+      <IconPath>Switch\ScotlandYard_AppIcon_1024x1024_v3_IT.bmp</IconPath>
     </Icon>
     <Icon>
       <Language>French</Language>
-      <IconPath>J:\Geteilte Ablagen\Scotland Yard\PlatformGraphics\Switch\GraphicsSwitchScotlandYard\ScotlandYard_AppIcon_1024x1024_v3_FR.bmp</IconPath>
+      <IconPath>Switch\ScotlandYard_AppIcon_1024x1024_v3_FR.bmp</IconPath>
     </Icon>
     <Icon>
       <Language>Spanish</Language>
-      <IconPath>J:\Geteilte Ablagen\Scotland Yard\PlatformGraphics\Switch\GraphicsSwitchScotlandYard\ScotlandYard_AppIcon_1024x1024_v3_ES.bmp</IconPath>
+      <IconPath>Switch\ScotlandYard_AppIcon_1024x1024_v3_ES.bmp</IconPath>
     </Icon>
     <ReleaseVersion>0</ReleaseVersion>
     <DisplayVersion>1.0.0</DisplayVersion>

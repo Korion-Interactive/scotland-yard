@@ -10,6 +10,8 @@ using Korion.ScotlandYard.Input;
 [AddComponentMenu("Scripts/GameStarter")]
 public class GameStarter : MonoBehaviour
 {
+    public static bool SaveGameSetup = false;
+
     [SerializeField]
     private UnityEvent _onGameLoadedNotFromFile;
     IEnumerator Start()
@@ -40,6 +42,8 @@ public class GameStarter : MonoBehaviour
             if(!(GameSetupBehaviour.Instance.Setup.MrXSetup.Controller == PlayerController.Human))
                 _onGameLoadedNotFromFile?.Invoke();
         }
+
+        SaveGameSetup = true;
     }
 
     void OnDestroy()
