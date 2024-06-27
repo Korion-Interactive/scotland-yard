@@ -27,7 +27,7 @@ public class LanguageButton : MonoBehaviour
 
 
 
-#if UNITY_SWITCH
+#if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5
         WriteDataAsync("language", idx.ToString()).Forget();
 #else
         PlayerPrefs.SetInt("Language", idx);
@@ -54,7 +54,7 @@ public class LanguageButton : MonoBehaviour
         SetTicker(lang);
     }
 
-#if UNITY_SWITCH
+#if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5
     public UniTask WriteDataAsync<T>(string id, T data, CancellationToken cancellationToken = default)
     {
         //Debug.Log("KORION: Start Writing Data");

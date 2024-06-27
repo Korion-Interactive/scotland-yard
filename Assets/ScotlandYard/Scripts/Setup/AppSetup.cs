@@ -149,7 +149,7 @@ public class AppSetup : MonoBehaviour
         TextAsset locaTxt = Resources.Load("Loca") as TextAsset;
         LocaTable = new Table(locaTxt.text, "Loca", new CSVSetting(true, true) { ColumnSeparator = '\t', });
 
-#if UNITY_SWITCH
+#if UNITY_SWITCH || UNITY_PS4 || UNITY_PS5
         string langData = await ReadDataAsync<string>("language");
         SystemLanguage lang;
         int langResult = -1;

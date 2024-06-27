@@ -11,6 +11,9 @@ public class InitializePSN : MonoBehaviour
     [SerializeField]
     private GameObject _achievementInitializer;
 
+    [SerializeField]
+    private AchievementDefinitionCollection _achievementDefinitionCollection;
+
     // Start is called before the first frame update
     private async UniTaskVoid Start()
     {
@@ -42,6 +45,7 @@ public class InitializePSN : MonoBehaviour
             }
 #endif
         //Korion todo Test Achievements
-        Instantiate(_achievementInitializer, transform.parent);
+        //Instantiate(_achievementInitializer, transform.parent);
+        await AchievementFacade.InitializeAsync(_achievementDefinitionCollection);
     }
 }
